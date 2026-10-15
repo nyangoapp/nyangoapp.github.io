@@ -1,0 +1,874 @@
+{
+ "id": "c25",
+ "clase": 25,
+ "desde": 500,
+ "titulo": {
+  "es": "La última tarta: 〜そう, 〜らしい y みたい",
+  "en": "The last cake: 〜そう, 〜らしい and みたい"
+ },
+ "resumen": {
+  "es": "そう = por lo que VES ahora mismo (apariencia). らしい = por lo que has OÍDO (rumor, de fuera). みたい y よう son parecidas a そう, pero también sirven para comparar con un sustantivo.",
+  "en": "そう = based on what you SEE right now (appearance). らしい = based on what you HEARD (a rumor, from someone else). みたい and よう are similar to そう, but also compare things to a noun."
+ },
+ "formato": 2,
+ "lugar": "tienda",
+ "mision": {
+  "texto": {
+   "es": "Nochebuena. En Japón, la Navidad se celebra con tarta de fresas y nata… y en la tienda de Pon solo queda una. Di lo que PARECE por lo que ves, lo que DICEN por ahí… y descubre quién más la quiere.",
+   "en": "Christmas Eve. In Japan, Christmas is celebrated with strawberry-and-cream cake… and Pon's shop has only one left. Say what things LOOK like, what people SAY… and find out who else wants it."
+  },
+  "escena": {
+   "fondo": "tienda",
+   "cosas": [
+    {
+     "que": "nyan",
+     "x": 75
+    },
+    {
+     "que": "keki",
+     "x": 215,
+     "id": "keki",
+     "s": 1.2
+    },
+    {
+     "que": "persona",
+     "id": "tendero",
+     "x": 330
+    }
+   ]
+  },
+  "cara": "feliz",
+  "jp": "ケーキ！",
+  "voz": "m0"
+ },
+ "reglas": [
+  {
+   "id": "sou",
+   "nombre": {
+    "es": "〜そう: tiene pinta de…",
+    "en": "〜そう: looks…"
+   },
+   "patron": {
+    "es": "〔raíz del verbo／adjetivo sin い〕そう",
+    "en": "〔verb stem／adjective without い〕そう"
+   },
+   "explica": {
+    "es": "そう pegado a la raíz dice lo que PARECE por lo que ves ahora mismo: おいしそう, «tiene buena pinta»; 甘そう, «parece dulce»; 雪が降りそう, «parece que va a nevar». Los adjetivos en い pierden la い; los verbos van en raíz (降り). Dos casos especiales: いい → よさそう y ない → なさそう.",
+    "en": "そう attached to the stem says what something LOOKS like from what you see right now: おいしそう, «looks delicious»; 甘そう, «looks sweet»; 雪が降りそう, «looks like it'll snow». い adjectives drop the い; verbs take the stem (降り). Two special cases: いい → よさそう and ない → なさそう."
+   },
+   "ejemplos": [
+    {
+     "jp": "おいしそう！",
+     "es": "¡Qué buena pinta!",
+     "en": "Looks delicious!",
+     "voz": "r1-1"
+    },
+    {
+     "jp": "甘[あま]そうですね。",
+     "es": "Parece dulce, ¿eh?",
+     "en": "Looks sweet, doesn't it?",
+     "voz": "r1-2"
+    }
+   ],
+   "ojo": {
+    "es": "Cuidado con la い: 甘そう es «parece dulce» (lo ves), pero 甘いそうです, con la い, es «dicen que es dulce» (te lo han contado). Una letra cambia de dónde sale la información.",
+    "en": "Watch the い: 甘そう is «looks sweet» (you see it), but 甘いそうです, with the い, is «they say it's sweet» (you were told). One letter changes where the info comes from."
+   }
+  },
+  {
+   "id": "rashii",
+   "nombre": {
+    "es": "〜らしい y 〜そうだ: por lo visto, dicen que…",
+    "en": "〜らしい and 〜そうだ: apparently, they say…"
+   },
+   "patron": {
+    "es": "〔forma corta〕らしい ・ 〔forma corta〕そうです",
+    "en": "〔short form〕らしい ・ 〔short form〕そうです"
+   },
+   "explica": {
+    "es": "Cuando la información te llega de fuera (alguien te lo ha contado, lo has leído), el japonés lo marca: 欲しいらしい, «por lo visto la quiere»; 欲しいそうです, «dicen que la quiere». そうです, con la forma corta completa, repite lo que has oído tal cual. らしい añade «por lo que parece», un poco menos seguro. Así queda claro que no lo has visto tú.",
+    "en": "When information comes from outside (someone told you, you read it), Japanese marks it: 欲しいらしい, «apparently he wants it»; 欲しいそうです, «they say he wants it». そうです, with the full short form, repeats what you heard as is. らしい adds «it seems», a bit less certain. That way it's clear you didn't see it yourself."
+   },
+   "ejemplos": [
+    {
+     "jp": "カゲも 欲[ほ]しいらしいですよ。",
+     "es": "Por lo visto, Kage también la quiere.",
+     "en": "Apparently Kage wants it too.",
+     "voz": "r2-1"
+    },
+    {
+     "jp": "明日[あした]は 雪[ゆき]が 降[ふ]るそうです。",
+     "es": "Dicen que mañana nevará.",
+     "en": "They say it'll snow tomorrow.",
+     "voz": "r2-2"
+    }
+   ],
+   "ojo": {
+    "es": "らしい también significa «típico de»: 子どもらしい, «muy de niño». El contexto dice cuál es.",
+    "en": "らしい also means «typical of»: 子どもらしい, «very childlike». Context tells you which."
+   }
+  },
+  {
+   "id": "mitai",
+   "nombre": {
+    "es": "〜みたい: parece…, es como…",
+    "en": "〜みたい: seems…, like…"
+   },
+   "patron": {
+    "es": "〔nombre／forma corta〕みたい",
+    "en": "〔noun／short form〕みたい"
+   },
+   "explica": {
+    "es": "みたい sirve para dos cosas: comparar (カゲ、子どもみたい, «pareces un niño») y dar tu impresión, basada en lo que has visto u oído (カゲも欲しいみたい, «parece que Kage también la quiere»). Es de la lengua hablada; la versión escrita o más formal es ようだ (子どものようだ).",
+    "en": "みたい does two jobs: comparing (カゲ、子どもみたい, «you're like a kid») and giving your impression, based on what you saw or heard (カゲも欲しいみたい, «looks like Kage wants it too»). It's spoken style; the written or more formal version is ようだ (子どものようだ)."
+   },
+   "ejemplos": [
+    {
+     "jp": "カゲ、 子[こ]どもみたいです。",
+     "es": "Kage, pareces un niño pequeño.",
+     "en": "Kage, you're like a little kid.",
+     "voz": "r3-1"
+    },
+    {
+     "jp": "雪[ゆき]みたいに 白[しろ]い。",
+     "es": "Blanco como la nieve.",
+     "en": "White as snow.",
+     "voz": "r3-2"
+    }
+   ],
+   "ojo": {
+    "es": "Detrás de un nombre va directa, sin だ ni の: 子どもみたい. Es un error típico ponerle の, como si fuera un nombre más.",
+    "en": "After a noun it goes straight on, no だ or の: 子どもみたい. Adding の, as if it were another noun, is a classic slip."
+   }
+  }
+ ],
+ "historia": [
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "わあ、 おいしそう！",
+   "tr": {
+    "es": "¡Hala, qué buena pinta!",
+    "en": "Wow, that looks delicious!"
+   },
+   "voz": "h1",
+   "cara": "feliz",
+   "brazo": "arriba",
+   "escena": {
+    "fondo": "tienda",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 75
+     },
+     {
+      "que": "keki",
+      "x": 215,
+      "id": "keki",
+      "s": 1.2
+     },
+     {
+      "que": "persona",
+      "id": "tendero",
+      "x": 330
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "sou"
+  },
+  {
+   "t": "dice",
+   "habla": "tendero",
+   "jp": "クリスマスケーキです。 最後[さいご]の 一[ひと]つですよ。",
+   "tr": {
+    "es": "Es tarta de Navidad. La última que queda.",
+    "en": "It's Christmas cake. The last one."
+   },
+   "voz": "h2",
+   "cara": "feliz"
+  },
+  {
+   "t": "elige",
+   "habla": "tama",
+   "pide": {
+    "es": "Tama se fija en la nata y las fresas. ¿Qué dice?",
+    "en": "Tama looks at the cream and strawberries. What does she say?"
+   },
+   "opciones": [
+    {
+     "jp": "甘[あま]そうですね。",
+     "bien": true,
+     "tr": {
+      "es": "Parece dulce, ¿eh?",
+      "en": "Looks sweet, doesn't it?"
+     },
+     "voz": "h3",
+     "porque": {
+      "es": "Por lo que VES: adjetivo sin la い + そう: 甘そう.",
+      "en": "From what you SEE: adjective without い + そう: 甘そう."
+     }
+    },
+    {
+     "jp": "甘[あま]いそうですね。",
+     "bien": false,
+     "porque": {
+      "es": "Con la い, 甘いそうです significa «dicen que es dulce»: un rumor. Por lo que ves, quita la い: 甘そう.",
+      "en": "With the い, 甘いそうです means «they say it's sweet»: hearsay. For what you see, drop the い: 甘そう."
+     }
+    },
+    {
+     "jp": "甘[あま]くそうですね。",
+     "bien": false,
+     "porque": {
+      "es": "そう se pega a la raíz del adjetivo, sin la い y sin く: 甘そう.",
+      "en": "そう attaches to the adjective's stem, without い or く: 甘そう."
+     }
+    }
+   ],
+   "cara": "feliz",
+   "escena": {
+    "fondo": "tienda",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 65
+     },
+     {
+      "que": "keki",
+      "x": 215,
+      "id": "keki",
+      "s": 1.2
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 160
+     },
+     {
+      "que": "persona",
+      "id": "tendero",
+      "x": 335
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "tendero",
+   "jp": "カゲさんも この ケーキが 欲[ほ]しいらしいですよ。",
+   "tr": {
+    "es": "Por lo visto, Kage también quiere esta tarta.",
+    "en": "Apparently Kage wants this cake too."
+   },
+   "voz": "h4",
+   "reacciona": {
+    "nyan": "sorpresa"
+   },
+   "escena": {
+    "fondo": "tienda",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 75
+     },
+     {
+      "que": "keki",
+      "x": 215,
+      "id": "keki",
+      "s": 1.2
+     },
+     {
+      "que": "persona",
+      "id": "tendero",
+      "x": 330
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "rashii"
+  },
+  {
+   "t": "monta",
+   "encargo": 0
+  },
+  {
+   "t": "dice",
+   "habla": "kage",
+   "jp": "…あの ケーキ、 おいしそうだな。",
+   "tr": {
+    "es": "…Esa tarta tiene buena pinta.",
+    "en": "…That cake looks good."
+   },
+   "voz": "h5",
+   "cara": "aburrido",
+   "reacciona": {
+    "nyan": "sorpresa"
+   },
+   "escena": {
+    "fondo": "tienda",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 65
+     },
+     {
+      "que": "keki",
+      "x": 200,
+      "id": "keki",
+      "s": 1.2
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 260
+     },
+     {
+      "que": "persona",
+      "id": "tendero",
+      "x": 345
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "mitai"
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "Kage mira la tarta con ojos de niño pequeño. Díselo:",
+    "en": "Kage stares at the cake like a little kid. Tell him:"
+   },
+   "opciones": [
+    {
+     "jp": "カゲ、 子[こ]どもみたいです。",
+     "bien": true,
+     "tr": {
+      "es": "Kage, pareces un niño pequeño.",
+      "en": "Kage, you're like a little kid."
+     },
+     "voz": "h6",
+     "porque": {
+      "es": "Nombre + みたい: «es como…, parece…», comparando con algo.",
+      "en": "Noun + みたい: «like…, seems like…», comparing with something."
+     }
+    },
+    {
+     "jp": "カゲ、 子[こ]どもそうです。",
+     "bien": false,
+     "porque": {
+      "es": "そう (aspecto) no va con nombres: 子どもそう no existe. Para parecerse a algo, みたい.",
+      "en": "そう (appearance) doesn't go with nouns: 子どもそう doesn't exist. To resemble something, みたい."
+     }
+    },
+    {
+     "jp": "カゲ、 子[こ]どもの みたいです。",
+     "bien": false,
+     "porque": {
+      "es": "みたい va directo detrás del nombre, sin の: 子どもみたい.",
+      "en": "みたい goes straight after the noun, no の: 子どもみたい."
+     }
+    }
+   ],
+   "cara": "feliz",
+   "escena": {
+    "fondo": "tienda",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 65
+     },
+     {
+      "que": "keki",
+      "x": 200,
+      "id": "keki",
+      "s": 1.2
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 260
+     },
+     {
+      "que": "persona",
+      "id": "tendero",
+      "x": 345
+     }
+    ]
+   }
+  },
+  {
+   "t": "toca",
+   "pide": {
+    "es": "Pon os recomienda algo más para compartir. Escucha y tócalo.",
+    "en": "Pon recommends something else to share. Listen and tap it."
+   },
+   "bien": "mikan",
+   "quien": "tendero",
+   "escena": {
+    "fondo": "tienda",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 65
+     },
+     {
+      "que": "keki",
+      "x": 160,
+      "id": "keki",
+      "s": 1.0
+     },
+     {
+      "que": "mikan",
+      "x": 215,
+      "id": "mikan",
+      "s": 1.0
+     },
+     {
+      "que": "senbei",
+      "x": 268,
+      "id": "senbei",
+      "s": 1.0
+     },
+     {
+      "que": "persona",
+      "id": "tendero",
+      "x": 345
+     }
+    ]
+   },
+   "jp": "この みかんも 甘[あま]くて おいしいですよ。",
+   "voz": "h7",
+   "bien_msg": {
+    "es": "¡Eso! Las みかん, las mandarinas de invierno: dulces y para compartir.",
+    "en": "Right! The みかん, winter mandarins: sweet and made for sharing."
+   },
+   "mal_msg": {
+    "es": "Ha dicho みかん: las mandarinas.",
+    "en": "He said みかん: the mandarins."
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "みんなで 分[わ]けよう！",
+   "tr": {
+    "es": "¡Compartámosla entre todos!",
+    "en": "Let's all share it!"
+   },
+   "voz": "h8",
+   "cara": "feliz",
+   "brazo": "arriba",
+   "reacciona": {
+    "tama": "feliz"
+   },
+   "escena": {
+    "fondo": "tienda",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "keki",
+      "x": 200,
+      "id": "keki",
+      "s": 1.2
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 260
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 345
+     }
+    ]
+   }
+  }
+ ],
+ "epilogo": [
+  {
+   "t": "dice",
+   "habla": "kage",
+   "jp": "…ふん。 おいしい。",
+   "tr": {
+    "es": "…Hmpf. Está rica.",
+    "en": "…Hmph. It's good."
+   },
+   "voz": "x1",
+   "cara": "presumido",
+   "escena": {
+    "fondo": "tienda",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "keki",
+      "x": 200,
+      "id": "keki",
+      "s": 1.2
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 260
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 345
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "メリークリスマス！",
+   "tr": {
+    "es": "¡Feliz Navidad!",
+    "en": "Merry Christmas!"
+   },
+   "voz": "x2",
+   "cara": "feliz"
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta la frase: la escena hará lo que digas.",
+   "en": "Build the sentence: the scene will do what you say."
+  },
+  "piezas": [
+   {
+    "id": "kage",
+    "jp": "カゲ",
+    "tipo": "palabra"
+   },
+   {
+    "id": "mo",
+    "jp": "も",
+    "tipo": "particula"
+   },
+   {
+    "id": "hoshii",
+    "jp": "欲[ほ]しい",
+    "tipo": "palabra"
+   },
+   {
+    "id": "hoshisou",
+    "jp": "欲[ほ]しそう",
+    "tipo": "palabra"
+   },
+   {
+    "id": "rashii",
+    "jp": "らしい",
+    "tipo": "verbo"
+   },
+   {
+    "id": "desu",
+    "jp": "です",
+    "tipo": "verbo"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Nyan se lo cuenta a Tama tal como se lo han contado: «Dicen que Kage también la quiere»",
+     "en": "Nyan passes it on to Tama as he heard it: «They say Kage wants it too»"
+    },
+    "escena": {
+     "fondo": "tienda",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 65
+      },
+      {
+       "que": "keki",
+       "x": 215,
+       "id": "keki",
+       "s": 1.2
+      },
+      {
+       "que": "gato",
+       "id": "tama",
+       "x": 160
+      },
+      {
+       "que": "persona",
+       "id": "tendero",
+       "x": 335
+      }
+     ]
+    },
+    "piezas": [
+     "kage",
+     "mo",
+     "hoshii",
+     "hoshisou",
+     "rashii",
+     "desu"
+    ],
+    "bien": [
+     [
+      "kage",
+      "mo",
+      "hoshii",
+      "rashii"
+     ]
+    ],
+    "tr": {
+     "es": "Dicen que Kage también la quiere.",
+     "en": "They say Kage wants it too."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "manpu",
+      "objeto": "tama",
+      "manpu": "excl"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "pensando"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "hoshisou"
+       ]
+      },
+      "efecto": {
+       "tipo": "manpu",
+       "objeto": "tama",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "欲しそう es «tiene pinta de quererla», por lo que VES. Pero tú no has visto a Kage: te lo ha dicho Pon. Rumor: 欲しいらしい.",
+       "en": "欲しそう is «he looks like he wants it», from what you SEE. But you haven't seen Kage: Pon told you. Hearsay: 欲しいらしい."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "desu"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "欲しいです lo afirma como si lo supieras de primera mano. Te lo ha contado Pon: marca que es de oídas con らしい.",
+       "en": "欲しいです states it as if you knew first-hand. Pon told you: mark it as hearsay with らしい."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "reto": {
+  "intro": {
+   "jp": "ふん。 ケーキを 賭[か]けて 勝負[しょうぶ]だ。 負[ま]けそうな 顔[かお]を して いるぞ。",
+   "tr": {
+    "es": "Hmpf. Un duelo por la tarta. Tienes cara de ir a perder.",
+    "en": "Hmph. A duel for the cake. You look like you're about to lose."
+   },
+   "voz": "k0"
+  },
+  "gana": {
+   "jp": "…くっ。 強[つよ]そうには 見[み]えないのに。",
+   "tr": {
+    "es": "…Tsk. Y eso que no pareces fuerte.",
+    "en": "…Tch. And you don't even look strong."
+   },
+   "voz": "kw"
+  },
+  "pierde": {
+   "jp": "ふん。 やっぱり 俺[おれ]の ケーキらしいな。",
+   "tr": {
+    "es": "Hmpf. Parece que la tarta es mía.",
+    "en": "Hmph. Looks like the cake's mine."
+   },
+   "voz": "kl"
+  },
+  "pica": {
+   "jp": "…やるな。",
+   "tr": {
+    "es": "…No está mal.",
+    "en": "…Not bad."
+   },
+   "voz": "kp"
+  },
+  "burla": {
+   "jp": "ふん！",
+   "tr": {
+    "es": "¡Ja!",
+    "en": "Hah!"
+   },
+   "voz": "kb"
+  },
+  "preguntas": [
+   {
+    "tipo": "elige",
+    "jp": "この ラーメンは おいし＿ですね。",
+    "opciones": [
+     "そう",
+     "らしい",
+     "みたい"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Este ramen tiene buena pinta.",
+     "en": "This ramen looks good."
+    },
+    "porque": {
+     "es": "Por lo que ves: おいし + そう.",
+     "en": "From what you see: おいし + そう."
+    },
+    "voz": "q1"
+   },
+   {
+    "tipo": "elige",
+    "jp": "天気予報[てんきよほう]に よると、 明日[あした]は 雪[ゆき]が 降[ふ]る＿です。",
+    "opciones": [
+     "そう",
+     "みたく",
+     "らしく"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Según el parte, mañana nevará.",
+     "en": "According to the forecast, it'll snow tomorrow."
+    },
+    "porque": {
+     "es": "Lo dice el parte (información de fuera): forma corta + そうです.",
+     "en": "The forecast says so (outside info): short form + そうです."
+    },
+    "voz": "q2"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "あの ケーキ、 甘[あま]そうですね。",
+    "correcta": true,
+    "tr": {
+     "es": "Esa tarta parece dulce.",
+     "en": "That cake looks sweet."
+    },
+    "porque": {
+     "es": "Bien: 甘い sin la い + そう.",
+     "en": "Right: 甘い without い + そう."
+    },
+    "voz": "q3"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "カゲは 子[こ]どもそうです。",
+    "correcta": false,
+    "tr": {
+     "es": "(Kage parece un niño.)",
+     "en": "(Kage seems like a kid.)"
+    },
+    "porque": {
+     "es": "そう no va con nombres; para comparar, みたい: 子どもみたい.",
+     "en": "そう doesn't go with nouns; to compare, みたい: 子どもみたい."
+    },
+    "voz": "q4"
+   },
+   {
+    "tipo": "oye",
+    "jp": "カゲも ケーキが 欲[ほ]しいらしいです。",
+    "habla": "tendero",
+    "opciones": [
+     {
+      "es": "Por lo visto, Kage también quiere tarta.",
+      "en": "Apparently Kage wants cake too."
+     },
+     {
+      "es": "Kage tiene cara de querer tarta.",
+      "en": "Kage looks like he wants cake."
+     },
+     {
+      "es": "Kage no quiere tarta.",
+      "en": "Kage doesn't want cake."
+     }
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "らしい: lo sabes porque te lo han contado.",
+     "en": "らしい: you know it because you were told."
+    },
+    "voz": "q5"
+   },
+   {
+    "tipo": "imagen",
+    "jp": "おいしそうな ケーキですね。",
+    "opciones": [
+     "keki",
+     "soba",
+     "kagamimochi"
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "ケーキ: la tarta de Navidad.",
+     "en": "ケーキ: the Christmas cake."
+    },
+    "pide": {
+     "es": "¿Qué tiene buena pinta?",
+     "en": "What looks delicious?"
+    }
+   }
+  ]
+ },
+ "siguiente": {
+  "es": "Nochevieja: fideos soba para «cruzar el año» y la campana del templo a medianoche. Kage os espera bajo el torii…",
+  "en": "New Year's Eve: soba noodles to «cross the year» and the temple bell at midnight. Kage's waiting under the torii…"
+ },
+ "chuleta": {
+  "patron": {
+   "es": "〔raíz〕そう ・ 〔corta〕らしい／そうです ・ 〔nombre〕みたい",
+   "en": "〔stem〕そう ・ 〔short〕らしい／そうです ・ 〔noun〕みたい"
+  },
+  "patron_tr": {
+   "es": "tiene pinta de (lo veo) ・ dicen que (lo he oído) ・ es como",
+   "en": "looks (I see it) ・ they say (I heard it) ・ is like"
+  },
+  "filas": [
+   {
+    "jp": "雨[あめ]が 降[ふ]りそうですね。",
+    "es": "Parece que va a llover.",
+    "en": "Looks like it's going to rain.",
+    "registro": "educado"
+   },
+   {
+    "jp": "あの 店[みせ]、 おいしいらしいよ。",
+    "es": "Dicen que ese sitio está bueno. (a un amigo)",
+    "en": "Apparently that place is good. (to a friend)",
+    "registro": "amigos"
+   },
+   {
+    "jp": "夢[ゆめ]みたい！",
+    "es": "¡Parece un sueño!",
+    "en": "It's like a dream!"
+   }
+  ],
+  "consejo": {
+   "es": "おいしそう es de las primeras palabras que dirás en Japón: delante de cada escaparate de comida, con la cara pegada al cristal.",
+   "en": "おいしそう is one of the first words you'll say in Japan: in front of every food window, nose pressed to the glass."
+  }
+ }
+}

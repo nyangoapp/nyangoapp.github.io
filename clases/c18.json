@@ -1,0 +1,922 @@
+{
+ "id": "c18",
+ "clase": 18,
+ "desde": 270,
+ "titulo": {
+  "es": "La llegada al norte: comparar, だけ, しか y 〜んです",
+  "en": "Arriving up north: comparing, だけ, しか and 〜んです"
+ },
+ "resumen": {
+  "es": "より compara: «más que». だけ y しか son «solo» (しか siempre con un verbo negativo). Y んです añade «es que…»: explica algo.",
+  "en": "より compares: «more than». だけ and しか both mean «only» (しか always needs a negative verb). And んです adds «the thing is…»: it explains something."
+ },
+ "formato": 2,
+ "lugar": "kitahama",
+ "mision": {
+  "texto": {
+   "es": "¡Viaje de estudios a Hokkaido! Tras un día entero de tren, la clase llega de noche a la pequeña estación de madera de Kitahama. Hace un frío que pela, la maleta de Nyan pesa muchísimo… y se mueve sola. Compara, cuenta lo que llevas y descubre qué pasa.",
+   "en": "School trip to Hokkaido! After a whole day on the train, the class arrives at night at the little wooden station of Kitahama. It's freezing, Nyan's suitcase weighs a ton… and it's moving by itself. Compare, say what you've brought and find out what's going on."
+  },
+  "escena": {
+   "fondo": "kitahama",
+   "cosas": [
+    {
+     "que": "nyan",
+     "x": 70
+    },
+    {
+     "que": "gato",
+     "id": "tama",
+     "x": 150
+    },
+    {
+     "que": "maleta",
+     "x": 235,
+     "id": "maleta",
+     "s": 1.1
+    },
+    {
+     "que": "sensei",
+     "id": "sensei",
+     "x": 335
+    }
+   ]
+  },
+  "cara": "sorpresa",
+  "jp": "北海道[ほっかいどう]だ…！",
+  "voz": "m0"
+ },
+ "reglas": [
+  {
+   "id": "yori",
+   "nombre": {
+    "es": "Comparar: より, の方が y 一番",
+    "en": "Comparing: より, の方が and 一番"
+   },
+   "patron": {
+    "es": "A は B より 〔adjetivo〕 ・ A の方が 〔adjetivo〕",
+    "en": "A は B より 〔adjective〕 ・ A の方が 〔adjective〕"
+   },
+   "explica": {
+    "es": "Para comparar dos cosas, より va detrás de la que PIERDE («comparado con…»): 北海道は東京より寒い, «Hokkaido es más frío que Tokio». Si quieres destacar la que GANA, ponle の方が: 俺のかばんの方が軽い, «la mía es la más ligera (de las dos)». Y para «el más» de un grupo, 一番: 北海道が一番寒い. Fíjate en que el adjetivo no cambia: en japonés no hay «más» ni «-ísimo» pegado al adjetivo, son las partículas las que comparan.",
+    "en": "To compare two things, より goes after the one that LOSES («compared with…»): 北海道は東京より寒い, «Hokkaido is colder than Tokyo». To highlight the one that WINS, give it の方が: 俺のかばんの方が軽い, «mine is the lighter one». And for «the most» in a group, 一番: 北海道が一番寒い. Note the adjective doesn't change: Japanese has no «-er» on adjectives, the particles do the comparing."
+   },
+   "ejemplos": [
+    {
+     "jp": "北海道[ほっかいどう]は 東京[とうきょう]より 寒[さむ]いです。",
+     "es": "Hokkaido es más frío que Tokio.",
+     "en": "Hokkaido is colder than Tokyo.",
+     "voz": "r1-1"
+    },
+    {
+     "jp": "俺[おれ]の かばんの 方[ほう]が 軽[かる]い。",
+     "es": "La mía pesa menos.",
+     "en": "Mine is lighter.",
+     "voz": "r1-2"
+    }
+   ],
+   "ojo": {
+    "es": "No hace falta decir «más»: 寒い ya vale. もっと (más) se usa cuando no dices con qué comparas: もっと寒い, «hace todavía más frío».",
+    "en": "You don't need a word for «more»: 寒い is enough. もっと (more) is used when you don't say what you compare with: もっと寒い, «even colder»."
+   }
+  },
+  {
+   "id": "dake",
+   "nombre": {
+    "es": "Solo: だけ y しか〜ない",
+    "en": "Only: だけ and しか〜ない"
+   },
+   "patron": {
+    "es": "〔cosa〕だけ ・ 〔cosa〕しか 〜ない",
+    "en": "〔thing〕だけ ・ 〔thing〕しか 〜ない"
+   },
+   "explica": {
+    "es": "だけ significa «solo, nada más»: お菓子だけです, «solo dulces». しか dice lo mismo, pero siempre con un verbo negativo y con la idea de «y es poco»: お菓子しかありません, «no hay más que dulces (¡qué poco!)». Por eso しか suena a queja o a apuro, y だけ es neutral. Las dos van justo detrás de lo que limitas.",
+    "en": "だけ means «only, nothing more»: お菓子だけです, «only snacks». しか says the same but always with a negative verb and a sense of «and that's too little»: お菓子しかありません, «there's nothing but snacks (so few!)». That's why しか sounds like a complaint or a pinch, while だけ is neutral. Both go right after what you're limiting."
+   },
+   "ejemplos": [
+    {
+     "jp": "お菓子[かし]だけです。",
+     "es": "Solo dulces.",
+     "en": "Only snacks.",
+     "voz": "r2-1"
+    },
+    {
+     "jp": "これしか ありません。",
+     "es": "No tengo más que este.",
+     "en": "This is all I have.",
+     "voz": "r2-2"
+    }
+   ],
+   "ojo": {
+    "es": "しか sin negativo no funciona, porque su sentido es «fuera de esto, NADA»: la negación es la mitad de la frase.",
+    "en": "しか without a negative doesn't work, because it means «apart from this, NOTHING»: the negative is half of it."
+   }
+  },
+  {
+   "id": "ndesu",
+   "nombre": {
+    "es": "〜んです: explicar o pedir explicación",
+    "en": "〜んです: explaining or asking why"
+   },
+   "patron": {
+    "es": "〔forma corta〕んです ・ 〔forma corta〕んですか",
+    "en": "〔short form〕んです ・ 〔short form〕んですか"
+   },
+   "explica": {
+    "es": "んです (o のです, más formal) añade la idea de «es que…»: explica algo que el otro ve o no entiende. ぼくも行きたいんです, «es que yo también quiero ir». En pregunta, んですか pide una explicación de algo que te llama la atención: どうして動いているんですか, «¿se puede saber por qué se mueve?». Va detrás de la forma corta; con nombres y adjetivos en な, なんです (学生なんです).",
+    "en": "んです (or のです, more formal) adds «it's that…»: it explains something the listener sees or doesn't understand. ぼくも行きたいんです, «it's just that I want to go too». As a question, んですか asks for an explanation of something that caught your eye: どうして動いているんですか, «why on earth is it moving?». It follows the short form; with nouns and な adjectives, なんです (学生なんです)."
+   },
+   "ejemplos": [
+    {
+     "jp": "ぼくも 北海道[ほっかいどう]に 行[い]きたいんです！",
+     "es": "¡Es que yo también quiero ir a Hokkaido!",
+     "en": "It's just that I want to go to Hokkaido too!",
+     "voz": "r3-1"
+    },
+    {
+     "jp": "どうして 動[うご]いて いるんですか。",
+     "es": "¿Por qué se está moviendo?",
+     "en": "Why is it moving?",
+     "voz": "r3-2"
+    }
+   ],
+   "ojo": {
+    "es": "No lo pongas en todas las frases: sin motivo suena insistente o dramático. Resérvalo para explicar algo o preguntar por algo que has notado.",
+    "en": "Don't put it in every sentence: without reason it sounds pushy or dramatic. Save it for explaining or asking about something you've noticed."
+   }
+  }
+ ],
+ "historia": [
+  {
+   "t": "dice",
+   "habla": "sensei",
+   "jp": "北海道[ほっかいどう]に 着[つ]きました！",
+   "tr": {
+    "es": "¡Hemos llegado a Hokkaido!",
+    "en": "We've arrived in Hokkaido!"
+   },
+   "voz": "h1",
+   "escena": {
+    "fondo": "kitahama",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 150
+     },
+     {
+      "que": "maleta",
+      "x": 235,
+      "id": "maleta",
+      "s": 1.1
+     },
+     {
+      "que": "sensei",
+      "id": "sensei",
+      "x": 335
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "寒[さむ]い！ うちより ずっと 寒[さむ]いです。",
+   "tr": {
+    "es": "¡Qué frío! Mucho más que en casa.",
+    "en": "So cold! Much colder than at home."
+   },
+   "voz": "h2",
+   "cara": "sorpresa",
+   "reacciona": {
+    "nyan": "sorpresa"
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "yori"
+  },
+  {
+   "t": "elige",
+   "habla": "kage",
+   "pide": {
+    "es": "Kage presume: su maleta pesa menos que la de Nyan. ¿Qué dice?",
+    "en": "Kage shows off: his suitcase is lighter than Nyan's. What does he say?"
+   },
+   "opciones": [
+    {
+     "jp": "俺[おれ]の かばんの 方[ほう]が 軽[かる]い。",
+     "bien": true,
+     "tr": {
+      "es": "La mía pesa menos.",
+      "en": "Mine is lighter."
+     },
+     "voz": "h3",
+     "porque": {
+      "es": "Lo que GANA la comparación lleva の方が: 俺のかばんの方が軽い.",
+      "en": "Whatever WINS the comparison takes の方が: 俺のかばんの方が軽い."
+     }
+    },
+    {
+     "jp": "俺[おれ]の かばんより 軽[かる]い。",
+     "bien": false,
+     "porque": {
+      "es": "より va detrás de lo que PIERDE: así dices «más ligera que MI maleta». Kage quiere decir que la suya gana: の方が.",
+      "en": "より goes after what LOSES: this says «lighter than MY suitcase». Kage means his wins: の方が."
+     }
+    },
+    {
+     "jp": "ニャンの かばんの 方[ほう]が 軽[かる]い。",
+     "bien": false,
+     "porque": {
+      "es": "Al revés: así dices que la de NYAN pesa menos. El lado que gana, con の方が, es el de Kage.",
+      "en": "Backwards: this says NYAN's is lighter. The winning side, with の方が, is Kage's."
+     }
+    }
+   ],
+   "cara": "pensando",
+   "escena": {
+    "fondo": "kitahama",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "maleta",
+      "x": 160,
+      "id": "maleta",
+      "s": 1.1
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 320
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "sensei",
+   "jp": "ニャンさん、 何[なに]を 入[い]れましたか。",
+   "tr": {
+    "es": "Nyan, ¿qué has metido?",
+    "en": "Nyan, what did you pack?"
+   },
+   "voz": "h4",
+   "escena": {
+    "fondo": "kitahama",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 85
+     },
+     {
+      "que": "maleta",
+      "x": 190,
+      "id": "maleta",
+      "s": 1.1
+     },
+     {
+      "que": "sensei",
+      "id": "sensei",
+      "x": 330
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "dake"
+  },
+  {
+   "t": "monta",
+   "encargo": 0
+  },
+  {
+   "t": "dice",
+   "habla": "sensei",
+   "jp": "セーターは？",
+   "tr": {
+    "es": "¿Y el jersey?",
+    "en": "And your sweater?"
+   },
+   "voz": "h5",
+   "cara": "sorpresa",
+   "escena": {
+    "fondo": "kitahama",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 85
+     },
+     {
+      "que": "maleta",
+      "x": 190,
+      "id": "maleta",
+      "s": 1.1
+     },
+     {
+      "que": "sensei",
+      "id": "sensei",
+      "x": 330
+     }
+    ]
+   }
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "Nyan solo tiene un jersey: el que lleva puesto. ¿Qué contesta?",
+    "en": "Nyan has only one sweater: the one he's wearing. What does he answer?"
+   },
+   "opciones": [
+    {
+     "jp": "これしか ありません。",
+     "bien": true,
+     "tr": {
+      "es": "Solo tengo este.",
+      "en": "This is all I have."
+     },
+     "voz": "h6",
+     "porque": {
+      "es": "しか + negativo: «no hay más que esto», con la idea de que es poco.",
+      "en": "しか + negative: «there's nothing but this», implying it's too little."
+     }
+    },
+    {
+     "jp": "これしか あります。",
+     "bien": false,
+     "porque": {
+      "es": "しか siempre pide un verbo negativo detrás: sin él, la frase se queda a medias.",
+      "en": "しか always needs a negative verb after it: without one, the sentence is left hanging."
+     }
+    },
+    {
+     "jp": "これだけ ありません。",
+     "bien": false,
+     "porque": {
+      "es": "だけ va con afirmativo (これだけです). だけ + negativo sonaría a «no tengo solo este», lo contrario de lo que pasa.",
+      "en": "だけ goes with the affirmative (これだけです). だけ + negative would sound like «I don't have just this one», the opposite of the truth."
+     }
+    }
+   ],
+   "cara": "triste"
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "あっ！ かばんが 動[うご]いて います！",
+   "tr": {
+    "es": "¡Anda! ¡La maleta se está moviendo!",
+    "en": "Look! The suitcase is moving!"
+   },
+   "voz": "h7",
+   "cara": "sorpresa",
+   "reacciona": {
+    "nyan": "sorpresa"
+   },
+   "escena": {
+    "fondo": "kitahama",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 65
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 150
+     },
+     {
+      "que": "maleta",
+      "x": 240,
+      "id": "maleta",
+      "s": 1.1
+     },
+     {
+      "que": "sensei",
+      "id": "sensei",
+      "x": 340
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "ndesu"
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "Pregunta, con los ojos como platos, por qué se mueve:",
+    "en": "Ask, wide-eyed, why it's moving:"
+   },
+   "opciones": [
+    {
+     "jp": "どうして 動[うご]いて いるんですか。",
+     "bien": true,
+     "tr": {
+      "es": "¿Se puede saber por qué se mueve?",
+      "en": "Why on earth is it moving?"
+     },
+     "voz": "h8",
+     "porque": {
+      "es": "Algo raro pide una explicación: んですか. Suena a «¿qué pasa aquí?», no a una pregunta neutra.",
+      "en": "Something odd calls for an explanation: んですか. It sounds like «what's going on here?», not a neutral question."
+     }
+    },
+    {
+     "jp": "どうして 動[うご]いて いますんですか。",
+     "bien": false,
+     "porque": {
+      "es": "んです se pega a la forma corta (動いている), no a la de ます: la cortesía ya la lleva です.",
+      "en": "んです attaches to the short form (動いている), not the ます form: です already carries the politeness."
+     }
+    },
+    {
+     "jp": "どうして 動[うご]いて いるですか。",
+     "bien": false,
+     "porque": {
+      "es": "Falta ん: entre el verbo y です va ん (o の). 動いているです no existe.",
+      "en": "ん is missing: between the verb and です goes ん (or の). 動いているです doesn't exist."
+     }
+    }
+   ],
+   "cara": "sorpresa"
+  },
+  {
+   "t": "toca",
+   "pide": {
+    "es": "¡Hay que abrir la maleta! Escucha a Tama y toca lo que dice.",
+    "en": "The suitcase must be opened! Listen to Tama and tap what she says."
+   },
+   "bien": "maleta",
+   "quien": "tama",
+   "escena": {
+    "fondo": "kitahama",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 65
+     },
+     {
+      "que": "bolsa",
+      "x": 160,
+      "id": "bolsa",
+      "s": 1.0
+     },
+     {
+      "que": "maleta",
+      "x": 220,
+      "id": "maleta",
+      "s": 1.1
+     },
+     {
+      "que": "senbei",
+      "x": 280,
+      "id": "senbei",
+      "s": 1.0
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 350
+     }
+    ]
+   },
+   "jp": "ニャン、 かばんを 開[あ]けて ください！",
+   "voz": "h9",
+   "bien_msg": {
+    "es": "¡Eso! かばん es la bolsa o la maleta: ¡a ver qué hay dentro!",
+    "en": "Right! かばん is the bag or suitcase: let's see what's inside!"
+   },
+   "mal_msg": {
+    "es": "Ha dicho かばん: la maleta, la que se mueve.",
+    "en": "She said かばん: the suitcase, the one that's moving."
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "kotaro",
+   "jp": "ぼくも 北海道[ほっかいどう]に 行[い]きたいんです！",
+   "tr": {
+    "es": "¡Es que yo también quiero ir a Hokkaido!",
+    "en": "It's just that I want to go to Hokkaido too!"
+   },
+   "voz": "h10",
+   "cara": "feliz",
+   "reacciona": {
+    "nyan": "sorpresa"
+   },
+   "escena": {
+    "fondo": "kitahama",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 65
+     },
+     {
+      "que": "maleta",
+      "x": 160,
+      "id": "maleta",
+      "s": 1.1
+     },
+     {
+      "que": "perro",
+      "id": "kotaro",
+      "x": 235
+     },
+     {
+      "que": "sensei",
+      "id": "sensei",
+      "x": 340
+     }
+    ]
+   }
+  }
+ ],
+ "epilogo": [
+  {
+   "t": "dice",
+   "habla": "sensei",
+   "jp": "しかたが ないですね。 コタローさんも いっしょです。",
+   "tr": {
+    "es": "Qué remedio. Kotarō también viene.",
+    "en": "Oh well. Kotarō's coming too."
+   },
+   "voz": "x1",
+   "escena": {
+    "fondo": "kitahama",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 65
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 150
+     },
+     {
+      "que": "perro",
+      "id": "kotaro",
+      "x": 235
+     },
+     {
+      "que": "sensei",
+      "id": "sensei",
+      "x": 340
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "kotaro",
+   "jp": "ワン！",
+   "tr": {
+    "es": "¡Guau!",
+    "en": "Woof!"
+   },
+   "voz": "x2",
+   "cara": "feliz"
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta la frase: la escena hará lo que digas.",
+   "en": "Build the sentence: the scene will do what you say."
+  },
+  "piezas": [
+   {
+    "id": "okashi",
+    "jp": "お菓子[かし]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "dake",
+    "jp": "だけ",
+    "tipo": "particula"
+   },
+   {
+    "id": "shika",
+    "jp": "しか",
+    "tipo": "particula"
+   },
+   {
+    "id": "desu",
+    "jp": "です",
+    "tipo": "verbo"
+   },
+   {
+    "id": "arimasen",
+    "jp": "ありません",
+    "tipo": "verbo"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Nyan confiesa: en la maleta solo hay dulces. «Solo dulces»",
+     "en": "Nyan confesses: there are only snacks in the suitcase. «Only snacks»"
+    },
+    "escena": {
+     "fondo": "kitahama",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 85
+      },
+      {
+       "que": "maleta",
+       "x": 190,
+       "id": "maleta",
+       "s": 1.1
+      },
+      {
+       "que": "sensei",
+       "id": "sensei",
+       "x": 330
+      }
+     ]
+    },
+    "piezas": [
+     "okashi",
+     "dake",
+     "shika",
+     "desu",
+     "arimasen"
+    ],
+    "bien": [
+     [
+      "okashi",
+      "dake",
+      "desu"
+     ],
+     [
+      "okashi",
+      "shika",
+      "arimasen"
+     ]
+    ],
+    "tr": {
+     "es": "Solo dulces.",
+     "en": "Only snacks."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "aparece",
+      "que": "senbei",
+      "x": 250,
+      "y": 236,
+      "s": 1.0
+     },
+     {
+      "tipo": "manpu",
+      "objeto": "sensei",
+      "manpu": "sudor"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "shika",
+        "desu"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "しか pide un verbo en negativo detrás: お菓子しかありません. Con です, だけ: お菓子だけです.",
+       "en": "しか needs a negative verb after it: お菓子しかありません. With です, だけ: お菓子だけです."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "dake",
+        "arimasen"
+       ]
+      },
+      "efecto": {
+       "tipo": "manpu",
+       "objeto": "sensei",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "«No hay solo dulces» dice lo contrario: que hay más cosas. Para «solo», だけです o しかありません.",
+       "en": "«There aren't only snacks» says the opposite: that there's more. For «only», だけです or しかありません."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "reto": {
+  "intro": {
+   "jp": "ふん。 北海道[ほっかいどう]でも 俺[おれ]の 方[ほう]が 強[つよ]い。 勝負[しょうぶ]だ！",
+   "tr": {
+    "es": "Hmpf. También en Hokkaido soy más fuerte que tú. ¡Duelo!",
+    "en": "Hmph. Even in Hokkaido I'm stronger. Duel!"
+   },
+   "voz": "k0"
+  },
+  "gana": {
+   "jp": "…くっ。 お前[まえ]の 方[ほう]が… 少[すこ]しだけ 強[つよ]い。",
+   "tr": {
+    "es": "…Tsk. Tú eres… solo un poco más fuerte.",
+    "en": "…Tch. You're… just a little stronger."
+   },
+   "voz": "kw"
+  },
+  "pierde": {
+   "jp": "ふん。 やっぱり 俺[おれ]の 方[ほう]が 上[うえ]だ。",
+   "tr": {
+    "es": "Hmpf. Ya lo decía yo: estoy por encima.",
+    "en": "Hmph. I knew it: I'm above you."
+   },
+   "voz": "kl"
+  },
+  "pica": {
+   "jp": "…やるな。",
+   "tr": {
+    "es": "…No está mal.",
+    "en": "…Not bad."
+   },
+   "voz": "kp"
+  },
+  "burla": {
+   "jp": "ふん！",
+   "tr": {
+    "es": "¡Ja!",
+    "en": "Hah!"
+   },
+   "voz": "kb"
+  },
+  "preguntas": [
+   {
+    "tipo": "elige",
+    "jp": "北海道[ほっかいどう]は 東京[とうきょう]＿ 寒[さむ]いです。",
+    "opciones": [
+     "より",
+     "だけ",
+     "しか"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Hokkaido es más frío que Tokio.",
+     "en": "Hokkaido is colder than Tokyo."
+    },
+    "porque": {
+     "es": "より va detrás de lo que pierde la comparación: Tokio.",
+     "en": "より goes after what loses the comparison: Tokyo."
+    },
+    "voz": "q1"
+   },
+   {
+    "tipo": "elige",
+    "jp": "水[みず]＿ ありません。",
+    "opciones": [
+     "しか",
+     "だけ",
+     "より"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Solo hay agua.",
+     "en": "There's only water."
+    },
+    "porque": {
+     "es": "Con verbo negativo, しか: «no hay más que agua».",
+     "en": "With a negative verb, しか: «there's nothing but water»."
+    },
+    "voz": "q2"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "タマの 方[ほう]が 背[せ]が 高[たか]いです。",
+    "correcta": true,
+    "tr": {
+     "es": "Tama es más alta.",
+     "en": "Tama is taller."
+    },
+    "porque": {
+     "es": "Bien: の方が marca a la que gana la comparación.",
+     "en": "Right: の方が marks the one who wins the comparison."
+    },
+    "voz": "q3"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "お菓子[かし]しか 食[た]べます。",
+    "correcta": false,
+    "tr": {
+     "es": "(Solo como dulces.)",
+     "en": "(I only eat snacks.)"
+    },
+    "porque": {
+     "es": "しか necesita negativo: お菓子しか食べません. O, en afirmativo, お菓子だけ食べます.",
+     "en": "しか needs a negative: お菓子しか食べません. Or, affirmative, お菓子だけ食べます."
+    },
+    "voz": "q4"
+   },
+   {
+    "tipo": "oye",
+    "jp": "どうして 泣[な]いて いるんですか。",
+    "habla": "sensei",
+    "opciones": [
+     {
+      "es": "¿Por qué lloras? (¿qué te pasa?)",
+      "en": "Why are you crying? (what's wrong?)"
+     },
+     {
+      "es": "¿Cuándo lloras?",
+      "en": "When do you cry?"
+     },
+     {
+      "es": "No estoy llorando.",
+      "en": "I'm not crying."
+     }
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "んですか pide una explicación de algo que ves: suena preocupado, no neutro.",
+     "en": "んですか asks for an explanation of something you see: it sounds concerned, not neutral."
+    },
+    "voz": "q5"
+   },
+   {
+    "tipo": "imagen",
+    "jp": "かばんの 中[なか]に 犬[いぬ]が いるんです！",
+    "opciones": [
+     "maleta",
+     "bolsa",
+     "regalo"
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "かばん: la maleta donde se escondía Kotarō.",
+     "en": "かばん: the suitcase where Kotarō was hiding."
+    },
+    "pide": {
+     "es": "¿Dónde se escondía Kotarō?",
+     "en": "Where was Kotarō hiding?"
+    }
+   }
+  ]
+ },
+ "siguiente": {
+  "es": "Primera mañana en Hokkaido: delante, el monte Yōtei. ¿Qué hacemos? ¡Vamos a…!",
+  "en": "First morning in Hokkaido: Mount Yōtei ahead. What shall we do? Let's…!"
+ },
+ "chuleta": {
+  "patron": {
+   "es": "AはBより ・ Aの方が ・ だけ ・ しか〜ない ・ 〜んです",
+   "en": "AはBより ・ Aの方が ・ だけ ・ しか〜ない ・ 〜んです"
+  },
+  "patron_tr": {
+   "es": "más que ・ el que gana ・ solo ・ no más que ・ es que…",
+   "en": "more than ・ the winner ・ only ・ nothing but ・ it's that…"
+  },
+  "filas": [
+   {
+    "jp": "北海道[ほっかいどう]は 東京[とうきょう]より 寒[さむ]いです。",
+    "es": "Hokkaido es más frío que Tokio.",
+    "en": "Hokkaido is colder than Tokyo.",
+    "registro": "educado"
+   },
+   {
+    "jp": "これしか ない…",
+    "es": "No tengo más que esto… (a un amigo)",
+    "en": "This is all I've got… (to a friend)",
+    "registro": "amigos"
+   },
+   {
+    "jp": "ちょっと 寒[さむ]いんです。",
+    "es": "Es que tengo un poco de frío.",
+    "en": "It's just that I'm a bit cold."
+   }
+  ],
+  "consejo": {
+   "es": "Para disculparte con suavidad, んです es tu amigo: 遅れてすみません、電車が止まったんです. Explicas sin sonar a excusa seca.",
+   "en": "To apologise gently, んです is your friend: 遅れてすみません、電車が止まったんです. You explain without sounding like a curt excuse."
+  }
+ }
+}

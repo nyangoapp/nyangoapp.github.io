@@ -1,0 +1,911 @@
+{
+ "id": "c59",
+ "clase": 59,
+ "desde": 2230,
+ "titulo": {
+  "es": "Cuanto más pasa el tiempo: 〜につれて y 〜にしたがって",
+  "en": "As more time passes: 〜につれて and 〜にしたがって"
+ },
+ "resumen": {
+  "es": "につれて y にしたがって dicen que, a medida que pasa una cosa, pasa otra: dos cambios juntos, poco a poco. にしたがって también sirve para «según las reglas», algo que につれて no hace.",
+  "en": "につれて and にしたがって say that as one thing happens, another happens along with it: two gradual changes together. にしたがって can also mean «according to the rules», which につれて cannot."
+ },
+ "intro": [
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 120,
+      "cara": "sueno"
+     },
+     {
+      "que": "cama",
+      "x": 270,
+      "s": 1.3
+     }
+    ]
+   },
+   "jp": "年[とし]を 取[と]るにつれて、 眠[ねむ]る 時間[じかん]が 長[なが]くなるんだ。",
+   "voz": "i1",
+   "tr": {
+    "es": "A medida que me hago mayor, duermo más tiempo.",
+    "en": "As I get older, I sleep longer."
+   },
+   "cara": "sueno",
+   "cartela": {
+    "es": "につれて: a medida que pasa UNA cosa, pasa OTRA también, poco a poco.",
+    "en": "につれて: as ONE thing happens, ANOTHER happens too, little by little."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "sueno"
+     },
+     {
+      "que": "gato",
+      "x": 270
+     }
+    ]
+   },
+   "jp": "それ、 年[とし]の せいじゃないよ。",
+   "voz": "i2",
+   "tr": {
+    "es": "Eso no es por la edad.",
+    "en": "That's not because of your age."
+   },
+   "cara": "normal",
+   "habla": "tama"
+  },
+  {
+   "escena": {
+    "fondo": "calle",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 120,
+      "cara": "sueno"
+     },
+     {
+      "que": "nube",
+      "x": 270,
+      "s": 1.3
+     }
+    ]
+   },
+   "jp": "天気[てんき]が 悪[わる]くなるにつれて、 眠[ねむ]くなるんだ。",
+   "voz": "i3",
+   "tr": {
+    "es": "A medida que empeora el tiempo, me entra sueño.",
+    "en": "As the weather gets worse, I get sleepy."
+   },
+   "cara": "sueno"
+  },
+  {
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "pensando"
+     },
+     {
+      "que": "profesor",
+      "x": 280
+     }
+    ]
+   },
+   "jp": "時間[じかん]が 経[た]つにしたがって、 忘[わす]れて いくものです。",
+   "voz": "i4",
+   "tr": {
+    "es": "A medida que pasa el tiempo, uno va olvidando.",
+    "en": "As time passes, you tend to forget."
+   },
+   "cara": "normal",
+   "cartela": {
+    "es": "にしたがって es como につれて, pero más formal: se usa mucho al escribir o en clase. ¡A practicar!",
+    "en": "にしたがって is like につれて, but more formal: it's used a lot in writing or in class. Let's practice!"
+   },
+   "habla": "sensei"
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta cada frase. につれて y にしたがって suelen valer los dos; pero a veces solo uno encaja.",
+   "en": "Build each sentence. につれて and にしたがって are usually interchangeable; but sometimes only one fits."
+  },
+  "piezas": [
+   {
+    "id": "toshiwotoru",
+    "jp": "年[とし]を 取[と]る",
+    "tipo": "verbo"
+   },
+   {
+    "id": "nitsurete",
+    "jp": "につれて",
+    "tipo": "particula"
+   },
+   {
+    "id": "nishitagatte",
+    "jp": "にしたがって",
+    "tipo": "particula"
+   },
+   {
+    "id": "karadaga",
+    "jp": "体[からだ]が",
+    "tipo": "palabra"
+   },
+   {
+    "id": "yowakunaru",
+    "jp": "弱[よわ]くなる",
+    "tipo": "verbo"
+   },
+   {
+    "id": "tsuyokunaru",
+    "jp": "強[つよ]くなる",
+    "tipo": "verbo"
+   },
+   {
+    "id": "yori",
+    "jp": "より",
+    "tipo": "particula"
+   },
+   {
+    "id": "hodo",
+    "jp": "ほど",
+    "tipo": "particula"
+   },
+   {
+    "id": "tenkiga",
+    "jp": "天気[てんき]が",
+    "tipo": "palabra"
+   },
+   {
+    "id": "warukunaru",
+    "jp": "悪[わる]くなる",
+    "tipo": "verbo"
+   },
+   {
+    "id": "nemukunaru",
+    "jp": "眠[ねむ]くなる",
+    "tipo": "verbo"
+   },
+   {
+    "id": "yokunaru",
+    "jp": "良[よ]くなる",
+    "tipo": "verbo"
+   },
+   {
+    "id": "kara",
+    "jp": "から",
+    "tipo": "particula"
+   },
+   {
+    "id": "jikanga",
+    "jp": "時間[じかん]が",
+    "tipo": "palabra"
+   },
+   {
+    "id": "tatsu",
+    "jp": "経[た]つ",
+    "tipo": "verbo"
+   },
+   {
+    "id": "shinpaiga",
+    "jp": "心配[しんぱい]が",
+    "tipo": "palabra"
+   },
+   {
+    "id": "herimasu",
+    "jp": "減[へ]ります",
+    "tipo": "verbo"
+   },
+   {
+    "id": "heru",
+    "jp": "減[へ]る",
+    "tipo": "verbo"
+   },
+   {
+    "id": "yo",
+    "jp": "よ",
+    "tipo": "particula"
+   },
+   {
+    "id": "renshuusuru",
+    "jp": "練習[れんしゅう]する",
+    "tipo": "verbo"
+   },
+   {
+    "id": "jouzuninaru",
+    "jp": "上手[じょうず]になる",
+    "tipo": "verbo"
+   },
+   {
+    "id": "sureba",
+    "jp": "練習[れんしゅう]すれば",
+    "tipo": "verbo"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Di: «Cuanto más me hago mayor, más débil se vuelve mi cuerpo».",
+     "en": "Say: «The more I age, the weaker my body gets»."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 120,
+       "cara": "triste"
+      },
+      {
+       "que": "cama",
+       "x": 270,
+       "s": 1.2
+      }
+     ]
+    },
+    "piezas": [
+     "toshiwotoru",
+     "nitsurete",
+     "nishitagatte",
+     "karadaga",
+     "yowakunaru",
+     "tsuyokunaru",
+     "yori",
+     "hodo"
+    ],
+    "bien": [
+     [
+      "toshiwotoru",
+      "nitsurete",
+      "karadaga",
+      "yowakunaru"
+     ],
+     [
+      "toshiwotoru",
+      "nishitagatte",
+      "karadaga",
+      "yowakunaru"
+     ]
+    ],
+    "tr": {
+     "es": "Cuanto más me hago mayor, más débil se vuelve mi cuerpo.",
+     "en": "The more I age, the weaker my body gets."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "mini",
+      "objeto": "nyan"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "triste"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "tsuyokunaru"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "sorpresa",
+       "manpu": "excl"
+      },
+      "msg": {
+       "es": "強[つよ]くなる es lo CONTRARIO: con la edad el cuerpo no se hace más fuerte. Aquí hace falta 弱[よわ]くなる.",
+       "en": "強くなる is the OPPOSITE: with age the body doesn't get stronger. You need 弱くなる here."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "yori"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "より compara dos cosas DISTINTAS. Aquí una sola cosa cambia poco a poco: hace falta につれて o にしたがって.",
+       "en": "より compares two DIFFERENT things. Here one thing changes little by little: you need につれて or にしたがって."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "hodo"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "ほど es de tu primo 〜ば〜ほど (clase 37): repite el mismo verbo dos veces. Aquí basta につれて/にしたがって, sin repetir nada.",
+       "en": "ほど is from your cousin 〜ば〜ほど (class 37): it repeats the same verb twice. Here につれて/にしたがって is enough, no repeating."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Di: «A medida que empeora el tiempo, me entra sueño».",
+     "en": "Say: «As the weather gets worse, I get sleepy»."
+    },
+    "escena": {
+     "fondo": "calle",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 120,
+       "cara": "sueno"
+      },
+      {
+       "que": "nube",
+       "x": 270,
+       "s": 1.3
+      }
+     ]
+    },
+    "piezas": [
+     "tenkiga",
+     "warukunaru",
+     "nitsurete",
+     "nemukunaru",
+     "yokunaru",
+     "kara"
+    ],
+    "bien": [
+     [
+      "tenkiga",
+      "warukunaru",
+      "nitsurete",
+      "nemukunaru"
+     ]
+    ],
+    "tr": {
+     "es": "A medida que empeora el tiempo, me entra sueño.",
+     "en": "As the weather gets worse, I get sleepy."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "duerme",
+      "objeto": "nyan"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "sueno"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "yokunaru"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "sorpresa",
+       "manpu": "excl"
+      },
+      "msg": {
+       "es": "良[よ]くなる es lo CONTRARIO (mejorar). Aquí el tiempo EMPEORA: 悪[わる]くなる.",
+       "en": "良くなる is the OPPOSITE (to improve). Here the weather gets WORSE: 悪くなる."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "kara"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "から da una RAZÓN (porque). Aquí no explicas por qué: son dos cosas que cambian JUNTAS. Hace falta につれて.",
+       "en": "から gives a REASON (because). Here you're not explaining why: two things change TOGETHER. You need につれて."
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "nitsurete"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin につれて son dos frases sueltas: falta la conexión.",
+       "en": "Without につれて they're two loose sentences: the connection is missing."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Cuéntaselo al sensei, con educación: «A medida que pasa el tiempo, la preocupación disminuye».",
+     "en": "Tell the teacher, politely: «As time passes, the worry decreases»."
+    },
+    "escena": {
+     "fondo": "escuela",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "pensando"
+      },
+      {
+       "que": "profesor",
+       "x": 280
+      }
+     ]
+    },
+    "piezas": [
+     "jikanga",
+     "tatsu",
+     "nishitagatte",
+     "shinpaiga",
+     "herimasu",
+     "heru"
+    ],
+    "bien": [
+     [
+      "jikanga",
+      "tatsu",
+      "nishitagatte",
+      "shinpaiga",
+      "herimasu"
+     ]
+    ],
+    "tr": {
+     "es": "A medida que pasa el tiempo, la preocupación disminuye.",
+     "en": "As time passes, the worry decreases."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "brilla",
+      "objeto": "profesor"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "normal"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "heru"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "sorpresa",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Hablas con el sensei: hace falta 減[へ]ります, no la forma llana 減[へ]る.",
+       "en": "You're speaking to the teacher: you need 減ります, not the plain form 減る."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Ahora dile lo mismo a Tama, en plan casual.",
+     "en": "Now tell Tama the same thing, casually."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "pensando"
+      },
+      {
+       "que": "gato",
+       "x": 270
+      }
+     ]
+    },
+    "piezas": [
+     "jikanga",
+     "tatsu",
+     "nishitagatte",
+     "shinpaiga",
+     "heru",
+     "herimasu",
+     "yo"
+    ],
+    "bien": [
+     [
+      "jikanga",
+      "tatsu",
+      "nishitagatte",
+      "shinpaiga",
+      "heru",
+      "yo"
+     ]
+    ],
+    "tr": {
+     "es": "A medida que pasa el tiempo, la preocupación disminuye.",
+     "en": "As time passes, the worry decreases."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "herimasu"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Con Tama no hace falta tanta educación: 減[へ]る basta, sin ます.",
+       "en": "With Tama you don't need to be that formal: 減る is enough, no ます."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Reto: di «Cuanto más practico, mejor se me da» — pero con につれて, no con tu primo.",
+     "en": "Challenge: say «The more I practice, the better I get» — but with につれて, not your cousin pattern."
+    },
+    "escena": {
+     "fondo": "escuela",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 130,
+       "cara": "pensando"
+      }
+     ]
+    },
+    "piezas": [
+     "renshuusuru",
+     "nitsurete",
+     "jouzuninaru",
+     "sureba",
+     "hodo",
+     "kara"
+    ],
+    "bien": [
+     [
+      "renshuusuru",
+      "nitsurete",
+      "jouzuninaru"
+     ]
+    ],
+    "tr": {
+     "es": "Cuanto más practico, mejor se me da.",
+     "en": "The more I practice, the better I get."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "salta",
+      "objeto": "nyan"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz",
+      "brazo": "arriba"
+     }
+    ],
+    "pista": {
+     "es": "No hace falta repetir el verbo dos veces.",
+     "en": "You don't need to repeat the verb twice."
+    },
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "hodo"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "練習[れんしゅう]すればするほど es tu primo de la clase 37 (ば〜ほど): también vale, pero aquí practica につれて, más simple: un solo verbo, sin repetir.",
+       "en": "練習すればするほど is your cousin from class 37 (ば〜ほど): also valid, but here practice につれて, simpler: one verb, no repeating."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "kara"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "から da una razón (porque). Aquí son dos cosas que cambian JUNTAS: につれて.",
+       "en": "から gives a reason (because). Here two things change TOGETHER: につれて."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "juego": {
+  "intro": {
+   "es": "¿につれて o にしたがって? A veces valen los dos… pero a veces solo uno.",
+   "en": "につれて or にしたがって? Sometimes both work… but sometimes only one does."
+  },
+  "nyan": {
+   "es": "Yo solo sé que, a medida que pasa la clase, más sueño tengo.",
+   "en": "All I know is that as class goes on, I get sleepier."
+  },
+  "cestas": [
+   {
+    "id": "nitsurete",
+    "jp": "につれて",
+    "sub": {
+     "es": "natural y hablado",
+     "en": "natural, spoken"
+    }
+   },
+   {
+    "id": "nishitagatte",
+    "jp": "にしたがって",
+    "sub": {
+     "es": "más formal, o «según las reglas»",
+     "en": "more formal, or «according to the rules»"
+    }
+   }
+  ],
+  "cartas": [
+   {
+    "id": "j1",
+    "jp": "年[とし]を 取[と]る＿、 体[からだ]が 弱[よわ]くなる。",
+    "cesta": "nitsurete",
+    "es": "A medida que envejeces, el cuerpo se debilita.",
+    "en": "As you age, the body weakens."
+   },
+   {
+    "id": "j2",
+    "jp": "天気[てんき]が 悪[わる]くなる＿、 眠[ねむ]くなる。",
+    "cesta": "nitsurete",
+    "es": "A medida que empeora el tiempo, entra sueño.",
+    "en": "As the weather worsens, sleepiness sets in."
+   },
+   {
+    "id": "j3",
+    "dibujo": "gato",
+    "jp": "子供[こども]が 育[そだ]つ＿、 言葉[ことば]を 覚[おぼ]える。",
+    "cesta": "nitsurete",
+    "es": "A medida que un niño crece, aprende palabras.",
+    "en": "As a child grows, they learn words."
+   },
+   {
+    "id": "j4",
+    "jp": "値段[ねだん]が 上[あ]がる＿、 買[か]う 人[ひと]が 減[へ]る。",
+    "cesta": "nitsurete",
+    "es": "A medida que sube el precio, hay menos compradores.",
+    "en": "As the price rises, buyers decrease."
+   },
+   {
+    "id": "j5",
+    "jp": "時間[じかん]が 経[た]つ＿、 心配[しんぱい]が 減[へ]る。",
+    "cesta": "nishitagatte",
+    "es": "A medida que pasa el tiempo, la preocupación disminuye.",
+    "en": "As time passes, worry decreases.",
+    "truco": {
+     "es": "Aquí también vale につれて; にしたがって suena más formal/escrito.",
+     "en": "につれて also works here; にしたがって sounds more formal/written."
+    }
+   },
+   {
+    "id": "j6",
+    "jp": "練習[れんしゅう]する＿、 上手[じょうず]になる。",
+    "cesta": "nitsurete",
+    "es": "A medida que practicas, mejoras.",
+    "en": "As you practice, you improve."
+   },
+   {
+    "id": "j7",
+    "dibujo": "libro",
+    "jp": "地図[ちず]＿、 歩[ある]けば 着[つ]く。",
+    "cesta": "nishitagatte",
+    "es": "Si sigues el mapa, llegas.",
+    "en": "If you follow the map, you'll arrive.",
+    "truco": {
+     "es": "Aquí につれて no vale: no es un cambio gradual, es «según» el mapa.",
+     "en": "につれて doesn't work here: it's not a gradual change, it's «according to» the map."
+    }
+   },
+   {
+    "id": "j8",
+    "dibujo": "profesor",
+    "jp": "規則[きそく]＿、 行動[こうどう]します。",
+    "cesta": "nishitagatte",
+    "es": "Actúo según las reglas.",
+    "en": "I act according to the rules.",
+    "truco": {
+     "es": "Otra vez «según»: solo にしたがって.",
+     "en": "Again «according to»: only にしたがって works."
+    }
+   }
+  ]
+ },
+ "outro": [
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 130,
+      "cara": "sueno"
+     },
+     {
+      "que": "cama",
+      "x": 270,
+      "s": 1.3
+     }
+    ]
+   },
+   "jp": "年[とし]を 取[と]るにつれて、 体[からだ]が 弱[よわ]くなる。",
+   "voz": "o1",
+   "tr": {
+    "es": "A medida que me hago mayor, el cuerpo se debilita.",
+    "en": "As I get older, my body weakens."
+   },
+   "cara": "sueno"
+  },
+  {
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "pensando"
+     },
+     {
+      "que": "gato",
+      "x": 280
+     }
+    ]
+   },
+   "jp": "でも、 練習[れんしゅう]するにつれて、 上手[じょうず]になるよ。",
+   "voz": "o2",
+   "tr": {
+    "es": "Pero, a medida que practicas, mejoras.",
+    "en": "But, as you practice, you improve."
+   },
+   "cara": "feliz",
+   "habla": "tama"
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 200,
+      "cara": "sueno",
+      "s": 1.1
+     },
+     {
+      "que": "cama",
+      "x": 200,
+      "s": 1.4
+     }
+    ]
+   },
+   "jp": "じゃあ、 練習[れんしゅう]するにしたがって、 眠[ねむ]くなる…？",
+   "voz": "o3",
+   "tr": {
+    "es": "Entonces, ¿a medida que practico, me entra más sueño…?",
+    "en": "So, as I practice, do I get… sleepier?"
+   },
+   "cara": "sueno",
+   "cartela": {
+    "es": "Fin. Nyan aplica につれて a TODO — incluso a lo que no toca.",
+    "en": "The end. Nyan applies につれて to EVERYTHING — even where it doesn't belong."
+   }
+  }
+ ],
+ "chuleta": {
+  "patron": {
+   "es": "〔Vる／N〕につれて（にしたがって）、〔cambio〕",
+   "en": "〔Vる／N〕につれて（にしたがって）、〔change〕"
+  },
+  "patron_tr": {
+   "es": "a medida que pasa 〔algo〕, 〔pasa otra cosa〕",
+   "en": "as 〔something〕 happens, 〔something else〕 happens too"
+  },
+  "columnas": [
+   {
+    "jp": "につれて",
+    "texto": {
+     "es": "natural, para hablar",
+     "en": "natural, for speaking"
+    },
+    "dibujos": [
+     "nyan"
+    ]
+   },
+   {
+    "jp": "にしたがって",
+    "texto": {
+     "es": "formal; también «según las reglas»",
+     "en": "formal; also «according to the rules»"
+    },
+    "dibujos": [
+     "profesor"
+    ]
+   }
+  ],
+  "filas": [
+   {
+    "jp": "年[とし]を 取[と]るにつれて、 体[からだ]が 弱[よわ]くなる。",
+    "es": "A medida que envejeces, el cuerpo se debilita.",
+    "en": "As you age, the body weakens."
+   },
+   {
+    "jp": "時間[じかん]が 経[た]つにしたがって、 心配[しんぱい]が 減[へ]ります。",
+    "es": "A medida que pasa el tiempo, la preocupación disminuye.",
+    "en": "As time passes, the worry decreases.",
+    "registro": "educado"
+   },
+   {
+    "jp": "時間[じかん]が 経[た]つにしたがって、 心配[しんぱい]が 減[へ]るよ。",
+    "es": "A medida que pasa el tiempo, la preocupación disminuye.",
+    "en": "As time passes, the worry decreases.",
+    "registro": "amigos"
+   },
+   {
+    "jp": "規則[きそく]にしたがって、 行動[こうどう]します。",
+    "es": "Actúo según las reglas.",
+    "en": "I act according to the rules.",
+    "registro": "escrito"
+   }
+  ],
+  "consejo": {
+   "es": "〜ば〜ほど (clase 37) repite el MISMO verbo dos veces para remarcar «cuanto MÁS». につれて／にしたがって no repite nada: solo dice que dos cosas cambian A LA VEZ. Y にしたがって, además, sirve para «según las reglas» (地図にしたがって), algo que につれて no hace.",
+   "en": "〜ば〜ほど (class 37) repeats the SAME verb twice to stress «the MORE». につれて／にしたがって repeats nothing: it just says two things change TOGETHER. And にしたがって also means «according to the rules» (地図にしたがって), which につれて cannot do."
+  }
+ }
+}

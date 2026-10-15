@@ -1,0 +1,51 @@
+{
+ "id": "l28", "desde": 2175,
+ "titulo": {"jp": "ニャンの アルバイト", "es": "El trabajo a tiempo parcial de Nyan", "en": "Nyan's part-time job"},
+ "resumen": {"es": "A Nyan le sale su primer trabajo a tiempo parcial en una panadería, y descubre que ser responsable cuesta un poco.", "en": "Nyan gets his first part-time job at a bakery, and discovers that being responsible takes some effort."},
+ "portada": {"fondo": "tienda", "cosas": [{"que": "nyan", "x": 100, "cara": "normal"}, {"que": "persona", "x": 210}, {"que": "pan", "x": 310}]},
+ "texto": [
+   {"voz": "t1", "quien": "narrador", "jp": "ニャンは、 お 金[かね]を 稼[かせ]ぐ ために、 ポンの パンの 店[みせ]で アルバイトを 始[はじ]める ことに した。", "es": "Para ganar dinero, Nyan decidió empezar a trabajar a tiempo parcial en la panadería de Pon.", "en": "To earn money, Nyan decided to start a part-time job at Pon's bakery."},
+   {"voz": "t2", "quien": "tama", "jp": "ニャンが お 店[みせ]で 働[はたら]くのは 珍[めずら]しいね。", "es": "Es raro ver a Nyan trabajando en una tienda.", "en": "It's unusual to see Nyan working at a shop."},
+   {"voz": "t3", "quien": "nyan", "jp": "頑張[がんば]るよ！ でも、 朝[あさ] 早[はや]く 起[お]きるのは 苦手[にがて]だけど。", "es": "¡Haré lo posible! Aunque se me da mal levantarme temprano.", "en": "I'll do my best! Though I'm not good at getting up early."},
+   {"voz": "t4", "quien": "narrador", "jp": "初[はじ]めの 日[ひ]、 ニャンは 朝[あさ] 早[はや]く 起[お]きられなくて、 店[みせ]に 遅[おく]れて 着[つ]いた。", "es": "El primer día, Nyan no pudo despertarse temprano y llegó tarde a la tienda.", "en": "On the first day, Nyan couldn't wake up early and arrived late at the shop."},
+   {"voz": "t5", "quien": "pon", "jp": "ははは、 早[はや]く 来[き]たいと 言[い]った くせに、 また 遅[おく]れた ね。", "es": "¡Ja, ja! Con lo que dijiste que querías venir pronto, y vuelves a llegar tarde.", "en": "Ha ha! You said you wanted to come early, and you're late again."},
+   {"voz": "t6", "quien": "narrador", "jp": "ニャンは 恥[は]ずかしそうに 謝[あやま]った。", "es": "Nyan se disculpó con cara de vergüenza.", "en": "Nyan apologized looking embarrassed."},
+   {"voz": "t7", "quien": "pon", "jp": "今日[きょう]から、 しっかり 働[はたら]いて もらうよ。", "es": "A partir de hoy, vas a trabajar en condiciones.", "en": "Starting today, you're going to work properly."},
+   {"voz": "t8", "quien": "narrador", "jp": "ニャンは パンを 焼[や]いたり、 客[きゃく]に パンを 渡[わた]したり した。", "es": "Nyan horneaba pan y se lo entregaba a los clientes.", "en": "Nyan baked bread and handed it to customers."},
+   {"voz": "t9", "quien": "narrador", "jp": "慣[な]れない 仕事[しごと]に、 ニャンは とても 疲[つか]れて いた。", "es": "Con el trabajo al que no estaba acostumbrado, Nyan estaba muy cansado.", "en": "With work he wasn't used to, Nyan was very tired."},
+   {"voz": "t10", "quien": "narrador", "jp": "しかし、 だんだん 仕事[しごと]に 慣[な]れて きた。", "es": "Pero poco a poco se fue acostumbrando al trabajo.", "en": "But little by little he got used to the work."},
+   {"voz": "t11", "quien": "narrador", "jp": "ある 日[ひ]、 ニャンは お 金[かね]を 数[かぞ]え 間違[まちが]えて しまった。", "es": "Un día, Nyan contó mal el dinero por error.", "en": "One day, Nyan miscounted the money by mistake."},
+   {"voz": "t12", "quien": "pon", "jp": "これは… 誰[だれ]かが 間違[まちが]えたに 違[ちが]いない。", "es": "Esto es... seguro que alguien se ha equivocado.", "en": "This is... someone must have made a mistake."},
+   {"voz": "t13", "quien": "nyan", "jp": "すみません、 ニャンです。 気[き]を つけます。", "es": "Perdón, he sido yo. Tendré cuidado.", "en": "Sorry, it was me. I'll be careful."},
+   {"voz": "t14", "quien": "narrador", "jp": "正直[しょうじき]に 言[い]った ニャンを 見[み]て、 ポンは 少[すこ]し 驚[おどろ]いた。", "es": "Al ver a Nyan admitirlo con sinceridad, Pon se sorprendió un poco.", "en": "Seeing Nyan own up honestly, Pon was a little surprised."},
+   {"voz": "t15", "quien": "pon", "jp": "へえ…。 正直[しょうじき]に 言[い]える 人[ひと]は、 きっと いい 人[ひと]に 違[ちが]いない。", "es": "Vaya… Quien es capaz de decir la verdad seguro que es buena gente.", "en": "Huh… Anyone who can tell the truth must be a good sort."},
+   {"voz": "t16", "quien": "narrador", "jp": "それから、 ニャンは もっと 丁寧[ていねい]に 仕事[しごと]を する ように なった。", "es": "Desde entonces, Nyan empezó a trabajar con más esmero.", "en": "After that, Nyan started doing his work more carefully."},
+   {"voz": "t17", "quien": "tama", "jp": "最近[さいきん]、 ニャン、 なんだか 大人[おとな]っぽく なったね。", "es": "Últimamente, Nyan, te has vuelto como más adulto.", "en": "Lately, Nyan, you've become kind of grown-up."},
+   {"voz": "t18", "quien": "nyan", "jp": "そう？ 疲[つか]れて いる くせに、 元気[げんき]な 顔[かお]を して いる だけかも。", "es": "¿Ah, sí? Aunque estoy cansado, puede que solo esté poniendo cara de energía.", "en": "Really? Even though I'm tired, maybe I'm just making an energetic face."},
+   {"voz": "t19", "quien": "narrador", "jp": "ニャンは、 初[はじ]めて もらった 給料[きゅうりょう]で、 タマに プレゼントを 買[か]った。", "es": "Con el primer sueldo que recibió, Nyan le compró un regalo a Tama.", "en": "With the first pay he received, Nyan bought Tama a present."},
+   {"voz": "t20", "quien": "tama", "jp": "ありがとう！ ニャン、 本当[ほんとう]に 頑張[がんば]ったね。", "es": "¡Gracias! Nyan, de verdad que te has esforzado.", "en": "Thank you! Nyan, you really worked hard."}
+ ],
+ "preguntas": [
+  {"jp": "ニャンは 何[なに]の ために アルバイトを 始[はじ]めましたか。", "es": "¿Para qué empezó Nyan el trabajo a tiempo parcial?", "en": "What did Nyan start the part-time job for?",
+   "opciones": [{"jp": "お 金[かね]を 稼[かせ]ぐ ため", "es": "Para ganar dinero", "en": "To earn money"}, {"jp": "パンの 作[つく]り方[かた]を 習[なら]う ため", "es": "Para aprender a hacer pan", "en": "To learn how to make bread"}, {"jp": "友達[ともだち]を 作[つく]る ため", "es": "Para hacer amigos", "en": "To make friends"}],
+   "bien": 0, "porque": {"es": "「お金を稼ぐために、アルバイトを始めることにした」とある。", "en": "«お金を稼ぐために、アルバイトを始めることにした» (to earn money, he decided to start a part-time job)."}},
+  {"jp": "初[はじ]めの 日[ひ]、 ニャンは どう しましたか。", "es": "El primer día, ¿qué le pasó a Nyan?", "en": "On the first day, what happened to Nyan?",
+   "opciones": [{"jp": "朝[あさ] 早[はや]く 起[お]きられなくて、 遅[おく]れて 着[つ]いた", "es": "No pudo despertarse temprano y llegó tarde", "en": "He couldn't wake up early and arrived late"}, {"jp": "誰[だれ]よりも 早[はや]く 店[みせ]に 着[つ]いた", "es": "Llegó a la tienda antes que nadie", "en": "He arrived at the shop before anyone else"}, {"jp": "店[みせ]を 間違[まちが]えた", "es": "Se equivocó de tienda", "en": "He went to the wrong shop"}],
+   "bien": 0, "porque": {"es": "「朝早く起きられなくて、店に遅れて着いた」とある。", "en": "«朝早く起きられなくて、店に遅れて着いた» (he couldn't wake up early and arrived late at the shop)."}},
+  {"jp": "お 金[かね]を 数[かぞ]え 間違[まちが]えた とき、 ニャンは どう しましたか。", "es": "Cuando contó mal el dinero, ¿qué hizo Nyan?", "en": "When he miscounted the money, what did Nyan do?",
+   "opciones": [{"jp": "正直[しょうじき]に 自分[じぶん]だと 言[い]った", "es": "Admitió sinceramente que había sido él", "en": "He honestly admitted it was him"}, {"jp": "何[なに]も 言[い]わなかった", "es": "No dijo nada", "en": "He said nothing"}, {"jp": "タマの せいに した", "es": "Le echó la culpa a Tama", "en": "He blamed Tama"}],
+   "bien": 0, "porque": {"es": "「すみません、ニャンです」と正直に言った。", "en": "He honestly said «すみません、ニャンです» (sorry, it was me)."}},
+  {"jp": "初[はじ]めて もらった 給料[きゅうりょう]で、 ニャンは 何[なに]を しましたか。", "es": "Con el primer sueldo que recibió, ¿qué hizo Nyan?", "en": "With the first pay he received, what did Nyan do?",
+   "opciones": [{"jp": "タマに プレゼントを 買[か]った", "es": "Le compró un regalo a Tama", "en": "He bought Tama a present"}, {"jp": "全部[ぜんぶ] 貯金[ちょきん]した", "es": "Lo ahorró todo", "en": "He saved it all"}, {"jp": "パンを たくさん 買[か]って 食[た]べた", "es": "Compró mucho pan y se lo comió", "en": "He bought a lot of bread and ate it"}],
+   "bien": 0, "porque": {"es": "「タマにプレゼントを買った」とある。", "en": "«タマにプレゼントを買った» (he bought Tama a present)."}},
+  {"tipo": "opinion", "jp": "あなたなら、 初[はじ]めて もらった 給料[きゅうりょう]で 何[なに]を したいですか。", "es": "Con el primer sueldo que recibieras, ¿qué te gustaría hacer?", "en": "With the first pay you ever received, what would you like to do?",
+   "opciones": [
+    {"jp": "家族[かぞく]や 友達[ともだち]に プレゼントを 買[か]う", "es": "Comprarle un regalo a la familia o a los amigos", "en": "Buy a present for family or friends",
+     "nyan": {"jp": "優[やさ]しいね！ ニャンも そう したよ。", "es": "¡Qué amable! Nyan también hizo eso.", "en": "How kind! Nyan did that too."}},
+    {"jp": "貯金[ちょきん]する", "es": "Ahorrarlo", "en": "Save it",
+     "nyan": {"jp": "しっかりしてる ね。 ニャンも そう したいな。", "es": "Qué responsable. A Nyan también le gustaría hacer eso.", "en": "How responsible. Nyan would like to do that too."}},
+    {"jp": "自分[じぶん]の 好[す]きな ものを 買[か]う", "es": "Comprarme algo que me guste", "en": "Buy something I like",
+     "nyan": {"jp": "それも いいね！ ニャンなら おにぎりを 買[か]うかも。", "es": "¡Eso también está bien! Nyan quizás compraría onigiri.", "en": "That's good too! Nyan might buy onigiri."}}
+   ]}
+ ]
+}

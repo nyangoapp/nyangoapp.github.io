@@ -1,0 +1,936 @@
+{
+ "id": "c04",
+ "clase": 4,
+ "desde": 25,
+ "titulo": {
+  "es": "¿Quién se comió el onigiri?: いる, ある, に y が",
+  "en": "Who ate the onigiri?: いる, ある, に and が"
+ },
+ "resumen": {
+  "es": "Para decir que algo «está» o que «hay» algo, el japonés tiene dos verbos: いる para lo que se mueve solo y ある para todo lo demás.",
+  "en": "To say something «is there» or «there is» something, Japanese has two verbs: いる for things that move on their own and ある for everything else."
+ },
+ "formato": 2,
+ "lugar": "washitsu",
+ "mision": {
+  "texto": {
+   "es": "¡El onigiri de Nyan ha desaparecido! Busca por la casa diciendo qué hay y dónde. Y ojo: dentro de la caja se mueve algo…",
+   "en": "Nyan's onigiri has vanished! Search the house saying what's where. And careful: something is moving inside the box…"
+  },
+  "escena": {
+   "fondo": "washitsu",
+   "cosas": [
+    {
+     "que": "nyan",
+     "x": 110
+    },
+    {
+     "que": "caja",
+     "x": 215,
+     "s": 1.2
+    },
+    {
+     "que": "mesa",
+     "x": 310
+    }
+   ]
+  },
+  "cara": "triste",
+  "jp": "おにぎり… どこ？",
+  "voz": "m0"
+ },
+ "reglas": [
+  {
+   "id": "ni_ga",
+   "nombre": {
+    "es": "〔sitio〕に〔algo〕が: «en… hay…»",
+    "en": "〔place〕に〔thing〕が: «on/in… there is…»"
+   },
+   "patron": {
+    "es": "〔sitio〕に〔lo que hay〕が あります",
+    "en": "〔place〕に〔what's there〕が あります"
+   },
+   "explica": {
+    "es": "Para decir que en un sitio HAY algo, primero va el sitio con に («en»), luego lo que hay con が y, al final, el verbo: 机に本があります, «en el escritorio hay un libro». が señala algo nuevo que aparece en escena; は, algo de lo que ya se estaba hablando.",
+    "en": "To say that there IS something in a place, the place goes first with に («in/on»), then what's there with が, and the verb last: 机に本があります, «there's a book on the desk». が points at something new appearing; は, at something already being talked about."
+   },
+   "ejemplos": [
+    {
+     "jp": "机[つくえ]に 本[ほん]が あります。",
+     "es": "En el escritorio hay un libro.",
+     "en": "There's a book on the desk.",
+     "voz": "r1-1"
+    },
+    {
+     "jp": "ベッドに 猫[ねこ]が います。",
+     "es": "En la cama hay un gato.",
+     "en": "There's a cat on the bed.",
+     "voz": "r1-2"
+    }
+   ],
+   "ojo": {
+    "es": "に con el sitio y が con lo que hay. Si los cambias (本に机が…) dices que dentro del libro hay un escritorio.",
+    "en": "に with the place, が with what's there. Swap them (本に机が…) and there's a desk inside the book."
+   }
+  },
+  {
+   "id": "iru_aru",
+   "nombre": {
+    "es": "いる y ある: «hay», con vida o sin ella",
+    "en": "いる and ある: «there is», alive or not"
+   },
+   "patron": {
+    "es": "〔ser vivo〕が います ・ 〔cosa〕が あります",
+    "en": "〔living thing〕が います ・ 〔thing〕が あります"
+   },
+   "explica": {
+    "es": "El japonés tiene dos verbos para «hay / está»: いる (います) para lo que se mueve solo —personas y animales— y ある (あります) para todo lo demás: cosas, plantas y sitios. Un árbol está vivo, pero no anda: ある. Si dices ある de un gato, lo tratas como a un objeto.",
+    "en": "Japanese has two verbs for «there is / is (somewhere)»: いる (います) for what moves on its own —people and animals— and ある (あります) for everything else: things, plants and places. A tree is alive but doesn't walk: ある. Use ある for a cat and you treat it like an object."
+   },
+   "ejemplos": [
+    {
+     "jp": "箱[はこ]に 猫[ねこ]が います。",
+     "es": "En la caja hay un gato.",
+     "en": "There's a cat in the box.",
+     "voz": "r2-1"
+    },
+    {
+     "jp": "箱[はこ]に 本[ほん]が あります。",
+     "es": "En la caja hay un libro.",
+     "en": "There's a book in the box.",
+     "voz": "r2-2"
+    }
+   ],
+   "ojo": {
+    "es": "Un peluche parece un gato, pero no se mueve solo: para el japonés es una cosa, así que あります.",
+    "en": "A plush looks like a cat, but it doesn't move by itself: to Japanese it's a thing, so あります."
+   }
+  }
+ ],
+ "historia": [
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "おにぎりが ない…！",
+   "tr": {
+    "es": "¡Mi onigiri no está…!",
+    "en": "My onigiri is gone…!"
+   },
+   "voz": "h1",
+   "cara": "triste",
+   "escena": {
+    "fondo": "washitsu",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110
+     },
+     {
+      "que": "mesa",
+      "x": 280,
+      "id": "mesa"
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "ニャン、 机[つくえ]に 本[ほん]が あります。",
+   "tr": {
+    "es": "Nyan, en el escritorio hay un libro.",
+    "en": "Nyan, there's a book on the desk."
+   },
+   "voz": "h2",
+   "escena": {
+    "fondo": "washitsu",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 95
+     },
+     {
+      "que": "mesa",
+      "x": 205,
+      "id": "mesa",
+      "encima": "libro"
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 325
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "ni_ga"
+  },
+  {
+   "t": "monta",
+   "encargo": 0
+  },
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "あっ！ 箱[はこ]が…！",
+   "tr": {
+    "es": "¡Eh! ¡La caja…!",
+    "en": "Hey! The box…!"
+   },
+   "voz": "h3",
+   "cara": "sorpresa",
+   "escena": {
+    "fondo": "washitsu",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 100
+     },
+     {
+      "que": "caja",
+      "x": 250,
+      "id": "caja",
+      "s": 1.3
+     },
+     {
+      "que": "manpu",
+      "tipo": "excl",
+      "x": 262,
+      "y": 118
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "iru_aru"
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "Algo se mueve dentro de la caja. Pregunta: «¿Hay un gato en la caja?»",
+    "en": "Something moves inside the box. Ask: «Is there a cat in the box?»"
+   },
+   "opciones": [
+    {
+     "jp": "箱[はこ]に 猫[ねこ]が いますか。",
+     "bien": true,
+     "tr": {
+      "es": "¿Hay un gato en la caja?",
+      "en": "Is there a cat in the box?"
+     },
+     "voz": "h4",
+     "porque": {
+      "es": "Un gato se mueve por sí solo, así que el japonés usa います (para personas y animales).",
+      "en": "A cat moves by itself, so Japanese uses います (for people and animals)."
+     }
+    },
+    {
+     "jp": "箱[はこ]に 猫[ねこ]が ありますか。",
+     "bien": false,
+     "porque": {
+      "es": "Con あります tratas al gato como si fuera un objeto (una silla, un libro). Lo que se mueve por sí solo va con います.",
+      "en": "With あります you treat the cat like an object (a chair, a book). Whatever moves by itself goes with います."
+     }
+    },
+    {
+     "jp": "猫[ねこ]に 箱[はこ]が いますか。",
+     "bien": false,
+     "porque": {
+      "es": "Así preguntas «¿en el gato hay una caja?»: に señala el sitio, así que tiene que ir con la caja, 箱に.",
+      "en": "That asks «is there a box in the cat?»: に marks the place, so it must go with the box, 箱に."
+     }
+    }
+   ],
+   "cara": "pensando"
+  },
+  {
+   "t": "dice",
+   "habla": "kotaro",
+   "jp": "いいえ、 きつねが います！",
+   "tr": {
+    "es": "¡No, hay un zorro!",
+    "en": "No, there's a fox!"
+   },
+   "voz": "h5",
+   "cara": "feliz",
+   "reacciona": {
+    "nyan": "sorpresa"
+   },
+   "escena": {
+    "fondo": "washitsu",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 100
+     },
+     {
+      "que": "caja",
+      "x": 250,
+      "id": "kotaro",
+      "s": 1.3,
+      "dentro": "perro"
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "kotaro",
+   "jp": "おにぎり、 おいしいです！",
+   "tr": {
+    "es": "¡Este onigiri está buenísimo!",
+    "en": "This onigiri is delicious!"
+   },
+   "voz": "h6",
+   "cara": "feliz",
+   "plano": "medio",
+   "escena": {
+    "fondo": "washitsu",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 100,
+      "cara": "enfado"
+     },
+     {
+      "que": "perro",
+      "id": "kotaro",
+      "x": 275,
+      "onigiri": true
+     }
+    ]
+   }
+  },
+  {
+   "t": "toca",
+   "pide": {
+    "es": "Tama te dice dónde está tu libro. Escucha y tócalo.",
+    "en": "Tama tells you where your book is. Listen and tap it."
+   },
+   "bien": "libro",
+   "quien": "tama",
+   "escena": {
+    "fondo": "washitsu",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 62
+     },
+     {
+      "que": "mesa",
+      "x": 158,
+      "id": "mesa",
+      "s": 1.1,
+      "encima": "onigiri"
+     },
+     {
+      "que": "cama",
+      "x": 318,
+      "id": "cama",
+      "s": 1.05
+     },
+     {
+      "que": "libro",
+      "x": 330,
+      "y": 187,
+      "id": "libro",
+      "s": 1.8
+     }
+    ]
+   },
+   "jp": "ベッドに 本[ほん]が あります。",
+   "voz": "h7",
+   "bien_msg": {
+    "es": "¡Eso es! ベッドに本があります: el libro está en la cama.",
+    "en": "That's it! ベッドに本があります: the book is on the bed."
+   },
+   "mal_msg": {
+    "es": "Ha dicho ベッドに…: en la cama. ¿Qué hay en la cama?",
+    "en": "She said ベッドに…: on the bed. What's on the bed?"
+   }
+  },
+  {
+   "t": "monta",
+   "encargo": 1
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "コタロー！ おにぎりは ニャンのですよ！",
+   "tr": {
+    "es": "¡Kotarō! ¡Ese onigiri es de Nyan!",
+    "en": "Kotarō! That onigiri is Nyan's!"
+   },
+   "voz": "h8",
+   "cara": "enfado",
+   "escena": {
+    "fondo": "washitsu",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 90
+     },
+     {
+      "que": "perro",
+      "id": "kotaro",
+      "x": 210,
+      "onigiri": true
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 325
+     }
+    ]
+   }
+  }
+ ],
+ "epilogo": [
+  {
+   "t": "dice",
+   "habla": "kotaro",
+   "jp": "すみません…",
+   "tr": {
+    "es": "Perdón…",
+    "en": "Sorry…"
+   },
+   "voz": "x1",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "washitsu",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110
+     },
+     {
+      "que": "perro",
+      "id": "kotaro",
+      "x": 290,
+      "onigiri": true
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "いいですよ。 コタローも 食[た]べますか。",
+   "tr": {
+    "es": "No pasa nada. ¿Tú también comes?",
+    "en": "It's fine. Will you eat too?"
+   },
+   "voz": "x2",
+   "cara": "feliz"
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta la frase: la escena hará lo que digas.",
+   "en": "Build the sentence: the scene will do what you say."
+  },
+  "piezas": [
+   {
+    "id": "beddo",
+    "jp": "ベッド",
+    "tipo": "palabra"
+   },
+   {
+    "id": "tsukue",
+    "jp": "机[つくえ]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "hako",
+    "jp": "箱[はこ]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "hon",
+    "jp": "本[ほん]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "kotaro",
+    "jp": "コタロー",
+    "tipo": "palabra"
+   },
+   {
+    "id": "ni",
+    "jp": "に",
+    "tipo": "particula"
+   },
+   {
+    "id": "ga",
+    "jp": "が",
+    "tipo": "particula"
+   },
+   {
+    "id": "wa",
+    "jp": "は",
+    "tipo": "particula"
+   },
+   {
+    "id": "wo",
+    "jp": "を",
+    "tipo": "particula"
+   },
+   {
+    "id": "arimasu",
+    "jp": "あります",
+    "tipo": "verbo"
+   },
+   {
+    "id": "imasu",
+    "jp": "います",
+    "tipo": "verbo"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Mira la cama y dilo: «En la cama hay un libro».",
+     "en": "Look at the bed and say: «There's a book on the bed»."
+    },
+    "escena": {
+     "fondo": "washitsu",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 95
+      },
+      {
+       "que": "cama",
+       "x": 255,
+       "id": "cama",
+       "s": 1.3
+      },
+      {
+       "que": "libro",
+       "x": 272,
+       "y": 175,
+       "id": "libro",
+       "s": 1.3
+      }
+     ]
+    },
+    "piezas": [
+     "beddo",
+     "tsukue",
+     "ni",
+     "hon",
+     "ga",
+     "wa",
+     "arimasu",
+     "imasu"
+    ],
+    "bien": [
+     [
+      "beddo",
+      "ni",
+      "hon",
+      "ga",
+      "arimasu"
+     ]
+    ],
+    "tr": {
+     "es": "En la cama hay un libro.",
+     "en": "There's a book on the bed."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "brilla",
+      "objeto": "libro"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "imasu"
+       ]
+      },
+      "efecto": [
+       {
+        "tipo": "vida",
+        "objeto": "libro"
+       },
+       {
+        "tipo": "nyan",
+        "cara": "sorpresa",
+        "manpu": "excl"
+       }
+      ],
+      "msg": {
+       "es": "¡Con います el libro se ha puesto a andar! います es para lo que se mueve solo. Un libro: あります.",
+       "en": "With います the book started walking! います is for things that move on their own. A book: あります."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "tsukue"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "机 es el escritorio y el libro está en la cama: si cambias el sitio, cambias dónde está. Cama es ベッド.",
+       "en": "机 is the desk and the book is on the bed: change the place and you change where it is. Bed is ベッド."
+      }
+     },
+     {
+      "si": {
+       "en": [
+        0,
+        "hon"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "本にベッドが… diría «en el libro hay una cama»: に marca el SITIO. El sitio es la cama: ベッドに本が…",
+       "en": "本にベッドが… would say «in the book there's a bed»: に marks the PLACE. The place is the bed: ベッドに本が…"
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "wa"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "Para presentar algo que hay (algo nuevo que aparece), se usa が; は es para algo de lo que ya se estaba hablando.",
+       "en": "To introduce something that's there (something new appearing), use が; は is for something already being talked about."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Dile a Tama dónde se ha escondido el culpable: «En la caja hay un zorro (Kotarō)».",
+     "en": "Tell Tama where the culprit hid: «There's a fox (Kotarō) in the box»."
+    },
+    "escena": {
+     "fondo": "washitsu",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 95
+      },
+      {
+       "que": "caja",
+       "x": 230,
+       "id": "caja",
+       "s": 1.3,
+       "dentro": "perro"
+      },
+      {
+       "que": "gato",
+       "id": "tama",
+       "x": 330
+      }
+     ]
+    },
+    "piezas": [
+     "hako",
+     "ni",
+     "kotaro",
+     "ga",
+     "imasu",
+     "arimasu",
+     "wo"
+    ],
+    "bien": [
+     [
+      "hako",
+      "ni",
+      "kotaro",
+      "ga",
+      "imasu"
+     ]
+    ],
+    "tr": {
+     "es": "En la caja hay un zorro: Kotarō.",
+     "en": "There's a fox in the box: Kotarō."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "tiembla",
+      "objeto": "caja"
+     },
+     {
+      "tipo": "manpu",
+      "objeto": "tama",
+      "manpu": "excl"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "arimasu"
+       ]
+      },
+      "efecto": [
+       {
+        "tipo": "peluche",
+        "objeto": "caja"
+       },
+       {
+        "tipo": "nyan",
+        "cara": "sorpresa",
+        "manpu": "sudor"
+       }
+      ],
+      "msg": {
+       "es": "¡Con あります le has tratado como una cosa… y se ha vuelto un peluche! Un zorro de verdad: います.",
+       "en": "With あります you treated him like a thing… and he turned into a plush! A real fox: います."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "wo"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "を marca lo que comes, ves o lees (lo que recibe una acción). Lo que hay en un sitio no recibe nada: lleva が.",
+       "en": "を marks what you eat, watch or read (what receives an action). What's in a place receives nothing: it takes が."
+      }
+     },
+     {
+      "si": {
+       "en": [
+        0,
+        "kotaro"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "El orden japonés va del sitio a lo que hay: primero 箱に (en la caja), luego コタローが (Kotarō), y el verbo al final.",
+       "en": "Japanese order goes from the place to what's there: first 箱に (in the box), then コタローが (Kotarō), and the verb last."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "reto": {
+  "intro": {
+   "jp": "ふん。 どこに 何[なに]が あるか、 わかるか？",
+   "tr": {
+    "es": "Hmpf. ¿Sabes qué hay y dónde?",
+    "en": "Hmph. Do you know what's where?"
+   },
+   "voz": "k0"
+  },
+  "gana": {
+   "jp": "…ふん。 まあ いい。",
+   "tr": {
+    "es": "…Hmpf. Vale.",
+    "en": "…Hmph. Fine."
+   },
+   "voz": "kw"
+  },
+  "pierde": {
+   "jp": "ふん。 俺[おれ]の 勝[か]ちだ。",
+   "tr": {
+    "es": "Hmpf. Gano yo.",
+    "en": "Hmph. I win."
+   },
+   "voz": "kl"
+  },
+  "pica": {
+   "jp": "…やるな。",
+   "tr": {
+    "es": "…No está mal.",
+    "en": "…Not bad."
+   },
+   "voz": "kp"
+  },
+  "burla": {
+   "jp": "ふん！",
+   "tr": {
+    "es": "¡Ja!",
+    "en": "Hah!"
+   },
+   "voz": "kb"
+  },
+  "preguntas": [
+   {
+    "tipo": "elige",
+    "jp": "ここに 猫[ねこ]が ＿。",
+    "opciones": [
+     "います",
+     "あります"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Aquí hay un gato.",
+     "en": "There's a cat here."
+    },
+    "porque": {
+     "es": "Un gato se mueve por sí solo, así que el japonés usa います (para personas y animales).",
+     "en": "A cat moves by itself, so Japanese uses います (for people and animals)."
+    },
+    "voz": "q1"
+   },
+   {
+    "tipo": "elige",
+    "jp": "机[つくえ]＿ 本[ほん]が あります。",
+    "opciones": [
+     "に",
+     "が",
+     "を"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "En el escritorio hay un libro.",
+     "en": "There's a book on the desk."
+    },
+    "porque": {
+     "es": "El escritorio es el SITIO donde está el libro, y los sitios se marcan con に («en»).",
+     "en": "The desk is the PLACE where the book is, and places are marked with に («on/in»)."
+    },
+    "voz": "q2"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "箱[はこ]に おにぎりが います。",
+    "correcta": false,
+    "tr": {
+     "es": "(En la caja hay un onigiri.)",
+     "en": "(There's an onigiri in the box.)"
+    },
+    "porque": {
+     "es": "Un onigiri no se mueve solo (aunque Kotarō lo haga desaparecer): es una cosa, así que あります.",
+     "en": "An onigiri doesn't move by itself (even if Kotarō makes it vanish): it's a thing, so あります."
+    },
+    "voz": "q3"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "ベッドに タマが います。",
+    "correcta": true,
+    "tr": {
+     "es": "Tama está en la cama.",
+     "en": "Tama is on the bed."
+    },
+    "porque": {
+     "es": "Tama es una gata: se mueve por sí sola, así que います.",
+     "en": "Tama is a cat: she moves by herself, so います."
+    },
+    "voz": "q4"
+   },
+   {
+    "tipo": "oye",
+    "jp": "ベッドに 本[ほん]が あります。",
+    "habla": "tama",
+    "opciones": [
+     {
+      "es": "En la cama hay un libro.",
+      "en": "There's a book on the bed."
+     },
+     {
+      "es": "En el libro hay una cama.",
+      "en": "There's a bed in the book."
+     },
+     {
+      "es": "En la cama hay un gato.",
+      "en": "There's a cat on the bed."
+     }
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "ベッドに = en la cama; 本が あります = hay un libro.",
+     "en": "ベッドに = on the bed; 本が あります = there's a book."
+    },
+    "voz": "q5"
+   },
+   {
+    "tipo": "imagen",
+    "jp": "〔？〕が います。",
+    "opciones": [
+     "perro",
+     "libro",
+     "cama"
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "Kotarō es un ser vivo que se mueve solo: います. El libro y la cama son cosas: あります.",
+     "en": "Kotarō is a living being who moves by himself: います. The book and the bed are things: あります."
+    },
+    "pide": {
+     "es": "¿Cuál va con います?",
+     "en": "Which one goes with います?"
+    }
+   }
+  ]
+ },
+ "siguiente": {
+  "es": "Mañana, en la tienda de Pon: cosas grandes, nuevas y deliciosas. ¡A describirlas!",
+  "en": "Tomorrow, at Pon's shop: big, new and delicious things. Time to describe them!"
+ },
+ "chuleta": {
+  "patron": {
+   "es": "〔sitio〕に〔algo〕が います／あります",
+   "en": "〔place〕に〔thing〕が います／あります"
+  },
+  "patron_tr": {
+   "es": "en 〔sitio〕 hay 〔algo〕",
+   "en": "there is 〔thing〕 in/on 〔place〕"
+  },
+  "filas": [
+   {
+    "jp": "箱[はこ]に 猫[ねこ]が います。",
+    "es": "En la caja hay un gato.",
+    "en": "There's a cat in the box.",
+    "registro": "educado"
+   },
+   {
+    "jp": "机[つくえ]に 本[ほん]が あります。",
+    "es": "En el escritorio hay un libro.",
+    "en": "There's a book on the desk."
+   },
+   {
+    "jp": "ここに いる？",
+    "es": "¿Estás aquí? (a un amigo)",
+    "en": "Are you here? (to a friend)",
+    "registro": "amigos"
+   }
+  ],
+  "consejo": {
+   "es": "Con amigos, いる y ある a secas (ここにいる？); con la sensei o con desconocidos, います y あります.",
+   "en": "With friends, plain いる and ある (ここにいる？); with the teacher or strangers, います and あります."
+  }
+ }
+}

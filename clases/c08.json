@@ -1,0 +1,917 @@
+{
+ "id": "c08",
+ "clase": 8,
+ "desde": 56,
+ "titulo": {
+  "es": "Las compras de la fiesta: contar con つ, 人[にん] y 本[ほん]",
+  "en": "Party shopping: counting with つ, 人[にん] and 本[ほん]"
+ },
+ "resumen": {
+  "es": "Para cosas: número + つ (三[みっ]つ). Para personas: número + 人 (三人[さんにん]). 一人[ひとり] y 二人[ふたり] son especiales.",
+  "en": "For things: number + つ (三[みっ]つ). For people: number + 人 (三人[さんにん]). 一人[ひとり] and 二人[ふたり] are irregular."
+ },
+ "formato": 2,
+ "lugar": "tienda",
+ "mision": {
+  "texto": {
+   "es": "La fiesta de la clase es esta tarde y el líder Nyan va de compras a la tienda de Pon. Cuenta bien: si te equivocas, ¡faltará o sobrará comida!",
+   "en": "The class party is this afternoon and leader Nyan goes shopping at Pon's. Count right: get it wrong and there'll be too much or too little food!"
+  },
+  "escena": {
+   "fondo": "tienda",
+   "cosas": [
+    {
+     "que": "nyan",
+     "x": 110
+    },
+    {
+     "que": "onigiri",
+     "x": 210,
+     "s": 1.6
+    },
+    {
+     "que": "persona",
+     "id": "tendero",
+     "x": 310
+    }
+   ]
+  },
+  "cara": "feliz",
+  "jp": "いち、 に、 さん…",
+  "voz": "m0"
+ },
+ "reglas": [
+  {
+   "id": "tsu",
+   "nombre": {
+    "es": "〜つ: contar cosas",
+    "en": "〜つ: counting things"
+   },
+   "patron": {
+    "es": "〔cosa〕を〔número〕つ ください",
+    "en": "〔thing〕を〔number〕つ ください"
+   },
+   "explica": {
+    "es": "En japonés no se dice «tres onigiri» a secas: el número lleva un «contador» según lo que cuentas. Para cosas en general, つ, con sus propias lecturas: 一つ (ひとつ), 二つ (ふたつ), 三つ (みっつ), 四つ (よっつ), 五つ (いつつ)… hasta 十 (とお). Y va detrás de la cosa: おにぎりを三つください. Para preguntar «¿cuántos?»: いくつ.",
+    "en": "Japanese doesn't just say «three onigiri»: the number takes a «counter» depending on what you count. For things in general, つ, with its own readings: 一つ (ひとつ), 二つ (ふたつ), 三つ (みっつ), 四つ (よっつ), 五つ (いつつ)… up to 十 (とお). It goes after the thing: おにぎりを三つください. To ask «how many?»: いくつ."
+   },
+   "ejemplos": [
+    {
+     "jp": "おにぎりを 三[みっ]つ ください。",
+     "es": "Tres onigiri, por favor.",
+     "en": "Three onigiri, please.",
+     "voz": "r1-1"
+    },
+    {
+     "jp": "いくつですか。",
+     "es": "¿Cuántos?",
+     "en": "How many?",
+     "voz": "r1-2"
+    }
+   ],
+   "ojo": {
+    "es": "Los contadores con つ usan los números japoneses antiguos (ひと, ふた, みっ…), no いち, に, さん: por eso 三つ es みっつ.",
+    "en": "The つ counters use the old native Japanese numbers (ひと, ふた, みっ…), not いち, に, さん: that's why 三つ is みっつ."
+   }
+  },
+  {
+   "id": "nin",
+   "nombre": {
+    "es": "〜人: contar personas",
+    "en": "〜人: counting people"
+   },
+   "patron": {
+    "es": "〔número〕人[にん]",
+    "en": "〔number〕人[にん]"
+   },
+   "explica": {
+    "es": "Las personas se cuentan con 人. Uno y dos son especiales: 一人 (ひとり) y 二人 (ふたり). A partir de tres, número + にん: 三人 (さんにん), 四人 (よにん), 五人 (ごにん)… Para preguntar: 何人 (なんにん), «¿cuántas personas?».",
+    "en": "People are counted with 人. One and two are special: 一人 (ひとり) and 二人 (ふたり). From three on, number + にん: 三人 (さんにん), 四人 (よにん), 五人 (ごにん)… To ask: 何人 (なんにん), «how many people?»."
+   },
+   "ejemplos": [
+    {
+     "jp": "わたしたちは 三人[さんにん]です。",
+     "es": "Somos tres.",
+     "en": "We're three.",
+     "voz": "r2-1"
+    },
+    {
+     "jp": "友達[ともだち]が 二人[ふたり] います。",
+     "es": "Tengo dos amigos.",
+     "en": "I have two friends.",
+     "voz": "r2-2"
+    }
+   ],
+   "ojo": {
+    "es": "Cuatro personas es よにん: し suena como 死 (muerte) y se evita, y よんにん simplemente no se dice.",
+    "en": "Four people is よにん: し sounds like 死 (death) so it's avoided, and よんにん just isn't said."
+   }
+  },
+  {
+   "id": "hon",
+   "nombre": {
+    "es": "〜本: cosas largas y finas",
+    "en": "〜本: long thin things"
+   },
+   "patron": {
+    "es": "〔número〕本[ほん]",
+    "en": "〔number〕本[ほん]"
+   },
+   "explica": {
+    "es": "Palitos, botellas, lápices, paraguas… todo lo largo y fino se cuenta con 本, que cambia de sonido según el número: 一本 (いっぽん), 二本 (にほん), 三本 (さんぼん), 四本 (よんほん), 五本 (ごほん), 六本 (ろっぽん)… No hace falta memorizarlo de golpe: se pega al oído de tanto oírlo.",
+    "en": "Skewers, bottles, pencils, umbrellas… anything long and thin is counted with 本, whose sound changes with the number: 一本 (いっぽん), 二本 (にほん), 三本 (さんぼん), 四本 (よんほん), 五本 (ごほん), 六本 (ろっぽん)… No need to memorise it all at once: it sticks from hearing it."
+   },
+   "ejemplos": [
+    {
+     "jp": "だんごを 三本[さんぼん] ください。",
+     "es": "Tres palitos de dango, por favor.",
+     "en": "Three dango skewers, please.",
+     "voz": "r3-1"
+    },
+    {
+     "jp": "水[みず]を 二本[にほん] ください。",
+     "es": "Dos botellas de agua, por favor.",
+     "en": "Two bottles of water, please.",
+     "voz": "r3-2"
+    }
+   ],
+   "ojo": {
+    "es": "二本 (にほん) suena igual que 日本 (Japón): el contexto y los kanji te dicen cuál es.",
+    "en": "二本 (にほん) sounds just like 日本 (Japan): context and kanji tell you which."
+   }
+  }
+ ],
+ "historia": [
+  {
+   "t": "dice",
+   "habla": "tendero",
+   "jp": "いらっしゃいませ！ 何[なに]に しますか。",
+   "tr": {
+    "es": "¡Bienvenido! ¿Qué va a ser?",
+    "en": "Welcome! What'll it be?"
+   },
+   "voz": "h1",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "tienda",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110
+     },
+     {
+      "que": "onigiri",
+      "x": 210,
+      "id": "onigiri",
+      "s": 1.6
+     },
+     {
+      "que": "persona",
+      "id": "tendero",
+      "x": 310
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "おにぎりを ください。",
+   "tr": {
+    "es": "Onigiri, por favor.",
+    "en": "Onigiri, please."
+   },
+   "voz": "h2",
+   "cara": "feliz"
+  },
+  {
+   "t": "dice",
+   "habla": "tendero",
+   "jp": "いくつですか。",
+   "tr": {
+    "es": "¿Cuántos?",
+    "en": "How many?"
+   },
+   "voz": "h3",
+   "plano": "medio"
+  },
+  {
+   "t": "regla",
+   "regla": "tsu"
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "A la fiesta vais tres. Pide: «Tres, por favor».",
+    "en": "Three of you are going to the party. Ask: «Three, please»."
+   },
+   "opciones": [
+    {
+     "jp": "三[みっ]つ ください。",
+     "bien": true,
+     "tr": {
+      "es": "Tres, por favor.",
+      "en": "Three, please."
+     },
+     "voz": "h4",
+     "porque": {
+      "es": "Cosas: 一つ, 二つ, 三つ (みっつ)…",
+      "en": "Things: 一つ, 二つ, 三つ (みっつ)…"
+     }
+    },
+    {
+     "jp": "三[さん]つ ください。",
+     "bien": false,
+     "porque": {
+      "es": "Con つ se usan los números japoneses antiguos: 三つ se lee みっつ, no さんつ.",
+      "en": "With つ you use the old native numbers: 三つ is read みっつ, not さんつ."
+     }
+    },
+    {
+     "jp": "三人[さんにん] ください。",
+     "bien": false,
+     "porque": {
+      "es": "人 es el contador de PERSONAS: ¡le estás pidiendo a Pon tres personas en vez de tres onigiri!",
+      "en": "人 is the counter for PEOPLE: you're asking Pon for three people instead of three onigiri!"
+     }
+    }
+   ],
+   "cara": "pensando"
+  },
+  {
+   "t": "dice",
+   "habla": "tendero",
+   "jp": "何人[なんにん]ですか。",
+   "tr": {
+    "es": "¿Cuántas personas sois?",
+    "en": "How many people are you?"
+   },
+   "voz": "h5",
+   "cara": "normal"
+  },
+  {
+   "t": "regla",
+   "regla": "nin"
+  },
+  {
+   "t": "monta",
+   "encargo": 0
+  },
+  {
+   "t": "dice",
+   "habla": "tendero",
+   "jp": "だんごも ありますよ！",
+   "tr": {
+    "es": "¡También hay dango!",
+    "en": "There's dango too!"
+   },
+   "voz": "h6",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "tienda",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110
+     },
+     {
+      "que": "dango",
+      "x": 205,
+      "id": "dango",
+      "s": 2.4
+     },
+     {
+      "que": "persona",
+      "id": "tendero",
+      "x": 310
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "hon"
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "Pide tres palitos de dango: uno para cada uno.",
+    "en": "Order three dango skewers: one each."
+   },
+   "opciones": [
+    {
+     "jp": "だんごを 三本[さんぼん] ください。",
+     "bien": true,
+     "tr": {
+      "es": "Tres palitos de dango, por favor.",
+      "en": "Three dango skewers, please."
+     },
+     "voz": "h7",
+     "porque": {
+      "es": "Cosas largas y finas (palitos, botellas, lápices): 本. 三本 se lee さんぼん.",
+      "en": "Long thin things (skewers, bottles, pencils): 本. 三本 is read さんぼん."
+     }
+    },
+    {
+     "jp": "だんごを 三[みっ]つ ください。",
+     "bien": false,
+     "porque": {
+      "es": "Con つ se entendería «tres unidades», pero los palitos de dango son largos y finos, y eso se cuenta con 本.",
+      "en": "つ would mean «three units», but dango skewers are long and thin, and those are counted with 本."
+     }
+    },
+    {
+     "jp": "だんごを 三人[さんにん] ください。",
+     "bien": false,
+     "porque": {
+      "es": "¿Tres PERSONAS de dango? 人 es solo para personas; las cosas largas y finas, como los palitos, van con 本.",
+      "en": "Three PEOPLE of dango? 人 is only for people; long thin things, like skewers, take 本."
+     }
+    }
+   ],
+   "cara": "feliz"
+  },
+  {
+   "t": "toca",
+   "pide": {
+    "es": "Pon te enseña la fruta. Escucha y toca lo que dice.",
+    "en": "Pon shows you the fruit. Listen and tap what he says."
+   },
+   "bien": "mikan",
+   "quien": "tendero",
+   "escena": {
+    "fondo": "tienda",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "mikan",
+      "x": 175,
+      "id": "mikan",
+      "s": 1.6
+     },
+     {
+      "que": "manzana",
+      "x": 235,
+      "id": "manzana",
+      "s": 1.2
+     },
+     {
+      "que": "persona",
+      "id": "tendero",
+      "x": 310
+     }
+    ]
+   },
+   "jp": "みかんが 三[みっ]つ あります。",
+   "voz": "h8",
+   "bien_msg": {
+    "es": "¡Eso! Tres mandarinas: みかんが三つ.",
+    "en": "Right! Three tangerines: みかんが三つ."
+   },
+   "mal_msg": {
+    "es": "Ha dicho みかん, las mandarinas: tres en el plato.",
+    "en": "He said みかん, the tangerines: three on the plate."
+   }
+  },
+  {
+   "t": "monta",
+   "encargo": 1
+  },
+  {
+   "t": "dice",
+   "habla": "tendero",
+   "jp": "はい、 どうぞ！ おにぎり 三[みっ]つ、 だんご 三本[さんぼん]、 水[みず] 二本[にほん]です。",
+   "tr": {
+    "es": "¡Aquí tienes! Tres onigiri, tres dango y dos aguas.",
+    "en": "Here you go! Three onigiri, three dango, two waters."
+   },
+   "voz": "h9",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "tienda",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110
+     },
+     {
+      "que": "onigiri",
+      "x": 175,
+      "s": 1.4
+     },
+     {
+      "que": "dango",
+      "x": 235,
+      "s": 2.2
+     },
+     {
+      "que": "persona",
+      "id": "tendero",
+      "x": 310
+     }
+    ]
+   }
+  }
+ ],
+ "epilogo": [
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "三人[さんにん]で、 おにぎりが 三[みっ]つ！ ぴったりですね！",
+   "tr": {
+    "es": "Tres personas, tres onigiri. ¡Justo!",
+    "en": "Three people, three onigiri. Perfect!"
+   },
+   "voz": "x1",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 72
+     },
+     {
+      "que": "onigiri",
+      "x": 185,
+      "y": 152,
+      "s": 1.0
+     },
+     {
+      "que": "dango",
+      "x": 240,
+      "y": 152,
+      "s": 1.8
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 255
+     },
+     {
+      "que": "perro",
+      "id": "kotaro",
+      "x": 340
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "kotaro",
+   "jp": "だんごも 三本[さんぼん]！",
+   "tr": {
+    "es": "¡Y tres palitos de dango!",
+    "en": "And three dango skewers!"
+   },
+   "voz": "x2",
+   "cara": "feliz"
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta la frase: la escena hará lo que digas.",
+   "en": "Build the sentence: the scene will do what you say."
+  },
+  "piezas": [
+   {
+    "id": "watashitachi",
+    "jp": "わたしたち",
+    "tipo": "palabra"
+   },
+   {
+    "id": "mizu",
+    "jp": "水[みず]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "wa",
+    "jp": "は",
+    "tipo": "particula"
+   },
+   {
+    "id": "wo",
+    "jp": "を",
+    "tipo": "particula"
+   },
+   {
+    "id": "sannin",
+    "jp": "三人[さんにん]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "futari",
+    "jp": "二人[ふたり]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "mittsu",
+    "jp": "三[みっ]つ",
+    "tipo": "palabra"
+   },
+   {
+    "id": "futatsu",
+    "jp": "二[ふた]つ",
+    "tipo": "palabra"
+   },
+   {
+    "id": "nihon",
+    "jp": "二本[にほん]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "desu",
+    "jp": "です",
+    "tipo": "verbo"
+   },
+   {
+    "id": "kudasai",
+    "jp": "ください",
+    "tipo": "verbo"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Dile cuántos sois: «Somos tres personas».",
+     "en": "Tell him how many you are: «We're three people»."
+    },
+    "escena": {
+     "fondo": "tienda",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110
+      },
+      {
+       "que": "persona",
+       "id": "tendero",
+       "x": 310
+      }
+     ]
+    },
+    "piezas": [
+     "watashitachi",
+     "wa",
+     "sannin",
+     "mittsu",
+     "futari",
+     "desu"
+    ],
+    "bien": [
+     [
+      "watashitachi",
+      "wa",
+      "sannin",
+      "desu"
+     ]
+    ],
+    "tr": {
+     "es": "Somos tres personas.",
+     "en": "We're three people."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "manpu",
+      "objeto": "tendero",
+      "manpu": "brillo"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "mittsu"
+       ]
+      },
+      "efecto": [
+       {
+        "tipo": "disfraz",
+        "objeto": "nyan",
+        "como": "onigiri"
+       },
+       {
+        "tipo": "manpu",
+        "objeto": "tendero",
+        "manpu": "excl"
+       }
+      ],
+      "msg": {
+       "es": "三つ cuenta COSAS… ¡y Nyan se ha convertido en onigiri! Para contar personas se usa 人: 三人 (さんにん).",
+       "en": "三つ counts THINGS… and Nyan turned into an onigiri! To count people, use 人: 三人 (さんにん)."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "futari"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "二人 (ふたり) son dos personas, pero vais tres a la fiesta: 三人 (さんにん).",
+       "en": "二人 (ふたり) is two people, but three of you are going: 三人 (さんにん)."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Para beber: «Dos botellas de agua, por favor».",
+     "en": "To drink: «Two bottles of water, please»."
+    },
+    "escena": {
+     "fondo": "tienda",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110
+      },
+      {
+       "que": "vaso",
+       "x": 210,
+       "id": "vaso",
+       "s": 1.4
+      },
+      {
+       "que": "persona",
+       "id": "tendero",
+       "x": 310
+      }
+     ]
+    },
+    "piezas": [
+     "mizu",
+     "wo",
+     "nihon",
+     "futatsu",
+     "futari",
+     "kudasai"
+    ],
+    "bien": [
+     [
+      "mizu",
+      "wo",
+      "nihon",
+      "kudasai"
+     ]
+    ],
+    "tr": {
+     "es": "Dos botellas de agua, por favor.",
+     "en": "Two bottles of water, please."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "brilla",
+      "objeto": "vaso"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "futari"
+       ]
+      },
+      "efecto": {
+       "tipo": "manpu",
+       "objeto": "tendero",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "二人 cuenta PERSONAS: ¡dos personas de agua! Las botellas son largas, así que se cuentan con 本: 二本.",
+       "en": "二人 counts PEOPLE: two people of water! Bottles are long, so they're counted with 本: 二本."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "futatsu"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "Se entiende, pero suena a extranjero: en Japón las botellas, por ser largas, se cuentan con 本. 二本.",
+       "en": "It's understood, but sounds foreign: in Japan bottles, being long, are counted with 本. 二本."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "reto": {
+  "intro": {
+   "jp": "ふん。 俺[おれ]の 分[ぶん]は ないのか？ 勝負[しょうぶ]だ！",
+   "tr": {
+    "es": "Hmpf. ¿Y lo mío qué? ¡Duelo!",
+    "en": "Hmph. What about my share? Duel!"
+   },
+   "voz": "k0"
+  },
+  "gana": {
+   "jp": "…くっ。 だんご、 一本[いっぽん] くれ。",
+   "tr": {
+    "es": "…Tsk. Dame un palito de dango.",
+    "en": "…Tch. Give me one dango skewer."
+   },
+   "voz": "kw"
+  },
+  "pierde": {
+   "jp": "ふん。 数[かず]も 数[かぞ]えられないのか。",
+   "tr": {
+    "es": "Hmpf. ¿Ni sabes contar?",
+    "en": "Hmph. Can't you even count?"
+   },
+   "voz": "kl"
+  },
+  "pica": {
+   "jp": "…やるな。",
+   "tr": {
+    "es": "…No está mal.",
+    "en": "…Not bad."
+   },
+   "voz": "kp"
+  },
+  "burla": {
+   "jp": "ふん！",
+   "tr": {
+    "es": "¡Ja!",
+    "en": "Hah!"
+   },
+   "voz": "kb"
+  },
+  "preguntas": [
+   {
+    "tipo": "elige",
+    "jp": "おにぎりを ＿ ください。 (3)",
+    "opciones": [
+     "三[みっ]つ",
+     "三人[さんにん]",
+     "三本[さんぼん]"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Tres onigiri, por favor.",
+     "en": "Three onigiri, please."
+    },
+    "porque": {
+     "es": "Los onigiri son cosas, así que van con つ: 三つ (みっつ).",
+     "en": "Onigiri are things, so they take つ: 三つ (みっつ)."
+    },
+    "voz": "q1"
+   },
+   {
+    "tipo": "elige",
+    "jp": "友達[ともだち]が ＿ います。 (2)",
+    "opciones": [
+     "二人[ふたり]",
+     "二[ふた]つ",
+     "二本[にほん]"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Hay dos amigos.",
+     "en": "There are two friends."
+    },
+    "porque": {
+     "es": "Los amigos son personas (人), y dos es especial: 二人 (ふたり).",
+     "en": "Friends are people (人), and two is special: 二人 (ふたり)."
+    },
+    "voz": "q2"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "鉛筆[えんぴつ]が 三本[さんぼん] あります。",
+    "correcta": true,
+    "tr": {
+     "es": "Hay tres lápices.",
+     "en": "There are three pencils."
+    },
+    "porque": {
+     "es": "Bien: los lápices son largos y finos, así que se cuentan con 本 (さんぼん).",
+     "en": "Right: pencils are long and thin, so they're counted with 本 (さんぼん)."
+    },
+    "voz": "q3"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "友達[ともだち]が 一[ひと]つ います。",
+    "correcta": false,
+    "tr": {
+     "es": "(Hay un amigo.)",
+     "en": "(There's one friend.)"
+    },
+    "porque": {
+     "es": "一つ trata al amigo como a una cosa. Las personas se cuentan con 人: 一人 (ひとり).",
+     "en": "一つ treats your friend like a thing. People are counted with 人: 一人 (ひとり)."
+    },
+    "voz": "q4"
+   },
+   {
+    "tipo": "oye",
+    "jp": "だんごを 二本[にほん] ください。",
+    "habla": "nyan",
+    "opciones": [
+     {
+      "es": "Dos palitos de dango, por favor.",
+      "en": "Two dango skewers, please."
+     },
+     {
+      "es": "Dango de Japón, por favor.",
+      "en": "Dango from Japan, please."
+     },
+     {
+      "es": "Dango para dos personas.",
+      "en": "Dango for two people."
+     }
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "二本 son dos cosas largas y finas (aquí, palitos), y suena igual que 日本, Japón.",
+     "en": "二本 is two long thin things (here, skewers), and sounds just like 日本, Japan."
+    },
+    "voz": "q5"
+   },
+   {
+    "tipo": "imagen",
+    "jp": "三[みっ]つ あります。",
+    "opciones": [
+     "mikan",
+     "onigiri",
+     "vaso"
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "Tres mandarinas en el plato; los onigiri son dos y el vaso, uno.",
+     "en": "Three tangerines on the plate; the onigiri are two and the glass is one."
+    },
+    "pide": {
+     "es": "¿De qué hay tres?",
+     "en": "What is there three of?"
+    }
+   }
+  ]
+ },
+ "siguiente": {
+  "es": "Mañana… ¡los onigiri de la fiesta han desaparecido! Nyan hará de detective: ¿qué hizo cada uno ayer?",
+  "en": "Tomorrow… the party onigiri have vanished! Nyan plays detective: what did everyone do yesterday?"
+ },
+ "chuleta": {
+  "patron": {
+   "es": "〔cosa〕を〔número+contador〕 ください",
+   "en": "〔thing〕を〔number+counter〕 ください"
+  },
+  "patron_tr": {
+   "es": "〔número〕 〔cosas〕, por favor",
+   "en": "〔number〕 〔things〕, please"
+  },
+  "filas": [
+   {
+    "jp": "おにぎりを 三[みっ]つ ください。",
+    "es": "Tres onigiri, por favor.",
+    "en": "Three onigiri, please.",
+    "registro": "educado"
+   },
+   {
+    "jp": "三人[さんにん]です。",
+    "es": "Somos tres.",
+    "en": "We're three."
+   },
+   {
+    "jp": "だんごを 三本[さんぼん] ください。",
+    "es": "Tres palitos de dango, por favor.",
+    "en": "Three dango skewers, please."
+   },
+   {
+    "jp": "これ、 二[ふた]つ ちょうだい！",
+    "es": "¡Dame dos de estos! (a un amigo)",
+    "en": "Give me two of these! (to a friend)",
+    "registro": "amigos"
+   }
+  ],
+  "consejo": {
+   "es": "Si dudas del contador, つ sirve para casi cualquier cosa (menos personas): te entenderán siempre.",
+   "en": "If you're unsure of the counter, つ works for almost anything (except people): you'll always be understood."
+  }
+ }
+}

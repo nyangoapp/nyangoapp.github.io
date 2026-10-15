@@ -1,0 +1,162 @@
+{
+ "id": "c32",
+ "clase": 32,
+ "desde": 980,
+ "titulo": {"es": "A Nyan le robaron el onigiri: la pasiva", "en": "Nyan's onigiri got stolen: the passive voice"},
+ "resumen": {"es": "La pasiva (〜られる) dice que algo TE pasa, hecho por otro. La cosa que lo sufre va con が; quién lo hizo, con に.",
+  "en": "The passive (〜られる) says something HAPPENS TO you, done by someone else. The thing it happens to takes が; whoever did it takes に."},
+ "intro": [
+  {"escena": {"fondo": "parque", "cosas": [{"que": "nyan", "x": 120, "cara": "feliz", "onigiri": true}, {"que": "onigiri", "x": 270, "s": 1.3}]},
+   "cara": "feliz", "jp": "おにぎり、大好[だいす]き！", "voz": "i1",
+   "tr": {"es": "¡Me encanta el onigiri!", "en": "I love onigiri!"},
+   "cartela": {"es": "Nyan está feliz con su onigiri. Por poco tiempo.", "en": "Nyan is happy with his onigiri. Not for long."}},
+  {"escena": {"fondo": "parque", "cosas": [{"que": "nyan", "x": 110, "cara": "sorpresa"}, {"que": "gato", "x": 280}, {"que": "manpu", "tipo": "excl", "x": 155, "y": 105}]},
+   "cara": "feliz", "habla": "tama", "jp": "えへへ、もらっちゃった。", "voz": "i2",
+   "tr": {"es": "Jeje, me lo he quedado.", "en": "Heheh, I went and took it."},
+   "cartela": {"es": "Tama se queda con el onigiri, tan tranquilo. Con amigos: 〜ちゃう (取[と]ってしまった → 取[と]っちゃった).", "en": "Tama just walks off with the onigiri. With friends: 〜ちゃう (取ってしまった → 取っちゃった)."}},
+  {"escena": {"fondo": "parque", "cosas": [{"que": "nyan", "x": 110, "cara": "pensando"}, {"que": "gato", "x": 280}, {"que": "manpu", "tipo": "pregunta", "x": 155, "y": 105}]},
+   "cara": "pensando", "jp": "猫[ねこ]が 取[と]られた…？", "voz": "i3",
+   "tr": {"es": "¿El gato… fue quitado?", "en": "The cat… got taken?"},
+   "cartela": {"es": "¡Espera! 猫[ねこ]が dice que el GATO es la víctima. Quien lo hizo va con に, no が.", "en": "Wait! 猫が says the CAT is the victim. Whoever did it takes に, not が."}},
+  {"escena": {"fondo": "parque", "cosas": [{"que": "nyan", "x": 110, "cara": "triste"}, {"que": "gato", "x": 280}, {"que": "onigiri", "x": 330, "y": 190, "s": 1}]},
+   "cara": "triste", "jp": "おにぎりが 猫[ねこ]に 取[と]られた。", "voz": "i4",
+   "tr": {"es": "El onigiri fue quitado por el gato.", "en": "The onigiri was taken by the cat."},
+   "cartela": {"es": "Eso es. La víctima (おにぎり) con が; quien actúa (猫[ねこ]) con に. ¡A practicar!", "en": "That's it. The victim (おにぎり) with が; the doer (猫) with に. Let's practice!"},
+   "nota": {"es": "Primo: la pasiva de víctima, con perjuicio (おにぎりが 猫[ねこ]に 取[と]られた) frente a 〜てある, un estado neutral (おにぎりが 取[と]ってある).", "en": "Cousin: the “victim” passive, with a downside (おにぎりが猫に取られた) vs 〜てある, a neutral state (おにぎりが取ってある)."}}
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {"es": "Monta cada frase pasiva. Los verbos en る (godan) usan あ+れる; el resto usa られる.",
+   "en": "Build each passive sentence. る-verbs (godan) use あ+れる; the rest use られる."},
+  "piezas": [
+   {"id": "onigiri", "jp": "おにぎり", "tipo": "palabra"}, {"id": "ga", "jp": "が", "tipo": "particula"}, {"id": "neko", "jp": "猫[ねこ]", "tipo": "palabra"}, {"id": "ni", "jp": "に", "tipo": "particula"},
+   {"id": "tora", "jp": "取[と]ら", "tipo": "palabra"}, {"id": "remashita", "jp": "れました", "tipo": "particula"},
+   {"id": "toru", "jp": "取[と]る", "tipo": "verbo"}, {"id": "totta", "jp": "取[と]った", "tipo": "verbo"},
+   {"id": "imouto", "jp": "妹[いもうと]", "tipo": "palabra"}, {"id": "tabe", "jp": "食[た]べ", "tipo": "palabra"}, {"id": "raremashita", "jp": "られました", "tipo": "particula"},
+   {"id": "tabemashita", "jp": "食[た]べました", "tipo": "verbo"}, {"id": "de", "jp": "で", "tipo": "particula"},
+   {"id": "tomodachi", "jp": "友達[ともだち]", "tipo": "palabra"}, {"id": "warawa", "jp": "笑[わら]わ", "tipo": "palabra"},
+   {"id": "warau", "jp": "笑[わら]う", "tipo": "verbo"}, {"id": "waratta", "jp": "笑[わら]った", "tipo": "verbo"},
+   {"id": "ame", "jp": "雨[あめ]", "tipo": "palabra"}, {"id": "fura", "jp": "降[ふ]ら", "tipo": "palabra"},
+   {"id": "futta", "jp": "降[ふ]った", "tipo": "verbo"}, {"id": "furu", "jp": "降[ふ]る", "tipo": "verbo"},
+   {"id": "sensei", "jp": "先生[せんせい]", "tipo": "palabra"}, {"id": "mi", "jp": "見[み]", "tipo": "palabra"},
+   {"id": "mireru", "jp": "見[み]れる", "tipo": "verbo"}, {"id": "mimashita", "jp": "見[み]ました", "tipo": "verbo"}
+  ],
+  "encargos": [
+   {"pide": {"es": "Di, con tristeza: «El onigiri fue quitado por el gato».", "en": "Say, sadly: «The onigiri was taken by the cat»."},
+    "escena": {"fondo": "parque", "cosas": [{"que": "nyan", "x": 110, "cara": "triste"}, {"que": "gato", "x": 270}, {"que": "onigiri", "x": 320, "s": 1}]},
+    "piezas": ["onigiri", "ga", "neko", "ni", "tora", "remashita", "toru", "totta"],
+    "bien": [["onigiri", "ga", "neko", "ni", "tora", "remashita"]], "tr": {"es": "El onigiri fue quitado por el gato.", "en": "The onigiri was taken by the cat."},
+    "efecto_bien": [{"tipo": "huye", "objeto": "onigiri", "hacia": "der"}, {"tipo": "nyan", "cara": "triste"}],
+    "fallos": [
+     {"si": {"contiene": ["toru"]}, "efecto": {"tipo": "nyan", "cara": "pensando", "manpu": "pregunta"},
+      "msg": {"es": "取[と]る no es pasiva. Para «se lo quitan» hace falta 取[と]られました.", "en": "取る isn't passive. For “it gets taken” you need 取られました."}},
+     {"si": {"contiene": ["totta"]}, "efecto": {"tipo": "nyan", "cara": "sorpresa"},
+      "msg": {"es": "取[と]った es «lo tomé YO». Para «me lo quitaron», la pasiva: 取[と]られました.", "en": "取った is “I took it”. For “it was taken from me”, use the passive: 取られました."}},
+     {"si": {"falta": ["remashita"]}, "efecto": {"tipo": "nyan", "cara": "normal"},
+      "msg": {"es": "取[と]ら solo no dice nada: hace falta れました detrás.", "en": "取ら alone doesn't say anything: it needs れました after it."}}
+    ]},
+   {"pide": {"es": "Di: «El onigiri fue comido por mi hermana».", "en": "Say: «The onigiri was eaten by my sister»."},
+    "escena": {"fondo": "cocina", "cosas": [{"que": "nyan", "x": 110, "cara": "triste"}, {"que": "persona", "x": 270}, {"que": "onigiri", "x": 320, "s": 1}]},
+    "piezas": ["onigiri", "ga", "imouto", "ni", "tabe", "raremashita", "tabemashita", "de"],
+    "bien": [["onigiri", "ga", "imouto", "ni", "tabe", "raremashita"]], "tr": {"es": "El onigiri fue comido por mi hermana.", "en": "The onigiri was eaten by my sister."},
+    "efecto_bien": [{"tipo": "desaparece", "objeto": "onigiri"}, {"tipo": "nyan", "cara": "triste", "manpu": "sudor"}],
+    "fallos": [
+     {"si": {"contiene": ["tabemashita"]}, "efecto": {"tipo": "nyan", "cara": "pensando", "manpu": "pregunta"},
+      "msg": {"es": "食[た]べました no dice a quién le pasó. Para la pasiva: 食[た]べられました.", "en": "食べました doesn't say who it happened to. For the passive: 食べられました."}},
+     {"si": {"contiene": ["de"]}, "efecto": {"tipo": "nyan", "cara": "pensando", "manpu": "pregunta"},
+      "msg": {"es": "に marca quién lo hizo, no で.", "en": "に marks who did it, not で."}},
+     {"si": {"falta": ["raremashita"]}, "efecto": {"tipo": "nyan", "cara": "normal"},
+      "msg": {"es": "食[た]べ solo no dice nada: hace falta られました detrás.", "en": "食べ alone doesn't say anything: it needs られました after it."}}
+    ]},
+   {"pide": {"es": "Di, con tristeza: «Mis amigos se rieron de mí».", "en": "Say, sadly: «My friends laughed at me»."},
+    "escena": {"fondo": "escuela", "cosas": [{"que": "nyan", "x": 110, "cara": "triste"}, {"que": "persona", "x": 270, "cara": "feliz"}]},
+    "piezas": ["tomodachi", "ni", "warawa", "remashita", "warau", "waratta"],
+    "bien": [["tomodachi", "ni", "warawa", "remashita"]], "tr": {"es": "Mis amigos se rieron de mí.", "en": "My friends laughed at me."},
+    "efecto_bien": [{"tipo": "nyan", "cara": "triste", "manpu": "sudor"}],
+    "fallos": [
+     {"si": {"contiene": ["warau"]}, "efecto": {"tipo": "nyan", "cara": "pensando", "manpu": "pregunta"},
+      "msg": {"es": "笑[わら]う no cambia: para la pasiva hace falta 笑[わら]わ + れました.", "en": "笑う doesn't change: for the passive you need 笑わ + れました."}},
+     {"si": {"contiene": ["waratta"]}, "efecto": {"tipo": "nyan", "cara": "feliz"},
+      "msg": {"es": "笑[わら]った es «me reí YO». Para «se rieron DE mí»: 笑[わら]われました.", "en": "笑った is “I laughed”. For “they laughed AT me”: 笑われました."}},
+     {"si": {"falta": ["remashita"]}, "efecto": {"tipo": "nyan", "cara": "normal"},
+      "msg": {"es": "笑[わら]わ solo no dice nada: hace falta れました detrás.", "en": "笑わ alone doesn't say anything: it needs れました after it."}}
+    ]},
+   {"pide": {"es": "Di, con tristeza: «Me pilló la lluvia».", "en": "Say, sadly: «I got rained on»."},
+    "escena": {"fondo": "calle", "cosas": [{"que": "nyan", "x": 130, "cara": "triste"}, {"que": "nube", "x": 280}]},
+    "piezas": ["ame", "ni", "fura", "remashita", "futta", "furu"],
+    "bien": [["ame", "ni", "fura", "remashita"]], "tr": {"es": "Me pilló la lluvia.", "en": "I got rained on."},
+    "efecto_bien": [{"tipo": "nyan", "cara": "triste", "manpu": "sudor"}, {"tipo": "tiembla", "objeto": "nyan"}],
+    "fallos": [
+     {"si": {"contiene": ["futta"]}, "efecto": {"tipo": "nyan", "cara": "normal"},
+      "msg": {"es": "降[ふ]った solo dice «llovió». Con la pasiva añades que TE fastidió: 雨[あめ]に 降[ふ]られました.", "en": "降った just says “it rained”. With the passive you add that it bothered YOU: 雨に降られました."}},
+     {"si": {"contiene": ["furu"]}, "efecto": {"tipo": "nyan", "cara": "pensando", "manpu": "pregunta"},
+      "msg": {"es": "Hace falta cambiar 降[ふ]る a 降[ふ]ら antes de れました.", "en": "You need to change 降る to 降ら before れました."}},
+     {"si": {"falta": ["remashita"]}, "efecto": {"tipo": "nyan", "cara": "normal"},
+      "msg": {"es": "降[ふ]ら solo no dice nada: hace falta れました detrás.", "en": "降ら alone doesn't say anything: it needs れました after it."}}
+    ]},
+   {"pide": {"es": "Reto: di, sorprendido: «¡El profesor me vio!» (te ha pillado).", "en": "Challenge: say, surprised: «The teacher saw me!» (caught you)."},
+    "escena": {"fondo": "escuela", "cosas": [{"que": "nyan", "x": 110, "cara": "sorpresa"}, {"que": "profesor", "x": 280}]},
+    "piezas": ["sensei", "ni", "mi", "raremashita", "mireru", "mimashita"],
+    "bien": [["sensei", "ni", "mi", "raremashita"]], "tr": {"es": "El profesor me vio.", "en": "The teacher saw me."},
+    "efecto_bien": [{"tipo": "nyan", "cara": "sorpresa", "manpu": "excl"}],
+    "fallos": [
+     {"si": {"contiene": ["mireru"]}, "efecto": {"tipo": "nyan", "cara": "pensando", "manpu": "pregunta"},
+      "msg": {"es": "見[み]れる sería «puedo ver» (potencial, sin ら). Para la pasiva: 見[み]られました.", "en": "見れる would be “I can see” (potential, without ら). For the passive: 見られました."}},
+     {"si": {"contiene": ["mimashita"]}, "efecto": {"tipo": "nyan", "cara": "normal"},
+      "msg": {"es": "見[み]ました es «vi YO». Para «me vieron»: 見[み]られました.", "en": "見ました is “I saw”. For “I was seen”: 見られました."}},
+     {"si": {"falta": ["raremashita"]}, "efecto": {"tipo": "nyan", "cara": "normal"},
+      "msg": {"es": "見[み] solo no dice nada: hace falta られました detrás.", "en": "見 alone doesn't say anything: it needs られました after it."}}
+    ]}
+  ]
+ },
+ "juego": {
+  "intro": {"es": "¿に (quién lo hizo) o が (quién lo sufre)?", "en": "に (who did it) or が (who it happens to)?"},
+  "nyan": {"es": "A mí siempre me toca が. Siempre soy la víctima.", "en": "I'm always が. Always the victim."},
+  "cestas": [
+   {"id": "ni", "jp": "に", "sub": {"es": "quién lo hizo", "en": "who did it"}},
+   {"id": "ga", "jp": "が", "sub": {"es": "quién lo sufre", "en": "who it happens to"}}
+  ],
+  "cartas": [
+   {"id": "j1", "dibujo": "gato", "jp": "おにぎりが 猫[ねこ]＿ 取[と]られました。", "cesta": "ni", "es": "El onigiri fue quitado por el gato.", "en": "The onigiri was taken by the cat."},
+   {"id": "j2", "jp": "私[わたし]は 友達[ともだち]＿ 笑[わら]われました。", "cesta": "ni", "es": "Mis amigos se rieron de mí.", "en": "My friends laughed at me."},
+   {"id": "j3", "dibujo": "profesor", "jp": "私[わたし]は 先生[せんせい]＿ 見[み]られました。", "cesta": "ni", "es": "El profesor me vio (¡pillado!).", "en": "The teacher saw me (caught!)."},
+   {"id": "j4", "dibujo": "nube", "jp": "私[わたし]は 雨[あめ]＿ 降[ふ]られました。", "cesta": "ni", "es": "Me pilló la lluvia.", "en": "I got rained on."},
+   {"id": "j5", "dibujo": "onigiri", "jp": "おにぎり＿ 猫[ねこ]に 取[と]られました。", "cesta": "ga", "es": "El onigiri fue quitado por el gato.", "en": "The onigiri was taken by the cat."},
+   {"id": "j6", "jp": "宿題[しゅくだい]＿ 猫[ねこ]に 食[た]べられました。", "cesta": "ga", "es": "Los deberes se los comió el gato.", "en": "The homework got eaten by the cat.",
+    "truco": {"es": "宿題[しゅくだい] es la víctima aquí: va con が.", "en": "宿題 is the victim here: it takes が."}},
+   {"id": "j7", "dibujo": "silla", "jp": "椅子[いす]＿ 誰[だれ]かに 使[つか]われました。", "cesta": "ga", "es": "La silla la usó alguien.", "en": "The chair was used by someone."},
+   {"id": "j8", "jp": "ノート＿ 先生[せんせい]に 見[み]られました。", "cesta": "ga", "es": "El profesor vio el cuaderno.", "en": "The teacher saw the notebook."}
+  ]
+ },
+ "outro": [
+  {"escena": {"fondo": "parque", "cosas": [{"que": "nyan", "x": 110, "cara": "triste"}, {"que": "gato", "x": 270}]},
+   "cara": "triste", "jp": "おにぎりが 猫[ねこ]に 取[と]られました。", "voz": "o1",
+   "tr": {"es": "El onigiri fue quitado por el gato.", "en": "The onigiri was taken by the cat."},
+   "cartela": {"es": "La víctima con が; quien actúa con に.", "en": "The victim with が; the doer with に."}},
+  {"escena": {"fondo": "calle", "cosas": [{"que": "nyan", "x": 130, "cara": "triste"}, {"que": "nube", "x": 280}]},
+   "cara": "triste", "jp": "雨[あめ]に 降[ふ]られました。", "voz": "o2",
+   "tr": {"es": "Me pilló la lluvia.", "en": "I got rained on."},
+   "cartela": {"es": "La pasiva también sirve para quejarte de algo que te fastidió.", "en": "The passive also works to complain about something that bothered you."}},
+  {"escena": {"fondo": "cuarto", "cosas": [{"que": "nyan", "x": 200, "cara": "triste", "s": 1.1}]},
+   "cara": "triste", "jp": "また 猫[ねこ]に 笑[わら]われた…。", "voz": "o3",
+   "tr": {"es": "El gato se ha vuelto a reír de mí…", "en": "The cat laughed at me again…"},
+   "cartela": {"es": "Fin. が para quien lo sufre, に para quien lo hace. Pobre Nyan.", "en": "The end. が for who suffers it, に for who does it. Poor Nyan."}}
+ ],
+ "chuleta": {
+  "patron": {"es": "〔víctima〕が 〔quién lo hizo〕に 〔verbo〕られる", "en": "〔victim〕が 〔who did it〕に 〔verb〕られる"},
+  "patron_tr": {"es": "a X le pasa Y, hecho por Z", "en": "X has Y happen to them, done by Z"},
+  "columnas": [
+   {"jp": "godan (る)", "texto": {"es": "última sílaba a あ + れる: 取[と]る→取[と]られる", "en": "last syllable to あ + れる: 取る→取られる"}, "dibujos": ["gato"]},
+   {"jp": "ichidan・する・来る", "texto": {"es": "quita る, añade られる (する→される, 来[く]る→来[こ]られる)", "en": "drop る, add られる (する→される, 来る→来られる)"}, "dibujos": ["onigiri"]}
+  ],
+  "filas": [
+   {"jp": "おにぎりが 猫[ねこ]に 取[と]られた。", "es": "El onigiri fue quitado por el gato.", "en": "The onigiri was taken by the cat.", "registro": "amigos"},
+   {"jp": "おにぎりが 猫[ねこ]に 取[と]られました。", "es": "El onigiri fue quitado por el gato.", "en": "The onigiri was taken by the cat.", "registro": "educado"},
+   {"jp": "雨[あめ]に 降[ふ]られた。", "es": "Me pilló la lluvia.", "en": "I got rained on.", "registro": "amigos"},
+   {"jp": "雨[あめ]に 降[ふ]られました。", "es": "Me pilló la lluvia.", "en": "I got rained on.", "registro": "educado"},
+   {"jp": "先生[せんせい]に 見[み]られた。", "es": "El profesor me vio.", "en": "The teacher saw me.", "registro": "amigos"},
+   {"jp": "先生[せんせい]に 見[み]られました。", "es": "El profesor me vio.", "en": "The teacher saw me.", "registro": "educado"}
+  ],
+  "consejo": {"es": "Ojo: en los verbos る (ichidan) られる puede ser pasiva («me vieron») o potencial («puedo ver»). Se aclara por el contexto.", "en": "Watch out: with る-verbs (ichidan) られる can be passive (“I was seen”) or potential (“I can see”). Context makes it clear."}
+ }
+}

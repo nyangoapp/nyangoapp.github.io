@@ -1,0 +1,975 @@
+{
+ "id": "c03",
+ "clase": 3,
+ "desde": 17,
+ "titulo": {
+  "es": "Picnic con la sensei: los verbos con ます y を",
+  "en": "Picnic with the teacher: verbs with ます and を"
+ },
+ "resumen": {
+  "es": "Los verbos educados acaban en ます. Lo que comes, ves, lees o bebes se marca con を, justo antes del verbo.",
+  "en": "Polite verbs end in ます. What you eat, watch, read or drink is marked with を, right before the verb."
+ },
+ "formato": 2,
+ "registro": true,
+ "lugar": "cuarto",
+ "mision": {
+  "texto": {
+   "es": "Picnic en casa de Tama. Fukuro-sensei viene a comer y Nyan quiere impresionarla: di bien lo que haces… ¡y habrá onigiri para todos!",
+   "en": "Picnic at Tama's. Fukuro-sensei is coming to eat and Nyan wants to impress her: say what you do correctly… and there'll be onigiri for everyone!"
+  },
+  "escena": {
+   "fondo": "cuarto",
+   "cosas": [
+    {
+     "que": "nyan",
+     "x": 92
+    },
+    {
+     "que": "onigiri",
+     "x": 205,
+     "y": 152,
+     "s": 1.1
+    },
+    {
+     "que": "gato",
+     "id": "tama",
+     "x": 308
+    }
+   ]
+  },
+  "cara": "feliz"
+ },
+ "reglas": [
+  {
+   "id": "masu",
+   "nombre": {
+    "es": "〜ます: el verbo educado",
+    "en": "〜ます: the polite verb"
+   },
+   "patron": {
+    "es": "〔verbo〕ます",
+    "en": "〔verb〕ます"
+   },
+   "explica": {
+    "es": "Los verbos tienen una forma de diccionario (食べる, comer) y una forma educada que acaba en ます (食べます). Con el profesor, en una tienda o con alguien que acabas de conocer, usa ます. Y una buena noticia: el verbo no cambia con la persona. «Como», «comes» y «come» son todos 食べます.",
+    "en": "Verbs have a dictionary form (食べる, to eat) and a polite form ending in ます (食べます). With a teacher, in a shop or with someone you just met, use ます. And good news: the verb doesn't change with the person. «I eat», «you eat» and «he eats» are all 食べます."
+   },
+   "ejemplos": [
+    {
+     "jp": "食[た]べます。",
+     "es": "Como. (o comes, come…)",
+     "en": "I eat. (or you eat, he eats…)",
+     "voz": "r1-1"
+    },
+    {
+     "jp": "テレビを 見[み]ます。",
+     "es": "Veo la tele.",
+     "en": "I watch TV.",
+     "voz": "r1-2"
+    }
+   ],
+   "ojo": {
+    "es": "です no se pega a los verbos: 食べるです está mal. O 食べます (educado) o 食べる (de tú).",
+    "en": "です doesn't attach to verbs: 食べるです is wrong. Either 食べます (polite) or 食べる (casual)."
+   }
+  },
+  {
+   "id": "wo",
+   "nombre": {
+    "es": "を: lo que comes, ves, lees…",
+    "en": "を: what you eat, watch, read…"
+   },
+   "patron": {
+    "es": "〔la cosa〕を〔verbo〕ます",
+    "en": "〔the thing〕を〔verb〕ます"
+   },
+   "explica": {
+    "es": "を (se lee «o») marca la cosa sobre la que cae la acción: lo que comes, bebes, lees o ves. Va justo detrás de esa cosa y antes del verbo: 水を飲みます, «agua-を bebo». El verbo, como siempre, al final.",
+    "en": "を (read «o») marks the thing the action falls on: what you eat, drink, read or watch. It goes right after that thing and before the verb: 水を飲みます, «water-を drink». The verb, as always, goes last."
+   },
+   "ejemplos": [
+    {
+     "jp": "水[みず]を 飲[の]みます。",
+     "es": "Bebo agua.",
+     "en": "I drink water.",
+     "voz": "r2-1"
+    },
+    {
+     "jp": "本[ほん]を 読[よ]みます。",
+     "es": "Leo un libro.",
+     "en": "I read a book.",
+     "voz": "r2-2"
+    }
+   ],
+   "ojo": {
+    "es": "を suena igual que お, pero se escribe con su propia letra porque es partícula: así se ve de un vistazo qué palabra es la cosa.",
+    "en": "を sounds like お but has its own letter because it's a particle: that way you instantly see which word is the object."
+   }
+  }
+ ],
+ "historia": [
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "ニャン、 おにぎりを 食[た]べますか。",
+   "tr": {
+    "es": "Nyan, ¿comes onigiri?",
+    "en": "Nyan, do you eat onigiri?"
+   },
+   "voz": "h1",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 92
+     },
+     {
+      "que": "onigiri",
+      "x": 205,
+      "y": 152,
+      "id": "onigiri",
+      "s": 1.1
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 308
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "masu"
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "¡Claro que sí! Contesta educado: «Sí, como».",
+    "en": "Of course! Answer politely: «Yes, I do»."
+   },
+   "opciones": [
+    {
+     "jp": "はい、 食[た]べます！",
+     "bien": true,
+     "tr": {
+      "es": "¡Sí, como!",
+      "en": "Yes, I eat!"
+     },
+     "voz": "h2",
+     "porque": {
+      "es": "El verbo educado acaba en ます: 食べます.",
+      "en": "The polite verb ends in ます: 食べます."
+     }
+    },
+    {
+     "jp": "はい、 食[た]べるです。",
+     "bien": false,
+     "porque": {
+      "es": "です es el «es» de las cosas, no de los verbos: a un verbo se le hace educado cambiando su final a ます. 食べます.",
+      "en": "です is the «is» for things, not verbs: a verb becomes polite by changing its ending to ます. 食べます."
+     }
+    },
+    {
+     "jp": "はい、 おにぎりです。",
+     "bien": false,
+     "porque": {
+      "es": "Eso contesta «¿qué es?» (es un onigiri), pero Tama te ha preguntado si COMES: la respuesta lleva el verbo, 食べます.",
+      "en": "That answers «what is it?» (an onigiri), but Tama asked if you EAT: the answer needs the verb, 食べます."
+     }
+    }
+   ],
+   "cara": "feliz"
+  },
+  {
+   "t": "dice",
+   "habla": "sensei",
+   "jp": "こんにちは。 水[みず]を 飲[の]みますか。",
+   "tr": {
+    "es": "Hola. ¿Bebes agua?",
+    "en": "Hello. Do you drink water?"
+   },
+   "voz": "h3",
+   "reacciona": {
+    "nyan": "sorpresa"
+   },
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 72
+     },
+     {
+      "que": "vaso",
+      "x": 168,
+      "y": 152,
+      "id": "vaso",
+      "s": 0.95
+     },
+     {
+      "que": "sensei",
+      "id": "sensei",
+      "x": 232
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 338
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "wo"
+  },
+  {
+   "t": "monta",
+   "encargo": 0
+  },
+  {
+   "t": "dice",
+   "habla": "sensei",
+   "jp": "わたしは 本[ほん]を 読[よ]みます。",
+   "tr": {
+    "es": "Yo leo un libro.",
+    "en": "I read a book."
+   },
+   "voz": "h4",
+   "cara": "feliz",
+   "plano": "medio",
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 72
+     },
+     {
+      "que": "libro",
+      "x": 190,
+      "y": 152,
+      "s": 1.0
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 245
+     },
+     {
+      "que": "sensei",
+      "id": "sensei",
+      "x": 338
+     }
+    ]
+   }
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "Nyan prefiere la tele. Dilo educado: «Veo la tele».",
+    "en": "Nyan prefers TV. Say it politely: «I watch TV»."
+   },
+   "opciones": [
+    {
+     "jp": "テレビを 見[み]ます。",
+     "bien": true,
+     "tr": {
+      "es": "Veo la tele.",
+      "en": "I watch TV."
+     },
+     "voz": "h5",
+     "porque": {
+      "es": "La cosa + を + el verbo en ます.",
+      "en": "The thing + を + the verb in ます."
+     }
+    },
+    {
+     "jp": "テレビを 見[み]るです。",
+     "bien": false,
+     "porque": {
+      "es": "です no se pega a los verbos; el verbo 見る se hace educado cambiando su final: 見ます.",
+      "en": "です doesn't attach to verbs; 見る becomes polite by changing its ending: 見ます."
+     }
+    },
+    {
+     "jp": "テレビ 見[み]ますを。",
+     "bien": false,
+     "porque": {
+      "es": "を marca la cosa que ves, así que va pegado a ella, y el verbo siempre cierra la frase: テレビを見ます.",
+      "en": "を marks the thing you watch, so it sticks to it, and the verb always closes the sentence: テレビを見ます."
+     }
+    }
+   ],
+   "cara": "pensando",
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 92
+     },
+     {
+      "que": "tele",
+      "x": 208,
+      "y": 152,
+      "id": "tele",
+      "s": 0.75
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 310
+     }
+    ]
+   }
+  },
+  {
+   "t": "toca",
+   "pide": {
+    "es": "Tama dice lo que va a comer. Escucha y toca lo que es.",
+    "en": "Tama says what she'll eat. Listen and tap it."
+   },
+   "bien": "onigiri",
+   "quien": "tama",
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 62
+     },
+     {
+      "que": "vaso",
+      "x": 160,
+      "y": 152,
+      "id": "vaso",
+      "s": 0.95
+     },
+     {
+      "que": "libro",
+      "x": 207,
+      "y": 152,
+      "id": "libro",
+      "s": 1.05
+     },
+     {
+      "que": "onigiri",
+      "x": 252,
+      "y": 152,
+      "id": "onigiri",
+      "s": 1.05
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 345
+     }
+    ]
+   },
+   "jp": "わたしは おにぎりを 食[た]べます。",
+   "voz": "h6",
+   "bien_msg": {
+    "es": "¡Eso! おにぎりを食べます: come onigiri.",
+    "en": "Right! おにぎりを食べます: she eats onigiri."
+   },
+   "mal_msg": {
+    "es": "Ha dicho おにぎりを食べます: lo que come es la bola de arroz.",
+    "en": "She said おにぎりを食べます: she eats the rice ball."
+   }
+  },
+  {
+   "t": "monta",
+   "encargo": 1
+  },
+  {
+   "t": "dice",
+   "habla": "sensei",
+   "jp": "いいですね！",
+   "tr": {
+    "es": "¡Muy bien!",
+    "en": "Very good!"
+   },
+   "voz": "h7",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 72
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 210
+     },
+     {
+      "que": "sensei",
+      "id": "sensei",
+      "x": 335
+     }
+    ]
+   }
+  }
+ ],
+ "epilogo": [
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "みんなで 食[た]べます！",
+   "tr": {
+    "es": "¡A comer todos juntos!",
+    "en": "Let's all eat together!"
+   },
+   "voz": "x1",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 72,
+      "onigiri": true
+     },
+     {
+      "que": "onigiri",
+      "x": 205,
+      "y": 152,
+      "s": 1.0
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 245
+     },
+     {
+      "que": "sensei",
+      "id": "sensei",
+      "x": 338
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "おいしいです！",
+   "tr": {
+    "es": "¡Está buenísimo!",
+    "en": "It's delicious!"
+   },
+   "voz": "x2",
+   "cara": "feliz",
+   "brazo": "arriba"
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta la frase: la escena hará lo que digas.",
+   "en": "Build the sentence: the scene will do what you say."
+  },
+  "piezas": [
+   {
+    "id": "nyan",
+    "jp": "ニャン",
+    "tipo": "palabra"
+   },
+   {
+    "id": "mizu",
+    "jp": "水[みず]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "hon",
+    "jp": "本[ほん]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "onigiri",
+    "jp": "おにぎり",
+    "tipo": "palabra"
+   },
+   {
+    "id": "wa",
+    "jp": "は",
+    "tipo": "particula"
+   },
+   {
+    "id": "wo",
+    "jp": "を",
+    "tipo": "particula"
+   },
+   {
+    "id": "nomimasu",
+    "jp": "飲[の]みます",
+    "tipo": "verbo"
+   },
+   {
+    "id": "tabemasu",
+    "jp": "食[た]べます",
+    "tipo": "verbo"
+   },
+   {
+    "id": "yomimasu",
+    "jp": "読[よ]みます",
+    "tipo": "verbo"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Contesta a Fukuro: «Bebo agua».",
+     "en": "Answer Fukuro: «I drink water»."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 92
+      },
+      {
+       "que": "vaso",
+       "x": 205,
+       "y": 152,
+       "id": "vaso",
+       "s": 1.0
+      },
+      {
+       "que": "sensei",
+       "id": "sensei",
+       "x": 310
+      }
+     ]
+    },
+    "piezas": [
+     "mizu",
+     "wo",
+     "nomimasu",
+     "tabemasu",
+     "wa",
+     "onigiri"
+    ],
+    "bien": [
+     [
+      "mizu",
+      "wo",
+      "nomimasu"
+     ]
+    ],
+    "tr": {
+     "es": "Bebo agua.",
+     "en": "I drink water."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "come",
+      "objeto": "vaso",
+      "texto": "ごくごく"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "tabemasu"
+       ]
+      },
+      "efecto": [
+       {
+        "tipo": "tiembla",
+        "objeto": "vaso"
+       },
+       {
+        "tipo": "nyan",
+        "cara": "sorpresa",
+        "manpu": "sudor"
+       }
+      ],
+      "msg": {
+       "es": "¿COMERTE el agua? 食べます es comer; para líquidos se usa 飲みます, beber.",
+       "en": "EAT the water? 食べます is eat; for liquids you use 飲みます, drink."
+      }
+     },
+     {
+      "si": {
+       "en": [
+        0,
+        "nomimasu"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "En japonés el verbo cierra siempre la frase: primero lo que bebes (水を) y al final la acción, 飲みます.",
+       "en": "In Japanese the verb always closes the sentence: first what you drink (水を), then the action at the end, 飲みます."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "onigiri"
+       ]
+      },
+      "efecto": {
+       "tipo": "manpu",
+       "objeto": "sensei",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Fukuro te ha preguntado por el agua: si contestas con el onigiri, parece que no le has escuchado.",
+       "en": "Fukuro asked about water: answering about the onigiri sounds like you weren't listening."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "wa"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "は marcaría el tema («en cuanto al agua…»); lo que recibe la acción de beber se marca con を: 水を飲みます.",
+       "en": "は would mark the topic («as for water…»); what receives the drinking is marked with を: 水を飲みます."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Tama te enseña su manga. Di: «Nyan lee un libro».",
+     "en": "Tama shows you her manga. Say: «Nyan reads a book»."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 92
+      },
+      {
+       "que": "libro",
+       "x": 205,
+       "y": 152,
+       "id": "libro",
+       "s": 1.1
+      },
+      {
+       "que": "gato",
+       "id": "tama",
+       "x": 310
+      }
+     ]
+    },
+    "piezas": [
+     "nyan",
+     "wa",
+     "hon",
+     "wo",
+     "yomimasu",
+     "tabemasu",
+     "nomimasu"
+    ],
+    "bien": [
+     [
+      "nyan",
+      "wa",
+      "hon",
+      "wo",
+      "yomimasu"
+     ]
+    ],
+    "tr": {
+     "es": "Nyan lee un libro.",
+     "en": "Nyan reads a book."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "salta",
+      "objeto": "libro"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "tabemasu"
+       ]
+      },
+      "efecto": [
+       {
+        "tipo": "come",
+        "objeto": "libro"
+       },
+       {
+        "tipo": "nyan",
+        "cara": "feliz"
+       },
+       {
+        "tipo": "manpu",
+        "objeto": "tama",
+        "manpu": "excl"
+       }
+      ],
+      "msg": {
+       "es": "¡Nyan se ha COMIDO el libro! Leer es 読みます.",
+       "en": "Nyan ATE the book! Read is 読みます."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "nomimasu"
+       ]
+      },
+      "efecto": [
+       {
+        "tipo": "tiembla",
+        "objeto": "libro"
+       },
+       {
+        "tipo": "nyan",
+        "cara": "sorpresa"
+       }
+      ],
+      "msg": {
+       "es": "¿Beberte un libro? 飲みます es beber; con libros, 読みます, leer.",
+       "en": "Drink a book? 飲みます is drink; with books, 読みます, read."
+      }
+     },
+     {
+      "si": {
+       "en": [
+        4,
+        "hon"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "El verbo siempre cierra la frase: 本を (el libro) y al final 読みます (leo).",
+       "en": "The verb always closes the sentence: 本を (the book) and 読みます (read) at the end."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "reto": {
+  "intro": {
+   "jp": "ふん。 食[た]べて ばかりだな。 問題[もんだい]だ！",
+   "tr": {
+    "es": "Hmpf. Solo sabes comer. ¡Examen!",
+    "en": "Hmph. All you do is eat. Test time!"
+   },
+   "voz": "k0"
+  },
+  "gana": {
+   "jp": "…ちっ。 やるな。",
+   "tr": {
+    "es": "…Tsk. No está mal.",
+    "en": "…Tch. Not bad."
+   },
+   "voz": "kw"
+  },
+  "pierde": {
+   "jp": "ふん。 おにぎりは 俺[おれ]が 食[た]べる。",
+   "tr": {
+    "es": "Hmpf. El onigiri me lo como yo.",
+    "en": "Hmph. I'll eat the onigiri."
+   },
+   "voz": "kl"
+  },
+  "pica": {
+   "jp": "…やるな。",
+   "tr": {
+    "es": "…No está mal.",
+    "en": "…Not bad."
+   },
+   "voz": "kp"
+  },
+  "burla": {
+   "jp": "ふん！",
+   "tr": {
+    "es": "¡Ja!",
+    "en": "Hah!"
+   },
+   "voz": "kb"
+  },
+  "preguntas": [
+   {
+    "tipo": "elige",
+    "jp": "水[みず]＿ 飲[の]みます。",
+    "opciones": [
+     "を",
+     "は",
+     "の"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Bebo agua.",
+     "en": "I drink water."
+    },
+    "porque": {
+     "es": "を marca sobre qué cae la acción: lo que bebes es el agua, 水を.",
+     "en": "を marks what the action falls on: what you drink is the water, 水を."
+    },
+    "voz": "q1"
+   },
+   {
+    "tipo": "elige",
+    "jp": "おにぎりを 食[た]べ＿。",
+    "opciones": [
+     "ます",
+     "です"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Como onigiri.",
+     "en": "I eat onigiri."
+    },
+    "porque": {
+     "es": "Con verbos, lo educado es terminar en ます; です es solo para decir qué ES algo.",
+     "en": "With verbs, the polite form ends in ます; です is only for saying what something IS."
+    },
+    "voz": "q2"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "本[ほん]を 読[よ]みます。",
+    "correcta": true,
+    "tr": {
+     "es": "Leo un libro.",
+     "en": "I read a book."
+    },
+    "porque": {
+     "es": "Perfecto: la cosa con を y el verbo al final, que es donde siempre va en japonés.",
+     "en": "Perfect: the thing with を and the verb at the end, where it always goes in Japanese."
+    },
+    "voz": "q3"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "読[よ]みます 本[ほん]を。",
+    "correcta": false,
+    "tr": {
+     "es": "(Leo un libro.)",
+     "en": "(I read a book.)"
+    },
+    "porque": {
+     "es": "El verbo siempre cierra la frase: 本を (el libro) y al final 読みます (leo).",
+     "en": "The verb always closes the sentence: 本を (the book) and 読みます (read) at the end."
+    },
+    "voz": "q4"
+   },
+   {
+    "tipo": "oye",
+    "jp": "テレビを 見[み]ますか。",
+    "habla": "tama",
+    "opciones": [
+     {
+      "es": "¿Ves la tele?",
+      "en": "Do you watch TV?"
+     },
+     {
+      "es": "Veo la tele.",
+      "en": "I watch TV."
+     },
+     {
+      "es": "¿Es una tele?",
+      "en": "Is it a TV?"
+     }
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "見ます es «ver» en educado, y la か del final lo convierte en pregunta.",
+     "en": "見ます is polite «watch», and the final か makes it a question."
+    },
+    "voz": "q5"
+   },
+   {
+    "tipo": "imagen",
+    "jp": "水[みず]を 飲[の]みます。",
+    "opciones": [
+     "vaso",
+     "libro",
+     "onigiri"
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "水 es agua: la que hay en el vaso.",
+     "en": "水 is water: what's in the glass."
+    },
+    "pide": {
+     "es": "¿Qué bebe?",
+     "en": "What does he drink?"
+    }
+   }
+  ]
+ },
+ "siguiente": {
+  "es": "Mañana el onigiri de Nyan desaparece… y algo se mueve dentro de una caja.",
+  "en": "Tomorrow Nyan's onigiri disappears… and something moves inside a box."
+ },
+ "chuleta": {
+  "patron": {
+   "es": "〔la cosa〕を〔verbo〕ます",
+   "en": "〔the thing〕を〔verb〕ます"
+  },
+  "patron_tr": {
+   "es": "(yo) 〔verbo〕 〔la cosa〕",
+   "en": "(I) 〔verb〕 〔the thing〕"
+  },
+  "filas": [
+   {
+    "jp": "おにぎりを 食[た]べます。",
+    "es": "Como onigiri.",
+    "en": "I eat onigiri.",
+    "registro": "educado"
+   },
+   {
+    "jp": "おにぎり、 食[た]べる？",
+    "es": "¿Comes onigiri? (a un amigo)",
+    "en": "Eating onigiri? (to a friend)",
+    "registro": "amigos"
+   },
+   {
+    "jp": "水[みず]を 飲[の]みます。",
+    "es": "Bebo agua.",
+    "en": "I drink water."
+   },
+   {
+    "jp": "本[ほん]を 読[よ]みます。",
+    "es": "Leo un libro.",
+    "en": "I read a book."
+   }
+  ],
+  "consejo": {
+   "es": "Con la sensei o en una tienda, ます. Con amigos como Tama, la forma de diccionario (食べる) basta: se oye más cercana.",
+   "en": "With the teacher or in a shop, ます. With friends like Tama, the dictionary form (食べる) is enough: it sounds closer."
+  }
+ }
+}

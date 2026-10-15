@@ -1,0 +1,856 @@
+{
+ "id": "c15",
+ "clase": 15,
+ "desde": 195,
+ "titulo": {
+  "es": "Con buena letra: adverbios (く／に) y 〜のが好き",
+  "en": "Neatly: adverbs (く／に) and 〜のが好き"
+ },
+ "resumen": {
+  "es": "い → く convierte un adjetivo en «cómo se hace algo» (大きい → 大きく). Y の convierte un verbo en una «cosa», para poder decir que te gusta.",
+  "en": "い → く turns an adjective into «how something is done» (大きい → 大きく). And の turns a verb into a «thing», so you can say you like it."
+ },
+ "formato": 2,
+ "lugar": "escuela",
+ "mision": {
+  "texto": {
+   "es": "Hay que hacer el cartel del puesto en la entrada de la escuela. Cada uno trabaja a su manera: di CÓMO lo hace cada uno… y descubre qué le gusta hacer a cada cual para repartir el trabajo.",
+   "en": "The stall sign has to be made in the school entrance hall. Everyone works their own way: say HOW each one does it… and find out what each likes doing to share out the work."
+  },
+  "escena": {
+   "fondo": "escuela",
+   "cosas": [
+    {
+     "que": "nyan",
+     "x": 80
+    },
+    {
+     "que": "pizarra",
+     "x": 205,
+     "id": "pizarra",
+     "s": 1.0
+    },
+    {
+     "que": "gato",
+     "id": "tama",
+     "x": 335
+    }
+   ]
+  },
+  "cara": "feliz",
+  "jp": "きれいに 書[か]きます！",
+  "voz": "m0"
+ },
+ "reglas": [
+  {
+   "id": "ku",
+   "nombre": {
+    "es": "い → く: cómo se hace (adjetivos en い)",
+    "en": "い → く: how it's done (い adjectives)"
+   },
+   "patron": {
+    "es": "〔adjetivo sin い〕く ＋ verbo",
+    "en": "〔adjective without い〕く ＋ verb"
+   },
+   "explica": {
+    "es": "Un adjetivo describe una cosa: 大きい字, «letra grande». Si lo que quieres describir es CÓMO se hace algo, cambia la い final por く y ponlo delante del verbo: 大きく書く, «escribir grande»; 速く走る, «correr rápido». Es lo que en español hace «-mente» o el adjetivo suelto («escribe grande»).",
+    "en": "An adjective describes a thing: 大きい字, «big letters». If you want to describe HOW something is done, change the final い to く and put it before the verb: 大きく書く, «write big»; 速く走る, «run fast». It's what «-ly» does in English."
+   },
+   "ejemplos": [
+    {
+     "jp": "大[おお]きく 書[か]いて ください。",
+     "es": "Escríbelo grande, por favor.",
+     "en": "Please write it big.",
+     "voz": "r1-1"
+    },
+    {
+     "jp": "速[はや]く 走[はし]ります。",
+     "es": "Corro rápido.",
+     "en": "I run fast.",
+     "voz": "r1-2"
+    }
+   ],
+   "ojo": {
+    "es": "いい es la excepción de siempre: se convierte en よく («bien», y también «a menudo»). よくできました = «¡muy bien hecho!».",
+    "en": "いい is the usual exception: it becomes よく («well», and also «often»). よくできました = «well done!»."
+   }
+  },
+  {
+   "id": "ni",
+   "nombre": {
+    "es": "な → に: cómo se hace (adjetivos en な)",
+    "en": "な → に: how it's done (な adjectives)"
+   },
+   "patron": {
+    "es": "〔adjetivo en な〕に ＋ verbo",
+    "en": "〔な adjective〕に ＋ verb"
+   },
+   "explica": {
+    "es": "Con los adjetivos en な pasa lo mismo, pero con に: 静か → 静かに話す, «hablar bajito»; きれい → きれいに書く, «escribir con buena letra». Cuidado con きれい: acaba en い pero es de los en な (きれいな花), así que va con に. La pista para saberlo es cómo se pega a un nombre: si lleva な, en el cómo lleva に. Y 静かにしてください (literalmente «hazlo en silencio») es la forma normal de pedir silencio: する con un adverbio en に significa «ponerse así».",
+    "en": "な adjectives do the same, but with に: 静か → 静かに話す, «speak quietly»; きれい → きれいに書く, «write neatly». Watch out for きれい: it ends in い but it's a な adjective (きれいな花), so it takes に. The clue is how it joins a noun: if it takes な, the «how» takes に. And 静かにしてください (literally «make it quiet») is the normal way to ask for silence: する with a に adverb means «become like that»."
+   },
+   "ejemplos": [
+    {
+     "jp": "静[しず]かに して ください。",
+     "es": "Silencio, por favor.",
+     "en": "Quiet, please.",
+     "voz": "r2-1"
+    },
+    {
+     "jp": "きれいに 書[か]きました。",
+     "es": "Lo he escrito con buena letra.",
+     "en": "I wrote it neatly.",
+     "voz": "r2-2"
+    }
+   ],
+   "ojo": {
+    "es": "静かな + nombre describe la cosa (静かな部屋); 静かに + verbo describe cómo se hace (静かに話す). Si detrás viene un verbo, に.",
+    "en": "静かな + noun describes the thing (静かな部屋); 静かに + verb describes how it's done (静かに話す). If a verb follows, に."
+   }
+  },
+  {
+   "id": "nogasuki",
+   "nombre": {
+    "es": "〜のが好き: me gusta HACER algo",
+    "en": "〜のが好き: I like DOING something"
+   },
+   "patron": {
+    "es": "〔verbo〕のが 好きです",
+    "en": "〔verb〕のが 好きです"
+   },
+   "explica": {
+    "es": "好き necesita una COSA delante (猫が好き). Para que te guste una ACCIÓN, pon の detrás del verbo en forma de diccionario: の la convierte en cosa, «el hacer». 描くのが好きです, «me gusta dibujar» (al pie de la letra, «me gusta el dibujar»). Funciona igual con 上手 (se me da bien), 下手 (se me da mal) y 嫌い (no me gusta): 歌うのが下手です.",
+    "en": "好き needs a THING before it (猫が好き). For liking an ACTION, put の after the verb in dictionary form: の turns it into a thing, «the doing». 描くのが好きです, «I like drawing». It works the same with 上手 (good at), 下手 (bad at) and 嫌い (dislike): 歌うのが下手です."
+   },
+   "ejemplos": [
+    {
+     "jp": "絵[え]を 描[か]くのが 好[す]きです。",
+     "es": "Me gusta dibujar.",
+     "en": "I like drawing.",
+     "voz": "r3-1"
+    },
+    {
+     "jp": "食[た]べるのが 好[す]きです。",
+     "es": "Me gusta comer.",
+     "en": "I like eating.",
+     "voz": "r3-2"
+    }
+   ],
+   "ojo": {
+    "es": "Delante de の va la forma de diccionario (描く), no la de ます: ます solo puede cerrar una frase, y aquí la frase sigue.",
+    "en": "The dictionary form (描く) goes before の, not the ます form: ます can only close a sentence, and here it continues."
+   }
+  }
+ ],
+ "historia": [
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "お祭[まつ]りの 看板[かんばん]を 作[つく]りましょう！",
+   "tr": {
+    "es": "¡Hagamos el cartel del puesto!",
+    "en": "Let's make the stall sign!"
+   },
+   "voz": "h1",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "pizarra",
+      "x": 205,
+      "id": "pizarra",
+      "s": 1.0
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 335
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "わたしが 書[か]きます！",
+   "tr": {
+    "es": "¡Lo escribo yo!",
+    "en": "I'll write it!"
+   },
+   "voz": "h2",
+   "cara": "feliz",
+   "brazo": "arriba"
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "大[おお]きく 書[か]いて くださいね。",
+   "tr": {
+    "es": "Escríbelo grande, ¿eh?",
+    "en": "Write it big, okay?"
+   },
+   "voz": "h3",
+   "plano": "medio",
+   "cara": "feliz"
+  },
+  {
+   "t": "regla",
+   "regla": "ku"
+  },
+  {
+   "t": "monta",
+   "encargo": 0
+  },
+  {
+   "t": "dice",
+   "habla": "kotaro",
+   "jp": "わーい！ お祭[まつ]り、 お祭[まつ]り！",
+   "tr": {
+    "es": "¡Bieeen! ¡Festival, festival!",
+    "en": "Yay! Festival, festival!"
+   },
+   "voz": "h4",
+   "cara": "feliz",
+   "reacciona": {
+    "nyan": "sorpresa"
+   },
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "pizarra",
+      "x": 205,
+      "id": "pizarra",
+      "s": 1.0
+     },
+     {
+      "que": "manpu",
+      "tipo": "prisa",
+      "x": 290,
+      "y": 130
+     },
+     {
+      "que": "perro",
+      "id": "kotaro",
+      "x": 320
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "sensei",
+   "jp": "コタローさん、 静[しず]かに して ください。",
+   "tr": {
+    "es": "Kotarō, silencio, por favor.",
+    "en": "Kotarō, quiet, please."
+   },
+   "voz": "h5",
+   "plano": "medio",
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 65
+     },
+     {
+      "que": "pizarra",
+      "x": 205,
+      "id": "pizarra",
+      "s": 1.0
+     },
+     {
+      "que": "perro",
+      "id": "kotaro",
+      "x": 265
+     },
+     {
+      "que": "sensei",
+      "id": "sensei",
+      "x": 345
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "ni"
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "Kotarō no para de hablar a gritos. Pídeselo tú: «Habla bajito, por favor».",
+    "en": "Kotarō keeps shouting. Ask him yourself: «Speak quietly, please»."
+   },
+   "opciones": [
+    {
+     "jp": "静[しず]かに 話[はな]して ください。",
+     "bien": true,
+     "tr": {
+      "es": "Habla bajito, por favor.",
+      "en": "Please speak quietly."
+     },
+     "voz": "h6",
+     "porque": {
+      "es": "静か es un adjetivo en な: para decir CÓMO, な pasa a に.",
+      "en": "静か is a な adjective: to say HOW, な becomes に."
+     }
+    },
+    {
+     "jp": "静[しず]かな 話[はな]して ください。",
+     "bien": false,
+     "porque": {
+      "es": "静かな va delante de un nombre (静かな部屋, «una habitación tranquila»). Delante de un verbo, para decir cómo: 静かに.",
+      "en": "静かな goes before a noun (静かな部屋, «a quiet room»). Before a verb, to say how: 静かに."
+     }
+    },
+    {
+     "jp": "静[しず]かく 話[はな]して ください。",
+     "bien": false,
+     "porque": {
+      "es": "く es para los adjetivos en い. 静か es de los en な, así que va con に: 静かに.",
+      "en": "く is for い adjectives. 静か is a な adjective, so it takes に: 静かに."
+     }
+    }
+   ],
+   "cara": "pensando",
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "pizarra",
+      "x": 205,
+      "id": "pizarra",
+      "s": 1.0
+     },
+     {
+      "que": "perro",
+      "id": "kotaro",
+      "x": 320
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "kotaro",
+   "jp": "ごめんなさい…",
+   "tr": {
+    "es": "Perdón…",
+    "en": "Sorry…"
+   },
+   "voz": "h7",
+   "cara": "feliz"
+  },
+  {
+   "t": "dice",
+   "habla": "sensei",
+   "jp": "みなさんは 何[なに]を するのが 好[す]きですか。",
+   "tr": {
+    "es": "¿Qué os gusta hacer a cada uno?",
+    "en": "What does each of you like doing?"
+   },
+   "voz": "h8",
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 200
+     },
+     {
+      "que": "sensei",
+      "id": "sensei",
+      "x": 335
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "nogasuki"
+  },
+  {
+   "t": "elige",
+   "habla": "tama",
+   "pide": {
+    "es": "Tama dibuja de maravilla. ¿Qué contesta?",
+    "en": "Tama draws beautifully. What does she answer?"
+   },
+   "opciones": [
+    {
+     "jp": "絵[え]を 描[か]くのが 好[す]きです。",
+     "bien": true,
+     "tr": {
+      "es": "Me gusta dibujar.",
+      "en": "I like drawing."
+     },
+     "voz": "h9",
+     "porque": {
+      "es": "描く + の: la acción se vuelve una «cosa», y así puede gustar: 描くのが好き.",
+      "en": "描く + の: the action becomes a «thing», so it can be liked: 描くのが好き."
+     }
+    },
+    {
+     "jp": "絵[え]を 描[か]くが 好[す]きです。",
+     "bien": false,
+     "porque": {
+      "es": "好き necesita una COSA delante, y 描く es una acción. Con の se convierte en cosa: 描くのが好き.",
+      "en": "好き needs a THING before it, and 描く is an action. の turns it into a thing: 描くのが好き."
+     }
+    },
+    {
+     "jp": "絵[え]を 描[か]きますのが 好[す]きです。",
+     "bien": false,
+     "porque": {
+      "es": "Delante de の va la forma de diccionario (描く): ます solo puede ir al final de la frase.",
+      "en": "The dictionary form (描く) goes before の: ます can only go at the end of a sentence."
+     }
+    }
+   ],
+   "cara": "feliz"
+  },
+  {
+   "t": "toca",
+   "pide": {
+    "es": "¿Y a Nyan? Tama sabe muy bien lo que le gusta. Escucha y toca.",
+    "en": "And Nyan? Tama knows exactly what he likes. Listen and tap."
+   },
+   "bien": "onigiri",
+   "quien": "tama",
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 65
+     },
+     {
+      "que": "lapiz",
+      "x": 165,
+      "id": "lapiz",
+      "s": 1.1
+     },
+     {
+      "que": "onigiri",
+      "x": 220,
+      "id": "onigiri",
+      "s": 1.2
+     },
+     {
+      "que": "libro",
+      "x": 272,
+      "id": "libro",
+      "s": 1.2
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 345
+     }
+    ]
+   },
+   "jp": "ニャンは 食[た]べるのが 好[す]きです。",
+   "voz": "h10",
+   "bien_msg": {
+    "es": "¡Claro! 食べるのが好き: le gusta comer. Nadie se sorprende.",
+    "en": "Of course! 食べるのが好き: he likes eating. Nobody's surprised."
+   },
+   "mal_msg": {
+    "es": "Ha dicho 食べるのが好き: le gusta COMER. ¿Qué hay aquí para comer?",
+    "en": "She said 食べるのが好き: he likes EATING. What's here to eat?"
+   }
+  }
+ ],
+ "epilogo": [
+  {
+   "t": "dice",
+   "habla": "sensei",
+   "jp": "上手[じょうず]に できましたね！",
+   "tr": {
+    "es": "¡Os ha quedado muy bien!",
+    "en": "You did it really well!"
+   },
+   "voz": "x1",
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "pizarra",
+      "x": 205,
+      "id": "pizarra",
+      "s": 1.0
+     },
+     {
+      "que": "sensei",
+      "id": "sensei",
+      "x": 340
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "書[か]くのも 好[す]きです！",
+   "tr": {
+    "es": "¡Escribir también me gusta!",
+    "en": "I like writing too!"
+   },
+   "voz": "x2",
+   "cara": "feliz",
+   "brazo": "arriba"
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta la frase: la escena hará lo que digas.",
+   "en": "Build the sentence: the scene will do what you say."
+  },
+  "piezas": [
+   {
+    "id": "motto",
+    "jp": "もっと",
+    "tipo": "palabra"
+   },
+   {
+    "id": "ookiku",
+    "jp": "大[おお]きく",
+    "tipo": "palabra"
+   },
+   {
+    "id": "ookii",
+    "jp": "大[おお]きい",
+    "tipo": "palabra"
+   },
+   {
+    "id": "chiisaku",
+    "jp": "小[ちい]さく",
+    "tipo": "palabra"
+   },
+   {
+    "id": "kaitekudasai",
+    "jp": "書[か]いて ください",
+    "tipo": "verbo"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Nyan ha escrito tan pequeño que no se lee nada. Tama insiste: «Escríbelo más grande, por favor».",
+     "en": "Nyan wrote so small nobody can read it. Tama insists: «Write it bigger, please»."
+    },
+    "escena": {
+     "fondo": "escuela",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 80
+      },
+      {
+       "que": "pizarra",
+       "x": 205,
+       "id": "pizarra",
+       "s": 1.0
+      },
+      {
+       "que": "gato",
+       "id": "tama",
+       "x": 335
+      }
+     ]
+    },
+    "piezas": [
+     "motto",
+     "ookiku",
+     "ookii",
+     "chiisaku",
+     "kaitekudasai"
+    ],
+    "bien": [
+     [
+      "motto",
+      "ookiku",
+      "kaitekudasai"
+     ]
+    ],
+    "tr": {
+     "es": "Escríbelo más grande, por favor.",
+     "en": "Write it bigger, please."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "texto",
+      "texto": "おまつり",
+      "x": 205,
+      "y": 190
+     },
+     {
+      "tipo": "brilla",
+      "objeto": "pizarra"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "chiisaku"
+       ]
+      },
+      "efecto": [
+       {
+        "tipo": "texto",
+        "texto": "おまつり",
+        "x": 205,
+        "y": 190
+       },
+       {
+        "tipo": "manpu",
+        "objeto": "tama",
+        "manpu": "sudor"
+       }
+      ],
+      "msg": {
+       "es": "¡Aún más pequeño! 小さく es «en pequeño». Tama lo quiere GRANDE: 大きく.",
+       "en": "Even smaller! 小さく is «small». Tama wants it BIG: 大きく."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "ookii"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "大きい describe una cosa (大きい字, «letra grande»). Para decir CÓMO se escribe, la い pasa a く: 大きく書く.",
+       "en": "大きい describes a thing (大きい字, «big letters»). To say HOW you write, い becomes く: 大きく書く."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "reto": {
+  "intro": {
+   "jp": "ふん。 字[じ]なら 俺[おれ]の ほうが きれいに 書[か]ける。 勝負[しょうぶ]だ！",
+   "tr": {
+    "es": "Hmpf. Yo escribo con mejor letra que tú. ¡Duelo!",
+    "en": "Hmph. My handwriting is neater than yours. Duel!"
+   },
+   "voz": "k0"
+  },
+  "gana": {
+   "jp": "…くっ。 お前[まえ]の 字[じ]も、 悪[わる]くない。",
+   "tr": {
+    "es": "…Tsk. Tu letra tampoco está mal.",
+    "en": "…Tch. Your handwriting isn't bad either."
+   },
+   "voz": "kw"
+  },
+  "pierde": {
+   "jp": "ふん。 もっと 上手[じょうず]に なれ。",
+   "tr": {
+    "es": "Hmpf. A ver si mejoras.",
+    "en": "Hmph. Get better."
+   },
+   "voz": "kl"
+  },
+  "pica": {
+   "jp": "…やるな。",
+   "tr": {
+    "es": "…No está mal.",
+    "en": "…Not bad."
+   },
+   "voz": "kp"
+  },
+  "burla": {
+   "jp": "ふん！",
+   "tr": {
+    "es": "¡Ja!",
+    "en": "Hah!"
+   },
+   "voz": "kb"
+  },
+  "preguntas": [
+   {
+    "tipo": "elige",
+    "jp": "字[じ]を きれい＿ 書[か]きます。",
+    "opciones": [
+     "に",
+     "く",
+     "な"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Escribo con buena letra.",
+     "en": "I write neatly."
+    },
+    "porque": {
+     "es": "きれい acaba en い pero es de los en な (きれいな花): para el cómo, に.",
+     "en": "きれい ends in い but it's a な adjective (きれいな花): for how, に."
+    },
+    "voz": "q1"
+   },
+   {
+    "tipo": "elige",
+    "jp": "もっと 速[はや]＿ 走[はし]って！",
+    "opciones": [
+     "く",
+     "に",
+     "い"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "¡Corre más rápido!",
+     "en": "Run faster!"
+    },
+    "porque": {
+     "es": "速い es en い: la い pasa a く para decir cómo.",
+     "en": "速い is an い adjective: い becomes く to say how."
+    },
+    "voz": "q2"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "歌[うた]うのが 好[す]きです。",
+    "correcta": true,
+    "tr": {
+     "es": "Me gusta cantar.",
+     "en": "I like singing."
+    },
+    "porque": {
+     "es": "Bien: 歌う + の + が好き.",
+     "en": "Right: 歌う + の + が好き."
+    },
+    "voz": "q3"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "静[しず]かく 食[た]べて ください。",
+    "correcta": false,
+    "tr": {
+     "es": "(Come en silencio, por favor.)",
+     "en": "(Please eat quietly.)"
+    },
+    "porque": {
+     "es": "静か es en な: 静かに.",
+     "en": "静か is a な adjective: 静かに."
+    },
+    "voz": "q4"
+   },
+   {
+    "tipo": "oye",
+    "jp": "ニャンは 寝[ね]るのが 好[す]きです。",
+    "habla": "tama",
+    "opciones": [
+     {
+      "es": "A Nyan le gusta dormir.",
+      "en": "Nyan likes sleeping."
+     },
+     {
+      "es": "Nyan está durmiendo.",
+      "en": "Nyan is sleeping."
+     },
+     {
+      "es": "Nyan quiere dormir.",
+      "en": "Nyan wants to sleep."
+     }
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "寝る + の + が好き: le gusta dormir. «Está durmiendo» sería 寝ています; «quiere dormir», 寝たいです.",
+     "en": "寝る + の + が好き: likes sleeping. «Is sleeping» would be 寝ています; «wants to sleep», 寝たいです."
+    },
+    "voz": "q5"
+   },
+   {
+    "tipo": "imagen",
+    "jp": "ニャンは 食[た]べるのが 好[す]きです。",
+    "opciones": [
+     "onigiri",
+     "lapiz",
+     "libro"
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "食べるのが好き: le gusta comer, y los onigiri se comen.",
+     "en": "食べるのが好き: he likes eating, and onigiri are for eating."
+    },
+    "pide": {
+     "es": "¿Qué le gusta a Nyan?",
+     "en": "What does Nyan like?"
+    }
+   }
+  ]
+ },
+ "siguiente": {
+  "es": "Último día de preparativos en el parque: hay mil cosas que hacer… ¿y si hacemos dos a la vez?",
+  "en": "Last day of preparations in the park: a thousand things to do… what if we do two at once?"
+ },
+ "chuleta": {
+  "patron": {
+   "es": "〔adj. い〕く／〔adj. な〕に ＋ verbo ・ 〔verbo〕のが好き",
+   "en": "〔い adj.〕く／〔な adj.〕に ＋ verb ・ 〔verb〕のが好き"
+  },
+  "patron_tr": {
+   "es": "cómo se hace ・ me gusta hacer",
+   "en": "how it's done ・ I like doing"
+  },
+  "filas": [
+   {
+    "jp": "きれいに 書[か]いて ください。",
+    "es": "Escríbelo con buena letra, por favor.",
+    "en": "Please write it neatly.",
+    "registro": "educado"
+   },
+   {
+    "jp": "早[はや]く 来[き]て！",
+    "es": "¡Ven rápido! (a un amigo)",
+    "en": "Come quick! (to a friend)",
+    "registro": "amigos"
+   },
+   {
+    "jp": "歌[うた]うのが 好[す]きです。",
+    "es": "Me gusta cantar.",
+    "en": "I like singing."
+   }
+  ],
+  "consejo": {
+   "es": "早く (pronto, temprano) y 速く (rápido) suenan igual: はやく. El kanji te dice cuál es; hablando, lo aclara el contexto.",
+   "en": "早く (early, soon) and 速く (fast) sound the same: はやく. The kanji tells you which; in speech, context does."
+  }
+ }
+}

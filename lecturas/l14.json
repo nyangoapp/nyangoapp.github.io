@@ -1,0 +1,48 @@
+{
+ "id": "l14", "desde": 1125,
+ "titulo": {"jp": "ニャンの お 仕事[しごと]", "es": "Nyan ayuda en la tienda", "en": "Nyan helps at the shop"},
+ "resumen": {"es": "A Nyan le falta dinero para un dulce, así que ayuda en la tienda de Pon, el tanuki.", "en": "Nyan is short on money for a treat, so he helps out at Pon the tanuki's shop."},
+ "portada": {"fondo": "tienda", "cosas": [{"que": "nyan", "x": 100, "cara": "normal"}, {"que": "caja", "x": 200}, {"que": "persona", "x": 310}]},
+ "texto": [
+   {"voz": "t1", "quien": "narrador", "jp": "ある 日[ひ]、 ニャンは お 店[みせ]の 窓[まど]で、 おいしそうな お 菓子[かし]を 見[み]つけた。", "es": "Un día, Nyan vio en el escaparate de una tienda unos dulces con muy buena pinta.", "en": "One day, Nyan spotted a delicious-looking treat in a shop window."},
+   {"voz": "t2", "quien": "nyan", "jp": "これ、 欲[ほ]しいな…。 でも、 お 金[かね]が ない。", "es": "Los quiero… Pero no tengo dinero.", "en": "I want this... But I don't have any money."},
+   {"voz": "t3", "quien": "narrador", "jp": "ちょうど その とき、 ポンが 店[みせ]から 出[で]て きた。 ポンは、 この 店[みせ]の 主人[しゅじん]だった。", "es": "Justo en ese momento, Pon salió de la tienda. Pon, el tanuki, era el dueño.", "en": "Just then, Pon came out of the shop. Pon the tanuki was the owner."},
+   {"voz": "t4", "quien": "pon", "jp": "おお、 ニャン！ 忙[いそが]しくて 大変[たいへん]なんだ。 手伝[てつだ]って くれない？", "es": "¡Hombre, Nyan! Estoy liadísimo. ¿Me echas una mano?", "en": "Oh, Nyan! I'm swamped. Could you give me a hand?"},
+   {"voz": "t5", "quien": "narrador", "jp": "ニャンは すぐに 「はい！」 と 答[こた]えた。", "es": "Nyan respondió enseguida: «¡Sí!»", "en": "Nyan answered right away: \"Yes!\""},
+   {"voz": "t6", "quien": "narrador", "jp": "ポンは、 ニャンに 重[おも]い 箱[はこ]を 運[はこ]ばせた。", "es": "Pon hizo que Nyan cargara con cajas pesadas.", "en": "Pon had Nyan carry heavy boxes."},
+   {"voz": "t7", "quien": "nyan", "jp": "重[おも]い…！ でも、 頑張[がんば]る！", "es": "¡Qué pesado…! Pero me esforzaré.", "en": "Heavy...! But I'll do my best!"},
+   {"voz": "t8", "quien": "narrador", "jp": "ニャンは 箱[はこ]を たくさん 運[はこ]んだ。", "es": "Nyan cargó con muchas cajas.", "en": "Nyan carried a lot of boxes."},
+   {"voz": "t9", "quien": "narrador", "jp": "太陽[たいよう]が 強[つよ]くて、 ニャンは とても 疲[つか]れた。", "es": "El sol pegaba fuerte, y Nyan se cansó mucho.", "en": "The sun was strong, and Nyan got very tired."},
+   {"voz": "t10", "quien": "tama", "jp": "ニャン、 大丈夫[だいじょうぶ]？ 少[すこ]し 休[やす]んだら？", "es": "Nyan, ¿estás bien? ¿Por qué no descansas un poco?", "en": "Nyan, are you okay? Why don't you rest a bit?"},
+   {"voz": "t11", "quien": "narrador", "jp": "ニャンは 少[すこ]し 休[やす]んでから、 また 頑張[がんば]った。", "es": "Nyan descansó un poco, y luego siguió esforzándose.", "en": "Nyan rested a little, and then kept at it."},
+   {"voz": "t12", "quien": "narrador", "jp": "夕方[ゆうがた]に なって、 やっと 作業[さぎょう]が 終[お]わった。", "es": "Al atardecer, por fin terminó el trabajo.", "en": "By evening, the work was finally done."},
+   {"voz": "t13", "quien": "pon", "jp": "ははは、 よく 頑張[がんば]った ね！ これ、 今日[きょう]の お 礼[れい]だよ。", "es": "¡Ja, ja! ¡Cuánto te has esforzado! Toma, esto es por lo de hoy.", "en": "Ha ha! You worked so hard! Here, this is for today."},
+   {"voz": "t14", "quien": "narrador", "jp": "ポンは、 ニャンに お 金[かね]を 渡[わた]した。", "es": "Pon le dio dinero a Nyan.", "en": "Pon gave Nyan some money."},
+   {"voz": "t15", "quien": "nyan", "jp": "やった！ これで、 あの お 菓子[かし]が 買[か]える！", "es": "¡Bien! ¡Con esto puedo comprar esos dulces!", "en": "Yes! Now I can buy that treat!"},
+   {"voz": "t16", "quien": "narrador", "jp": "ニャンは 疲[つか]れて いたが、 とても 満足[まんぞく]そうな 顔[かお]を して いた。", "es": "Nyan estaba cansado, pero tenía cara de estar muy satisfecho.", "en": "Nyan was tired, but he had a very satisfied look on his face."},
+   {"voz": "t17", "quien": "narrador", "jp": "ニャンは 家[いえ]へ 帰[かえ]りながら、 お 菓子[かし]を 食[た]べた。 とても 幸[しあわ]せそうだった。", "es": "Mientras volvía a casa, Nyan se comió el dulce. Parecía muy feliz.", "en": "While heading home, Nyan ate his treat. He looked very happy."}
+ ],
+ "preguntas": [
+  {"jp": "ニャンは 何[なに]を 見[み]つけましたか。", "es": "¿Qué encontró Nyan?", "en": "What did Nyan find?",
+   "opciones": [{"jp": "おいしそうな お 菓子[かし]", "es": "Unos dulces con buena pinta", "en": "A delicious-looking treat"}, {"jp": "重[おも]い 箱[はこ]", "es": "Una caja pesada", "en": "A heavy box"}, {"jp": "ポン", "es": "A Pon", "en": "Pon"}],
+   "bien": 0, "porque": {"es": "«お店の窓で、おいしそうなお菓子を見つけた» とある。", "en": "«お店の窓で、おいしそうなお菓子を見つけた» (he spotted a delicious-looking treat in the shop window)."}},
+  {"jp": "ポンは ニャンに 何[なに]を させましたか。", "es": "¿Qué hizo Pon que Nyan hiciera?", "en": "What did Pon have Nyan do?",
+   "opciones": [{"jp": "重[おも]い 箱[はこ]を 運[はこ]ばせた", "es": "Le hizo cargar cajas pesadas", "en": "Had him carry heavy boxes"}, {"jp": "お 菓子[かし]を 作[つく]らせた", "es": "Le hizo hacer dulces", "en": "Had him make treats"}, {"jp": "店[みせ]を 掃除[そうじ]させた", "es": "Le hizo limpiar la tienda", "en": "Had him clean the shop"}],
+   "bien": 0, "porque": {"es": "«ニャンに重い箱を運ばせた» とある。", "en": "«ニャンに重い箱を運ばせた» (he had Nyan carry heavy boxes)."}},
+  {"jp": "ニャンは どうして 疲[つか]れましたか。", "es": "¿Por qué se cansó Nyan?", "en": "Why did Nyan get tired?",
+   "opciones": [{"jp": "太陽[たいよう]が 強[つよ]くて、 箱[はこ]を たくさん 運[はこ]んだから", "es": "Porque el sol pegaba fuerte y cargó muchas cajas", "en": "Because the sun was strong and he carried a lot of boxes"}, {"jp": "遠[とお]くまで 走[はし]ったから", "es": "Porque corrió muy lejos", "en": "Because he ran far away"}, {"jp": "一日[いちにち]中[じゅう] 寝[ね]なかったから", "es": "Porque no durmió en todo el día", "en": "Because he didn't sleep all day"}],
+   "bien": 0, "porque": {"es": "«太陽が強くて、ニャンはとても疲れた» とある。", "en": "«太陽が強くて、ニャンはとても疲れた» (the sun was strong, and Nyan got very tired)."}},
+  {"jp": "ポンは ニャンに 何[なに]を くれましたか。", "es": "¿Qué le dio Pon a Nyan?", "en": "What did Pon give Nyan?",
+   "opciones": [{"jp": "お 金[かね]", "es": "Dinero", "en": "Money"}, {"jp": "お 菓子[かし]", "es": "Dulces", "en": "Treats"}, {"jp": "新[あたら]しい 箱[はこ]", "es": "Una caja nueva", "en": "A new box"}],
+   "bien": 0, "porque": {"es": "«ポンは、ニャンにお金を渡した» とある。", "en": "«ポンは、ニャンにお金を渡した» (Pon handed Nyan some money)."}},
+  {"tipo": "opinion", "jp": "ニャンのように、 働[はたら]いて お 金[かね]を もらう ことを どう 思[おも]いますか。", "es": "¿Qué opinas de trabajar para ganar dinero, como hizo Nyan?", "en": "What do you think about working for money, like Nyan did?",
+   "opciones": [
+    {"jp": "いい ことだと 思[おも]う", "es": "Creo que está bien", "en": "I think it's a good thing",
+     "nyan": {"jp": "でしょ？ でも、 やっぱり 疲[つか]れたよ…。", "es": "¿Verdad? Pero, la verdad, me cansé mucho…", "en": "Right? But I really did get tired..."}},
+    {"jp": "大変[たいへん]そうだと 思[おも]う", "es": "Me parece que es duro", "en": "I think it seems tough",
+     "nyan": {"jp": "うん、 大変[たいへん]だった！ でも、 お 菓子[かし]は おいしかった！", "es": "Sí, fue duro. ¡Pero los dulces estaban ricos!", "en": "Yeah, it was tough! But the treat was tasty!"}},
+    {"jp": "ニャンは 少[すこ]し 寝[ね]ながら 働[はたら]いても いいと 思[おも]う", "es": "Creo que Nyan podría trabajar durmiendo un poco a la vez", "en": "I think Nyan could work while napping a little",
+     "nyan": {"jp": "それ、 いい 考[かんが]えだね！ 今度[こんど] 言[い]って みる！", "es": "¡Qué buena idea! ¡Se lo diré la próxima vez!", "en": "That's a great idea! I'll try suggesting that next time!"}}
+   ]}
+ ]
+}

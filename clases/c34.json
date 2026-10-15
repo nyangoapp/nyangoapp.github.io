@@ -1,0 +1,1044 @@
+{
+ "id": "c34",
+ "clase": 46,
+ "desde": 1250,
+ "titulo": {
+  "es": "Hablar con respeto: los tres caminos del keigo",
+  "en": "Speaking with respect: the three paths of keigo"
+ },
+ "resumen": {
+  "es": "Con alguien importante hay tres caminos: 尊敬語 sube a quien actúa (先生がいらっしゃる), 謙譲語 te bajas TÚ (伺う, 申す) y, para cosas neutras como el tren o la tienda, cortesía sin subir ni bajar a nadie (参ります, ございます).",
+  "en": "With someone important there are three paths: 尊敬語 raises the person who acts (先生がいらっしゃる), 謙譲語 lowers YOU (伺う, 申す), and for neutral things like the train or the shop, plain courtesy that raises no one (参ります, ございます)."
+ },
+ "intro": [
+  {
+   "escena": {
+    "fondo": "calle",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "sorpresa",
+      "brazo": "arriba"
+     },
+     {
+      "que": "tren",
+      "x": 290
+     },
+     {
+      "que": "manpu",
+      "tipo": "excl",
+      "x": 160,
+      "y": 105
+     }
+    ]
+   },
+   "cara": "sorpresa",
+   "jp": "電車[でんしゃ]が いらっしゃいます！",
+   "voz": "i1",
+   "tr": {
+    "es": "¡El tren llega (con reverencias)!",
+    "en": "The train is arriving (bowing to it)!"
+   },
+   "cartela": {
+    "es": "Nyan aprendió el respeto… y ahora se lo pone a todo.",
+    "en": "Nyan learned honorifics… and now puts them on everything."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "calle",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "normal"
+     },
+     {
+      "que": "gato",
+      "x": 280
+     },
+     {
+      "que": "tren",
+      "x": 340,
+      "s": 0.8
+     }
+    ]
+   },
+   "habla": "tama",
+   "cara": "normal",
+   "jp": "電車[でんしゃ]はさ、「参[まい]ります」って 言[い]うんだよ。",
+   "voz": "i2",
+   "tr": {
+    "es": "Eso del tren se dice «参ります», ¿sabes?",
+    "en": "For the train you say «mairimasu», you know?"
+   },
+   "cartela": {
+    "es": "参[まい]ります aquí no es humildad tuya: es cortesía, sin subir ni bajar a nadie.",
+    "en": "参ります here isn't your humility: it's plain courtesy, raising or lowering no one."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "tienda",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "pensando"
+     },
+     {
+      "que": "persona",
+      "x": 280
+     }
+    ]
+   },
+   "habla": "tendero",
+   "cara": "pensando",
+   "jp": "いらっしゃいませ。 少々[しょうしょう]お待[ま]ちください。",
+   "voz": "i3",
+   "tr": {
+    "es": "¡Bienvenido! Espere un momento, por favor.",
+    "en": "Welcome! Please wait a moment."
+   },
+   "cartela": {
+    "es": "Frases hechas de tienda: no las despieces, apréndelas enteras.",
+    "en": "Fixed shop phrases: don't take them apart, just learn them whole."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "feliz"
+     },
+     {
+      "que": "profesor",
+      "x": 280,
+      "cara": "sorpresa"
+     }
+    ]
+   },
+   "cara": "feliz",
+   "jp": "先生[せんせい]は 何[なに]を お読[よ]みになりますか。",
+   "voz": "i4",
+   "tr": {
+    "es": "¿Qué va a leer, profesor?",
+    "en": "What will you read, teacher?"
+   },
+   "cartela": {
+    "es": "¡Eso sí! お◯になる: el patrón general de respeto. A practicar los tres caminos.",
+    "en": "That's it! お◯になる: the general respect pattern. Let's practice the three paths."
+   }
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta cada frase: respeto para el otro, humildad para ti, cortesía para las cosas.",
+   "en": "Build each sentence: respect for the other, humility for you, courtesy for things."
+  },
+  "piezas": [
+   {
+    "id": "sensei",
+    "jp": "先生[せんせい]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "wa",
+    "jp": "は",
+    "tipo": "particula"
+   },
+   {
+    "id": "ashita",
+    "jp": "明日[あした]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "gakkou",
+    "jp": "学校[がっこう]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "ni",
+    "jp": "に",
+    "tipo": "particula"
+   },
+   {
+    "id": "ga",
+    "jp": "が",
+    "tipo": "particula"
+   },
+   {
+    "id": "irasshaimasu",
+    "jp": "いらっしゃいます",
+    "tipo": "verbo"
+   },
+   {
+    "id": "imasu",
+    "jp": "います",
+    "tipo": "verbo"
+   },
+   {
+    "id": "mairimasu",
+    "jp": "参[まい]ります",
+    "tipo": "verbo"
+   },
+   {
+    "id": "ukagaimasu",
+    "jp": "伺[うかが]います",
+    "tipo": "verbo"
+   },
+   {
+    "id": "ikimasu",
+    "jp": "行[い]きます",
+    "tipo": "verbo"
+   },
+   {
+    "id": "densha",
+    "jp": "電車[でんしゃ]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "kimasu",
+    "jp": "来[き]ます",
+    "tipo": "verbo"
+   },
+   {
+    "id": "nani",
+    "jp": "何[なに]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "wo",
+    "jp": "を",
+    "tipo": "particula"
+   },
+   {
+    "id": "yomimasu",
+    "jp": "読[よ]みます",
+    "tipo": "verbo"
+   },
+   {
+    "id": "oyomininarimasu",
+    "jp": "お読[よ]みになります",
+    "tipo": "verbo"
+   },
+   {
+    "id": "nasaimasu",
+    "jp": "なさいます",
+    "tipo": "verbo"
+   },
+   {
+    "id": "ka",
+    "jp": "か",
+    "tipo": "particula"
+   },
+   {
+    "id": "misete",
+    "jp": "見[み]せて",
+    "tipo": "verbo"
+   },
+   {
+    "id": "itadakemasu",
+    "jp": "いただけます",
+    "tipo": "verbo"
+   },
+   {
+    "id": "kudasai",
+    "jp": "ください",
+    "tipo": "verbo"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Di, con respeto (尊敬語): «El profesor estará en la escuela mañana».",
+     "en": "Say, respectfully (尊敬語): «The teacher will be at school tomorrow»."
+    },
+    "escena": {
+     "fondo": "escuela",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110
+      },
+      {
+       "que": "profesor",
+       "x": 280
+      }
+     ]
+    },
+    "piezas": [
+     "sensei",
+     "wa",
+     "ashita",
+     "gakkou",
+     "ni",
+     "irasshaimasu",
+     "imasu",
+     "mairimasu"
+    ],
+    "bien": [
+     [
+      "sensei",
+      "wa",
+      "ashita",
+      "gakkou",
+      "ni",
+      "irasshaimasu"
+     ]
+    ],
+    "tr": {
+     "es": "El profesor estará en la escuela mañana.",
+     "en": "The teacher will be at school tomorrow."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "brilla",
+      "objeto": "profesor"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "imasu"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "います es normal, pero para el profesor hace falta respeto: いらっしゃいます.",
+       "en": "います is plain, but for the teacher you need respect: いらっしゃいます."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "mairimasu"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "sorpresa"
+      },
+      "msg": {
+       "es": "参[まい]ります te baja a TI. Para el profesor hace falta subirlo: いらっしゃいます.",
+       "en": "参ります lowers YOU. For the teacher you need to raise him: いらっしゃいます."
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "irasshaimasu"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "normal"
+      },
+      "msg": {
+       "es": "Sin el verbo, la frase no dice nada de él.",
+       "en": "Without the verb, the sentence doesn't say anything about him."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Di, con humildad (謙譲語): «Mañana iré a ver al profesor».",
+     "en": "Say, humbly (謙譲語): «Tomorrow I'll go see the teacher»."
+    },
+    "escena": {
+     "fondo": "calle",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110
+      },
+      {
+       "que": "profesor",
+       "x": 280
+      }
+     ]
+    },
+    "piezas": [
+     "ashita",
+     "sensei",
+     "ni",
+     "ukagaimasu",
+     "ikimasu",
+     "irasshaimasu"
+    ],
+    "bien": [
+     [
+      "ashita",
+      "sensei",
+      "ni",
+      "ukagaimasu"
+     ]
+    ],
+    "tr": {
+     "es": "Mañana iré a ver al profesor.",
+     "en": "Tomorrow I'll go see the teacher."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "feliz",
+      "brazo": "arriba"
+     },
+     {
+      "tipo": "brilla",
+      "objeto": "profesor"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "ikimasu"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "行[い]きます es normal. Hablando con humildad de TI mismo: 伺[うかが]います.",
+       "en": "行きます is plain. Speaking humbly about YOURSELF: 伺います."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "irasshaimasu"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "sorpresa"
+      },
+      "msg": {
+       "es": "いらっしゃいます sube al OTRO. Para hablar de TI: 伺[うかが]います (humilde).",
+       "en": "いらっしゃいます raises the OTHER person. To talk about YOURSELF: 伺います (humble)."
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "ukagaimasu"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "normal"
+      },
+      "msg": {
+       "es": "Sin el verbo, la frase no dice qué harás.",
+       "en": "Without the verb, the sentence doesn't say what you'll do."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Di, con cortesía (ni sube ni baja a nadie): «El tren está llegando».",
+     "en": "Say, courteously (raising or lowering no one): «The train is arriving»."
+    },
+    "escena": {
+     "fondo": "calle",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "pensando"
+      },
+      {
+       "que": "tren",
+       "x": 290
+      }
+     ]
+    },
+    "piezas": [
+     "densha",
+     "ga",
+     "mairimasu",
+     "irasshaimasu",
+     "kimasu"
+    ],
+    "bien": [
+     [
+      "densha",
+      "ga",
+      "mairimasu"
+     ]
+    ],
+    "tr": {
+     "es": "El tren está llegando.",
+     "en": "The train is arriving."
+    },
+    "bien_msg": {
+     "es": "¡Eso es! El tren no es nadie a quien subir ni bajar: solo cortesía.",
+     "en": "That's it! A train is no one to raise or lower: just courtesy."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "brilla",
+      "objeto": "tren"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "irasshaimasu"
+       ]
+      },
+      "efecto": [
+       {
+        "tipo": "nyan",
+        "cara": "sorpresa",
+        "manpu": "excl"
+       },
+       {
+        "tipo": "tiembla",
+        "objeto": "tren"
+       }
+      ],
+      "msg": {
+       "es": "いらっしゃいます sube a una PERSONA importante. El tren no es nadie a quien honrar: se usa 参[まい]ります.",
+       "en": "いらっしゃいます raises an important PERSON. A train is no one to honor: use 参ります."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "kimasu"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "来[き]ます es normal. En la estación se oye 参[まい]ります: cortés, sin subir ni bajar a nadie.",
+       "en": "来ます is plain. At the station you hear 参ります: courteous, raising or lowering no one."
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "mairimasu"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "normal"
+      },
+      "msg": {
+       "es": "Sin el verbo, la frase no dice que el tren llega.",
+       "en": "Without the verb, the sentence doesn't say the train is coming."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Reto: pregúntale al profesor, con respeto (お◯になる): «¿Qué va a leer?»",
+     "en": "Challenge: ask the teacher, respectfully (お◯になる): «What will you read?»"
+    },
+    "escena": {
+     "fondo": "escuela",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "pensando"
+      },
+      {
+       "que": "profesor",
+       "x": 280
+      },
+      {
+       "que": "libro",
+       "x": 330,
+       "s": 1.2
+      }
+     ]
+    },
+    "piezas": [
+     "sensei",
+     "wa",
+     "nani",
+     "wo",
+     "oyomininarimasu",
+     "ka",
+     "yomimasu",
+     "nasaimasu"
+    ],
+    "bien": [
+     [
+      "sensei",
+      "wa",
+      "nani",
+      "wo",
+      "oyomininarimasu",
+      "ka"
+     ]
+    ],
+    "tr": {
+     "es": "¿Qué va a leer el profesor?",
+     "en": "What will the teacher read?"
+    },
+    "efecto_bien": [
+     {
+      "tipo": "manpu",
+      "objeto": "profesor",
+      "manpu": "pregunta"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "pensando"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "yomimasu"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "読[よ]みます es normal. Para el profesor: お読[よ]みになります.",
+       "en": "読みます is plain. For the teacher: お読みになります."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "nasaimasu"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "sorpresa"
+      },
+      "msg": {
+       "es": "なさいます solo sustituye a します. Para «leer» hace falta el patrón お◯になる: お読[よ]みになります.",
+       "en": "なさいます only replaces します. For «read» you need the お◯になる pattern: お読みになります."
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "ka"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "normal"
+      },
+      "msg": {
+       "es": "Sin か no es una pregunta.",
+       "en": "Without か it's not a question."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Pídele al dependiente, con la fórmula MÁS humilde para un favor (pides «recibir»): «¿Podría enseñármelo?»",
+     "en": "Ask the shop clerk, with the MOST humble favor-formula (you ask to «receive»): «Could you show it to me?»"
+    },
+    "escena": {
+     "fondo": "tienda",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "pensando"
+      },
+      {
+       "que": "persona",
+       "x": 280
+      },
+      {
+       "que": "bolsa",
+       "x": 330
+      }
+     ]
+    },
+    "piezas": [
+     "misete",
+     "itadakemasu",
+     "ka",
+     "kudasai"
+    ],
+    "bien": [
+     [
+      "misete",
+      "itadakemasu",
+      "ka"
+     ]
+    ],
+    "tr": {
+     "es": "¿Podría enseñármelo?",
+     "en": "Could you show it to me?"
+    },
+    "bien_msg": {
+     "es": "見[み]せて いただけますか: literalmente pides «recibir» el favor de que te lo enseñe.",
+     "en": "見せていただけますか: you literally ask to «receive» the favor of being shown it."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "brilla",
+      "objeto": "bolsa"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "kudasai"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "見[み]せてください también es cortés, pero aquí se pide la fórmula MÁS humilde: 見[み]せて いただけますか.",
+       "en": "見せてください is polite too, but here the MOST humble formula is asked for: 見せていただけますか."
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "ka"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "normal"
+      },
+      "msg": {
+       "es": "Sin か no es una pregunta: suena a orden.",
+       "en": "Without か it's not a question: it sounds like an order."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "juego": {
+  "intro": {
+   "es": "¿Sube al otro (尊敬語), te bajas tú (謙譲語) o es solo cortesía (丁寧)?",
+   "en": "Does it raise the other (尊敬語), lower you (謙譲語), or is it just courtesy (丁寧)?"
+  },
+  "nyan": {
+   "es": "Con el profesor, ojo. Con el tren… también, por lo visto. Con Tama, cero.",
+   "en": "With the teacher, careful. With the train… apparently too. With Tama, none of it."
+  },
+  "cestas": [
+   {
+    "id": "sonkeigo",
+    "jp": "尊敬語",
+    "sub": {
+     "es": "sube a quien actúa",
+     "en": "raises the person who acts"
+    }
+   },
+   {
+    "id": "kenjougo",
+    "jp": "謙譲語",
+    "sub": {
+     "es": "te bajas tú",
+     "en": "lowers yourself"
+    }
+   },
+   {
+    "id": "teinei",
+    "jp": "丁寧",
+    "sub": {
+     "es": "cortesía neutra: no sube ni baja a nadie",
+     "en": "neutral courtesy: raises no one"
+    }
+   }
+  ],
+  "cartas": [
+   {
+    "id": "j1",
+    "jp": "いらっしゃいませ。",
+    "cesta": "sonkeigo",
+    "es": "¡Bienvenido!",
+    "en": "Welcome!",
+    "truco": {
+     "es": "Frase fija de tienda: no la cambies ni la despieces.",
+     "en": "Fixed shop phrase: don't change or take it apart."
+    }
+   },
+   {
+    "id": "j2",
+    "jp": "少々[しょうしょう]お待[ま]ちください。",
+    "cesta": "sonkeigo",
+    "es": "Espere un momento, por favor.",
+    "en": "Please wait a moment."
+   },
+   {
+    "id": "j3",
+    "dibujo": "profesor",
+    "jp": "先生[せんせい]は 何[なに]を お読[よ]みになりますか。",
+    "cesta": "sonkeigo",
+    "es": "¿Qué va a leer el profesor?",
+    "en": "What will the teacher read?"
+   },
+   {
+    "id": "j4",
+    "jp": "社長[しゃちょう]は そう おっしゃいました。",
+    "cesta": "sonkeigo",
+    "es": "El jefe dijo eso.",
+    "en": "The boss said that."
+   },
+   {
+    "id": "j5",
+    "dibujo": "nyan",
+    "jp": "私[わたし]は 伺[うかが]います。",
+    "cesta": "kenjougo",
+    "es": "Yo iré (con humildad).",
+    "en": "I will humbly go."
+   },
+   {
+    "id": "j6",
+    "jp": "私[わたし]は そう 申[もう]しました。",
+    "cesta": "kenjougo",
+    "es": "Yo dije eso.",
+    "en": "I said that."
+   },
+   {
+    "id": "j7",
+    "jp": "先生[せんせい]に 本[ほん]を お見[み]せします。",
+    "cesta": "kenjougo",
+    "es": "Le enseñaré el libro al profesor.",
+    "en": "I'll show the teacher the book."
+   },
+   {
+    "id": "j8",
+    "dibujo": "tren",
+    "jp": "電車[でんしゃ]が 参[まい]ります。",
+    "cesta": "teinei",
+    "es": "El tren está llegando.",
+    "en": "The train is arriving.",
+    "truco": {
+     "es": "参ります aquí no es humildad: el tren no es nadie a quien bajar. Solo cortesía.",
+     "en": "参ります here isn't humility: a train is no one to lower. Just courtesy."
+    }
+   },
+   {
+    "id": "j9",
+    "jp": "これは 千円[せんえん]で ございます。",
+    "cesta": "teinei",
+    "es": "Esto cuesta mil yenes.",
+    "en": "This is 1000 yen.",
+    "truco": {
+     "es": "でございます = です, más formal. Típico en tiendas.",
+     "en": "でございます = です, more formal. Typical in shops."
+    }
+   },
+   {
+    "id": "j10",
+    "jp": "ただいま、こちらに ございます。",
+    "cesta": "teinei",
+    "es": "Ahora mismo, está aquí.",
+    "en": "It's right here, right now."
+   }
+  ]
+ },
+ "outro": [
+  {
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110
+     },
+     {
+      "que": "profesor",
+      "x": 280
+     }
+    ]
+   },
+   "cara": "normal",
+   "jp": "先生[せんせい]は いらっしゃいますか。",
+   "voz": "o1",
+   "tr": {
+    "es": "¿Está el profesor?",
+    "en": "Is the teacher there?"
+   },
+   "cartela": {
+    "es": "尊敬語: sube a quien actúa.",
+    "en": "尊敬語: raises the person who acts."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "brazo": "arriba"
+     },
+     {
+      "que": "profesor",
+      "x": 280
+     }
+    ]
+   },
+   "cara": "feliz",
+   "jp": "私[わたし]は 伺[うかが]います。",
+   "voz": "o2",
+   "tr": {
+    "es": "Yo iré (con humildad).",
+    "en": "I will go (humbly)."
+   },
+   "cartela": {
+    "es": "謙譲語: te bajas TÚ.",
+    "en": "謙譲語: lowers YOU."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "calle",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 130,
+      "cara": "feliz"
+     },
+     {
+      "que": "tren",
+      "x": 280
+     }
+    ]
+   },
+   "cara": "feliz",
+   "jp": "電車[でんしゃ]が 参[まい]ります。 これで 完璧[かんぺき]！",
+   "voz": "o3",
+   "tr": {
+    "es": "El tren llega. ¡Ahora sí, perfecto!",
+    "en": "The train is arriving. Now it's perfect!"
+   },
+   "cartela": {
+    "es": "尊敬語 para el otro, 謙譲語 para ti, cortesía para las cosas. Y con Tama, como siempre: nada de esto.",
+    "en": "尊敬語 for the other, 謙譲語 for you, courtesy for things. And with Tama, as always: none of this."
+   }
+  }
+ ],
+ "chuleta": {
+  "patron": {
+   "es": "〔otro〕尊敬語 ・ 〔tú〕謙譲語 ・ 〔cosas〕丁寧",
+   "en": "〔other〕尊敬語 ・ 〔you〕謙譲語 ・ 〔things〕丁寧"
+  },
+  "patron_tr": {
+   "es": "sube al otro · te bajas tú · cortesía para cosas neutras",
+   "en": "raise the other · lower yourself · plain courtesy for neutral things"
+  },
+  "columnas": [
+   {
+    "jp": "尊敬語",
+    "texto": {
+     "es": "いる/行く/来る→いらっしゃる · 食べる→召[め]し上がる · する→なさる · 言う→おっしゃる · (los demás verbos) お◯になる",
+     "en": "いる/行く/来る→いらっしゃる · 食べる→召し上がる · する→なさる · 言う→おっしゃる · (other verbs) お◯になる"
+    },
+    "dibujos": [
+     "profesor"
+    ]
+   },
+   {
+    "jp": "謙譲語",
+    "texto": {
+     "es": "行く/来る→参[まい]る · 訪ねる→伺[うかが]う · 食べる→頂[いただ]く · する→いたす · 言う→申[もう]す · (los demás verbos) お◯する",
+     "en": "行く/来る→参る · 訪ねる→伺う · 食べる→頂く · する→いたす · 言う→申す · (other verbs) お◯する"
+    },
+    "dibujos": [
+     "nyan"
+    ]
+   },
+   {
+    "jp": "丁寧",
+    "texto": {
+     "es": "参[まい]ります · ございます · おります: cortés, sin subir ni bajar a nadie (trenes, tiendas, avisos)",
+     "en": "参ります · ございます · おります: courteous, raising or lowering no one (trains, shops, announcements)"
+    },
+    "dibujos": [
+     "tren"
+    ]
+   }
+  ],
+  "filas": [
+   {
+    "jp": "先生[せんせい]は いらっしゃいますか。",
+    "es": "¿Está el profesor?",
+    "en": "Is the teacher in?",
+    "registro": "educado"
+   },
+   {
+    "jp": "タマ、いる？",
+    "es": "Tama, ¿estás?",
+    "en": "Tama, you there?",
+    "registro": "amigos"
+   },
+   {
+    "jp": "私[わたし]は 伺[うかが]います。",
+    "es": "Iré (con humildad).",
+    "en": "I will go (humbly).",
+    "registro": "educado"
+   },
+   {
+    "jp": "電車[でんしゃ]が 参[まい]ります。",
+    "es": "El tren está llegando.",
+    "en": "The train is arriving.",
+    "registro": "educado"
+   },
+   {
+    "jp": "見[み]せて いただけますか。",
+    "es": "¿Podría enseñármelo?",
+    "en": "Could you show it to me, please?",
+    "registro": "educado"
+   }
+  ],
+  "consejo": {
+   "es": "お◯になる y お◯する se confunden: お読[よ]みになる sube al OTRO (él lee); お見[み]せする te baja a TI (tú enseñas). Mira quién hace la acción.",
+   "en": "お◯になる and お◯する get confused: お読みになる raises the OTHER person (he reads); お見せする lowers YOU (you show something). Look at who does the action."
+  }
+ }
+}

@@ -1,0 +1,867 @@
+{
+ "id": "c40",
+ "clase": 27,
+ "desde": 365,
+ "titulo": {
+  "es": "Perdidos en el bosque: か, かどうか y 〜ことができる",
+  "en": "Lost in the forest: か, かどうか and 〜ことができる"
+ },
+ "resumen": {
+  "es": "か mete una pregunta dentro de la frase (何を食べるか). かどうか es para preguntas de sí o no (来るかどうか). 〜ことができる es «poder hacer algo»: el primo educado del potencial (書ける) que ya conoces.",
+  "en": "か tucks a question inside a sentence (何を食べるか). かどうか is for yes-or-no questions (来るかどうか). 〜ことができる means «to be able to»: the more formal twin of the potential form (書ける) you already know."
+ },
+ "formato": 2,
+ "lugar": "bosque",
+ "mision": {
+  "texto": {
+   "es": "Anochece y estáis perdidos en el bosque. No sabéis dónde estáis ni si llegaréis para la cena. Pero alguien del grupo sabe hacer algo muy, muy útil…",
+   "en": "Night is falling and you're lost in the forest. You don't know where you are or whether you'll make it for dinner. But someone in the group can do something very, very useful…"
+  },
+  "escena": {
+   "fondo": "bosque",
+   "cosas": [
+    {
+     "que": "nyan",
+     "x": 70
+    },
+    {
+     "que": "linterna",
+     "x": 150,
+     "id": "linterna",
+     "s": 1.0
+    },
+    {
+     "que": "gato",
+     "id": "tama",
+     "x": 230
+    },
+    {
+     "que": "kage",
+     "id": "kage",
+     "x": 335
+    }
+   ]
+  },
+  "cara": "triste",
+  "jp": "ここは どこ…？",
+  "voz": "m0"
+ },
+ "reglas": [
+  {
+   "id": "ka_incrustada",
+   "nombre": {
+    "es": "Preguntas dentro de la frase: 〜か",
+    "en": "Questions inside a sentence: 〜か"
+   },
+   "patron": {
+    "es": "〔pregunta en forma corta〕か ＋ 分かる／知る…",
+    "en": "〔question, short form〕か ＋ 分かる／知る…"
+   },
+   "explica": {
+    "es": "Para meter una pregunta dentro de otra frase («no sé DÓNDE estamos»), pon la pregunta en forma corta y termínala con か: ここがどこか分かりません. か hace de «paquete»: todo lo que va delante es la pregunta, y la frase sigue detrás con 分かる, 知る, 教える… La pregunta pierde su です/ます, porque ya no cierra la frase: eso lo hace el verbo del final.",
+    "en": "To put a question inside another sentence («I don't know WHERE we are»), put the question in short form and end it with か: ここがどこか分かりません. か works as a «package»: everything before it is the question, and the sentence carries on with 分かる, 知る, 教える… The question drops its です/ます, because it no longer ends the sentence: the final verb does."
+   },
+   "ejemplos": [
+    {
+     "jp": "ここが どこか 分[わ]かりません。",
+     "es": "No sé dónde estamos.",
+     "en": "I don't know where we are.",
+     "voz": "r1-1"
+    },
+    {
+     "jp": "どの 道[みち]か 教[おし]えて ください。",
+     "es": "Dime qué camino es, por favor.",
+     "en": "Please tell me which way it is.",
+     "voz": "r1-2"
+    }
+   ],
+   "ojo": {
+    "es": "Sola, la pregunta es どこですか; metida en otra frase, どこか分かりません. Si dejas el です dentro, la frase tiene dos finales y se rompe.",
+    "en": "On its own, the question is どこですか; inside another sentence, どこか分かりません. Leave です inside and the sentence has two endings and breaks."
+   }
+  },
+  {
+   "id": "kadouka",
+   "nombre": {
+    "es": "〜かどうか: si… o no",
+    "en": "〜かどうか: whether… or not"
+   },
+   "patron": {
+    "es": "〔forma corta〕かどうか",
+    "en": "〔short form〕かどうか"
+   },
+   "explica": {
+    "es": "Cuando la pregunta que metes es de sí o no («¿llegaremos?»), añade かどうか: 間に合うかどうか分からない, «no sé si llegaremos (o no)». どうか significa «o no», así que la frase deja las dos puertas abiertas. Hablando, a veces se oye solo か (間に合うか分からない): también vale, pero かどうか es lo más claro.",
+    "en": "When the question you insert is a yes/no one («will we make it?»), add かどうか: 間に合うかどうか分からない, «I don't know whether we'll make it (or not)». どうか means «or not», so the sentence keeps both doors open. In speech you'll sometimes hear just か (間に合うか分からない): that works too, but かどうか is the clearest."
+   },
+   "ejemplos": [
+    {
+     "jp": "間[ま]に 合[あ]うか どうか 分[わ]かりません。",
+     "es": "No sé si llegaremos a tiempo.",
+     "en": "I don't know whether we'll make it.",
+     "voz": "r2-1"
+    },
+    {
+     "jp": "帰[かえ]れるか どうか 分[わ]かりません。",
+     "es": "No sé si podremos volver.",
+     "en": "I don't know if we can get back.",
+     "voz": "r2-2"
+    }
+   ],
+   "ojo": {
+    "es": "Con palabras interrogativas (どこ, 何, 誰) basta か: どこか. かどうか es solo para las preguntas de sí o no.",
+    "en": "With question words (どこ, 何, 誰), か is enough: どこか. かどうか is only for yes/no questions."
+   }
+  },
+  {
+   "id": "kotodekiru",
+   "nombre": {
+    "es": "〜ことができる: poder hacer",
+    "en": "〜ことができる: be able to"
+   },
+   "patron": {
+    "es": "〔forma de diccionario〕ことが できる",
+    "en": "〔dictionary form〕ことが できる"
+   },
+   "explica": {
+    "es": "Con こと la acción se convierte en «cosa», y できる dice que esa cosa es posible: 見つけることができる, «puedo encontrarlo». Significa lo mismo que el potencial (見つけられる, clase 19), pero suena un poco más formal y claro, y va muy bien con verbos largos o cuando quieres subrayar la capacidad. Lo que se puede hacer lleva が: ことが できる.",
+    "en": "With こと the action becomes a «thing», and できる says that thing is possible: 見つけることができる, «I can find it». It means the same as the potential (見つけられる, class 19), but sounds a little more formal and clear, and suits long verbs or when you want to stress ability. What can be done takes が: ことが できる."
+   },
+   "ejemplos": [
+    {
+     "jp": "においで 道[みち]を 見[み]つける ことが できます！",
+     "es": "¡Puedo encontrar el camino por el olfato!",
+     "en": "I can find the way by smell!",
+     "voz": "r3-1"
+    },
+    {
+     "jp": "漢字[かんじ]を 書[か]く ことが できます。",
+     "es": "Sé escribir kanji.",
+     "en": "I can write kanji.",
+     "voz": "r3-2"
+    }
+   ],
+   "ojo": {
+    "es": "Delante de こと va siempre la forma de diccionario (見つける), porque こと necesita una acción «en crudo», sin conjugar.",
+    "en": "こと always takes the dictionary form (見つける), because it needs the action «raw», unconjugated."
+   }
+  }
+ ],
+ "historia": [
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "ここが どこか 分[わ]かりません。",
+   "tr": {
+    "es": "No sé dónde estamos.",
+    "en": "I don't know where we are."
+   },
+   "voz": "h1",
+   "cara": "pensando",
+   "escena": {
+    "fondo": "bosque",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "linterna",
+      "x": 150,
+      "id": "linterna",
+      "s": 1.0
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 230
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 335
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "ka_incrustada"
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "Nyan tampoco sabe qué camino tomar. ¿Qué dice?",
+    "en": "Nyan doesn't know which way to go either. What does he say?"
+   },
+   "opciones": [
+    {
+     "jp": "どの 道[みち]か 分[わ]かりません。",
+     "bien": true,
+     "tr": {
+      "es": "No sé qué camino es.",
+      "en": "I don't know which way it is."
+     },
+     "voz": "h2",
+     "porque": {
+      "es": "Una pregunta metida en la frase lleva か al final (どの道か), y la frase sigue detrás.",
+      "en": "A question tucked into a sentence ends in か (どの道か), and the sentence carries on after it."
+     }
+    },
+    {
+     "jp": "どの 道[みち]を 分[わ]かりません。",
+     "bien": false,
+     "porque": {
+      "es": "Lo que no sabes es una pregunta entera, y las preguntas se meten en la frase con か: どの道か.",
+      "en": "What you don't know is a whole question, and questions go into a sentence with か: どの道か."
+     }
+    },
+    {
+     "jp": "どの 道[みち]ですか 分[わ]かりません。",
+     "bien": false,
+     "porque": {
+      "es": "Dentro de la frase, la pregunta pierde su です: どの道か分かりません. です solo cierra frases.",
+      "en": "Inside the sentence, the question drops its です: どの道か分かりません. です only closes sentences."
+     }
+    }
+   ],
+   "cara": "triste",
+   "escena": {
+    "fondo": "bosque",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "linterna",
+      "x": 150,
+      "id": "linterna",
+      "s": 1.0
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 300
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "kage",
+   "jp": "夕[ゆう]ご飯[はん]に 間[ま]に 合[あ]うか どうか…",
+   "tr": {
+    "es": "No sé si llegaremos a tiempo para la cena…",
+    "en": "Not sure whether we'll make it for dinner…"
+   },
+   "voz": "h3",
+   "cara": "aburrido",
+   "escena": {
+    "fondo": "bosque",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "linterna",
+      "x": 150,
+      "id": "linterna",
+      "s": 1.0
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 230
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 335
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "kadouka"
+  },
+  {
+   "t": "monta",
+   "encargo": 0
+  },
+  {
+   "t": "dice",
+   "habla": "kotaro",
+   "jp": "ぼくは においで 道[みち]を 見[み]つける ことが できます！",
+   "tr": {
+    "es": "¡Yo puedo encontrar el camino por el olfato!",
+    "en": "I can find the way by smell!"
+   },
+   "voz": "h4",
+   "cara": "feliz",
+   "reacciona": {
+    "nyan": "sorpresa",
+    "tama": "sorpresa"
+   },
+   "escena": {
+    "fondo": "bosque",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "linterna",
+      "x": 150,
+      "id": "linterna",
+      "s": 1.0
+     },
+     {
+      "que": "perro",
+      "id": "kotaro",
+      "x": 230
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 335
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "kotodekiru"
+  },
+  {
+   "t": "elige",
+   "habla": "tama",
+   "pide": {
+    "es": "Tama no se lo cree. ¿Qué le pregunta a Kotarō?",
+    "en": "Tama can't believe it. What does she ask Kotarō?"
+   },
+   "opciones": [
+    {
+     "jp": "本当[ほんとう]に 見[み]つける ことが できますか。",
+     "bien": true,
+     "tr": {
+      "es": "¿De verdad puedes encontrarlo?",
+      "en": "Can you really find it?"
+     },
+     "voz": "h5",
+     "porque": {
+      "es": "Forma de diccionario + ことができる: «poder hacer algo», un poco más formal que el potencial.",
+      "en": "Dictionary form + ことができる: «be able to do», a bit more formal than the potential."
+     }
+    },
+    {
+     "jp": "本当[ほんとう]に 見[み]つけて ことが できますか。",
+     "bien": false,
+     "porque": {
+      "es": "Delante de こと va la forma de diccionario (見つける), no la て.",
+      "en": "The dictionary form (見つける) goes before こと, not the て form."
+     }
+    },
+    {
+     "jp": "本当[ほんとう]に 見[み]つける ことを できますか。",
+     "bien": false,
+     "porque": {
+      "es": "Lo que se puede hacer lleva が delante de できる: ことができる.",
+      "en": "What you're able to do takes が before できる: ことができる."
+     }
+    }
+   ],
+   "cara": "pensando",
+   "escena": {
+    "fondo": "bosque",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "linterna",
+      "x": 150,
+      "id": "linterna",
+      "s": 1.0
+     },
+     {
+      "que": "perro",
+      "id": "kotaro",
+      "x": 230
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 335
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "kotaro",
+   "jp": "こっちです！ ワン！",
+   "tr": {
+    "es": "¡Por aquí! ¡Guau!",
+    "en": "This way! Woof!"
+   },
+   "voz": "h6",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "bosque",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "perro",
+      "id": "kotaro",
+      "x": 260
+     }
+    ]
+   }
+  },
+  {
+   "t": "toca",
+   "pide": {
+    "es": "Kotarō ha encontrado algo en el camino. Escucha y tócalo.",
+    "en": "Kotarō found something on the path. Listen and tap it."
+   },
+   "bien": "bufanda",
+   "quien": "kotaro",
+   "escena": {
+    "fondo": "bosque",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 65
+     },
+     {
+      "que": "mapa",
+      "x": 160,
+      "id": "mapa",
+      "s": 1.0
+     },
+     {
+      "que": "bufanda",
+      "x": 218,
+      "id": "bufanda",
+      "s": 1.0
+     },
+     {
+      "que": "linterna",
+      "x": 270,
+      "id": "linterna",
+      "s": 1.0
+     },
+     {
+      "que": "perro",
+      "id": "kotaro",
+      "x": 345
+     }
+    ]
+   },
+   "jp": "ニャンの マフラーです！ ここを 通[とお]りました！",
+   "voz": "h7",
+   "bien_msg": {
+    "es": "¡Eso! La bufanda que Nyan perdió al venir: ¡por aquí se vuelve!",
+    "en": "Right! The scarf Nyan dropped on the way: this is the way back!"
+   },
+   "mal_msg": {
+    "es": "Ha dicho マフラー: la bufanda roja de Nyan.",
+    "en": "He said マフラー: Nyan's red scarf."
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "道[みち]が 分[わ]かりました！",
+   "tr": {
+    "es": "¡Ya sé el camino!",
+    "en": "I know the way now!"
+   },
+   "voz": "h8",
+   "cara": "feliz",
+   "reacciona": {
+    "nyan": "feliz"
+   },
+   "escena": {
+    "fondo": "bosque",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "bufanda",
+      "x": 200,
+      "s": 1.0
+     },
+     {
+      "que": "perro",
+      "id": "kotaro",
+      "x": 270
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 345
+     }
+    ]
+   }
+  }
+ ],
+ "epilogo": [
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "ただいま！",
+   "tr": {
+    "es": "¡Ya estamos en casa!",
+    "en": "We're home!"
+   },
+   "voz": "x1",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "salon",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "perro",
+      "id": "kotaro",
+      "x": 200
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 320
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "コタロー、 ありがとう！",
+   "tr": {
+    "es": "¡Gracias, Kotarō!",
+    "en": "Thanks, Kotarō!"
+   },
+   "voz": "x2",
+   "cara": "feliz",
+   "brazo": "arriba"
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta la frase: la escena hará lo que digas.",
+   "en": "Build the sentence: the scene will do what you say."
+  },
+  "piezas": [
+   {
+    "id": "kaereru",
+    "jp": "帰[かえ]れる",
+    "tipo": "palabra"
+   },
+   {
+    "id": "kadouka",
+    "jp": "かどうか",
+    "tipo": "particula"
+   },
+   {
+    "id": "ka",
+    "jp": "か",
+    "tipo": "particula"
+   },
+   {
+    "id": "wakarimasen",
+    "jp": "分[わ]かりません",
+    "tipo": "verbo"
+   },
+   {
+    "id": "wakarimasu",
+    "jp": "分[わ]かります",
+    "tipo": "verbo"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Nyan resume el problema: «No sé si podremos volver».",
+     "en": "Nyan sums up the problem: «I don't know if we can get back»."
+    },
+    "escena": {
+     "fondo": "bosque",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 80
+      },
+      {
+       "que": "linterna",
+       "x": 150,
+       "id": "linterna",
+       "s": 1.0
+      },
+      {
+       "que": "gato",
+       "id": "tama",
+       "x": 300
+      }
+     ]
+    },
+    "piezas": [
+     "kaereru",
+     "kadouka",
+     "ka",
+     "wakarimasen",
+     "wakarimasu"
+    ],
+    "bien": [
+     [
+      "kaereru",
+      "kadouka",
+      "wakarimasen"
+     ],
+     [
+      "kaereru",
+      "ka",
+      "wakarimasen"
+     ]
+    ],
+    "tr": {
+     "es": "No sé si podremos volver.",
+     "en": "I don't know if we can get back."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "manpu",
+      "objeto": "tama",
+      "manpu": "sudor"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "triste"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "wakarimasu"
+       ]
+      },
+      "efecto": {
+       "tipo": "manpu",
+       "objeto": "tama",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "«Sé si podremos volver»… ¡ojalá! Estáis perdidos: 分かりません.",
+       "en": "«I know if we can get back»… if only! You're lost: 分かりません."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "reto": {
+  "intro": {
+   "jp": "ふん。 お前[まえ]が 俺[おれ]に 勝[か]つ ことが できるか どうか…",
+   "tr": {
+    "es": "Hmpf. A ver si eres capaz de ganarme…",
+    "en": "Hmph. Let's see whether you're able to beat me…"
+   },
+   "voz": "k0"
+  },
+  "gana": {
+   "jp": "…くっ。 できたな。",
+   "tr": {
+    "es": "…Tsk. Has podido.",
+    "en": "…Tch. You could."
+   },
+   "voz": "kw"
+  },
+  "pierde": {
+   "jp": "ふん。 やっぱり できなかったな。",
+   "tr": {
+    "es": "Hmpf. Ya decía yo que no podrías.",
+    "en": "Hmph. I knew you couldn't."
+   },
+   "voz": "kl"
+  },
+  "pica": {
+   "jp": "…やるな。",
+   "tr": {
+    "es": "…No está mal.",
+    "en": "…Not bad."
+   },
+   "voz": "kp"
+  },
+  "burla": {
+   "jp": "ふん！",
+   "tr": {
+    "es": "¡Ja!",
+    "en": "Hah!"
+   },
+   "voz": "kb"
+  },
+  "preguntas": [
+   {
+    "tipo": "elige",
+    "jp": "駅[えき]が どこ＿ 知[し]って いますか。",
+    "opciones": [
+     "か",
+     "を",
+     "が"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "¿Sabes dónde está la estación?",
+     "en": "Do you know where the station is?"
+    },
+    "porque": {
+     "es": "Pregunta dentro de la frase: どこか.",
+     "en": "A question inside the sentence: どこか."
+    },
+    "voz": "q1"
+   },
+   {
+    "tipo": "elige",
+    "jp": "明日[あした] 雪[ゆき]が 降[ふ]る＿ 分[わ]かりません。",
+    "opciones": [
+     "かどうか",
+     "ことが",
+     "より"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "No sé si mañana nevará.",
+     "en": "I don't know whether it'll snow tomorrow."
+    },
+    "porque": {
+     "es": "Pregunta de sí o no dentro de la frase: かどうか.",
+     "en": "A yes/no question inside the sentence: かどうか."
+    },
+    "voz": "q2"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "ニャンは 漢字[かんじ]を 書[か]く ことが できます。",
+    "correcta": true,
+    "tr": {
+     "es": "Nyan sabe escribir kanji.",
+     "en": "Nyan can write kanji."
+    },
+    "porque": {
+     "es": "Bien: 書く + ことができる.",
+     "en": "Right: 書く + ことができる."
+    },
+    "voz": "q3"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "泳[およ]いで ことが できます。",
+    "correcta": false,
+    "tr": {
+     "es": "(Sé nadar.)",
+     "en": "(I can swim.)"
+    },
+    "porque": {
+     "es": "Delante de こと, forma de diccionario: 泳ぐことができます.",
+     "en": "Before こと, the dictionary form: 泳ぐことができます."
+    },
+    "voz": "q4"
+   },
+   {
+    "tipo": "oye",
+    "jp": "間[ま]に 合[あ]うか どうか 分[わ]かりません。",
+    "habla": "kage",
+    "opciones": [
+     {
+      "es": "No sé si llegaremos a tiempo.",
+      "en": "I don't know if we'll make it."
+     },
+     {
+      "es": "Llegaremos a tiempo.",
+      "en": "We'll make it."
+     },
+     {
+      "es": "No hemos llegado a tiempo.",
+      "en": "We didn't make it."
+     }
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "かどうか: si… o no.",
+     "en": "かどうか: whether… or not."
+    },
+    "voz": "q5"
+   },
+   {
+    "tipo": "imagen",
+    "jp": "暗[くら]くても、 これで 地図[ちず]を 見[み]る ことが できます。",
+    "opciones": [
+     "linterna",
+     "reloj",
+     "bufanda"
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "La linterna: con ella se puede leer el mapa de noche.",
+     "en": "The torch: with it you can read the map at night."
+    },
+    "pide": {
+     "es": "¿Con qué se ve el mapa de noche?",
+     "en": "What lets you read the map at night?"
+    }
+   }
+  ]
+ },
+ "siguiente": {
+  "es": "El parte dice que quizá nieve esta noche. ¿Qué haréis SI nieva? Y a la mañana siguiente…",
+  "en": "The forecast says it may snow tonight. What will you do IF it snows? And the next morning…"
+ },
+ "chuleta": {
+  "patron": {
+   "es": "〔pregunta〕か ・ 〔forma corta〕かどうか ・ 〔diccionario〕ことができる",
+   "en": "〔question〕か ・ 〔short〕かどうか ・ 〔dictionary〕ことができる"
+  },
+  "patron_tr": {
+   "es": "no sé qué… ・ si… o no ・ poder hacer",
+   "en": "I don't know what… ・ whether… ・ can do"
+  },
+  "filas": [
+   {
+    "jp": "駅[えき]が どこか 教[おし]えて ください。",
+    "es": "Dígame dónde está la estación, por favor.",
+    "en": "Please tell me where the station is.",
+    "registro": "educado"
+   },
+   {
+    "jp": "来[く]るか どうか 分[わ]からない。",
+    "es": "No sé si viene. (a un amigo)",
+    "en": "Dunno if he's coming. (to a friend)",
+    "registro": "amigos"
+   },
+   {
+    "jp": "日本語[にほんご]を 話[はな]す ことが できます。",
+    "es": "Sé hablar japonés.",
+    "en": "I can speak Japanese."
+   }
+  ],
+  "consejo": {
+   "es": "Para pedir indicaciones, ～か教えてください es oro: 駅がどこか教えてください. Educado y claro, sin rodeos.",
+   "en": "To ask for directions, ～か教えてください is gold: 駅がどこか教えてください. Polite and clear, no fuss."
+  }
+ }
+}

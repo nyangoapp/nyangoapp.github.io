@@ -1,0 +1,886 @@
+{
+ "id": "c35",
+ "clase": 15,
+ "desde": 173,
+ "titulo": {
+  "es": "El catador sin freno: 〜すぎる y 〜始める／続ける／終わる",
+  "en": "The taster with no brakes: 〜すぎる and 〜始める／続ける／終わる"
+ },
+ "resumen": {
+  "es": "すぎる se pega a la raíz del verbo o del adjetivo: pasarse de listo. 始める, 続ける y 終わる se pegan igual, para decir que algo empieza, sigue o termina.",
+  "en": "すぎる attaches to a verb or adjective stem: overdoing it. 始める, 続ける and 終わる attach the same way, to say something starts, continues or finishes."
+ },
+ "formato": 2,
+ "lugar": "washitsu",
+ "mision": {
+  "texto": {
+   "es": "Prueba de sabor: Tama ha hecho onigiri para el puesto y Nyan es el catador oficial. Solo tiene que probar uno de cada… Cuenta cuándo empieza, cuánto sigue y cuándo termina, y di cuándo algo se pasa de la raya.",
+   "en": "Taste test: Tama made onigiri for the stall and Nyan is the official taster. He only has to try one of each… Say when he starts, how long he keeps going and when he finishes, and say when something goes too far."
+  },
+  "escena": {
+   "fondo": "washitsu",
+   "cosas": [
+    {
+     "que": "nyan",
+     "x": 90
+    },
+    {
+     "que": "onigiri",
+     "x": 185,
+     "s": 1.3
+    },
+    {
+     "que": "mikan",
+     "x": 240,
+     "s": 1.1
+    },
+    {
+     "que": "gato",
+     "id": "tama",
+     "x": 320
+    }
+   ]
+  },
+  "cara": "feliz",
+  "jp": "一[ひと]つだけ…",
+  "voz": "m0"
+ },
+ "reglas": [
+  {
+   "id": "hajimeru",
+   "nombre": {
+    "es": "〜始める・〜続ける・〜終わる: empezar, seguir, terminar",
+    "en": "〜始める・〜続ける・〜終わる: start, keep on, finish"
+   },
+   "patron": {
+    "es": "〔raíz del verbo〕始める／続ける／終わる",
+    "en": "〔verb stem〕始める／続ける／終わる"
+   },
+   "explica": {
+    "es": "Para decir en qué punto está una acción, pega uno de estos verbos a la raíz del verbo principal (la forma de ます sin ます): 食べ始める, «empezar a comer»; 食べ続ける, «seguir comiendo»; 食べ終わる, «terminar de comer». El primero dice QUÉ haces y el segundo, en qué momento estás; por eso el que se conjuga es el segundo: 食べ始めました, 食べ続けています.",
+    "en": "To say where an action stands, attach one of these verbs to the main verb's stem (the ます form without ます): 食べ始める, «start eating»; 食べ続ける, «keep eating»; 食べ終わる, «finish eating». The first says WHAT you do and the second where you are in it; that's why the second one is conjugated: 食べ始めました, 食べ続けています."
+   },
+   "ejemplos": [
+    {
+     "jp": "ニャンが 食[た]べ始[はじ]めました。",
+     "es": "Nyan ha empezado a comer.",
+     "en": "Nyan has started eating.",
+     "voz": "r1-1"
+    },
+    {
+     "jp": "まだ 食[た]べ続[つづ]けて います。",
+     "es": "Sigue comiendo.",
+     "en": "He's still eating.",
+     "voz": "r1-2"
+    },
+    {
+     "jp": "宿題[しゅくだい]を やり終[お]わりました。",
+     "es": "He terminado los deberes.",
+     "en": "I've finished my homework.",
+     "voz": "r1-3"
+    }
+   ],
+   "ojo": {
+    "es": "Delante va la raíz, no la forma de diccionario: 食べ始める, no 食べる始める. Es la misma raíz que usas con ます y con たい.",
+    "en": "The stem goes first, not the dictionary form: 食べ始める, not 食べる始める. It's the same stem you use with ます and たい."
+   }
+  },
+  {
+   "id": "sugiru",
+   "nombre": {
+    "es": "〜すぎる: demasiado",
+    "en": "〜すぎる: too much"
+   },
+   "patron": {
+    "es": "〔raíz del verbo／adjetivo sin い〕すぎる",
+    "en": "〔verb stem／adjective without い〕すぎる"
+   },
+   "explica": {
+    "es": "すぎる significa «pasarse». Pegado a un verbo, dice que haces algo de más: 食べすぎる, «comer demasiado». Pegado a un adjetivo, que algo tiene demasiado de esa cualidad: 大きすぎる, «demasiado grande». Los adjetivos en い pierden la い (大きい → 大き) y los en な pierden el な (静か → 静かすぎる). El resultado es un verbo en る, así que se conjuga como 食べる: すぎます, すぎました, すぎない. Y la raíz sola funciona como nombre: 食べすぎです, «es un atracón». Casi siempre suena a problema: 高すぎる es una queja; おいしすぎる, un elogio exagerado.",
+    "en": "すぎる means «to go past». On a verb, it says you do too much of it: 食べすぎる, «eat too much». On an adjective, that something has too much of that quality: 大きすぎる, «too big». い adjectives lose their い (大きい → 大き) and な adjectives lose な (静か → 静かすぎる). The result is a る verb, so it conjugates like 食べる: すぎます, すぎました, すぎない. And the bare stem works as a noun: 食べすぎです, «that's overeating». It almost always sounds like a problem: 高すぎる is a complaint; おいしすぎる, exaggerated praise."
+   },
+   "ejemplos": [
+    {
+     "jp": "食[た]べすぎです！",
+     "es": "¡Has comido demasiado!",
+     "en": "You ate too much!",
+     "voz": "r2-1"
+    },
+    {
+     "jp": "この おにぎりは 大[おお]きすぎます。",
+     "es": "Este onigiri es demasiado grande.",
+     "en": "This onigiri is too big.",
+     "voz": "r2-2"
+    }
+   ],
+   "ojo": {
+    "es": "Con いい (bueno) la raíz es よ: よすぎる. Y no te dejes la い puesta: おいしいすぎる no encaja; lo correcto es おいしすぎる.",
+    "en": "With いい (good) the stem is よ: よすぎる. And don't leave the い on: おいしいすぎる doesn't fit; it's おいしすぎる."
+   }
+  }
+ ],
+ "historia": [
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "一[ひと]つずつ 食[た]べて ください。",
+   "tr": {
+    "es": "Prueba uno de cada, por favor.",
+    "en": "Try one of each, please."
+   },
+   "voz": "h1",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "washitsu",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 90
+     },
+     {
+      "que": "onigiri",
+      "x": 185,
+      "id": "onigiri",
+      "s": 1.3
+     },
+     {
+      "que": "mikan",
+      "x": 240,
+      "id": "mikan",
+      "s": 1.1
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 320
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "いただきます！",
+   "tr": {
+    "es": "¡A comer!",
+    "en": "Let's eat!"
+   },
+   "voz": "h2",
+   "cara": "feliz",
+   "brazo": "arriba"
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "ニャンが 食[た]べ始[はじ]めました。",
+   "tr": {
+    "es": "Nyan ha empezado a comer.",
+    "en": "Nyan has started eating."
+   },
+   "voz": "h3",
+   "plano": "medio",
+   "cara": "feliz"
+  },
+  {
+   "t": "regla",
+   "regla": "hajimeru"
+  },
+  {
+   "t": "elige",
+   "habla": "tama",
+   "pide": {
+    "es": "Una hora después, Nyan SIGUE comiendo. ¿Qué dice Tama?",
+    "en": "An hour later, Nyan is STILL eating. What does Tama say?"
+   },
+   "opciones": [
+    {
+     "jp": "まだ 食[た]べ続[つづ]けて います！",
+     "bien": true,
+     "tr": {
+      "es": "¡Sigue comiendo!",
+      "en": "He's still eating!"
+     },
+     "voz": "h4",
+     "porque": {
+      "es": "Raíz + 続ける: seguir haciendo algo. Y en ている porque está pasando ahora mismo.",
+      "en": "Stem + 続ける: keep doing something. And in ている because it's happening right now."
+     }
+    },
+    {
+     "jp": "まだ 食[た]べ始[はじ]めて います！",
+     "bien": false,
+     "porque": {
+      "es": "始める es empezar, y Nyan empezó hace una hora. Para «seguir», 続ける.",
+      "en": "始める is start, and Nyan started an hour ago. For «keep on», 続ける."
+     }
+    },
+    {
+     "jp": "まだ 食[た]べる続[つづ]けて います！",
+     "bien": false,
+     "porque": {
+      "es": "続ける se pega a la raíz, la misma que usas con ます: 食べ + 続ける.",
+      "en": "続ける attaches to the stem, the same one you use with ます: 食べ + 続ける."
+     }
+    }
+   ],
+   "cara": "feliz",
+   "escena": {
+    "fondo": "washitsu",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 90
+     },
+     {
+      "que": "onigiri",
+      "x": 185,
+      "id": "onigiri",
+      "s": 1.3
+     },
+     {
+      "que": "manpu",
+      "tipo": "prisa",
+      "x": 125,
+      "y": 120
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 320
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "おなかが 痛[いた]い…",
+   "tr": {
+    "es": "Me duele la tripa…",
+    "en": "My tummy hurts…"
+   },
+   "voz": "h5",
+   "cara": "triste",
+   "escena": {
+    "fondo": "washitsu",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 90
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 320
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "食[た]べすぎです！",
+   "tr": {
+    "es": "¡Has comido demasiado!",
+    "en": "You ate too much!"
+   },
+   "voz": "h6",
+   "cara": "enfado",
+   "reacciona": {
+    "nyan": "triste"
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "sugiru"
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "Nyan intenta excusarse: «Es que estaban demasiado ricos…»",
+    "en": "Nyan tries to excuse himself: «They were just too tasty…»"
+   },
+   "opciones": [
+    {
+     "jp": "おいしすぎました…",
+     "bien": true,
+     "tr": {
+      "es": "Estaban demasiado ricos…",
+      "en": "They were too tasty…"
+     },
+     "voz": "h7",
+     "porque": {
+      "es": "Adjetivo en い sin la い + すぎる: おいし + すぎる. En pasado, すぎました.",
+      "en": "い adjective without い + すぎる: おいし + すぎる. In the past, すぎました."
+     }
+    },
+    {
+     "jp": "おいしいすぎました…",
+     "bien": false,
+     "porque": {
+      "es": "Al adjetivo en い se le quita la い antes de すぎる: おいしすぎる. Con la い, las dos piezas no encajan.",
+      "en": "The い adjective drops its い before すぎる: おいしすぎる. With the い, the pieces don't fit."
+     }
+    },
+    {
+     "jp": "おいしくすぎました…",
+     "bien": false,
+     "porque": {
+      "es": "く convierte el adjetivo en un «cómo» (la próxima clase); すぎる va con la raíz a secas: おいしすぎる.",
+      "en": "く turns the adjective into a «how» (next class); すぎる takes the bare stem: おいしすぎる."
+     }
+    }
+   ],
+   "cara": "triste"
+  },
+  {
+   "t": "monta",
+   "encargo": 0
+  },
+  {
+   "t": "dice",
+   "habla": "kotaro",
+   "jp": "ぼくも 食[た]べたい！",
+   "tr": {
+    "es": "¡Yo también quiero comer!",
+    "en": "I want to eat too!"
+   },
+   "voz": "h8",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "washitsu",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 90
+     },
+     {
+      "que": "mikan",
+      "x": 205,
+      "id": "mikan",
+      "s": 1.2
+     },
+     {
+      "que": "perro",
+      "id": "kotaro",
+      "x": 320
+     }
+    ]
+   }
+  },
+  {
+   "t": "toca",
+   "pide": {
+    "es": "Tama cuenta qué ha empezado a comer Kotarō. Escucha y tócalo.",
+    "en": "Tama says what Kotarō has started eating. Listen and tap it."
+   },
+   "bien": "mikan",
+   "quien": "tama",
+   "escena": {
+    "fondo": "washitsu",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 65
+     },
+     {
+      "que": "onigiri",
+      "x": 160,
+      "id": "onigiri",
+      "s": 1.2
+     },
+     {
+      "que": "mikan",
+      "x": 215,
+      "id": "mikan",
+      "s": 1.2
+     },
+     {
+      "que": "senbei",
+      "x": 268,
+      "id": "senbei",
+      "s": 1.2
+     },
+     {
+      "que": "perro",
+      "id": "kotaro",
+      "x": 345
+     }
+    ]
+   },
+   "jp": "コタローは みかんを 食[た]べ始[はじ]めました。",
+   "voz": "h9",
+   "bien_msg": {
+    "es": "¡Eso! みかん: Kotarō ha empezado con las mandarinas (食べ始めました).",
+    "en": "Right! みかん: Kotarō has started on the mandarins (食べ始めました)."
+   },
+   "mal_msg": {
+    "es": "Ha dicho みかん: las mandarinas, redondas y naranjas.",
+    "en": "She said みかん: the mandarins, round and orange."
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "みんな、 食[た]べすぎ！ お祭[まつ]りの 分[ぶん]が ありません！",
+   "tr": {
+    "es": "¡Coméis todos demasiado! ¡No queda nada para el festival!",
+    "en": "You all eat too much! There's nothing left for the festival!"
+   },
+   "voz": "h10",
+   "cara": "enfado",
+   "reacciona": {
+    "nyan": "triste"
+   },
+   "escena": {
+    "fondo": "washitsu",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 310
+     }
+    ]
+   }
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "Nyan se siente culpable. Propón a Tama: «¡Empecemos a hacer más!»",
+    "en": "Nyan feels guilty. Suggest to Tama: «Let's start making more!»"
+   },
+   "opciones": [
+    {
+     "jp": "また 作[つく]り始[はじ]めましょう！",
+     "bien": true,
+     "tr": {
+      "es": "¡Empecemos a hacer más!",
+      "en": "Let's start making more!"
+     },
+     "voz": "h11",
+     "porque": {
+      "es": "作り + 始める (empezar a hacer) + ましょう (vamos a…): dos piezas que ya conoces, juntas.",
+      "en": "作り + 始める (start making) + ましょう (let's…): two pieces you already know, together."
+     }
+    },
+    {
+     "jp": "また 作[つく]りすぎましょう！",
+     "bien": false,
+     "porque": {
+      "es": "«¡Hagamos demasiados!»… Tama no se ríe. すぎる es pasarse; aquí quieres EMPEZAR: 作り始めましょう.",
+      "en": "«Let's make too many!»… Tama isn't laughing. すぎる is overdoing it; here you want to START: 作り始めましょう."
+     }
+    },
+    {
+     "jp": "また 作[つく]り終[お]わりましょう！",
+     "bien": false,
+     "porque": {
+      "es": "終わる es terminar: no se puede terminar algo que aún no ha empezado. Para «empezar a hacer», 始める.",
+      "en": "終わる is finish: you can't finish what hasn't started. For «start making», 始める."
+     }
+    }
+   ],
+   "cara": "pensando"
+  }
+ ],
+ "epilogo": [
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "しょうがないですね。 いっしょに 作[つく]りましょう。",
+   "tr": {
+    "es": "Qué remedio. Hagámoslos juntos.",
+    "en": "Oh well. Let's make them together."
+   },
+   "voz": "x1",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "washitsu",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 90
+     },
+     {
+      "que": "cuenco",
+      "x": 205,
+      "s": 1.2
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 320
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "今度[こんど]は 食[た]べすぎません！",
+   "tr": {
+    "es": "¡Esta vez no comeré demasiado!",
+    "en": "This time I won't eat too much!"
+   },
+   "voz": "x2",
+   "cara": "feliz",
+   "brazo": "arriba"
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta la frase: la escena hará lo que digas.",
+   "en": "Build the sentence: the scene will do what you say."
+  },
+  "piezas": [
+   {
+    "id": "kono",
+    "jp": "この",
+    "tipo": "palabra"
+   },
+   {
+    "id": "onigiri",
+    "jp": "おにぎり",
+    "tipo": "palabra"
+   },
+   {
+    "id": "wa",
+    "jp": "は",
+    "tipo": "particula"
+   },
+   {
+    "id": "ookisugimasu",
+    "jp": "大[おお]きすぎます",
+    "tipo": "verbo"
+   },
+   {
+    "id": "ookiidesu",
+    "jp": "大[おお]きいです",
+    "tipo": "verbo"
+   },
+   {
+    "id": "chiisasugimasu",
+    "jp": "小[ちい]さすぎます",
+    "tipo": "verbo"
+   },
+   {
+    "id": "ookiisugimasu",
+    "jp": "大[おお]きいすぎます",
+    "tipo": "verbo"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Tama descubre por qué: el último onigiri de Nyan era enorme. Dilo tú: «Este onigiri es demasiado grande».",
+     "en": "Tama finds out why: Nyan's last onigiri was huge. Say it: «This onigiri is too big»."
+    },
+    "escena": {
+     "fondo": "washitsu",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 90
+      },
+      {
+       "que": "onigiri",
+       "x": 205,
+       "id": "onigiri",
+       "s": 1.3
+      },
+      {
+       "que": "gato",
+       "id": "tama",
+       "x": 320
+      }
+     ]
+    },
+    "piezas": [
+     "kono",
+     "onigiri",
+     "wa",
+     "ookisugimasu",
+     "ookiidesu",
+     "chiisasugimasu",
+     "ookiisugimasu"
+    ],
+    "bien": [
+     [
+      "kono",
+      "onigiri",
+      "wa",
+      "ookisugimasu"
+     ]
+    ],
+    "tr": {
+     "es": "Este onigiri es demasiado grande.",
+     "en": "This onigiri is too big."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "gigante",
+      "objeto": "onigiri",
+      "cuanto": 2.2
+     },
+     {
+      "tipo": "nyan",
+      "cara": "sorpresa",
+      "manpu": "excl"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "chiisasugimasu"
+       ]
+      },
+      "efecto": [
+       {
+        "tipo": "mini",
+        "objeto": "onigiri",
+        "cuanto": 0.4
+       },
+       {
+        "tipo": "manpu",
+        "objeto": "tama",
+        "manpu": "pregunta"
+       }
+      ],
+      "msg": {
+       "es": "¡Ahora se ha encogido! 小さすぎる es «demasiado pequeño». El de Nyan era enorme: 大きすぎます.",
+       "en": "Now it's shrunk! 小さすぎる is «too small». Nyan's was huge: 大きすぎます."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "ookiisugimasu"
+       ]
+      },
+      "efecto": {
+       "tipo": "tiembla",
+       "objeto": "onigiri"
+      },
+      "msg": {
+       "es": "Casi: quita la い antes de すぎる. 大きい → 大き + すぎます.",
+       "en": "Almost: drop the い before すぎる. 大きい → 大き + すぎます."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "ookiidesu"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "Es verdad que es grande, pero Tama quiere decir que se PASA de grande: 大きすぎます.",
+       "en": "It's true it's big, but Tama means it's TOO big: 大きすぎます."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "reto": {
+  "intro": {
+   "jp": "ふん。 食[た]べすぎの 猫[ねこ]には 負[ま]けない。 勝負[しょうぶ]だ！",
+   "tr": {
+    "es": "Hmpf. No pienso perder contra un gato atiborrado. ¡Duelo!",
+    "en": "Hmph. I won't lose to a stuffed cat. Duel!"
+   },
+   "voz": "k0"
+  },
+  "gana": {
+   "jp": "…くっ。 食[た]べすぎでも 強[つよ]いな。",
+   "tr": {
+    "es": "…Tsk. Atiborrado y todo, eres fuerte.",
+    "en": "…Tch. Stuffed and still strong."
+   },
+   "voz": "kw"
+  },
+  "pierde": {
+   "jp": "ふん。 おなかが 重[おも]すぎたか？",
+   "tr": {
+    "es": "Hmpf. ¿Tenías la tripa demasiado llena?",
+    "en": "Hmph. Tummy too full?"
+   },
+   "voz": "kl"
+  },
+  "pica": {
+   "jp": "…やるな。",
+   "tr": {
+    "es": "…No está mal.",
+    "en": "…Not bad."
+   },
+   "voz": "kp"
+  },
+  "burla": {
+   "jp": "ふん！",
+   "tr": {
+    "es": "¡Ja!",
+    "en": "Hah!"
+   },
+   "voz": "kb"
+  },
+  "preguntas": [
+   {
+    "tipo": "elige",
+    "jp": "この かばんは 高[たか]＿ます。",
+    "opciones": [
+     "すぎ",
+     "始め",
+     "終わり"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Este bolso es demasiado caro.",
+     "en": "This bag is too expensive."
+    },
+    "porque": {
+     "es": "高い sin la い + すぎる: «demasiado caro».",
+     "en": "高い without い + すぎる: «too expensive»."
+    },
+    "voz": "q1"
+   },
+   {
+    "tipo": "elige",
+    "jp": "もう 食[た]べ＿ました。 ごちそうさま！",
+    "opciones": [
+     "終わり",
+     "始め",
+     "続け"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Ya he terminado de comer. ¡Gracias por la comida!",
+     "en": "I've finished eating. Thanks for the meal!"
+    },
+    "porque": {
+     "es": "ごちそうさま se dice al acabar: 食べ終わりました.",
+     "en": "ごちそうさま is said when you finish: 食べ終わりました."
+    },
+    "voz": "q2"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "まだ 本[ほん]を 読[よ]み続[つづ]けて います。",
+    "correcta": true,
+    "tr": {
+     "es": "Todavía sigue leyendo el libro.",
+     "en": "He's still reading the book."
+    },
+    "porque": {
+     "es": "Bien: raíz (読み) + 続ける, en ている porque sigue pasando.",
+     "en": "Right: stem (読み) + 続ける, in ている because it's still happening."
+    },
+    "voz": "q3"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "この 部屋[へや]は 静[しず]かなすぎます。",
+    "correcta": false,
+    "tr": {
+     "es": "(Esta habitación es demasiado silenciosa.)",
+     "en": "(This room is too quiet.)"
+    },
+    "porque": {
+     "es": "A los adjetivos en な se les quita el な: 静かすぎます.",
+     "en": "な adjectives drop the な: 静かすぎます."
+    },
+    "voz": "q4"
+   },
+   {
+    "tipo": "oye",
+    "jp": "ニャンは 食[た]べすぎました。",
+    "habla": "tama",
+    "opciones": [
+     {
+      "es": "Nyan ha comido demasiado.",
+      "en": "Nyan ate too much."
+     },
+     {
+      "es": "Nyan ha empezado a comer.",
+      "en": "Nyan started eating."
+     },
+     {
+      "es": "Nyan no ha comido.",
+      "en": "Nyan didn't eat."
+     }
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "食べすぎました: comer + pasarse, en pasado.",
+     "en": "食べすぎました: eat + overdo, in the past."
+    },
+    "voz": "q5"
+   },
+   {
+    "tipo": "imagen",
+    "jp": "みかんを 食[た]べ始[はじ]めました。",
+    "opciones": [
+     "mikan",
+     "onigiri",
+     "pan"
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "みかん: la mandarina. 食べ始めました: ha empezado a comerla.",
+     "en": "みかん: the mandarin. 食べ始めました: started eating it."
+    },
+    "pide": {
+     "es": "¿Qué ha empezado a comer?",
+     "en": "What has he started eating?"
+    }
+   }
+  ]
+ },
+ "siguiente": {
+  "es": "Toca hacer más onigiri y decorar el puesto: esta vez, despacito y con buena letra.",
+  "en": "Time to make more onigiri and decorate the stall: slowly and neatly this time."
+ },
+ "chuleta": {
+  "patron": {
+   "es": "〔raíz〕始める・続ける・終わる ・ 〔raíz〕すぎる",
+   "en": "〔stem〕始める・続ける・終わる ・ 〔stem〕すぎる"
+  },
+  "patron_tr": {
+   "es": "empezar, seguir, terminar de ・ demasiado",
+   "en": "start, keep on, finish ・ too much"
+  },
+  "filas": [
+   {
+    "jp": "食[た]べ始[はじ]めました。",
+    "es": "He empezado a comer.",
+    "en": "I've started eating.",
+    "registro": "educado"
+   },
+   {
+    "jp": "食[た]べすぎた…",
+    "es": "Me he pasado comiendo… (a un amigo)",
+    "en": "I ate too much… (to a friend)",
+    "registro": "amigos"
+   },
+   {
+    "jp": "この 部屋[へや]は 狭[せま]すぎます。",
+    "es": "Esta habitación es demasiado estrecha.",
+    "en": "This room is too small."
+   }
+  ],
+  "consejo": {
+   "es": "食べすぎ, 飲みすぎ, 寝すぎ…: con すぎ a secas se forma un nombre muy usado. «¡食べすぎ！» es lo que te dirán después de un atracón.",
+   "en": "食べすぎ, 飲みすぎ, 寝すぎ…: bare すぎ makes a very common noun. «食べすぎ！» is what you'll hear after a binge."
+  }
+ }
+}

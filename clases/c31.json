@@ -1,0 +1,166 @@
+{
+ "id": "c31",
+ "clase": 31,
+ "desde": 880,
+ "titulo": {"es": "Acabo de despertarme: 〜たところ, 〜たばかり, はず y べき", "en": "I just woke up: 〜たところ, 〜たばかり, はず and べき"},
+ "resumen": {"es": "〜たばかり y 〜たところ: «acabo de…», recién pasado. はず: lo que esperas que sea verdad. べき: lo que deberías hacer.",
+  "en": "〜たばかり and 〜たところ: “I just…”, something recently done. はず: what you expect to be true. べき: what you should do."},
+ "intro": [
+  {"escena": {"fondo": "cuarto", "cosas": [{"que": "nyan", "x": 200, "cara": "sueno", "s": 1.1}, {"que": "cama", "x": 200, "s": 1.3}]},
+   "cara": "sueno", "jp": "起[お]きたばかりだ…。", "voz": "i1",
+   "tr": {"es": "Acabo de despertarme…", "en": "I just woke up…"},
+   "cartela": {"es": "たばかり: dice que algo acaba de pasar, y todavía se nota.", "en": "たばかり: says something just happened, and it still shows."}},
+  {"escena": {"fondo": "escuela", "cosas": [{"que": "nyan", "x": 130, "cara": "sorpresa"}, {"que": "gato", "x": 280}]},
+   "cara": "normal", "habla": "tama", "jp": "ちょうど 授業[じゅぎょう]が 始[はじ]まったところだよ。", "voz": "i2",
+   "tr": {"es": "La clase acaba de empezar, justo ahora.", "en": "Class just started, right this second."},
+   "cartela": {"es": "Tama ve a Nyan llegar corriendo. たところ: justo en ese instante, en mitad de algo.", "en": "Tama sees Nyan come running in. たところ: right at that exact moment, mid-situation."}},
+  {"escena": {"fondo": "escuela", "cosas": [{"que": "nyan", "x": 130, "cara": "sorpresa"}, {"que": "manpu", "tipo": "excl", "x": 175, "y": 105}]},
+   "cara": "sorpresa", "jp": "先生[せんせい]は もう 来[き]てるはず…！", "voz": "i3",
+   "tr": {"es": "¡El profesor ya debería estar aquí…!", "en": "The teacher should already be here…!"},
+   "cartela": {"es": "はず: lo que esperas que sea verdad, aunque no lo hayas visto.", "en": "はず: what you expect to be true, even if you haven't seen it."},
+   "nota": {"es": "Primo: はず (lo esperas por lógica o información) frente a でしょう/かもしれない (una suposición más general, sin ese apoyo).", "en": "Cousin: はず (you expect it from reasoning or information) vs でしょう/かもしれない (a more general guess, without that basis)."}},
+  {"escena": {"fondo": "calle", "cosas": [{"que": "nyan", "x": 150, "cara": "triste"}, {"que": "manpu", "tipo": "sudor", "x": 190, "y": 115}]},
+   "cara": "triste", "jp": "もっと 早[はや]く 起[お]きるべきだった…。", "voz": "i4",
+   "tr": {"es": "Debería haberme despertado antes…", "en": "I should have woken up earlier…"},
+   "cartela": {"es": "べき: lo que deberías hacer. Fin de la intro: ¡cuatro palabras para hablar del tiempo! A practicar.", "en": "べき: what you should do. End of the intro: four words to talk about time! Let's practice."}}
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {"es": "Monta cada frase. たばかり・たところ van con el pasado; べき con el diccionario.",
+   "en": "Build each sentence. たばかり・たところ go with the past form; べき with the dictionary form."},
+  "piezas": [
+   {"id": "okita", "jp": "起[お]きた", "tipo": "palabra"}, {"id": "bakari", "jp": "ばかり", "tipo": "particula"}, {"id": "desu1", "jp": "です", "tipo": "verbo"},
+   {"id": "okiru", "jp": "起[お]きる", "tipo": "verbo"}, {"id": "okite", "jp": "起[お]きて", "tipo": "verbo"},
+   {"id": "shukudai", "jp": "宿題[しゅくだい]", "tipo": "palabra"}, {"id": "ga", "jp": "が", "tipo": "particula"},
+   {"id": "owatta", "jp": "終[お]わった", "tipo": "palabra"}, {"id": "tokoro", "jp": "ところ", "tipo": "particula"}, {"id": "desu2", "jp": "です", "tipo": "verbo"},
+   {"id": "owaru", "jp": "終[お]わる", "tipo": "verbo"}, {"id": "owatte", "jp": "終[お]わって", "tipo": "verbo"},
+   {"id": "sensei", "jp": "先生[せんせい]", "tipo": "palabra"}, {"id": "wa", "jp": "は", "tipo": "particula"},
+   {"id": "isogashii", "jp": "忙[いそが]しい", "tipo": "palabra"}, {"id": "hazu", "jp": "はず", "tipo": "particula"}, {"id": "desu3", "jp": "です", "tipo": "verbo"},
+   {"id": "isogashikatta", "jp": "忙[いそが]しかった", "tipo": "palabra"}, {"id": "isogashikute", "jp": "忙[いそが]しくて", "tipo": "palabra"},
+   {"id": "mainichi", "jp": "毎日[まいにち]", "tipo": "palabra"}, {"id": "benkyousuru", "jp": "勉強[べんきょう]する", "tipo": "verbo"}, {"id": "beki", "jp": "べき", "tipo": "particula"}, {"id": "desu4", "jp": "です", "tipo": "verbo"},
+   {"id": "benkyoushita", "jp": "勉強[べんきょう]した", "tipo": "verbo"}, {"id": "benkyoushinai", "jp": "勉強[べんきょう]しない", "tipo": "verbo"},
+   {"id": "kyou", "jp": "今日[きょう]", "tipo": "palabra"}, {"id": "yasumu", "jp": "休[やす]む", "tipo": "verbo"}, {"id": "desu5", "jp": "です", "tipo": "verbo"},
+   {"id": "yasumuhazu", "jp": "休[やす]むはず", "tipo": "palabra"}, {"id": "yasunda", "jp": "休[やす]んだ", "tipo": "verbo"}
+  ],
+  "encargos": [
+   {"pide": {"es": "Di: «Acabo de despertarme».", "en": "Say: «I just woke up»."},
+    "escena": {"fondo": "cuarto", "cosas": [{"que": "nyan", "x": 200, "cara": "sueno", "s": 1.1}, {"que": "cama", "x": 200, "s": 1.3}]},
+    "piezas": ["okita", "bakari", "desu1", "okiru", "okite"],
+    "bien": [["okita", "bakari", "desu1"]], "tr": {"es": "Acabo de despertarme.", "en": "I just woke up."},
+    "efecto_bien": [{"tipo": "nyan", "cara": "sueno"}, {"tipo": "manpu", "objeto": "nyan", "manpu": "sudor"}],
+    "fallos": [
+     {"si": {"contiene": ["okiru"]}, "efecto": {"tipo": "nyan", "cara": "pensando", "manpu": "pregunta"},
+      "msg": {"es": "ばかり necesita el pasado: 起[お]きた, no 起[お]きる.", "en": "ばかり needs the past form: 起きた, not 起きる."}},
+     {"si": {"contiene": ["okite"]}, "efecto": {"tipo": "nyan", "cara": "pensando", "manpu": "pregunta"},
+      "msg": {"es": "起[お]きて es la forma en て. ばかり va con el pasado: 起[お]きた.", "en": "起きて is the て form. ばかり goes with the past form: 起きた."}},
+     {"si": {"falta": ["bakari"]}, "efecto": {"tipo": "nyan", "cara": "normal"},
+      "msg": {"es": "Sin ばかり solo dices «me desperté», sin el matiz de «hace nada».", "en": "Without ばかり you're just saying “I woke up”, without the “just now” nuance."}}
+    ]},
+   {"pide": {"es": "Di: «Los deberes acaban de terminar (justo ahora)».", "en": "Say: «The homework just finished (right now)»."},
+    "escena": {"fondo": "cuarto", "cosas": [{"que": "nyan", "x": 130, "cara": "feliz"}]},
+    "piezas": ["shukudai", "ga", "owatta", "tokoro", "desu2", "owaru", "owatte"],
+    "bien": [["shukudai", "ga", "owatta", "tokoro", "desu2"]], "tr": {"es": "Los deberes acaban de terminar.", "en": "The homework just finished."},
+    "efecto_bien": [{"tipo": "brilla", "objeto": "nyan"}, {"tipo": "nyan", "cara": "feliz", "brazo": "arriba"}],
+    "fallos": [
+     {"si": {"contiene": ["owaru"]}, "efecto": {"tipo": "nyan", "cara": "pensando", "manpu": "pregunta"},
+      "msg": {"es": "ところ, aquí, necesita el pasado: 終[お]わった, no 終[お]わる.", "en": "ところ, here, needs the past form: 終わった, not 終わる."}},
+     {"si": {"contiene": ["owatte"]}, "efecto": {"tipo": "nyan", "cara": "pensando", "manpu": "pregunta"},
+      "msg": {"es": "終[お]わって es la forma en て. ところ va con el pasado: 終[お]わった.", "en": "終わって is the て form. ところ goes with the past form: 終わった."}},
+     {"si": {"falta": ["tokoro"]}, "efecto": {"tipo": "nyan", "cara": "normal"},
+      "msg": {"es": "Sin ところ no queda claro que fue justo ahora mismo.", "en": "Without ところ it's not clear it was just now."}}
+    ]},
+   {"pide": {"es": "Di: «El profesor debe de estar ocupado».", "en": "Say: «The teacher should be busy»."},
+    "escena": {"fondo": "escuela", "cosas": [{"que": "nyan", "x": 110, "cara": "pensando"}, {"que": "profesor", "x": 280}]},
+    "piezas": ["sensei", "wa", "isogashii", "hazu", "desu3", "isogashikatta", "isogashikute"],
+    "bien": [["sensei", "wa", "isogashii", "hazu", "desu3"]], "tr": {"es": "El profesor debe de estar ocupado.", "en": "The teacher should be busy."},
+    "efecto_bien": [{"tipo": "brilla", "objeto": "profesor"}, {"tipo": "nyan", "cara": "pensando"}],
+    "fallos": [
+     {"si": {"contiene": ["isogashikatta"]}, "efecto": {"tipo": "nyan", "cara": "pensando", "manpu": "pregunta"},
+      "msg": {"es": "はず va con el presente aquí: 忙[いそが]しい, no 忙[いそが]しかった (eso sería «estuvo ocupado»).", "en": "はず goes with the present here: 忙しい, not 忙しかった (that would be “was busy”)."}},
+     {"si": {"contiene": ["isogashikute"]}, "efecto": {"tipo": "nyan", "cara": "pensando", "manpu": "pregunta"},
+      "msg": {"es": "忙[いそが]しくて conecta dos frases; はず necesita el adjetivo tal cual: 忙[いそが]しい.", "en": "忙しくて connects two sentences; はず needs the plain adjective: 忙しい."}},
+     {"si": {"falta": ["hazu"]}, "efecto": {"tipo": "nyan", "cara": "normal"},
+      "msg": {"es": "Sin はず solo afirmas que está ocupado, sin el matiz de «supongo».", "en": "Without はず you're just stating he's busy, without the “I'd expect” nuance."}}
+    ]},
+   {"pide": {"es": "Di: «Deberías estudiar todos los días».", "en": "Say: «You should study every day»."},
+    "escena": {"fondo": "escuela", "cosas": [{"que": "nyan", "x": 150, "cara": "pensando"}]},
+    "piezas": ["mainichi", "benkyousuru", "beki", "desu4", "benkyoushita", "benkyoushinai"],
+    "bien": [["mainichi", "benkyousuru", "beki", "desu4"]], "tr": {"es": "Deberías estudiar todos los días.", "en": "You should study every day."},
+    "efecto_bien": [{"tipo": "texto", "texto": "カリカリ", "x": 200, "y": 150}, {"tipo": "nyan", "cara": "pensando"}],
+    "fallos": [
+     {"si": {"contiene": ["benkyoushita"]}, "efecto": {"tipo": "nyan", "cara": "pensando", "manpu": "pregunta"},
+      "msg": {"es": "べき necesita el diccionario: 勉強[べんきょう]する, no 勉強[べんきょう]した.", "en": "べき needs the dictionary form: 勉強する, not 勉強した."}},
+     {"si": {"contiene": ["benkyoushinai"]}, "efecto": {"tipo": "nyan", "cara": "sorpresa"},
+      "msg": {"es": "Eso aconseja NO estudiar… ¡lo contrario! Estudiar es 勉強[べんきょう]する.", "en": "That advises NOT studying… the opposite! To study is 勉強する."}},
+     {"si": {"falta": ["beki"]}, "efecto": {"tipo": "nyan", "cara": "normal"},
+      "msg": {"es": "Sin べき solo dices «estudia», sin el matiz de deber.", "en": "Without べき you're just saying “study”, without the “should” nuance."}}
+    ]},
+   {"pide": {"es": "Reto: di «Deberías descansar hoy».", "en": "Challenge: say «You should rest today»."},
+    "escena": {"fondo": "cuarto", "cosas": [{"que": "nyan", "x": 130, "cara": "triste"}, {"que": "cama", "x": 280, "s": 1.2}]},
+    "piezas": ["kyou", "wa", "yasumu", "beki", "desu5", "yasumuhazu", "yasunda"],
+    "bien": [["kyou", "wa", "yasumu", "beki", "desu5"]], "tr": {"es": "Deberías descansar hoy.", "en": "You should rest today."},
+    "efecto_bien": [{"tipo": "duerme", "objeto": "nyan"}, {"tipo": "nyan", "cara": "sueno"}],
+    "fallos": [
+     {"si": {"contiene": ["yasumuhazu"]}, "efecto": {"tipo": "nyan", "cara": "pensando", "manpu": "pregunta"},
+      "msg": {"es": "Eso dice «se supone que descansa» (una expectativa), no un consejo. Para aconsejar: べき.", "en": "That says “he's expected to rest” (an expectation), not advice. For advice: べき."}},
+     {"si": {"contiene": ["yasunda"]}, "efecto": {"tipo": "nyan", "cara": "pensando", "manpu": "pregunta"},
+      "msg": {"es": "べき necesita el diccionario: 休[やす]む, no el pasado 休[やす]んだ.", "en": "べき needs the dictionary form: 休む, not the past 休んだ."}},
+     {"si": {"falta": ["beki"]}, "efecto": {"tipo": "nyan", "cara": "normal"},
+      "msg": {"es": "Sin べき no es un consejo, solo una descripción.", "en": "Without べき it's not advice, just a description."}}
+    ]}
+  ]
+ },
+ "juego": {
+  "intro": {"es": "¿たばかり, はず o べき? Completa cada frase.", "en": "たばかり, はず, or べき? Complete each sentence."},
+  "nyan": {"es": "Yo siempre estoy en «acabo de despertarme».", "en": "I'm always in “I just woke up” mode."},
+  "cestas": [
+   {"id": "bakari", "jp": "たばかり", "sub": {"es": "acabo de… (recién)", "en": "just did… (fresh)"}},
+   {"id": "hazu", "jp": "はず", "sub": {"es": "seguro que…, se supone que…", "en": "should be…, is expected to…"}},
+   {"id": "beki", "jp": "べき", "sub": {"es": "deberías… (consejo)", "en": "should… (advice)"}}
+  ],
+  "cartas": [
+   {"id": "j1", "dibujo": "cama", "jp": "起[お]き＿です。", "cesta": "bakari", "es": "Acabo de despertarme.", "en": "I just woke up."},
+   {"id": "j2", "jp": "着[つ]い＿です。", "cesta": "bakari", "es": "Acabo de llegar.", "en": "I just arrived."},
+   {"id": "j3", "jp": "始[はじ]まっ＿です。", "cesta": "bakari", "es": "Acaba de empezar.", "en": "It just started."},
+   {"id": "j4", "dibujo": "profesor", "jp": "先生[せんせい]は 忙[いそが]しい＿です。", "cesta": "hazu", "es": "El profesor debe de estar ocupado.", "en": "The teacher should be busy."},
+   {"id": "j5", "jp": "もう 着[つ]いている＿です。", "cesta": "hazu", "es": "Seguro que ya han llegado.", "en": "They must have already arrived."},
+   {"id": "j6", "jp": "簡単[かんたん]な＿です。", "cesta": "hazu", "es": "Se supone que es fácil.", "en": "It's supposed to be easy.",
+    "truco": {"es": "な-adjetivos llevan な antes de はず: 簡単[かんたん]なはず.", "en": "な-adjectives take な before はず: 簡単なはず."}},
+   {"id": "j7", "jp": "毎日[まいにち] 練習[れんしゅう]する＿です。", "cesta": "beki", "es": "Deberías practicar todos los días.", "en": "You should practice every day."},
+   {"id": "j8", "dibujo": "cama", "jp": "今日[きょう]は 休[やす]む＿です。", "cesta": "beki", "es": "Deberías descansar hoy.", "en": "You should rest today."},
+   {"id": "j9", "jp": "早[はや]く 寝[ね]る＿です。", "cesta": "beki", "es": "Deberías dormir pronto.", "en": "You should sleep early."}
+  ]
+ },
+ "outro": [
+  {"escena": {"fondo": "cuarto", "cosas": [{"que": "nyan", "x": 200, "cara": "sueno", "s": 1.1}, {"que": "cama", "x": 200, "s": 1.3}]},
+   "cara": "sueno", "jp": "起[お]きたばかりだ。", "voz": "o1",
+   "tr": {"es": "Acabo de despertarme.", "en": "I just woke up."},
+   "cartela": {"es": "〜たばかり: con el pasado, «acabo de…», y se nota.", "en": "〜たばかり: with the past form, “I just…”, and it shows."}},
+  {"escena": {"fondo": "escuela", "cosas": [{"que": "nyan", "x": 110, "cara": "pensando"}, {"que": "profesor", "x": 280}]},
+   "cara": "pensando", "jp": "先生[せんせい]は 忙[いそが]しいはずです。", "voz": "o2",
+   "tr": {"es": "El profesor debe de estar ocupado.", "en": "The teacher should be busy."},
+   "cartela": {"es": "はず: lo que esperas, aunque no lo veas. べき: lo que deberías hacer.", "en": "はず: what you expect, even without seeing it. べき: what you should do."}},
+  {"escena": {"fondo": "cuarto", "cosas": [{"que": "nyan", "x": 200, "cara": "sueno", "s": 1.1}, {"que": "cama", "x": 200, "s": 1.3}, {"que": "manpu", "tipo": "z", "x": 250, "y": 90}]},
+   "cara": "sueno", "jp": "今日[きょう]は 休[やす]むべきだ…zzz。", "voz": "o3",
+   "tr": {"es": "Hoy debería descansar… zzz.", "en": "I should rest today… zzz."},
+   "cartela": {"es": "Fin. Cuatro palabras, un solo Nyan que siempre acaba durmiendo.", "en": "The end. Four words, one Nyan who always ends up asleep."}}
+ ],
+ "chuleta": {
+  "patron": {"es": "〔pasado〕ばかり・ところ ／ 〔presente〕はず ／ 〔diccionario〕べき", "en": "〔past〕ばかり・ところ / 〔present〕はず / 〔dictionary〕べき"},
+  "patron_tr": {"es": "acabo de… ／ debe de ser… ／ deberías…", "en": "I just… / it should be… / you should…"},
+  "columnas": [
+   {"jp": "たばかり", "texto": {"es": "acaba de pasar, se nota", "en": "just happened, it shows"}, "dibujos": ["cama"]},
+   {"jp": "はず", "texto": {"es": "lo esperas, aunque no lo veas", "en": "you expect it, even unseen"}, "dibujos": ["profesor"]},
+   {"jp": "べき", "texto": {"es": "lo que deberías hacer", "en": "what you should do"}, "dibujos": ["libro"]}
+  ],
+  "filas": [
+   {"jp": "起[お]きたばかりだ。", "es": "Acabo de despertarme.", "en": "I just woke up.", "registro": "amigos"},
+   {"jp": "起[お]きたばかりです。", "es": "Acabo de despertarme.", "en": "I just woke up.", "registro": "educado"},
+   {"jp": "先生[せんせい]は 忙[いそが]しいはずだ。", "es": "El profesor debe de estar ocupado.", "en": "The teacher should be busy.", "registro": "amigos"},
+   {"jp": "先生[せんせい]は 忙[いそが]しいはずです。", "es": "El profesor debe de estar ocupado.", "en": "The teacher should be busy.", "registro": "educado"},
+   {"jp": "毎日[まいにち] 勉強[べんきょう]するべきだ。", "es": "Deberías estudiar todos los días.", "en": "You should study every day.", "registro": "amigos"},
+   {"jp": "毎日[まいにち] 勉強[べんきょう]するべきです。", "es": "Deberías estudiar todos los días.", "en": "You should study every day.", "registro": "educado"}
+  ],
+  "consejo": {"es": "たところ es como たばかり, pero fijándose en el instante exacto, en mitad de una secuencia.", "en": "たところ is like たばかり, but focused on the exact moment, mid-sequence."}
+ }
+}

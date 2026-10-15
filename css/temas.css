@@ -1,0 +1,128 @@
+/* Temas de Nyango (15-10): Washi (el de siempre, renovado), Noche (oscuro, estilo Bunpro), Pop (blanco y colores vivos) y Sumi (tinta y sello).
+   El tema va en <html data-tema="…"> (lo pone el arranque, antes de pintar; «auto» = Noche si el sistema está en oscuro, si no Washi).
+   Las pantallas usan SOLO estos tokens: nada de colores escritos a mano en la interfaz (el arte —Nyan en 3D, objetos, escenas de manga— sí).
+   Se carga DESPUÉS de app.css / movil.css; con [data-tema] gana a sus :root, y los nombres de antes (--crema, --naranja…) apuntan aquí. */
+
+:root, :root[data-tema="washi"], [data-muestra="washi"] {
+  /* superficies: fondo de la app, tarjetas y lo que va dentro de las tarjetas */
+  --fondo: #f1e6d0; --fondo-2: #e7d8bb;
+  --sup: #fffcf6; --sup-2: #f8efe0; --sup-3: #f0e2c9;
+  --linea: #e6d5b5; --linea-2: #d3bc90;
+  /* texto */
+  --tinta: #2e241c; --tinta-2: #54452f; --tinta-3: #72624e; --tinta-inv: #ffffff;
+  /* acento (lo de Nyango) y el botón principal */
+  --acento: #e0520e; --acento-2: #ff7029; --acento-suave: #ffe6d3; --acento-tinta: #a43a09;   /* #b8420b daba 4,3:1 sobre --sup-3 y 4,4 sobre --fondo (15-10); ahora ≥ 4,7 en todas las superficies */
+  --boton: #c9490d; --boton-tinta: #ffffff; --boton-canto: #9a3607;
+  /* bien / mal / aviso */
+  --bien: #277836; --bien-suave: #e4f1da; --mal: #be3420; --mal-suave: #fbe0d8; --aviso: #b5780c; --aviso-suave: #fcefd0;
+  /* un color fijo por tipo de tarjeta (en todas partes: repaso, portada, filtros, estadísticas) */
+  --t-vocab: #e0520e; --t-kanji: #3d63b8; --t-radical: #d23f29; --t-gram: #5b54c9; --t-conj: #2b7a72;
+  /* tinta sobre cada color macizo (fichas, insignias, sellos): ≥ 4,5:1 en todos. Siempre la misma por tipo, en todas las pantallas */
+  --t-vocab-tinta: #1a1208; --t-kanji-tinta: #ffffff; --t-radical-tinta: #ffffff; --t-gram-tinta: #ffffff; --t-conj-tinta: #ffffff; --acento-sobre: #1a1208; --aviso-sobre: #1a1208;
+  /* rangos de memoria (見習い → 名人) */
+  --r0: #d6607a; --r1: #3d63a6; --r2: #d8412a; --r3: #bf7f0a; --r4: #2b2420;
+  /* forma */
+  --radio: 18px; --radio-peq: 12px; --radio-btn: 999px;
+  --borde: 0 solid transparent;
+  --sombra: 0 4px 0 var(--linea), 0 14px 24px -16px rgba(60, 35, 10, .35);
+  --sombra-peq: 0 2px 0 var(--linea);
+  --sombra-btn: 0 4px 0 var(--boton-canto);
+  --sombra-flotante: 0 26px 60px -22px rgba(40, 22, 6, .5);
+  --velo: rgba(40, 25, 10, .38);
+  /* letras: una para títulos y otra para todo lo demás (el japonés, con la suya) */
+  --f-titulo: "Mochiy Pop One", "Zen Maru Gothic", sans-serif; --peso-titulo: 400;
+  --f-texto: "Zen Maru Gothic", "Hiragino Maru Gothic ProN", system-ui, sans-serif;
+  --f-jp: "Zen Maru Gothic", "Hiragino Maru Gothic ProN", sans-serif;
+  --f-kaisho: "Klee One", "Yu Mincho", serif;
+  /* escenas (la habitación 3D, las fotos de fondo): cuánto se oscurecen o apagan en este tema */
+  --escena-filtro: none; --escena-velo: transparent;
+  color-scheme: light;
+}
+
+:root[data-tema="noche"], [data-muestra="noche"] {
+  --fondo: #0f1115; --fondo-2: #14171c;
+  --sup: #1a1d24; --sup-2: #22262f; --sup-3: #2a2f3a;
+  --linea: #2a2e38; --linea-2: #3b414e;
+  --tinta: #eceae6; --tinta-2: #a9b0bb; --tinta-3: #9197a2; --tinta-inv: #16110c;
+  --acento: #ff8a3d; --acento-2: #ffa262; --acento-suave: rgba(255, 138, 61, .14); --acento-tinta: #ffb27d;
+  --boton: #ff8a3d; --boton-tinta: #1a0e05; --boton-canto: transparent;
+  --bien: #34d399; --bien-suave: rgba(52, 211, 153, .13); --mal: #f87171; --mal-suave: rgba(248, 113, 113, .14); --aviso: #fbbf24; --aviso-suave: rgba(251, 191, 36, .13);
+  --t-vocab: #ffb347; --t-kanji: #f0508c; --t-radical: #38bdf8; --t-gram: #8b7cff; --t-conj: #14b8a6;
+  --t-vocab-tinta: #16110c; --t-kanji-tinta: #16110c; --t-radical-tinta: #16110c; --t-gram-tinta: #16110c; --t-conj-tinta: #16110c; --acento-sobre: #16110c; --aviso-sobre: #16110c;
+  --r0: #f29bb0; --r1: #6b9bf2; --r2: #f0644f; --r3: #f5b13d; --r4: #ece6dd;
+  --radio: 14px; --radio-peq: 10px; --radio-btn: 10px;
+  --borde: 1px solid var(--linea);
+  --sombra: none; --sombra-peq: none; --sombra-btn: none;
+  --sombra-flotante: 0 24px 60px -20px rgba(0, 0, 0, .75);
+  --velo: rgba(5, 6, 9, .62);
+  --f-titulo: "Zen Kaku Gothic New", system-ui, sans-serif; --peso-titulo: 700;
+  --f-texto: "Zen Kaku Gothic New", system-ui, sans-serif;
+  --f-jp: "Zen Kaku Gothic New", "Hiragino Sans", sans-serif;
+  --escena-filtro: brightness(.5) saturate(.75); --escena-velo: rgba(10, 12, 16, .45);
+  color-scheme: dark;
+}
+
+:root[data-tema="pop"], [data-muestra="pop"] {
+  --fondo: #f3f4f7; --fondo-2: #e9ebf0;
+  --sup: #ffffff; --sup-2: #f6f7f9; --sup-3: #eef0f4;
+  --linea: #e5e7eb; --linea-2: #d1d5db;
+  --tinta: #1f2430; --tinta-2: #4b5563; --tinta-3: #636c7e; --tinta-inv: #ffffff;
+  --acento: #7c3aed; --acento-2: #8b5cf6; --acento-suave: #ede9fe; --acento-tinta: #5b21b6;
+  --boton: #ffd60a; --boton-tinta: #3b2a00; --boton-canto: #c9a400;
+  --bien: #117f39; --bien-suave: #dcfce7; --mal: #dc2626; --mal-suave: #fee2e2; --aviso: #c47c06; --aviso-suave: #fef3c7;
+  --t-vocab: #f06400; --t-kanji: #ec4899; --t-radical: #0c9ad8; --t-gram: #4f5ff0; --t-conj: #0d9488;
+  --t-vocab-tinta: #1a1208; --t-kanji-tinta: #1a1208; --t-radical-tinta: #1a1208; --t-gram-tinta: #ffffff; --t-conj-tinta: #1a1208; --acento-sobre: #ffffff; --aviso-sobre: #1a1208;
+  --r0: #db2f8f; --r1: #3b82f6; --r2: #ef4444; --r3: #c47c06; --r4: #1f2430;
+  --radio: 18px; --radio-peq: 12px; --radio-btn: 14px;
+  --borde: 2px solid var(--linea);
+  --sombra: 0 4px 0 var(--linea); --sombra-peq: 0 3px 0 var(--linea); --sombra-btn: 0 4px 0 var(--boton-canto);
+  --sombra-flotante: 0 24px 50px -20px rgba(31, 36, 48, .35);
+  --velo: rgba(31, 36, 48, .4);
+  --f-titulo: "Mochiy Pop One", "M PLUS Rounded 1c", sans-serif; --peso-titulo: 400;
+  --f-texto: "M PLUS Rounded 1c", system-ui, sans-serif;
+  --f-jp: "M PLUS Rounded 1c", "Hiragino Maru Gothic ProN", sans-serif;
+  --escena-filtro: saturate(1.15); --escena-velo: transparent;
+  color-scheme: light;
+}
+
+:root[data-tema="sumi"], [data-muestra="sumi"] {
+  --fondo: #f6f5f2; --fondo-2: #edeae4;
+  --sup: #ffffff; --sup-2: #f8f7f4; --sup-3: #efede8;
+  --linea: #e3ded6; --linea-2: #c9c1b5;
+  --tinta: #151412; --tinta-2: #55504a; --tinta-3: #6f6a64; --tinta-inv: #ffffff;
+  --acento: #c8241a; --acento-2: #dd3a2e; --acento-suave: #f8e6e4; --acento-tinta: #a31c13;
+  --boton: #151412; --boton-tinta: #ffffff; --boton-canto: transparent;
+  --bien: #1f7a4a; --bien-suave: #e5f1ea; --mal: #c8241a; --mal-suave: #f8e6e4; --aviso: #a06a19; --aviso-suave: #f5ebd8;
+  --t-vocab: #b5501f; --t-kanji: #2f4f8f; --t-radical: #8a5a2e; --t-gram: #5a4a8a; --t-conj: #2b6e66;
+  --t-vocab-tinta: #ffffff; --t-kanji-tinta: #ffffff; --t-radical-tinta: #ffffff; --t-gram-tinta: #ffffff; --t-conj-tinta: #ffffff; --acento-sobre: #ffffff; --aviso-sobre: #ffffff;
+  --r0: #b0566b; --r1: #2f4f8f; --r2: #c8241a; --r3: #a06a19; --r4: #151412;
+  --radio: 6px; --radio-peq: 4px; --radio-btn: 4px;
+  --borde: 1px solid var(--linea);
+  --sombra: none; --sombra-peq: none; --sombra-btn: none;
+  --sombra-flotante: 0 20px 50px -24px rgba(21, 20, 18, .35);
+  --velo: rgba(21, 20, 18, .35);
+  --f-titulo: "Shippori Mincho", "Yu Mincho", serif; --peso-titulo: 800;
+  --f-texto: "Zen Kaku Gothic New", system-ui, sans-serif;
+  --f-jp: "Klee One", "Yu Mincho", serif;
+  --escena-filtro: saturate(.55) contrast(.95); --escena-velo: rgba(246, 245, 242, .25);
+  color-scheme: light;
+}
+
+/* [data-muestra=…]: las muestras vivas del selector de tema (Ajustes) llevan los tokens de un tema aunque la app esté en otro. */
+
+/* Los nombres de antes (app.css, movil.css y los estilos que inyecta cada vista) apuntan a los tokens: así lo que aún no se ha
+   pasado a tokens ya sigue al tema. Cuando una vista se convierte, usa los nombres nuevos directamente. */
+:root[data-tema] {
+  --crema: var(--sup); --crema-2: var(--sup-2); --crema-3: var(--sup-3);
+  --canto: var(--linea); --canto-2: var(--linea-2);
+  --naranja: var(--acento); --naranja-2: var(--acento-2); --naranja-canto: var(--acento-tinta); --naranja-c: var(--acento-tinta); --pastel-nar: var(--acento-suave);
+  --rojo: var(--mal); --rojo-canto: var(--mal); --rojo-c: var(--mal);
+  --oro: var(--aviso); --oro-canto: var(--aviso);
+  --te: var(--bien); --te-c: var(--bien); --anil: var(--t-kanji); --marron: var(--tinta);
+  --papel: var(--sup); --linea-s: var(--linea-2);
+  --washi: var(--sup); --washi-2: var(--sup-2); --washi-3: var(--sup-3);
+  --sumi: var(--tinta); --sumi-2: var(--tinta-2); --sumi-3: var(--tinta-3);
+  --shu: var(--mal); --kin: var(--aviso); --ai: var(--t-kanji); --matcha: var(--bien);
+  --pop: var(--f-titulo); --dela: var(--f-titulo); --redonda: var(--f-texto); --sans: var(--f-texto); --maru: var(--f-jp); --kaisho: var(--f-kaisho); --serif: var(--f-texto);
+  --red: var(--f-texto);
+}

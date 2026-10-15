@@ -1,0 +1,578 @@
+{
+ "id": "c69",
+ "clase": 69,
+ "desde": 2830,
+ "titulo": {
+  "es": "En la tienda y al teléfono: 〜させていただく y compañía",
+  "en": "At the shop and on the phone: 〜させていただく and friends"
+ },
+ "resumen": {
+  "es": "させていただきます y お〜いたします: avisas, con mucha humildad, que TÚ vas a hacer algo. ございます: cortesía para cosas y lugares, sin subir ni bajar a nadie. 少々お待ちください y かしこまりました: frases fijas de tienda, enteras, sin despiezar.",
+  "en": "させていただきます and お〜いたします: you announce, very humbly, that YOU are going to do something. ございます: courtesy for things and places, raising or lowering no one. 少々お待ちください and かしこまりました: fixed shop phrases, learned whole, not taken apart."
+ },
+ "intro": [
+  {
+   "escena": {
+    "fondo": "tienda",
+    "cosas": [
+     { "que": "nyan", "x": 110, "cara": "sorpresa" },
+     { "que": "telefono", "x": 270 },
+     { "que": "manpu", "tipo": "excl", "x": 160, "y": 105 }
+    ]
+   },
+   "cara": "sorpresa",
+   "jp": "も、もしもし…！",
+   "voz": "i1",
+   "tr": {
+    "es": "¿D-diga…?",
+    "en": "H-hello…?"
+   },
+   "cartela": {
+    "es": "Primer día de Nyan en la tienda. Suena el teléfono.",
+    "en": "Nyan's first day at the shop. The phone rings."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "tienda",
+    "cosas": [
+     { "que": "nyan", "x": 110, "cara": "pensando" },
+     { "que": "persona", "x": 270 }
+    ]
+   },
+   "habla": "tendero",
+   "cara": "normal",
+   "jp": "そういう 時[とき]は「少々[しょうしょう]お待[ま]ちください」って 言[い]うんだよ。",
+   "voz": "i2",
+   "tr": {
+    "es": "En esos casos se dice «espere un momento, por favor».",
+    "en": "In cases like that, you say «please wait a moment»."
+   },
+   "cartela": {
+    "es": "Frase fija: se aprende entera.",
+    "en": "Fixed phrase: learn it whole."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "tienda",
+    "cosas": [
+     { "que": "nyan", "x": 110, "cara": "pensando" },
+     { "que": "persona", "x": 280 }
+    ]
+   },
+   "cara": "pensando",
+   "jp": "確認[かくにん]させていただきます。",
+   "voz": "i3",
+   "tr": {
+    "es": "Permítame comprobarlo.",
+    "en": "Let me check that for you."
+   },
+   "nota": {
+    "es": "〜させていただきます: avisas, con humildad, que vas a hacer algo tú.",
+    "en": "〜させていただきます: you humbly announce that YOU will do something."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "tienda",
+    "cosas": [
+     { "que": "nyan", "x": 110, "cara": "feliz" },
+     { "que": "persona", "x": 270 }
+    ]
+   },
+   "habla": "tendero",
+   "cara": "feliz",
+   "jp": "かしこまりました！",
+   "voz": "i4",
+   "tr": {
+    "es": "¡Entendido!",
+    "en": "Certainly!"
+   },
+   "cartela": {
+    "es": "かしこまりました: lo dice quien atiende, cuando acepta un encargo.",
+    "en": "かしこまりました: said by staff, when accepting a request."
+   }
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta cada frase: させていただきます／お〜いたします cuando avisas que TÚ lo harás; ございます para cosas y lugares.",
+   "en": "Build each sentence: させていただきます／お〜いたします when you announce YOU will do it; ございます for things and places."
+  },
+  "piezas": [
+   { "id": "kakunin", "jp": "確認[かくにん]", "tipo": "palabra" },
+   { "id": "saseteitadakimasu", "jp": "させていただきます", "tipo": "verbo" },
+   { "id": "shimasu", "jp": "します", "tipo": "verbo" },
+   { "id": "kudasai", "jp": "ください", "tipo": "verbo" },
+   { "id": "itashimasu", "jp": "いたします", "tipo": "verbo" },
+   { "id": "itadakimasu", "jp": "いただきます", "tipo": "verbo" },
+   { "id": "otsutae", "jp": "お伝[つた]え", "tipo": "verbo" },
+   { "id": "kochira", "jp": "こちら", "tipo": "palabra" },
+   { "id": "ni", "jp": "に", "tipo": "particula" },
+   { "id": "gozaimasu", "jp": "ございます", "tipo": "verbo" },
+   { "id": "arimasu", "jp": "あります", "tipo": "verbo" },
+   { "id": "imasu", "jp": "います", "tipo": "verbo" },
+   { "id": "shoushou", "jp": "少々[しょうしょう]", "tipo": "palabra" },
+   { "id": "omachi", "jp": "お待[ま]ち", "tipo": "verbo" },
+   { "id": "matte", "jp": "待[ま]って", "tipo": "verbo" },
+   { "id": "chotto", "jp": "ちょっと", "tipo": "palabra" },
+   { "id": "suru", "jp": "する", "tipo": "verbo" },
+   { "id": "ne", "jp": "ね", "tipo": "particula" }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Contesta el teléfono de la tienda: «Permítame comprobarlo».",
+     "en": "Answer the shop phone: «Let me check that for you»."
+    },
+    "escena": {
+     "fondo": "tienda",
+     "cosas": [
+      { "que": "nyan", "x": 110, "cara": "pensando" },
+      { "que": "telefono", "x": 270 }
+     ]
+    },
+    "piezas": ["kakunin", "saseteitadakimasu", "shimasu", "kudasai"],
+    "bien": [["kakunin", "saseteitadakimasu"]],
+    "tr": {
+     "es": "Permítame comprobarlo.",
+     "en": "Let me check that for you."
+    },
+    "efecto_bien": [
+     { "tipo": "brilla", "objeto": "telefono" },
+     { "tipo": "nyan", "cara": "feliz" }
+    ],
+    "fallos": [
+     {
+      "si": { "contiene": ["shimasu"] },
+      "efecto": { "tipo": "nyan", "cara": "pensando", "manpu": "pregunta" },
+      "msg": {
+       "es": "します es correcto pero soso. Para sonar más atento: させていただきます.",
+       "en": "します is fine but plain. To sound more attentive: させていただきます."
+      }
+     },
+     {
+      "si": { "contiene": ["kudasai"] },
+      "efecto": { "tipo": "nyan", "cara": "sorpresa" },
+      "msg": {
+       "es": "ください pide que ALGUIEN te lo haga. Aquí eres TÚ quien va a comprobarlo: させていただきます.",
+       "en": "ください asks SOMEONE to do it for you. Here YOU are the one checking: させていただきます."
+      }
+     },
+     {
+      "si": { "falta": ["saseteitadakimasu"] },
+      "efecto": { "tipo": "nyan", "cara": "normal" },
+      "msg": {
+       "es": "Sin させていただきます no queda la fórmula humilde completa.",
+       "en": "Without させていただきます the humble formula isn't complete."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Dile al cliente, con la fórmula MÁS educada: «Se lo haré saber».",
+     "en": "Tell the customer, with the MOST polite formula: «I will let them know»."
+    },
+    "escena": {
+     "fondo": "tienda",
+     "cosas": [
+      { "que": "nyan", "x": 110, "cara": "pensando" },
+      { "que": "persona", "x": 280 }
+     ]
+    },
+    "piezas": ["otsutae", "itashimasu", "shimasu", "itadakimasu"],
+    "bien": [["otsutae", "itashimasu"]],
+    "tr": {
+     "es": "Se lo haré saber.",
+     "en": "I will let them know."
+    },
+    "efecto_bien": [
+     { "tipo": "manpu", "objeto": "persona", "manpu": "brillo" },
+     { "tipo": "nyan", "cara": "feliz" }
+    ],
+    "fallos": [
+     {
+      "si": { "contiene": ["shimasu"] },
+      "efecto": { "tipo": "nyan", "cara": "pensando", "manpu": "pregunta" },
+      "msg": {
+       "es": "お伝[つた]えします también es correcto, pero aquí se pide la fórmula MÁS educada: いたします.",
+       "en": "お伝えします is correct too, but here the MOST polite formula is asked for: いたします."
+      }
+     },
+     {
+      "si": { "contiene": ["itadakimasu"] },
+      "efecto": { "tipo": "nyan", "cara": "sorpresa" },
+      "msg": {
+       "es": "いただきます es para cuando TÚ recibes un favor. Aquí eres tú quien avisa: いたします.",
+       "en": "いただきます is for when YOU receive a favor. Here you're the one announcing: いたします."
+      }
+     },
+     {
+      "si": { "falta": ["otsutae"] },
+      "efecto": { "tipo": "nyan", "cara": "normal" },
+      "msg": {
+       "es": "Sin お伝[つた]え no dice QUÉ vas a hacer.",
+       "en": "Without お伝え it doesn't say WHAT you'll do."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Dile al cliente dónde está: «Está aquí mismo» (con mucha cortesía).",
+     "en": "Tell the customer where it is: «It's right here» (very politely)."
+    },
+    "escena": {
+     "fondo": "tienda",
+     "cosas": [
+      { "que": "nyan", "x": 110, "cara": "normal" },
+      { "que": "persona", "x": 280 },
+      { "que": "caja", "x": 330 }
+     ]
+    },
+    "piezas": ["kochira", "ni", "gozaimasu", "arimasu", "imasu"],
+    "bien": [["kochira", "ni", "gozaimasu"]],
+    "tr": {
+     "es": "Está aquí mismo.",
+     "en": "It's right here."
+    },
+    "efecto_bien": [
+     { "tipo": "brilla", "objeto": "caja" },
+     { "tipo": "nyan", "cara": "feliz" }
+    ],
+    "fallos": [
+     {
+      "si": { "contiene": ["arimasu"] },
+      "efecto": { "tipo": "nyan", "cara": "pensando", "manpu": "pregunta" },
+      "msg": {
+       "es": "あります es correcto y normal. Para la tienda, más educado: ございます.",
+       "en": "あります is correct and normal. For the shop, more polite: ございます."
+      }
+     },
+     {
+      "si": { "contiene": ["imasu"] },
+      "efecto": { "tipo": "nyan", "cara": "sorpresa" },
+      "msg": {
+       "es": "います es para seres vivos. Para un objeto: ございます (o あります).",
+       "en": "います is for living things. For an object: ございます (or あります)."
+      }
+     },
+     {
+      "si": { "falta": ["gozaimasu"] },
+      "efecto": { "tipo": "nyan", "cara": "normal" },
+      "msg": {
+       "es": "Sin ございます no queda la cortesía de tienda.",
+       "en": "Without ございます the shop courtesy is missing."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Dile al cliente que espere un momento (la fórmula de tienda).",
+     "en": "Tell the customer to please wait a moment (the shop formula)."
+    },
+    "escena": {
+     "fondo": "tienda",
+     "cosas": [
+      { "que": "nyan", "x": 110, "cara": "pensando" },
+      { "que": "persona", "x": 280 }
+     ]
+    },
+    "piezas": ["shoushou", "omachi", "kudasai", "matte", "chotto"],
+    "bien": [["shoushou", "omachi", "kudasai"]],
+    "tr": {
+     "es": "Espere un momento, por favor.",
+     "en": "Please wait a moment."
+    },
+    "efecto_bien": [
+     { "tipo": "nyan", "cara": "feliz" },
+     { "tipo": "manpu", "objeto": "persona", "manpu": "brillo" }
+    ],
+    "fallos": [
+     {
+      "si": { "contiene": ["matte"] },
+      "efecto": { "tipo": "nyan", "cara": "pensando", "manpu": "pregunta" },
+      "msg": {
+       "es": "待[ま]って es como le dirías a Tama. Para un cliente: お待[ま]ちください.",
+       "en": "待って is how you'd tell Tama. For a customer: お待ちください."
+      }
+     },
+     {
+      "si": { "contiene": ["chotto"] },
+      "efecto": { "tipo": "nyan", "cara": "sorpresa" },
+      "msg": {
+       "es": "ちょっと待って es muy casual. Para la tienda: 少々[しょうしょう]お待[ま]ちください.",
+       "en": "ちょっと待って is very casual. For the shop: 少々お待ちください."
+      }
+     },
+     {
+      "si": { "falta": ["omachi"] },
+      "efecto": { "tipo": "nyan", "cara": "normal" },
+      "msg": {
+       "es": "Sin お待[ま]ち falta el verbo de la fórmula.",
+       "en": "Without お待ち the formula is missing its verb."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Reto: eso mismo («voy a comprobarlo»), pero díselo a Tama, tal cual, sin ceremonias.",
+     "en": "Challenge: that same thing («I'll check it»), but tell Tama, plainly, no ceremony."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      { "que": "nyan", "x": 110, "cara": "normal" },
+      { "que": "gato", "x": 270 }
+     ]
+    },
+    "piezas": ["kakunin", "suru", "ne", "saseteitadakimasu"],
+    "bien": [["kakunin", "suru", "ne"]],
+    "tr": {
+     "es": "Lo compruebo, ¿vale?",
+     "en": "I'll check it, ok?"
+    },
+    "efecto_bien": [
+     { "tipo": "salta", "objeto": "gato" },
+     { "tipo": "nyan", "cara": "feliz" }
+    ],
+    "fallos": [
+     {
+      "si": { "contiene": ["saseteitadakimasu"] },
+      "efecto": { "tipo": "nyan", "cara": "pensando", "manpu": "pregunta" },
+      "msg": {
+       "es": "させていただきます es para la tienda o el teléfono. Con Tama, tal cual: 確認[かくにん]するね.",
+       "en": "させていただきます is for the shop or the phone. With Tama, plainly: 確認するね."
+      }
+     },
+     {
+      "si": { "falta": ["suru"] },
+      "efecto": { "tipo": "nyan", "cara": "normal" },
+      "msg": {
+       "es": "Sin する no dice qué vas a hacer.",
+       "en": "Without する it doesn't say what you'll do."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "juego": {
+  "intro": {
+   "es": "¿させていただきます (avisas que TÚ lo harás) o ございます (para cosas y lugares)?",
+   "en": "させていただきます (you announce YOU'll do it) or ございます (for things and places)?"
+  },
+  "nyan": {
+   "es": "En la tienda hay que hablar así todo el rato. Es agotador. Pero suena genial.",
+   "en": "At the shop you have to talk like this the whole time. Exhausting. But it sounds great."
+  },
+  "cestas": [
+   {
+    "id": "sasete",
+    "jp": "させていただきます",
+    "sub": { "es": "humilde: avisas que TÚ vas a hacerlo", "en": "humble: you announce YOU will do it" }
+   },
+   {
+    "id": "gozaimasu",
+    "jp": "ございます",
+    "sub": { "es": "cortés: para cosas y lugares", "en": "courteous: for things and places" }
+   }
+  ],
+  "cartas": [
+   {
+    "id": "j1",
+    "jp": "確認[かくにん]＿。",
+    "cesta": "sasete",
+    "es": "Permítame comprobarlo.",
+    "en": "Let me check that.",
+    "truco": {
+     "es": "させていただきます: literalmente pides permiso para hacerlo.",
+     "en": "させていただきます: you're literally asking permission to do it."
+    }
+   },
+   {
+    "id": "j2",
+    "jp": "こちらに ＿。",
+    "cesta": "gozaimasu",
+    "es": "Está aquí.",
+    "en": "It's right here."
+   },
+   {
+    "id": "j3",
+    "jp": "説明[せつめい]＿。",
+    "cesta": "sasete",
+    "es": "Permítame explicarlo.",
+    "en": "Let me explain."
+   },
+   {
+    "id": "j4",
+    "jp": "こちら、 千円[せんえん]で ＿。",
+    "cesta": "gozaimasu",
+    "es": "Esto son mil yenes.",
+    "en": "This is 1000 yen."
+   },
+   {
+    "id": "j5",
+    "jp": "予約[よやく]＿。",
+    "cesta": "sasete",
+    "es": "Permítame reservarlo.",
+    "en": "Let me make the reservation."
+   },
+   {
+    "id": "j6",
+    "jp": "商品[しょうひん]は こちらに ＿。",
+    "cesta": "gozaimasu",
+    "es": "El producto está aquí.",
+    "en": "The product is right here."
+   },
+   {
+    "id": "j7",
+    "jp": "注文[ちゅうもん]、 確認[かくにん]＿。",
+    "cesta": "sasete",
+    "es": "Permítame confirmar el pedido.",
+    "en": "Let me confirm the order."
+   },
+   {
+    "id": "j8",
+    "jp": "少々[しょうしょう]、 こちらに ＿。",
+    "cesta": "gozaimasu",
+    "es": "Un momento, está aquí.",
+    "en": "One moment, it's right here."
+   }
+  ]
+ },
+ "outro": [
+  {
+   "escena": {
+    "fondo": "tienda",
+    "cosas": [
+     { "que": "nyan", "x": 110, "cara": "normal" },
+     { "que": "persona", "x": 280 }
+    ]
+   },
+   "cara": "normal",
+   "jp": "確認[かくにん]させていただきます。",
+   "voz": "o1",
+   "tr": {
+    "es": "Permítame comprobarlo.",
+    "en": "Let me check that."
+   },
+   "cartela": {
+    "es": "謙譲語: avisas que TÚ lo harás.",
+    "en": "謙譲語: you announce YOU will do it."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "tienda",
+    "cosas": [
+     { "que": "nyan", "x": 110, "cara": "feliz" },
+     { "que": "caja", "x": 280 }
+    ]
+   },
+   "cara": "feliz",
+   "jp": "こちらに ございます。",
+   "voz": "o2",
+   "tr": {
+    "es": "Está aquí.",
+    "en": "It's right here."
+   },
+   "cartela": {
+    "es": "丁寧: cortesía, sin subir ni bajar a nadie.",
+    "en": "丁寧: courtesy, raising or lowering no one."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     { "que": "nyan", "x": 110, "cara": "feliz" },
+     { "que": "gato", "x": 270 }
+    ]
+   },
+   "habla": "tama",
+   "cara": "feliz",
+   "jp": "でも、 タマには そう 言[い]わなくて いいよ。",
+   "voz": "o3",
+   "tr": {
+    "es": "Pero a mí no hace falta que me hables así.",
+    "en": "But you don't need to talk to me like that."
+   },
+   "cartela": {
+    "es": "Con Tama, tal cual. La ceremonia se queda en la tienda.",
+    "en": "With Tama, plainly. The ceremony stays at the shop."
+   }
+  }
+ ],
+ "chuleta": {
+  "patron": {
+   "es": "〔acción〕させていただきます ／ ございます",
+   "en": "〔action〕させていただきます / ございます"
+  },
+  "patron_tr": {
+   "es": "permítame… (humilde) ／ es/está (cortés)",
+   "en": "let me… (humble) / it is/there is (courteous)"
+  },
+  "columnas": [
+   {
+    "jp": "させていただきます",
+    "texto": {
+     "es": "謙譲語: avisas que TÚ vas a hacer algo",
+     "en": "謙譲語: you announce YOU will do something"
+    },
+    "dibujos": ["nyan"]
+   },
+   {
+    "jp": "お〜いたします",
+    "texto": {
+     "es": "謙譲語: la versión aún más formal de お〜する",
+     "en": "謙譲語: the even more formal version of お〜する"
+    },
+    "dibujos": ["persona"]
+   },
+   {
+    "jp": "ございます",
+    "texto": {
+     "es": "丁寧: para cosas y lugares, sin subir ni bajar a nadie",
+     "en": "丁寧: for things and places, raising or lowering no one"
+    },
+    "dibujos": ["caja"]
+   }
+  ],
+  "filas": [
+   {
+    "jp": "確認[かくにん]させていただきます。",
+    "es": "Permítame comprobarlo.",
+    "en": "Let me check that.",
+    "registro": "educado"
+   },
+   {
+    "jp": "確認[かくにん]するね。",
+    "es": "(a Tama) Lo compruebo, ¿vale?",
+    "en": "(to Tama) I'll check it, ok?",
+    "registro": "amigos"
+   },
+   {
+    "jp": "少々[しょうしょう]お待[ま]ちください。",
+    "es": "Espere un momento, por favor.",
+    "en": "Please wait a moment.",
+    "registro": "educado"
+   },
+   {
+    "jp": "かしこまりました。",
+    "es": "Entendido (con mucho gusto).",
+    "en": "Certainly.",
+    "registro": "educado"
+   }
+  ],
+  "consejo": {
+   "es": "El primo son las tres flechas de la clase del keigo: させていただきます y お〜いたします apuntan a 謙譲語 (te bajas tú, como 伺[うかが]う); ございます es 丁寧, como 参[まい]ります con el tren: cortesía sin subir ni bajar a nadie.",
+   "en": "The cousin is the three arrows from the keigo class: させていただきます and お〜いたします point toward 謙譲語 (you lower yourself, like 伺う); ございます is 丁寧, like 参ります with the train: plain courtesy, raising or lowering no one."
+  }
+ }
+}

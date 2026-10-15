@@ -1,0 +1,824 @@
+{
+ "id": "c64",
+ "clase": 64,
+ "desde": 2530,
+ "titulo": {
+  "es": "¡Qué tontería!: 〜なんて",
+  "en": "How absurd!: 〜なんて"
+ },
+ "resumen": {
+  "es": "なんて muestra desprecio (掃除なんて嫌い) o sorpresa (合格するなんて！). Es muy hablado. なんか es su primo más flojo: solo sirve para desprecio, nunca para sorpresa.",
+  "en": "なんて shows scorn (掃除なんて嫌い) or surprise (合格するなんて！). It's very spoken. なんか is its weaker cousin: it only works for scorn, never for surprise."
+ },
+ "intro": [
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 120,
+      "cara": "enfado"
+     },
+     {
+      "que": "manpu",
+      "tipo": "excl",
+      "x": 175,
+      "y": 100
+     }
+    ]
+   },
+   "jp": "掃除[そうじ]なんて、 大[だい]嫌[きら]い！",
+   "voz": "i1",
+   "tr": {
+    "es": "¡La limpieza! ¡La odio!",
+    "en": "Cleaning?! I hate it!"
+   },
+   "cara": "enfado",
+   "cartela": {
+    "es": "なんて: «¡la sola idea de X!» — para quejarte o burlarte.",
+    "en": "なんて: «the very idea of X!» — for scorn or mockery."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "enfado"
+     },
+     {
+      "que": "gato",
+      "x": 270
+     }
+    ]
+   },
+   "jp": "それ、 毎日[まいにち] 言[い]ってるね。",
+   "voz": "i2",
+   "tr": {
+    "es": "Eso lo dices todos los días.",
+    "en": "You say that every day."
+   },
+   "cara": "normal",
+   "habla": "tama"
+  },
+  {
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "sorpresa",
+      "brazo": "arriba"
+     },
+     {
+      "que": "profesor",
+      "x": 280
+     },
+     {
+      "que": "manpu",
+      "tipo": "excl",
+      "x": 160,
+      "y": 100
+     }
+    ]
+   },
+   "jp": "え、 ぼくが 合格[ごうかく]するなんて…！",
+   "voz": "i3",
+   "tr": {
+    "es": "¿Eh? ¿¡Yo aprobando!?",
+    "en": "Huh? ME passing...?!"
+   },
+   "cara": "sorpresa",
+   "cartela": {
+    "es": "Aquí なんて no es queja: es SORPRESA. «Ni me lo esperaba».",
+    "en": "Here なんて isn't scorn: it's SURPRISE. «I didn't even expect it»."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 130,
+      "cara": "feliz"
+     },
+     {
+      "que": "manpu",
+      "tipo": "corazon",
+      "x": 300,
+      "y": 110
+     }
+    ]
+   },
+   "jp": "信[しん]じられない…でも 嬉[うれ]しい！",
+   "voz": "i4",
+   "tr": {
+    "es": "No me lo puedo creer… ¡pero estoy contento!",
+    "en": "I can't believe it… but I'm happy!"
+   },
+   "cara": "feliz",
+   "cartela": {
+    "es": "Fin de la intro. なんて sirve para las dos cosas: desprecio y sorpresa. ¡A practicar!",
+    "en": "End of the intro. なんて works for both: scorn and surprise. Let's practice!"
+   }
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta cada frase con なんて (desprecio o sorpresa).",
+   "en": "Build each sentence with なんて (scorn or surprise)."
+  },
+  "piezas": [
+   {
+    "id": "yasai",
+    "jp": "野菜[やさい]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "nante",
+    "jp": "なんて",
+    "tipo": "particula"
+   },
+   {
+    "id": "kirai",
+    "jp": "嫌[きら]い",
+    "tipo": "verbo"
+   },
+   {
+    "id": "da",
+    "jp": "だ",
+    "tipo": "verbo"
+   },
+   {
+    "id": "nanka",
+    "jp": "なんか",
+    "tipo": "particula"
+   },
+   {
+    "id": "bokuga",
+    "jp": "ぼくが",
+    "tipo": "palabra"
+   },
+   {
+    "id": "katsu",
+    "jp": "勝[か]つ",
+    "tipo": "verbo"
+   },
+   {
+    "id": "shinjirarenai",
+    "jp": "信[しん]じられない",
+    "tipo": "verbo"
+   },
+   {
+    "id": "makeru",
+    "jp": "負[ま]ける",
+    "tipo": "verbo"
+   },
+   {
+    "id": "nanoni",
+    "jp": "のに",
+    "tipo": "particula"
+   },
+   {
+    "id": "goukaku",
+    "jp": "合格[ごうかく]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "suru",
+    "jp": "する",
+    "tipo": "verbo"
+   },
+   {
+    "id": "shinjiraremasen",
+    "jp": "信[しん]じられません",
+    "tipo": "verbo"
+   },
+   {
+    "id": "shuumatsuni",
+    "jp": "週末[しゅうまつ]に",
+    "tipo": "palabra"
+   },
+   {
+    "id": "benkyousuru",
+    "jp": "勉強[べんきょう]する",
+    "tipo": "verbo"
+   },
+   {
+    "id": "iyada",
+    "jp": "いやだ",
+    "tipo": "verbo"
+   },
+   {
+    "id": "suki",
+    "jp": "好[す]き",
+    "tipo": "verbo"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Di: «¿Verduras? ¡Ni hablar, las odio!» (usa なんて).",
+     "en": "Say: «Vegetables?! No way, I hate them!» (use なんて)."
+    },
+    "escena": {
+     "fondo": "cocina",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 120,
+       "cara": "enfado"
+      }
+     ]
+    },
+    "piezas": [
+     "yasai",
+     "nante",
+     "kirai",
+     "da",
+     "nanka"
+    ],
+    "bien": [
+     [
+      "yasai",
+      "nante",
+      "kirai",
+      "da"
+     ]
+    ],
+    "tr": {
+     "es": "¿Verduras? ¡Ni hablar, las odio!",
+     "en": "Vegetables?! No way, I hate them!"
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "enfado",
+      "manpu": "excl"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "nanka"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "なんか también existe (野菜なんか嫌い), y es aún más informal; aquí practica なんて, que suena un poco más «indignado».",
+       "en": "なんか also exists (野菜なんか嫌い), and it's even more casual; here practice なんて, which sounds a bit more «indignant»."
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "nante"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin なんて, 野菜は嫌いだ es verdad, pero soso: falta el desprecio.",
+       "en": "Without なんて, 野菜は嫌いだ is true, but flat: the scorn is missing."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Di: «¡Que yo gane la carrera! No puedo creerlo» (usa なんて).",
+     "en": "Say: «ME winning the race! I can't believe it» (use なんて)."
+    },
+    "escena": {
+     "fondo": "parque",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 120,
+       "cara": "sorpresa"
+      },
+      {
+       "que": "manpu",
+       "tipo": "excl",
+       "x": 175,
+       "y": 100
+      }
+     ]
+    },
+    "piezas": [
+     "bokuga",
+     "katsu",
+     "nante",
+     "shinjirarenai",
+     "makeru",
+     "nanoni"
+    ],
+    "bien": [
+     [
+      "bokuga",
+      "katsu",
+      "nante",
+      "shinjirarenai"
+     ]
+    ],
+    "tr": {
+     "es": "¡Que yo gane! No puedo creerlo.",
+     "en": "ME winning! I can't believe it."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "sorpresa",
+      "manpu": "brillo"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "makeru"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "triste"
+      },
+      "msg": {
+       "es": "負[ま]ける es «perder»: aquí Nyan GANA (sorpresa buena). Verbo equivocado.",
+       "en": "負ける means «to lose»: here Nyan WINS (a good surprise). Wrong verb."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "nanoni"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "のに (aunque) no encaja aquí: no hay contradicción, es solo sorpresa. Hace falta なんて.",
+       "en": "のに (although) doesn't fit here: there's no contradiction, just surprise. You need なんて."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Cuéntaselo al sensei, con educación: «No puedo creer que haya aprobado».",
+     "en": "Tell the teacher, politely: «I can't believe I passed»."
+    },
+    "escena": {
+     "fondo": "escuela",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "sorpresa"
+      },
+      {
+       "que": "profesor",
+       "x": 280
+      }
+     ]
+    },
+    "piezas": [
+     "goukaku",
+     "suru",
+     "nante",
+     "shinjiraremasen",
+     "shinjirarenai"
+    ],
+    "bien": [
+     [
+      "goukaku",
+      "suru",
+      "nante",
+      "shinjiraremasen"
+     ]
+    ],
+    "tr": {
+     "es": "No puedo creer que haya aprobado.",
+     "en": "I can't believe I passed."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "brilla",
+      "objeto": "profesor"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "shinjirarenai"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "sorpresa",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Hablas con el sensei: hace falta 信[しん]じられません, no la forma llana.",
+       "en": "You're speaking to the teacher: you need 信じられません, not the plain form."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Ahora dile lo mismo a Tama, en plan casual.",
+     "en": "Now tell Tama the same thing, casually."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "sorpresa"
+      },
+      {
+       "que": "gato",
+       "x": 270
+      }
+     ]
+    },
+    "piezas": [
+     "goukaku",
+     "suru",
+     "nante",
+     "shinjirarenai",
+     "shinjiraremasen"
+    ],
+    "bien": [
+     [
+      "goukaku",
+      "suru",
+      "nante",
+      "shinjirarenai"
+     ]
+    ],
+    "tr": {
+     "es": "No puedo creer que haya aprobado.",
+     "en": "I can't believe I passed."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "feliz",
+      "brazo": "arriba"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "shinjiraremasen"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Con Tama no hace falta tanta educación: 信[しん]じられない basta.",
+       "en": "With Tama you don't need to be that formal: 信じられない is enough."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Reto: di «¿Estudiar el finde? ¡Ni hablar!» usando なんて (no なんか, que sería más flojo).",
+     "en": "Challenge: say «Study on the weekend?! No way!» using なんて (not なんか, which would be weaker)."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 120,
+       "cara": "enfado"
+      }
+     ]
+    },
+    "piezas": [
+     "shuumatsuni",
+     "benkyousuru",
+     "nante",
+     "iyada",
+     "nanka",
+     "suki"
+    ],
+    "bien": [
+     [
+      "shuumatsuni",
+      "benkyousuru",
+      "nante",
+      "iyada"
+     ]
+    ],
+    "tr": {
+     "es": "¿Estudiar el finde? ¡Ni hablar!",
+     "en": "Study on the weekend?! No way!"
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "enfado",
+      "manpu": "sudor"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "nanka"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "なんか no está mal (週末に勉強するなんか、いやだ), pero es más flojo; aquí el reto es なんて, que suena más dramático.",
+       "en": "なんか isn't wrong (週末に勉強するなんか、いやだ), but it's weaker; here the challenge is なんて, which sounds more dramatic."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "suki"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "sorpresa",
+       "manpu": "excl"
+      },
+      "msg": {
+       "es": "好[す]きだ sería que le GUSTA: justo lo contrario del desprecio que buscamos.",
+       "en": "好きだ would mean he LIKES it: the exact opposite of the scorn we're going for."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "juego": {
+  "intro": {
+   "es": "なんて sirve para desprecio Y sorpresa; なんか solo para desprecio, más flojo. Completa cada frase.",
+   "en": "なんて works for scorn AND surprise; なんか only for scorn, weaker. Complete each sentence."
+  },
+  "nyan": {
+   "es": "Que yo estudie sin quejarme: eso sí que sería una sorpresa.",
+   "en": "Me studying without complaining: now THAT would be a surprise."
+  },
+  "cestas": [
+   {
+    "id": "nante",
+    "jp": "なんて",
+    "sub": {
+     "es": "también sirve para la SORPRESA (verbos)",
+     "en": "also works for SURPRISE (verbs)"
+    }
+   },
+   {
+    "id": "nanka",
+    "jp": "なんか",
+    "sub": {
+     "es": "solo desprecio, «cosas así»",
+     "en": "only scorn, «things like that»"
+    }
+   }
+  ],
+  "cartas": [
+   {
+    "id": "j1",
+    "jp": "ぼくが 勝[か]つ＿、 信[しん]じられない。",
+    "cesta": "nante",
+    "es": "¡Que yo gane! No puedo creerlo.",
+    "en": "ME winning! I can't believe it."
+   },
+   {
+    "id": "j2",
+    "jp": "合格[ごうかく]する＿、 思[おも]わなかった。",
+    "cesta": "nante",
+    "es": "No pensé que fuera a aprobar.",
+    "en": "I didn't think I'd pass."
+   },
+   {
+    "id": "j3",
+    "jp": "試合[しあい]に 負[ま]ける＿、 悔[くや]しい。",
+    "cesta": "nante",
+    "es": "¡Perder el partido! Qué rabia.",
+    "en": "Losing the match! So frustrating."
+   },
+   {
+    "id": "j4",
+    "dibujo": "gato",
+    "jp": "あの ニャンが 泣[な]く＿、 びっくりした。",
+    "cesta": "nante",
+    "es": "¡Que ese Nyan llorara! Me sorprendió.",
+    "en": "That Nyan crying! I was shocked."
+   },
+   {
+    "id": "j5",
+    "jp": "野菜[やさい]＿、 嫌[きら]いだ。",
+    "cesta": "nanka",
+    "es": "Las verduras y esas cosas, no me gustan.",
+    "en": "Vegetables and stuff, I don't like them."
+   },
+   {
+    "id": "j6",
+    "jp": "掃除[そうじ]＿、 大嫌[だいきら]いだ。",
+    "cesta": "nanka",
+    "es": "La limpieza y esas cosas, las odio.",
+    "en": "Cleaning and stuff, I hate it."
+   },
+   {
+    "id": "j7",
+    "jp": "宿題[しゅくだい]＿、 大変[たいへん]だ。",
+    "cesta": "nanka",
+    "es": "Los deberes y esas cosas, qué pesadez.",
+    "en": "Homework and stuff, what a pain."
+   },
+   {
+    "id": "j8",
+    "jp": "その 服[ふく]＿、 変[へん]だ。",
+    "cesta": "nanka",
+    "es": "Esa ropa y esas cosas, qué rara.",
+    "en": "That clothing and stuff, how weird."
+   }
+  ]
+ },
+ "outro": [
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 120,
+      "cara": "enfado"
+     },
+     {
+      "que": "manpu",
+      "tipo": "excl",
+      "x": 175,
+      "y": 100
+     }
+    ]
+   },
+   "jp": "掃除[そうじ]なんて、 大[だい]嫌[きら]い。",
+   "voz": "o1",
+   "tr": {
+    "es": "¡La limpieza! La odio.",
+    "en": "Cleaning?! I hate it."
+   },
+   "cara": "enfado"
+  },
+  {
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "sorpresa"
+     },
+     {
+      "que": "profesor",
+      "x": 280
+     }
+    ]
+   },
+   "jp": "でも、 合格[ごうかく]するなんて… 信[しん]じられません！",
+   "voz": "o2",
+   "tr": {
+    "es": "Pero, ¡que apruebe...! No me lo puedo creer.",
+    "en": "But, ME passing...! I can't believe it."
+   },
+   "cara": "sorpresa",
+   "nota": {
+    "es": "Delante del sensei, なんて sigue igual: lo que cambia es solo です／ます.",
+    "en": "In front of the teacher, なんて stays the same: only です／ます changes."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 200,
+      "cara": "feliz",
+      "s": 1.1
+     },
+     {
+      "que": "manpu",
+      "tipo": "corazon",
+      "x": 250,
+      "y": 90
+     }
+    ]
+   },
+   "jp": "掃除[そうじ]も 悪[わる]くないかも…なんて！",
+   "voz": "o3",
+   "tr": {
+    "es": "La limpieza tampoco es tan mala…¡qué cosas digo!",
+    "en": "Cleaning isn't so bad, either… what am I even saying!"
+   },
+   "cara": "feliz",
+   "cartela": {
+    "es": "Fin. Hasta Nyan se sorprende de sus propias palabras.",
+    "en": "The end. Even Nyan is surprised at his own words."
+   }
+  }
+ ],
+ "chuleta": {
+  "patron": {
+   "es": "〔N／Vる〕なんて、〔reacción〕",
+   "en": "〔N／Vる〕なんて、〔reaction〕"
+  },
+  "patron_tr": {
+   "es": "¡la sola idea de 〔eso〕! (desprecio o sorpresa)",
+   "en": "the very idea of 〔that〕! (scorn or surprise)"
+  },
+  "columnas": [
+   {
+    "jp": "なんて",
+    "texto": {
+     "es": "desprecio o sorpresa; verbos y sustantivos",
+     "en": "scorn or surprise; verbs and nouns"
+    },
+    "dibujos": [
+     "nyan"
+    ]
+   },
+   {
+    "jp": "なんか",
+    "texto": {
+     "es": "solo desprecio, más flojo; sustantivos",
+     "en": "only scorn, weaker; nouns"
+    },
+    "dibujos": [
+     "gato"
+    ]
+   }
+  ],
+  "filas": [
+   {
+    "jp": "野菜[やさい]なんて、 嫌[きら]いだ。",
+    "es": "¿Verduras? Las odio.",
+    "en": "Vegetables?! I hate them."
+   },
+   {
+    "jp": "合格[ごうかく]するなんて、 信[しん]じられません。",
+    "es": "No puedo creer que haya aprobado.",
+    "en": "I can't believe I passed.",
+    "registro": "educado"
+   },
+   {
+    "jp": "合格[ごうかく]するなんて、 信[しん]じられない。",
+    "es": "No puedo creer que haya aprobado.",
+    "en": "I can't believe I passed.",
+    "registro": "amigos"
+   },
+   {
+    "jp": "野菜[やさい]なんか、 嫌[きら]いだ。",
+    "es": "Las verduras y esas cosas, no me gustan.",
+    "en": "Vegetables and stuff, I don't like them."
+   }
+  ],
+  "consejo": {
+   "es": "なんか (más informal aún) solo sirve para desprecio, sobre sustantivos: 野菜なんか嫌い. なんて hace lo mismo, PERO también sirve con verbos para la SORPRESA (合格するなんて！), algo que なんか no puede hacer.",
+   "en": "なんか (even more casual) only works for scorn, on nouns: 野菜なんか嫌い. なんて does the same, BUT it also works with verbs for SURPRISE (合格するなんて！), which なんか cannot do."
+  }
+ }
+}

@@ -1,0 +1,831 @@
+{
+ "id": "c63",
+ "clase": 63,
+ "desde": 2470,
+ "titulo": {
+  "es": "¡Ni de broma!: 〜どころか",
+  "en": "Not even close!: 〜どころか"
+ },
+ "resumen": {
+  "es": "どころか dice que lo que se esperaba NO es verdad: la realidad va justo al CONTRARIO (o mucho más lejos). 簡単どころか、全部間違えた: ni mucho menos fácil, lo hice todo mal.",
+  "en": "どころか says what was expected is NOT true: reality goes the OPPOSITE way (or much further). 簡単どころか、全部間違えた: far from easy, I got it all wrong."
+ },
+ "intro": [
+  {
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "feliz",
+      "brazo": "arriba"
+     },
+     {
+      "que": "pizarra",
+      "x": 280
+     }
+    ]
+   },
+   "jp": "今日[きょう]の 試験[しけん]、 簡単[かんたん]だったよ！",
+   "voz": "i1",
+   "tr": {
+    "es": "¡El examen de hoy fue facilísimo!",
+    "en": "Today's exam was so easy!"
+   },
+   "cara": "feliz"
+  },
+  {
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "feliz"
+     },
+     {
+      "que": "gato",
+      "x": 270
+     }
+    ]
+   },
+   "jp": "簡単[かんたん]どころか、 全部[ぜんぶ] 間違[まちが]えたって 聞[き]いたよ。",
+   "voz": "i2",
+   "tr": {
+    "es": "Ni mucho menos fácil: he oído que lo hiciste todo mal.",
+    "en": "Far from easy: I heard you got it all wrong."
+   },
+   "cara": "pensando",
+   "cartela": {
+    "es": "どころか: lo que dices NO es verdad. La realidad va justo al CONTRARIO.",
+    "en": "どころか: what you're saying is NOT true. Reality goes the exact OPPOSITE way."
+   },
+   "habla": "tama"
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 120,
+      "cara": "triste"
+     }
+    ]
+   },
+   "jp": "勉強[べんきょう]どころか、 ゲームを して いた…。",
+   "voz": "i3",
+   "tr": {
+    "es": "Ni mucho menos estudié: estuve jugando…",
+    "en": "Far from studying: I was playing games…"
+   },
+   "cara": "triste"
+  },
+  {
+   "escena": {
+    "fondo": "cocina",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 120,
+      "cara": "feliz",
+      "onigiri": true
+     },
+     {
+      "que": "onigiri",
+      "x": 270,
+      "s": 1.2
+     }
+    ]
+   },
+   "jp": "この おにぎり、 まずいどころか、 好[す]きだよ！",
+   "voz": "i4",
+   "tr": {
+    "es": "Este onigiri, ni mucho menos malo, ¡me encanta!",
+    "en": "This onigiri, far from bad, I love it!"
+   },
+   "cara": "feliz",
+   "cartela": {
+    "es": "Fin de la intro. どころか le da la vuelta a lo que esperabas. ¡A practicar!",
+    "en": "End of the intro. どころか flips what you expected. Let's practice!"
+   }
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta cada frase con どころか: niega lo primero y pon la realidad.",
+   "en": "Build each sentence with どころか: deny the first thing and give the reality."
+  },
+  "piezas": [
+   {
+    "id": "kantan",
+    "jp": "簡単[かんたん]",
+    "tipo": "verbo"
+   },
+   {
+    "id": "dokoroka",
+    "jp": "どころか",
+    "tipo": "particula"
+   },
+   {
+    "id": "zenbu",
+    "jp": "全部[ぜんぶ]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "machigaeta",
+    "jp": "間違[まちが]えた",
+    "tipo": "verbo"
+   },
+   {
+    "id": "sae",
+    "jp": "さえ",
+    "tipo": "particula"
+   },
+   {
+    "id": "dakedenaku",
+    "jp": "だけでなく",
+    "tipo": "particula"
+   },
+   {
+    "id": "isogashii",
+    "jp": "忙[いそが]しい",
+    "tipo": "verbo"
+   },
+   {
+    "id": "hima",
+    "jp": "暇[ひま]",
+    "tipo": "verbo"
+   },
+   {
+    "id": "da",
+    "jp": "だ",
+    "tipo": "verbo"
+   },
+   {
+    "id": "yori",
+    "jp": "より",
+    "tipo": "particula"
+   },
+   {
+    "id": "kara",
+    "jp": "から",
+    "tipo": "particula"
+   },
+   {
+    "id": "benkyou",
+    "jp": "勉強[べんきょう]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "geemuwo",
+    "jp": "ゲームを",
+    "tipo": "palabra"
+   },
+   {
+    "id": "shiteimashita",
+    "jp": "して いました",
+    "tipo": "verbo"
+   },
+   {
+    "id": "shiteita",
+    "jp": "して いた",
+    "tipo": "verbo"
+   },
+   {
+    "id": "mazui",
+    "jp": "まずい",
+    "tipo": "verbo"
+   },
+   {
+    "id": "suki",
+    "jp": "好[す]き",
+    "tipo": "verbo"
+   },
+   {
+    "id": "kirai",
+    "jp": "嫌[きら]い",
+    "tipo": "verbo"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Di: «Ni mucho menos fácil: me salió todo mal» (usa どころか).",
+     "en": "Say: «Far from easy: I got it all wrong» (use どころか)."
+    },
+    "escena": {
+     "fondo": "escuela",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 120,
+       "cara": "triste"
+      },
+      {
+       "que": "pizarra",
+       "x": 280
+      }
+     ]
+    },
+    "piezas": [
+     "kantan",
+     "dokoroka",
+     "zenbu",
+     "machigaeta",
+     "sae",
+     "dakedenaku"
+    ],
+    "bien": [
+     [
+      "kantan",
+      "dokoroka",
+      "zenbu",
+      "machigaeta"
+     ]
+    ],
+    "tr": {
+     "es": "Ni mucho menos fácil: me salió todo mal.",
+     "en": "Far from easy: I got it all wrong."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "triste",
+      "manpu": "sudor"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "sae"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "さえ (clase 53) destaca lo MÍNIMO: 「これさえ分かれば」. Aquí quieres decir «ni de lejos, más bien lo CONTRARIO»: どころか.",
+       "en": "さえ (class 53) highlights the MINIMUM: «if only I understood this much». Here you mean «far from it, actually the OPPOSITE»: どころか."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "dakedenaku"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "だけでなく SUMA cosas (no solo… sino también); どころか NIEGA lo primero y pone algo más fuerte en su lugar.",
+       "en": "だけでなく ADDS things (not only… but also); どころか DENIES the first thing and puts something stronger in its place."
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "dokoroka"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin どころか son dos frases sueltas: falta el contraste.",
+       "en": "Without どころか they're two loose sentences: the contrast is missing."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Di: «Ni mucho menos ocupado: tengo tiempo libre» (usa どころか).",
+     "en": "Say: «Far from busy: I have free time» (use どころか)."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 120,
+       "cara": "feliz"
+      }
+     ]
+    },
+    "piezas": [
+     "isogashii",
+     "dokoroka",
+     "hima",
+     "da",
+     "yori",
+     "kara"
+    ],
+    "bien": [
+     [
+      "isogashii",
+      "dokoroka",
+      "hima",
+      "da"
+     ]
+    ],
+    "tr": {
+     "es": "Ni mucho menos ocupado: tengo tiempo libre.",
+     "en": "Far from busy: I have free time."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "feliz",
+      "brazo": "arriba"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "yori"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "より compara dos cosas DISTINTAS. Aquí niegas lo primero y pones lo opuesto: どころか.",
+       "en": "より compares two DIFFERENT things. Here you deny the first thing and give the opposite: どころか."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "kara"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "から da una razón (porque); aquí no explicas por qué, MUESTRAS que es lo contrario: どころか.",
+       "en": "から gives a reason (because); here you're not explaining why, you're SHOWING it's the opposite: どころか."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Cuéntaselo al sensei, con educación: «Ni mucho menos estudié: estuve jugando».",
+     "en": "Tell the teacher, politely: «Far from studying: I was playing games»."
+    },
+    "escena": {
+     "fondo": "escuela",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "triste"
+      },
+      {
+       "que": "profesor",
+       "x": 280
+      }
+     ]
+    },
+    "piezas": [
+     "benkyou",
+     "dokoroka",
+     "geemuwo",
+     "shiteimashita",
+     "shiteita"
+    ],
+    "bien": [
+     [
+      "benkyou",
+      "dokoroka",
+      "geemuwo",
+      "shiteimashita"
+     ]
+    ],
+    "tr": {
+     "es": "Ni mucho menos estudié: estuve jugando.",
+     "en": "Far from studying: I was playing games."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "triste"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "shiteita"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "sorpresa",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Hablas con el sensei: hace falta して いました, no la forma llana.",
+       "en": "You're speaking to the teacher: you need していました, not the plain form."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Ahora dile lo mismo a Tama, en plan casual.",
+     "en": "Now tell Tama the same thing, casually."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "triste"
+      },
+      {
+       "que": "gato",
+       "x": 270
+      }
+     ]
+    },
+    "piezas": [
+     "benkyou",
+     "dokoroka",
+     "geemuwo",
+     "shiteita",
+     "shiteimashita"
+    ],
+    "bien": [
+     [
+      "benkyou",
+      "dokoroka",
+      "geemuwo",
+      "shiteita"
+     ]
+    ],
+    "tr": {
+     "es": "Ni mucho menos estudié: estuve jugando.",
+     "en": "Far from studying: I was playing games."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "triste"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "shiteimashita"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Con Tama no hace falta tanta educación: して いた basta.",
+       "en": "With Tama you don't need to be that formal: していた is enough."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Reto: di «Ni mucho menos malo: me encanta» (usa どころか).",
+     "en": "Challenge: say «Far from bad: I love it» (use どころか)."
+    },
+    "escena": {
+     "fondo": "cocina",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 120,
+       "cara": "feliz",
+       "onigiri": true
+      },
+      {
+       "que": "onigiri",
+       "x": 270,
+       "s": 1.2
+      }
+     ]
+    },
+    "piezas": [
+     "mazui",
+     "dokoroka",
+     "suki",
+     "da",
+     "kirai",
+     "sae"
+    ],
+    "bien": [
+     [
+      "mazui",
+      "dokoroka",
+      "suki",
+      "da"
+     ]
+    ],
+    "tr": {
+     "es": "Ni mucho menos malo: me encanta.",
+     "en": "Far from bad: I love it."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "brilla",
+      "objeto": "onigiri"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz",
+      "brazo": "arriba"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "kirai"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "sorpresa",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "嫌[きら]い es «no me gusta»: eso repite lo malo, no lo contradice. Para decir que SÍ te gusta, hace falta 好[す]きだ.",
+       "en": "嫌い means «I don't like it»: that repeats the bad thing instead of contradicting it. To say you DO like it, you need 好きだ."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "sae"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "さえ destaca lo mínimo (ni siquiera); aquí das la vuelta a lo que se esperaba: どころか.",
+       "en": "さえ highlights the minimum (not even); here you flip what was expected: どころか."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "juego": {
+  "intro": {
+   "es": "¿どころか (le da la vuelta) o さえ (destaca lo mínimo)? Completa cada frase.",
+   "en": "どころか (flips it) or さえ (highlights the minimum)? Complete each sentence."
+  },
+  "nyan": {
+   "es": "A mí ni el examen fácil ni el examen difícil: a mí lo que me gusta es la siesta.",
+   "en": "Not the easy exam, not the hard exam: what I like is the nap."
+  },
+  "cestas": [
+   {
+    "id": "dokoroka",
+    "jp": "どころか",
+    "sub": {
+     "es": "da la vuelta: dice justo lo CONTRARIO",
+     "en": "flips it: says the exact OPPOSITE"
+    }
+   },
+   {
+    "id": "sae",
+    "jp": "さえ",
+    "sub": {
+     "es": "destaca lo mínimo: ni siquiera N",
+     "en": "highlights the minimum: not even N"
+    }
+   }
+  ],
+  "cartas": [
+   {
+    "id": "j1",
+    "jp": "簡単[かんたん]＿、 全部[ぜんぶ] 間違[まちが]えた。",
+    "cesta": "dokoroka",
+    "es": "Ni mucho menos fácil: lo hice todo mal.",
+    "en": "Far from easy: I got it all wrong."
+   },
+   {
+    "id": "j2",
+    "jp": "忙[いそが]しい＿、 暇[ひま]だ。",
+    "cesta": "dokoroka",
+    "es": "Ni mucho menos ocupado: tengo tiempo libre.",
+    "en": "Far from busy: I have free time."
+   },
+   {
+    "id": "j3",
+    "dibujo": "onigiri",
+    "jp": "まずい＿、 好[す]きだ。",
+    "cesta": "dokoroka",
+    "es": "Ni mucho menos malo: me encanta.",
+    "en": "Far from bad: I love it."
+   },
+   {
+    "id": "j4",
+    "jp": "勉強[べんきょう]＿、 ゲームを して いた。",
+    "cesta": "dokoroka",
+    "es": "Ni mucho menos estudié: estuve jugando.",
+    "en": "Far from studying: I was playing games."
+   },
+   {
+    "id": "j5",
+    "dibujo": "gato",
+    "jp": "子供[こども]＿ 分[わ]かる 話[はなし]だ。",
+    "cesta": "sae",
+    "es": "Es una historia que hasta un niño entiende.",
+    "en": "It's a story even a child understands."
+   },
+   {
+    "id": "j6",
+    "dibujo": "cama",
+    "jp": "忙[いそが]しくて、 寝[ね]る 時間[じかん]＿ ない。",
+    "cesta": "sae",
+    "es": "Estoy tan ocupado que ni siquiera tengo tiempo de dormir.",
+    "en": "I'm so busy I don't even have time to sleep."
+   },
+   {
+    "id": "j7",
+    "dibujo": "dinero",
+    "jp": "千円[せんえん]＿ 持[も]って いない。",
+    "cesta": "sae",
+    "es": "Ni siquiera tengo mil yenes.",
+    "en": "I don't even have a thousand yen."
+   },
+   {
+    "id": "j8",
+    "jp": "簡単[かんたん]な 問題[もんだい]＿ 分[わ]からない。",
+    "cesta": "sae",
+    "es": "Ni siquiera entiendo el problema fácil.",
+    "en": "I don't even understand the easy problem."
+   }
+  ]
+ },
+ "outro": [
+  {
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 120,
+      "cara": "triste"
+     },
+     {
+      "que": "pizarra",
+      "x": 280
+     }
+    ]
+   },
+   "jp": "簡単[かんたん]どころか、 全部[ぜんぶ] 間違[まちが]えた。",
+   "voz": "o1",
+   "tr": {
+    "es": "Ni mucho menos fácil: lo hice todo mal.",
+    "en": "Far from easy: I got it all wrong."
+   },
+   "cara": "triste"
+  },
+  {
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "triste"
+     },
+     {
+      "que": "gato",
+      "x": 270
+     }
+    ]
+   },
+   "jp": "今度[こんど]こそ 頑張[がんば]ってね。",
+   "voz": "o2",
+   "tr": {
+    "es": "Esta vez sí que esfuérzate.",
+    "en": "This time, for sure, try hard."
+   },
+   "cara": "normal",
+   "habla": "tama"
+  },
+  {
+   "escena": {
+    "fondo": "cocina",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 120,
+      "cara": "feliz",
+      "onigiri": true
+     },
+     {
+      "que": "onigiri",
+      "x": 270,
+      "s": 1.2
+     }
+    ]
+   },
+   "jp": "うん！ でも、 この おにぎりを 食[た]べてから…。",
+   "voz": "o3",
+   "tr": {
+    "es": "¡Sí! Pero, después de comerme este onigiri…",
+    "en": "Yeah! But, after I eat this onigiri…"
+   },
+   "cara": "feliz",
+   "cartela": {
+    "es": "Fin. こそ (¡esta vez sí!) y どころか (¡ni de broma!): mucha fuerza, poca constancia.",
+    "en": "The end. こそ (this time for sure!) and どころか (not even close!): lots of force, little follow-through."
+   }
+  }
+ ],
+ "chuleta": {
+  "patron": {
+   "es": "〔lo esperado〕どころか、〔la realidad〕",
+   "en": "〔what was expected〕どころか、〔the reality〕"
+  },
+  "patron_tr": {
+   "es": "ni mucho menos 〔eso〕… más bien 〔esto〕",
+   "en": "far from 〔that〕… actually 〔this〕"
+  },
+  "columnas": [
+   {
+    "jp": "どころか",
+    "texto": {
+     "es": "niega y da la vuelta",
+     "en": "denies and flips it"
+    },
+    "dibujos": [
+     "nyan"
+    ]
+   },
+   {
+    "jp": "さえ",
+    "texto": {
+     "es": "destaca el caso mínimo",
+     "en": "highlights the minimum case"
+    },
+    "dibujos": [
+     "gato"
+    ]
+   }
+  ],
+  "filas": [
+   {
+    "jp": "簡単[かんたん]どころか、 全部[ぜんぶ] 間違[まちが]えた。",
+    "es": "Ni mucho menos fácil: lo hice todo mal.",
+    "en": "Far from easy: I got it all wrong."
+   },
+   {
+    "jp": "勉強[べんきょう]どころか、 ゲームを して いました。",
+    "es": "Ni mucho menos estudié: estuve jugando.",
+    "en": "Far from studying: I was playing games.",
+    "registro": "educado"
+   },
+   {
+    "jp": "勉強[べんきょう]どころか、 ゲームを して いた。",
+    "es": "Ni mucho menos estudié: estuve jugando.",
+    "en": "Far from studying: I was playing games.",
+    "registro": "amigos"
+   },
+   {
+    "jp": "まずいどころか、 好[す]きだ。",
+    "es": "Ni mucho menos malo: me encanta.",
+    "en": "Far from bad: I love it."
+   }
+  ],
+  "consejo": {
+   "es": "さえ (clase 53) dice «ni siquiera eso»: marca el caso más extremo, pero no niega nada más. どころか va más allá: NIEGA lo que se esperaba y pone la REALIDAD, que va mucho más lejos (para bien o para mal).",
+   "en": "さえ (class 53) says «not even that»: it marks the most extreme case, but doesn't deny anything else. どころか goes further: it DENIES what was expected and gives the REALITY, which goes much further (for better or worse)."
+  }
+ }
+}

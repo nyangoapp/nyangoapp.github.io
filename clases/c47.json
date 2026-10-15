@@ -1,0 +1,1053 @@
+{
+ "id": "c47",
+ "clase": 47,
+ "desde": 1510,
+ "titulo": {
+  "es": "¿Qué quieres decir?: 〜って, 〜というのは y つまり",
+  "en": "What do you mean?: 〜って, 〜というのは and つまり"
+ },
+ "resumen": {
+  "es": "Para preguntar y explicar significados: それ、どういう意味？ (¿eso qué significa?) y 〜というのは〜ことだ (X quiere decir Y). Y los conectores de la conversación: それで, つまり, ところで y じゃあ.",
+  "en": "To ask and explain meanings: それ、どういう意味？ (what does that mean?) and 〜というのは〜ことだ (X means Y). Plus the conversation connectors それで, つまり, ところで and じゃあ."
+ },
+ "intro": [
+  {
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "normal"
+     },
+     {
+      "que": "gato",
+      "x": 270
+     }
+    ]
+   },
+   "habla": "tama",
+   "cara": "normal",
+   "jp": "宿題[しゅくだい]を 忘[わす]れるのは、 当[あ]たり前[まえ]じゃないよ。",
+   "voz": "i1",
+   "tr": {
+    "es": "Olvidarte los deberes no es lo normal, ¿eh.",
+    "en": "Forgetting your homework isn't normal, you know."
+   },
+   "cartela": {
+    "es": "当[あ]たり前[まえ] = lo normal, lo que todo el mundo espera.",
+    "en": "当たり前 = the normal thing, what everyone expects."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "pensando"
+     },
+     {
+      "que": "gato",
+      "x": 270
+     },
+     {
+      "que": "manpu",
+      "tipo": "pregunta",
+      "x": 160,
+      "y": 105
+     }
+    ]
+   },
+   "cara": "pensando",
+   "jp": "え、 それ、 どういう 意味[いみ]？",
+   "voz": "i2",
+   "tr": {
+    "es": "¿Eh? Eso, ¿qué significa?",
+    "en": "Huh? What does that mean?"
+   },
+   "cartela": {
+    "es": "それ + どういう意味？: así preguntas qué quiere decir algo, con un amigo.",
+    "en": "それ + どういう意味？: that's how you ask what something means, with a friend."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "normal"
+     },
+     {
+      "que": "gato",
+      "x": 270
+     }
+    ]
+   },
+   "habla": "tama",
+   "cara": "normal",
+   "jp": "「当[あ]たり前[まえ]」って いうのは、 みんなが 知[し]ってる ことだよ。",
+   "voz": "i3",
+   "tr": {
+    "es": "«Atarimae» quiere decir algo que todo el mundo sabe.",
+    "en": "«Atarimae» means something that everyone knows."
+   },
+   "cartela": {
+    "es": "〜って いうのは 〜ことだ: así explicas qué significa algo (con です: というのは).",
+    "en": "〜って いうのは 〜ことだ: that's how you explain what something means (formally: というのは)."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "sorpresa",
+      "brazo": "arriba"
+     },
+     {
+      "que": "gato",
+      "x": 270
+     }
+    ]
+   },
+   "cara": "sorpresa",
+   "jp": "じゃあ、 宿題[しゅくだい]を するのが 当[あ]たり前[まえ]ってこと？",
+   "voz": "i4",
+   "tr": {
+    "es": "Entonces, ¿quieres decir que hacer los deberes es lo normal?",
+    "en": "So, you mean doing homework is the normal thing?"
+   },
+   "cartela": {
+    "es": "Fin de la intro: 〜ってこと？ para confirmar que has entendido. ¡A practicar!",
+    "en": "End of the intro: 〜ってこと？ to confirm you understood. Let's practice!"
+   }
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta cada frase. Con Tama, todo es más corto: それ、どういう意味？ Con el sensei, hace falta です y か.",
+   "en": "Build each sentence. With Tama, everything's shorter: それ、どういう意味？ With the teacher, you need です and か."
+  },
+  "piezas": [
+   {
+    "id": "sore",
+    "jp": "それ",
+    "tipo": "palabra"
+   },
+   {
+    "id": "wa",
+    "jp": "は",
+    "tipo": "particula"
+   },
+   {
+    "id": "douiu",
+    "jp": "どういう",
+    "tipo": "palabra"
+   },
+   {
+    "id": "imi",
+    "jp": "意味[いみ]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "nan",
+    "jp": "何[なん]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "desu",
+    "jp": "です",
+    "tipo": "verbo"
+   },
+   {
+    "id": "ka",
+    "jp": "か",
+    "tipo": "particula"
+   },
+   {
+    "id": "atarimae",
+    "jp": "当[あ]たり前[まえ]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "tteiunowa",
+    "jp": "っていうのは",
+    "tipo": "particula"
+   },
+   {
+    "id": "minna",
+    "jp": "みんな",
+    "tipo": "palabra"
+   },
+   {
+    "id": "ga",
+    "jp": "が",
+    "tipo": "particula"
+   },
+   {
+    "id": "shitteru",
+    "jp": "知[し]ってる",
+    "tipo": "verbo"
+   },
+   {
+    "id": "koto",
+    "jp": "こと",
+    "tipo": "palabra"
+   },
+   {
+    "id": "da",
+    "jp": "だ",
+    "tipo": "verbo"
+   },
+   {
+    "id": "yo",
+    "jp": "よ",
+    "tipo": "particula"
+   },
+   {
+    "id": "tsumari",
+    "jp": "つまり",
+    "tipo": "palabra"
+   },
+   {
+    "id": "shukudai",
+    "jp": "宿題[しゅくだい]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "wo",
+    "jp": "を",
+    "tipo": "particula"
+   },
+   {
+    "id": "suru",
+    "jp": "する",
+    "tipo": "verbo"
+   },
+   {
+    "id": "noga",
+    "jp": "のが",
+    "tipo": "particula"
+   },
+   {
+    "id": "ttekoto",
+    "jp": "ってこと",
+    "tipo": "particula"
+   },
+   {
+    "id": "sorede",
+    "jp": "それで",
+    "tipo": "palabra"
+   },
+   {
+    "id": "tokorode",
+    "jp": "ところで",
+    "tipo": "palabra"
+   },
+   {
+    "id": "onigiri",
+    "jp": "おにぎり",
+    "tipo": "palabra"
+   },
+   {
+    "id": "doko",
+    "jp": "どこ",
+    "tipo": "palabra"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Pregúntale a Tama, en plan casual: «Eso, ¿qué significa?»",
+     "en": "Ask Tama, casually: «What does that mean?»"
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "pensando"
+      },
+      {
+       "que": "gato",
+       "x": 270
+      }
+     ]
+    },
+    "piezas": [
+     "sore",
+     "douiu",
+     "imi",
+     "nan",
+     "desu",
+     "ka"
+    ],
+    "bien": [
+     [
+      "sore",
+      "douiu",
+      "imi"
+     ]
+    ],
+    "tr": {
+     "es": "Eso, ¿qué significa?",
+     "en": "What does that mean?"
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "pensando"
+     },
+     {
+      "tipo": "texto",
+      "texto": "うーん…",
+      "objeto": "gato"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "desu"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Con Tama no hace falta です, es casual: それ、どういう意味？",
+       "en": "With Tama you don't need です, it's casual: それ、どういう意味？"
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "ka"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "か tampoco hace falta con Tama: el tono ya deja claro que preguntas.",
+       "en": "You don't need か with Tama either: your tone already makes it a question."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "nan"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "何[なん]ですか pregunta QUÉ es algo (como en la clase 1). Aquí preguntas por el SIGNIFICADO: 意味[いみ].",
+       "en": "何ですか asks WHAT something is (like in class 1). Here you're asking for the MEANING: 意味."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Ahora pregúntaselo al sensei, con educación: «Eso, ¿qué significa?»",
+     "en": "Now ask the teacher politely: «What does that mean?»"
+    },
+    "escena": {
+     "fondo": "escuela",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "pensando"
+      },
+      {
+       "que": "profesor",
+       "x": 270
+      }
+     ]
+    },
+    "piezas": [
+     "sore",
+     "wa",
+     "douiu",
+     "imi",
+     "nan",
+     "desu",
+     "ka"
+    ],
+    "bien": [
+     [
+      "sore",
+      "wa",
+      "douiu",
+      "imi",
+      "desu",
+      "ka"
+     ]
+    ],
+    "tr": {
+     "es": "Eso, ¿qué significa?",
+     "en": "What does that mean?"
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "normal"
+     },
+     {
+      "tipo": "texto",
+      "texto": "ふむふむ",
+      "objeto": "profesor"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "falta": [
+        "desu"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Con el sensei hace falta です: con educación.",
+       "en": "With the teacher you need です: politely."
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "ka"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin か no queda claro que sea una pregunta: それは どういう意味ですか。",
+       "en": "Without か it's not clear it's a question: それは どういう意味ですか。"
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "nan"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "何[なん]ですか pregunta QUÉ es algo. Aquí preguntas por el SIGNIFICADO: 意味[いみ].",
+       "en": "何ですか asks WHAT something is. Here you're asking for the MEANING: 意味."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Explícale a Tama qué significa «当[あ]たり前[まえ]»: «Quiere decir algo que todo el mundo sabe».",
+     "en": "Explain to Tama what «atarimae» means: «It means something everyone knows»."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "normal"
+      },
+      {
+       "que": "gato",
+       "x": 270
+      }
+     ]
+    },
+    "piezas": [
+     "atarimae",
+     "tteiunowa",
+     "minna",
+     "ga",
+     "shitteru",
+     "koto",
+     "da",
+     "yo",
+     "tsumari"
+    ],
+    "bien": [
+     [
+      "atarimae",
+      "tteiunowa",
+      "minna",
+      "ga",
+      "shitteru",
+      "koto",
+      "da",
+      "yo"
+     ]
+    ],
+    "tr": {
+     "es": "«Atarimae» quiere decir algo que todo el mundo sabe.",
+     "en": "«Atarimae» means something that everyone knows."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     },
+     {
+      "tipo": "manpu",
+      "objeto": "gato",
+      "manpu": "brillo"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "tsumari"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "つまり resume o concluye; no sirve para explicar lo que significa una palabra. Usa っていうのは.",
+       "en": "つまり sums up or concludes; it's not for explaining what a word means. Use っていうのは."
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "koto"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin こと no queda claro que estás cerrando la explicación.",
+       "en": "Without こと it's not clear you're closing the explanation."
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "da"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin だ la frase se queda a medias: ことだ la cierra.",
+       "en": "Without だ the sentence trails off: ことだ closes it."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Confirma lo que has entendido, empezando con «つまり» (o sea): «Entonces, ¿quieres decir que hacer los deberes es lo normal?»",
+     "en": "Confirm what you understood, starting with «tsumari» (in other words): «So, you mean doing homework is the normal thing?»"
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "sorpresa"
+      },
+      {
+       "que": "gato",
+       "x": 270
+      }
+     ]
+    },
+    "piezas": [
+     "tsumari",
+     "shukudai",
+     "wo",
+     "suru",
+     "noga",
+     "atarimae",
+     "ttekoto",
+     "sorede",
+     "tokorode"
+    ],
+    "bien": [
+     [
+      "tsumari",
+      "shukudai",
+      "wo",
+      "suru",
+      "noga",
+      "atarimae",
+      "ttekoto"
+     ]
+    ],
+    "tr": {
+     "es": "O sea, ¿quieres decir que hacer los deberes es lo normal?",
+     "en": "So, you mean doing homework is the normal thing?"
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     },
+     {
+      "tipo": "manpu",
+      "objeto": "gato",
+      "manpu": "brillo"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "sorede"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "それで sigue una historia («y entonces…»). Aquí confirmas algo que acabas de entender: usa つまり.",
+       "en": "それで continues a story («and then…»). Here you're confirming what you understood: use つまり."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "tokorode"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "ところで cambia de tema por completo. Aquí sigues hablando de lo mismo: usa つまり.",
+       "en": "ところで changes the subject completely. Here you're still on the same topic: use つまり."
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "ttekoto"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin ってこと no queda claro que preguntas si lo has entendido bien.",
+       "en": "Without ってこと it's not clear you're asking whether you understood correctly."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Reto: Nyan quiere cambiar de tema (¡se acabaron los deberes!). Pregunta, empezando con «ところで»: «Por cierto, ¿dónde está el onigiri?»",
+     "en": "Challenge: Nyan wants to change the subject (enough about homework!). Ask, starting with «tokorode»: «By the way, where's the onigiri?»"
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "pensando"
+      },
+      {
+       "que": "gato",
+       "x": 260
+      },
+      {
+       "que": "caja",
+       "x": 335,
+       "s": 1.1
+      }
+     ]
+    },
+    "piezas": [
+     "tokorode",
+     "onigiri",
+     "wa",
+     "doko",
+     "sorede",
+     "tsumari"
+    ],
+    "bien": [
+     [
+      "tokorode",
+      "onigiri",
+      "wa",
+      "doko"
+     ]
+    ],
+    "tr": {
+     "es": "Por cierto, ¿dónde está el onigiri?",
+     "en": "By the way, where's the onigiri?"
+    },
+    "efecto_bien": [
+     {
+      "tipo": "disfraz",
+      "objeto": "caja",
+      "como": "onigiri"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz",
+      "brazo": "arriba"
+     },
+     {
+      "tipo": "brilla",
+      "objeto": "caja"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "sorede"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "それで sigue lo anterior. Aquí CAMBIAS de tema del todo: usa ところで.",
+       "en": "それで continues what came before. Here you're changing the subject entirely: use ところで."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "tsumari"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "つまり resume lo dicho. Aquí no resumes, cambias de tema: usa ところで.",
+       "en": "つまり sums up what was said. Here you're not summing up, you're changing the subject: use ところで."
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "doko"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin どこ no preguntas POR DÓNDE está el onigiri.",
+       "en": "Without どこ you're not asking WHERE the onigiri is."
+      }
+     }
+    ],
+    "pista": {
+     "es": "Empieza cambiando de tema: ところで…",
+     "en": "Start by changing the subject: tokorode…"
+    }
+   }
+  ]
+ },
+ "juego": {
+  "intro": {
+   "es": "¿それで (sigue), つまり (resume) o ところで (cambia de tema)? Completa cada frase.",
+   "en": "それで (continues), つまり (sums up) or ところで (changes topic)? Complete each sentence."
+  },
+  "nyan": {
+   "es": "A mí que no me den conversación… yo lo que quiero es un onigiri.",
+   "en": "Don't give me conversation… what I want is an onigiri."
+  },
+  "cestas": [
+   {
+    "id": "sorede",
+    "jp": "それで",
+    "sub": {
+     "es": "y entonces… (sigue la historia)",
+     "en": "and then… (continues the story)"
+    }
+   },
+   {
+    "id": "tsumari",
+    "jp": "つまり",
+    "sub": {
+     "es": "o sea… (resume o concluye)",
+     "en": "in other words… (sums up)"
+    }
+   },
+   {
+    "id": "tokorode",
+    "jp": "ところで",
+    "sub": {
+     "es": "por cierto… (cambia de tema)",
+     "en": "by the way… (changes the subject)"
+    }
+   }
+  ],
+  "cartas": [
+   {
+    "id": "j1",
+    "dibujo": "nube",
+    "jp": "雨[あめ]が 降[ふ]ってきた。 ＿、 家[いえ]に 帰[かえ]ろう。",
+    "cesta": "sorede",
+    "es": "Empezó a llover. Así que volvamos a casa.",
+    "en": "It started raining. So let's go home."
+   },
+   {
+    "id": "j2",
+    "jp": "兄[あに]も 姉[あね]も 猫[ねこ]が 好[す]き。 ＿、 家族[かぞく]みんな 猫[ねこ]が 好[す]きだ。",
+    "cesta": "tsumari",
+    "es": "A mi hermano y a mi hermana, a los dos les gustan los gatos. O sea, a toda la familia le gustan los gatos.",
+    "en": "Both my brother and my sister like cats. In other words, the whole family likes cats."
+   },
+   {
+    "id": "j3",
+    "jp": "宿題[しゅくだい]、 終[お]わった。 ＿、 タマは 元気[げんき]？",
+    "cesta": "tokorode",
+    "es": "Ya acabé los deberes. Por cierto, ¿qué tal estás, Tama?",
+    "en": "Finished my homework. By the way, how are you, Tama?"
+   },
+   {
+    "id": "j4",
+    "dibujo": "persona",
+    "jp": "お腹[なか]が 痛[いた]い。 ＿、 病院[びょういん]に 行[い]った。",
+    "cesta": "sorede",
+    "es": "Me dolía la barriga. Así que fui al hospital.",
+    "en": "My stomach hurt. So I went to the hospital."
+   },
+   {
+    "id": "j5",
+    "jp": "宿題[しゅくだい]も 掃除[そうじ]も 終[お]わった。 ＿、 もう 自由[じゆう]だ。",
+    "cesta": "tsumari",
+    "es": "Ya acabé los deberes y también la limpieza. O sea, ya soy libre.",
+    "en": "I finished the homework and the cleaning too. In other words, I'm free now."
+   },
+   {
+    "id": "j6",
+    "jp": "今日[きょう]は いい 天気[てんき]だね。 ＿、 宿題[しゅくだい]は 終[お]わった？",
+    "cesta": "tokorode",
+    "es": "Hoy hace buen tiempo, ¿eh? Por cierto, ¿terminaste los deberes?",
+    "en": "Nice weather today, huh. By the way, did you finish your homework?"
+   },
+   {
+    "id": "j7",
+    "dibujo": "profesor",
+    "jp": "難[むずか]しい 宿題[しゅくだい]だった。 ＿、 先生[せんせい]に 聞[き]いた。",
+    "cesta": "sorede",
+    "es": "Los deberes eran difíciles. Así que le pregunté al sensei.",
+    "en": "The homework was hard. So I asked the teacher."
+   },
+   {
+    "id": "j8",
+    "jp": "「当[あ]たり前[まえ]」は みんなが 知[し]ってる ことだ。 ＿、 難[むずか]しい 言葉[ことば]じゃない。",
+    "cesta": "tsumari",
+    "es": "«Atarimae» es algo que todo el mundo sabe. O sea, no es una palabra difícil.",
+    "en": "«Atarimae» is something everyone knows. In other words, it's not a hard word.",
+    "truco": {
+     "es": "つまり: la segunda frase explica o resume la primera con otras palabras.",
+     "en": "つまり: the second sentence explains or sums up the first one in other words."
+    }
+   }
+  ]
+ },
+ "outro": [
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "pensando"
+     },
+     {
+      "que": "gato",
+      "x": 270
+     }
+    ]
+   },
+   "cara": "pensando",
+   "jp": "それ、 どういう 意味[いみ]？",
+   "voz": "o1",
+   "tr": {
+    "es": "¿Eso qué significa?",
+    "en": "What does that mean?"
+   },
+   "cartela": {
+    "es": "それ + どういう意味？: la pregunta básica para pedir que te expliquen algo.",
+    "en": "それ + どういう意味？: the basic question for asking someone to explain something."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "normal"
+     },
+     {
+      "que": "gato",
+      "x": 270
+     }
+    ]
+   },
+   "habla": "tama",
+   "cara": "normal",
+   "jp": "「当[あ]たり前[まえ]」って いうのは、 みんなが 知[し]ってる ことだよ。",
+   "voz": "o2",
+   "tr": {
+    "es": "«Atarimae» quiere decir algo que todo el mundo sabe.",
+    "en": "«Atarimae» means something that everyone knows."
+   },
+   "cartela": {
+    "es": "〜って いうのは 〜ことだ: para explicar significados. Con el sensei: というのは〜ことです。",
+    "en": "〜って いうのは 〜ことだ: for explaining meanings. With the teacher: というのは〜ことです。"
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "feliz"
+     },
+     {
+      "que": "gato",
+      "x": 270
+     },
+     {
+      "que": "manpu",
+      "tipo": "sudor",
+      "x": 320,
+      "y": 110
+     }
+    ]
+   },
+   "cara": "feliz",
+   "jp": "じゃあ、 宿題[しゅくだい]は 明日[あした]。",
+   "voz": "o3",
+   "tr": {
+    "es": "Bueno, pues los deberes, mañana.",
+    "en": "Well then, homework's for tomorrow."
+   },
+   "cartela": {
+    "es": "Fin. じゃあ cierra la conversación y pasa a la decisión (aunque sea mala). Ya sabes preguntar significados y usar los conectores.",
+    "en": "The end. じゃあ wraps up the talk and moves to the decision (even a bad one). Now you can ask about meanings and use the connectors."
+   }
+  }
+ ],
+ "chuleta": {
+  "patron": {
+   "es": "それ、どういう 意味[いみ]？ ／ 〜って いうのは 〜ことだ ／ 〜ってこと？",
+   "en": "それ、どういう 意味？ ／ 〜って いうのは 〜ことだ ／ 〜ってこと？"
+  },
+  "patron_tr": {
+   "es": "¿eso qué significa? ／ X quiere decir Y ／ ¿quieres decir…?",
+   "en": "what does that mean? ／ X means Y ／ you mean…?"
+  },
+  "columnas": [
+   {
+    "jp": "って",
+    "texto": {
+     "es": "casual, con amigos",
+     "en": "casual, with friends"
+    },
+    "dibujos": [
+     "gato"
+    ]
+   },
+   {
+    "jp": "という",
+    "texto": {
+     "es": "educado, con el sensei",
+     "en": "polite, with the teacher"
+    },
+    "dibujos": [
+     "profesor"
+    ]
+   }
+  ],
+  "filas": [
+   {
+    "jp": "それ、どういう 意味[いみ]？",
+    "es": "¿Eso qué significa?",
+    "en": "What does that mean?",
+    "registro": "amigos"
+   },
+   {
+    "jp": "それは どういう 意味[いみ]ですか。",
+    "es": "¿Eso qué significa?",
+    "en": "What does that mean?",
+    "registro": "educado"
+   },
+   {
+    "jp": "「当[あ]たり前[まえ]」って いうのは、 みんなが 知[し]ってる ことだ。",
+    "es": "«Atarimae» quiere decir algo que todo el mundo sabe.",
+    "en": "«Atarimae» means something that everyone knows."
+   },
+   {
+    "jp": "つまり、 宿題[しゅくだい]を するのが 当[あ]たり前[まえ]ってこと？",
+    "es": "O sea, ¿quieres decir que hacer los deberes es lo normal?",
+    "en": "So, you mean doing homework is the normal thing?"
+   }
+  ],
+  "consejo": {
+   "es": "と ya lo viste con 思[おも]う／言[い]う (clase 7): って es su versión corta y casual, y también sirve para explicar significados. つまり resume, それで sigue la historia, ところで la cambia del todo, y じゃあ cierra y decide.",
+   "en": "You already saw と with 思う／言う (class 7): って is its short, casual version, and it's also used to explain meanings. つまり sums up, それで continues the story, ところで changes the subject completely, and じゃあ wraps up and decides."
+  }
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "id": "l27", "desde": 2100,
+ "titulo": {"jp": "なくした 財布[さいふ]", "es": "La cartera perdida", "en": "The lost wallet"},
+ "resumen": {"es": "A Nyan se le pierde la cartera en la ciudad, y la búsqueda le enseña algo sobre la gente.", "en": "Nyan loses his wallet somewhere in town, and the search teaches him something about people."},
+ "portada": {"fondo": "calle", "cosas": [{"que": "nyan", "x": 100, "cara": "triste"}, {"que": "gato", "x": 200}, {"que": "dinero", "x": 310}]},
+ "texto": [
+  {"voz": "t1", "quien": "narrador", "jp": "ある 日[ひ]、 ニャンは 町[まち]で 買[か]い 物[もの]を して いた。", "es": "Un día, Nyan estaba de compras por la ciudad.", "en": "One day, Nyan was out shopping in town."},
+  {"voz": "t2", "quien": "narrador", "jp": "家[いえ]に 帰[かえ]ると、 財布[さいふ]が ない ことに 気[き]づいた。", "es": "Al volver a casa, se dio cuenta de que no tenía la cartera.", "en": "When he got home, he noticed his wallet was gone."},
+  {"voz": "t3", "quien": "nyan", "jp": "あれ？ 財布[さいふ]が ない！ どこかで 落[お]としたのかも。", "es": "¿Eh? ¡No está mi cartera! Quizá se me haya caído en algún sitio.", "en": "Huh? My wallet's not here! Maybe I dropped it somewhere."},
+  {"voz": "t4", "quien": "narrador", "jp": "ニャンは 慌[あわ]てて、 来[き]た 道[みち]を 戻[もど]った。", "es": "Nyan, alarmado, volvió sobre sus pasos por el camino que había recorrido.", "en": "Nyan, flustered, went back along the path he'd come from."},
+  {"voz": "t5", "quien": "narrador", "jp": "しかし、 財布[さいふ]は どこにも 見[み]つからなかった。", "es": "Pero la cartera no apareció por ninguna parte.", "en": "But the wallet couldn't be found anywhere."},
+  {"voz": "t6", "quien": "tama", "jp": "大丈夫[だいじょうぶ]？ 一緒[いっしょ]に 探[さが]そうか。", "es": "¿Estás bien? ¿Buscamos juntos?", "en": "Are you okay? Shall we look for it together?"},
+  {"voz": "t7", "quien": "narrador", "jp": "二人[ふたり]は、 町[まち]の あちこちを 探[さが]した。", "es": "Los dos buscaron por todas partes de la ciudad.", "en": "The two of them searched all over town."},
+  {"voz": "t8", "quien": "narrador", "jp": "それでも、 財布[さいふ]は 見[み]つからなかった。", "es": "Aun así, la cartera no aparecía.", "en": "Even so, the wallet couldn't be found."},
+  {"voz": "t9", "quien": "nyan", "jp": "もう だめかも…。 中[なか]には 大切[たいせつ]な カードも 入[はい]って いたのに。", "es": "Ya no hay esperanza... Y eso que dentro llevaba una tarjeta importante.", "en": "This might be hopeless... And an important card was inside it too."},
+  {"voz": "t10", "quien": "narrador", "jp": "もう 見[み]つからないと 思[おも]った とき、 タマの 電話[でんわ]が 鳴[な]った。", "es": "Justo cuando pensaban que ya no la encontrarían, sonó el teléfono de Tama.", "en": "Just when they thought it wouldn't be found anymore, Tama's phone rang."},
+  {"voz": "t11", "quien": "tama", "jp": "事務所[じむしょ]の 人[ひと]が、 財布[さいふ]を 持[も]って いるって！", "es": "¡Dicen que alguien de una oficina tiene la cartera!", "en": "They say someone at an office has the wallet!"},
+  {"voz": "t12", "quien": "narrador", "jp": "誰[だれ]かが 財布[さいふ]を 拾[ひろ]って、 近[ちか]くの 事務所[じむしょ]に 届[とど]けて くれた ようだった。", "es": "Parecía que alguien había recogido la cartera y la había llevado a una oficina cercana.", "en": "It seemed someone had picked up the wallet and taken it to a nearby office."},
+  {"voz": "t13", "quien": "nyan", "jp": "よかった…！ 本当[ほんとう]に 助[たす]かったよ。", "es": "Menos mal...! Me has salvado de verdad.", "en": "Thank goodness...! That really saved me."},
+  {"voz": "t14", "quien": "narrador", "jp": "二人[ふたり]は 急[いそ]いで 事務所[じむしょ]に 向[む]かった。", "es": "Los dos se dirigieron deprisa a la oficina.", "en": "The two of them hurried toward the office."},
+  {"voz": "t15", "quien": "narrador", "jp": "財布[さいふ]の 中身[なかみ]は、 何[なに]も 無[な]くなって いなかった。", "es": "No faltaba nada del contenido de la cartera.", "en": "Nothing was missing from the contents of the wallet."},
+  {"voz": "t16", "quien": "nyan", "jp": "拾[ひろ]って くれた 人[ひと]に、 本当[ほんとう]に 感謝[かんしゃ]したいな。", "es": "Me gustaría darle las gracias de verdad a quien la recogió.", "en": "I'd really like to thank whoever picked it up."},
+  {"voz": "t17", "quien": "narrador", "jp": "事務所[じむしょ]の 人[ひと]は、 住所[じゅうしょ]も 名前[なまえ]も 分[わ]からないと 言[い]った。", "es": "La persona de la oficina dijo que no sabía ni la dirección ni el nombre.", "en": "The person at the office said they didn't know the address or the name."},
+  {"voz": "t18", "quien": "tama", "jp": "人[ひと]は、 困[こま]って いる 人[ひと]を 助[たす]ける ものだね。", "es": "La gente ayuda a quien está en apuros, así son las cosas.", "en": "People help those in trouble, that's just how it is."},
+  {"voz": "t19", "quien": "nyan", "jp": "うん！ ニャンも、 今度[こんど]は 誰[だれ]かを 助[たす]けられる 人[ひと]に なりたいな。", "es": "¡Sí! Nyan también quiere convertirse en alguien que pueda ayudar a otros la próxima vez.", "en": "Yeah! Next time, Nyan wants to become someone who can help others too."},
+  {"voz": "t20", "quien": "narrador", "jp": "それから、 ニャンは 財布[さいふ]を なくさない ように、 いつも しっかり 確[たし]かめる ように なった。", "es": "Desde entonces, Nyan empezó a comprobarlo siempre bien para no perder la cartera.", "en": "After that, Nyan started always making sure carefully, so as not to lose his wallet."}
+ ],
+ "preguntas": [
+  {"jp": "家[いえ]に 帰[かえ]ると、 ニャンは 何[なに]に 気[き]づきましたか。", "es": "Al volver a casa, ¿de qué se dio cuenta Nyan?", "en": "When he got home, what did Nyan notice?",
+   "opciones": [{"jp": "財布[さいふ]が ない こと", "es": "Que no tenía la cartera", "en": "That his wallet was gone"}, {"jp": "鍵[かぎ]が ない こと", "es": "Que no tenía las llaves", "en": "That his keys were gone"}, {"jp": "傘[かさ]を 忘[わす]れた こと", "es": "Que se había olvidado el paraguas", "en": "That he'd forgotten his umbrella"}],
+   "bien": 0, "porque": {"es": "「財布がないことに気づいた」とある。", "en": "«財布がないことに気づいた» (he noticed his wallet was gone)."}},
+  {"jp": "財布[さいふ]を 探[さが]して いる とき、 何[なに]が 起[お]こりましたか。", "es": "Mientras buscaban la cartera, ¿qué ocurrió?", "en": "While they were searching for the wallet, what happened?",
+   "opciones": [{"jp": "タマの 電話[でんわ]が 鳴[な]った", "es": "Sonó el teléfono de Tama", "en": "Tama's phone rang"}, {"jp": "雨[あめ]が 降[ふ]って きた", "es": "Empezó a llover", "en": "It started to rain"}, {"jp": "警察[けいさつ]が 来[き]た", "es": "Vino la policía", "en": "The police came"}],
+   "bien": 0, "porque": {"es": "「タマの電話が鳴った」とある。", "en": "«タマの電話が鳴った» (Tama's phone rang)."}},
+  {"jp": "財布[さいふ]は どう なって いましたか。", "es": "¿Cómo estaba la cartera?", "en": "What condition was the wallet in?",
+   "opciones": [{"jp": "中身[なかみ]は 何[なに]も 無[な]くなって いなかった", "es": "No faltaba nada de su contenido", "en": "Nothing was missing from its contents"}, {"jp": "お 金[かね]が 半分[はんぶん] 無[な]く なって いた", "es": "Le faltaba la mitad del dinero", "en": "Half the money was missing"}, {"jp": "カードが 無[な]く なって いた", "es": "Le faltaba la tarjeta", "en": "The card was missing"}],
+   "bien": 0, "porque": {"es": "「財布の中身は、何もなくなっていなかった」とある。", "en": "«財布の中身は、何もなくなっていなかった» (nothing was missing from the wallet's contents)."}},
+  {"jp": "拾[ひろ]って くれた 人[ひと]に ついて、 事務所[じむしょ]の 人[ひと]は 何[なに]と 言[い]いましたか。", "es": "Sobre la persona que la recogió, ¿qué dijo la persona de la oficina?", "en": "About the person who picked it up, what did the office person say?",
+   "opciones": [{"jp": "住所[じゅうしょ]も 名前[なまえ]も 分[わ]からない", "es": "Que no sabía ni su dirección ni su nombre", "en": "That they didn't know their address or name"}, {"jp": "近[ちか]くに 住[す]んで いる 人[ひと]だ", "es": "Que era una persona que vivía cerca", "en": "That it was someone who lived nearby"}, {"jp": "タマの 友達[ともだち]だ", "es": "Que era un amigo de Tama", "en": "That it was a friend of Tama's"}],
+   "bien": 0, "porque": {"es": "「住所も名前も分からないと言った」とある。", "en": "«住所も名前も分からないと言った» (they said they didn't know the address or the name)."}},
+  {"tipo": "opinion", "jp": "落[お]とした 財布[さいふ]を 誰[だれ]かが 届[とど]けて くれたら、 あなたは どう しますか。", "es": "Si alguien te devolviera una cartera que se te cayó, ¿qué harías?", "en": "If someone returned a wallet you'd dropped, what would you do?",
+   "opciones": [
+    {"jp": "お 礼[れい]の 手紙[てがみ]を 書[か]く", "es": "Escribirle una carta de agradecimiento", "en": "Write a thank-you letter",
+     "nyan": {"jp": "いいね！ ニャンも そう したいな。", "es": "¡Qué bien! A Nyan también le gustaría hacer eso.", "en": "Nice! Nyan would like to do that too."}},
+    {"jp": "今度[こんど]は 自分[じぶん]が 誰[だれ]かを 助[たす]ける", "es": "La próxima vez, ser yo quien ayude a alguien", "en": "Next time, be the one to help someone else",
+     "nyan": {"jp": "ニャンも 同[おな]じ ことを 考[かんが]えたよ。", "es": "Nyan también pensó lo mismo.", "en": "Nyan thought the same thing."}},
+    {"jp": "もっと 気[き]を つけて 物[もの]を 持[も]つ", "es": "Tener más cuidado al llevar mis cosas", "en": "Be more careful with my belongings",
+     "nyan": {"jp": "それ、 大事[だいじ]だね。 ニャンも 気[き]を つけるよ。", "es": "Eso es importante. Nyan también tendrá cuidado.", "en": "That's important. Nyan will be careful too."}}
+   ]}
+ ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "l03", "desde": 300,
+  "titulo": {"jp": "ニャン の 昼寝[ひるね]", "es": "La siesta de Nyan", "en": "Nyan's nap"},
+  "resumen": {"es": "Nyan tiene deberes, pero el sueño le puede: ¿logrará Tama despertarlo?",
+              "en": "Nyan has homework, but sleep wins: will Tama manage to wake him up?"},
+  "portada": {"fondo": "cuarto", "cosas": [{"que": "nyan", "x": 110, "cara": "sueno"}, {"que": "libro", "x": 260}, {"que": "gato", "x": 320}]},
+  "texto": [
+    {"voz": "t1", "quien": "narrador", "jp": "ニャンは 宿題[しゅくだい]が あった。 でも、 とても 眠[ねむ]かった。",
+     "es": "Nyan tenía deberes. Pero tenía muchísimo sueño.", "en": "Nyan had homework. But he was very sleepy."},
+    {"voz": "t2", "quien": "narrador", "jp": "ニャンは 「ちょっとだけ 寝[ね]よう」と 思[おも]った。",
+     "es": "Nyan pensó: «voy a dormir solo un poquito».", "en": "Nyan thought, \"I'll sleep just a little bit.\""},
+    {"voz": "t3", "quien": "narrador", "jp": "ニャンは すぐに 寝[ね]た。",
+     "es": "Nyan se durmió enseguida.", "en": "Nyan fell asleep right away."},
+    {"voz": "t4", "quien": "narrador", "jp": "雨[あめ]だった。",
+     "es": "Estaba lloviendo.", "en": "It was raining."},
+    {"voz": "t5", "quien": "tama", "jp": "ニャン、 起[お]きて！ 宿題[しゅくだい]は？",
+     "es": "¡Nyan, despierta! ¿Y los deberes?", "en": "Nyan, wake up! What about the homework?"},
+    {"voz": "t6", "quien": "narrador", "jp": "ニャンは 起[お]きられなかった。",
+     "es": "Nyan no lograba despertarse.", "en": "Nyan couldn't wake up."},
+    {"voz": "t7", "quien": "tama", "jp": "眠[ねむ]い ん です か。 じゃあ、 一緒[いっしょ]に 起[お]きよう！",
+     "es": "¿Tienes sueño? Bueno, ¡vamos a levantarnos juntos!", "en": "Are you sleepy? Well then, let's get up together!"},
+    {"voz": "t8", "quien": "narrador", "jp": "ニャンは 宿題[しゅくだい]を して みた。 でも、 また 寝[ね]た。",
+     "es": "Nyan lo intentó con los deberes. Pero volvió a dormirse.", "en": "Nyan tried doing the homework. But he fell asleep again."},
+    {"voz": "t9", "quien": "narrador", "jp": "タマは 「もう いい よ」と 言[い]って、 帰[かえ]った。",
+     "es": "Tama dijo «bueno, déjalo» y se fue a casa.", "en": "Tama said \"never mind\" and went home."}
+  ],
+  "preguntas": [
+    {"jp": "ニャンは なぜ 寝[ね]たかった です か。", "es": "¿Por qué quería dormir Nyan?", "en": "Why did Nyan want to sleep?",
+     "opciones": [{"jp": "とても 眠[ねむ]かった から", "es": "Porque tenía mucho sueño", "en": "Because he was very sleepy"}, {"jp": "宿題[しゅくだい]が 好[す]き じゃなかった から", "es": "Porque no le gustaban los deberes", "en": "Because he didn't like homework"}, {"jp": "雨[あめ]だった から", "es": "Porque llovía", "en": "Because it was raining"}],
+     "bien": 0, "porque": {"es": "La historia dice «とても眠かった».", "en": "The story says he was very sleepy."}},
+    {"jp": "ニャンは 宿題[しゅくだい]を どう しました か。", "es": "¿Qué hizo Nyan con los deberes?", "en": "What did Nyan do about the homework?",
+     "opciones": [{"jp": "して みた が、 また 寝[ね]た", "es": "Lo intentó, pero volvió a dormirse", "en": "He tried, but fell asleep again"}, {"jp": "しなかった", "es": "No los hizo", "en": "He didn't do them"}, {"jp": "タマ が した", "es": "Los hizo Tama", "en": "Tama did them"}],
+     "bien": 0, "porque": {"es": "«宿題をしてみた。でも、また寝た» lo dice.", "en": "\"He tried doing the homework, but fell asleep again\" the story says."}},
+    {"jp": "タマ は ニャン に 何[なに]と 言[い]いました か。", "es": "¿Qué le dijo Tama a Nyan (al final)?", "en": "What did Tama say to Nyan (at the end)?",
+     "opciones": [{"jp": "「もう いい よ」", "es": "«Déjalo, bueno»", "en": "\"Never mind\""}, {"jp": "「起[お]きて」", "es": "«Despierta»", "en": "\"Wake up\""}, {"jp": "「一緒[いっしょ]に 起[お]きよう」", "es": "«Levantémonos juntos»", "en": "\"Let's get up together\""}],
+     "bien": 0, "porque": {"es": "Al final, タマは「もういいよ」と言って帰りました。", "en": "At the end, Tama said \"never mind\" and went home."}},
+    {"tipo": "opinion", "jp": "あなた は 宿題[しゅくだい] より 寝[ね]る ほう が 好[す]き です か。", "es": "¿Prefieres dormir antes que hacer los deberes?", "en": "Do you prefer sleeping over doing homework?",
+     "opciones": [
+       {"jp": "寝[ね]る ほう が 好[す]き です。", "es": "Sí, prefiero dormir.", "en": "Yes, I prefer sleeping.",
+        "nyan": {"jp": "やった！ ニャン と 同[おな]じ！", "es": "¡Bien! ¡Igual que Nyan!", "en": "Yay! Same as Nyan!"}},
+       {"jp": "いいえ、 宿題[しゅくだい]を する ほう が 好[す]き です。", "es": "No, prefiero hacer los deberes.", "en": "No, I prefer doing homework.",
+        "nyan": {"jp": "え、 ほんとう？ ニャン には 分[わ]からない…", "es": "¿Eh, en serio? Nyan no lo entiende…", "en": "Eh, really? Nyan doesn't get it..."}},
+       {"jp": "どちら も 好[す]き じゃない です。", "es": "No me gusta ninguna de las dos cosas.", "en": "I don't like either one.",
+        "nyan": {"jp": "そう です か。 ニャン も 寝[ね]る ほう が 好[す]き！", "es": "Ya veo. ¡Nyan también prefiere dormir!", "en": "I see. Nyan prefers sleeping too!"}}
+     ]}
+  ]
+}

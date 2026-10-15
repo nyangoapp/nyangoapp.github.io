@@ -1,0 +1,1034 @@
+{
+ "id": "c61",
+ "clase": 61,
+ "desde": 2350,
+ "titulo": {
+  "es": "Palabras que crecen: 〜さ, 〜的, 〜化 y compañía",
+  "en": "Words that grow: 〜さ, 〜的, 〜化 and friends"
+ },
+ "resumen": {
+  "es": "Cuatro sufijos que fabrican palabras nuevas: さ convierte un adjetivo en algo medible (大[おお]きい→大[おお]きさ). 的[てき] convierte un sustantivo en «típico de» (歴史[れきし]的[てき]). 化[か] es un CAMBIO: se convierte en N (高齢[こうれい]化[か]). 性[せい] es la cualidad, o la posibilidad (可能[かのう]性[せい]).",
+  "en": "Four suffixes that build new words: さ turns an adjective into something measurable (大きい→大きさ). 的 turns a noun into «typical of» (歴史的). 化 is a CHANGE: becoming N (高齢化). 性 is the quality, or the possibility (可能性)."
+ },
+ "intro": [
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 120,
+      "cara": "sueno",
+      "brazo": "arriba"
+     },
+     {
+      "que": "manpu",
+      "tipo": "brillo",
+      "x": 175,
+      "y": 100
+     }
+    ]
+   },
+   "jp": "ぼくの 眠[ねむ]さは、 世界[せかい]一[いち]だよ！",
+   "voz": "i1",
+   "tr": {
+    "es": "¡Mi nivel de sueño es el número uno del mundo!",
+    "en": "My sleepiness level is the world's number one!"
+   },
+   "cara": "sueno",
+   "cartela": {
+    "es": "眠[ねむ]い（adjetivo）→ quita い, pon さ → 眠[ねむ]さ: algo que se puede MEDIR.",
+    "en": "眠い (adjective) → drop い, add さ → 眠さ: something you can MEASURE."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "sueno"
+     },
+     {
+      "que": "gato",
+      "x": 270
+     }
+    ]
+   },
+   "jp": "それ、 自慢[じまん]？",
+   "voz": "i2",
+   "tr": {
+    "es": "¿Eso es presumir?",
+    "en": "Is that bragging?"
+   },
+   "cara": "normal",
+   "habla": "tama"
+  },
+  {
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "feliz"
+     },
+     {
+      "que": "libro",
+      "x": 270,
+      "s": 1.4
+     }
+    ]
+   },
+   "jp": "これ、 歴史[れきし]的[てき]な 本[ほん]だよ！",
+   "voz": "i3",
+   "tr": {
+    "es": "¡Este es un libro histórico!",
+    "en": "This is a historical book!"
+   },
+   "cara": "feliz",
+   "cartela": {
+    "es": "歴史[れきし]（sustantivo）＋的[てき] → 歴史[れきし]的[てき]: «de historia, histórico».",
+    "en": "歴史 (noun) + 的 → 歴史的: «of history, historical»."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "pensando"
+     },
+     {
+      "que": "profesor",
+      "x": 280
+     }
+    ]
+   },
+   "jp": "日本[にほん]は 高齢[こうれい]化[か]が 進[すす]んでいますね。",
+   "voz": "i4",
+   "tr": {
+    "es": "Japón está envejeciendo cada vez más, ¿verdad.",
+    "en": "Japan's aging is advancing, isn't it."
+   },
+   "cara": "normal",
+   "cartela": {
+    "es": "化[か] es un CAMBIO: 高齢[こうれい]（mayor edad）→ 高齢[こうれい]化[か]（hacerse una sociedad más mayor）. ¡A practicar con さ, 的, 化 y 性!",
+    "en": "化 is a CHANGE: 高齢 (advanced age) → 高齢化 (society becoming older). Let's practice with さ, 的, 化 and 性!"
+   },
+   "habla": "sensei"
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Añade el sufijo correcto: さ, 的[てき], 化[か] o 性[せい]. No todos pegan con todo.",
+   "en": "Add the right suffix: さ, 的, 化 or 性. Not all of them fit everywhere."
+  },
+  "piezas": [
+   {
+    "id": "konohakono",
+    "jp": "この 箱[はこ]の",
+    "tipo": "palabra"
+   },
+   {
+    "id": "ooki",
+    "jp": "大[おお]き",
+    "tipo": "palabra"
+   },
+   {
+    "id": "sa",
+    "jp": "さ",
+    "tipo": "particula"
+   },
+   {
+    "id": "teki",
+    "jp": "的[てき]",
+    "tipo": "particula"
+   },
+   {
+    "id": "ka",
+    "jp": "化[か]",
+    "tipo": "particula"
+   },
+   {
+    "id": "sei",
+    "jp": "性[せい]",
+    "tipo": "particula"
+   },
+   {
+    "id": "wa",
+    "jp": "は",
+    "tipo": "particula"
+   },
+   {
+    "id": "sugoi",
+    "jp": "すごい",
+    "tipo": "verbo"
+   },
+   {
+    "id": "kore",
+    "jp": "これ",
+    "tipo": "palabra"
+   },
+   {
+    "id": "rekishi",
+    "jp": "歴史[れきし]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "na",
+    "jp": "な",
+    "tipo": "particula"
+   },
+   {
+    "id": "hon",
+    "jp": "本[ほん]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "da",
+    "jp": "だ",
+    "tipo": "verbo"
+   },
+   {
+    "id": "nihonwa",
+    "jp": "日本[にほん]は",
+    "tipo": "palabra"
+   },
+   {
+    "id": "kourei",
+    "jp": "高齢[こうれい]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "gasusundeimasu",
+    "jp": "が 進[すす]んでいます",
+    "tipo": "verbo"
+   },
+   {
+    "id": "gasusunderu",
+    "jp": "が 進[すす]んでる",
+    "tipo": "verbo"
+   },
+   {
+    "id": "kokoni",
+    "jp": "ここに",
+    "tipo": "palabra"
+   },
+   {
+    "id": "kiken",
+    "jp": "危険[きけん]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "nai",
+    "jp": "ない",
+    "tipo": "verbo"
+   },
+   {
+    "id": "amega",
+    "jp": "雨[あめ]が",
+    "tipo": "palabra"
+   },
+   {
+    "id": "furu",
+    "jp": "降[ふ]る",
+    "tipo": "verbo"
+   },
+   {
+    "id": "kanou",
+    "jp": "可能[かのう]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "ga",
+    "jp": "が",
+    "tipo": "particula"
+   },
+   {
+    "id": "aru",
+    "jp": "ある",
+    "tipo": "verbo"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Di: «El tamaño de esta caja es increíble» (usa さ).",
+     "en": "Say: «The size of this box is incredible» (use さ)."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "sorpresa"
+      },
+      {
+       "que": "caja",
+       "x": 270,
+       "s": 1.6
+      }
+     ]
+    },
+    "piezas": [
+     "konohakono",
+     "ooki",
+     "sa",
+     "teki",
+     "ka",
+     "wa",
+     "sugoi"
+    ],
+    "bien": [
+     [
+      "konohakono",
+      "ooki",
+      "sa",
+      "wa",
+      "sugoi"
+     ]
+    ],
+    "tr": {
+     "es": "El tamaño de esta caja es increíble.",
+     "en": "The size of this box is incredible."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "gigante",
+      "objeto": "caja"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "sorpresa",
+      "manpu": "excl"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "teki"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "的[てき] se pega a SUSTANTIVOS (歴史的, 科学的), no a adjetivos como 大[おお]きい. Con adjetivos, さ.",
+       "en": "的 attaches to NOUNS (歴史的, 科学的), not to adjectives like 大きい. With adjectives, use さ."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "ka"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "化[か] convierte un sustantivo en un CAMBIO (高齢化); no vale para 大[おお]きい. Aquí hace falta さ.",
+       "en": "化 turns a noun into a CHANGE (高齢化); it doesn't work for 大きい. Here you need さ."
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "sa"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin さ, 大[おお]き no es una palabra completa: falta el sufijo.",
+       "en": "Without さ, 大き isn't a full word: the suffix is missing."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Di: «Este es un libro histórico» (usa 的[てき]).",
+     "en": "Say: «This is a historical book» (use 的)."
+    },
+    "escena": {
+     "fondo": "escuela",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "feliz"
+      },
+      {
+       "que": "libro",
+       "x": 270,
+       "s": 1.4
+      }
+     ]
+    },
+    "piezas": [
+     "kore",
+     "wa",
+     "rekishi",
+     "teki",
+     "sa",
+     "ka",
+     "na",
+     "hon",
+     "da"
+    ],
+    "bien": [
+     [
+      "kore",
+      "wa",
+      "rekishi",
+      "teki",
+      "na",
+      "hon",
+      "da"
+     ]
+    ],
+    "tr": {
+     "es": "Este es un libro histórico.",
+     "en": "This is a historical book."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "brilla",
+      "objeto": "libro"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "sa"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "さ convierte un ADJETIVO en algo medible (大きさ); 歴史[れきし] ya es un sustantivo: aquí hace falta 的[てき].",
+       "en": "さ turns an ADJECTIVE into something measurable (大きさ); 歴史 is already a noun: here you need 的."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "ka"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "化[か] es para CAMBIOS (高齢化); para decir «de historia, histórico», hace falta 的[てき].",
+       "en": "化 is for CHANGES (高齢化); to say «of history, historical», you need 的."
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "na"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "的[てき]な＋sustantivo: sin な no se pega bien a 本[ほん].",
+       "en": "的な + noun: without な it doesn't attach properly to 本."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Cuéntaselo al sensei, con educación: «El envejecimiento de Japón está avanzando» (usa 化[か]).",
+     "en": "Tell the teacher, politely: «Japan's aging is advancing» (use 化)."
+    },
+    "escena": {
+     "fondo": "escuela",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "pensando"
+      },
+      {
+       "que": "profesor",
+       "x": 280
+      }
+     ]
+    },
+    "piezas": [
+     "nihonwa",
+     "kourei",
+     "ka",
+     "teki",
+     "sa",
+     "gasusundeimasu",
+     "gasusunderu"
+    ],
+    "bien": [
+     [
+      "nihonwa",
+      "kourei",
+      "ka",
+      "gasusundeimasu"
+     ]
+    ],
+    "tr": {
+     "es": "El envejecimiento de Japón está avanzando.",
+     "en": "Japan's aging is advancing."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "brilla",
+      "objeto": "profesor"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "normal"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "teki"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "的[てき] describe algo como «típico de»: 高齢[こうれい]的[てき] no tiene sentido. Para un CAMBIO, hace falta 化[か].",
+       "en": "的 describes something as «typical of»: 高齢的 doesn't make sense. For a CHANGE, you need 化."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "sa"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "さ mide un adjetivo; aquí hablamos de un CAMBIO que avanza: hace falta 化[か].",
+       "en": "さ measures an adjective; here we're talking about a CHANGE in progress: you need 化."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "gasusunderu"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "sorpresa",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Hablas con el sensei: hace falta が 進[すす]んでいます, no la forma corta.",
+       "en": "You're speaking to the teacher: you need が進んでいます, not the short form."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Di: «Aquí no hay ningún peligro» (usa 性[せい]: la peligrosidad).",
+     "en": "Say: «There's no danger here» (use 性: the level of danger)."
+    },
+    "escena": {
+     "fondo": "calle",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 120,
+       "cara": "normal"
+      }
+     ]
+    },
+    "piezas": [
+     "kokoni",
+     "kiken",
+     "sei",
+     "teki",
+     "ka",
+     "wa",
+     "nai"
+    ],
+    "bien": [
+     [
+      "kokoni",
+      "kiken",
+      "sei",
+      "wa",
+      "nai"
+     ]
+    ],
+    "tr": {
+     "es": "Aquí no hay ningún peligro.",
+     "en": "There's no danger here."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "teki"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "的[てき] describe cómo ES algo (危険[きけん]的[てき] no se dice); para la CUALIDAD misma, hace falta 性[せい].",
+       "en": "的 describes how something IS (危険的 isn't said); for the QUALITY itself, you need 性."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "ka"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "化[か] es un cambio que pasa (algo se vuelve peligroso); aquí hablamos de la cualidad en sí: 性[せい].",
+       "en": "化 is a change taking place (something becoming dangerous); here we mean the quality itself: 性."
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "sei"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin 性[せい], 危険[きけん] solo dice «peligro», no «nivel de peligro».",
+       "en": "Without 性, 危険 just says «danger», not «level of danger»."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Reto: di «Hay posibilidad de lluvia» (usa 性[せい], no さ, aunque 可能[かのう] sea un adjetivo).",
+     "en": "Challenge: say «There's a possibility of rain» (use 性, not さ, even though 可能 is an adjective)."
+    },
+    "escena": {
+     "fondo": "calle",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 120,
+       "cara": "pensando"
+      },
+      {
+       "que": "nube",
+       "x": 270
+      }
+     ]
+    },
+    "piezas": [
+     "amega",
+     "furu",
+     "kanou",
+     "sei",
+     "sa",
+     "ka",
+     "ga",
+     "aru"
+    ],
+    "bien": [
+     [
+      "amega",
+      "furu",
+      "kanou",
+      "sei",
+      "ga",
+      "aru"
+     ]
+    ],
+    "tr": {
+     "es": "Hay posibilidad de lluvia.",
+     "en": "There's a possibility of rain."
+    },
+    "pista": {
+     "es": "可能[かのう] es un adjetivo-な, pero aquí es la excepción.",
+     "en": "可能 is a な-adjective, but here it's the exception."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "pensando"
+     },
+     {
+      "tipo": "manpu",
+      "objeto": "nube",
+      "manpu": "sudor"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "sa"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "sorpresa",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "可能[かのう] es un adjetivo-な, así que さ tentaría (可能[かのう]さ)… pero «posibilidad» es siempre 可能[かのう]性[せい]. ¡Es la excepción!",
+       "en": "可能 is a な-adjective, so さ is tempting (可能さ)… but «possibility» is always 可能性. It's the exception!"
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "ka"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "化[か] sería «volverse posible», no «la posibilidad de que». Aquí hace falta 性[せい].",
+       "en": "化 would mean «becoming possible», not «the possibility that». Here you need 性."
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "sei"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin 性[せい] no existe la palabra «posibilidad»: falta el sufijo.",
+       "en": "Without 性 the word «possibility» doesn't exist: the suffix is missing."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "juego": {
+  "intro": {
+   "es": "的[てき], 化[か] o 性[せい]: los tres se pegan a sustantivos, pero dicen cosas distintas.",
+   "en": "的, 化 or 性: all three attach to nouns, but they say different things."
+  },
+  "nyan": {
+   "es": "Yo con さ ya tengo bastante: mi 眠[ねむ]さ es suficiente sufijo para toda una vida.",
+   "en": "さ is enough for me: my sleepiness is enough of a suffix for a lifetime."
+  },
+  "cestas": [
+   {
+    "id": "teki",
+    "jp": "的[てき]",
+    "sub": {
+     "es": "como / típico de N",
+     "en": "like / typical of N"
+    }
+   },
+   {
+    "id": "ka",
+    "jp": "化[か]",
+    "sub": {
+     "es": "N se convierte en… (cambio)",
+     "en": "becoming N (change)"
+    }
+   },
+   {
+    "id": "sei",
+    "jp": "性[せい]",
+    "sub": {
+     "es": "lo N que es (cualidad, posibilidad)",
+     "en": "the N-ness of it (quality, possibility)"
+    }
+   }
+  ],
+  "cartas": [
+   {
+    "id": "j1",
+    "dibujo": "libro",
+    "jp": "これは 歴史[れきし]＿な 本[ほん]だ。",
+    "cesta": "teki",
+    "es": "Este es un libro histórico.",
+    "en": "This is a historical book."
+   },
+   {
+    "id": "j2",
+    "jp": "これは 科学[かがく]＿な 話[はなし]だ。",
+    "cesta": "teki",
+    "es": "Esto es algo científico.",
+    "en": "This is something scientific."
+   },
+   {
+    "id": "j3",
+    "dibujo": "profesor",
+    "jp": "これは 個人[こじん]＿な 意見[いけん]だ。",
+    "cesta": "teki",
+    "es": "Esta es una opinión personal.",
+    "en": "This is a personal opinion."
+   },
+   {
+    "id": "j4",
+    "jp": "日本[にほん]は 高齢[こうれい]＿が 進[すす]んでいる。",
+    "cesta": "ka",
+    "es": "El envejecimiento de Japón avanza.",
+    "en": "Japan's aging is advancing."
+   },
+   {
+    "id": "j5",
+    "jp": "この 国[くに]は 自由[じゆう]＿が 進[すす]んでいる。",
+    "cesta": "ka",
+    "es": "Este país avanza hacia la liberalización.",
+    "en": "This country is advancing toward liberalization."
+   },
+   {
+    "id": "j6",
+    "dibujo": "nube",
+    "jp": "雨[あめ]が 降[ふ]る 可能[かのう]＿が ある。",
+    "cesta": "sei",
+    "es": "Hay posibilidad de lluvia.",
+    "en": "There's a possibility of rain.",
+    "truco": {
+     "es": "可能[かのう] es adjetivo, pero aquí NO se usa さ: siempre 可能性[かのうせい].",
+     "en": "可能 is an adjective, but さ is NOT used here: always 可能性."
+    }
+   },
+   {
+    "id": "j7",
+    "jp": "ここに 危険[きけん]＿は ない。",
+    "cesta": "sei",
+    "es": "Aquí no hay ningún peligro.",
+    "en": "There's no danger here."
+   },
+   {
+    "id": "j8",
+    "jp": "安全[あんぜん]＿が 高[たか]い。",
+    "cesta": "sei",
+    "es": "El nivel de seguridad es alto.",
+    "en": "The level of safety is high."
+   }
+  ]
+ },
+ "outro": [
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "feliz"
+     },
+     {
+      "que": "caja",
+      "x": 270,
+      "s": 1.6
+     }
+    ]
+   },
+   "jp": "この 箱[はこ]の 大[おお]きさ、 すごいね。",
+   "voz": "o1",
+   "tr": {
+    "es": "El tamaño de esta caja, es increíble.",
+    "en": "The size of this box, it's incredible."
+   },
+   "cara": "feliz"
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "normal"
+     },
+     {
+      "que": "gato",
+      "x": 270
+     }
+    ]
+   },
+   "jp": "うん、 でも 危険[きけん]性[せい]は ないね。",
+   "voz": "o2",
+   "tr": {
+    "es": "Sí, pero no tiene ningún peligro.",
+    "en": "Yeah, but there's no danger in it."
+   },
+   "cara": "normal",
+   "habla": "tama"
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 200,
+      "cara": "sueno",
+      "s": 1.1
+     },
+     {
+      "que": "cama",
+      "x": 200,
+      "s": 1.4
+     }
+    ]
+   },
+   "jp": "ぼくの 眠[ねむ]さも、 忘[わす]れないでね。",
+   "voz": "o3",
+   "tr": {
+    "es": "No te olvides tampoco de mi sueño.",
+    "en": "Don't forget my sleepiness either."
+   },
+   "cara": "sueno",
+   "cartela": {
+    "es": "Fin. さ, 的[てき], 化[か], 性[せい]: cuatro sufijos, cuatro palabras nuevas de la nada.",
+    "en": "The end. さ, 的, 化, 性: four suffixes, four new words out of thin air."
+   }
+  }
+ ],
+ "chuleta": {
+  "patron": {
+   "es": "〔adj〕→さ・〔N〕→的[てき]・〔N〕→化[か]・〔N〕→性[せい]",
+   "en": "〔adj〕→さ・〔N〕→的・〔N〕→化・〔N〕→性"
+  },
+  "patron_tr": {
+   "es": "medida ／ típico de ／ se convierte en ／ cualidad",
+   "en": "measure ／ typical of ／ becomes ／ quality"
+  },
+  "columnas": [
+   {
+    "jp": "さ",
+    "texto": {
+     "es": "de adjetivo a algo medible",
+     "en": "from adjective to something measurable"
+    },
+    "dibujos": [
+     "caja"
+    ]
+   },
+   {
+    "jp": "的[てき]",
+    "texto": {
+     "es": "de sustantivo a «típico de»",
+     "en": "from noun to «typical of»"
+    },
+    "dibujos": [
+     "libro"
+    ]
+   },
+   {
+    "jp": "化[か]",
+    "texto": {
+     "es": "de sustantivo a «se convierte en»",
+     "en": "from noun to «becomes»"
+    },
+    "dibujos": [
+     "profesor"
+    ]
+   },
+   {
+    "jp": "性[せい]",
+    "texto": {
+     "es": "cualidad, o si es posible",
+     "en": "quality, or whether it's possible"
+    },
+    "dibujos": [
+     "nube"
+    ]
+   }
+  ],
+  "filas": [
+   {
+    "jp": "大[おお]きさ",
+    "es": "el tamaño",
+    "en": "the size"
+   },
+   {
+    "jp": "歴史[れきし]的[てき]",
+    "es": "histórico",
+    "en": "historical"
+   },
+   {
+    "jp": "高齢[こうれい]化[か]",
+    "es": "el envejecimiento (de la sociedad)",
+    "en": "aging (of society)"
+   },
+   {
+    "jp": "可能[かのう]性[せい]",
+    "es": "la posibilidad",
+    "en": "the possibility"
+   }
+  ],
+  "consejo": {
+   "es": "さ se pega a ADJETIVOS (大きい→大きさ); 的[てき], 化[か] y 性[せい] se pegan a SUSTANTIVOS, pero dicen cosas distintas: 的[てき]＝«típico de» (歴史的), 化[か]＝«se está convirtiendo en» (高齢化), 性[せい]＝«lo… que es, o si es posible» (可能性, 危険性). Bonus: 日本[にほん]風[ふう] (al estilo japonés), 子供[こども]向[む]け (pensado para niños) y 仕事[しごと]用[よう] (para el trabajo) son sufijos parecidos: pruébalos cuando los veas.",
+   "en": "さ attaches to ADJECTIVES (大きい→大きさ); 的, 化 and 性 attach to NOUNS, but say different things: 的＝«typical of» (歴史的), 化＝«is becoming» (高齢化), 性＝«the …-ness of it, or whether it's possible» (可能性, 危険性). Bonus: 日本風 (Japanese-style), 子供向け (aimed at children) and 仕事用 (for work use) are similar suffixes: try them when you see them."
+  }
+ }
+}

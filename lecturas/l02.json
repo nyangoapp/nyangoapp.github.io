@@ -1,0 +1,36 @@
+{
+  "id": "l02", "desde": 225,
+  "titulo": {"jp": "ニャン と 高[たか]い 本[ほん]", "es": "Nyan y el libro caro", "en": "Nyan and the expensive book"},
+  "resumen": {"es": "Nyan quiere un libro nuevo, pero es demasiado caro: ¿cómo acabará el día?", "en": "Nyan wants a new book, but it's too expensive: how will the day end?"},
+  "portada": {"fondo": "tienda", "cosas": [{"que": "nyan", "x": 110, "cara": "triste"}, {"que": "libro", "x": 270}, {"que": "persona", "x": 320}]},
+  "texto": [
+    {"voz": "t1", "quien": "narrador", "jp": "ニャンは ポンの 店[みせ]に 行[い]った。 新[あたら]しい 本[ほん]が 欲[ほ]しかった。", "es": "Nyan fue a la tienda de Pon. Quería un libro nuevo.", "en": "Nyan went to Pon's shop. He wanted a new book."},
+    {"voz": "t2", "quien": "narrador", "jp": "でも、 その 本[ほん]は 高[たか]かった。", "es": "Pero ese libro era caro.", "en": "But that book was expensive."},
+    {"voz": "t3", "quien": "nyan", "jp": "お金[かね]が ない から、 買[か]わない。", "es": "Como no tengo dinero, no lo compro.", "en": "Since I have no money, I won't buy it."},
+    {"voz": "t4", "quien": "pon", "jp": "ははは、 また 来[き]て ください。", "es": "¡Ja, ja, ja! Vuelva otro día, por favor.", "en": "Ha ha ha! Please come again."},
+    {"voz": "t5", "quien": "narrador", "jp": "ニャンは タマの 家[いえ]へ 行[い]った。", "es": "Nyan fue a casa de Tama.", "en": "Nyan went to Tama's house."},
+    {"voz": "t6", "quien": "narrador", "jp": "タマの お母[かあ]さんが おにぎりを 作[つく]って いた。", "es": "La madre de Tama estaba haciendo onigiri.", "en": "Tama's mother was making onigiri."},
+    {"voz": "t7", "quien": "tama", "jp": "ニャン、 一緒[いっしょ]に 食[た]べない？", "es": "Nyan, ¿no comes con nosotros?", "en": "Nyan, won't you eat with us?"},
+    {"voz": "t8", "quien": "narrador", "jp": "ニャンは 「やった！」と 言[い]った。 そして、 おにぎりを たくさん 食[た]べた。", "es": "Nyan dijo «¡bien!». Y comió muchos onigiri.", "en": "Nyan said \"yay!\" And he ate lots of onigiri."}
+  ],
+  "preguntas": [
+    {"jp": "ニャンは 店[みせ]で 何[なに]が 欲[ほ]しかった です か。", "es": "¿Qué quería Nyan en la tienda?", "en": "What did Nyan want at the store?",
+     "opciones": [{"jp": "本[ほん]", "es": "Un libro", "en": "A book"}, {"jp": "おにぎり", "es": "Onigiri", "en": "Onigiri"}, {"jp": "お金[かね]", "es": "Dinero", "en": "Money"}],
+     "bien": 0, "porque": {"es": "«新しい本が欲しかった»、と la historia dice.", "en": "The story says he wanted a new book."}},
+    {"jp": "ニャンは なぜ 本[ほん]を 買[か]いません でした か。", "es": "¿Por qué no compró Nyan el libro?", "en": "Why didn't Nyan buy the book?",
+     "opciones": [{"jp": "お金[かね]が なかった から", "es": "Porque no tenía dinero", "en": "Because he had no money"}, {"jp": "本[ほん]が 欲[ほ]しくなかった から", "es": "Porque no lo quería", "en": "Because he didn't want it"}],
+     "bien": 0, "porque": {"es": "ニャンは「お金がないから、買わない」と言いました。", "en": "Nyan said \"Since I have no money, I won't buy it.\""}},
+    {"jp": "タマの 家[いえ]で 誰[だれ]が おにぎりを 作[つく]って いました か。", "es": "¿Quién estaba haciendo onigiri en casa de Tama?", "en": "Who was making onigiri at Tama's house?",
+     "opciones": [{"jp": "タマの お母[かあ]さん", "es": "La madre de Tama", "en": "Tama's mother"}, {"jp": "タマ", "es": "Tama", "en": "Tama"}, {"jp": "ニャン", "es": "Nyan", "en": "Nyan"}],
+     "bien": 0, "porque": {"es": "タマのお母さんがおにぎりを作っていました。", "en": "Tama's mother was making onigiri."}},
+    {"tipo": "opinion", "jp": "あなたは 高[たか]い 物[もの]を よく 買[か]います か。", "es": "¿Sueles comprar cosas caras?", "en": "Do you often buy expensive things?",
+     "opciones": [
+       {"jp": "よく 買[か]います。", "es": "Sí, las compro a menudo.", "en": "Yes, I buy them often.",
+        "nyan": {"jp": "ニャンも 新[あたら]しい 本[ほん]を 買[か]いたい！", "es": "¡Nyan también quiere comprarse un libro nuevo!", "en": "Nyan wants to buy a new book too!"}},
+       {"jp": "あまり 買[か]いません。", "es": "No, no suelo comprarlas.", "en": "No, I don't buy them much.",
+        "nyan": {"jp": "そう です か。 ニャンは いつも お金[かね]が ない。", "es": "Vaya. Nyan tampoco tiene nunca dinero.", "en": "I see. Nyan never has money either."}},
+       {"jp": "お金[かね]が ない 時[とき]が 多[おお]い です。", "es": "Es que muchas veces no tengo dinero.", "en": "I often don't have any money.",
+        "nyan": {"jp": "ニャンも 同[おな]じ です！ いつも おにぎりを 買[か]う。", "es": "¡Nyan es igual! Siempre se compra onigiri.", "en": "Same for Nyan! He always buys onigiri."}}
+     ]}
+  ]
+}

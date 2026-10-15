@@ -1,0 +1,993 @@
+{
+ "id": "c13",
+ "clase": 13,
+ "desde": 150,
+ "titulo": {
+  "es": "Lo que queremos: 〜たい, 欲しい y 〜ましょう",
+  "en": "What we want: 〜たい, 欲しい and 〜ましょう"
+ },
+ "resumen": {
+  "es": "たい es querer HACER algo (se pega a un verbo). 欲しい es querer una COSA. Y ましょう invita: «¡hagámoslo!».",
+  "en": "たい is wanting to DO something (it attaches to a verb). 欲しい is wanting a THING. And ましょう invites: «let's do it!»."
+ },
+ "formato": 2,
+ "lugar": "tienda",
+ "mision": {
+  "texto": {
+   "es": "Con el dinero de la clase, Nyan y Tama van a la tienda de Pon a por lo que falta para el puesto. Nyan quiere comérselo todo y Tama quiere un daruma de la suerte: decid qué queréis… y poneos de acuerdo.",
+   "en": "With the class money, Nyan and Tama go to Pon's shop for what the stall still needs. Nyan wants to eat everything and Tama wants a lucky daruma: say what you want… and agree on it."
+  },
+  "escena": {
+   "fondo": "tienda",
+   "cosas": [
+    {
+     "que": "nyan",
+     "x": 70
+    },
+    {
+     "que": "gato",
+     "id": "tama",
+     "x": 150
+    },
+    {
+     "que": "mikan",
+     "x": 245,
+     "s": 1.5
+    },
+    {
+     "que": "persona",
+     "id": "tendero",
+     "x": 335
+    }
+   ]
+  },
+  "cara": "feliz",
+  "jp": "何[なに]を 買[か]いましょうか。",
+  "voz": "m0"
+ },
+ "reglas": [
+  {
+   "id": "tai",
+   "nombre": {
+    "es": "〜たい: quiero HACER algo",
+    "en": "〜たい: I want to DO something"
+   },
+   "patron": {
+    "es": "〔raíz del verbo〕たいです",
+    "en": "〔verb stem〕たいです"
+   },
+   "explica": {
+    "es": "Para decir lo que tienes ganas de hacer, quita ます al verbo y pon たい en su lugar: 食べます → 食べたい, 行きます → 行きたい. El resultado se porta como un adjetivo en い: le pones です para ser educado (食べたいです) y se niega igual que ellos, 食べたくない, «no quiero comer». Por eso lo que quieres puede ir con を o con が (みかんを／が食べたい): las dos valen.",
+    "en": "To say what you feel like doing, drop ます from the verb and put たい in its place: 食べます → 食べたい, 行きます → 行きたい. The result behaves like an い adjective: add です to be polite (食べたいです) and negate it the same way, 食べたくない, «I don't want to eat». That's why what you want can take を or が (みかんを／が食べたい): both work."
+   },
+   "ejemplos": [
+    {
+     "jp": "みかんを 食[た]べたいです。",
+     "es": "Quiero comer mandarinas.",
+     "en": "I want to eat mandarins.",
+     "voz": "r1-1"
+    },
+    {
+     "jp": "どこに 行[い]きたいですか。",
+     "es": "¿Adónde quieres ir?",
+     "en": "Where do you want to go?",
+     "voz": "r1-2"
+    }
+   ],
+   "ojo": {
+    "es": "たい habla de TUS ganas, o pregunta las de quien tienes delante. Para contar las de otra persona el japonés usa otras formas, porque nadie puede saber desde fuera lo que el otro siente.",
+    "en": "たい talks about YOUR wishes, or asks about the listener's. To report someone else's, Japanese uses other forms, because nobody can know from outside what another person feels."
+   }
+  },
+  {
+   "id": "hoshii",
+   "nombre": {
+    "es": "欲しい: quiero una COSA",
+    "en": "欲しい: I want a THING"
+   },
+   "patron": {
+    "es": "〔cosa〕が 欲しいです",
+    "en": "〔thing〕が 欲しいです"
+   },
+   "explica": {
+    "es": "Cuando lo que quieres es una cosa y no una acción, se usa 欲しい. Es un adjetivo en い que significa algo así como «deseable», así que lo que quieres va con が, igual que con 好き: だるまが欲しいです, «quiero un daruma». Se niega como cualquier adjetivo en い: 欲しくないです.",
+    "en": "When what you want is a thing rather than an action, use 欲しい. It's an い adjective meaning something like «desirable», so what you want takes が, just like with 好き: だるまが欲しいです, «I want a daruma». It negates like any い adjective: 欲しくないです."
+   },
+   "ejemplos": [
+    {
+     "jp": "だるまが 欲[ほ]しいです。",
+     "es": "Quiero un daruma.",
+     "en": "I want a daruma.",
+     "voz": "r2-1"
+    },
+    {
+     "jp": "何[なに]が 欲[ほ]しいですか。",
+     "es": "¿Qué quieres?",
+     "en": "What do you want?",
+     "voz": "r2-2"
+    }
+   ],
+   "ojo": {
+    "es": "No los mezcles: たい va con un verbo (パンを食べたい, «quiero comer pan») y 欲しい con una cosa (パンが欲しい, «quiero pan»). パンたい no existe, porque たい necesita una acción a la que pegarse.",
+    "en": "Don't mix them: たい goes with a verb (パンを食べたい, «I want to eat bread») and 欲しい with a thing (パンが欲しい, «I want bread»). パンたい doesn't exist, because たい needs an action to attach to."
+   }
+  },
+  {
+   "id": "mashou",
+   "nombre": {
+    "es": "〜ましょう: ¡hagámoslo!",
+    "en": "〜ましょう: let's do it!"
+   },
+   "patron": {
+    "es": "〔raíz del verbo〕ましょう",
+    "en": "〔verb stem〕ましょう"
+   },
+   "explica": {
+    "es": "Cambia ます por ましょう y tienes una invitación en la que tú también participas: 行きましょう, «vamos»; 買いましょう, «comprémoslo». Con か al final (食べましょうか) suena más suave, como quien propone o se ofrece: «¿comemos?», «¿te lo llevo?».",
+    "en": "Swap ます for ましょう and you have an invitation that includes you: 行きましょう, «let's go»; 買いましょう, «let's buy it». With か at the end (食べましょうか) it sounds softer, like proposing or offering: «shall we eat?», «shall I carry it?»."
+   },
+   "ejemplos": [
+    {
+     "jp": "いっしょに 買[か]いましょう！",
+     "es": "¡Comprémoslo juntos!",
+     "en": "Let's buy it together!",
+     "voz": "r3-1"
+    },
+    {
+     "jp": "始[はじ]めましょうか。",
+     "es": "¿Empezamos?",
+     "en": "Shall we start?",
+     "voz": "r3-2"
+    }
+   ],
+   "ojo": {
+    "es": "ましょう es la forma educada. Entre amigos se usa otra más corta (行こう, 食べよう) que verás más adelante: anima igual, pero suena más cercana.",
+    "en": "ましょう is the polite form. Among friends there's a shorter one (行こう, 食べよう) that you'll see later: just as upbeat, but closer."
+   }
+  }
+ ],
+ "historia": [
+  {
+   "t": "dice",
+   "habla": "tendero",
+   "jp": "いらっしゃいませ！ お祭[まつ]りの 買[か]い物[もの]ですか。",
+   "tr": {
+    "es": "¡Bienvenidos! ¿Compras para el festival?",
+    "en": "Welcome! Shopping for the festival?"
+   },
+   "voz": "h1",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "tienda",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 150
+     },
+     {
+      "que": "mikan",
+      "x": 245,
+      "id": "mikan",
+      "s": 1.5
+     },
+     {
+      "que": "persona",
+      "id": "tendero",
+      "x": 335
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "あっ、 みかんだ！",
+   "tr": {
+    "es": "¡Anda, mandarinas!",
+    "en": "Oh, mandarins!"
+   },
+   "voz": "h2",
+   "cara": "feliz",
+   "reacciona": {
+    "tama": "pensando"
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "tai"
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "Nyan se muere por comerse una. ¿Cómo lo dice?",
+    "en": "Nyan is dying to eat one. How does he say it?"
+   },
+   "opciones": [
+    {
+     "jp": "みかんを 食[た]べたいです。",
+     "bien": true,
+     "tr": {
+      "es": "Quiero comer mandarinas.",
+      "en": "I want to eat mandarins."
+     },
+     "voz": "h3",
+     "porque": {
+      "es": "La raíz de 食べます (食べ) + たい: «quiero comer». Con です queda educado.",
+      "en": "The stem of 食べます (食べ) + たい: «I want to eat». With です it's polite."
+     }
+    },
+    {
+     "jp": "みかんを 食[た]べますたい。",
+     "bien": false,
+     "porque": {
+      "es": "たい ocupa el sitio de ます, no va detrás: 食べ + たい = 食べたい. Las dos terminaciones no pueden ir juntas.",
+      "en": "たい takes the place of ます, it doesn't follow it: 食べ + たい = 食べたい. The two endings can't go together."
+     }
+    },
+    {
+     "jp": "みかんを 食[た]べるたい。",
+     "bien": false,
+     "porque": {
+      "es": "たい se pega a la raíz, la misma que usas con ます (食べ), no a la forma de diccionario: 食べたい.",
+      "en": "たい attaches to the stem, the same one you use with ます (食べ), not to the dictionary form: 食べたい."
+     }
+    }
+   ],
+   "cara": "feliz"
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "ニャン！ それは お祭[まつ]りの お金[かね]です！",
+   "tr": {
+    "es": "¡Nyan! ¡Ese es el dinero del festival!",
+    "en": "Nyan! That's the festival money!"
+   },
+   "voz": "h4",
+   "cara": "enfado",
+   "reacciona": {
+    "nyan": "triste"
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "でも… わたしは あの だるまが 欲[ほ]しいです。",
+   "tr": {
+    "es": "Aunque… yo quiero ese daruma.",
+    "en": "Although… I want that daruma."
+   },
+   "voz": "h5",
+   "cara": "pensando",
+   "reacciona": {
+    "nyan": "sorpresa"
+   },
+   "escena": {
+    "fondo": "tienda",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 150
+     },
+     {
+      "que": "daruma",
+      "x": 245,
+      "id": "daruma",
+      "s": 1.4
+     },
+     {
+      "que": "persona",
+      "id": "tendero",
+      "x": 335
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "hoshii"
+  },
+  {
+   "t": "monta",
+   "encargo": 0
+  },
+  {
+   "t": "dice",
+   "habla": "tendero",
+   "jp": "だるまは 五百円[ごひゃくえん]です。",
+   "tr": {
+    "es": "El daruma son quinientos yenes.",
+    "en": "The daruma is five hundred yen."
+   },
+   "voz": "h6",
+   "plano": "medio",
+   "escena": {
+    "fondo": "tienda",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 150
+     },
+     {
+      "que": "daruma",
+      "x": 245,
+      "id": "daruma",
+      "s": 1.4
+     },
+     {
+      "que": "persona",
+      "id": "tendero",
+      "x": 335
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "じゃあ、 いっしょに 買[か]いましょう！",
+   "tr": {
+    "es": "¡Pues comprémoslo juntos!",
+    "en": "Then let's buy it together!"
+   },
+   "voz": "h7",
+   "cara": "feliz",
+   "reacciona": {
+    "nyan": "feliz"
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "mashou"
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "Aún quedan monedas para mandarinas. Invita a Tama a comerlas juntos luego:",
+    "en": "There are coins left for mandarins. Invite Tama to eat them together later:"
+   },
+   "opciones": [
+    {
+     "jp": "あとで いっしょに 食[た]べましょう。",
+     "bien": true,
+     "tr": {
+      "es": "Luego comámoslas juntos.",
+      "en": "Let's eat them together later."
+     },
+     "voz": "h8",
+     "porque": {
+      "es": "ましょう = «hagámoslo»: una invitación en la que tú también entras.",
+      "en": "ましょう = «let's do it»: an invitation that includes you."
+     }
+    },
+    {
+     "jp": "あとで いっしょに 食[た]べます。",
+     "bien": false,
+     "porque": {
+      "es": "食べます afirma lo que vais a hacer sin preguntarle: suena a que decides por ella. Para invitarla, ましょう.",
+      "en": "食べます states what you'll do without asking her: it sounds like you decide for her. To invite her, ましょう."
+     }
+    },
+    {
+     "jp": "あとで いっしょに 食[た]べるましょう。",
+     "bien": false,
+     "porque": {
+      "es": "Como たい, ましょう se pega a la raíz: 食べ + ましょう = 食べましょう.",
+      "en": "Like たい, ましょう attaches to the stem: 食べ + ましょう = 食べましょう."
+     }
+    }
+   ],
+   "cara": "feliz",
+   "escena": {
+    "fondo": "tienda",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 150
+     },
+     {
+      "que": "mikan",
+      "x": 245,
+      "id": "mikan",
+      "s": 1.5
+     },
+     {
+      "que": "persona",
+      "id": "tendero",
+      "x": 335
+     }
+    ]
+   }
+  },
+  {
+   "t": "toca",
+   "pide": {
+    "es": "Tama quiere algo más. Escucha y toca lo que pide.",
+    "en": "Tama wants something else. Listen and tap what she asks for."
+   },
+   "bien": "senbei",
+   "quien": "tama",
+   "escena": {
+    "fondo": "tienda",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 60
+     },
+     {
+      "que": "taiko",
+      "x": 150,
+      "id": "taiko",
+      "s": 1.0
+     },
+     {
+      "que": "senbei",
+      "x": 215,
+      "id": "senbei",
+      "s": 1.3
+     },
+     {
+      "que": "bolsa",
+      "x": 270,
+      "id": "bolsa",
+      "s": 1.1
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 345
+     }
+    ]
+   },
+   "jp": "それから、 おせんべいが 欲[ほ]しいです！",
+   "voz": "h9",
+   "bien_msg": {
+    "es": "¡Eso! おせんべい son galletas de arroz: una cosa, por eso 欲しい.",
+    "en": "Right! おせんべい are rice crackers: a thing, so 欲しい."
+   },
+   "mal_msg": {
+    "es": "Ha dicho おせんべい: las galletas de arroz, planas y crujientes.",
+    "en": "She said おせんべい: the rice crackers, flat and crunchy."
+   }
+  },
+  {
+   "t": "monta",
+   "encargo": 1
+  }
+ ],
+ "epilogo": [
+  {
+   "t": "dice",
+   "habla": "tendero",
+   "jp": "ありがとうございました！",
+   "tr": {
+    "es": "¡Muchas gracias!",
+    "en": "Thank you very much!"
+   },
+   "voz": "x1",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "tienda",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 150
+     },
+     {
+      "que": "daruma",
+      "x": 230,
+      "s": 1.3
+     },
+     {
+      "que": "mikan",
+      "x": 268,
+      "s": 1.2
+     },
+     {
+      "que": "persona",
+      "id": "tendero",
+      "x": 335
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "だるまさん、 よろしく お願[ねが]いします！",
+   "tr": {
+    "es": "Señor daruma, ¡cuento contigo!",
+    "en": "Mr Daruma, I'm counting on you!"
+   },
+   "voz": "x2",
+   "cara": "feliz",
+   "brazo": "arriba"
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta la frase: la escena hará lo que digas.",
+   "en": "Build the sentence: the scene will do what you say."
+  },
+  "piezas": [
+   {
+    "id": "daruma",
+    "jp": "だるま",
+    "tipo": "palabra"
+   },
+   {
+    "id": "uchi",
+    "jp": "うち",
+    "tipo": "palabra"
+   },
+   {
+    "id": "ga",
+    "jp": "が",
+    "tipo": "particula"
+   },
+   {
+    "id": "wo",
+    "jp": "を",
+    "tipo": "particula"
+   },
+   {
+    "id": "ni",
+    "jp": "に",
+    "tipo": "particula"
+   },
+   {
+    "id": "hoshii",
+    "jp": "欲[ほ]しい",
+    "tipo": "palabra"
+   },
+   {
+    "id": "desu",
+    "jp": "です",
+    "tipo": "verbo"
+   },
+   {
+    "id": "tabetai",
+    "jp": "食[た]べたい",
+    "tipo": "verbo"
+   },
+   {
+    "id": "kaerimashou",
+    "jp": "帰[かえ]りましょう",
+    "tipo": "verbo"
+   },
+   {
+    "id": "kaeritai",
+    "jp": "帰[かえ]りたい",
+    "tipo": "verbo"
+   },
+   {
+    "id": "kaerimasu",
+    "jp": "帰[かえ]ります",
+    "tipo": "verbo"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "¡Dicen que el daruma trae suerte al puesto! Nyan también lo quiere: «Quiero un daruma».",
+     "en": "They say a daruma brings the stall good luck! Nyan wants one too: «I want a daruma»."
+    },
+    "escena": {
+     "fondo": "tienda",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 70
+      },
+      {
+       "que": "gato",
+       "id": "tama",
+       "x": 150
+      },
+      {
+       "que": "daruma",
+       "x": 245,
+       "id": "daruma",
+       "s": 1.4
+      },
+      {
+       "que": "persona",
+       "id": "tendero",
+       "x": 335
+      }
+     ]
+    },
+    "piezas": [
+     "daruma",
+     "ga",
+     "wo",
+     "hoshii",
+     "tabetai",
+     "desu"
+    ],
+    "bien": [
+     [
+      "daruma",
+      "ga",
+      "hoshii",
+      "desu"
+     ]
+    ],
+    "tr": {
+     "es": "Quiero un daruma.",
+     "en": "I want a daruma."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "brilla",
+      "objeto": "daruma"
+     },
+     {
+      "tipo": "salta",
+      "objeto": "tama"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "tabetai"
+       ]
+      },
+      "efecto": [
+       {
+        "tipo": "tiembla",
+        "objeto": "daruma"
+       },
+       {
+        "tipo": "manpu",
+        "objeto": "tendero",
+        "manpu": "sudor"
+       }
+      ],
+      "msg": {
+       "es": "¿¡Comerte el daruma!? 食べたい es querer HACER algo (comer). Para querer una COSA, 欲しい.",
+       "en": "Eat the daruma?! 食べたい is wanting to DO something (eat). To want a THING, 欲しい."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "wo"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "欲しい es un adjetivo («deseable»), así que lo que quieres va con が, como con 好き: だるまが欲しい.",
+       "en": "欲しい is an adjective («desirable»), so what you want takes が, as with 好き: だるまが欲しい."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Pon va a cerrar la tienda. Anima a Tama: «Volvamos a casa».",
+     "en": "Pon is closing the shop. Cheer Tama on: «Let's go home»."
+    },
+    "escena": {
+     "fondo": "tienda",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 70
+      },
+      {
+       "que": "gato",
+       "id": "tama",
+       "x": 150
+      },
+      {
+       "que": "bolsa",
+       "x": 245,
+       "id": "bolsa",
+       "s": 1.2
+      },
+      {
+       "que": "persona",
+       "id": "tendero",
+       "x": 335
+      }
+     ]
+    },
+    "piezas": [
+     "uchi",
+     "ni",
+     "kaerimashou",
+     "kaeritai",
+     "kaerimasu"
+    ],
+    "bien": [
+     [
+      "uchi",
+      "ni",
+      "kaerimashou"
+     ]
+    ],
+    "tr": {
+     "es": "Volvamos a casa.",
+     "en": "Let's go home."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "texto",
+      "texto": "またね！",
+      "x": 335,
+      "y": 95
+     },
+     {
+      "tipo": "salta",
+      "objeto": "tama"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "kaeritai"
+       ]
+      },
+      "efecto": {
+       "tipo": "manpu",
+       "objeto": "tama",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "帰りたい dice que TÚ tienes ganas de volver; Tama no sabe si la invitas. Para proponerlo a los dos: 帰りましょう.",
+       "en": "帰りたい says YOU feel like going home; Tama can't tell if you're inviting her. To suggest it to both: 帰りましょう."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "kaerimasu"
+       ]
+      },
+      "efecto": {
+       "tipo": "manpu",
+       "objeto": "tama",
+       "manpu": "sudor"
+      },
+      "msg": {
+       "es": "帰ります es «me vuelvo»: anuncias que te vas y la dejas allí. Para «volvamos», ましょう.",
+       "en": "帰ります is «I'm going home»: you announce you're leaving and leave her there. For «let's go», ましょう."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "reto": {
+  "intro": {
+   "jp": "ふん。 お前[まえ]たちの 店[みせ]より、 俺[おれ]の 店[みせ]が 勝[か]つ。 勝負[しょうぶ]だ！",
+   "tr": {
+    "es": "Hmpf. Mi puesto le ganará al vuestro. ¡Duelo!",
+    "en": "Hmph. My stall will beat yours. Duel!"
+   },
+   "voz": "k0"
+  },
+  "gana": {
+   "jp": "…くっ。 だるまが 欲[ほ]しい…",
+   "tr": {
+    "es": "…Tsk. Quiero un daruma…",
+    "en": "…Tch. I want a daruma…"
+   },
+   "voz": "kw"
+  },
+  "pierde": {
+   "jp": "ふん。 もう 一回[いっかい] やりましょうか？",
+   "tr": {
+    "es": "Hmpf. ¿Lo intentamos otra vez?",
+    "en": "Hmph. Shall we try again?"
+   },
+   "voz": "kl"
+  },
+  "pica": {
+   "jp": "…やるな。",
+   "tr": {
+    "es": "…No está mal.",
+    "en": "…Not bad."
+   },
+   "voz": "kp"
+  },
+  "burla": {
+   "jp": "ふん！",
+   "tr": {
+    "es": "¡Ja!",
+    "en": "Hah!"
+   },
+   "voz": "kb"
+  },
+  "preguntas": [
+   {
+    "tipo": "elige",
+    "jp": "ジュースを 飲[の]み＿です。",
+    "opciones": [
+     "たい",
+     "欲[ほ]しい",
+     "ましょう"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Quiero beber zumo.",
+     "en": "I want to drink juice."
+    },
+    "porque": {
+     "es": "Querer HACER algo (beber): raíz del verbo + たい.",
+     "en": "Wanting to DO something (drink): verb stem + たい."
+    },
+    "voz": "q1"
+   },
+   {
+    "tipo": "elige",
+    "jp": "新[あたら]しい 靴[くつ]が ＿です。",
+    "opciones": [
+     "欲[ほ]しい",
+     "たい",
+     "ましょう"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Quiero unos zapatos nuevos.",
+     "en": "I want new shoes."
+    },
+    "porque": {
+     "es": "Querer una COSA (zapatos): 欲しい, con が.",
+     "en": "Wanting a THING (shoes): 欲しい, with が."
+    },
+    "voz": "q2"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "いっしょに 帰[かえ]りましょう。",
+    "correcta": true,
+    "tr": {
+     "es": "Volvamos juntos.",
+     "en": "Let's go back together."
+    },
+    "porque": {
+     "es": "Bien: raíz (帰り) + ましょう, una invitación.",
+     "en": "Right: stem (帰り) + ましょう, an invitation."
+    },
+    "voz": "q3"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "わたしは 猫[ねこ]が たいです。",
+    "correcta": false,
+    "tr": {
+     "es": "(Quiero un gato.)",
+     "en": "(I want a cat.)"
+    },
+    "porque": {
+     "es": "たい solo va pegado a un verbo. Para querer una cosa, como un gato: 猫が欲しいです.",
+     "en": "たい only attaches to a verb. To want a thing, like a cat: 猫が欲しいです."
+    },
+    "voz": "q4"
+   },
+   {
+    "tipo": "oye",
+    "jp": "何[なに]が 欲[ほ]しいですか。",
+    "habla": "tendero",
+    "opciones": [
+     {
+      "es": "¿Qué quieres?",
+      "en": "What do you want?"
+     },
+     {
+      "es": "¿Qué quieres hacer?",
+      "en": "What do you want to do?"
+     },
+     {
+      "es": "¿Qué hacemos?",
+      "en": "What shall we do?"
+     }
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "欲しい: querer una cosa. «¿Qué quieres hacer?» sería 何をしたいですか.",
+     "en": "欲しい: wanting a thing. «What do you want to do?» would be 何をしたいですか."
+    },
+    "voz": "q5"
+   },
+   {
+    "tipo": "imagen",
+    "jp": "だるまが 欲[ほ]しいです。",
+    "opciones": [
+     "daruma",
+     "mikan",
+     "taiko"
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "だるま: el muñeco rojo de la buena suerte.",
+     "en": "だるま: the red good-luck doll."
+    },
+    "pide": {
+     "es": "¿Qué quiere?",
+     "en": "What does she want?"
+    }
+   }
+  ]
+ },
+ "siguiente": {
+  "es": "Hay que llevar el tambor del festival hasta el parque, y pesa muchísimo. ¿Os ayudará Kage? (Spoiler: no quiere… pero ¿por qué?)",
+  "en": "The festival drum has to go to the park, and it weighs a ton. Will Kage help? (Spoiler: he won't… but why?)"
+ },
+ "chuleta": {
+  "patron": {
+   "es": "〔raíz〕たい ・ 〔cosa〕が欲しい ・ 〔raíz〕ましょう",
+   "en": "〔stem〕たい ・ 〔thing〕が欲しい ・ 〔stem〕ましょう"
+  },
+  "patron_tr": {
+   "es": "quiero hacer ・ quiero algo ・ hagámoslo",
+   "en": "want to do ・ want something ・ let's do it"
+  },
+  "filas": [
+   {
+    "jp": "みかんを 食[た]べたいです。",
+    "es": "Quiero comer mandarinas.",
+    "en": "I want to eat mandarins.",
+    "registro": "educado"
+   },
+   {
+    "jp": "だるまが 欲[ほ]しい！",
+    "es": "¡Quiero un daruma! (a un amigo)",
+    "en": "I want a daruma! (to a friend)",
+    "registro": "amigos"
+   },
+   {
+    "jp": "いっしょに 行[い]きましょう。",
+    "es": "Vamos juntos.",
+    "en": "Let's go together."
+   }
+  ],
+  "consejo": {
+   "es": "Para ofrecer ayuda, ましょうか: 持ちましょうか？ «¿Te lo llevo?». Es de lo más útil en una tienda o con alguien cargado.",
+   "en": "To offer help, ましょうか: 持ちましょうか？ «Shall I carry it?». Super handy in a shop or with someone carrying things."
+  }
+ }
+}

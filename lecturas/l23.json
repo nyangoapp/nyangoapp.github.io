@@ -1,0 +1,51 @@
+{
+ "id": "l23", "desde": 1800,
+ "titulo": {"jp": "海[うみ]を 越[こ]えた 手紙[てがみ]", "es": "Una carta que cruzó el mar", "en": "A letter that crossed the sea"},
+ "resumen": {"es": "A casa de Tama llega una carta de un viejo amigo que vive muy lejos, con un sello que llama la atención de Nyan.", "en": "A letter arrives at Tama's for an old friend living far away, with a stamp that catches Nyan's eye."},
+ "portada": {"fondo": "cuarto", "cosas": [{"que": "nyan", "x": 100, "cara": "sorpresa"}, {"que": "gato", "x": 200}, {"que": "carta", "x": 310}]},
+ "texto": [
+   {"voz": "t1", "quien": "narrador", "jp": "ある 日[ひ]、 タマの 家[いえ]に 手紙[てがみ]が 届[とど]いた。", "es": "Un día, llegó una carta a casa de Tama.", "en": "One day, a letter arrived at Tama's house."},
+   {"voz": "t2", "quien": "narrador", "jp": "封筒[ふうとう]には、 珍[めずら]しい 切手[きって]が ついて いた。", "es": "En el sobre había pegado un sello poco común.", "en": "On the envelope there was an unusual stamp."},
+   {"voz": "t3", "quien": "nyan", "jp": "この 切手[きって]、 外国[がいこく]っぽいね。 誰[だれ]からだろう。", "es": "Este sello parece extranjero. ¿De quién será?", "en": "This stamp looks foreign. I wonder who it's from."},
+   {"voz": "t4", "quien": "narrador", "jp": "中[なか]を 見[み]ると、 タマの 昔[むかし]の 友達[ともだち]からの 手紙[てがみ]だった。", "es": "Al mirar dentro, era una carta de un viejo amigo de Tama.", "en": "Looking inside, it was a letter from an old friend of Tama's."},
+   {"voz": "t5", "quien": "narrador", "jp": "その 友達[ともだち]は、 今[いま] 海外[かいがい]で 暮[く]らして いる。", "es": "Ese amigo vive ahora en el extranjero.", "en": "That friend now lives abroad."},
+   {"voz": "t6", "quien": "tama", "jp": "久[ひさ]しぶりだね！ 元気[げんき]に して いるかな。", "es": "¡Cuánto tiempo! Me pregunto si estará bien.", "en": "It's been a while! I wonder if they're doing well."},
+   {"voz": "t7", "quien": "narrador", "jp": "手紙[てがみ]には、 外国語[がいこくご]も 少[すこ]し 書[か]いて あった。", "es": "En la carta también había algo escrito en un idioma extranjero.", "en": "In the letter, there was also a bit written in a foreign language."},
+   {"voz": "t8", "quien": "nyan", "jp": "これ、 読[よ]めないよ。 タマ、 分[わ]かる？", "es": "Esto no lo puedo leer. Tama, ¿tú lo entiendes?", "en": "I can't read this. Tama, do you understand it?"},
+   {"voz": "t9", "quien": "tama", "jp": "うん、 前[まえ]に 習[なら]ったのに、 最近[さいきん] 忘[わす]れがちなんだ。", "es": "Sí, lo aprendí antes, pero últimamente tiendo a olvidarlo.", "en": "Yeah, I learned it before, but lately I tend to forget it."},
+   {"voz": "t10", "quien": "narrador", "jp": "二人[ふたり]は 一緒[いっしょ]に、 分[わ]かる 言葉[ことば]だけ 読[よ]んで みた。", "es": "Los dos intentaron leer juntos solo las palabras que entendían.", "en": "The two of them tried reading together just the words they understood."},
+   {"voz": "t11", "quien": "narrador", "jp": "友達[ともだち]は、 海外[かいがい]の 生活[せいかつ]を 楽[たの]しんで いる ようだった。", "es": "Parecía que el amigo estaba disfrutando de su vida en el extranjero.", "en": "It seemed the friend was enjoying life abroad."},
+   {"voz": "t12", "quien": "nyan", "jp": "よかったね。 楽[たの]しそうで、 安心[あんしん]したよ。", "es": "Qué bien. Me quedo tranquilo al ver que parece contento.", "en": "That's great. I'm relieved they seem happy."},
+   {"voz": "t13", "quien": "narrador", "jp": "手紙[てがみ]の 最後[さいご]には、 いつか 日本[にほん]に 遊[あそ]びに 来[く]ると 書[か]いて あった。", "es": "Al final de la carta, ponía que algún día vendría a Japón de visita.", "en": "At the end of the letter, it said they'd come visit Japan someday."},
+   {"voz": "t14", "quien": "tama", "jp": "本当[ほんとう]？ 早[はや]く 会[あ]いたいなあ。", "es": "¿De verdad? Qué ganas de verlo pronto.", "en": "Really? I want to see them soon."},
+   {"voz": "t15", "quien": "narrador", "jp": "タマは、 すぐに 返事[へんじ]の 手紙[てがみ]を 書[か]く ことに した。", "es": "Tama decidió escribir enseguida una carta de respuesta.", "en": "Tama decided to write a reply letter right away."},
+   {"voz": "t16", "quien": "nyan", "jp": "ニャンも 手伝[てつだ]うよ！ 一緒[いっしょ]に 書[か]こう。", "es": "¡Nyan también ayuda! Vamos a escribirla juntos.", "en": "Nyan will help too! Let's write it together."},
+   {"voz": "t17", "quien": "narrador", "jp": "二人[ふたり]は、 楽[たの]しかった 思[おも]い出[で]を たくさん 手紙[てがみ]に 書[か]いた。", "es": "Los dos escribieron en la carta muchos recuerdos divertidos.", "en": "The two of them wrote lots of fun memories in the letter."},
+   {"voz": "t18", "quien": "narrador", "jp": "書[か]き 終[お]わると、 タマは うれしそうに 笑[わら]った。", "es": "Al terminar de escribir, Tama sonrió contenta.", "en": "When she finished writing, Tama smiled happily."},
+   {"voz": "t19", "quien": "narrador", "jp": "手紙[てがみ]を ポストに 入[い]れに 行[い]く 途中[とちゅう]、 タマは ずっと 笑顔[えがお]だった。", "es": "De camino a meter la carta en el buzón, Tama no dejó de sonreír.", "en": "On the way to put the letter in the mailbox, Tama kept smiling the whole time."},
+   {"voz": "t20", "quien": "tama", "jp": "早[はや]く 届[とど]くと いいなあ。", "es": "Espero que llegue pronto.", "en": "I hope it arrives soon."}
+ ],
+ "preguntas": [
+  {"jp": "タマの 家[いえ]に 届[とど]いた 手紙[てがみ]には、 何[なに]が ついて いましたか。", "es": "¿Qué llevaba la carta que llegó a casa de Tama?", "en": "What was on the letter that arrived at Tama's house?",
+   "opciones": [{"jp": "珍[めずら]しい 切手[きって]", "es": "Un sello poco común", "en": "An unusual stamp"}, {"jp": "きれいな 絵[え]", "es": "Un dibujo bonito", "en": "A pretty drawing"}, {"jp": "写真[しゃしん]", "es": "Una foto", "en": "A photo"}],
+   "bien": 0, "porque": {"es": "「珍しい切手がついていた」とある。", "en": "«珍しい切手がついていた» (there was an unusual stamp on it)."}},
+  {"jp": "手紙[てがみ]は 誰[だれ]から でしたか。", "es": "¿De quién era la carta?", "en": "Who was the letter from?",
+   "opciones": [{"jp": "タマの 昔[むかし]の 友達[ともだち]", "es": "De un viejo amigo de Tama", "en": "From an old friend of Tama's"}, {"jp": "ニャンの おばあさん", "es": "De la abuela de Nyan", "en": "From Nyan's grandma"}, {"jp": "学校[がっこう]の 先生[せんせい]", "es": "Del profesor de la escuela", "en": "From the school teacher"}],
+   "bien": 0, "porque": {"es": "「タマの昔の友達からの手紙だった」とある。", "en": "«タマの昔の友達からの手紙だった» (it was a letter from an old friend of Tama's)."}},
+  {"jp": "外国語[がいこくご]が 書[か]いて あるのを 見[み]て、 タマは 何[なに]と 言[い]いましたか。", "es": "Al ver que había algo escrito en un idioma extranjero, ¿qué dijo Tama?", "en": "Seeing that something was written in a foreign language, what did Tama say?",
+   "opciones": [{"jp": "最近[さいきん] 忘[わす]れがちだと 言[い]った", "es": "Dijo que últimamente tiende a olvidarlo", "en": "He said he tends to forget it lately"}, {"jp": "全部[ぜんぶ] 分[わ]かると 言[い]った", "es": "Dijo que lo entendía todo", "en": "He said he understood it all"}, {"jp": "習[なら]った ことが ないと 言[い]った", "es": "Dijo que nunca lo había estudiado", "en": "He said he'd never studied it"}],
+   "bien": 0, "porque": {"es": "「前に習ったのに、最近忘れがちなんだ」と言った。", "en": "She said «前に習ったのに、最近忘れがちなんだ» (I learned it before, but lately I tend to forget it)."}},
+  {"jp": "手紙[てがみ]の 最後[さいご]には、 何[なに]と 書[か]いて ありましたか。", "es": "¿Qué ponía al final de la carta?", "en": "What did it say at the end of the letter?",
+   "opciones": [{"jp": "いつか 日本[にほん]に 遊[あそ]びに 来[く]る", "es": "Que algún día vendría a Japón de visita", "en": "That they'd come visit Japan someday"}, {"jp": "もう 二度[にど]と 手紙[てがみ]を 書[か]かない", "es": "Que no volvería a escribir cartas", "en": "That they wouldn't write letters again"}, {"jp": "海外[かいがい]の 生活[せいかつ]が 嫌[いや]だ", "es": "Que no le gustaba la vida en el extranjero", "en": "That they disliked life abroad"}],
+   "bien": 0, "porque": {"es": "「いつか日本に遊びに来ると書いてあった」とある。", "en": "«いつか日本に遊びに来ると書いてあった» (it said they'd come visit Japan someday)."}},
+  {"tipo": "opinion", "jp": "あなたは、 外国[がいこく]の 友達[ともだち]が いたら、 何[なに]を したいですか。", "es": "Si tuvieras un amigo en el extranjero, ¿qué te gustaría hacer?", "en": "If you had a friend abroad, what would you like to do?",
+   "opciones": [
+    {"jp": "手紙[てがみ]を 書[か]く", "es": "Escribirle cartas", "en": "Write them letters",
+     "nyan": {"jp": "いいね！ ニャンと タマみたいだね。", "es": "¡Qué bien! Igual que Nyan y Tama.", "en": "Nice! Just like Nyan and Tama."}},
+    {"jp": "会[あ]いに 行[い]く", "es": "Ir a verlo", "en": "Go visit them",
+     "nyan": {"jp": "ニャンも 海外[かいがい]に 行[い]って みたいな。", "es": "A Nyan también le gustaría ir al extranjero alguna vez.", "en": "Nyan would like to go abroad sometime too."}},
+    {"jp": "その 国[くに]の 言葉[ことば]を 勉強[べんきょう]する", "es": "Estudiar el idioma de ese país", "en": "Study the language of that country",
+     "nyan": {"jp": "すごいね！ ニャンは すぐ 忘[わす]れがちだけど…。", "es": "¡Qué bien! Aunque Nyan tiende a olvidarlo enseguida...", "en": "That's great! Though Nyan tends to forget things fast..."}}
+   ]}
+ ]
+}

@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><title>Hoja de ilustraciones</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+:root { --yeso: #8e7747; --crema: #f7efdf; --tinta: #261f19; }
+* { box-sizing: border-box; }
+body { margin: 0; background: #5d4d2e; color: var(--crema); font: 14px/1.3 "Instrument Sans", system-ui, sans-serif; padding: 24px; }
+h2 { font: 700 22px "Fredoka", system-ui, sans-serif; margin: 8px 0 12px; }
+section { display: none; }
+body:not([data-s]) section, body[data-s="objetos"] #objetos, body[data-s="jefes"] #jefes, body[data-s="iconos"] #iconos, body[data-s="grande"] #grande, body[data-s="zoom"] #zoom { display: block; }
+.rejilla { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 12px; }
+.c { margin: 0; border-radius: 16px; overflow: hidden; box-shadow: 0 6px 0 #3e331d; }
+.pared { height: 150px; display: grid; place-items: center;
+  background: radial-gradient(120% 90% at 30% 20%, #b09a63 0%, #8e7747 55%, #6a5733 100%); }
+.carta { display: flex; align-items: center; gap: 8px; padding: 8px 10px; background: var(--crema); color: var(--tinta); min-height: 80px; }
+.n { font-size: 12px; font-weight: 600; line-height: 1.25; }
+.n small { display: block; font-weight: 500; opacity: .7; }
+.jefes { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; }
+.jefe { border-radius: 18px; overflow: hidden; background: radial-gradient(120% 90% at 50% 20%, #b09a63, #6a5733); text-align: center; padding: 10px 6px 0; }
+.jefe img { width: 100%; height: auto; display: block; }
+.jefe .fila { display: flex; gap: 8px; align-items: center; justify-content: center; background: var(--crema); color: var(--tinta); padding: 6px; margin: 0 -6px; }
+.grande { display: flex; flex-wrap: wrap; gap: 16px; }
+.grande img { width: 256px; height: 256px; background: var(--crema); border-radius: 20px; }
+</style></head>
+<body>
+<script>const s = new URLSearchParams(location.search).get('s'); if (s) document.body.dataset.s = s;</script>
+<section id="iconos"><h2>Iconos de actividad</h2><div class="rejilla">
+<figure class="c">
+  <div class="pared"><img src="iconos/repaso.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="iconos/repaso.svg" width="64" height="64" alt=""><img src="iconos/repaso.svg" width="32" height="32" alt=""><span class="n">Repaso</span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="iconos/leccion.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="iconos/leccion.svg" width="64" height="64" alt=""><img src="iconos/leccion.svg" width="32" height="32" alt=""><span class="n">Lección</span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="iconos/gramatica.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="iconos/gramatica.svg" width="64" height="64" alt=""><img src="iconos/gramatica.svg" width="32" height="32" alt=""><span class="n">Gramática</span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="iconos/kanji.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="iconos/kanji.svg" width="64" height="64" alt=""><img src="iconos/kanji.svg" width="32" height="32" alt=""><span class="n">Kanji</span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="iconos/camino.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="iconos/camino.svg" width="64" height="64" alt=""><img src="iconos/camino.svg" width="32" height="32" alt=""><span class="n">Camino</span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="iconos/mochi.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="iconos/mochi.svg" width="64" height="64" alt=""><img src="iconos/mochi.svg" width="32" height="32" alt=""><span class="n">Mochi</span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="iconos/koban.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="iconos/koban.svg" width="64" height="64" alt=""><img src="iconos/koban.svg" width="32" height="32" alt=""><span class="n">Koban</span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="iconos/bolsa.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="iconos/bolsa.svg" width="64" height="64" alt=""><img src="iconos/bolsa.svg" width="32" height="32" alt=""><span class="n">Bolsa de la suerte</span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="iconos/omamori.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="iconos/omamori.svg" width="64" height="64" alt=""><img src="iconos/omamori.svg" width="32" height="32" alt=""><span class="n">Omamori</span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="iconos/mision.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="iconos/mision.svg" width="64" height="64" alt=""><img src="iconos/mision.svg" width="32" height="32" alt=""><span class="n">Misión</span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="iconos/racha.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="iconos/racha.svg" width="64" height="64" alt=""><img src="iconos/racha.svg" width="32" height="32" alt=""><span class="n">Racha / combo</span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="iconos/xp.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="iconos/xp.svg" width="64" height="64" alt=""><img src="iconos/xp.svg" width="32" height="32" alt=""><span class="n">XP</span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="iconos/vida.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="iconos/vida.svg" width="64" height="64" alt=""><img src="iconos/vida.svg" width="32" height="32" alt=""><span class="n">Vida</span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="iconos/trofeo.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="iconos/trofeo.svg" width="64" height="64" alt=""><img src="iconos/trofeo.svg" width="32" height="32" alt=""><span class="n">Título / medalla</span></div>
+</figure>
+</div></section>
+<section id="objetos"><h2>Objetos (48)</h2><div class="rejilla">
+<figure class="c">
+  <div class="pared"><img src="objetos/yunomi.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="objetos/yunomi.svg" width="64" height="64" alt=""><img src="objetos/yunomi.svg" width="32" height="32" alt=""><span class="n">Taza de té<small style="color:#9c8a55">Común · habitacion</small></span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="objetos/onigiri.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="objetos/onigiri.svg" width="64" height="64" alt=""><img src="objetos/onigiri.svg" width="32" height="32" alt=""><span class="n">Onigiri<small style="color:#9c8a55">Común · habitacion</small></span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="objetos/dango.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="objetos/dango.svg" width="64" height="64" alt=""><img src="objetos/dango.svg" width="32" height="32" alt=""><span class="n">Dango<small style="color:#9c8a55">Común · habitacion</small></span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="objetos/zabuton.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="objetos/zabuton.svg" width="64" height="64" alt=""><img src="objetos/zabuton.svg" width="32" height="32" alt=""><span class="n">Cojín zabuton<small style="color:#9c8a55">Común · habitacion</small></span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="objetos/uchiwa.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="objetos/uchiwa.svg" width="64" height="64" alt=""><img src="objetos/uchiwa.svg" width="32" height="32" alt=""><span class="n">Abanico uchiwa<small style="color:#9c8a55">Común · habitacion</small></span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="objetos/chochin.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="objetos/chochin.svg" width="64" height="64" alt=""><img src="objetos/chochin.svg" width="32" height="32" alt=""><span class="n">Farolillo de papel<small style="color:#9c8a55">Común · habitacion</small></span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="objetos/ramen.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="objetos/ramen.svg" width="64" height="64" alt=""><img src="objetos/ramen.svg" width="32" height="32" alt=""><span class="n">Cuenco de ramen<small style="color:#9c8a55">Común · habitacion</small></span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="objetos/cuaderno.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="objetos/cuaderno.svg" width="64" height="64" alt=""><img src="objetos/cuaderno.svg" width="32" height="32" alt=""><span class="n">Cuaderno de kanji<small style="color:#9c8a55">Común · habitacion</small></span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="objetos/fude.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="objetos/fude.svg" width="64" height="64" alt=""><img src="objetos/fude.svg" width="32" height="32" alt=""><span class="n">Pincel de caligrafía<small style="color:#9c8a55">Común · habitacion</small></span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="objetos/hanko.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="objetos/hanko.svg" width="64" height="64" alt=""><img src="objetos/hanko.svg" width="32" height="32" alt=""><span class="n">Sello hanko<small style="color:#9c8a55">Común · habitacion</small></span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="objetos/geta.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="objetos/geta.svg" width="64" height="64" alt=""><img src="objetos/geta.svg" width="32" height="32" alt=""><span class="n">Sandalias geta<small style="color:#9c8a55">Común · habitacion</small></span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="objetos/furin.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="objetos/furin.svg" width="64" height="64" alt=""><img src="objetos/furin.svg" width="32" height="32" alt=""><span class="n">Campanilla furin<small style="color:#9c8a55">Común · habitacion</small></span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="objetos/mikan.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="objetos/mikan.svg" width="64" height="64" alt=""><img src="objetos/mikan.svg" width="32" height="32" alt=""><span class="n">Mandarinas<small style="color:#9c8a55">Común · habitacion</small></span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="objetos/senbei.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="objetos/senbei.svg" width="64" height="64" alt=""><img src="objetos/senbei.svg" width="32" height="32" alt=""><span class="n">Galletas senbei<small style="color:#9c8a55">Común · habitacion</small></span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="objetos/bonsai.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="objetos/bonsai.svg" width="64" height="64" alt=""><img src="objetos/bonsai.svg" width="32" height="32" alt=""><span class="n">Bonsái<small style="color:#3f7fc4">Raro · habitacion</small></span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="objetos/daruma.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="objetos/daruma.svg" width="64" height="64" alt=""><img src="objetos/daruma.svg" width="32" height="32" alt=""><span class="n">Daruma<small style="color:#3f7fc4">Raro · habitacion</small></span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="objetos/gato-suerte.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="objetos/gato-suerte.svg" width="64" height="64" alt=""><img src="objetos/gato-suerte.svg" width="32" height="32" alt=""><span class="n">Gato de la suerte<small style="color:#3f7fc4">Raro · habitacion</small></span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="objetos/kotatsu.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="objetos/kotatsu.svg" width="64" height="64" alt=""><img src="objetos/kotatsu.svg" width="32" height="32" alt=""><span class="n">Kotatsu<small style="color:#3f7fc4">Raro · habitacion</small></span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="objetos/sushi-geta.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="objetos/sushi-geta.svg" width="64" height="64" alt=""><img src="objetos/sushi-geta.svg" width="32" height="32" alt=""><span class="n">Sushi sobre geta<small style="color:#3f7fc4">Raro · habitacion</small></span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="objetos/kyusu.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="objetos/kyusu.svg" width="64" height="64" alt=""><img src="objetos/kyusu.svg" width="32" height="32" alt=""><span class="n">Tetera kyūsu<small style="color:#3f7fc4">Raro · habitacion</small></span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="objetos/kendama.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="objetos/kendama.svg" width="64" height="64" alt=""><img src="objetos/kendama.svg" width="32" height="32" alt=""><span class="n">Kendama<small style="color:#3f7fc4">Raro · habitacion</small></span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="objetos/orizuru.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="objetos/orizuru.svg" width="64" height="64" alt=""><img src="objetos/orizuru.svg" width="32" height="32" alt=""><span class="n">Grulla de papel<small style="color:#3f7fc4">Raro · habitacion</small></span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="objetos/radicasete.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="objetos/radicasete.svg" width="64" height="64" alt=""><img src="objetos/radicasete.svg" width="32" height="32" alt=""><span class="n">Radiocasete<small style="color:#3f7fc4">Raro · habitacion</small></span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="objetos/consola.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="objetos/consola.svg" width="64" height="64" alt=""><img src="objetos/consola.svg" width="32" height="32" alt=""><span class="n">Consola portátil<small style="color:#3f7fc4">Raro · habitacion</small></span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="objetos/kingyo.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="objetos/kingyo.svg" width="64" height="64" alt=""><img src="objetos/kingyo.svg" width="32" height="32" alt=""><span class="n">Pecera con kingyo<small style="color:#9b4fc9">Épico · habitacion</small></span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="objetos/tele-crt.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="objetos/tele-crt.svg" width="64" height="64" alt=""><img src="objetos/tele-crt.svg" width="32" height="32" alt=""><span class="n">Televisor de tubo<small style="color:#9b4fc9">Épico · habitacion</small></span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="objetos/andon.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="objetos/andon.svg" width="64" height="64" alt=""><img src="objetos/andon.svg" width="32" height="32" alt=""><span class="n">Lámpara andon<small style="color:#9b4fc9">Épico · habitacion</small></span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="objetos/byobu.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="objetos/byobu.svg" width="64" height="64" alt=""><img src="objetos/byobu.svg" width="32" height="32" alt=""><span class="n">Biombo con grullas<small style="color:#9b4fc9">Épico · habitacion</small></span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="objetos/katanakake.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="objetos/katanakake.svg" width="64" height="64" alt=""><img src="objetos/katanakake.svg" width="32" height="32" alt=""><span class="n">Soporte de katanas<small style="color:#9b4fc9">Épico · habitacion</small></span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="objetos/tocadiscos.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="objetos/tocadiscos.svg" width="64" height="64" alt=""><img src="objetos/tocadiscos.svg" width="32" height="32" alt=""><span class="n">Tocadiscos<small style="color:#9b4fc9">Épico · habitacion</small></span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="objetos/cuadro-fuji.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="objetos/cuadro-fuji.svg" width="64" height="64" alt=""><img src="objetos/cuadro-fuji.svg" width="32" height="32" alt=""><span class="n">Grabado del Fuji<small style="color:#9b4fc9">Épico · habitacion</small></span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="objetos/kimono.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="objetos/kimono.svg" width="64" height="64" alt=""><img src="objetos/kimono.svg" width="32" height="32" alt=""><span class="n">Kimono colgado<small style="color:#9b4fc9">Épico · habitacion</small></span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="objetos/sakura-bonsai.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="objetos/sakura-bonsai.svg" width="64" height="64" alt=""><img src="objetos/sakura-bonsai.svg" width="32" height="32" alt=""><span class="n">Cerezo en maceta<small style="color:#f2a114">Legendario · habitacion</small></span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="objetos/kitsune-estatua.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="objetos/kitsune-estatua.svg" width="64" height="64" alt=""><img src="objetos/kitsune-estatua.svg" width="32" height="32" alt=""><span class="n">Estatua de kitsune<small style="color:#f2a114">Legendario · habitacion</small></span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="objetos/kakejiku-ryu.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="objetos/kakejiku-ryu.svg" width="64" height="64" alt=""><img src="objetos/kakejiku-ryu.svg" width="32" height="32" alt=""><span class="n">Pergamino del dragón<small style="color:#f2a114">Legendario · habitacion</small></span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="objetos/taiko.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="objetos/taiko.svg" width="64" height="64" alt=""><img src="objetos/taiko.svg" width="32" height="32" alt=""><span class="n">Tambor taiko<small style="color:#f2a114">Legendario · habitacion</small></span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="objetos/gafas-sol.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="objetos/gafas-sol.svg" width="64" height="64" alt=""><img src="objetos/gafas-sol.svg" width="32" height="32" alt=""><span class="n">Gafas de sol<small style="color:#9c8a55">Común · accesorio</small></span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="objetos/boina.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="objetos/boina.svg" width="64" height="64" alt=""><img src="objetos/boina.svg" width="32" height="32" alt=""><span class="n">Boina de pintor<small style="color:#9c8a55">Común · accesorio</small></span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="objetos/mugiwara.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="objetos/mugiwara.svg" width="64" height="64" alt=""><img src="objetos/mugiwara.svg" width="32" height="32" alt=""><span class="n">Sombrero de paja<small style="color:#3f7fc4">Raro · accesorio</small></span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="objetos/cascos.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="objetos/cascos.svg" width="64" height="64" alt=""><img src="objetos/cascos.svg" width="32" height="32" alt=""><span class="n">Auriculares<small style="color:#3f7fc4">Raro · accesorio</small></span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="objetos/hanakanmuri.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="objetos/hanakanmuri.svg" width="64" height="64" alt=""><img src="objetos/hanakanmuri.svg" width="32" height="32" alt=""><span class="n">Corona de flores<small style="color:#9b4fc9">Épico · accesorio</small></span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="objetos/kitsune-men.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="objetos/kitsune-men.svg" width="64" height="64" alt=""><img src="objetos/kitsune-men.svg" width="32" height="32" alt=""><span class="n">Máscara de zorro<small style="color:#f2a114">Legendario · accesorio</small></span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="objetos/yukata.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="objetos/yukata.svg" width="64" height="64" alt=""><img src="objetos/yukata.svg" width="32" height="32" alt=""><span class="n">Yukata de verano<small style="color:#9c8a55">Común · ropa</small></span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="objetos/maekake.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="objetos/maekake.svg" width="64" height="64" alt=""><img src="objetos/maekake.svg" width="32" height="32" alt=""><span class="n">Delantal de ramen<small style="color:#9c8a55">Común · ropa</small></span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="objetos/happi.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="objetos/happi.svg" width="64" height="64" alt=""><img src="objetos/happi.svg" width="32" height="32" alt=""><span class="n">Happi de matsuri<small style="color:#3f7fc4">Raro · ropa</small></span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="objetos/parka.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="objetos/parka.svg" width="64" height="64" alt=""><img src="objetos/parka.svg" width="32" height="32" alt=""><span class="n">Sudadera con capucha<small style="color:#3f7fc4">Raro · ropa</small></span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="objetos/gakuran.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="objetos/gakuran.svg" width="64" height="64" alt=""><img src="objetos/gakuran.svg" width="32" height="32" alt=""><span class="n">Gakuran<small style="color:#9b4fc9">Épico · ropa</small></span></div>
+</figure>
+<figure class="c">
+  <div class="pared"><img src="objetos/sukajan.svg" width="128" height="128" alt=""></div>
+  <div class="carta"><img src="objetos/sukajan.svg" width="64" height="64" alt=""><img src="objetos/sukajan.svg" width="32" height="32" alt=""><span class="n">Sukajan bordada<small style="color:#f2a114">Legendario · ropa</small></span></div>
+</figure>
+</div></section>
+<section id="jefes"><h2>Jefes yōkai</h2><div class="jefes">
+<figure class="jefe" style="margin:0"><img src="jefes/kappa.svg" alt=""><div class="fila"><img src="jefes/kappa.svg" style="width:64px;height:64px" alt=""><span class="n">Kappa del río<small>河童</small></span></div></figure>
+<figure class="jefe" style="margin:0"><img src="jefes/tanuki.svg" alt=""><div class="fila"><img src="jefes/tanuki.svg" style="width:64px;height:64px" alt=""><span class="n">Tanuki bromista<small>狸</small></span></div></figure>
+<figure class="jefe" style="margin:0"><img src="jefes/karakasa.svg" alt=""><div class="fila"><img src="jefes/karakasa.svg" style="width:64px;height:64px" alt=""><span class="n">Paraguas encantado<small>唐傘お化け</small></span></div></figure>
+<figure class="jefe" style="margin:0"><img src="jefes/nekomata.svg" alt=""><div class="fila"><img src="jefes/nekomata.svg" style="width:64px;height:64px" alt=""><span class="n">Nekomata<small>猫又</small></span></div></figure>
+<figure class="jefe" style="margin:0"><img src="jefes/rokurokubi.svg" alt=""><div class="fila"><img src="jefes/rokurokubi.svg" style="width:64px;height:64px" alt=""><span class="n">Rokurokubi<small>ろくろ首</small></span></div></figure>
+<figure class="jefe" style="margin:0"><img src="jefes/tengu.svg" alt=""><div class="fila"><img src="jefes/tengu.svg" style="width:64px;height:64px" alt=""><span class="n">Tengu de la montaña<small>天狗</small></span></div></figure>
+<figure class="jefe" style="margin:0"><img src="jefes/kitsune.svg" alt=""><div class="fila"><img src="jefes/kitsune.svg" style="width:64px;height:64px" alt=""><span class="n">Kitsune de nueve colas<small>九尾の狐</small></span></div></figure>
+<figure class="jefe" style="margin:0"><img src="jefes/yukionna.svg" alt=""><div class="fila"><img src="jefes/yukionna.svg" style="width:64px;height:64px" alt=""><span class="n">Mujer de las nieves<small>雪女</small></span></div></figure>
+<figure class="jefe" style="margin:0"><img src="jefes/oni.svg" alt=""><div class="fila"><img src="jefes/oni.svg" style="width:64px;height:64px" alt=""><span class="n">Oni rojo<small>赤鬼</small></span></div></figure>
+<figure class="jefe" style="margin:0"><img src="jefes/ryu.svg" alt=""><div class="fila"><img src="jefes/ryu.svg" style="width:64px;height:64px" alt=""><span class="n">Dragón del Fuji<small>富士の龍</small></span></div></figure>
+</div></section>
+<section id="grande"><h2>A 256 px</h2><div class="grande">
+<img src="iconos/repaso.svg" alt=""><img src="iconos/leccion.svg" alt=""><img src="iconos/gramatica.svg" alt=""><img src="iconos/kanji.svg" alt=""><img src="iconos/camino.svg" alt=""><img src="iconos/mochi.svg" alt=""><img src="iconos/koban.svg" alt=""><img src="iconos/bolsa.svg" alt=""><img src="iconos/omamori.svg" alt=""><img src="iconos/mision.svg" alt=""><img src="iconos/racha.svg" alt=""><img src="iconos/xp.svg" alt=""><img src="iconos/vida.svg" alt=""><img src="iconos/trofeo.svg" alt="">
+</div></section>
+<section id="zoom"><div class="grande" id="zoomrej"></div></section>
+<script>
+// ?s=zoom&t=objetos&desde=0&n=10&tam=256 → vista grande para revisar detalles
+const LISTAS = { objetos: ["yunomi","onigiri","dango","zabuton","uchiwa","chochin","ramen","cuaderno","fude","hanko","geta","furin","mikan","senbei","bonsai","daruma","gato-suerte","kotatsu","sushi-geta","kyusu","kendama","orizuru","radicasete","consola","kingyo","tele-crt","andon","byobu","katanakake","tocadiscos","cuadro-fuji","kimono","sakura-bonsai","kitsune-estatua","kakejiku-ryu","taiko","gafas-sol","boina","mugiwara","cascos","hanakanmuri","kitsune-men","yukata","maekake","happi","parka","gakuran","sukajan"], jefes: ["kappa","tanuki","karakasa","nekomata","rokurokubi","tengu","kitsune","yukionna","oni","ryu"], iconos: ["repaso","leccion","gramatica","kanji","camino","mochi","koban","bolsa","omamori","mision","racha","xp","vida","trofeo"] };
+const q = new URLSearchParams(location.search);
+if (q.get('s') === 'zoom') {
+  const t = q.get('t') || 'objetos', desde = +(q.get('desde') || 0), n = +(q.get('n') || 10), tam = +(q.get('tam') || 256);
+  document.getElementById('zoomrej').innerHTML = LISTAS[t].slice(desde, desde + n).map((id, i) =>
+    '<img src="' + t + '/' + id + '.svg" style="width:' + tam + 'px;height:' + tam + 'px;background:' + (i % 2 ? '#f7efdf' : 'radial-gradient(#b09a63,#6a5733)') + '" title="' + id + '">').join('');
+}
+</script>
+</body></html>

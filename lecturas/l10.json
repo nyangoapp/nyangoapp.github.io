@@ -1,0 +1,44 @@
+{
+  "id": "l10", "desde": 825,
+  "titulo": {"jp": "なくした 鍵[かぎ] と プレゼント", "es": "La llave perdida y el regalo", "en": "The lost key and the present"},
+  "resumen": {"es": "El abuelo de Nyan le manda un regalo, pero un sábado en el parque las cosas se complican.", "en": "Nyan's grandfather sends him a present, but one Saturday at the park things get complicated."},
+  "portada": {"fondo": "parque", "cosas": [{"que": "nyan", "x": 100, "cara": "sorpresa"}, {"que": "gato", "x": 190}, {"que": "regalo", "x": 320}]},
+  "texto": [
+    {"voz": "t1", "quien": "narrador", "jp": "おじいさんが、 ニャンに プレゼントを 送[おく]る と 言[い]った。", "es": "El abuelo dijo que le mandaría un regalo a Nyan.", "en": "Grandpa said he would send Nyan a present."},
+    {"voz": "t2", "quien": "narrador", "jp": "ニャンは 毎日[まいにち]、 プレゼントを 楽[たの]しみに して いた。", "es": "Nyan esperaba el regalo con ilusión cada día.", "en": "Every day, Nyan looked forward to the present."},
+    {"voz": "t3", "quien": "narrador", "jp": "ある 土曜日[どようび]、 公園[こうえん]で 遊[あそ]んで いる とき、 ニャンは 家[いえ]の 鍵[かぎ]を 落[お]として しまった。", "es": "Un sábado, mientras jugaba en el parque, a Nyan se le cayó la llave de casa.", "en": "One Saturday, while playing in the park, Nyan dropped his house key."},
+    {"voz": "t4", "quien": "nyan", "jp": "え！ 鍵[かぎ]が ない！", "es": "¡Eh! ¡No tengo la llave!", "en": "Huh! I don't have the key!"},
+    {"voz": "t5", "quien": "narrador", "jp": "ニャンは 鍵[かぎ]を 探[さが]した が、 見[み]つからなかった。", "es": "Nyan buscó la llave, pero no la encontró.", "en": "Nyan looked for the key, but couldn't find it."},
+    {"voz": "t6", "quien": "tama", "jp": "大丈夫[だいじょうぶ]。 一緒[いっしょ]に 探[さが]そう。", "es": "Tranquilo. Busquémosla juntos.", "en": "It's okay. Let's look for it together."},
+    {"voz": "t7", "quien": "narrador", "jp": "二人[ふたり]は 公園[こうえん]を 探[さが]した が、 鍵[かぎ]は 見[み]つかりにくかった。", "es": "Los dos buscaron por el parque, pero la llave era difícil de encontrar.", "en": "The two of them searched the park, but the key was hard to find."},
+    {"voz": "t8", "quien": "narrador", "jp": "暗[くら]く なる まで、 二人[ふたり]は 探[さが]し 続[つづ]けた。", "es": "Siguieron buscando hasta que oscureció.", "en": "They kept searching until it got dark."},
+    {"voz": "t9", "quien": "narrador", "jp": "でも、 鍵[かぎ]は 見[み]つからない まま だった。", "es": "Pero la llave seguía sin aparecer.", "en": "But the key remained unfound."},
+    {"voz": "t10", "quien": "narrador", "jp": "二人[ふたり]は 家[いえ]へ 帰[かえ]った。", "es": "Los dos volvieron a casa.", "en": "The two of them went home."},
+    {"voz": "t11", "quien": "narrador", "jp": "家[いえ]の 前[まえ]に、 コタロウが いた。 近所[きんじょ]の 犬[いぬ]で、 荷物[にもつ]を 運[はこ]ぶ 仕事[しごと]を して いる。", "es": "Delante de casa estaba Kotarō, el perro del barrio que reparte paquetes.", "en": "In front of the house was Kotarō, the neighborhood dog who delivers packages."},
+    {"voz": "t12", "quien": "kotaro", "jp": "ワン！ これ、 おじいさんから の プレゼントです！", "es": "¡Guau! ¡Esto es un regalo de su abuelo!", "en": "Woof! This is a present from your grandpa!"},
+    {"voz": "t13", "quien": "kotaro", "jp": "それから、 これも！ 公園[こうえん]で 見[み]つけました！", "es": "¡Y esto también! ¡Lo encontré en el parque!", "en": "And this too! I found it in the park!"},
+    {"voz": "t13b", "quien": "narrador", "jp": "コタロウは、 ニャンの 鍵[かぎ]を 持[も]って いた。", "es": "Kotarō tenía la llave de Nyan.", "en": "Kotarō had Nyan's key."},
+    {"voz": "t14", "quien": "nyan", "jp": "あ！ 鍵[かぎ]だ！ コタロウ、 ありがとう！", "es": "¡Ah! ¡La llave! ¡Gracias, Kotarō!", "en": "Ah! My key! Thank you, Kotarō!"},
+    {"voz": "t15", "quien": "narrador", "jp": "ニャンは プレゼントを 開[あ]けて、 とても うれしく なった。", "es": "Nyan abrió el regalo y se puso muy contento.", "en": "Nyan opened the present and became very happy."}
+  ],
+  "preguntas": [
+    {"jp": "おじいさんは ニャンに 何[なに]を する と 言[い]いました か。", "es": "¿Qué dijo el abuelo que haría por Nyan?", "en": "What did grandpa say he would do for Nyan?",
+     "opciones": [{"jp": "プレゼントを 送[おく]る", "es": "Mandarle un regalo", "en": "Send him a present"}, {"jp": "公園[こうえん]に 来[く]る", "es": "Venir al parque", "en": "Come to the park"}, {"jp": "鍵[かぎ]を あげる", "es": "Darle una llave", "en": "Give him a key"}],
+     "bien": 0, "porque": {"es": "「おじいさんが、ニャンにプレゼントを送ると言った」とあります。", "en": "\"Grandpa said he would send Nyan a present\" the story says."}},
+    {"jp": "ニャンは 公園[こうえん]で 何[なに]を 落[お]としました か。", "es": "¿Qué se le cayó a Nyan en el parque?", "en": "What did Nyan drop in the park?",
+     "opciones": [{"jp": "鍵[かぎ]", "es": "La llave", "en": "The key"}, {"jp": "プレゼント", "es": "El regalo", "en": "The present"}, {"jp": "本[ほん]", "es": "El libro", "en": "The book"}],
+     "bien": 0, "porque": {"es": "「家の鍵を落としてしまった」とあります。", "en": "\"He dropped his house key\" the story says."}},
+    {"jp": "家[いえ]の 前[まえ]に 誰[だれ]が いました か。", "es": "¿Quién estaba delante de la casa?", "en": "Who was in front of the house?",
+     "opciones": [{"jp": "コタロウ", "es": "Kotarō", "en": "Kotarō"}, {"jp": "タマ", "es": "Tama", "en": "Tama"}, {"jp": "おじいさん", "es": "El abuelo", "en": "Grandpa"}],
+     "bien": 0, "porque": {"es": "「家の前に、コタロウがいた」とあります。", "en": "\"In front of the house was Kotarō\" the story says."}},
+    {"tipo": "opinion", "jp": "あなたは 大事[だいじ]な 物[もの]を なくした こと が あります か。", "es": "¿Alguna vez has perdido algo importante?", "en": "Have you ever lost something important?",
+     "opciones": [
+       {"jp": "はい、 あります。 とても 残念[ざんねん]でした。", "es": "Sí, alguna vez. Fue una pena muy grande.", "en": "Yes, I have. It was a real shame.",
+        "nyan": {"jp": "ニャンも 鍵[かぎ]を よく なくす。 気[き]を つけて！", "es": "A Nyan también se le pierden mucho las llaves. ¡Ten cuidado!", "en": "Nyan loses his keys a lot too. Be careful!"}},
+       {"jp": "いいえ、 ありません。", "es": "No, nunca.", "en": "No, never.",
+        "nyan": {"jp": "すごい！ ニャンは よく 物[もの]を なくす。", "es": "¡Qué bien! A Nyan se le pierden las cosas a menudo.", "en": "Amazing! Nyan loses things all the time."}},
+       {"jp": "昔[むかし]、 鍵[かぎ]を なくした こと が あります。", "es": "Hace tiempo, perdí una llave.", "en": "Once, a while back, I lost a key.",
+        "nyan": {"jp": "ニャンと 同[おな]じ！ でも、 見[み]つかって よかった ね。", "es": "¡Igual que Nyan! Pero menos mal que apareció.", "en": "Same as Nyan! But it's great that it turned up."}}
+     ]}
+  ]
+}

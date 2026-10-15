@@ -1,0 +1,51 @@
+{
+  "id": "l05", "desde": 450,
+  "titulo": {"jp": "図書館[としょかん] までの 電車[でんしゃ]", "es": "El tren hasta la biblioteca", "en": "The train to the library"},
+  "resumen": {"es": "Nyan y Tama van a la biblioteca justo cuando amenaza lluvia: ¿llegarán a tiempo?",
+              "en": "Nyan and Tama head to the library just as rain threatens: will they make it in time?"},
+  "portada": {"fondo": "calle", "cosas": [{"que": "nyan", "x": 110, "cara": "pensando"}, {"que": "gato", "x": 200}, {"que": "tren", "x": 320}]},
+  "texto": [
+    {"voz": "t1", "quien": "narrador", "jp": "月曜日[げつようび]に、 ニャンは 図書館[としょかん]へ 行[い]く つもり だった。",
+     "es": "El lunes, Nyan tenía pensado ir a la biblioteca.", "en": "On Monday, Nyan was planning to go to the library."},
+    {"voz": "t2", "quien": "narrador", "jp": "でも、 雨[あめ]が 降[ふ]る かもしれなかった。",
+     "es": "Pero puede que lloviera.", "en": "But it might rain."},
+    {"voz": "t3", "quien": "tama", "jp": "雨[あめ]が 降[ふ]ったら、 電車[でんしゃ]で 行[い]こう。",
+     "es": "Si llueve, vamos en tren.", "en": "If it rains, let's go by train."},
+    {"voz": "t4", "quien": "narrador", "jp": "そして、 本当[ほんとう]に 雨[あめ]が 降[ふ]った。",
+     "es": "Y, en efecto, se puso a llover.", "en": "And indeed, it rained."},
+    {"voz": "t5", "quien": "narrador", "jp": "二人[ふたり]は 電車[でんしゃ]に 乗[の]った。",
+     "es": "Los dos subieron al tren.", "en": "The two of them got on the train."},
+    {"voz": "t6", "quien": "narrador", "jp": "でも、 電車[でんしゃ]は 遅[おそ]かった。",
+     "es": "Pero el tren iba con retraso.", "en": "But the train was late."},
+    {"voz": "t7", "quien": "nyan", "jp": "図書館[としょかん]に 着[つ]けない かもしれない…",
+     "es": "A lo mejor no llegamos a la biblioteca…", "en": "We might not make it to the library..."},
+    {"voz": "t8", "quien": "tama", "jp": "大丈夫[だいじょうぶ]。 遅[おそ]くても、 図書館[としょかん]は 開[ひら]いて いる よ。",
+     "es": "Tranquilo. Aunque lleguemos tarde, la biblioteca está abierta.", "en": "It's fine. Even if we're late, the library is open."},
+    {"voz": "t9", "quien": "narrador", "jp": "図書館[としょかん]に 着[つ]く と、 まだ 開[ひら]いて いた。",
+     "es": "Cuando llegaron a la biblioteca, todavía estaba abierta.", "en": "When they got to the library, it was still open."},
+    {"voz": "t10", "quien": "narrador", "jp": "ニャンは 「よかった」と 言[い]って、 笑[わら]った。",
+     "es": "Nyan dijo «menos mal» y sonrió.", "en": "Nyan said \"phew\" and smiled."},
+    {"voz": "t11", "quien": "narrador", "jp": "ニャンと タマは 図書館[としょかん]で 本[ほん]を 読[よ]んだ。",
+     "es": "Nyan y Tama leyeron libros en la biblioteca.", "en": "Nyan and Tama read books at the library."}
+  ],
+  "preguntas": [
+    {"jp": "ニャンは どこへ 行[い]く つもり でした か。", "es": "¿Adónde tenía pensado ir Nyan?", "en": "Where was Nyan planning to go?",
+     "opciones": [{"jp": "図書館[としょかん]", "es": "A la biblioteca", "en": "To the library"}, {"jp": "学校[がっこう]", "es": "A la escuela", "en": "To school"}, {"jp": "店[みせ]", "es": "A la tienda", "en": "To the store"}],
+     "bien": 0, "porque": {"es": "«図書館へ行くつもりだった» lo dice.", "en": "\"He was planning to go to the library\" the story says."}},
+    {"jp": "二人[ふたり]は 何[なに]で 行[い]きました か。", "es": "¿En qué fueron los dos?", "en": "What did the two of them go by?",
+     "opciones": [{"jp": "電車[でんしゃ]", "es": "En tren", "en": "By train"}, {"jp": "バス", "es": "En autobús", "en": "By bus"}, {"jp": "自転車[じてんしゃ]", "es": "En bicicleta", "en": "By bicycle"}],
+     "bien": 0, "porque": {"es": "「電車に乗った」とあります。", "en": "\"They got on the train\" the story says."}},
+    {"jp": "電車[でんしゃ]は どう でした か。", "es": "¿Cómo estaba el tren?", "en": "How was the train?",
+     "opciones": [{"jp": "遅[おそ]かった", "es": "Iba con retraso", "en": "It was late"}, {"jp": "速[はや]かった", "es": "Iba rápido", "en": "It was fast"}],
+     "bien": 0, "porque": {"es": "「電車は遅かった」とあります。", "en": "\"The train was late\" the story says."}},
+    {"tipo": "opinion", "jp": "あなたは 雨[あめ]の 日[ひ]が 好[す]き です か。", "es": "¿Te gustan los días de lluvia?", "en": "Do you like rainy days?",
+     "opciones": [
+       {"jp": "好[す]き です。 家[いえ]に いられる から。", "es": "Sí, porque puedo quedarme en casa.", "en": "Yes, because I can stay home.",
+        "nyan": {"jp": "ニャンも 雨[あめ]の 日[ひ]は 好[す]き！ たくさん 寝[ね]られる から！", "es": "¡A Nyan también le gustan los días de lluvia! ¡Porque puede dormir mucho!", "en": "Nyan likes rainy days too! Because he can sleep a lot!"}},
+       {"jp": "好[す]き じゃない です。 電車[でんしゃ]が 遅[おそ]く なる から。", "es": "No, porque los trenes se retrasan.", "en": "No, because trains get delayed.",
+        "nyan": {"jp": "そう だ ね。 でも、 雨[あめ]の 音[おと]も いい よ。", "es": "Es verdad. Pero el sonido de la lluvia también es agradable.", "en": "That's true. But the sound of rain is nice too."}},
+       {"jp": "雨[あめ]でも 大丈夫[だいじょうぶ] です。", "es": "Me da igual que llueva.", "en": "Rain or not, I'm fine with it.",
+        "nyan": {"jp": "ニャンと 同[おな]じ！ 雨[あめ]でも、 昼寝[ひるね]は できる よ。", "es": "¡Igual que Nyan! Aunque llueva, se puede echar la siesta.", "en": "Same as Nyan! Even if it rains, you can still nap."}}
+     ]}
+  ]
+}

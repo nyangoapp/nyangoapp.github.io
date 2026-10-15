@@ -1,0 +1,834 @@
+{
+ "id": "c36",
+ "clase": 17,
+ "desde": 205,
+ "titulo": {
+  "es": "Trabajar cantando: 〜ながら y 〜し",
+  "en": "Working while singing: 〜ながら and 〜し"
+ },
+ "resumen": {
+  "es": "ながら se pega a la raíz del verbo para hacer dos cosas a la vez: 見ながら食べる. し amontona razones o cualidades, una tras otra, sin cerrar la lista.",
+  "en": "ながら attaches to a verb stem to do two things at once: 見ながら食べる. し piles up reasons or qualities, one after another, without closing the list."
+ },
+ "formato": 2,
+ "lugar": "parque",
+ "mision": {
+  "texto": {
+   "es": "Último día de preparativos en el parque. Hay mil cosas que hacer y poco tiempo: haced dos cosas a la vez… y preparad el discurso para atraer clientes con todas las razones del mundo.",
+   "en": "Last day of preparations in the park. A thousand things to do and little time: do two things at once… and prepare the pitch to draw customers with every reason in the world."
+  },
+  "escena": {
+   "fondo": "parque",
+   "cosas": [
+    {
+     "que": "nyan",
+     "x": 85
+    },
+    {
+     "que": "caja",
+     "x": 200,
+     "s": 1.1
+    },
+    {
+     "que": "gato",
+     "id": "tama",
+     "x": 315
+    }
+   ]
+  },
+  "cara": "feliz",
+  "jp": "がんばりましょう！",
+  "voz": "m0"
+ },
+ "reglas": [
+  {
+   "id": "nagara",
+   "nombre": {
+    "es": "〜ながら: mientras…",
+    "en": "〜ながら: while…"
+   },
+   "patron": {
+    "es": "〔raíz del verbo〕ながら、〔acción principal〕",
+    "en": "〔verb stem〕ながら、〔main action〕"
+   },
+   "explica": {
+    "es": "Para hacer dos cosas a la vez, pega ながら a la raíz de la acción secundaria (la que va «de fondo») y pon la principal al final: 歌いながら働く, «trabajar cantando». El orden importa, porque lo que va al final es lo importante: 食べながらテレビを見る es ver la tele mientras comes; テレビを見ながら食べる, comer con la tele puesta. Las dos acciones las hace la misma persona.",
+    "en": "To do two things at once, attach ながら to the stem of the secondary action (the «background» one) and put the main one last: 歌いながら働く, «work while singing». Order matters, because what comes last is what counts: 食べながらテレビを見る is watching TV while eating; テレビを見ながら食べる, eating with the TV on. The same person does both actions."
+   },
+   "ejemplos": [
+    {
+     "jp": "歌[うた]いながら 働[はたら]きます。",
+     "es": "Trabajo cantando.",
+     "en": "I work while singing.",
+     "voz": "r1-1"
+    },
+    {
+     "jp": "音楽[おんがく]を 聞[き]きながら 勉強[べんきょう]します。",
+     "es": "Estudio escuchando música.",
+     "en": "I study while listening to music.",
+     "voz": "r1-2"
+    }
+   ],
+   "ojo": {
+    "es": "ながら es para acciones de UNA misma persona. Si cada cosa la hace alguien distinto («mientras Tama canta, yo trabajo»), el japonés usa otra forma que verás más adelante.",
+    "en": "ながら is for actions by ONE person. If each is done by someone different («while Tama sings, I work»), Japanese uses another form you'll see later."
+   }
+  },
+  {
+   "id": "shi",
+   "nombre": {
+    "es": "〜し: y además…",
+    "en": "〜し: and what's more…"
+   },
+   "patron": {
+    "es": "〔razón〕し、〔razón〕し…",
+    "en": "〔reason〕し、〔reason〕し…"
+   },
+   "explica": {
+    "es": "し amontona razones o cualidades como una lista abierta, con la idea de «y encima…, y además…»: 楽しいし、早く終わるし、いい, «es divertido, se acaba antes… está bien». Deja caer que hay más razones aunque no las digas. A diferencia de から, que da UNA razón concreta, し apila varias y suena a argumento: por eso sirve para convencer. Se pega a la frase completa; detrás de un nombre o un adjetivo en な, con だ (暇だし).",
+    "en": "し piles up reasons or qualities as an open list, meaning «and on top of that…, and also…»: 楽しいし、早く終わるし、いい, «it's fun, it's done faster… it's fine». It hints there are more reasons even if you don't say them. Unlike から, which gives ONE specific reason, し stacks several and sounds like an argument: that's why it's good for persuading. It attaches to the whole sentence; after a noun or な adjective, with だ (暇だし)."
+   },
+   "ejemplos": [
+    {
+     "jp": "安[やす]いし、 おいしいです！",
+     "es": "¡Es barato y además está rico!",
+     "en": "It's cheap, and tasty too!",
+     "voz": "r2-1"
+    },
+    {
+     "jp": "暇[ひま]だし、 手伝[てつだ]います。",
+     "es": "Estoy libre y tal, así que ayudo.",
+     "en": "I'm free and all, so I'll help.",
+     "voz": "r2-2"
+    }
+   ],
+   "ojo": {
+    "es": "No te comas la い del adjetivo: おいしいし, con las dos い. La し va detrás de la palabra completa.",
+    "en": "Don't swallow the adjective's い: おいしいし, with both い. し goes after the whole word."
+   }
+  }
+ ],
+ "historia": [
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "時間[じかん]が ありません！",
+   "tr": {
+    "es": "¡No hay tiempo!",
+    "en": "There's no time!"
+   },
+   "voz": "h1",
+   "cara": "pensando",
+   "escena": {
+    "fondo": "parque",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 85
+     },
+     {
+      "que": "caja",
+      "x": 200,
+      "id": "caja",
+      "s": 1.1
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 315
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "歌[うた]いながら 働[はたら]きます！ ♪",
+   "tr": {
+    "es": "¡Pues trabajo cantando! ♪",
+    "en": "Then I'll work while singing! ♪"
+   },
+   "voz": "h2",
+   "cara": "feliz",
+   "brazo": "arriba",
+   "reacciona": {
+    "tama": "sorpresa"
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "nagara"
+  },
+  {
+   "t": "elige",
+   "habla": "tama",
+   "pide": {
+    "es": "Kotarō también hace dos cosas a la vez: trabaja… comiendo. ¿Cómo lo cuenta Tama?",
+    "en": "Kotarō does two things at once too: he works… while eating. How does Tama tell it?"
+   },
+   "opciones": [
+    {
+     "jp": "コタローは 食[た]べながら 働[はたら]いて います。",
+     "bien": true,
+     "tr": {
+      "es": "Kotarō trabaja mientras come.",
+      "en": "Kotarō works while eating."
+     },
+     "voz": "h3",
+     "porque": {
+      "es": "Lo de fondo (comer) va con raíz + ながら; lo principal (trabajar), al final.",
+      "en": "The background action (eating) takes stem + ながら; the main one (working) goes last."
+     }
+    },
+    {
+     "jp": "コタローは 食[た]べるながら 働[はたら]いて います。",
+     "bien": false,
+     "porque": {
+      "es": "ながら se pega a la raíz, la misma de ます: 食べ + ながら.",
+      "en": "ながら attaches to the stem, the same as ます: 食べ + ながら."
+     }
+    },
+    {
+     "jp": "コタローは 食[た]べて ながら 働[はたら]いて います。",
+     "bien": false,
+     "porque": {
+      "es": "ながら no va con la forma て: la て ya significa «y luego», y aquí las dos cosas son a la vez. Raíz + ながら: 食べながら.",
+      "en": "ながら doesn't go with the て form: て already means «and then», and here both happen at once. Stem + ながら: 食べながら."
+     }
+    }
+   ],
+   "cara": "feliz",
+   "escena": {
+    "fondo": "parque",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "perro",
+      "id": "kotaro",
+      "x": 200,
+      "onigiri": true
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 320
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "kage",
+   "jp": "ふん。 歌[うた]いながら 働[はたら]くのは だめだ。",
+   "tr": {
+    "es": "Hmpf. Trabajar cantando no vale.",
+    "en": "Hmph. Working while singing doesn't count."
+   },
+   "voz": "h4",
+   "cara": "presumido",
+   "reacciona": {
+    "nyan": "enfado"
+   },
+   "escena": {
+    "fondo": "parque",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "caja",
+      "x": 185,
+      "id": "caja",
+      "s": 1.0
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 260
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 345
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "楽[たの]しいし、 早[はや]く 終[お]わるし、 いいよ！",
+   "tr": {
+    "es": "Es divertido, se acaba antes… ¡está bien!",
+    "en": "It's fun, it gets done faster… it's fine!"
+   },
+   "voz": "h5",
+   "cara": "enfado"
+  },
+  {
+   "t": "regla",
+   "regla": "shi"
+  },
+  {
+   "t": "monta",
+   "encargo": 0
+  },
+  {
+   "t": "dice",
+   "habla": "tendero",
+   "jp": "いい お店[みせ]ですね！",
+   "tr": {
+    "es": "¡Qué buen puesto!",
+    "en": "What a nice stall!"
+   },
+   "voz": "h6",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "parque",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "onigiri",
+      "x": 190,
+      "s": 1.3
+     },
+     {
+      "que": "daruma",
+      "x": 240,
+      "s": 1.1
+     },
+     {
+      "que": "persona",
+      "id": "tendero",
+      "x": 330
+     }
+    ]
+   }
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "Pon os felicita. Presume del puesto con todas las razones que puedas:",
+    "en": "Pon congratulates you. Show off the stall with every reason you can:"
+   },
+   "opciones": [
+    {
+     "jp": "おにぎりも おいしいし、 だるまも あるし、 最高[さいこう]です！",
+     "bien": true,
+     "tr": {
+      "es": "Los onigiri están ricos, tenemos un daruma… ¡es lo mejor!",
+      "en": "The onigiri are tasty, we've got a daruma… it's the best!"
+     },
+     "voz": "h7",
+     "porque": {
+      "es": "し amontona razones sin cerrar la lista: おいしいし、あるし…",
+      "en": "し piles up reasons without closing the list: おいしいし、あるし…"
+     }
+    },
+    {
+     "jp": "おにぎりも おいしいながら、 だるまも あるながら、 最高[さいこう]です！",
+     "bien": false,
+     "porque": {
+      "es": "ながら es para hacer dos ACCIONES a la vez. Para juntar razones o cualidades, し.",
+      "en": "ながら is for doing two ACTIONS at once. To join reasons or qualities, し."
+     }
+    },
+    {
+     "jp": "おにぎりも おいしし、 だるまも あるし、 最高[さいこう]です！",
+     "bien": false,
+     "porque": {
+      "es": "し va detrás de la palabra completa: おいしい + し = おいしいし. Aquí se ha comido la い.",
+      "en": "し goes after the whole word: おいしい + し = おいしいし. The い got eaten here."
+     }
+    }
+   ],
+   "cara": "feliz"
+  },
+  {
+   "t": "toca",
+   "pide": {
+    "es": "Mientras tanto, ¿qué hace Kage? Escucha y toca lo que come.",
+    "en": "Meanwhile, what's Kage doing? Listen and tap what he's eating."
+   },
+   "bien": "senbei",
+   "quien": "tama",
+   "escena": {
+    "fondo": "parque",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 65
+     },
+     {
+      "que": "taiko",
+      "x": 150,
+      "id": "taiko",
+      "s": 1.0
+     },
+     {
+      "que": "senbei",
+      "x": 215,
+      "id": "senbei",
+      "s": 1.3
+     },
+     {
+      "que": "daruma",
+      "x": 268,
+      "id": "daruma",
+      "s": 1.1
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 345
+     }
+    ]
+   },
+   "jp": "カゲは おせんべいを 食[た]べながら 見[み]て います。",
+   "voz": "h8",
+   "bien_msg": {
+    "es": "¡Eso! Come senbei (食べながら) mientras mira: lo principal es mirar.",
+    "en": "Right! He eats senbei (食べながら) while watching: watching is the main thing."
+   },
+   "mal_msg": {
+    "es": "Ha dicho おせんべいを食べながら: come las galletas de arroz mientras mira.",
+    "en": "She said おせんべいを食べながら: he eats rice crackers while watching."
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "kage",
+   "jp": "…ふん。 暇[ひま]だし、 ちょっと 手伝[てつだ]う。",
+   "tr": {
+    "es": "…Hmpf. Estoy libre y tal… ayudo un poco.",
+    "en": "…Hmph. I'm free and all… I'll help a bit."
+   },
+   "voz": "h9",
+   "cara": "aburrido",
+   "reacciona": {
+    "nyan": "feliz",
+    "tama": "feliz"
+   },
+   "escena": {
+    "fondo": "parque",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "caja",
+      "x": 185,
+      "id": "caja",
+      "s": 1.0
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 260
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 345
+     }
+    ]
+   }
+  }
+ ],
+ "epilogo": [
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "できました！ 明日[あした]は お祭[まつ]りです！",
+   "tr": {
+    "es": "¡Listo! ¡Mañana es el festival!",
+    "en": "Done! Tomorrow's the festival!"
+   },
+   "voz": "x1",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "parque",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "onigiri",
+      "x": 175,
+      "s": 1.2
+     },
+     {
+      "que": "daruma",
+      "x": 220,
+      "s": 1.1
+     },
+     {
+      "que": "taiko",
+      "x": 265,
+      "s": 1.0
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 335
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "お祭[まつ]り、 お祭[まつ]り♪",
+   "tr": {
+    "es": "¡Festival, festival! ♪",
+    "en": "Festival, festival! ♪"
+   },
+   "voz": "x2",
+   "cara": "feliz",
+   "brazo": "arriba"
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta la frase: la escena hará lo que digas.",
+   "en": "Build the sentence: the scene will do what you say."
+  },
+  "piezas": [
+   {
+    "id": "yasui",
+    "jp": "安[やす]い",
+    "tipo": "palabra"
+   },
+   {
+    "id": "oishii",
+    "jp": "おいしい",
+    "tipo": "palabra"
+   },
+   {
+    "id": "shi",
+    "jp": "し",
+    "tipo": "particula"
+   },
+   {
+    "id": "kedo",
+    "jp": "けど",
+    "tipo": "particula"
+   },
+   {
+    "id": "kara",
+    "jp": "から",
+    "tipo": "particula"
+   },
+   {
+    "id": "desu",
+    "jp": "です",
+    "tipo": "verbo"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Preparad el grito para atraer clientes: «¡Es barato y además está rico!»",
+     "en": "Get the shout ready to draw customers: «It's cheap and tasty too!»"
+    },
+    "escena": {
+     "fondo": "parque",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 85
+      },
+      {
+       "que": "onigiri",
+       "x": 200,
+       "id": "onigiri",
+       "s": 1.4
+      },
+      {
+       "que": "gato",
+       "id": "tama",
+       "x": 315
+      }
+     ]
+    },
+    "piezas": [
+     "yasui",
+     "oishii",
+     "shi",
+     "kedo",
+     "kara",
+     "desu"
+    ],
+    "bien": [
+     [
+      "yasui",
+      "shi",
+      "oishii",
+      "desu"
+     ],
+     [
+      "oishii",
+      "shi",
+      "yasui",
+      "desu"
+     ]
+    ],
+    "tr": {
+     "es": "¡Es barato y además está rico!",
+     "en": "It's cheap, and tasty too!"
+    },
+    "efecto_bien": [
+     {
+      "tipo": "texto",
+      "texto": "安[やす]い！ おいしい！",
+      "x": 200,
+      "y": 95
+     },
+     {
+      "tipo": "brilla",
+      "objeto": "onigiri"
+     },
+     {
+      "tipo": "salta",
+      "objeto": "tama"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "kedo"
+       ]
+      },
+      "efecto": {
+       "tipo": "manpu",
+       "objeto": "tama",
+       "manpu": "sudor"
+      },
+      "msg": {
+       "es": "«Es barato, PERO está rico»… ¡como si lo barato soliera estar malo! Para sumar cosas buenas, し.",
+       "en": "«It's cheap, BUT tasty»… as if cheap things were usually bad! To pile up good things, し."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "kara"
+       ]
+      },
+      "efecto": {
+       "tipo": "manpu",
+       "objeto": "tama",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "«Como es barato, está rico»: una cosa no causa la otra. し las pone en fila sin decir que una cause la otra.",
+       "en": "«Since it's cheap, it's tasty»: one doesn't cause the other. し lines them up without saying one causes the other."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "reto": {
+  "intro": {
+   "jp": "ふん。 歌[うた]いながら 俺[おれ]に 勝[か]てるか？ 勝負[しょうぶ]だ！",
+   "tr": {
+    "es": "Hmpf. ¿Me vas a ganar cantando? ¡Duelo!",
+    "en": "Hmph. Think you can beat me while singing? Duel!"
+   },
+   "voz": "k0"
+  },
+  "gana": {
+   "jp": "…くっ。 歌[うた]いながら 勝[か]った…",
+   "tr": {
+    "es": "…Tsk. Me ha ganado cantando…",
+    "en": "…Tch. He won while singing…"
+   },
+   "voz": "kw"
+  },
+  "pierde": {
+   "jp": "ふん。 歌[うた]うより 練習[れんしゅう]しろ。",
+   "tr": {
+    "es": "Hmpf. Menos cantar y más practicar.",
+    "en": "Hmph. Less singing, more practice."
+   },
+   "voz": "kl"
+  },
+  "pica": {
+   "jp": "…やるな。",
+   "tr": {
+    "es": "…No está mal.",
+    "en": "…Not bad."
+   },
+   "voz": "kp"
+  },
+  "burla": {
+   "jp": "ふん！",
+   "tr": {
+    "es": "¡Ja!",
+    "en": "Hah!"
+   },
+   "voz": "kb"
+  },
+  "preguntas": [
+   {
+    "tipo": "elige",
+    "jp": "音楽[おんがく]を 聞[き]き＿ 勉強[べんきょう]します。",
+    "opciones": [
+     "ながら",
+     "し",
+     "けど"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Estudio escuchando música.",
+     "en": "I study while listening to music."
+    },
+    "porque": {
+     "es": "Dos acciones a la vez: raíz (聞き) + ながら.",
+     "en": "Two actions at once: stem (聞き) + ながら."
+    },
+    "voz": "q1"
+   },
+   {
+    "tipo": "elige",
+    "jp": "この 店[みせ]は 安[やす]い＿、 きれいです。",
+    "opciones": [
+     "し",
+     "ながら",
+     "に"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Esta tienda es barata y además bonita.",
+     "en": "This shop is cheap and pretty too."
+    },
+    "porque": {
+     "es": "Sumar cualidades: し.",
+     "en": "Adding qualities: し."
+    },
+    "voz": "q2"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "歌[うた]いながら 料理[りょうり]を します。",
+    "correcta": true,
+    "tr": {
+     "es": "Cocino cantando.",
+     "en": "I cook while singing."
+    },
+    "porque": {
+     "es": "Bien: raíz (歌い) + ながら, y lo principal (cocinar) al final.",
+     "en": "Right: stem (歌い) + ながら, and the main action (cooking) last."
+    },
+    "voz": "q3"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "テレビを 見[み]るながら 食[た]べます。",
+    "correcta": false,
+    "tr": {
+     "es": "(Como viendo la tele.)",
+     "en": "(I eat while watching TV.)"
+    },
+    "porque": {
+     "es": "ながら va con la raíz: 見 + ながら = 見ながら.",
+     "en": "ながら takes the stem: 見 + ながら = 見ながら."
+    },
+    "voz": "q4"
+   },
+   {
+    "tipo": "oye",
+    "jp": "暇[ひま]だし、 手伝[てつだ]います。",
+    "habla": "kage",
+    "opciones": [
+     {
+      "es": "Como estoy libre y tal, ayudo.",
+      "en": "I'm free and all, so I'll help."
+     },
+     {
+      "es": "Estoy libre, pero no ayudo.",
+      "en": "I'm free, but I won't help."
+     },
+     {
+      "es": "Ayudo mientras descanso.",
+      "en": "I help while resting."
+     }
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "し da una razón dejando entender que hay más: «estoy libre, y tal…».",
+     "en": "し gives a reason hinting there are more: «I'm free, and all…»."
+    },
+    "voz": "q5"
+   },
+   {
+    "tipo": "imagen",
+    "jp": "おせんべいを 食[た]べながら 見[み]て います。",
+    "opciones": [
+     "senbei",
+     "taiko",
+     "daruma"
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "おせんべい: las galletas de arroz que come mientras mira.",
+     "en": "おせんべい: the rice crackers he eats while watching."
+    },
+    "pide": {
+     "es": "¿Qué come mientras mira?",
+     "en": "What is he eating while watching?"
+    }
+   }
+  ]
+ },
+ "siguiente": {
+  "es": "¡Por fin, la noche del festival! Farolillos, puestos… y regalos: ¿quién da qué a quién?",
+  "en": "At last, festival night! Lanterns, stalls… and gifts: who gives what to whom?"
+ },
+ "chuleta": {
+  "patron": {
+   "es": "〔raíz〕ながら〔verbo〕 ・ 〔razón〕し、〔razón〕し",
+   "en": "〔stem〕ながら〔verb〕 ・ 〔reason〕し、〔reason〕し"
+  },
+  "patron_tr": {
+   "es": "mientras… ・ y además…",
+   "en": "while… ・ and also…"
+  },
+  "filas": [
+   {
+    "jp": "歌[うた]いながら 働[はたら]きます。",
+    "es": "Trabajo cantando.",
+    "en": "I work while singing.",
+    "registro": "educado"
+   },
+   {
+    "jp": "安[やす]いし、 おいしいし！",
+    "es": "¡Es barato, está rico…! (a un amigo)",
+    "en": "It's cheap, it's tasty…! (to a friend)",
+    "registro": "amigos"
+   },
+   {
+    "jp": "スマホを 見[み]ながら 歩[ある]かないで。",
+    "es": "No camines mirando el móvil.",
+    "en": "Don't walk while looking at your phone."
+   }
+  ],
+  "consejo": {
+   "es": "Una sola し al final también vale para dar una razón con suavidad: 暇だし… «es que estoy libre…», dejando el resto en el aire.",
+   "en": "A single し at the end also gives a reason gently: 暇だし… «well, I'm free…», leaving the rest in the air."
+  }
+ }
+}

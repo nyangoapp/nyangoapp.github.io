@@ -1,0 +1,746 @@
+{
+ "id": "c45",
+ "clase": 39,
+ "desde": 690,
+ "titulo": {
+  "es": "¡Los deberes!: 〜ばよかった y 〜なければよかった",
+  "en": "The homework!: 〜ばよかった and 〜なければよかった"
+ },
+ "resumen": {
+  "es": "〜ばよかった y 〜たらよかった: dos formas para lamentar algo que YA pasó y no se puede cambiar. 〜ほうがいい y 〜たらどう (clase «sugerir») son consejos para el FUTURO; estas son para el PASADO.",
+  "en": "〜ばよかった and 〜たらよかった: two ways to regret something that ALREADY happened and can't be changed. 〜ほうがいい and 〜たらどう (class “suggesting”) are advice for the FUTURE; these are for the PAST."
+ },
+ "formato": 2,
+ "lugar": "escuela",
+ "mision": {
+  "texto": {
+   "es": "Primer día de clase tras las vacaciones. Fukuro-sensei pide los deberes de invierno… y Nyan no los ha hecho. Hora de lamentarse: lo que tendrías que haber hecho, lo que no tendrías que haber hecho, y que ya no tiene arreglo.",
+   "en": "First day back after the holidays. Fukuro-sensei asks for the winter homework… and Nyan hasn't done it. Time for regrets: what you should have done, what you shouldn't have, and what can't be undone."
+  },
+  "escena": {
+   "fondo": "escuela",
+   "cosas": [
+    {
+     "que": "nyan",
+     "x": 70
+    },
+    {
+     "que": "gato",
+     "id": "tama",
+     "x": 170
+    },
+    {
+     "que": "sensei",
+     "id": "sensei",
+     "x": 330
+    }
+   ]
+  },
+  "cara": "sorpresa",
+  "jp": "宿題[しゅくだい]…！",
+  "voz": "m0"
+ },
+ "reglas": [
+  {
+   "id": "bayokatta",
+   "nombre": {
+    "es": "〜ばよかった: tendría que haber…",
+    "en": "〜ばよかった: I should have…"
+   },
+   "patron": {
+    "es": "〔forma ば〕よかった ・ 〔pasado〕らよかった",
+    "en": "〔ば form〕よかった ・ 〔past〕らよかった"
+   },
+   "explica": {
+    "es": "Para lamentar algo que NO hiciste, pon el verbo en forma ば y añade よかった, el pasado de いい: やればよかった, literalmente «si lo hubiera hecho, habría estado bien», es decir, «tendría que haberlo hecho». たらよかった significa lo mismo y es igual de común: やったらよかった. Siempre mira a algo que ya no tiene arreglo: por eso suena a suspiro.",
+    "en": "To regret something you DIDN'T do, put the verb in ば form and add よかった, the past of いい: やればよかった, literally «if I'd done it, it would have been good», i.e. «I should have done it». たらよかった means the same and is just as common: やったらよかった. It always looks back at something beyond repair: that's why it sounds like a sigh."
+   },
+   "ejemplos": [
+    {
+     "jp": "もっと 早[はや]く やれば よかった…。",
+     "es": "Tendría que haberlos hecho antes…",
+     "en": "I should have done it sooner…",
+     "voz": "r1-1"
+    },
+    {
+     "jp": "太鼓[たいこ]を 持[も]って くれば よかった。",
+     "es": "Tendría que haber traído el tambor.",
+     "en": "I should've brought the drum.",
+     "voz": "r1-2"
+    }
+   ],
+   "ojo": {
+    "es": "No lo confundas con ほうがいい o たらどう (clase 38): esos son consejos para el futuro; ばよかった es un lamento por el pasado.",
+    "en": "Don't confuse it with ほうがいい or たらどう (class 38): those are advice for the future; ばよかった is regret about the past."
+   }
+  },
+  {
+   "id": "nakerebayokatta",
+   "nombre": {
+    "es": "〜なければよかった: no tendría que haber…",
+    "en": "〜なければよかった: I shouldn't have…"
+   },
+   "patron": {
+    "es": "〔ない → なければ〕よかった",
+    "en": "〔ない → なければ〕よかった"
+   },
+   "explica": {
+    "es": "Si lo que lamentas es algo que SÍ hiciste, pon el negativo en forma ば: 食べすぎなければよかった, «no tendría que haber comido tanto» (al pie de la letra, «si no hubiera comido tanto, habría estado bien»). Del negativo 食べすぎない se quita la い y se pone ければ, como en なければならない.",
+    "en": "If you regret something you DID do, put the negative in ば form: 食べすぎなければよかった, «I shouldn't have eaten so much» (literally «if I hadn't eaten so much, it would have been good»). From the negative 食べすぎない, drop the い and add ければ, as in なければならない."
+   },
+   "ejemplos": [
+    {
+     "jp": "食[た]べすぎなければ よかった。",
+     "es": "No tendría que haber comido tanto.",
+     "en": "I shouldn't have eaten so much.",
+     "voz": "r2-1"
+    },
+    {
+     "jp": "あんな こと、 言[い]わなければ よかった。",
+     "es": "No tendría que haber dicho eso.",
+     "en": "I shouldn't have said that.",
+     "voz": "r2-2"
+    }
+   ],
+   "ojo": {
+    "es": "Con たら significa lo mismo: 食べすぎなかったらよかった. Las dos suenan igual de naturales.",
+    "en": "With たら it means the same: 食べすぎなかったらよかった. Both sound equally natural."
+   }
+  }
+ ],
+ "historia": [
+  {
+   "t": "dice",
+   "habla": "sensei",
+   "jp": "みなさん、 冬休[ふゆやす]みの 宿題[しゅくだい]を 出[だ]して ください。",
+   "tr": {
+    "es": "Chicos, entregad los deberes de invierno.",
+    "en": "Everyone, hand in your winter homework."
+   },
+   "voz": "h1",
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 170
+     },
+     {
+      "que": "sensei",
+      "id": "sensei",
+      "x": 330
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "えっ… 宿題[しゅくだい]…？",
+   "tr": {
+    "es": "¿Eh…? ¿Deberes…?",
+    "en": "Huh…? Homework…?"
+   },
+   "voz": "h2",
+   "cara": "sorpresa"
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "ニャン、 やって いないんですか！",
+   "tr": {
+    "es": "Nyan, ¿¡no los has hecho!?",
+    "en": "Nyan, you haven't done it?!"
+   },
+   "voz": "h3",
+   "cara": "sorpresa",
+   "reacciona": {
+    "nyan": "triste"
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "bayokatta"
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "Nyan se lamenta: «Tendría que haberlos hecho antes…»",
+    "en": "Nyan laments: «I should have done it sooner…»"
+   },
+   "opciones": [
+    {
+     "jp": "もっと 早[はや]く やれば よかった…。",
+     "bien": true,
+     "tr": {
+      "es": "Tendría que haberlos hecho antes…",
+      "en": "I should have done it sooner…"
+     },
+     "voz": "h4",
+     "porque": {
+      "es": "ば + よかった: «habría estado bien si…», lamentas algo que no hiciste.",
+      "en": "ば + よかった: «it would have been good if…», regretting something you didn't do."
+     }
+    },
+    {
+     "jp": "もっと 早[はや]く やれば いい…。",
+     "bien": false,
+     "porque": {
+      "es": "よかった va en pasado porque hablas de algo que ya pasó. やればいい es un consejo para AHORA («basta con que lo hagas»).",
+      "en": "よかった is past because it's about something done. やればいい is advice for NOW («you just need to do it»)."
+     }
+    },
+    {
+     "jp": "もっと 早[はや]く やらなければ よかった…。",
+     "bien": false,
+     "porque": {
+      "es": "Así lamentas HABERLOS hecho. Lo que lamentas es NO haberlos hecho: やればよかった.",
+      "en": "That regrets HAVING done it. What you regret is NOT doing it: やればよかった."
+     }
+    }
+   ],
+   "cara": "triste",
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 300
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "kage",
+   "jp": "俺[おれ]は 全部[ぜんぶ] やった。",
+   "tr": {
+    "es": "Yo los he hecho todos.",
+    "en": "I did all of it."
+   },
+   "voz": "h5",
+   "cara": "presumido",
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 220
+     },
+     {
+      "que": "sensei",
+      "id": "sensei",
+      "x": 330
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "nakerebayokatta"
+  },
+  {
+   "t": "monta",
+   "encargo": 0
+  },
+  {
+   "t": "dice",
+   "habla": "sensei",
+   "jp": "…しかたが ないですね。 明日[あした]までに 出[だ]しなさい。",
+   "tr": {
+    "es": "…Qué remedio. Entrégalos mañana.",
+    "en": "…Oh well. Hand it in by tomorrow."
+   },
+   "voz": "h6",
+   "reacciona": {
+    "nyan": "feliz"
+   },
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 170
+     },
+     {
+      "que": "sensei",
+      "id": "sensei",
+      "x": 330
+     }
+    ]
+   }
+  },
+  {
+   "t": "elige",
+   "habla": "kage",
+   "pide": {
+    "es": "Kage también se lamenta: ¡no ha traído el tambor para el ensayo! ¿Qué dice?",
+    "en": "Kage has a regret too: he didn't bring the drum for practice! What does he say?"
+   },
+   "opciones": [
+    {
+     "jp": "太鼓[たいこ]を 持[も]って くれば よかった。",
+     "bien": true,
+     "tr": {
+      "es": "Tendría que haber traído el tambor.",
+      "en": "I should've brought the drum."
+     },
+     "voz": "h7",
+     "porque": {
+      "es": "持ってくる → 持ってくれば + よかった (てくる, de la clase 31).",
+      "en": "持ってくる → 持ってくれば + よかった (てくる, from class 31)."
+     }
+    },
+    {
+     "jp": "太鼓[たいこ]を 持[も]って きたら いい。",
+     "bien": false,
+     "porque": {
+      "es": "いい es un consejo para ahora; para lamentar lo que no hiciste, よかった: 持ってくればよかった.",
+      "en": "いい is advice for now; to regret what you didn't do, よかった: 持ってくればよかった."
+     }
+    },
+    {
+     "jp": "太鼓[たいこ]を 持[も]って くるば よかった。",
+     "bien": false,
+     "porque": {
+      "es": "La forma ば de くる es くれば.",
+      "en": "The ば form of くる is くれば."
+     }
+    }
+   ],
+   "cara": "pensando",
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 220
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 330
+     }
+    ]
+   }
+  },
+  {
+   "t": "toca",
+   "pide": {
+    "es": "¿Qué tiene que traer Nyan mañana? Escucha a Fukuro y tócalo.",
+    "en": "What does Nyan have to bring tomorrow? Listen to Fukuro and tap it."
+   },
+   "bien": "libro",
+   "quien": "sensei",
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 65
+     },
+     {
+      "que": "libro",
+      "x": 165,
+      "id": "libro",
+      "s": 1.1
+     },
+     {
+      "que": "lapiz",
+      "x": 220,
+      "id": "lapiz",
+      "s": 1.0
+     },
+     {
+      "que": "hagaki",
+      "x": 272,
+      "id": "hagaki",
+      "s": 0.9
+     },
+     {
+      "que": "sensei",
+      "id": "sensei",
+      "x": 345
+     }
+    ]
+   },
+   "jp": "ニャンさん、 明日[あした]は この ノートを 持[も]って きなさい。",
+   "voz": "h8",
+   "bien_msg": {
+    "es": "¡Eso! La ノート, el cuaderno de los deberes.",
+    "en": "Right! The ノート, the homework notebook."
+   },
+   "mal_msg": {
+    "es": "Ha dicho ノート: el cuaderno.",
+    "en": "She said ノート: the notebook."
+   }
+  }
+ ],
+ "epilogo": [
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "今日[きょう]から 毎日[まいにち] やる ことに します！",
+   "tr": {
+    "es": "¡A partir de hoy, he decidido hacerlos cada día!",
+    "en": "From today, I've decided to do it every day!"
+   },
+   "voz": "x1",
+   "cara": "feliz",
+   "brazo": "arriba",
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 300
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "本当[ほんとう]ですか？",
+   "tr": {
+    "es": "¿En serio?",
+    "en": "Really?"
+   },
+   "voz": "x2",
+   "cara": "pensando"
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta la frase: la escena hará lo que digas.",
+   "en": "Build the sentence: the scene will do what you say."
+  },
+  "piezas": [
+   {
+    "id": "tabesuginakereba",
+    "jp": "食[た]べすぎなければ",
+    "tipo": "verbo"
+   },
+   {
+    "id": "tabesugireba",
+    "jp": "食[た]べすぎれば",
+    "tipo": "verbo"
+   },
+   {
+    "id": "yokatta",
+    "jp": "よかった",
+    "tipo": "verbo"
+   },
+   {
+    "id": "ii",
+    "jp": "いい",
+    "tipo": "verbo"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Nyan confiesa otra cosa: «No tendría que haber comido tanto en vacaciones»",
+     "en": "Nyan confesses something else: «I shouldn't have eaten so much over the holidays»"
+    },
+    "escena": {
+     "fondo": "escuela",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 70
+      },
+      {
+       "que": "gato",
+       "id": "tama",
+       "x": 300
+      }
+     ]
+    },
+    "piezas": [
+     "tabesuginakereba",
+     "tabesugireba",
+     "yokatta",
+     "ii"
+    ],
+    "bien": [
+     [
+      "tabesuginakereba",
+      "yokatta"
+     ]
+    ],
+    "tr": {
+     "es": "No tendría que haber comido tanto.",
+     "en": "I shouldn't have eaten so much."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "manpu",
+      "objeto": "tama",
+      "manpu": "sudor"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "triste"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "tabesugireba",
+        "yokatta"
+       ]
+      },
+      "efecto": {
+       "tipo": "manpu",
+       "objeto": "tama",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "«Tendría que haber comido demasiado»… ¡no! Lo que lamentas es HABER comido tanto: en negativo, 食べすぎなければよかった.",
+       "en": "«I should have overeaten»… no! What you regret is HAVING eaten so much: negative, 食べすぎなければよかった."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "ii"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "Para lamentar algo que ya pasó, よかった, en pasado. Con いい sería un consejo para ahora.",
+       "en": "To regret something past, よかった, in the past. With いい it'd be advice for now."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "reto": {
+  "intro": {
+   "jp": "ふん。 宿題[しゅくだい]を やって いれば、 勝[か]てたかもな。",
+   "tr": {
+    "es": "Hmpf. Si hubieras hecho los deberes, igual me ganabas.",
+    "en": "Hmph. If you'd done your homework, maybe you'd win."
+   },
+   "voz": "k0"
+  },
+  "gana": {
+   "jp": "…くっ。 油断[ゆだん]しなければ よかった。",
+   "tr": {
+    "es": "…Tsk. No tendría que haberme confiado.",
+    "en": "…Tch. I shouldn't have let my guard down."
+   },
+   "voz": "kw"
+  },
+  "pierde": {
+   "jp": "ふん。 もっと 勉強[べんきょう]すれば よかったな。",
+   "tr": {
+    "es": "Hmpf. Tendrías que haber estudiado más, ¿eh?",
+    "en": "Hmph. Should've studied more, huh?"
+   },
+   "voz": "kl"
+  },
+  "pica": {
+   "jp": "…やるな。",
+   "tr": {
+    "es": "…No está mal.",
+    "en": "…Not bad."
+   },
+   "voz": "kp"
+  },
+  "burla": {
+   "jp": "ふん！",
+   "tr": {
+    "es": "¡Ja!",
+    "en": "Hah!"
+   },
+   "voz": "kb"
+  },
+  "preguntas": [
+   {
+    "tipo": "elige",
+    "jp": "傘[かさ]を 持[も]って くれ＿ よかった。",
+    "opciones": [
+     "ば",
+     "ろ",
+     "る"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Tendría que haber traído el paraguas.",
+     "en": "I should have brought an umbrella."
+    },
+    "porque": {
+     "es": "くる → くれば + よかった.",
+     "en": "くる → くれば + よかった."
+    },
+    "voz": "q1"
+   },
+   {
+    "tipo": "elige",
+    "jp": "あんな こと、 言[い]わなけれ＿ よかった。",
+    "opciones": [
+     "ば",
+     "ど",
+     "ら"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "No tendría que haber dicho eso.",
+     "en": "I shouldn't have said that."
+    },
+    "porque": {
+     "es": "言わない → 言わなければ + よかった.",
+     "en": "言わない → 言わなければ + よかった."
+    },
+    "voz": "q2"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "もっと 勉強[べんきょう]すれば よかった。",
+    "correcta": true,
+    "tr": {
+     "es": "Tendría que haber estudiado más.",
+     "en": "I should have studied more."
+    },
+    "porque": {
+     "es": "Bien: する → すれば + よかった.",
+     "en": "Right: する → すれば + よかった."
+    },
+    "voz": "q3"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "早[はや]く 寝[ね]れば いいだった。",
+    "correcta": false,
+    "tr": {
+     "es": "(Tendría que haberme acostado antes.)",
+     "en": "(I should've gone to bed earlier.)"
+    },
+    "porque": {
+     "es": "El pasado de いい es よかった: 寝ればよかった.",
+     "en": "The past of いい is よかった: 寝ればよかった."
+    },
+    "voz": "q4"
+   },
+   {
+    "tipo": "oye",
+    "jp": "もっと 早[はや]く 来[く]れば よかったです。",
+    "habla": "sensei",
+    "opciones": [
+     {
+      "es": "Tendría que haber venido antes.",
+      "en": "I should have come sooner."
+     },
+     {
+      "es": "Mejor que vengas antes.",
+      "en": "You'd better come sooner."
+     },
+     {
+      "es": "He venido antes.",
+      "en": "I came sooner."
+     }
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "くればよかった: lamento por algo que no hiciste.",
+     "en": "くればよかった: regret for something you didn't do."
+    },
+    "voz": "q5"
+   },
+   {
+    "tipo": "imagen",
+    "jp": "この ノートを 持[も]って きなさい。",
+    "opciones": [
+     "libro",
+     "lapiz",
+     "hagaki"
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "ノート: el cuaderno.",
+     "en": "ノート: the notebook."
+    },
+    "pide": {
+     "es": "¿Qué tiene que traer?",
+     "en": "What must he bring?"
+    }
+   }
+  ]
+ },
+ "siguiente": {
+  "es": "11 de enero: el día de romper el 鏡餅 y comérselo… pero el 鏡餅 ha desaparecido. Y Nyan tiene la boca llena.",
+  "en": "January 11th: the day to break the 鏡餅 and eat it… but the 鏡餅 has vanished. And Nyan's mouth is full."
+ },
+ "chuleta": {
+  "patron": {
+   "es": "〔ば〕よかった ・ 〔なければ〕よかった",
+   "en": "〔ば〕よかった ・ 〔なければ〕よかった"
+  },
+  "patron_tr": {
+   "es": "tendría que haber… ・ no tendría que haber…",
+   "en": "I should have… ・ I shouldn't have…"
+  },
+  "filas": [
+   {
+    "jp": "もっと 早[はや]く 来[く]れば よかったです。",
+    "es": "Tendría que haber venido antes.",
+    "en": "I should have come sooner.",
+    "registro": "educado"
+   },
+   {
+    "jp": "あー、 行[い]けば よかった！",
+    "es": "¡Ay, tendría que haber ido! (a un amigo)",
+    "en": "Argh, I should've gone! (to a friend)",
+    "registro": "amigos"
+   },
+   {
+    "jp": "言[い]わなければ よかった。",
+    "es": "No tendría que haberlo dicho.",
+    "en": "I shouldn't have said it."
+   }
+  ],
+  "consejo": {
+   "es": "行けばよかった, «tendría que haber ido», es lo que dirás cuando un amigo te cuente lo bien que lo pasó en algo a lo que no fuiste.",
+   "en": "行けばよかった, «I should've gone», is what you'll say when a friend tells you how much fun they had at something you skipped."
+  }
+ }
+}

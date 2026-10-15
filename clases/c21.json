@@ -1,0 +1,799 @@
+{
+ "id": "c21",
+ "clase": 21,
+ "desde": 350,
+ "titulo": {
+  "es": "El atajo de Kage: 〜なければならない",
+  "en": "Kage's shortcut: 〜なければならない"
+ },
+ "resumen": {
+  "es": "〜なければならない = tienes que hacerlo (si no lo haces, hay problema). Se forma con el verbo en negativo (〜ない) + ければならない.",
+  "en": "〜なければならない = you have to do it (or there's trouble). It's built from the negative form (〜ない) + ければならない."
+ },
+ "formato": 2,
+ "lugar": "bosque",
+ "mision": {
+  "texto": {
+   "es": "Tarde libre para pasear por un bosque de otoño. Pero hay cosas que HAY que hacer: escribir el diario del viaje, volver antes de las cinco… y Kage se empeña en coger «un atajo». Di lo que hay que hacer (y lo que pasa si no).",
+   "en": "A free afternoon strolling through an autumn forest. But there are things you HAVE to do: write the trip diary, be back by five… and Kage insists on «a shortcut». Say what must be done (and what happens if not)."
+  },
+  "escena": {
+   "fondo": "bosque",
+   "cosas": [
+    {
+     "que": "nyan",
+     "x": 70
+    },
+    {
+     "que": "gato",
+     "id": "tama",
+     "x": 170
+    },
+    {
+     "que": "sensei",
+     "id": "sensei",
+     "x": 330
+    }
+   ]
+  },
+  "cara": "feliz",
+  "jp": "きれいな 森[もり]！",
+  "voz": "m0"
+ },
+ "reglas": [
+  {
+   "id": "nakereba",
+   "nombre": {
+    "es": "〜なければならない: tener que",
+    "en": "〜なければならない: have to"
+   },
+   "patron": {
+    "es": "〔verbo en ない〕→ 〜なければ なりません",
+    "en": "〔ない verb〕→ 〜なければ なりません"
+   },
+   "explica": {
+    "es": "El japonés dice «tener que» con una doble negación: 書かなければなりません es, al pie de la letra, «si no lo escribes, no puede ser». Se forma desde el negativo: 書かない → quitas la い → 書かな + ければ + なりません. La idea de fondo es que NO hacerlo trae problemas, y por eso suena a obligación seria: normas, horarios, deberes.",
+    "en": "Japanese says «have to» with a double negative: 書かなければなりません is literally «if you don't write it, it can't be». It's built from the negative: 書かない → drop the い → 書かな + ければ + なりません. The idea is that NOT doing it causes trouble, so it sounds like a serious obligation: rules, schedules, homework."
+   },
+   "ejemplos": [
+    {
+     "jp": "五時[ごじ]までに 帰[かえ]らなければ なりません。",
+     "es": "Tenemos que volver antes de las cinco.",
+     "en": "We have to be back by five.",
+     "voz": "r1-1"
+    },
+    {
+     "jp": "日記[にっき]を 書[か]かなければ なりません。",
+     "es": "Tengo que escribir el diario.",
+     "en": "I have to write the diary.",
+     "voz": "r1-2"
+    }
+   ],
+   "ojo": {
+    "es": "Sale del negativo normal (書かない), no del de «poder» (書けない), porque lo que obliga es «si no lo haces», no «si no puedes».",
+    "en": "It comes from the plain negative (書かない), not the «can't» one (書けない), because the obligation is «if you don't», not «if you can't»."
+   }
+  },
+  {
+   "id": "nakya",
+   "nombre": {
+    "es": "〜なきゃ: tengo que (entre amigos)",
+    "en": "〜なきゃ: gotta (among friends)"
+   },
+   "patron": {
+    "es": "〔verbo en ない〕→ 〜なきゃ／〜なくちゃ",
+    "en": "〔ない verb〕→ 〜なきゃ／〜なくちゃ"
+   },
+   "explica": {
+    "es": "なければならない es largo para decirlo corriendo. Entre amigos se corta: 急がなきゃ (de 急がなければ) o 急がなくちゃ (de 急がなくては), y el «no puede ser» del final se sobrentiende. Significa lo mismo, pero suena cercano e informal: con la profe, mejor la forma completa.",
+    "en": "なければならない is long to say in a rush. Among friends it's cut short: 急がなきゃ (from 急がなければ) or 急がなくちゃ (from 急がなくては), and the «it can't be» at the end is understood. Same meaning, but close and casual: with the teacher, use the full form."
+   },
+   "ejemplos": [
+    {
+     "jp": "急[いそ]がなきゃ！",
+     "es": "¡Hay que darse prisa!",
+     "en": "Gotta hurry!",
+     "voz": "r2-1"
+    },
+    {
+     "jp": "日記[にっき]を 書[か]かなくちゃ。",
+     "es": "Tengo que escribir el diario.",
+     "en": "I've got to write the diary.",
+     "voz": "r2-2"
+    }
+   ],
+   "ojo": {
+    "es": "El truco es el mismo que en la forma larga: sale del negativo normal (急がない), no del de «poder» (急げない).",
+    "en": "Same trick as the long form: it comes from the plain negative (急がない), not the «can't» one (急げない)."
+   }
+  }
+ ],
+ "historia": [
+  {
+   "t": "dice",
+   "habla": "sensei",
+   "jp": "五時[ごじ]までに 帰[かえ]らなければ なりません。",
+   "tr": {
+    "es": "Tenemos que volver antes de las cinco.",
+    "en": "We have to be back by five."
+   },
+   "voz": "h1",
+   "escena": {
+    "fondo": "bosque",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 170
+     },
+     {
+      "que": "sensei",
+      "id": "sensei",
+      "x": 330
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "nakereba"
+  },
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "えー、 まだ 遊[あそ]びたい！",
+   "tr": {
+    "es": "¡Jo, quiero jugar más!",
+    "en": "Aww, I want to play more!"
+   },
+   "voz": "h2",
+   "cara": "triste"
+  },
+  {
+   "t": "elige",
+   "habla": "tama",
+   "pide": {
+    "es": "Tama le recuerda a Nyan otra obligación: el diario del viaje. ¿Qué le dice?",
+    "en": "Tama reminds Nyan of another duty: the trip diary. What does she say?"
+   },
+   "opciones": [
+    {
+     "jp": "日記[にっき]を 書[か]かなければ なりません。",
+     "bien": true,
+     "tr": {
+      "es": "Tienes que escribir el diario.",
+      "en": "You have to write the diary."
+     },
+     "voz": "h3",
+     "porque": {
+      "es": "書く → 書かない → 書かなければ + なりません: «si no lo escribes, no va».",
+      "en": "書く → 書かない → 書かなければ + なりません: «if you don't write it, it won't do»."
+     }
+    },
+    {
+     "jp": "日記[にっき]を 書[か]けなければ なりません。",
+     "bien": false,
+     "porque": {
+      "es": "書けない es «no poder escribir» (el potencial). La obligación sale del negativo normal: 書かなければ.",
+      "en": "書けない is «can't write» (the potential). The obligation comes from the plain negative: 書かなければ."
+     }
+    },
+    {
+     "jp": "日記[にっき]を 書[か]かないければ なりません。",
+     "bien": false,
+     "porque": {
+      "es": "Del negativo 書かない se quita la い y se pone ければ: 書かなければ.",
+      "en": "From the negative 書かない, drop the い and add ければ: 書かなければ."
+     }
+    }
+   ],
+   "cara": "pensando",
+   "escena": {
+    "fondo": "bosque",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 300
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "kage",
+   "jp": "近道[ちかみち]が ある。 こっちだ。",
+   "tr": {
+    "es": "Hay un atajo. Por aquí.",
+    "en": "There's a shortcut. This way."
+   },
+   "voz": "h4",
+   "cara": "presumido",
+   "reacciona": {
+    "tama": "pensando"
+   },
+   "escena": {
+    "fondo": "bosque",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 230
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 330
+     }
+    ]
+   }
+  },
+  {
+   "t": "monta",
+   "encargo": 0
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "えっ… 地図[ちず]が 逆[ぎゃく]です…！",
+   "tr": {
+    "es": "¿Eh…? ¡El mapa estaba al revés…!",
+    "en": "Huh…? The map was upside down…!"
+   },
+   "voz": "h5",
+   "cara": "sorpresa",
+   "reacciona": {
+    "kage": "aburrido"
+   },
+   "escena": {
+    "fondo": "bosque",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "mapa",
+      "x": 195,
+      "s": 1.0
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 260
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 340
+     }
+    ]
+   }
+  },
+  {
+   "t": "toca",
+   "pide": {
+    "es": "Anochece. Fukuro dice qué hace falta ahora. Escucha y toca.",
+    "en": "It's getting dark. Fukuro says what's needed now. Listen and tap."
+   },
+   "bien": "linterna",
+   "quien": "sensei",
+   "escena": {
+    "fondo": "bosque",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 65
+     },
+     {
+      "que": "linterna",
+      "x": 165,
+      "id": "linterna",
+      "s": 1.1
+     },
+     {
+      "que": "mapa",
+      "x": 222,
+      "id": "mapa",
+      "s": 1.0
+     },
+     {
+      "que": "bufanda",
+      "x": 275,
+      "id": "bufanda",
+      "s": 1.0
+     },
+     {
+      "que": "sensei",
+      "id": "sensei",
+      "x": 345
+     }
+    ]
+   },
+   "jp": "暗[くら]いですね。 懐中電灯[かいちゅうでんとう]を つけなければ なりません。",
+   "voz": "h6",
+   "bien_msg": {
+    "es": "¡Eso! 懐中電灯 es la linterna: つけなければなりません, «hay que encenderla».",
+    "en": "Right! 懐中電灯 is the torch: つけなければなりません, «we have to turn it on»."
+   },
+   "mal_msg": {
+    "es": "Ha dicho 懐中電灯: la linterna, para ver en la oscuridad.",
+    "en": "She said 懐中電灯: the torch, to see in the dark."
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "nakya"
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "¡Hay que darse prisa! Nyan se lo dice a Tama, entre amigos:",
+    "en": "You need to hurry! Nyan tells Tama, as friends do:"
+   },
+   "opciones": [
+    {
+     "jp": "急[いそ]がなきゃ！",
+     "bien": true,
+     "tr": {
+      "es": "¡Hay que darse prisa!",
+      "en": "We've got to hurry!"
+     },
+     "voz": "h7",
+     "porque": {
+      "es": "なきゃ es la forma corta de なければ(ならない) que se usa entre amigos.",
+      "en": "なきゃ is the short form of なければ(ならない) used among friends."
+     }
+    },
+    {
+     "jp": "急[いそ]ぎなきゃ！",
+     "bien": false,
+     "porque": {
+      "es": "なきゃ sale del negativo: 急がない → 急がなきゃ.",
+      "en": "なきゃ comes from the negative: 急がない → 急がなきゃ."
+     }
+    },
+    {
+     "jp": "急[いそ]げなきゃ！",
+     "bien": false,
+     "porque": {
+      "es": "急げない es «no poder darse prisa». La obligación sale del negativo normal: 急がなきゃ.",
+      "en": "急げない is «can't hurry». The obligation comes from the plain negative: 急がなきゃ."
+     }
+    }
+   ],
+   "cara": "sorpresa",
+   "escena": {
+    "fondo": "bosque",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "linterna",
+      "x": 200,
+      "s": 1.1
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 310
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "kage",
+   "jp": "…ふん。 近道[ちかみち]じゃ なかった。",
+   "tr": {
+    "es": "…Hmpf. No era un atajo.",
+    "en": "…Hmph. It wasn't a shortcut."
+   },
+   "voz": "h8",
+   "cara": "aburrido",
+   "reacciona": {
+    "nyan": "sorpresa"
+   },
+   "escena": {
+    "fondo": "bosque",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 230
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 330
+     }
+    ]
+   }
+  }
+ ],
+ "epilogo": [
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "道[みち]が 分[わ]かりません…。",
+   "tr": {
+    "es": "No sé por dónde es…",
+    "en": "I don't know which way it is…"
+   },
+   "voz": "x1",
+   "cara": "pensando",
+   "escena": {
+    "fondo": "bosque",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "linterna",
+      "x": 200,
+      "s": 1.1
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 310
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "えっ… 迷子[まいご]？",
+   "tr": {
+    "es": "¿Eh…? ¿Estamos perdidos?",
+    "en": "Huh…? Are we lost?"
+   },
+   "voz": "x2",
+   "cara": "sorpresa"
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta la frase: la escena hará lo que digas.",
+   "en": "Build the sentence: the scene will do what you say."
+  },
+  "piezas": [
+   {
+    "id": "chizu",
+    "jp": "地図[ちず]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "wo",
+    "jp": "を",
+    "tipo": "particula"
+   },
+   {
+    "id": "minakereba",
+    "jp": "見[み]なければ",
+    "tipo": "verbo"
+   },
+   {
+    "id": "minai",
+    "jp": "見[み]ない",
+    "tipo": "verbo"
+   },
+   {
+    "id": "mireba",
+    "jp": "見[み]れば",
+    "tipo": "verbo"
+   },
+   {
+    "id": "narimasen",
+    "jp": "なりません",
+    "tipo": "verbo"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Tama no se fía de los atajos de Kage: «Tenemos que mirar el mapa».",
+     "en": "Tama doesn't trust Kage's shortcuts: «We have to look at the map»."
+    },
+    "escena": {
+     "fondo": "bosque",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 80
+      },
+      {
+       "que": "gato",
+       "id": "tama",
+       "x": 300
+      }
+     ]
+    },
+    "piezas": [
+     "chizu",
+     "wo",
+     "minakereba",
+     "minai",
+     "mireba",
+     "narimasen"
+    ],
+    "bien": [
+     [
+      "chizu",
+      "wo",
+      "minakereba",
+      "narimasen"
+     ]
+    ],
+    "tr": {
+     "es": "Tenemos que mirar el mapa.",
+     "en": "We have to look at the map."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "aparece",
+      "que": "mapa",
+      "x": 195,
+      "y": 236,
+      "s": 1.0,
+      "id": "mapa"
+     },
+     {
+      "tipo": "manpu",
+      "objeto": "tama",
+      "manpu": "brillo"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "minai"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "Falta ければ: 見ない → 見なければ. Sin él, なりません no tiene a qué agarrarse.",
+       "en": "ければ is missing: 見ない → 見なければ. Without it, なりません has nothing to hang on."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "mireba"
+       ]
+      },
+      "efecto": {
+       "tipo": "manpu",
+       "objeto": "tama",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "見れば es «si lo miras». La obligación sale del NEGATIVO: 見なければ («si no lo miras») + なりません («no va»).",
+       "en": "見れば is «if you look». The obligation comes from the NEGATIVE: 見なければ («if you don't look») + なりません («it won't do»)."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "reto": {
+  "intro": {
+   "jp": "ふん。 迷[まよ]っても 勝負[しょうぶ]は しなければ ならない。",
+   "tr": {
+    "es": "Hmpf. Perdidos o no, hay que batirse.",
+    "en": "Hmph. Lost or not, we have to duel."
+   },
+   "voz": "k0"
+  },
+  "gana": {
+   "jp": "…くっ。 もっと 練習[れんしゅう]しなきゃ。",
+   "tr": {
+    "es": "…Tsk. Tengo que practicar más.",
+    "en": "…Tch. I've got to practise more."
+   },
+   "voz": "kw"
+  },
+  "pierde": {
+   "jp": "ふん。 地図[ちず]を 読[よ]まなきゃ だめだな。",
+   "tr": {
+    "es": "Hmpf. Hay que saber leer el mapa, ¿eh?",
+    "en": "Hmph. You need to read the map, huh?"
+   },
+   "voz": "kl"
+  },
+  "pica": {
+   "jp": "…やるな。",
+   "tr": {
+    "es": "…No está mal.",
+    "en": "…Not bad."
+   },
+   "voz": "kp"
+  },
+  "burla": {
+   "jp": "ふん！",
+   "tr": {
+    "es": "¡Ja!",
+    "en": "Hah!"
+   },
+   "voz": "kb"
+  },
+  "preguntas": [
+   {
+    "tipo": "elige",
+    "jp": "明日[あした]は 早[はや]く 起[お]き＿ なりません。",
+    "opciones": [
+     "なければ",
+     "なくても",
+     "ないで"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Mañana tengo que levantarme pronto.",
+     "en": "I have to get up early tomorrow."
+    },
+    "porque": {
+     "es": "Obligación: 起きない → 起きなければ + なりません.",
+     "en": "Obligation: 起きない → 起きなければ + なりません."
+    },
+    "voz": "q1"
+   },
+   {
+    "tipo": "elige",
+    "jp": "薬[くすり]を 飲[の]ま＿ なりません。",
+    "opciones": [
+     "なければ",
+     "ければ",
+     "ないで"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Tengo que tomarme la medicina.",
+     "en": "I have to take my medicine."
+    },
+    "porque": {
+     "es": "飲まない → 飲まなければ.",
+     "en": "飲まない → 飲まなければ."
+    },
+    "voz": "q2"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "宿題[しゅくだい]を しなければ なりません。",
+    "correcta": true,
+    "tr": {
+     "es": "Tengo que hacer los deberes.",
+     "en": "I have to do my homework."
+    },
+    "porque": {
+     "es": "Bien: する → しない → しなければ.",
+     "en": "Right: する → しない → しなければ."
+    },
+    "voz": "q3"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "学校[がっこう]に 行[い]かないければ なりません。",
+    "correcta": false,
+    "tr": {
+     "es": "(Tengo que ir al cole.)",
+     "en": "(I have to go to school.)"
+    },
+    "porque": {
+     "es": "行かない → 行かなければ, sin la い.",
+     "en": "行かない → 行かなければ, without the い."
+    },
+    "voz": "q4"
+   },
+   {
+    "tipo": "oye",
+    "jp": "五時[ごじ]までに 帰[かえ]らなければ なりません。",
+    "habla": "sensei",
+    "opciones": [
+     {
+      "es": "Hay que volver antes de las cinco.",
+      "en": "We have to be back by five."
+     },
+     {
+      "es": "Podemos volver a las cinco.",
+      "en": "We can come back at five."
+     },
+     {
+      "es": "No hace falta volver.",
+      "en": "There's no need to come back."
+     }
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "帰らなければなりません: obligación.",
+     "en": "帰らなければなりません: obligation."
+    },
+    "voz": "q5"
+   },
+   {
+    "tipo": "imagen",
+    "jp": "暗[くら]いから、 懐中電灯[かいちゅうでんとう]を つけなければ。",
+    "opciones": [
+     "linterna",
+     "mapa",
+     "reloj"
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "懐中電灯: la linterna.",
+     "en": "懐中電灯: the torch."
+    },
+    "pide": {
+     "es": "¿Qué hay que encender?",
+     "en": "What needs turning on?"
+    }
+   }
+  ]
+ },
+ "siguiente": {
+  "es": "Perdidos en el bosque y anocheciendo: ¿sabéis siquiera si podréis volver? Kotarō tiene un superpoder…",
+  "en": "Lost in the forest as night falls: do you even know if you can get back? Kotarō has a superpower…"
+ },
+ "chuleta": {
+  "patron": {
+   "es": "〔ない → なければ〕なりません ・ 〔ない → なきゃ〕",
+   "en": "〔ない → なければ〕なりません ・ 〔ない → なきゃ〕"
+  },
+  "patron_tr": {
+   "es": "tener que (educado) ・ tener que (amigos)",
+   "en": "have to (polite) ・ gotta (friends)"
+  },
+  "filas": [
+   {
+    "jp": "明日[あした]は 早[はや]く 起[お]きなければ なりません。",
+    "es": "Mañana tengo que madrugar.",
+    "en": "I have to get up early tomorrow.",
+    "registro": "educado"
+   },
+   {
+    "jp": "もう 帰[かえ]らなきゃ！",
+    "es": "¡Ya me tengo que ir! (a un amigo)",
+    "en": "Gotta go now! (to a friend)",
+    "registro": "amigos"
+   },
+   {
+    "jp": "薬[くすり]を 飲[の]まなければ いけません。",
+    "es": "Tienes que tomarte la medicina.",
+    "en": "You have to take your medicine."
+   }
+  ],
+  "consejo": {
+   "es": "なければなりません y なければいけません significan casi lo mismo; いけません suena un poco más a norma de alguien (padres, profes), y なりません, a obligación general.",
+   "en": "なければなりません and なければいけません mean almost the same; いけません sounds a bit more like someone's rule (parents, teachers), なりません like a general obligation."
+  }
+ }
+}

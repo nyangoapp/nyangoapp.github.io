@@ -1,0 +1,954 @@
+{
+ "id": "c54",
+ "clase": 54,
+ "desde": 1930,
+ "titulo": {
+  "es": "Déjame dormir: 〜させてください y 〜させてもらう",
+  "en": "Let me sleep: 〜させてください and 〜させてもらう"
+ },
+ "resumen": {
+  "es": "させてください pide permiso con educación: «déjame hacerlo». させてもらいます anuncia que TÚ te tomas esa libertad. Las dos usan el causativo que ya viste: 寝る → 寝させる → 寝させて。",
+  "en": "させてください politely asks for permission: «let me do it». させてもらいます announces that YOU are taking that liberty. Both use the causative you already saw: 寝る → 寝させる → 寝させて。"
+ },
+ "intro": [
+  {
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "sueno"
+     },
+     {
+      "que": "profesor",
+      "x": 280
+     }
+    ]
+   },
+   "cara": "sueno",
+   "jp": "先生[せんせい]、 ちょっと 寝[ね]させて ください…。",
+   "voz": "i1",
+   "tr": {
+    "es": "Profesor, déjeme dormir un poco, por favor…",
+    "en": "Teacher, please let me sleep a little…"
+   },
+   "cartela": {
+    "es": "させてください: pides permiso, con educación.",
+    "en": "させてください: you ask for permission, politely."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "triste"
+     },
+     {
+      "que": "profesor",
+      "x": 280
+     }
+    ]
+   },
+   "habla": "sensei",
+   "cara": "normal",
+   "jp": "今[いま] 寝[ね]ては いけません。",
+   "voz": "i2",
+   "tr": {
+    "es": "Ahora no puedes dormir.",
+    "en": "You can't sleep right now."
+   },
+   "cartela": {
+    "es": "Pediste permiso con educación… ¡y aun así, no!",
+    "en": "You asked so politely… and still, no!"
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "sueno"
+     },
+     {
+      "que": "gato",
+      "x": 270
+     }
+    ]
+   },
+   "cara": "sueno",
+   "jp": "タマ、 ちょっと 寝[ね]させて。",
+   "voz": "i3",
+   "tr": {
+    "es": "Tama, déjame dormir un poco.",
+    "en": "Tama, let me sleep a bit."
+   },
+   "cartela": {
+    "es": "Con Tama, sin ください: solo させて。",
+    "en": "With Tama, just させて — no ください."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 130,
+      "cara": "feliz"
+     },
+     {
+      "que": "cama",
+      "x": 280,
+      "s": 1.2
+     },
+     {
+      "que": "manpu",
+      "tipo": "z",
+      "x": 250,
+      "y": 90
+     }
+    ]
+   },
+   "cara": "feliz",
+   "jp": "今日[きょう]は 休[やす]ませて もらいます。",
+   "voz": "i4",
+   "tr": {
+    "es": "Hoy me tomo la libertad de descansar.",
+    "en": "Today I'll take the liberty of resting."
+   },
+   "cartela": {
+    "es": "させてもらう: anuncias que TÚ te tomas esa libertad. ¡A practicar!",
+    "en": "させてもらう: you announce that YOU are taking that liberty. Let's practice!"
+   }
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta cada frase. させてください pide permiso con educación; させて, en plan amigos; させてもらう anuncia que te tomas la libertad. てもいいですか, la que ya sabías, sirve para un sí o no sencillo.",
+   "en": "Build each sentence. させてください politely asks permission; させて, casually; させてもらう announces you're taking the liberty. てもいいですか, which you already knew, is for a simple yes-or-no."
+  },
+  "piezas": [
+   {
+    "id": "chotto",
+    "jp": "ちょっと",
+    "tipo": "palabra"
+   },
+   {
+    "id": "nesasetekudasai",
+    "jp": "寝[ね]させて ください",
+    "tipo": "verbo"
+   },
+   {
+    "id": "netemoiidesuka",
+    "jp": "寝[ね]てもいいですか",
+    "tipo": "verbo"
+   },
+   {
+    "id": "neteimasu",
+    "jp": "寝[ね]ています",
+    "tipo": "verbo"
+   },
+   {
+    "id": "tama",
+    "jp": "タマ",
+    "tipo": "palabra"
+   },
+   {
+    "id": "nesasete",
+    "jp": "寝[ね]させて",
+    "tipo": "verbo"
+   },
+   {
+    "id": "netai",
+    "jp": "寝[ね]たい",
+    "tipo": "verbo"
+   },
+   {
+    "id": "kyouwa",
+    "jp": "今日[きょう]は",
+    "tipo": "palabra"
+   },
+   {
+    "id": "yasumasetemoraimasu",
+    "jp": "休[やす]ませて もらいます",
+    "tipo": "verbo"
+   },
+   {
+    "id": "yasumimasu",
+    "jp": "休[やす]みます",
+    "tipo": "verbo"
+   },
+   {
+    "id": "yasumasetekudasai",
+    "jp": "休[やす]ませて ください",
+    "tipo": "verbo"
+   },
+   {
+    "id": "onigiriwo",
+    "jp": "おにぎりを",
+    "tipo": "palabra"
+   },
+   {
+    "id": "tabetemoiidesuka",
+    "jp": "食[た]べても いいですか",
+    "tipo": "verbo"
+   },
+   {
+    "id": "tabesasetekudasai",
+    "jp": "食[た]べさせて ください",
+    "tipo": "verbo"
+   },
+   {
+    "id": "kawasetekudasai",
+    "jp": "買[か]わせて ください",
+    "tipo": "verbo"
+   },
+   {
+    "id": "kattemoiidesuka",
+    "jp": "買[か]ってもいいですか",
+    "tipo": "verbo"
+   },
+   {
+    "id": "kawanai",
+    "jp": "買[か]わない",
+    "tipo": "verbo"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Pide permiso al sensei, con educación: «Déjeme dormir un poco, por favor».",
+     "en": "Ask the teacher politely: «Please let me sleep a little»."
+    },
+    "escena": {
+     "fondo": "escuela",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "sueno"
+      },
+      {
+       "que": "profesor",
+       "x": 280
+      }
+     ]
+    },
+    "piezas": [
+     "chotto",
+     "nesasetekudasai",
+     "netemoiidesuka",
+     "neteimasu"
+    ],
+    "bien": [
+     [
+      "chotto",
+      "nesasetekudasai"
+     ]
+    ],
+    "tr": {
+     "es": "Déjeme dormir un poco, por favor.",
+     "en": "Please let me sleep a little."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "duerme",
+      "objeto": "nyan"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "netemoiidesuka"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "てもいいですか también pide permiso, pero aquí practicamos el «déjeme hacerlo» del causativo: させてください。",
+       "en": "てもいいですか also asks permission, but here we're practicing the causative «let me do it»: させてください。"
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "neteimasu"
+       ]
+      },
+      "efecto": {
+       "tipo": "manpu",
+       "objeto": "profesor",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "ています dice que YA está durmiendo; aquí Nyan está PIDIENDO permiso, no informando.",
+       "en": "ています says he's ALREADY sleeping; here Nyan is ASKING permission, not reporting."
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "nesasetekudasai"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin させてください no queda claro que estás PIDIENDO permiso.",
+       "en": "Without させてください it's not clear you're ASKING for permission."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Ahora pídeselo a Tama, en plan casual (sin ください): «Déjame dormir un poco».",
+     "en": "Now ask Tama casually (no ください): «Let me sleep a bit»."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "sueno"
+      },
+      {
+       "que": "gato",
+       "x": 270
+      }
+     ]
+    },
+    "piezas": [
+     "tama",
+     "chotto",
+     "nesasete",
+     "nesasetekudasai",
+     "netai"
+    ],
+    "bien": [
+     [
+      "tama",
+      "chotto",
+      "nesasete"
+     ]
+    ],
+    "tr": {
+     "es": "Tama, déjame dormir un poco.",
+     "en": "Tama, let me sleep a bit."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "manpu",
+      "objeto": "gato",
+      "manpu": "sudor"
+     },
+     {
+      "tipo": "duerme",
+      "objeto": "nyan"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "nesasetekudasai"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "ください es formal; con Tama hablas en plan casual: solo させて。",
+       "en": "ください is formal; with Tama you speak casually: just させて。"
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "netai"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "寝たい es «quiero dormir» (un deseo tuyo); aquí pides que TE DEJEN: させて。",
+       "en": "寝たい is «I want to sleep» (your own wish); here you're asking to BE LET: させて。"
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "nesasete"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin させて no pides permiso, solo dices que tienes sueño.",
+       "en": "Without させて you're not asking permission, just saying you're sleepy."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Nyan decide descansar hoy y lo anuncia: «Hoy me tomo la libertad de descansar».",
+     "en": "Nyan decides to rest today and announces it: «Today I'll take the liberty of resting»."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 130,
+       "cara": "feliz"
+      },
+      {
+       "que": "cama",
+       "x": 270,
+       "s": 1.2
+      }
+     ]
+    },
+    "piezas": [
+     "kyouwa",
+     "yasumasetemoraimasu",
+     "yasumimasu",
+     "yasumasetekudasai"
+    ],
+    "bien": [
+     [
+      "kyouwa",
+      "yasumasetemoraimasu"
+     ]
+    ],
+    "tr": {
+     "es": "Hoy me tomo la libertad de descansar.",
+     "en": "Today I'll take the liberty of resting."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "brilla",
+      "objeto": "cama"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz",
+      "brazo": "arriba"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "yasumimasu"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "休みます solo dice que descansas. させてもらいます añade que alguien te lo permite, aunque sea calladamente.",
+       "en": "休みます just says you'll rest. させてもらいます adds that someone lets you, even quietly."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "yasumasetekudasai"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "ください pide permiso a alguien; aquí Nyan ya lo anuncia, no lo pide: もらいます。",
+       "en": "ください asks someone for permission; here Nyan is announcing it, not asking: もらいます。"
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "yasumasetemoraimasu"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin ませてもらいます no queda la idea de «me tomo la libertad».",
+       "en": "Without ませてもらいます you lose the «I'll take the liberty» idea."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Pregunta simple: «¿Puedo comer un onigiri?» (permiso sencillo, no hace falta el causativo).",
+     "en": "Simple question: «May I eat an onigiri?» (simple permission, no need for the causative)."
+    },
+    "escena": {
+     "fondo": "cocina",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "pensando"
+      },
+      {
+       "que": "onigiri",
+       "x": 270,
+       "s": 1.2
+      }
+     ]
+    },
+    "piezas": [
+     "onigiriwo",
+     "tabetemoiidesuka",
+     "tabesasetekudasai"
+    ],
+    "bien": [
+     [
+      "onigiriwo",
+      "tabetemoiidesuka"
+     ]
+    ],
+    "tr": {
+     "es": "¿Puedo comer un onigiri?",
+     "en": "May I eat an onigiri?"
+    },
+    "efecto_bien": [
+     {
+      "tipo": "brilla",
+      "objeto": "onigiri"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "tabesasetekudasai"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "させてください pide dejar que hagas algo importante; para un sí o no sencillo, てもいいですか basta.",
+       "en": "させてください asks to be let do something important; for a simple yes-or-no, てもいいですか is enough."
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "tabetemoiidesuka"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin てもいいですか no estás preguntando nada.",
+       "en": "Without てもいいですか you're not asking anything."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Reto: Nyan quiere comprarse un juguete. Al dependiente, con educación: «Por favor, déjeme comprarlo».",
+     "en": "Challenge: Nyan wants to buy a toy. To the clerk, politely: «Please let me buy it»."
+    },
+    "escena": {
+     "fondo": "tienda",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "pensando"
+      },
+      {
+       "que": "persona",
+       "x": 280
+      }
+     ]
+    },
+    "piezas": [
+     "kawasetekudasai",
+     "kattemoiidesuka",
+     "kawanai"
+    ],
+    "bien": [
+     [
+      "kawasetekudasai"
+     ]
+    ],
+    "tr": {
+     "es": "Por favor, déjeme comprarlo.",
+     "en": "Please let me buy it."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "brilla",
+      "objeto": "nyan"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz",
+      "brazo": "arriba"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "kattemoiidesuka"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "¿Puedo comprarlo? también se entiende, pero el reto pide el «déjeme hacerlo»: させてください。",
+       "en": "May I buy it? is also understood, but the challenge asks for «let me do it»: させてください。"
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "kawanai"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "triste"
+      },
+      "msg": {
+       "es": "買わない es «no comprar»: justo lo contrario de lo que quiere Nyan.",
+       "en": "買わない is «not buying»: the opposite of what Nyan wants."
+      }
+     }
+    ],
+    "pista": {
+     "es": "Causativo de 買[か]う: 買[か]わせる。 Añádele て ください。",
+     "en": "Causative of 買[か]う: 買[か]わせる。 Add て ください。"
+    }
+   }
+  ]
+ },
+ "juego": {
+  "intro": {
+   "es": "¿させてください (formal), させて (con amigos) o てもいいですか (permiso sencillo, ya lo sabías)? Completa cada frase.",
+   "en": "させてください (formal), させて (with friends), or てもいいですか (simple permission, you already knew this)? Complete each sentence."
+  },
+  "nyan": {
+   "es": "Yo pido permiso para todo. Total, luego hago lo que quiero igual.",
+   "en": "I ask permission for everything. In the end I do what I want anyway."
+  },
+  "cestas": [
+   {
+    "id": "kudasai",
+    "jp": "させてください",
+    "sub": {
+     "es": "pides permiso, con educación",
+     "en": "you ask for permission, politely"
+    }
+   },
+   {
+    "id": "casual",
+    "jp": "させて",
+    "sub": {
+     "es": "pides permiso, en plan amigos",
+     "en": "you ask for permission, casually"
+    }
+   },
+   {
+    "id": "temoii",
+    "jp": "てもいいですか",
+    "sub": {
+     "es": "permiso sencillo (ya lo sabías)",
+     "en": "simple permission (you already knew this)"
+    }
+   }
+  ],
+  "cartas": [
+   {
+    "id": "j1",
+    "dibujo": "profesor",
+    "jp": "先生[せんせい]、 ちょっと 寝[ね]＿。",
+    "cesta": "kudasai",
+    "es": "Profesor, déjeme dormir un poco, por favor.",
+    "en": "Teacher, please let me sleep a little."
+   },
+   {
+    "id": "j2",
+    "dibujo": "gato",
+    "jp": "タマ、 ちょっと 寝[ね]＿。",
+    "cesta": "casual",
+    "es": "Tama, déjame dormir un poco.",
+    "en": "Tama, let me sleep a bit."
+   },
+   {
+    "id": "j3",
+    "dibujo": "onigiri",
+    "jp": "おにぎりを 食[た]べ＿。",
+    "cesta": "temoii",
+    "es": "¿Puedo comer un onigiri?",
+    "en": "May I eat an onigiri?"
+   },
+   {
+    "id": "j4",
+    "dibujo": "persona",
+    "jp": "買[か]わ＿。",
+    "cesta": "kudasai",
+    "es": "Déjeme comprarlo, por favor.",
+    "en": "Please let me buy it.",
+    "truco": {
+     "es": "A un dependiente, con educación: させてください。",
+     "en": "To a clerk, politely: させてください。"
+    }
+   },
+   {
+    "id": "j5",
+    "dibujo": "casa",
+    "jp": "もう 帰[かえ]ら＿？",
+    "cesta": "casual",
+    "es": "¿Ya me dejas irme a casa?",
+    "en": "Will you let me go home now?"
+   },
+   {
+    "id": "j6",
+    "dibujo": "profesor",
+    "jp": "先生[せんせい]、 私[わたし]に 言[い]わ＿。",
+    "cesta": "kudasai",
+    "es": "Profesor, déjeme decirlo a mí, por favor.",
+    "en": "Teacher, please let me be the one to say it."
+   },
+   {
+    "id": "j7",
+    "dibujo": "onigiri",
+    "jp": "その おにぎり、 食[た]べ＿？",
+    "cesta": "casual",
+    "es": "¿Me dejas comerme esa onigiri?",
+    "en": "Will you let me eat that onigiri?",
+    "truco": {
+     "es": "El mismo 食[た]べる que la j3, pero con Tama: させて, no てもいいですか。",
+     "en": "The same 食べる as j3, but with Tama: させて, not てもいいですか。"
+    }
+   },
+   {
+    "id": "j8",
+    "dibujo": "cama",
+    "jp": "休[やす]ん＿。",
+    "cesta": "temoii",
+    "es": "¿Puedo descansar?",
+    "en": "May I rest?"
+   }
+  ]
+ },
+ "outro": [
+  {
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "sueno"
+     },
+     {
+      "que": "profesor",
+      "x": 280
+     }
+    ]
+   },
+   "cara": "sueno",
+   "jp": "先生[せんせい]、 寝[ね]させて ください。",
+   "voz": "o1",
+   "tr": {
+    "es": "Profesor, déjeme dormir, por favor.",
+    "en": "Teacher, please let me sleep."
+   },
+   "cartela": {
+    "es": "させてください: pides permiso, con educación.",
+    "en": "させてください: you ask for permission, politely."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "sueno"
+     },
+     {
+      "que": "gato",
+      "x": 270
+     }
+    ]
+   },
+   "habla": "tama",
+   "cara": "normal",
+   "jp": "はいはい、 寝[ね]させて あげる。",
+   "voz": "o2",
+   "tr": {
+    "es": "Vale, vale, te dejo dormir.",
+    "en": "Fine, fine, I'll let you sleep."
+   },
+   "cartela": {
+    "es": "Con Tama, sin ください: más corto, más de amigos.",
+    "en": "With Tama, no ください: shorter, friendlier."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 200,
+      "cara": "feliz",
+      "s": 1.1
+     },
+     {
+      "que": "cama",
+      "x": 200,
+      "s": 1.4
+     },
+     {
+      "que": "manpu",
+      "tipo": "z",
+      "x": 250,
+      "y": 90
+     }
+    ]
+   },
+   "cara": "feliz",
+   "jp": "今日[きょう]は 休[やす]ませて もらいます。",
+   "voz": "o3",
+   "tr": {
+    "es": "Hoy me tomo la libertad de descansar.",
+    "en": "Today I'll take the liberty of resting."
+   },
+   "cartela": {
+    "es": "Fin. させてもらう: lo anuncias, y ya está hecho.",
+    "en": "The end. させてもらう: you announce it, and it's done."
+   }
+  }
+ ],
+ "chuleta": {
+  "patron": {
+   "es": "〔causativo〕させて ください／もらう ／ 〔て〕もいいですか",
+   "en": "〔causative〕させて ください／もらう / 〔て-form〕もいいですか"
+  },
+  "patron_tr": {
+   "es": "déjeme… (educado) ／ me tomo la libertad de… ／ ¿puedo…?",
+   "en": "let me… (polite) / I'll take the liberty of… / may I…?"
+  },
+  "columnas": [
+   {
+    "jp": "させてください",
+    "texto": {
+     "es": "pides que te dejen hacerlo (formal)",
+     "en": "you ask to be let do it (formal)"
+    },
+    "dibujos": [
+     "profesor"
+    ]
+   },
+   {
+    "jp": "させて",
+    "texto": {
+     "es": "lo mismo, en plan amigos",
+     "en": "the same, casually"
+    },
+    "dibujos": [
+     "gato"
+    ]
+   },
+   {
+    "jp": "させてもらう",
+    "texto": {
+     "es": "anuncias que te tomas esa libertad",
+     "en": "you announce you're taking that liberty"
+    },
+    "dibujos": [
+     "cama"
+    ]
+   }
+  ],
+  "filas": [
+   {
+    "jp": "先生[せんせい]、 寝[ね]させて ください。",
+    "es": "Profesor, déjeme dormir, por favor.",
+    "en": "Teacher, please let me sleep.",
+    "registro": "educado"
+   },
+   {
+    "jp": "タマ、 寝[ね]させて。",
+    "es": "Tama, déjame dormir.",
+    "en": "Tama, let me sleep.",
+    "registro": "amigos"
+   },
+   {
+    "jp": "今日[きょう]は 休[やす]ませて もらいます。",
+    "es": "Hoy me tomo la libertad de descansar.",
+    "en": "Today I'll take the liberty of resting."
+   },
+   {
+    "jp": "おにぎりを 食[た]べても いいですか。",
+    "es": "¿Puedo comer un onigiri?",
+    "en": "May I eat an onigiri?"
+   }
+  ],
+  "consejo": {
+   "es": "てもいいですか (ya lo sabías) pregunta un sí o no sencillo. させてください pide que TE DEJEN hacer algo tuyo, con más peso: no es solo «¿puedo?», es «déjame, por favor».",
+   "en": "てもいいですか (you already knew this) asks a simple yes-or-no. させてください asks to be let do something of your own, with more weight: it's not just «may I?», it's «please let me»."
+  }
+ }
+}

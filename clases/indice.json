@@ -1,0 +1,2124 @@
+[
+{
+"id": "c01",
+"clase": 1,
+"desde": 1,
+"puntos": [
+"da",
+"desu-cortes",
+"wa",
+"ka"
+],
+"titulo": {
+"es": "¿Qué es esto?: です, は y か",
+"en": "What's this?: です, は and か"
+},
+"resumen": {
+"es": "La frase más básica del japonés: «X は Y です» (X es Y). Y con か al final, se convierte en pregunta.",
+"en": "The most basic Japanese sentence: «X は Y です» (X is Y). Add か at the end and it becomes a question."
+},
+"hay": true,
+"icono": "gato",
+"capitulo": {
+"n": 1,
+"jp": "第一章",
+"titulo": {
+"es": "Primeros pasos",
+"en": "First steps"
+}
+},
+"puntos_jp": [
+"だ・です",
+"です",
+"は",
+"か"
+]
+},
+{
+"id": "c02",
+"clase": 2,
+"desde": 9,
+"puntos": [
+"no",
+"mo",
+"ja-nai"
+],
+"titulo": {
+"es": "¿De quién es el libro?: の, も y じゃない",
+"en": "Whose book is it?: の, も and じゃない"
+},
+"resumen": {
+"es": "の une dos cosas (el gato de Nyan); も dice «también»; じゃない niega です. Con esto ya presentas, comparas y dices que no.",
+"en": "の links two things (Nyan's cat); も means «also»; じゃない negates です. Now you can introduce, compare, and say no."
+},
+"hay": true,
+"icono": "bolsa",
+"capitulo": {
+"n": 1,
+"jp": "第一章",
+"titulo": {
+"es": "Primeros pasos",
+"en": "First steps"
+}
+},
+"puntos_jp": [
+"の",
+"も",
+"じゃない・ではない"
+]
+},
+{
+"id": "c03",
+"clase": 3,
+"desde": 17,
+"puntos": [
+"masu",
+"wo"
+],
+"titulo": {
+"es": "Picnic con la sensei: los verbos con ます y を",
+"en": "Picnic with the teacher: verbs with ます and を"
+},
+"resumen": {
+"es": "Los verbos educados acaban en ます. Lo que comes, ves, lees o bebes se marca con を, justo antes del verbo.",
+"en": "Polite verbs end in ます. What you eat, watch, read or drink is marked with を, right before the verb."
+},
+"hay": true,
+"icono": "onigiri",
+"capitulo": {
+"n": 1,
+"jp": "第一章",
+"titulo": {
+"es": "Primeros pasos",
+"en": "First steps"
+}
+},
+"puntos_jp": [
+"〜ます",
+"を"
+]
+},
+{
+"id": "c04",
+"clase": 4,
+"desde": 25,
+"puntos": [
+"iru-aru",
+"ga",
+"ni",
+"he"
+],
+"titulo": {
+"es": "¿Quién se comió el onigiri?: いる, ある, に y が",
+"en": "Who ate the onigiri?: いる, ある, に and が"
+},
+"resumen": {
+"es": "Para decir que algo «está» o que «hay» algo, el japonés tiene dos verbos: いる para lo que se mueve solo y ある para todo lo demás.",
+"en": "To say something «is there» or «there is» something, Japanese has two verbs: いる for things that move on their own and ある for everything else."
+},
+"hay": true,
+"icono": "caja",
+"capitulo": {
+"n": 1,
+"jp": "第一章",
+"titulo": {
+"es": "Primeros pasos",
+"en": "First steps"
+}
+},
+"puntos_jp": [
+"いる・ある",
+"が",
+"に",
+"へ"
+]
+},
+{
+"id": "c05",
+"clase": 5,
+"desde": 33,
+"puntos": [
+"adj-i",
+"adj-na",
+"suki",
+"yo-ne"
+],
+"titulo": {
+"es": "El concurso del melonpan: adjetivos, 好[す]き, よ y ね",
+"en": "The melon bread contest: adjectives, 好[す]き, よ and ね"
+},
+"resumen": {
+"es": "Los adjetivos い van solos + です (大きいです). 好き lleva な y usa が: 何が好きですか. よ cuenta algo nuevo; ね pide que te den la razón.",
+"en": "い-adjectives stand alone + です (大きいです). 好き takes な and uses が for what you like. よ shares new info; ね asks for agreement."
+},
+"hay": true,
+"icono": "flor",
+"capitulo": {
+"n": 1,
+"jp": "第一章",
+"titulo": {
+"es": "Primeros pasos",
+"en": "First steps"
+}
+},
+"puntos_jp": [
+"〜い",
+"〜な",
+"好き・嫌い・上手",
+"よ・ね"
+]
+},
+{
+"id": "c06",
+"clase": 6,
+"desde": 45,
+"puntos": [
+"de",
+"to-ya",
+"kara-made"
+],
+"titulo": {
+"es": "Primer día de escuela: で, と, や, から y まで",
+"en": "First day of school: で, と, や, から and まで"
+},
+"resumen": {
+"es": "で: dónde haces algo. と: una lista completa (solo eso). や: una lista abierta (hay más). から…まで: desde… hasta…",
+"en": "で: where you do something. と: a full list (just that). や: an open list (there's more). から…まで: from… until…"
+},
+"hay": true,
+"icono": "escuela",
+"capitulo": {
+"n": 1,
+"jp": "第一章",
+"titulo": {
+"es": "Primeros pasos",
+"en": "First steps"
+}
+},
+"puntos_jp": [
+"で",
+"と・や",
+"から・まで"
+]
+},
+{
+"id": "c07",
+"clase": 7,
+"desde": 53,
+"puntos": [
+"verbo",
+"cita",
+"naru-suru"
+],
+"titulo": {
+"es": "¿Quién será el líder?: と思[おも]う, と言[い]う y になる",
+"en": "Who will be the leader?: と思[おも]う, と言[い]う and になる"
+},
+"resumen": {
+"es": "La idea completa + と思います (pienso que…) o と言います (digo que…). Con に: en qué te conviertes (になる) o qué eliges (にする).",
+"en": "The whole idea + と思います (I think that…) or と言います (I say that…). With に: what you become (になる) or what you choose (にする)."
+},
+"hay": true,
+"icono": "carta",
+"capitulo": {
+"n": 1,
+"jp": "第一章",
+"titulo": {
+"es": "Primeros pasos",
+"en": "First steps"
+}
+},
+"puntos_jp": [
+"る・う",
+"と言う・と思う",
+"〜になる・〜にする"
+]
+},
+{
+"id": "c08",
+"clase": 8,
+"desde": 56,
+"puntos": [
+"contadores"
+],
+"titulo": {
+"es": "Las compras de la fiesta: contar con つ, 人[にん] y 本[ほん]",
+"en": "Party shopping: counting with つ, 人[にん] and 本[ほん]"
+},
+"resumen": {
+"es": "Para cosas: número + つ (三[みっ]つ). Para personas: número + 人 (三人[さんにん]). 一人[ひとり] y 二人[ふたり] son especiales.",
+"en": "For things: number + つ (三[みっ]つ). For people: number + 人 (三人[さんにん]). 一人[ひとり] and 二人[ふたり] are irregular."
+},
+"hay": true,
+"icono": "manzana",
+"capitulo": {
+"n": 1,
+"jp": "第一章",
+"titulo": {
+"es": "Primeros pasos",
+"en": "First steps"
+}
+},
+"puntos_jp": [
+"〜つ・〜人・〜本"
+]
+},
+{
+"id": "c09",
+"clase": 9,
+"desde": 66,
+"puntos": [
+"ta",
+"nakatta"
+],
+"titulo": {
+"es": "Nyan, detective: el pasado con た y なかった",
+"en": "Detective Nyan: the past with た and なかった"
+},
+"resumen": {
+"es": "た: ya lo hiciste (見る→見た). なかった: no lo hiciste (食べる→食べなかった). Ojo: 行く es especial, 行った.",
+"en": "た: you already did it (見る→見た). なかった: you didn't do it (食べる→食べなかった). Watch out: 行く is special, 行った."
+},
+"hay": true,
+"icono": "luna",
+"capitulo": {
+"n": 1,
+"jp": "第一章",
+"titulo": {
+"es": "Primeros pasos",
+"en": "First steps"
+}
+},
+"puntos_jp": [
+"〜た",
+"〜なかった"
+]
+},
+{
+"id": "c10",
+"clase": 10,
+"desde": 90,
+"puntos": [
+"interrogativo",
+"trato"
+],
+"titulo": {
+"es": "La escuela de noche: algo, alguien, nadie y さん",
+"en": "The school at night: something, someone, nobody and さん"
+},
+"resumen": {
+"es": "か: algo, alguien (no sabes qué). も + negativo: nada, nadie. さん va con el nombre de otros; あなた, con cuidado.",
+"en": "か: something, someone (not sure what). も + negative: nothing, no one. さん goes with someone else's name; あなた, carefully."
+},
+"hay": true,
+"icono": "persona",
+"capitulo": {
+"n": 1,
+"jp": "第一章",
+"titulo": {
+"es": "Primeros pasos",
+"en": "First steps"
+}
+},
+"puntos_jp": [
+"何か・誰も",
+"さん・あなた"
+]
+},
+{
+"id": "c11",
+"clase": 11,
+"desde": 110,
+"puntos": [
+"te",
+"kudasai"
+],
+"titulo": {
+"es": "La receta de la abuela: la forma en て y 〜てください",
+"en": "Grandma's recipe: the て form and 〜てください"
+},
+"resumen": {
+"es": "て une dos acciones seguidas (primero una, luego otra). Y 〜てください convierte una acción en un pedido educado.",
+"en": "て links two actions in order (first one, then the other). And 〜てください turns an action into a polite request."
+},
+"hay": true,
+"icono": "cuenco",
+"capitulo": {
+"n": 2,
+"jp": "第二章",
+"titulo": {
+"es": "Nyan hace cosas",
+"en": "Nyan does things"
+}
+},
+"puntos_jp": [
+"〜て",
+"〜てください・ください"
+]
+},
+{
+"id": "c12",
+"clase": 12,
+"desde": 130,
+"puntos": [
+"teiru"
+],
+"titulo": {
+"es": "¿Qué estás haciendo?: 〜ている",
+"en": "What are you doing?: 〜ている"
+},
+"resumen": {
+"es": "〜ている dice que algo pasa AHORA MISMO, o que las cosas se han quedado así (un estado). です/ます solos no valen para «ahora».",
+"en": "〜ている says something is happening RIGHT NOW, or that things have stayed that way (a state). です/ます alone don't work for «right now»."
+},
+"hay": true,
+"icono": "tele",
+"capitulo": {
+"n": 2,
+"jp": "第二章",
+"titulo": {
+"es": "Nyan hace cosas",
+"en": "Nyan does things"
+}
+},
+"puntos_jp": [
+"〜ている"
+]
+},
+{
+"id": "c13",
+"clase": 13,
+"desde": 150,
+"puntos": [
+"tai",
+"hoshii",
+"volitivo"
+],
+"titulo": {
+"es": "Lo que queremos: 〜たい, 欲しい y 〜ましょう",
+"en": "What we want: 〜たい, 欲しい and 〜ましょう"
+},
+"resumen": {
+"es": "たい es querer HACER algo (se pega a un verbo). 欲しい es querer una COSA. Y ましょう invita: «¡hagámoslo!».",
+"en": "たい is wanting to DO something (it attaches to a verb). 欲しい is wanting a THING. And ましょう invites: «let's do it!»."
+},
+"hay": true,
+"icono": "vaso",
+"capitulo": {
+"n": 2,
+"jp": "第二章",
+"titulo": {
+"es": "Nyan hace cosas",
+"en": "Nyan does things"
+}
+},
+"puntos_jp": [
+"〜たい",
+"欲しい",
+"〜よう・〜ましょう"
+]
+},
+{
+"id": "c14",
+"clase": 14,
+"desde": 170,
+"puntos": [
+"nai",
+"kara-node",
+"kedo"
+],
+"titulo": {
+"es": "No quiero, porque…: 〜ない, から, ので y けど",
+"en": "I won't, because…: 〜ない, から, ので and けど"
+},
+"resumen": {
+"es": "〜ない niega un verbo. から y ので dan la razón («porque»); ので es más formal. けど une dos cosas que contrastan («pero»).",
+"en": "〜ない negates a verb. から and ので give the reason («because»); ので is more formal. けど joins two contrasting things («but»)."
+},
+"hay": true,
+"icono": "paraguas",
+"capitulo": {
+"n": 2,
+"jp": "第二章",
+"titulo": {
+"es": "Nyan hace cosas",
+"en": "Nyan does things"
+}
+},
+"puntos_jp": [
+"〜ない",
+"から・ので",
+"けど・が"
+]
+},
+{
+"id": "c35",
+"clase": 15,
+"desde": 173,
+"puntos": [
+"sugiru",
+"fukugo"
+],
+"titulo": {
+"es": "El catador sin freno: 〜すぎる y 〜始める／続ける／終わる",
+"en": "The taster with no brakes: 〜すぎる and 〜始める／続ける／終わる"
+},
+"resumen": {
+"es": "すぎる se pega a la raíz del verbo o del adjetivo: pasarse de listo. 始める, 続ける y 終わる se pegan igual, para decir que algo empieza, sigue o termina.",
+"en": "すぎる attaches to a verb or adjective stem: overdoing it. 始める, 続ける and 終わる attach the same way, to say something starts, continues or finishes."
+},
+"hay": true,
+"icono": "sushi",
+"capitulo": {
+"n": 2,
+"jp": "第二章",
+"titulo": {
+"es": "Nyan hace cosas",
+"en": "Nyan does things"
+}
+},
+"puntos_jp": [
+"〜すぎる",
+"〜始める・〜続ける・〜終わる"
+]
+},
+{
+"id": "c15",
+"clase": 16,
+"desde": 195,
+"puntos": [
+"adverbio",
+"no-nominal"
+],
+"titulo": {
+"es": "Con buena letra: adverbios (く／に) y 〜のが好き",
+"en": "Neatly: adverbs (く／に) and 〜のが好き"
+},
+"resumen": {
+"es": "い → く convierte un adjetivo en «cómo se hace algo» (大きい → 大きく). Y の convierte un verbo en una «cosa», para poder decir que te gusta.",
+"en": "い → く turns an adjective into «how something is done» (大きい → 大きく). And の turns a verb into a «thing», so you can say you like it."
+},
+"hay": true,
+"icono": "coche",
+"capitulo": {
+"n": 2,
+"jp": "第二章",
+"titulo": {
+"es": "Nyan hace cosas",
+"en": "Nyan does things"
+}
+},
+"puntos_jp": [
+"〜く・〜に",
+"〜の・〜こと"
+]
+},
+{
+"id": "c36",
+"clase": 17,
+"desde": 205,
+"puntos": [
+"nagara",
+"shi"
+],
+"titulo": {
+"es": "Trabajar cantando: 〜ながら y 〜し",
+"en": "Working while singing: 〜ながら and 〜し"
+},
+"resumen": {
+"es": "ながら se pega a la raíz del verbo para hacer dos cosas a la vez: 見ながら食べる. し amontona razones o cualidades, una tras otra, sin cerrar la lista.",
+"en": "ながら attaches to a verb stem to do two things at once: 見ながら食べる. し piles up reasons or qualities, one after another, without closing the list."
+},
+"hay": true,
+"icono": "taza",
+"capitulo": {
+"n": 2,
+"jp": "第二章",
+"titulo": {
+"es": "Nyan hace cosas",
+"en": "Nyan does things"
+}
+},
+"puntos_jp": [
+"〜ながら",
+"〜し"
+]
+},
+{
+"id": "c16",
+"clase": 18,
+"desde": 220,
+"puntos": [
+"clausula",
+"dar-recibir"
+],
+"titulo": {
+"es": "La noche del festival: frases que describen y regalar",
+"en": "Festival night: describing phrases and gifts"
+},
+"resumen": {
+"es": "Un verbo antes de un nombre lo describe: 寝る猫 = «el gato que duerme». Y para regalos: あげる (yo doy), くれる (me dan a mí), もらう (recibo).",
+"en": "A verb before a noun describes it: 寝る猫 = «the cat that sleeps». And for gifts: あげる (I give), くれる (someone gives to me), もらう (I receive)."
+},
+"hay": true,
+"icono": "regalo",
+"capitulo": {
+"n": 2,
+"jp": "第二章",
+"titulo": {
+"es": "Nyan hace cosas",
+"en": "Nyan does things"
+}
+},
+"puntos_jp": [
+"〜する人",
+"あげる・くれる・もらう"
+]
+},
+{
+"id": "c17",
+"clase": 19,
+"desde": 245,
+"puntos": [
+"te-miru",
+"potencial",
+"transitivo"
+],
+"titulo": {
+"es": "¿Puedes pescarlo?: 〜てみる, el potencial y 開ける／開く",
+"en": "Can you catch it?: 〜てみる, the potential and 開ける／開く"
+},
+"resumen": {
+"es": "てみる = probar a hacer algo. られる/える = poder hacerlo. Y 出す (tú sacas algo) no es lo mismo que 出る (algo sale solo).",
+"en": "てみる = trying to do something. られる/える = being able to do it. And 出す (you take something out) isn't the same as 出る (something comes out by itself)."
+},
+"hay": true,
+"icono": "bici",
+"capitulo": {
+"n": 2,
+"jp": "第二章",
+"titulo": {
+"es": "Nyan hace cosas",
+"en": "Nyan does things"
+}
+},
+"puntos_jp": [
+"〜てみる・〜ようとする",
+"〜られる・〜える",
+"開ける・開く"
+]
+},
+{
+"id": "c37",
+"clase": 20,
+"desde": 258,
+"puntos": [
+"te-hoshii",
+"pedir-favor"
+],
+"titulo": {
+"es": "¿Me ayudas?: 〜てほしい y cómo pedir favores",
+"en": "Will you help me?: 〜てほしい and asking favours"
+},
+"resumen": {
+"es": "てほしい: quieres que OTRO haga algo. Para pedirlo de verdad, sube de escalón según con quién hables: くれない？ (amigos) → くれませんか → もらえませんか／いただけませんか (educado, con el profesor o un desconocido).",
+"en": "てほしい: you want someone ELSE to do something. To actually ask, climb the ladder depending on who you're talking to: くれない？ (friends) → くれませんか → もらえませんか／いただけませんか (polite, with the teacher or a stranger)."
+},
+"hay": true,
+"icono": "libro",
+"capitulo": {
+"n": 2,
+"jp": "第二章",
+"titulo": {
+"es": "Nyan hace cosas",
+"en": "Nyan does things"
+}
+},
+"puntos_jp": [
+"〜てほしい",
+"〜てくれない？・〜てもらえませんか"
+]
+},
+{
+"id": "c18",
+"clase": 21,
+"desde": 270,
+"puntos": [
+"comparar",
+"dake-shika",
+"n-desu"
+],
+"titulo": {
+"es": "La llegada al norte: comparar, だけ, しか y 〜んです",
+"en": "Arriving up north: comparing, だけ, しか and 〜んです"
+},
+"resumen": {
+"es": "より compara: «más que». だけ y しか son «solo» (しか siempre con un verbo negativo). Y んです añade «es que…»: explica algo.",
+"en": "より compares: «more than». だけ and しか both mean «only» (しか always needs a negative verb). And んです adds «the thing is…»: it explains something."
+},
+"hay": true,
+"icono": "perro",
+"capitulo": {
+"n": 2,
+"jp": "第二章",
+"titulo": {
+"es": "Nyan hace cosas",
+"en": "Nyan does things"
+}
+},
+"puntos_jp": [
+"〜より・〜方",
+"だけ・しか・ばかり",
+"〜んです・〜のだ"
+]
+},
+{
+"id": "c38",
+"clase": 22,
+"desde": 285,
+"puntos": [
+"volitivo-llano"
+],
+"titulo": {
+"es": "¡Vamos a verlo!: 〜よう y 〜ようと思う",
+"en": "Let's go see it!: 〜よう and 〜ようと思う"
+},
+"resumen": {
+"es": "よう es la forma llana de «¡vamos a…!» (el primo de confianza de ましょう). ようと思う añade «creo que…»; ようとする es «lo intento» (o «está a punto de pasar»).",
+"en": "よう is the plain form of «let's…!» (the casual cousin of ましょう). ようと思う adds «I think I'll…»; ようとする means «I try to» (or «it's about to happen»)."
+},
+"hay": true,
+"icono": "casa",
+"capitulo": {
+"n": 2,
+"jp": "第二章",
+"titulo": {
+"es": "Nyan hace cosas",
+"en": "Nyan does things"
+}
+},
+"puntos_jp": [
+"〜よう・〜ようと思う"
+]
+},
+{
+"id": "c19",
+"clase": 23,
+"desde": 301,
+"puntos": [
+"tari",
+"naide"
+],
+"titulo": {
+"es": "Carta de la abuela: 〜たり〜たり y 〜ないで",
+"en": "A letter from Grandma: 〜たり〜たり and 〜ないで"
+},
+"resumen": {
+"es": "Con 〜たり〜たりする das ejemplos de cosas que haces (no hace falta decirlo todo). Con 〜ないで dices que haces algo SIN hacer otra cosa antes.",
+"en": "With 〜たり〜たりする you give examples of things you do (no need to list it all). With 〜ないで you say you do something WITHOUT doing another thing first."
+},
+"hay": true,
+"icono": "pan",
+"capitulo": {
+"n": 3,
+"jp": "第三章",
+"titulo": {
+"es": "Si…, quizá… y tengo que…",
+"en": "If…, maybe… and I have to…"
+}
+},
+"puntos_jp": [
+"〜たり〜たり",
+"〜ないで・〜ずに"
+]
+},
+{
+"id": "c20",
+"clase": 24,
+"desde": 325,
+"puntos": [
+"permiso"
+],
+"titulo": {
+"es": "La granja de Pon: 〜てもいい y 〜てはいけない",
+"en": "Pon's farm: 〜てもいい and 〜てはいけない"
+},
+"resumen": {
+"es": "〜てもいい pide o da permiso: «se puede». 〜てはいけない prohíbe: «no se puede». Las dos van después de la forma en て.",
+"en": "〜てもいい asks for or gives permission: «you may». 〜てはいけない forbids: «you must not». Both go after the て-form."
+},
+"hay": true,
+"icono": "telefono",
+"capitulo": {
+"n": 3,
+"jp": "第三章",
+"titulo": {
+"es": "Si…, quizá… y tengo que…",
+"en": "If…, maybe… and I have to…"
+}
+},
+"puntos_jp": [
+"〜てもいい・〜てはいけない"
+]
+},
+{
+"id": "c39",
+"clase": 25,
+"desde": 338,
+"puntos": [
+"imperativo"
+],
+"titulo": {
+"es": "¡Despierta, Nyan!: las órdenes y 〜な",
+"en": "Wake up, Nyan!: orders and 〜な"
+},
+"resumen": {
+"es": "La orden directa (寝ろ, 起きろ, 行け, 来い, しろ) es fuerte: solo entre amigos muy cercanos, con animales o en carteles. 〜な después del verbo prohíbe: «¡no…!».",
+"en": "The direct command (寝ろ, 起きろ, 行け, 来い, しろ) is strong: only between very close friends, with animals, or on signs. 〜な after the verb forbids: «don't…!»."
+},
+"hay": true,
+"icono": "bicho",
+"capitulo": {
+"n": 3,
+"jp": "第三章",
+"titulo": {
+"es": "Si…, quizá… y tengo que…",
+"en": "If…, maybe… and I have to…"
+}
+},
+"puntos_jp": [
+"〜ろ・〜な"
+]
+},
+{
+"id": "c21",
+"clase": 26,
+"desde": 350,
+"puntos": [
+"debe"
+],
+"titulo": {
+"es": "El atajo de Kage: 〜なければならない",
+"en": "Kage's shortcut: 〜なければならない"
+},
+"resumen": {
+"es": "〜なければならない = tienes que hacerlo (si no lo haces, hay problema). Se forma con el verbo en negativo (〜ない) + ければならない.",
+"en": "〜なければならない = you have to do it (or there's trouble). It's built from the negative form (〜ない) + ければならない."
+},
+"hay": true,
+"icono": "reloj",
+"capitulo": {
+"n": 3,
+"jp": "第三章",
+"titulo": {
+"es": "Si…, quizá… y tengo que…",
+"en": "If…, maybe… and I have to…"
+}
+},
+"puntos_jp": [
+"〜なければならない"
+]
+},
+{
+"id": "c40",
+"clase": 27,
+"desde": 365,
+"puntos": [
+"kadouka",
+"koto-dekiru"
+],
+"titulo": {
+"es": "Perdidos en el bosque: か, かどうか y 〜ことができる",
+"en": "Lost in the forest: か, かどうか and 〜ことができる"
+},
+"resumen": {
+"es": "か mete una pregunta dentro de la frase (何を食べるか). かどうか es para preguntas de sí o no (来るかどうか). 〜ことができる es «poder hacer algo»: el primo educado del potencial (書ける) que ya conoces.",
+"en": "か tucks a question inside a sentence (何を食べるか). かどうか is for yes-or-no questions (来るかどうか). 〜ことができる means «to be able to»: the more formal twin of the potential form (書ける) you already know."
+},
+"hay": true,
+"icono": "pajaro",
+"capitulo": {
+"n": 3,
+"jp": "第三章",
+"titulo": {
+"es": "Si…, quizá… y tengo que…",
+"en": "If…, maybe… and I have to…"
+}
+},
+"puntos_jp": [
+"〜か・〜かどうか",
+"〜ことができる"
+]
+},
+{
+"id": "c22",
+"clase": 28,
+"desde": 380,
+"puntos": [
+"tara",
+"to-cond"
+],
+"titulo": {
+"es": "¡Nieve!: 〜たら y 〜と",
+"en": "Snow!: 〜たら and 〜と"
+},
+"resumen": {
+"es": "〜たら = si/cuando pasa esto (esta vez), pasa lo otro; puede ir con peticiones y consejos. 〜と = siempre que pasa esto, pasa lo otro (automático); nunca va con peticiones.",
+"en": "〜たら = if/when this happens (this time), then that; it can be followed by requests and advice. 〜と = whenever this happens, that always follows (automatic); it's never followed by a request."
+},
+"hay": true,
+"icono": "nube",
+"capitulo": {
+"n": 3,
+"jp": "第三章",
+"titulo": {
+"es": "Si…, quizá… y tengo que…",
+"en": "If…, maybe… and I have to…"
+}
+},
+"puntos_jp": [
+"〜たら",
+"〜と"
+]
+},
+{
+"id": "c41",
+"clase": 29,
+"desde": 400,
+"puntos": [
+"temo",
+"noni"
+],
+"titulo": {
+"es": "Aunque nieve: 〜ても y 〜のに",
+"en": "Even if it snows: 〜ても and 〜のに"
+},
+"resumen": {
+"es": "〜ても = pase lo que pase, no cambia nada («aunque llueva, salgo»). 〜のに = aunque…, y resulta que (con sorpresa o queja: «he estudiado mucho, y aun así no entiendo»). No los confundas con 〜てもいい (permiso).",
+"en": "〜ても = no matter what, nothing changes («even if it rains, I'm going out»). 〜のに = although…, and yet (with surprise or a complaint: «I studied a lot, and I still don't get it»). Don't mix them up with 〜てもいい (permission)."
+},
+"hay": true,
+"icono": "libro",
+"capitulo": {
+"n": 3,
+"jp": "第三章",
+"titulo": {
+"es": "Si…, quizá… y tengo que…",
+"en": "If…, maybe… and I have to…"
+}
+},
+"puntos_jp": [
+"〜ても",
+"〜のに"
+]
+},
+{
+"id": "c23",
+"clase": 30,
+"desde": 420,
+"puntos": [
+"kamo-deshou",
+"final-extra"
+],
+"titulo": {
+"es": "La última noche: かもしれない, でしょう y かな",
+"en": "The last night: かもしれない, でしょう and かな"
+},
+"resumen": {
+"es": "かもしれない = quizás (poco seguro). でしょう = seguramente (bastante seguro). かな al final = «me pregunto…», hablando contigo mismo.",
+"en": "かもしれない = maybe (not very sure). でしょう = probably (fairly sure). かな at the end = «I wonder…», thinking out loud."
+},
+"hay": true,
+"icono": "sol",
+"capitulo": {
+"n": 3,
+"jp": "第三章",
+"titulo": {
+"es": "Si…, quizá… y tengo que…",
+"en": "If…, maybe… and I have to…"
+}
+},
+"puntos_jp": [
+"かもしれない・でしょう",
+"な・かな・わ・ぞ"
+]
+},
+{
+"id": "c24",
+"clase": 31,
+"desde": 460,
+"puntos": [
+"te-iku-kuru",
+"te-aru-oku"
+],
+"titulo": {
+"es": "La gran limpieza: 〜ていく, 〜てくる, 〜ておく y 〜てある",
+"en": "The big clean: 〜ていく, 〜てくる, 〜ておく and 〜てある"
+},
+"resumen": {
+"es": "〜ていく = se aleja (te vas con ello). 〜てくる = se acerca (lo traes, o vas y vuelves). 〜ておく = lo dejas hecho de antemano. 〜てある = alguien lo dejó así a propósito.",
+"en": "〜ていく = moving away (you take it with you). 〜てくる = coming closer (you bring it, or go and come back). 〜ておく = getting it done ahead of time. 〜てある = someone left it that way on purpose."
+},
+"hay": true,
+"icono": "tren",
+"capitulo": {
+"n": 3,
+"jp": "第三章",
+"titulo": {
+"es": "Si…, quizá… y tengo que…",
+"en": "If…, maybe… and I have to…"
+}
+},
+"puntos_jp": [
+"〜ていく・〜てくる",
+"〜てある・〜ておく"
+]
+},
+{
+"id": "c42",
+"clase": 32,
+"desde": 480,
+"puntos": [
+"tame-youni"
+],
+"titulo": {
+"es": "Los 年賀状: 〜ために y 〜ように",
+"en": "The 年賀状: 〜ために and 〜ように"
+},
+"resumen": {
+"es": "〜ために = para conseguir algo que TÚ decides hacer (comer, ir, estudiar…). 〜ように = para algo que no controlas del todo (poder, no olvidar, que otro lo oiga…), o cuando quien consigue la segunda parte es otra persona.",
+"en": "〜ために = in order to do something YOU choose to do (eat, go, study…). 〜ように = for something not fully under your control (being able to, not forgetting, someone else hearing…), or when a different person benefits from the second part."
+},
+"hay": true,
+"icono": "libro",
+"capitulo": {
+"n": 3,
+"jp": "第三章",
+"titulo": {
+"es": "Si…, quizá… y tengo que…",
+"en": "If…, maybe… and I have to…"
+}
+},
+"puntos_jp": [
+"〜ために・〜ように"
+]
+},
+{
+"id": "c25",
+"clase": 33,
+"desde": 500,
+"puntos": [
+"sou-mitai"
+],
+"titulo": {
+"es": "La última tarta: 〜そう, 〜らしい y みたい",
+"en": "The last cake: 〜そう, 〜らしい and みたい"
+},
+"resumen": {
+"es": "そう = por lo que VES ahora mismo (apariencia). らしい = por lo que has OÍDO (rumor, de fuera). みたい y よう son parecidas a そう, pero también sirven para comparar con un sustantivo.",
+"en": "そう = based on what you SEE right now (appearance). らしい = based on what you HEARD (a rumor, from someone else). みたい and よう are similar to そう, but also compare things to a noun."
+},
+"hay": true,
+"icono": "cama",
+"capitulo": {
+"n": 3,
+"jp": "第三章",
+"titulo": {
+"es": "Si…, quizá… y tengo que…",
+"en": "If…, maybe… and I have to…"
+}
+},
+"puntos_jp": [
+"〜そう・みたい・らしい・よう"
+]
+},
+{
+"id": "c26",
+"clase": 34,
+"desde": 550,
+"puntos": [
+"koto-tokoro",
+"to-iu"
+],
+"titulo": {
+"es": "Nochevieja: こと, もの, ところ y という",
+"en": "New Year's Eve: こと, もの, ところ and という"
+},
+"resumen": {
+"es": "こと convierte un verbo en una idea («dormir» como concepto). もの es para cosas que puedes tocar. ところ es un lugar o un momento. という presenta un nombre: «algo llamado…».",
+"en": "こと turns a verb into an idea («sleeping» as a concept). もの is for things you can touch. ところ is a place or a moment. という introduces a name: «something called…»."
+},
+"hay": true,
+"icono": "libro",
+"capitulo": {
+"n": 3,
+"jp": "第三章",
+"titulo": {
+"es": "Si…, quizá… y tengo que…",
+"en": "If…, maybe… and I have to…"
+}
+},
+"puntos_jp": [
+"こと・ところ・もの",
+"という"
+]
+},
+{
+"id": "c43",
+"clase": 35,
+"desde": 575,
+"puntos": [
+"koto-ni",
+"youninaru"
+],
+"titulo": {
+"es": "Propósitos de Año Nuevo: 〜ことにする／なる y 〜ようになる／する",
+"en": "New Year's resolutions: 〜ことにする／なる and 〜ようになる／する"
+},
+"resumen": {
+"es": "Cuatro formas para decisiones y cambios. こと + にする: decides TÚ. こと + になる: queda decidido (no lo decides tú). よう + になる: algo CAMBIA con el tiempo, solo. よう + にする: TÚ te esfuerzas para que pase.",
+"en": "Four forms for decisions and changes. こと + にする: YOU decide. こと + になる: it gets decided (not by you). よう + になる: something CHANGES over time, on its own. よう + にする: YOU make an effort to bring it about."
+},
+"hay": true,
+"icono": "libro",
+"capitulo": {
+"n": 4,
+"jp": "第四章",
+"titulo": {
+"es": "Hablar como en Japón",
+"en": "Talking like in Japan"
+}
+},
+"puntos_jp": [
+"〜ことにする・〜ことになる",
+"〜ようになる・〜ようにする"
+]
+},
+{
+"id": "c27",
+"clase": 36,
+"desde": 600,
+"puntos": [
+"ba",
+"nara"
+],
+"titulo": {
+"es": "La お年玉: 〜ば y なら",
+"en": "The お年玉: 〜ば and なら"
+},
+"resumen": {
+"es": "Dos formas de decir «si». 〜ば cambia el final del verbo o adjetivo: una idea, sin más. なら deja la palabra igual y reacciona a algo que YA se ha dicho.",
+"en": "Two ways to say “if”. 〜ば changes the end of the verb or adjective: just an idea, nothing more. なら leaves the word as it is and reacts to something ALREADY said."
+},
+"hay": true,
+"icono": "dinero",
+"capitulo": {
+"n": 4,
+"jp": "第四章",
+"titulo": {
+"es": "Hablar como en Japón",
+"en": "Talking like in Japan"
+}
+},
+"puntos_jp": [
+"〜ば",
+"なら"
+]
+},
+{
+"id": "c44",
+"clase": 37,
+"desde": 630,
+"puntos": [
+"hodo"
+],
+"titulo": {
+"es": "Trineos en la nieve: ほど y 〜ば〜ほど",
+"en": "Sledding in the snow: ほど and 〜ば〜ほど"
+},
+"resumen": {
+"es": "ほど mide hasta qué punto. 〜ば〜ほど: cuanto más pasa una cosa, más pasa la otra. Nほど〜ない: ni de lejos tanto como N.",
+"en": "ほど measures how far something goes. 〜ば〜ほど: the more one thing happens, the more the other does. Nほど〜ない: nowhere near as much as N."
+},
+"hay": true,
+"icono": "libro",
+"capitulo": {
+"n": 4,
+"jp": "第四章",
+"titulo": {
+"es": "Hablar como en Japón",
+"en": "Talking like in Japan"
+}
+},
+"puntos_jp": [
+"ほど・〜ば〜ほど"
+]
+},
+{
+"id": "c28",
+"clase": 38,
+"desde": 660,
+"puntos": [
+"sugerir",
+"nasai"
+],
+"titulo": {
+"es": "Nyan se ha resfriado: 〜ほうがいい, 〜たらどう y 〜なさい",
+"en": "Nyan's got a cold: 〜ほうがいい, 〜たらどう and 〜なさい"
+},
+"resumen": {
+"es": "Tres formas de aconsejar. 〜ほうがいい: «sería mejor…» (con la forma た). 〜たらどう: «¿por qué no…?», más suave. 〜なさい: una orden suave, pegada al radical de 〜ます.",
+"en": "Three ways to advise. 〜ほうがいい: “it'd be better to…” (with the た form). 〜たらどう: “why not…?”, softer. 〜なさい: a gentle order, attached to the 〜ます stem."
+},
+"hay": true,
+"icono": "lapiz",
+"capitulo": {
+"n": 4,
+"jp": "第四章",
+"titulo": {
+"es": "Hablar como en Japón",
+"en": "Talking like in Japan"
+}
+},
+"puntos_jp": [
+"〜たらどう・〜ほうがいい",
+"〜なさい"
+]
+},
+{
+"id": "c45",
+"clase": 39,
+"desde": 690,
+"puntos": [
+"yokatta"
+],
+"titulo": {
+"es": "¡Los deberes!: 〜ばよかった y 〜なければよかった",
+"en": "The homework!: 〜ばよかった and 〜なければよかった"
+},
+"resumen": {
+"es": "〜ばよかった y 〜たらよかった: dos formas para lamentar algo que YA pasó y no se puede cambiar. 〜ほうがいい y 〜たらどう (clase «sugerir») son consejos para el FUTURO; estas son para el PASADO.",
+"en": "〜ばよかった and 〜たらよかった: two ways to regret something that ALREADY happened and can't be changed. 〜ほうがいい and 〜たらどう (class “suggesting”) are advice for the FUTURE; these are for the PAST."
+},
+"hay": true,
+"icono": "libro",
+"capitulo": {
+"n": 4,
+"jp": "第四章",
+"titulo": {
+"es": "Hablar como en Japón",
+"en": "Talking like in Japan"
+}
+},
+"puntos_jp": [
+"〜ばよかった"
+]
+},
+{
+"id": "c29",
+"clase": 40,
+"desde": 720,
+"puntos": [
+"shimau",
+"casual"
+],
+"titulo": {
+"es": "¿Dónde está el 鏡餅?: 〜ちゃう y el habla de casa",
+"en": "Where's the 鏡餅?: 〜ちゃう and home talk"
+},
+"resumen": {
+"es": "〜てしまう: hacer algo del todo, a veces sin querer. Entre amigos se acorta: 〜てしまう → 〜ちゃう (y 〜でしまう → 〜じゃう). Así habla la gente en casa: también じゃん, っけ y partículas que se caen.",
+"en": "〜てしまう: doing something completely, sometimes by accident. Among friends it shortens: 〜てしまう → 〜ちゃう (and 〜でしまう → 〜じゃう). That's how people talk at home: also じゃん, っけ, and particles that drop out."
+},
+"hay": true,
+"icono": "plato",
+"capitulo": {
+"n": 4,
+"jp": "第四章",
+"titulo": {
+"es": "Hablar como en Japón",
+"en": "Talking like in Japan"
+}
+},
+"puntos_jp": [
+"〜てしまう",
+"じゃん・〜っけ"
+]
+},
+{
+"id": "c30",
+"clase": 41,
+"desde": 800,
+"puntos": [
+"yasui-nikui",
+"mama"
+],
+"titulo": {
+"es": "Fácil de leer: 〜やすい, 〜にくい y まま",
+"en": "Easy to read: 〜やすい, 〜にくい and まま"
+},
+"resumen": {
+"es": "〜やすい y 〜にくい se pegan al radical de ます: fácil o difícil de hacer algo. まま dice que algo se queda tal cual, sin cambiar.",
+"en": "〜やすい and 〜にくい attach to the ます stem: easy or hard to do something. まま says something stays as it is, unchanged."
+},
+"hay": false,
+"icono": "zapato",
+"capitulo": {
+"n": 4,
+"jp": "第四章",
+"titulo": {
+"es": "Hablar como en Japón",
+"en": "Talking like in Japan"
+}
+},
+"puntos_jp": [
+"〜やすい・〜にくい",
+"まま"
+]
+},
+{
+"id": "c31",
+"clase": 42,
+"desde": 880,
+"puntos": [
+"tokoro-bakari",
+"hazu-beki"
+],
+"titulo": {
+"es": "Acabo de despertarme: 〜たところ, 〜たばかり, はず y べき",
+"en": "I just woke up: 〜たところ, 〜たばかり, はず and べき"
+},
+"resumen": {
+"es": "〜たばかり y 〜たところ: «acabo de…», recién pasado. はず: lo que esperas que sea verdad. べき: lo que deberías hacer.",
+"en": "〜たばかり and 〜たところ: “I just…”, something recently done. はず: what you expect to be true. べき: what you should do."
+},
+"hay": false,
+"icono": "arbol",
+"capitulo": {
+"n": 4,
+"jp": "第四章",
+"titulo": {
+"es": "Hablar como en Japón",
+"en": "Talking like in Japan"
+}
+},
+"puntos_jp": [
+"〜ところ・〜たばかり",
+"はず・べき"
+]
+},
+{
+"id": "c32",
+"clase": 43,
+"desde": 980,
+"puntos": [
+"pasiva"
+],
+"titulo": {
+"es": "A Nyan le robaron el onigiri: la pasiva",
+"en": "Nyan's onigiri got stolen: the passive voice"
+},
+"resumen": {
+"es": "La pasiva (〜られる) dice que algo TE pasa, hecho por otro. La cosa que lo sufre va con が; quién lo hizo, con に.",
+"en": "The passive (〜られる) says something HAPPENS TO you, done by someone else. The thing it happens to takes が; whoever did it takes に."
+},
+"hay": false,
+"icono": "pez",
+"capitulo": {
+"n": 4,
+"jp": "第四章",
+"titulo": {
+"es": "Hablar como en Japón",
+"en": "Talking like in Japan"
+}
+},
+"puntos_jp": [
+"〜られる"
+]
+},
+{
+"id": "c33",
+"clase": 44,
+"desde": 1100,
+"puntos": [
+"causativa"
+],
+"titulo": {
+"es": "Nyan me hace estudiar: la causativa",
+"en": "Nyan makes me study: the causative"
+},
+"resumen": {
+"es": "La causativa (〜させる) dice que haces que alguien haga algo. Si el verbo no tiene objeto, quien actúa lleva を; si ya tiene objeto, lleva に.",
+"en": "The causative (〜させる) says you make someone do something. If the verb has no object, the doer takes を; if it already has an object, it takes に."
+},
+"hay": false,
+"icono": "pizarra",
+"capitulo": {
+"n": 4,
+"jp": "第四章",
+"titulo": {
+"es": "Hablar como en Japón",
+"en": "Talking like in Japan"
+}
+},
+"puntos_jp": [
+"〜させる"
+]
+},
+{
+"id": "c46",
+"clase": 45,
+"desde": 1180,
+"puntos": [
+"causativa-pasiva"
+],
+"titulo": {
+"es": "Me hicieron esperar: 〜させられる",
+"en": "I was made to wait: 〜させられる"
+},
+"resumen": {
+"es": "させられる: te obligan a algo que no querías. Para 食[た]べる, する y 来[く]る se queda entera. Para los verbos en う (como 待[ま]つ), lo normal es la forma corta: される.",
+"en": "させられる: you're made to do something you didn't want to. For 食べる, する and 来る it stays whole. For う-verbs (like 待つ), the normal form is the short one: される."
+},
+"hay": false,
+"icono": "persona",
+"capitulo": {
+"n": 4,
+"jp": "第四章",
+"titulo": {
+"es": "Hablar como en Japón",
+"en": "Talking like in Japan"
+}
+},
+"puntos_jp": [
+"〜させられる"
+]
+},
+{
+"id": "c34",
+"clase": 46,
+"desde": 1250,
+"puntos": [
+"keigo"
+],
+"titulo": {
+"es": "Hablar con respeto: los tres caminos del keigo",
+"en": "Speaking with respect: the three paths of keigo"
+},
+"resumen": {
+"es": "Con alguien importante hay tres caminos: 尊敬語 sube a quien actúa (先生がいらっしゃる), 謙譲語 te bajas TÚ (伺う, 申す) y, para cosas neutras como el tren o la tienda, cortesía sin subir ni bajar a nadie (参ります, ございます).",
+"en": "With someone important there are three paths: 尊敬語 raises the person who acts (先生がいらっしゃる), 謙譲語 lowers YOU (伺う, 申す), and for neutral things like the train or the shop, plain courtesy that raises no one (参ります, ございます)."
+},
+"hay": false,
+"icono": "profesor",
+"capitulo": {
+"n": 4,
+"jp": "第四章",
+"titulo": {
+"es": "Hablar como en Japón",
+"en": "Talking like in Japan"
+}
+},
+"puntos_jp": [
+"いらっしゃる・申す"
+]
+},
+{
+"id": "c47",
+"clase": 47,
+"desde": 1510,
+"puntos": [
+"to-iu-koto",
+"conectores"
+],
+"titulo": {
+"es": "¿Qué quieres decir?: 〜って, 〜というのは y つまり",
+"en": "What do you mean?: 〜って, 〜というのは and つまり"
+},
+"resumen": {
+"es": "Para preguntar y explicar significados: それ、どういう意味？ (¿eso qué significa?) y 〜というのは〜ことだ (X quiere decir Y). Y los conectores de la conversación: それで, つまり, ところで y じゃあ.",
+"en": "To ask and explain meanings: それ、どういう意味？ (what does that mean?) and 〜というのは〜ことだ (X means Y). Plus the conversation connectors それで, つまり, ところで and じゃあ."
+},
+"hay": false,
+"icono": "gato",
+"capitulo": {
+"n": 5,
+"jp": "第五章",
+"titulo": {
+"es": "Más allá del libro",
+"en": "Beyond the textbook"
+}
+},
+"puntos_jp": [
+"〜って・〜というのは・〜ということ",
+"それで・つまり・ところで"
+]
+},
+{
+"id": "c48",
+"clase": 48,
+"desde": 1570,
+"puntos": [
+"wake"
+],
+"titulo": {
+"es": "No es que no quiera: 〜わけだ y 〜わけではない",
+"en": "It's not that I don't want to: 〜わけだ and 〜わけではない"
+},
+"resumen": {
+"es": "わけだ: la conclusión lógica de algo que acabas de saber («ya veo, por eso…»). わけではない (わけじゃない): no niegas del todo, solo matizas («no es que…»). わけがない: imposible, no hay manera.",
+"en": "わけだ: the logical conclusion from something you just learned («I see, so that's why…»). わけではない (わけじゃない): a soft denial, not a total one («it's not that…»). わけがない: impossible, no way."
+},
+"hay": false,
+"icono": "onigiri",
+"capitulo": {
+"n": 5,
+"jp": "第五章",
+"titulo": {
+"es": "Más allá del libro",
+"en": "Beyond the textbook"
+}
+},
+"puntos_jp": [
+"〜わけだ・〜わけではない"
+]
+},
+{
+"id": "c49",
+"clase": 49,
+"desde": 1630,
+"puntos": [
+"okage-sei"
+],
+"titulo": {
+"es": "¡Por tu culpa!: 〜おかげで y 〜せいで",
+"en": "It's your fault!: 〜おかげで and 〜せいで"
+},
+"resumen": {
+"es": "〜の／〜た おかげで: gracias a algo, una causa BUENA. 〜の／〜た せいで: por culpa de algo, una causa MALA. La misma idea que から／ので (clase 14), pero diciendo si la razón fue buena o mala.",
+"en": "〜の／〜た おかげで: thanks to something, a GOOD cause. 〜の／〜た せいで: because of something, a BAD cause. The same idea as から／ので (class 14), but saying whether the reason was good or bad."
+},
+"hay": false,
+"icono": "paraguas",
+"capitulo": {
+"n": 5,
+"jp": "第五章",
+"titulo": {
+"es": "Más allá del libro",
+"en": "Beyond the textbook"
+}
+},
+"puntos_jp": [
+"〜おかげで・〜せいで"
+]
+},
+{
+"id": "c50",
+"clase": 50,
+"desde": 1690,
+"puntos": [
+"uchi-ni"
+],
+"titulo": {
+"es": "Mientras sea joven: 〜うちに, 〜たびに y 〜間に",
+"en": "While I'm still young: 〜うちに, 〜たびに and 〜間に"
+},
+"resumen": {
+"es": "〜うちに: mientras dure un estado, antes de que cambie. 〜間[あいだ]に: durante un rato concreto. 〜たびに: cada vez que pasa algo.",
+"en": "〜うちに: while a state lasts, before it changes. 〜間に: during a specific stretch. 〜たびに: every time something happens."
+},
+"hay": false,
+"icono": "gato",
+"capitulo": {
+"n": 5,
+"jp": "第五章",
+"titulo": {
+"es": "Más allá del libro",
+"en": "Beyond the textbook"
+}
+},
+"puntos_jp": [
+"〜うちに・〜たびに・〜間に"
+]
+},
+{
+"id": "c51",
+"clase": 51,
+"desde": 1750,
+"puntos": [
+"ppoi-gachi"
+],
+"titulo": {
+"es": "Un poco gato: 〜っぽい y 〜がち",
+"en": "A little cat-like: 〜っぽい and 〜がち"
+},
+"resumen": {
+"es": "っぽい: tiene pinta de…, un rasgo (muy casual). がち: tiende a…, casi siempre algo negativo. Distinto de らしい／みたい (clase 33): eso es lo que has oído, sin estar seguro.",
+"en": "っぽい: seems like…, a trait (very casual). がち: tends to…, almost always something negative. Different from らしい／みたい (class 33): that's what you've heard, without being sure."
+},
+"hay": false,
+"icono": "gato",
+"capitulo": {
+"n": 5,
+"jp": "第五章",
+"titulo": {
+"es": "Más allá del libro",
+"en": "Beyond the textbook"
+}
+},
+"puntos_jp": [
+"〜っぽい・〜がち"
+]
+},
+{
+"id": "c52",
+"clase": 52,
+"desde": 1810,
+"puntos": [
+"ni-tsuite"
+],
+"titulo": {
+"es": "Hablemos de onigiri: 〜について, 〜にとって, 〜に対して y 〜によって",
+"en": "Let's talk about onigiri: 〜について, 〜にとって, 〜に対して and 〜によって"
+},
+"resumen": {
+"es": "について: sobre, el tema del que hablas. にとって: para alguien, su punto de vista. に対して: hacia algo, una actitud. によって: según, depende de. La confusión clásica es にとって contra に対して.",
+"en": "について: about, the topic you're discussing. にとって: for someone, their point of view. に対して: towards something, an attitude. によって: depending on. The classic mix-up is にとって versus に対して."
+},
+"hay": false,
+"icono": "onigiri",
+"capitulo": {
+"n": 5,
+"jp": "第五章",
+"titulo": {
+"es": "Más allá del libro",
+"en": "Beyond the textbook"
+}
+},
+"puntos_jp": [
+"〜について・〜にとって・〜に対して・〜によって"
+]
+},
+{
+"id": "c53",
+"clase": 53,
+"desde": 1870,
+"puntos": [
+"sae-koso"
+],
+"titulo": {
+"es": "¡Ni siquiera eso!: 〜さえ y 〜こそ",
+"en": "Not even that!: 〜さえ and 〜こそ"
+},
+"resumen": {
+"es": "さえ dice «ni siquiera eso»: marca el caso más extremo. さえ〜ば dice que con eso solo ya basta. こそ señala «este, y no otro», con fuerza.",
+"en": "さえ says «not even that»: it marks the most extreme case. さえ〜ば says that alone is already enough. こそ points at «this one, and no other», with emphasis."
+},
+"hay": false,
+"icono": "cama",
+"capitulo": {
+"n": 5,
+"jp": "第五章",
+"titulo": {
+"es": "Más allá del libro",
+"en": "Beyond the textbook"
+}
+},
+"puntos_jp": [
+"〜さえ・〜こそ"
+]
+},
+{
+"id": "c54",
+"clase": 54,
+"desde": 1930,
+"puntos": [
+"sasete"
+],
+"titulo": {
+"es": "Déjame dormir: 〜させてください y 〜させてもらう",
+"en": "Let me sleep: 〜させてください and 〜させてもらう"
+},
+"resumen": {
+"es": "させてください pide permiso con educación: «déjame hacerlo». させてもらいます anuncia que TÚ te tomas esa libertad. Las dos usan el causativo que ya viste: 寝る → 寝させる → 寝させて。",
+"en": "させてください politely asks for permission: «let me do it». させてもらいます announces that YOU are taking that liberty. Both use the causative you already saw: 寝る → 寝させる → 寝させて。"
+},
+"hay": false,
+"icono": "profesor",
+"capitulo": {
+"n": 5,
+"jp": "第五章",
+"titulo": {
+"es": "Más allá del libro",
+"en": "Beyond the textbook"
+}
+},
+"puntos_jp": [
+"〜させてください・〜させてもらう"
+]
+},
+{
+"id": "c55",
+"clase": 55,
+"desde": 1990,
+"puntos": [
+"fukugo2"
+],
+"titulo": {
+"es": "Comérselo todo: 〜切る, 〜かける, 〜直す y 〜合う",
+"en": "Eating it all up: 〜切る, 〜かける, 〜直す and 〜合う"
+},
+"resumen": {
+"es": "Verbo + 切る: hacerlo DEL TODO, sin dejar nada. Verbo + かける: empezar… y pararse a medias. Verbo + 直す: hacerlo de nuevo, mejor. Verbo + 合う: hacerlo ENTRE VARIOS.",
+"en": "Verb + 切る: do it COMPLETELY, nothing left. Verb + かける: start… and stop halfway. Verb + 直す: do it again, better. Verb + 合う: do it TOGETHER, with each other."
+},
+"hay": false,
+"icono": "onigiri",
+"capitulo": {
+"n": 5,
+"jp": "第五章",
+"titulo": {
+"es": "Más allá del libro",
+"en": "Beyond the textbook"
+}
+},
+"puntos_jp": [
+"〜切る・〜かける・〜直す・〜合う"
+]
+},
+{
+"id": "c56",
+"clase": 56,
+"desde": 2050,
+"puntos": [
+"mono-da"
+],
+"titulo": {
+"es": "Así son los gatos: 〜ものだ y 〜もん",
+"en": "That's just how cats are: 〜ものだ and 〜もん"
+},
+"resumen": {
+"es": "ものだ dice una verdad general, o algo de siempre (〜たものだ, con nostalgia). もん es su primo muy hablado: una excusa, casi de niño, siempre con だって。",
+"en": "ものだ states a general truth, or something you always used to do (〜たものだ, with nostalgia). もん is its very spoken cousin: an excuse, almost childish, always with だって。"
+},
+"hay": false,
+"icono": "gato",
+"capitulo": {
+"n": 5,
+"jp": "第五章",
+"titulo": {
+"es": "Más allá del libro",
+"en": "Beyond the textbook"
+}
+},
+"puntos_jp": [
+"〜ものだ・〜もん"
+]
+},
+{
+"id": "c57",
+"clase": 57,
+"desde": 2110,
+"puntos": [
+"ni-chigainai"
+],
+"titulo": {
+"es": "¡Seguro que fue Nyan!: 〜に違いない y 〜に決まっている",
+"en": "It must have been Nyan!: 〜に違いない and 〜に決まっている"
+},
+"resumen": {
+"es": "に違いない: seguro que es así, por las pruebas. に決まっている: está clarísimo, ¡sin duda! (más hablado y con más fuerza). Las dos son más fuertes que だろう o はず, que ya conocías.",
+"en": "に違いない: it must be so, given the evidence. に決まっている: it's totally obvious, no doubt about it! (more spoken, with more force). Both are stronger than だろう or はず, which you already knew."
+},
+"hay": false,
+"icono": "gato",
+"capitulo": {
+"n": 5,
+"jp": "第五章",
+"titulo": {
+"es": "Más allá del libro",
+"en": "Beyond the textbook"
+}
+},
+"puntos_jp": [
+"〜に違いない・〜に決まっている"
+]
+},
+{
+"id": "c58",
+"clase": 58,
+"desde": 2170,
+"puntos": [
+"kuseni"
+],
+"titulo": {
+"es": "¡Y encima presume!: 〜くせに",
+"en": "And on top of that, he brags!: 〜くせに"
+},
+"resumen": {
+"es": "くせに: «y encima…», para REPROCHAR a alguien: algo no encaja con lo que hace o dice. Es como のに (ya la viste), pero más dura: siempre culpa a una PERSONA, nunca hables así de ti mismo.",
+"en": "くせに: «and yet…», to REPROACH someone: something doesn't match what they do or say. It's like のに (you already saw it), but harsher: it always blames a PERSON, never talk about yourself this way."
+},
+"hay": false,
+"icono": "carta",
+"capitulo": {
+"n": 5,
+"jp": "第五章",
+"titulo": {
+"es": "Más allá del libro",
+"en": "Beyond the textbook"
+}
+},
+"puntos_jp": [
+"〜くせに"
+]
+},
+{
+"id": "c59",
+"clase": 59,
+"desde": 2230,
+"puntos": [
+"ni-tsurete"
+],
+"titulo": {
+"es": "Cuanto más pasa el tiempo: 〜につれて y 〜にしたがって",
+"en": "As more time passes: 〜につれて and 〜にしたがって"
+},
+"resumen": {
+"es": "につれて y にしたがって dicen que, a medida que pasa una cosa, pasa otra: dos cambios juntos, poco a poco. にしたがって también sirve para «según las reglas», algo que につれて no hace.",
+"en": "につれて and にしたがって say that as one thing happens, another happens along with it: two gradual changes together. にしたがって can also mean «according to the rules», which につれて cannot."
+},
+"hay": false,
+"icono": "cama",
+"capitulo": {
+"n": 6,
+"jp": "第六章",
+"titulo": {
+"es": "Japonés de mayores",
+"en": "Grown-up Japanese"
+}
+},
+"puntos_jp": [
+"〜につれて・〜にしたがって"
+]
+},
+{
+"id": "c60",
+"clase": 60,
+"desde": 2290,
+"puntos": [
+"to-shitemo"
+],
+"titulo": {
+"es": "Aunque fuera así: 〜としても, 〜にしても y 〜としたら",
+"en": "Even if that were so: 〜としても, 〜にしても and 〜としたら"
+},
+"resumen": {
+"es": "としても: aunque resultara así (una idea, no un hecho seguro). にしても: aunque sea N, o «no importa quién/qué». としたら: si resultara que… (para imaginar, como una fantasía).",
+"en": "としても: even if that turned out to be so (an idea, not a sure fact). にしても: even granting N, or «no matter who/what». としたら: if it turned out that… (for imagining, like a fantasy)."
+},
+"hay": false,
+"icono": "nube",
+"capitulo": {
+"n": 6,
+"jp": "第六章",
+"titulo": {
+"es": "Japonés de mayores",
+"en": "Grown-up Japanese"
+}
+},
+"puntos_jp": [
+"〜としても・〜にしても・〜としたら"
+]
+},
+{
+"id": "c61",
+"clase": 61,
+"desde": 2350,
+"puntos": [
+"sufijos"
+],
+"titulo": {
+"es": "Palabras que crecen: 〜さ, 〜的, 〜化 y compañía",
+"en": "Words that grow: 〜さ, 〜的, 〜化 and friends"
+},
+"resumen": {
+"es": "Cuatro sufijos que fabrican palabras nuevas: さ convierte un adjetivo en algo medible (大[おお]きい→大[おお]きさ). 的[てき] convierte un sustantivo en «típico de» (歴史[れきし]的[てき]). 化[か] es un CAMBIO: se convierte en N (高齢[こうれい]化[か]). 性[せい] es la cualidad, o la posibilidad (可能[かのう]性[せい]).",
+"en": "Four suffixes that build new words: さ turns an adjective into something measurable (大きい→大きさ). 的 turns a noun into «typical of» (歴史的). 化 is a CHANGE: becoming N (高齢化). 性 is the quality, or the possibility (可能性)."
+},
+"hay": false,
+"icono": "gato",
+"capitulo": {
+"n": 6,
+"jp": "第六章",
+"titulo": {
+"es": "Japonés de mayores",
+"en": "Grown-up Japanese"
+}
+},
+"puntos_jp": [
+"〜さ・〜的・〜化・〜性"
+]
+},
+{
+"id": "c62",
+"clase": 62,
+"desde": 2410,
+"puntos": [
+"koto-wa-nai"
+],
+"titulo": {
+"es": "No hace falta: 〜ことはない y 〜ことだ",
+"en": "No need to: 〜ことはない and 〜ことだ"
+},
+"resumen": {
+"es": "〜ことはない tranquiliza: no hay motivo para hacer eso (心配することはない). 〜ことだ aconseja con fuerza: lo mejor es hacer eso (早く寝ることだ).",
+"en": "〜ことはない reassures: there's no reason to do that (心配することはない). 〜ことだ advises firmly: the thing to do is that (早く寝ることだ)."
+},
+"hay": false,
+"icono": "gato",
+"capitulo": {
+"n": 6,
+"jp": "第六章",
+"titulo": {
+"es": "Japonés de mayores",
+"en": "Grown-up Japanese"
+}
+},
+"puntos_jp": [
+"〜ことはない・〜ことだ"
+]
+},
+{
+"id": "c63",
+"clase": 63,
+"desde": 2470,
+"puntos": [
+"dokoroka"
+],
+"titulo": {
+"es": "¡Ni de broma!: 〜どころか",
+"en": "Not even close!: 〜どころか"
+},
+"resumen": {
+"es": "どころか dice que lo que se esperaba NO es verdad: la realidad va justo al CONTRARIO (o mucho más lejos). 簡単どころか、全部間違えた: ni mucho menos fácil, lo hice todo mal.",
+"en": "どころか says what was expected is NOT true: reality goes the OPPOSITE way (or much further). 簡単どころか、全部間違えた: far from easy, I got it all wrong."
+},
+"hay": false,
+"icono": "pizarra",
+"capitulo": {
+"n": 6,
+"jp": "第六章",
+"titulo": {
+"es": "Japonés de mayores",
+"en": "Grown-up Japanese"
+}
+},
+"puntos_jp": [
+"〜どころか"
+]
+},
+{
+"id": "c64",
+"clase": 64,
+"desde": 2530,
+"puntos": [
+"nante"
+],
+"titulo": {
+"es": "¡Qué tontería!: 〜なんて",
+"en": "How absurd!: 〜なんて"
+},
+"resumen": {
+"es": "なんて muestra desprecio (掃除なんて嫌い) o sorpresa (合格するなんて！). Es muy hablado. なんか es su primo más flojo: solo sirve para desprecio, nunca para sorpresa.",
+"en": "なんて shows scorn (掃除なんて嫌い) or surprise (合格するなんて！). It's very spoken. なんか is its weaker cousin: it only works for scorn, never for surprise."
+},
+"hay": false,
+"icono": "gato",
+"capitulo": {
+"n": 6,
+"jp": "第六章",
+"titulo": {
+"es": "Japonés de mayores",
+"en": "Grown-up Japanese"
+}
+},
+"puntos_jp": [
+"〜なんて"
+]
+},
+{
+"id": "c65",
+"clase": 65,
+"desde": 2590,
+"puntos": [
+"kawari-tsuide"
+],
+"titulo": {
+"es": "En vez de estudiar: 〜かわりに y 〜ついでに",
+"en": "Instead of studying: 〜かわりに and 〜ついでに"
+},
+"resumen": {
+"es": "〜かわりに: una cosa SUSTITUYE a otra (en vez de estudiar, dormí). 〜ついでに: aprovechas que haces algo para hacer otra cosa MÁS (las dos pasan). Su primo ために (clase «para no olvidarlo») no sustituye nada: solo dice el motivo.",
+"en": "〜かわりに: one thing REPLACES another (instead of studying, I slept). 〜ついでに: you take the chance to do something extra while already doing something else (both happen). Its cousin ために (class “so you don't forget”) doesn't replace anything: it just states the reason."
+},
+"hay": false,
+"icono": "libro",
+"capitulo": {
+"n": 6,
+"jp": "第六章",
+"titulo": {
+"es": "Japonés de mayores",
+"en": "Grown-up Japanese"
+}
+},
+"puntos_jp": [
+"〜かわりに・〜ついでに"
+]
+},
+{
+"id": "c66",
+"clase": 66,
+"desde": 2650,
+"puntos": [
+"you-ga-nai"
+],
+"titulo": {
+"es": "No hay manera: 〜ようがない",
+"en": "There's no way: 〜ようがない"
+},
+"resumen": {
+"es": "〜ようがない: ni el método existe (連絡[れんらく]しようがない = no hay manera de contactar). Su primo 〜しかない dice que SÍ se puede, solo que no queda otra opción (歩[ある]くしかない). Y el potencial negativo (話[はな]せない) es aún más simple: solo dice que no puedes, sin explicar por qué.",
+"en": "〜ようがない: the method itself doesn't even exist (連絡しようがない = there's no way to contact them). Its cousin 〜しかない says it CAN be done, there's just no other option (歩くしかない). And the negative potential (話せない) is even simpler: it just says you can't, without explaining why."
+},
+"hay": false,
+"icono": "telefono",
+"capitulo": {
+"n": 6,
+"jp": "第六章",
+"titulo": {
+"es": "Japonés de mayores",
+"en": "Grown-up Japanese"
+}
+},
+"puntos_jp": [
+"〜ようがない"
+]
+},
+{
+"id": "c67",
+"clase": 67,
+"desde": 2710,
+"puntos": [
+"sou-ni-naru"
+],
+"titulo": {
+"es": "Casi lloro: 〜そうになる",
+"en": "I almost cried: 〜そうになる"
+},
+"resumen": {
+"es": "そう sola (clase «Parece que Nyan tiene sueño») dice cómo se VE algo ahora: 眠[ねむ]そう. そうになる necesita un verbo y dice que un HECHO casi pasó, pero se evitó: 泣[な]きそうになった, 遅[おく]れそうになった.",
+"en": "そう alone (class “Nyan looks sleepy”) says how something LOOKS right now: 眠そう. そうになる needs a verb and says an EVENT almost happened, but was avoided: 泣きそうになった, 遅れそうになった."
+},
+"hay": false,
+"icono": "tele",
+"capitulo": {
+"n": 6,
+"jp": "第六章",
+"titulo": {
+"es": "Japonés de mayores",
+"en": "Grown-up Japanese"
+}
+},
+"puntos_jp": [
+"〜そうになる"
+]
+},
+{
+"id": "c68",
+"clase": 68,
+"desde": 2770,
+"puntos": [
+"escrito"
+],
+"titulo": {
+"es": "Japonés de libro (solo para leer): である, において",
+"en": "Book Japanese (for reading only): である, において"
+},
+"resumen": {
+"es": "En carteles, noticias y libros se escribe distinto de como se habla: である hace el trabajo de だ／です, において（における）hace el de で, y したがって hace el de だから. Se leen, pero no se dicen: hablando, siempre だ／です, で y だから.",
+"en": "Signs, news and books are written differently from how people speak: である does the job of だ／です, において（における）does the job of で, and したがって does the job of だから. You read them, but don't say them: when speaking it's always だ／です, で and だから."
+},
+"hay": false,
+"icono": "pizarra",
+"capitulo": {
+"n": 6,
+"jp": "第六章",
+"titulo": {
+"es": "Japonés de mayores",
+"en": "Grown-up Japanese"
+}
+},
+"puntos_jp": [
+"である・において"
+]
+},
+{
+"id": "c69",
+"clase": 69,
+"desde": 2830,
+"puntos": [
+"keigo2"
+],
+"titulo": {
+"es": "En la tienda y al teléfono: 〜させていただく y compañía",
+"en": "At the shop and on the phone: 〜させていただく and friends"
+},
+"resumen": {
+"es": "させていただきます y お〜いたします: avisas, con mucha humildad, que TÚ vas a hacer algo. ございます: cortesía para cosas y lugares, sin subir ni bajar a nadie. 少々お待ちください y かしこまりました: frases fijas de tienda, enteras, sin despiezar.",
+"en": "させていただきます and お〜いたします: you announce, very humbly, that YOU are going to do something. ございます: courtesy for things and places, raising or lowering no one. 少々お待ちください and かしこまりました: fixed shop phrases, learned whole, not taken apart."
+},
+"hay": false,
+"icono": "telefono",
+"capitulo": {
+"n": 6,
+"jp": "第六章",
+"titulo": {
+"es": "Japonés de mayores",
+"en": "Grown-up Japanese"
+}
+},
+"puntos_jp": [
+"〜させていただく・お〜いたします"
+]
+},
+{
+"id": "c70",
+"clase": 70,
+"desde": 2890,
+"puntos": [
+"narrar"
+],
+"titulo": {
+"es": "Nyan lo cuenta todo: contar una historia de principio a fin",
+"en": "Nyan tells it all: telling a story start to finish"
+},
+"resumen": {
+"es": "Para contar una historia entera: まず (primero), それから (y luego), そのあと (después), ところが (pero entonces, algo sale mal), 結局[けっきょく] (al final), やっと (por fin) y 最後[さいご]に (por último). Todo en pasado llano, como ya sabes contarle las cosas a Tama.",
+"en": "To tell a whole story: まず (first), それから (and then), そのあと (after that), ところが (but then, something goes wrong), 結局 (in the end), やっと (finally) and 最後に (lastly). All in plain past, the way you already know how to tell things to Tama."
+},
+"hay": false,
+"icono": "gato",
+"capitulo": {
+"n": 6,
+"jp": "第六章",
+"titulo": {
+"es": "Japonés de mayores",
+"en": "Grown-up Japanese"
+}
+},
+"puntos_jp": [
+"それから・結局・やっと"
+]
+}
+]

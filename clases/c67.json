@@ -1,0 +1,559 @@
+{
+ "id": "c67",
+ "clase": 67,
+ "desde": 2710,
+ "titulo": {
+  "es": "Casi lloro: 〜そうになる",
+  "en": "I almost cried: 〜そうになる"
+ },
+ "resumen": {
+  "es": "そう sola (clase «Parece que Nyan tiene sueño») dice cómo se VE algo ahora: 眠[ねむ]そう. そうになる necesita un verbo y dice que un HECHO casi pasó, pero se evitó: 泣[な]きそうになった, 遅[おく]れそうになった.",
+  "en": "そう alone (class “Nyan looks sleepy”) says how something LOOKS right now: 眠そう. そうになる needs a verb and says an EVENT almost happened, but was avoided: 泣きそうになった, 遅れそうになった."
+ },
+ "intro": [
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     { "que": "nyan", "x": 110, "cara": "triste" },
+     { "que": "tele", "x": 270 }
+    ]
+   },
+   "cara": "triste",
+   "jp": "映画[えいが]が 悲[かな]しくて、 泣[な]きそうになった。",
+   "voz": "i1",
+   "tr": {
+    "es": "La película era tan triste que casi lloro.",
+    "en": "The movie was so sad I almost cried."
+   },
+   "cartela": {
+    "es": "きそうになった: casi lo haces, pero no llegas a hacerlo.",
+    "en": "きそうになった: you almost do it, but don't quite."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "calle",
+    "cosas": [
+     { "que": "nyan", "x": 110, "cara": "sorpresa" },
+     { "que": "tren", "x": 290 },
+     { "que": "manpu", "tipo": "prisa", "x": 160, "y": 110 }
+    ]
+   },
+   "cara": "sorpresa",
+   "jp": "電車[でんしゃ]に 遅[おく]れそうになった！",
+   "voz": "i2",
+   "tr": {
+    "es": "¡Casi pierdo el tren!",
+    "en": "I almost missed the train!"
+   },
+   "cartela": {
+    "es": "Por poco. Al final llegaste a tiempo.",
+    "en": "By a hair. In the end you made it."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "calle",
+    "cosas": [
+     { "que": "nyan", "x": 110, "cara": "sueno" },
+     { "que": "gato", "x": 270 }
+    ]
+   },
+   "habla": "tama",
+   "cara": "normal",
+   "jp": "ニャン、 今日[きょう]も 眠[ねむ]そうだね。",
+   "voz": "i3",
+   "tr": {
+    "es": "Nyan, hoy también pareces tener sueño.",
+    "en": "Nyan, you look sleepy again today."
+   },
+   "cartela": {
+    "es": "眠[ねむ]そう (sin になる) es solo apariencia: PARECE que tiene sueño. Es la clase 33.",
+    "en": "眠そう (without になる) is just appearance: he LOOKS sleepy. That's class 33."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     { "que": "nyan", "x": 110, "cara": "feliz" },
+     { "que": "onigiri", "x": 270 }
+    ]
+   },
+   "cara": "feliz",
+   "jp": "おにぎりを 落[お]としそうになったけど、 大丈夫[だいじょうぶ]！",
+   "voz": "i4",
+   "tr": {
+    "es": "Casi se me cae el onigiri, ¡pero no pasa nada!",
+    "en": "I almost dropped the onigiri, but it's fine!"
+   },
+   "cartela": {
+    "es": "そうになる: siempre con un verbo, siempre casi-pero-no.",
+    "en": "そうになる: always with a verb, always almost-but-not."
+   }
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta cada frase: そうになる cuando algo casi pasa, そう sola cuando solo lo parece.",
+   "en": "Build each sentence: そうになる when something almost happens, そう alone when it just looks that way."
+  },
+  "piezas": [
+   { "id": "naki", "jp": "泣[な]き", "tipo": "verbo" },
+   { "id": "souninatta", "jp": "そうになった", "tipo": "verbo" },
+   { "id": "sou", "jp": "そう", "tipo": "particula" },
+   { "id": "naita", "jp": "泣[な]いた", "tipo": "verbo" },
+   { "id": "densha", "jp": "電車[でんしゃ]", "tipo": "palabra" },
+   { "id": "ni", "jp": "に", "tipo": "particula" },
+   { "id": "okure", "jp": "遅[おく]れ", "tipo": "verbo" },
+   { "id": "okureta", "jp": "遅[おく]れた", "tipo": "verbo" },
+   { "id": "tama", "jp": "タマ", "tipo": "palabra" },
+   { "id": "wa", "jp": "は", "tipo": "particula" },
+   { "id": "nemusou", "jp": "眠[ねむ]そう", "tipo": "palabra" },
+   { "id": "da", "jp": "だ", "tipo": "verbo" },
+   { "id": "desu", "jp": "です", "tipo": "verbo" },
+   { "id": "shukudai", "jp": "宿題[しゅくだい]", "tipo": "palabra" },
+   { "id": "wo", "jp": "を", "tipo": "particula" },
+   { "id": "wasure", "jp": "忘[わす]れ", "tipo": "verbo" },
+   { "id": "souninarimashita", "jp": "そうになりました", "tipo": "verbo" },
+   { "id": "michi", "jp": "道[みち]", "tipo": "palabra" },
+   { "id": "de", "jp": "で", "tipo": "particula" },
+   { "id": "korobi", "jp": "転[ころ]び", "tipo": "verbo" },
+   { "id": "koronda", "jp": "転[ころ]んだ", "tipo": "verbo" },
+   { "id": "ochi", "jp": "落[お]ち", "tipo": "verbo" }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Di: «Casi lloro» (la peli era muy triste).",
+     "en": "Say: «I almost cried» (the movie was so sad)."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      { "que": "nyan", "x": 110, "cara": "triste" },
+      { "que": "tele", "x": 270 }
+     ]
+    },
+    "piezas": ["naki", "souninatta", "sou", "naita"],
+    "bien": [["naki", "souninatta"]],
+    "tr": {
+     "es": "Casi lloro.",
+     "en": "I almost cried."
+    },
+    "efecto_bien": [
+     { "tipo": "texto", "texto": "ぐっ…", "objeto": "nyan" },
+     { "tipo": "nyan", "cara": "triste" }
+    ],
+    "fallos": [
+     {
+      "si": { "contiene": ["naita"] },
+      "efecto": { "tipo": "nyan", "cara": "triste", "manpu": "excl" },
+      "msg": {
+       "es": "泣[な]いた es que SÍ lloraste. Aquí casi pasa, pero no llegaste a llorar: そうになった.",
+       "en": "泣いた means you DID cry. Here it almost happened, but you didn't: そうになった."
+      }
+     },
+     {
+      "si": { "contiene": ["sou"] },
+      "efecto": { "tipo": "nyan", "cara": "pensando", "manpu": "pregunta" },
+      "msg": {
+       "es": "そう sola es que PARECE triste. Para decir que casi lloraste hace falta そうになった.",
+       "en": "そう alone means it LOOKS sad. To say you almost cried you need そうになった."
+      }
+     },
+     {
+      "si": { "falta": ["souninatta"] },
+      "efecto": { "tipo": "nyan", "cara": "normal" },
+      "msg": {
+       "es": "Sin そうになった no queda claro que casi pasa algo.",
+       "en": "Without そうになった it's not clear something almost happened."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Di: «Casi pierdo el tren».",
+     "en": "Say: «I almost missed the train»."
+    },
+    "escena": {
+     "fondo": "calle",
+     "cosas": [
+      { "que": "nyan", "x": 110, "cara": "sorpresa" },
+      { "que": "tren", "x": 290 }
+     ]
+    },
+    "piezas": ["densha", "ni", "okure", "souninatta", "okureta"],
+    "bien": [["densha", "ni", "okure", "souninatta"]],
+    "tr": {
+     "es": "Casi pierdo el tren.",
+     "en": "I almost missed the train."
+    },
+    "efecto_bien": [
+     { "tipo": "salta", "objeto": "nyan" },
+     { "tipo": "brilla", "objeto": "tren" }
+    ],
+    "fallos": [
+     {
+      "si": { "contiene": ["okureta"] },
+      "efecto": { "tipo": "nyan", "cara": "triste" },
+      "msg": {
+       "es": "遅[おく]れた es que SÍ llegaste tarde. Aquí lo evitaste por poco: そうになった.",
+       "en": "遅れた means you WERE late. Here you narrowly avoided it: そうになった."
+      }
+     },
+     {
+      "si": { "falta": ["souninatta"] },
+      "efecto": { "tipo": "nyan", "cara": "normal" },
+      "msg": {
+       "es": "Sin そうになった no queda claro que casi pasa.",
+       "en": "Without そうになった it's not clear it almost happened."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Dile a Tama que PARECE tener sueño (solo apariencia, sin になる).",
+     "en": "Tell Tama he LOOKS sleepy (just appearance, no になる)."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      { "que": "nyan", "x": 110, "cara": "pensando" },
+      { "que": "gato", "x": 270, "cara": "sueno" }
+     ]
+    },
+    "piezas": ["tama", "wa", "nemusou", "da", "souninatta", "desu"],
+    "bien": [["tama", "wa", "nemusou", "da"]],
+    "tr": {
+     "es": "Tama parece tener sueño.",
+     "en": "Tama looks sleepy."
+    },
+    "efecto_bien": [
+     { "tipo": "duerme", "objeto": "gato" },
+     { "tipo": "nyan", "cara": "pensando" }
+    ],
+    "fallos": [
+     {
+      "si": { "contiene": ["souninatta"] },
+      "efecto": { "tipo": "manpu", "objeto": "gato", "manpu": "excl" },
+      "msg": {
+       "es": "そうになった es para algo que casi PASA (un hecho). 眠[ねむ]い es un estado: solo そう, sin になる.",
+       "en": "そうになった is for an EVENT that almost happens. 眠い is a state: just そう, no になる."
+      }
+     },
+     {
+      "si": { "contiene": ["desu"] },
+      "efecto": { "tipo": "nyan", "cara": "pensando", "manpu": "pregunta" },
+      "msg": {
+       "es": "Con Tama, nada de です: だ (o ni eso).",
+       "en": "With Tama, no です: だ (or nothing at all)."
+      }
+     },
+     {
+      "si": { "falta": ["nemusou"] },
+      "efecto": { "tipo": "nyan", "cara": "normal" },
+      "msg": {
+       "es": "Sin 眠[ねむ]そう no dices que lo PARECE.",
+       "en": "Without 眠そう you're not saying he LOOKS that way."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Dile al sensei (con educación): «Casi me olvido de los deberes».",
+     "en": "Tell the teacher (politely): «I almost forgot my homework»."
+    },
+    "escena": {
+     "fondo": "escuela",
+     "cosas": [
+      { "que": "nyan", "x": 110, "cara": "sorpresa" },
+      { "que": "profesor", "x": 280 }
+     ]
+    },
+    "piezas": ["shukudai", "wo", "wasure", "souninarimashita", "souninatta"],
+    "bien": [["shukudai", "wo", "wasure", "souninarimashita"]],
+    "tr": {
+     "es": "Casi me olvido de los deberes.",
+     "en": "I almost forgot my homework."
+    },
+    "efecto_bien": [
+     { "tipo": "manpu", "objeto": "profesor", "manpu": "pregunta" },
+     { "tipo": "nyan", "cara": "sorpresa" }
+    ],
+    "fallos": [
+     {
+      "si": { "contiene": ["souninatta"] },
+      "efecto": { "tipo": "nyan", "cara": "pensando", "manpu": "pregunta" },
+      "msg": {
+       "es": "そうになった es como hablas con Tama. Con el sensei: そうになりました.",
+       "en": "そうになった is how you talk with Tama. With the teacher: そうになりました."
+      }
+     },
+     {
+      "si": { "falta": ["wasure"] },
+      "efecto": { "tipo": "nyan", "cara": "normal" },
+      "msg": {
+       "es": "Sin 忘[わす]れ no dice qué casi olvidaste.",
+       "en": "Without 忘れ it doesn't say what you almost forgot."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Reto: di «Casi me caigo en la calle» (por poco).",
+     "en": "Challenge: say «I almost tripped in the street»."
+    },
+    "escena": {
+     "fondo": "calle",
+     "cosas": [
+      { "que": "nyan", "x": 110, "cara": "sorpresa" },
+      { "que": "manpu", "tipo": "sudor", "x": 160, "y": 110 }
+     ]
+    },
+    "piezas": ["michi", "de", "korobi", "souninatta", "koronda", "ochi"],
+    "bien": [["michi", "de", "korobi", "souninatta"]],
+    "tr": {
+     "es": "Casi me caigo en la calle.",
+     "en": "I almost tripped in the street."
+    },
+    "efecto_bien": [
+     { "tipo": "tiembla", "objeto": "nyan" },
+     { "tipo": "nyan", "cara": "sorpresa" }
+    ],
+    "fallos": [
+     {
+      "si": { "contiene": ["koronda"] },
+      "efecto": [
+       { "tipo": "gira", "objeto": "nyan" },
+       { "tipo": "nyan", "cara": "triste" }
+      ],
+      "msg": {
+       "es": "転[ころ]んだ es que SÍ te caíste. Aquí fue por poco: そうになった.",
+       "en": "転んだ means you DID trip. Here it was a close call: そうになった."
+      }
+     },
+     {
+      "si": { "contiene": ["ochi"] },
+      "efecto": { "tipo": "nyan", "cara": "pensando" },
+      "msg": {
+       "es": "落[お]ちる es caer desde arriba de algo. Aquí tropiezas en el suelo: 転[ころ]ぶ.",
+       "en": "落ちる is falling from up on something. Here you trip on the ground: 転ぶ."
+      }
+     },
+     {
+      "si": { "falta": ["souninatta"] },
+      "efecto": { "tipo": "nyan", "cara": "normal" },
+      "msg": {
+       "es": "Sin そうになった no queda claro que fue por poco.",
+       "en": "Without そうになった it's not clear it was a close call."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "juego": {
+  "intro": {
+   "es": "¿そうになった (casi pasó) o そう (solo lo parece)?",
+   "en": "そうになった (almost happened) or そう (just looks that way)?"
+  },
+  "nyan": {
+   "es": "Una es un susto que no llegó a pasar. La otra es solo cara de sueño.",
+   "en": "One is a scare that didn't quite happen. The other is just a sleepy face."
+  },
+  "cestas": [
+   {
+    "id": "souninaru",
+    "jp": "そうになった",
+    "sub": { "es": "casi pasa (pero no llegó a pasar)", "en": "almost happened (but didn't)" }
+   },
+   {
+    "id": "sou",
+    "jp": "そう",
+    "sub": { "es": "parece (solo apariencia)", "en": "looks like (just appearance)" }
+   }
+  ],
+  "cartas": [
+   {
+    "id": "j1",
+    "jp": "泣[な]き＿。",
+    "cesta": "souninaru",
+    "es": "Casi lloré.",
+    "en": "I almost cried."
+   },
+   {
+    "id": "j2",
+    "dibujo": "tren",
+    "jp": "電車[でんしゃ]に 遅[おく]れ＿。",
+    "cesta": "souninaru",
+    "es": "Casi pierdo el tren.",
+    "en": "I almost missed the train."
+   },
+   {
+    "id": "j3",
+    "jp": "道[みち]で 転[ころ]び＿。",
+    "cesta": "souninaru",
+    "es": "Casi me caigo.",
+    "en": "I almost tripped."
+   },
+   {
+    "id": "j4",
+    "jp": "宿題[しゅくだい]を 忘[わす]れ＿。",
+    "cesta": "souninaru",
+    "es": "Casi me olvido de los deberes.",
+    "en": "I almost forgot my homework."
+   },
+   {
+    "id": "j5",
+    "dibujo": "gato",
+    "jp": "タマは 眠[ねむ]＿だ。",
+    "cesta": "sou",
+    "es": "Tama parece tener sueño.",
+    "en": "Tama looks sleepy."
+   },
+   {
+    "id": "j6",
+    "jp": "雨[あめ]が 降[ふ]り＿だ。",
+    "cesta": "sou",
+    "es": "Parece que va a llover.",
+    "en": "It looks like it's going to rain."
+   },
+   {
+    "id": "j7",
+    "jp": "危[あぶ]な＿だった。",
+    "cesta": "sou",
+    "es": "Parecía peligroso.",
+    "en": "It looked dangerous."
+   },
+   {
+    "id": "j8",
+    "dibujo": "libro",
+    "jp": "この 本[ほん]は 面白[おもしろ]＿だ。",
+    "cesta": "sou",
+    "es": "Este libro parece interesante.",
+    "en": "This book looks interesting."
+   }
+  ]
+ },
+ "outro": [
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     { "que": "nyan", "x": 110, "cara": "triste" },
+     { "que": "tele", "x": 270 }
+    ]
+   },
+   "cara": "triste",
+   "jp": "泣[な]きそうになった。",
+   "voz": "o1",
+   "tr": {
+    "es": "Casi lloro.",
+    "en": "I almost cried."
+   },
+   "cartela": {
+    "es": "そうになる: un HECHO que casi pasa.",
+    "en": "そうになる: an EVENT that almost happens."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     { "que": "nyan", "x": 110, "cara": "sueno" },
+     { "que": "gato", "x": 270 }
+    ]
+   },
+   "cara": "sueno",
+   "jp": "眠[ねむ]そうだね。",
+   "voz": "o2",
+   "tr": {
+    "es": "Pareces tener sueño.",
+    "en": "You look sleepy."
+   },
+   "cartela": {
+    "es": "そう sola: solo la APARIENCIA de ahora.",
+    "en": "そう alone: just how it LOOKS right now."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     { "que": "nyan", "x": 110, "cara": "feliz" },
+     { "que": "onigiri", "x": 270 }
+    ]
+   },
+   "cara": "feliz",
+   "jp": "落[お]としそうになったけど、 大丈夫[だいじょうぶ]。",
+   "voz": "o3",
+   "tr": {
+    "es": "Casi se me cae, pero no pasa nada.",
+    "en": "I almost dropped it, but it's fine."
+   },
+   "cartela": {
+    "es": "Casi-pero-no: eso es そうになる.",
+    "en": "Almost-but-not: that's そうになる."
+   }
+  }
+ ],
+ "chuleta": {
+  "patron": {
+   "es": "〔動詞ます形〕そうになった ／ 〔形容詞の語幹〕そうだ",
+   "en": "〔verb masu-stem〕そうになった / 〔adjective stem〕そうだ"
+  },
+  "patron_tr": {
+   "es": "casi… (pero no pasó) ／ parece que…",
+   "en": "almost… (but didn't) / looks like…"
+  },
+  "columnas": [
+   {
+    "jp": "そうになった",
+    "texto": {
+     "es": "casi pasa un HECHO, pero se evita",
+     "en": "an EVENT almost happens, but is avoided"
+    },
+    "dibujos": ["onigiri"]
+   },
+   {
+    "jp": "そう",
+    "texto": {
+     "es": "apariencia ahora mismo (clase 33)",
+     "en": "how it looks right now (class 33)"
+    },
+    "dibujos": ["gato"]
+   }
+  ],
+  "filas": [
+   {
+    "jp": "泣[な]きそうになった。",
+    "es": "Casi lloro.",
+    "en": "I almost cried.",
+    "registro": "amigos"
+   },
+   {
+    "jp": "宿題[しゅくだい]を 忘[わす]れそうになりました。",
+    "es": "(al sensei) Casi me olvido de los deberes.",
+    "en": "(to the teacher) I almost forgot my homework.",
+    "registro": "educado"
+   },
+   {
+    "jp": "眠[ねむ]そうだね。",
+    "es": "Pareces tener sueño.",
+    "en": "You look sleepy.",
+    "registro": "amigos"
+   }
+  ],
+  "consejo": {
+   "es": "El primo es そう sola (clase «Parece que Nyan tiene sueño»): dice cómo se VE algo ahora, 眠[ねむ]そう. そうになる necesita un verbo y dice que un HECHO casi pasó: 泣[な]きそうになった. Sin になる no hay «casi».",
+   "en": "そう alone (class “Nyan looks sleepy”) says how something LOOKS right now: 眠そう. そうになる needs a verb and says an EVENT almost happened: 泣きそうになった. Without になる there's no «almost»."
+  }
+ }
+}

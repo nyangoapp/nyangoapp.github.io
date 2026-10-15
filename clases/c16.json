@@ -1,0 +1,883 @@
+{
+ "id": "c16",
+ "clase": 16,
+ "desde": 220,
+ "titulo": {
+  "es": "La noche del festival: frases que describen y regalar",
+  "en": "Festival night: describing phrases and gifts"
+ },
+ "resumen": {
+  "es": "Un verbo antes de un nombre lo describe: 寝る猫 = «el gato que duerme». Y para regalos: あげる (yo doy), くれる (me dan a mí), もらう (recibo).",
+  "en": "A verb before a noun describes it: 寝る猫 = «the cat that sleeps». And for gifts: あげる (I give), くれる (someone gives to me), もらう (I receive)."
+ },
+ "formato": 2,
+ "lugar": "noche",
+ "mision": {
+  "texto": {
+   "es": "¡Por fin, la noche del festival! Hay tanta gente que cuesta encontrarse: describe a cada uno por lo que está haciendo. Y es noche de regalos: cuenta bien quién da qué a quién.",
+   "en": "At last, festival night! It's so crowded it's hard to find each other: describe everyone by what they're doing. And it's a night of gifts: say clearly who gives what to whom."
+  },
+  "escena": {
+   "fondo": "noche",
+   "cosas": [
+    {
+     "que": "nyan",
+     "x": 85
+    },
+    {
+     "que": "gato",
+     "id": "tama",
+     "x": 310
+    }
+   ]
+  },
+  "cara": "feliz",
+  "jp": "お祭[まつ]りだ！",
+  "voz": "m0"
+ },
+ "reglas": [
+  {
+   "id": "relativa",
+   "nombre": {
+    "es": "Frases que describen: 〔frase〕＋ nombre",
+    "en": "Describing phrases: 〔phrase〕＋ noun"
+   },
+   "patron": {
+    "es": "〔frase en forma corta〕＋〔nombre〕",
+    "en": "〔short-form phrase〕＋〔noun〕"
+   },
+   "explica": {
+    "es": "Para describir a alguien por lo que hace, pon la frase entera DELANTE del nombre, sin nada en medio: 太鼓をたたいている犬, «el perro que toca el tambor». Funciona como un adjetivo gigante. En español necesitamos el «que»; en japonés basta el orden: lo que va justo antes del nombre lo describe. El verbo va en forma corta (diccionario, ない, た, ている), porque ます solo se usa para cerrar la frase entera y aquí la frase todavía sigue.",
+    "en": "To describe someone by what they do, put the whole phrase BEFORE the noun, with nothing in between: 太鼓をたたいている犬, «the dog that plays the drum». It works like a giant adjective. English needs «that/who»; Japanese just uses order: whatever comes right before the noun describes it. The verb goes in short form (dictionary, ない, た, ている), because ます is only used to close the whole sentence, and here it continues."
+   },
+   "ejemplos": [
+    {
+     "jp": "太鼓[たいこ]を たたいて いる 犬[いぬ]が コタローです。",
+     "es": "El perro que toca el tambor es Kotarō.",
+     "en": "The dog playing the drum is Kotarō.",
+     "voz": "r1-1"
+    },
+    {
+     "jp": "昨日[きのう] 買[か]った 本[ほん]",
+     "es": "el libro que compré ayer",
+     "en": "the book I bought yesterday",
+     "voz": "r1-2"
+    }
+   ],
+   "ojo": {
+    "es": "Dentro de la descripción, quien hace la acción lleva が (o の), no は: タマが作ったおにぎり, «el onigiri que hizo Tama». は es para el tema de la frase grande, y aquí estás dentro de una pequeña.",
+    "en": "Inside the description, the doer takes が (or の), not は: タマが作ったおにぎり, «the onigiri Tama made». は is for the topic of the big sentence, and here you're inside a small one."
+   }
+  },
+  {
+   "id": "ageru",
+   "nombre": {
+    "es": "あげる, くれる, もらう: dar y recibir",
+    "en": "あげる, くれる, もらう: giving and receiving"
+   },
+   "patron": {
+    "es": "AがBに あげる／くれる ・ BがAに もらう",
+    "en": "AがBに あげる／くれる ・ BがAに もらう"
+   },
+   "explica": {
+    "es": "El japonés se fija en HACIA DÓNDE va el regalo. あげる: dar hacia fuera, de ti a otro (o de otro a un tercero): カゲにあげます. くれる: dar hacia ti o hacia los tuyos: カゲがくれました, «Kage me lo dio». もらう: RECIBIR, y quien da va con に (o から): ポンさんにもらいました, «me lo dio Pon». ¿Por qué tanto cuidado? Porque en japonés importa quién queda agradecido: くれる y もらう dejan claro que tú has recibido un favor.",
+    "en": "Japanese pays attention to WHICH WAY the gift goes. あげる: giving outward, from you to someone (or someone to a third person): カゲにあげます. くれる: giving toward you or your people: カゲがくれました, «Kage gave it to me». もらう: RECEIVING, with the giver marked by に (or から): ポンさんにもらいました, «I got it from Pon». Why so careful? Because in Japanese it matters who ends up grateful: くれる and もらう make it clear you received a favour."
+   },
+   "ejemplos": [
+    {
+     "jp": "カゲに プレゼントを あげました。",
+     "es": "Le he dado un regalo a Kage.",
+     "en": "I gave Kage a present.",
+     "voz": "r2-1"
+    },
+    {
+     "jp": "カゲが おせんべいを くれました。",
+     "es": "Kage me ha dado senbei.",
+     "en": "Kage gave me senbei.",
+     "voz": "r2-2"
+    },
+    {
+     "jp": "ポンさんに みかんを もらいました。",
+     "es": "Pon me ha dado mandarinas.",
+     "en": "I got mandarins from Pon.",
+     "voz": "r2-3"
+    }
+   ],
+   "ojo": {
+    "es": "Para algo que te dan a ti no vale あげる, porque あげる siempre va desde quien da hacia fuera, lejos de ti. «Kage me dio» es カゲがくれた.",
+    "en": "For something given to you, あげる doesn't work, because あげる always goes from the giver outward, away from you. «Kage gave me» is カゲがくれた."
+   }
+  }
+ ],
+ "historia": [
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "わあ… お祭[まつ]りです！",
+   "tr": {
+    "es": "¡Guau… el festival!",
+    "en": "Wow… the festival!"
+   },
+   "voz": "h1",
+   "cara": "feliz",
+   "reacciona": {
+    "nyan": "feliz"
+   },
+   "escena": {
+    "fondo": "noche",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 85
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 310
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "コタローは どこ？ 人[ひと]が 多[おお]すぎる…",
+   "tr": {
+    "es": "¿Dónde está Kotarō? Hay demasiada gente…",
+    "en": "Where's Kotarō? There are too many people…"
+   },
+   "voz": "h2",
+   "cara": "pensando"
+  },
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "あっ！ 太鼓[たいこ]を たたいて いる 犬[いぬ]が コタローです！",
+   "tr": {
+    "es": "¡Anda! ¡El perro que toca el tambor es Kotarō!",
+    "en": "Look! The dog playing the drum is Kotarō!"
+   },
+   "voz": "h3",
+   "cara": "sorpresa",
+   "escena": {
+    "fondo": "noche",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "taiko",
+      "x": 215,
+      "id": "taiko",
+      "s": 1.2
+     },
+     {
+      "que": "perro",
+      "id": "kotaro",
+      "x": 290
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "relativa"
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "Ahora buscáis a Kage: es el gato que está comiendo senbei. Díselo a Tama:",
+    "en": "Now you're looking for Kage: he's the cat eating senbei. Tell Tama:"
+   },
+   "opciones": [
+    {
+     "jp": "せんべいを 食[た]べて いる 猫[ねこ]が カゲです。",
+     "bien": true,
+     "tr": {
+      "es": "El gato que está comiendo senbei es Kage.",
+      "en": "The cat eating senbei is Kage."
+     },
+     "voz": "h4",
+     "porque": {
+      "es": "Todo lo que describe (せんべいを食べている) va DELANTE del nombre (猫), sin nada en medio.",
+      "en": "Everything that describes (せんべいを食べている) goes BEFORE the noun (猫), with nothing in between."
+     }
+    },
+    {
+     "jp": "猫[ねこ]が せんべいを 食[た]べて いる カゲです。",
+     "bien": false,
+     "porque": {
+      "es": "En japonés la descripción va delante del nombre, al revés que en español: せんべいを食べている猫.",
+      "en": "In Japanese the description goes before the noun, the opposite of English: せんべいを食べている猫."
+     }
+    },
+    {
+     "jp": "せんべいを 食[た]べて いますの 猫[ねこ]が カゲです。",
+     "bien": false,
+     "porque": {
+      "es": "Delante de un nombre, el verbo va en forma corta (食べている) y pegado, sin の: ます solo cierra frases, y aquí la frase sigue.",
+      "en": "Before a noun, the verb goes in short form (食べている) and attached, with no の: ます only closes sentences, and this one continues."
+     }
+    }
+   ],
+   "cara": "feliz",
+   "escena": {
+    "fondo": "noche",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "senbei",
+      "x": 230,
+      "s": 1.2
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 300
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "kage",
+   "jp": "ふん。 何[なに]か 用[よう]か。",
+   "tr": {
+    "es": "Hmpf. ¿Qué queréis?",
+    "en": "Hmph. What do you want?"
+   },
+   "voz": "h5",
+   "cara": "presumido",
+   "escena": {
+    "fondo": "noche",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "senbei",
+      "x": 230,
+      "s": 1.2
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 300
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "カゲに これを あげます！ 手伝[てつだ]って くれた お礼[れい]です。",
+   "tr": {
+    "es": "¡Esto es para ti, Kage! Por ayudarnos.",
+    "en": "This is for you, Kage! For helping us."
+   },
+   "voz": "h6",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "noche",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 85
+     },
+     {
+      "que": "regalo",
+      "x": 190,
+      "id": "regalo",
+      "s": 1.0
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 300
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "ageru"
+  },
+  {
+   "t": "dice",
+   "habla": "kage",
+   "jp": "…俺[おれ]に くれるのか？",
+   "tr": {
+    "es": "…¿Me lo das a mí?",
+    "en": "…You're giving it to me?"
+   },
+   "voz": "h7",
+   "cara": "aburrido",
+   "plano": "medio"
+  },
+  {
+   "t": "monta",
+   "encargo": 0
+  },
+  {
+   "t": "dice",
+   "habla": "kage",
+   "jp": "…ありがとう。 これを あげる。",
+   "tr": {
+    "es": "…Gracias. Toma, esto para ti.",
+    "en": "…Thanks. Here, take this."
+   },
+   "voz": "h8",
+   "cara": "aburrido",
+   "escena": {
+    "fondo": "noche",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 85
+     },
+     {
+      "que": "senbei",
+      "x": 190,
+      "id": "senbei",
+      "s": 1.2
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 300
+     }
+    ]
+   }
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "Kage le ha dado a Nyan sus senbei favoritas. ¿Cómo se lo cuenta Nyan a Tama?",
+    "en": "Kage gave Nyan his favourite senbei. How does Nyan tell Tama?"
+   },
+   "opciones": [
+    {
+     "jp": "カゲが おせんべいを くれました！",
+     "bien": true,
+     "tr": {
+      "es": "¡Kage me ha dado senbei!",
+      "en": "Kage gave me senbei!"
+     },
+     "voz": "h9",
+     "porque": {
+      "es": "Alguien me da algo A MÍ: くれる. Quien da lleva が.",
+      "en": "Someone gives something TO ME: くれる. The giver takes が."
+     }
+    },
+    {
+     "jp": "カゲが おせんべいを あげました！",
+     "bien": false,
+     "porque": {
+      "es": "あげる es dar hacia fuera (yo a otro, u otro a un tercero). Hacia ti se usa くれる: カゲがくれました.",
+      "en": "あげる is giving outward (me to others, or others to a third person). Toward you it's くれる: カゲがくれました."
+     }
+    },
+    {
+     "jp": "カゲが おせんべいを もらいました！",
+     "bien": false,
+     "porque": {
+      "es": "Así dices que KAGE ha recibido las senbei. Si fue él quien te las dio: カゲがくれました (o カゲにもらいました, «las recibí de Kage»).",
+      "en": "That says KAGE received the senbei. If he gave them to you: カゲがくれました (or カゲにもらいました, «I got them from Kage»)."
+     }
+    }
+   ],
+   "cara": "feliz",
+   "escena": {
+    "fondo": "noche",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 85
+     },
+     {
+      "que": "senbei",
+      "x": 200,
+      "s": 1.2
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 310
+     }
+    ]
+   }
+  },
+  {
+   "t": "toca",
+   "pide": {
+    "es": "Tama también ha recibido algo. Escucha y toca qué le ha dado Pon.",
+    "en": "Tama got something too. Listen and tap what Pon gave her."
+   },
+   "bien": "mikan",
+   "quien": "tama",
+   "escena": {
+    "fondo": "noche",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 65
+     },
+     {
+      "que": "daruma",
+      "x": 160,
+      "id": "daruma",
+      "s": 1.1
+     },
+     {
+      "que": "mikan",
+      "x": 215,
+      "id": "mikan",
+      "s": 1.2
+     },
+     {
+      "que": "taiko",
+      "x": 268,
+      "id": "taiko",
+      "s": 1.0
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 345
+     }
+    ]
+   },
+   "jp": "ポンさんに みかんを もらいました！",
+   "voz": "h10",
+   "bien_msg": {
+    "es": "¡Eso! みかん: もらいました, «las he recibido»; ポンさんに dice de quién.",
+    "en": "Right! みかん: もらいました, «I received them»; ポンさんに says from whom."
+   },
+   "mal_msg": {
+    "es": "Ha dicho みかん: las mandarinas, redondas y naranjas.",
+    "en": "She said みかん: the mandarins, round and orange."
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "みんなに もらった プレゼントは、 わたしの 宝物[たからもの]です。",
+   "tr": {
+    "es": "Los regalos que me habéis dado son mi tesoro.",
+    "en": "The presents you all gave me are my treasure."
+   },
+   "voz": "h11",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "noche",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 85
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 300
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 200
+     }
+    ]
+   }
+  }
+ ],
+ "epilogo": [
+  {
+   "t": "dice",
+   "habla": "kage",
+   "jp": "…来年[らいねん]も 来[く]る。",
+   "tr": {
+    "es": "…El año que viene también vengo.",
+    "en": "…I'll come next year too."
+   },
+   "voz": "x1",
+   "cara": "aburrido",
+   "escena": {
+    "fondo": "noche",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 85
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 300
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 200
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "いっしょに 来[き]ましょう！",
+   "tr": {
+    "es": "¡Vengamos juntos!",
+    "en": "Let's come together!"
+   },
+   "voz": "x2",
+   "cara": "feliz",
+   "brazo": "arriba"
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta la frase: la escena hará lo que digas.",
+   "en": "Build the sentence: the scene will do what you say."
+  },
+  "piezas": [
+   {
+    "id": "kage",
+    "jp": "カゲ",
+    "tipo": "palabra"
+   },
+   {
+    "id": "purezento",
+    "jp": "プレゼント",
+    "tipo": "palabra"
+   },
+   {
+    "id": "ni",
+    "jp": "に",
+    "tipo": "particula"
+   },
+   {
+    "id": "wo",
+    "jp": "を",
+    "tipo": "particula"
+   },
+   {
+    "id": "agemashita",
+    "jp": "あげました",
+    "tipo": "verbo"
+   },
+   {
+    "id": "kuremashita",
+    "jp": "くれました",
+    "tipo": "verbo"
+   },
+   {
+    "id": "moraimashita",
+    "jp": "もらいました",
+    "tipo": "verbo"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Tama no se lo cree. Cuéntaselo tú: «Le he dado un regalo a Kage».",
+     "en": "Tama can't believe it. Tell her: «I gave Kage a present»."
+    },
+    "escena": {
+     "fondo": "noche",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 85
+      },
+      {
+       "que": "regalo",
+       "x": 190,
+       "id": "regalo",
+       "s": 1.0
+      },
+      {
+       "que": "kage",
+       "id": "kage",
+       "x": 300
+      }
+     ]
+    },
+    "piezas": [
+     "kage",
+     "ni",
+     "purezento",
+     "wo",
+     "agemashita",
+     "kuremashita",
+     "moraimashita"
+    ],
+    "bien": [
+     [
+      "kage",
+      "ni",
+      "purezento",
+      "wo",
+      "agemashita"
+     ],
+     [
+      "purezento",
+      "wo",
+      "kage",
+      "ni",
+      "agemashita"
+     ]
+    ],
+    "tr": {
+     "es": "Le he dado un regalo a Kage.",
+     "en": "I gave Kage a present."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "mueve",
+      "objeto": "regalo",
+      "x": 262
+     },
+     {
+      "tipo": "manpu",
+      "objeto": "kage",
+      "manpu": "corazon"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "kuremashita"
+       ]
+      },
+      "efecto": {
+       "tipo": "manpu",
+       "objeto": "kage",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "くれる es cuando alguien te da algo A TI. Aquí das tú a otro, hacia fuera: あげました.",
+       "en": "くれる is when someone gives something TO YOU. Here you give to someone else, outward: あげました."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "moraimashita"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "もらう es RECIBIR: así dices que tú has recibido el regalo de Kage. Como eres tú quien da, あげました.",
+       "en": "もらう is RECEIVE: that says you got the present from Kage. Since you're the one giving, あげました."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "reto": {
+  "intro": {
+   "jp": "ふん。 プレゼントの お礼[れい]だ。 勝負[しょうぶ]して やる！",
+   "tr": {
+    "es": "Hmpf. Por el regalo, te concedo un duelo.",
+    "en": "Hmph. For the present, I'll grant you a duel."
+   },
+   "voz": "k0"
+  },
+  "gana": {
+   "jp": "…くっ。 負[ま]けた。 これも あげる。",
+   "tr": {
+    "es": "…Tsk. He perdido. Toma, esto también.",
+    "en": "…Tch. I lost. Here, take this too."
+   },
+   "voz": "kw"
+  },
+  "pierde": {
+   "jp": "ふん。 プレゼントは 返[かえ]さないぞ。",
+   "tr": {
+    "es": "Hmpf. El regalo no te lo devuelvo, ¿eh?",
+    "en": "Hmph. I'm not giving the present back."
+   },
+   "voz": "kl"
+  },
+  "pica": {
+   "jp": "…やるな。",
+   "tr": {
+    "es": "…No está mal.",
+    "en": "…Not bad."
+   },
+   "voz": "kp"
+  },
+  "burla": {
+   "jp": "ふん！",
+   "tr": {
+    "es": "¡Ja!",
+    "en": "Hah!"
+   },
+   "voz": "kb"
+  },
+  "preguntas": [
+   {
+    "tipo": "elige",
+    "jp": "タマが ＿ おにぎりは おいしいです。",
+    "opciones": [
+     "作[つく]った",
+     "作[つく]りました",
+     "作[つく]って"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "El onigiri que hizo Tama está rico.",
+     "en": "The onigiri Tama made is tasty."
+    },
+    "porque": {
+     "es": "Delante de un nombre, forma corta: 作った. ます no puede ir en medio de la frase.",
+     "en": "Before a noun, short form: 作った. ます can't go in the middle of a sentence."
+    },
+    "voz": "q1"
+   },
+   {
+    "tipo": "elige",
+    "jp": "ポンさんが わたしに みかんを ＿。",
+    "opciones": [
+     "くれました",
+     "あげました",
+     "もらいました"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Pon me ha dado mandarinas.",
+     "en": "Pon gave me mandarins."
+    },
+    "porque": {
+     "es": "Alguien me da a mí (わたしに): くれる.",
+     "en": "Someone gives to me (わたしに): くれる."
+    },
+    "voz": "q2"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "寝[ね]て いる 猫[ねこ]は ニャンです。",
+    "correcta": true,
+    "tr": {
+     "es": "El gato que duerme es Nyan.",
+     "en": "The sleeping cat is Nyan."
+    },
+    "porque": {
+     "es": "Bien: la descripción (寝ている) va delante de 猫.",
+     "en": "Right: the description (寝ている) goes before 猫."
+    },
+    "voz": "q3"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "カゲが わたしに 金魚[きんぎょ]を あげました。",
+    "correcta": false,
+    "tr": {
+     "es": "(Kage me ha dado un pez de colores.)",
+     "en": "(Kage gave me a goldfish.)"
+    },
+    "porque": {
+     "es": "Hacia ti (わたしに) se usa くれる: カゲがくれました.",
+     "en": "Toward you (わたしに) use くれる: カゲがくれました."
+    },
+    "voz": "q4"
+   },
+   {
+    "tipo": "oye",
+    "jp": "友[とも]だちに 本[ほん]を もらいました。",
+    "habla": "tama",
+    "opciones": [
+     {
+      "es": "Un amigo me ha dado un libro.",
+      "en": "A friend gave me a book."
+     },
+     {
+      "es": "Le he dado un libro a un amigo.",
+      "en": "I gave a book to a friend."
+     },
+     {
+      "es": "He comprado un libro a un amigo.",
+      "en": "I bought a book from a friend."
+     }
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "もらう: recibir; 友だちに dice de quién lo recibes.",
+     "en": "もらう: receive; 友だちに says who from."
+    },
+    "voz": "q5"
+   },
+   {
+    "tipo": "imagen",
+    "jp": "太鼓[たいこ]を たたいて いる 犬[いぬ]が います。",
+    "opciones": [
+     "taiko",
+     "senbei",
+     "daruma"
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "太鼓: el tambor que está tocando el perro.",
+     "en": "太鼓: the drum the dog is playing."
+    },
+    "pide": {
+     "es": "¿Qué está tocando el perro?",
+     "en": "What is the dog playing?"
+    }
+   }
+  ]
+ },
+ "siguiente": {
+  "es": "El puesto de los peces de colores: con una redecilla de papel que se rompe si la mojas mucho. ¿Podrá Nyan pescar uno?",
+  "en": "The goldfish stall: with a paper scoop that tears if it gets too wet. Can Nyan catch one?"
+ },
+ "chuleta": {
+  "patron": {
+   "es": "〔frase〕＋ nombre ・ あげる／くれる／もらう",
+   "en": "〔phrase〕＋ noun ・ あげる／くれる／もらう"
+  },
+  "patron_tr": {
+   "es": "el … que … ・ dar / darme / recibir",
+   "en": "the … that … ・ give / give me / receive"
+  },
+  "filas": [
+   {
+    "jp": "タマが 作[つく]った おにぎり",
+    "es": "el onigiri que hizo Tama",
+    "en": "the onigiri Tama made"
+   },
+   {
+    "jp": "カゲが くれました。",
+    "es": "Me lo ha dado Kage.",
+    "en": "Kage gave it to me.",
+    "registro": "educado"
+   },
+   {
+    "jp": "これ、 あげる！",
+    "es": "¡Esto, para ti! (a un amigo)",
+    "en": "This is for you! (to a friend)",
+    "registro": "amigos"
+   }
+  ],
+  "consejo": {
+   "es": "Al dar un regalo, los japoneses quitan importancia: つまらないものですが… («es una tontería, pero…»). No es falsa modestia: es cortesía.",
+   "en": "When giving a gift, Japanese people play it down: つまらないものですが… («it's nothing much, but…»). It's not false modesty: it's courtesy."
+  }
+ }
+}

@@ -1,0 +1,848 @@
+{
+ "id": "c06",
+ "clase": 6,
+ "desde": 45,
+ "titulo": {
+  "es": "Primer día de escuela: で, と, や, から y まで",
+  "en": "First day of school: で, と, や, から and まで"
+ },
+ "resumen": {
+  "es": "で: dónde haces algo. と: una lista completa (solo eso). や: una lista abierta (hay más). から…まで: desde… hasta…",
+  "en": "で: where you do something. と: a full list (just that). や: an open list (there's more). から…まで: from… until…"
+ },
+ "formato": 2,
+ "lugar": "escuela",
+ "mision": {
+  "texto": {
+   "es": "Primer día en la escuela de Fukuro-sensei. Para apuntarte, dile dónde estudias, con quién y hasta cuándo. ¡Y Kage también estudia aquí!",
+   "en": "First day at Fukuro-sensei's school. To sign up, tell her where you study, with whom and until when. And Kage studies here too!"
+  },
+  "escena": {
+   "fondo": "escuela",
+   "cosas": [
+    {
+     "que": "nyan",
+     "x": 110
+    },
+    {
+     "que": "sensei",
+     "id": "sensei",
+     "x": 300
+    }
+   ]
+  },
+  "cara": "sorpresa",
+  "jp": "学校[がっこう]…！",
+  "voz": "m0"
+ },
+ "reglas": [
+  {
+   "id": "de",
+   "nombre": {
+    "es": "で: dónde HACES algo",
+    "en": "で: where you DO something"
+   },
+   "patron": {
+    "es": "〔sitio〕で〔lo que haces〕",
+    "en": "〔place〕で〔what you do〕"
+   },
+   "explica": {
+    "es": "で marca el sitio donde pasa una acción: 学校で勉強します, «estudio en la escuela»; 家で食べます, «como en casa». Ojo con に: に es donde algo ESTÁ (本は机にあります) o adonde VAS (学校に行きます). Si en ese sitio HACES algo, で.",
+    "en": "で marks the place where an action happens: 学校で勉強します, «I study at school»; 家で食べます, «I eat at home». Careful with に: に is where something IS (本は机にあります) or where you GO (学校に行きます). If you DO something there, で."
+   },
+   "ejemplos": [
+    {
+     "jp": "学校[がっこう]で 勉強[べんきょう]します。",
+     "es": "Estudio en la escuela.",
+     "en": "I study at school.",
+     "voz": "r1-1"
+    },
+    {
+     "jp": "家[いえ]で 食[た]べます。",
+     "es": "Como en casa.",
+     "en": "I eat at home.",
+     "voz": "r1-2"
+    }
+   ],
+   "ojo": {
+    "es": "Truco: si hay una acción y preguntas «¿dónde la HACES?», es で. Si solo dices dónde ESTÁ algo, es に.",
+    "en": "Tip: if there's an action and you ask «where do you DO it?», it's で. If you only say where something IS, it's に."
+   }
+  },
+  {
+   "id": "to_ya",
+   "nombre": {
+    "es": "と y や: «y» (y «con»)",
+    "en": "と and や: «and» (and «with»)"
+   },
+   "patron": {
+    "es": "〔A〕と〔B〕 ・ 〔A〕や〔B〕 ・ 〔alguien〕と〔acción〕",
+    "en": "〔A〕と〔B〕 ・ 〔A〕や〔B〕 ・ 〔someone〕と〔action〕"
+   },
+   "explica": {
+    "es": "Para unir cosas hay dos «y». と da la lista COMPLETA: おにぎりとパン, «onigiri y pan (y ya)». や da unos ejemplos y deja entender que hay más: おにぎりやパン, «onigiri, pan y otras cosas». Además, と detrás de una persona significa «con»: タマと勉強します, «estudio con Tama».",
+    "en": "There are two «and»s. と gives the COMPLETE list: おにぎりとパン, «onigiri and bread (that's all)». や gives some examples and implies there's more: おにぎりやパン, «onigiri, bread and so on». Also, と after a person means «with»: タマと勉強します, «I study with Tama»."
+   },
+   "ejemplos": [
+    {
+     "jp": "おにぎりと パンが あります。",
+     "es": "Hay onigiri y pan.",
+     "en": "There's onigiri and bread.",
+     "voz": "r2-1"
+    },
+    {
+     "jp": "タマと 勉強[べんきょう]します。",
+     "es": "Estudio con Tama.",
+     "en": "I study with Tama.",
+     "voz": "r2-2"
+    }
+   ],
+   "ojo": {
+    "es": "と y や solo unen cosas (nombres). Para unir frases enteras hacen falta otras formas que verás más adelante.",
+    "en": "と and や only join things (nouns). Joining whole sentences needs other forms you'll see later."
+   }
+  },
+  {
+   "id": "kara_made",
+   "nombre": {
+    "es": "から…まで: «desde… hasta…»",
+    "en": "から…まで: «from… until…»"
+   },
+   "patron": {
+    "es": "〔principio〕から〔final〕まで",
+    "en": "〔start〕から〔end〕まで"
+   },
+   "explica": {
+    "es": "から marca dónde empieza algo y まで dónde acaba, en el tiempo o en el espacio: 九時から三時まで, «de nueve a tres»; 家から学校まで, «de casa a la escuela». Van detrás de la palabra, como todas las partículas.",
+    "en": "から marks where something starts and まで where it ends, in time or space: 九時から三時まで, «from nine to three»; 家から学校まで, «from home to school». They go after the word, like every particle."
+   },
+   "ejemplos": [
+    {
+     "jp": "九時[くじ]から 三時[さんじ]までです。",
+     "es": "Es de nueve a tres.",
+     "en": "It's from nine to three.",
+     "voz": "r3-1"
+    },
+    {
+     "jp": "今日[きょう]から 勉強[べんきょう]します。",
+     "es": "Estudio desde hoy.",
+     "en": "I'll study starting today.",
+     "voz": "r3-2"
+    }
+   ],
+   "ojo": {
+    "es": "Cada una funciona sola: 明日まで, «hasta mañana»; 今日から, «desde hoy».",
+    "en": "Each works alone: 明日まで, «until tomorrow»; 今日から, «from today»."
+   }
+  }
+ ],
+ "historia": [
+  {
+   "t": "dice",
+   "habla": "sensei",
+   "jp": "ようこそ。 ここで 日本語[にほんご]を 勉強[べんきょう]します。",
+   "tr": {
+    "es": "Bienvenido. Aquí estudiamos japonés.",
+    "en": "Welcome. Here we study Japanese."
+   },
+   "voz": "h1",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110
+     },
+     {
+      "que": "sensei",
+      "id": "sensei",
+      "x": 300
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "de"
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "Fukuro te pregunta dónde estudias. Dile: «Estudio en la escuela».",
+    "en": "Fukuro asks where you study. Tell him: «I study at school»."
+   },
+   "opciones": [
+    {
+     "jp": "学校[がっこう]で 勉強[べんきょう]します。",
+     "bien": true,
+     "tr": {
+      "es": "Estudio en la escuela.",
+      "en": "I study at school."
+     },
+     "voz": "h2",
+     "porque": {
+      "es": "Donde HACES algo: で.",
+      "en": "Where you DO something: で."
+     }
+    },
+    {
+     "jp": "学校[がっこう]に 勉強[べんきょう]します。",
+     "bien": false,
+     "porque": {
+      "es": "に sirve para donde algo ESTÁ o adonde VAS. Estudiar es una acción, y el sitio de una acción se marca con で.",
+      "en": "に is for where something IS or where you GO. Studying is an action, and an action's place is marked with で."
+     }
+    },
+    {
+     "jp": "学校[がっこう]を 勉強[べんきょう]します。",
+     "bien": false,
+     "porque": {
+      "es": "Con を dirías «estudio la escuela», como si la escuela fuera la asignatura. El sitio donde estudias va con で.",
+      "en": "With を you'd say «I study the school», as if it were the subject. Where you study takes で."
+     }
+    }
+   ],
+   "cara": "pensando"
+  },
+  {
+   "t": "dice",
+   "habla": "sensei",
+   "jp": "誰[だれ]と 勉強[べんきょう]しますか。",
+   "tr": {
+    "es": "¿Con quién estudias?",
+    "en": "Who do you study with?"
+   },
+   "voz": "h3",
+   "plano": "medio"
+  },
+  {
+   "t": "regla",
+   "regla": "to_ya"
+  },
+  {
+   "t": "monta",
+   "encargo": 0
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "おにぎりや パンが あります！",
+   "tr": {
+    "es": "¡Traigo onigiri, pan y más cosas!",
+    "en": "I brought onigiri, bread and more!"
+   },
+   "voz": "h4",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 100
+     },
+     {
+      "que": "onigiri",
+      "x": 188,
+      "s": 1.4
+     },
+     {
+      "que": "pan",
+      "x": 240,
+      "s": 1.3
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 325
+     }
+    ]
+   }
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "Nyan lo mira bien: solo hay onigiri y pan, nada más. Dilo sin dejarte nada:",
+    "en": "Nyan looks closely: there's only onigiri and bread, nothing else. Say it exactly:"
+   },
+   "opciones": [
+    {
+     "jp": "おにぎりと パンが あります。",
+     "bien": true,
+     "tr": {
+      "es": "Hay onigiri y pan (y ya).",
+      "en": "There's onigiri and bread (that's it)."
+     },
+     "voz": "h5",
+     "porque": {
+      "es": "と: la lista completa.",
+      "en": "と: the complete list."
+     }
+    },
+    {
+     "jp": "おにぎりや パンが あります。",
+     "bien": false,
+     "porque": {
+      "es": "や deja entender que hay más cosas («onigiri, pan… y más»). Como solo hay esas dos, lo exacto es と.",
+      "en": "や implies there's more («onigiri, bread… and so on»). Since there are only those two, と is exact."
+     }
+    },
+    {
+     "jp": "おにぎりで パンが あります。",
+     "bien": false,
+     "porque": {
+      "es": "で marca dónde o con qué haces algo; no sirve para enumerar. Para «y», と.",
+      "en": "で marks where or with what you do something; it can't list things. For «and», と."
+     }
+    }
+   ],
+   "cara": "pensando"
+  },
+  {
+   "t": "dice",
+   "habla": "sensei",
+   "jp": "クラスは 九時[くじ]から 三時[さんじ]までです。",
+   "tr": {
+    "es": "La clase es de nueve a tres.",
+    "en": "Class is from nine to three."
+   },
+   "voz": "h6",
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110
+     },
+     {
+      "que": "sensei",
+      "id": "sensei",
+      "x": 300
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "kara_made"
+  },
+  {
+   "t": "monta",
+   "encargo": 1
+  },
+  {
+   "t": "dice",
+   "habla": "sensei",
+   "jp": "ニャンさん、 よろしく おねがいします。",
+   "tr": {
+    "es": "Nyan, bienvenido a la clase.",
+    "en": "Nyan, welcome to the class."
+   },
+   "voz": "h7",
+   "cara": "feliz"
+  }
+ ],
+ "epilogo": [
+  {
+   "t": "dice",
+   "habla": "sensei",
+   "jp": "今日[きょう]から、 ニャンさんも この クラスの 生徒[せいと]です。",
+   "tr": {
+    "es": "Desde hoy, Nyan también es alumno de esta clase.",
+    "en": "From today, Nyan is also a student in this class."
+   },
+   "voz": "x1",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 100
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 210
+     },
+     {
+      "que": "sensei",
+      "id": "sensei",
+      "x": 320
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "がんばります！",
+   "tr": {
+    "es": "¡Me esforzaré!",
+    "en": "I'll do my best!"
+   },
+   "voz": "x2",
+   "cara": "feliz",
+   "brazo": "arriba"
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta la frase: la escena hará lo que digas.",
+   "en": "Build the sentence: the scene will do what you say."
+  },
+  "piezas": [
+   {
+    "id": "tama",
+    "jp": "タマ",
+    "tipo": "palabra"
+   },
+   {
+    "id": "kage",
+    "jp": "カゲ",
+    "tipo": "palabra"
+   },
+   {
+    "id": "kyou",
+    "jp": "今日[きょう]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "ashita",
+    "jp": "明日[あした]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "to",
+    "jp": "と",
+    "tipo": "particula"
+   },
+   {
+    "id": "de",
+    "jp": "で",
+    "tipo": "particula"
+   },
+   {
+    "id": "ni",
+    "jp": "に",
+    "tipo": "particula"
+   },
+   {
+    "id": "kara",
+    "jp": "から",
+    "tipo": "particula"
+   },
+   {
+    "id": "made",
+    "jp": "まで",
+    "tipo": "particula"
+   },
+   {
+    "id": "benkyou",
+    "jp": "勉強[べんきょう]します",
+    "tipo": "verbo"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Dile a Fukuro: «Estudio con Tama».",
+     "en": "Tell Fukuro: «I study with Tama»."
+    },
+    "escena": {
+     "fondo": "escuela",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 95
+      },
+      {
+       "que": "gato",
+       "id": "tama",
+       "x": 210
+      },
+      {
+       "que": "sensei",
+       "id": "sensei",
+       "x": 320
+      }
+     ]
+    },
+    "piezas": [
+     "tama",
+     "kage",
+     "to",
+     "de",
+     "ni",
+     "benkyou"
+    ],
+    "bien": [
+     [
+      "tama",
+      "to",
+      "benkyou"
+     ]
+    ],
+    "tr": {
+     "es": "Estudio con Tama.",
+     "en": "I study with Tama."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "manpu",
+      "objeto": "tama",
+      "manpu": "corazon"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "kage"
+       ]
+      },
+      "efecto": [
+       {
+        "tipo": "manpu",
+        "objeto": "tama",
+        "manpu": "sudor"
+       },
+       {
+        "tipo": "nyan",
+        "cara": "sorpresa"
+       }
+      ],
+      "msg": {
+       "es": "¿Con KAGE? Tama pone cara rara: la persona que va delante de と es con quien estudias. Querías decir タマと.",
+       "en": "With KAGE? Tama looks puzzled: whoever goes before と is who you study with. You meant タマと."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "de"
+       ]
+      },
+      "efecto": {
+       "tipo": "manpu",
+       "objeto": "tama",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Con で dirías «por medio de Tama», como si fuera una herramienta. Para «con» una persona, と.",
+       "en": "With で you'd say «by means of Tama», as if she were a tool. For «with» a person, と."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "ni"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "に señala un sitio o un destino (adonde vas), no una compañía. Para «con alguien», と.",
+       "en": "に points to a place or destination, not company. For «with someone», と."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Nyan se pasa de entusiasta: «Estudio desde hoy hasta mañana».",
+     "en": "Nyan gets overexcited: «I'll study from today until tomorrow»."
+    },
+    "escena": {
+     "fondo": "escuela",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110
+      },
+      {
+       "que": "sensei",
+       "id": "sensei",
+       "x": 300
+      }
+     ]
+    },
+    "piezas": [
+     "kyou",
+     "ashita",
+     "kara",
+     "made",
+     "to",
+     "benkyou"
+    ],
+    "bien": [
+     [
+      "kyou",
+      "kara",
+      "ashita",
+      "made",
+      "benkyou"
+     ]
+    ],
+    "tr": {
+     "es": "Estudio desde hoy hasta mañana.",
+     "en": "I'll study from today until tomorrow."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "sueno"
+     },
+     {
+      "tipo": "texto",
+      "texto": "zzz…",
+      "x": 150,
+      "y": 90
+     },
+     {
+      "tipo": "manpu",
+      "objeto": "sensei",
+      "manpu": "sudor"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "en": [
+        0,
+        "ashita"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "«Desde mañana hasta hoy»: el tiempo iría hacia atrás. から marca el principio y まで, el final.",
+       "en": "«From tomorrow until today»: time would go backwards. から marks the start and まで, the end."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "to"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "と une dos cosas («hoy y mañana»), pero no dice dónde empieza ni dónde acaba: para eso, から y まで.",
+       "en": "と joins two things («today and tomorrow»), but doesn't say where it starts or ends: for that, から and まで."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "reto": {
+  "intro": {
+   "jp": "ふん。 新入[しんい]りか。 この 学校[がっこう]で 一番[いちばん]は 俺[おれ]だ。",
+   "tr": {
+    "es": "Hmpf. ¿Un novato? En esta escuela el mejor soy yo.",
+    "en": "Hmph. A newbie? The best at this school is me."
+   },
+   "voz": "k0"
+  },
+  "gana": {
+   "jp": "…ふん。 明日[あした]も 勝負[しょうぶ]だ。",
+   "tr": {
+    "es": "…Hmpf. Mañana, otra vez.",
+    "en": "…Hmph. Tomorrow, again."
+   },
+   "voz": "kw"
+  },
+  "pierde": {
+   "jp": "ふん。 一番[いちばん]は 俺[おれ]だ。",
+   "tr": {
+    "es": "Hmpf. El mejor soy yo.",
+    "en": "Hmph. I'm the best."
+   },
+   "voz": "kl"
+  },
+  "pica": {
+   "jp": "…やるな。",
+   "tr": {
+    "es": "…No está mal.",
+    "en": "…Not bad."
+   },
+   "voz": "kp"
+  },
+  "burla": {
+   "jp": "ふん！",
+   "tr": {
+    "es": "¡Ja!",
+    "en": "Hah!"
+   },
+   "voz": "kb"
+  },
+  "preguntas": [
+   {
+    "tipo": "elige",
+    "jp": "学校[がっこう]＿ 勉強[べんきょう]します。",
+    "opciones": [
+     "で",
+     "に",
+     "を"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Estudio en la escuela.",
+     "en": "I study at school."
+    },
+    "porque": {
+     "es": "Estudiar es una acción, y el sitio donde pasa una acción lleva で.",
+     "en": "Studying is an action, and the place where an action happens takes で."
+    },
+    "voz": "q1"
+   },
+   {
+    "tipo": "elige",
+    "jp": "タマ＿ 学校[がっこう]に 行[い]きます。",
+    "opciones": [
+     "と",
+     "や",
+     "で"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Voy a la escuela con Tama.",
+     "en": "I go to school with Tama."
+    },
+    "porque": {
+     "es": "Vas acompañado de Tama: la persona con la que haces algo lleva と.",
+     "en": "You go along with Tama: the person you do something with takes と."
+    },
+    "voz": "q2"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "九時[くじ]から 三時[さんじ]までです。",
+    "correcta": true,
+    "tr": {
+     "es": "Es de nueve a tres.",
+     "en": "It's from nine to three."
+    },
+    "porque": {
+     "es": "Bien: から marca dónde empieza y まで dónde acaba, y van justo detrás de cada hora.",
+     "en": "Right: から marks the start and まで the end, right after each time."
+    },
+    "voz": "q3"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "学校[がっこう]に 勉強[べんきょう]します。",
+    "correcta": false,
+    "tr": {
+     "es": "(Estudio en la escuela.)",
+     "en": "(I study at school.)"
+    },
+    "porque": {
+     "es": "に sería donde ESTÁS; como estudiar es una acción, el sitio va con で: 学校で勉強します.",
+     "en": "に would be where you ARE; since studying is an action, the place takes で: 学校で勉強します."
+    },
+    "voz": "q4"
+   },
+   {
+    "tipo": "oye",
+    "jp": "おにぎりや パンが あります。",
+    "habla": "tama",
+    "opciones": [
+     {
+      "es": "Hay onigiri, pan y otras cosas.",
+      "en": "There's onigiri, bread and other things."
+     },
+     {
+      "es": "Solo hay onigiri y pan.",
+      "en": "There's only onigiri and bread."
+     },
+     {
+      "es": "Hay pan dentro del onigiri.",
+      "en": "There's bread inside the onigiri."
+     }
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "や da ejemplos y deja la lista abierta: hay onigiri, pan… y más cosas.",
+     "en": "や gives examples and leaves the list open: onigiri, bread… and more."
+    },
+    "voz": "q5"
+   },
+   {
+    "tipo": "imagen",
+    "jp": "学校[がっこう]で 勉強[べんきょう]します。",
+    "opciones": [
+     "escuela",
+     "cama",
+     "pan"
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "学校 es la escuela: 学 (aprender) + 校 (edificio de escuela).",
+     "en": "学校 is school: 学 (learn) + 校 (school building)."
+    },
+    "pide": {
+     "es": "¿Dónde estudia?",
+     "en": "Where does he study?"
+    }
+   }
+  ]
+ },
+ "siguiente": {
+  "es": "Mañana se elige al líder de la clase. Nyan quiere serlo… y Kage también.",
+  "en": "Tomorrow the class leader is chosen. Nyan wants the job… and so does Kage."
+ },
+ "chuleta": {
+  "patron": {
+   "es": "〔sitio〕で ・ 〔A〕と〔B〕 ・ 〔…〕から〔…〕まで",
+   "en": "〔place〕で ・ 〔A〕と〔B〕 ・ 〔…〕から〔…〕まで"
+  },
+  "patron_tr": {
+   "es": "en (haciendo algo) ・ A y B ・ desde… hasta…",
+   "en": "at (doing something) ・ A and B ・ from… until…"
+  },
+  "filas": [
+   {
+    "jp": "学校[がっこう]で 勉強[べんきょう]します。",
+    "es": "Estudio en la escuela.",
+    "en": "I study at school.",
+    "registro": "educado"
+   },
+   {
+    "jp": "タマと 行[い]く。",
+    "es": "Voy con Tama. (a un amigo)",
+    "en": "I'm going with Tama. (to a friend)",
+    "registro": "amigos"
+   },
+   {
+    "jp": "おにぎりや パンが あります。",
+    "es": "Hay onigiri, pan y más cosas.",
+    "en": "There's onigiri, bread and more."
+   },
+   {
+    "jp": "九時[くじ]から 三時[さんじ]までです。",
+    "es": "Es de nueve a tres.",
+    "en": "It's from nine to three."
+   }
+  ],
+  "consejo": {
+   "es": "で = donde HACES algo; に = donde ESTÁS o adonde VAS. Si dudas, pregúntate si hay acción.",
+   "en": "で = where you DO something; に = where you ARE or GO. When in doubt, ask yourself if there's an action."
+  }
+ }
+}

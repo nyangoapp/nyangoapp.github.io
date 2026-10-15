@@ -1,0 +1,51 @@
+{
+ "id": "l29", "desde": 2250,
+ "titulo": {"jp": "ニャンの 誤解[ごかい]", "es": "El malentendido de Nyan", "en": "Nyan's misunderstanding"},
+ "resumen": {"es": "Tama empieza a comportarse de un modo extraño, y Nyan se hace una idea completamente equivocada del motivo.", "en": "Tama starts acting strangely, and Nyan gets a completely wrong idea about the reason why."},
+ "portada": {"fondo": "cuarto", "cosas": [{"que": "nyan", "x": 100, "cara": "triste"}, {"que": "gato", "x": 210}, {"que": "regalo", "x": 310}]},
+ "texto": [
+   {"voz": "t1", "quien": "narrador", "jp": "最近[さいきん]、 タマの 様子[ようす]が いつもと 違[ちが]う ことに、 ニャンは 気[き]づいた。", "es": "Últimamente, Nyan se dio cuenta de que Tama estaba distinta a como era siempre.", "en": "Lately, Nyan noticed Tama was acting different from usual."},
+   {"voz": "t2", "quien": "narrador", "jp": "タマは 忙[いそが]しそうで、 ニャンを 避[さ]けて いる ようだった。", "es": "Tama parecía ocupada, y daba la impresión de que evitaba a Nyan.", "en": "Tama seemed busy, and it looked like she was avoiding Nyan."},
+   {"voz": "t3", "quien": "nyan", "jp": "タマ、 最近[さいきん] 何[なに]か 変[へん]だよ。 ニャンの こと、 嫌[きら]いに なったのかな…。", "es": "Tama, últimamente estás rara. Me pregunto si ha dejado de gustarle Nyan...", "en": "Tama, you've been strange lately. I wonder if you've come to dislike Nyan..."},
+   {"voz": "t4", "quien": "narrador", "jp": "ニャンが 話[はな]しかけても、 タマは 短[みじか]い 返事[へんじ]しか しなかった。", "es": "Aunque Nyan le hablaba, Tama solo daba respuestas cortas.", "en": "Even when Nyan spoke to him, Tama only gave short replies."},
+   {"voz": "t5", "quien": "narrador", "jp": "日[ひ]が 経[た]つに つれて、 ニャンの 心配[しんぱい]は 大[おお]きく なって いった。", "es": "A medida que pasaban los días, la preocupación de Nyan iba creciendo.", "en": "As the days went by, Nyan's worry kept growing bigger."},
+   {"voz": "t6", "quien": "nyan", "jp": "ニャン、 何[なに]か 悪[わる]い ことを したのかな…。", "es": "Me pregunto si Nyan habrá hecho algo malo...", "en": "I wonder if Nyan did something wrong..."},
+   {"voz": "t7", "quien": "narrador", "jp": "ニャンは、 タマが 自分[じぶん]を 避[さ]けて いると 誤解[ごかい]した。", "es": "Nyan malentendió que Tama lo estaba evitando.", "en": "Nyan misunderstood that Tama was avoiding him."},
+   {"voz": "t8", "quien": "narrador", "jp": "実[じつ]は、 タマは ニャンの 誕生日[たんじょうび]の ために、 秘密[ひみつ]の 準備[じゅんび]を して いた。", "es": "En realidad, Tama estaba haciendo preparativos secretos para el cumpleaños de Nyan.", "en": "In truth, Tama was making secret preparations for Nyan's birthday."},
+   {"voz": "t9", "quien": "narrador", "jp": "ニャンには 何[なに]も 言[い]わずに、 一人[ひとり]で 計画[けいかく]を 進[すす]めて いた。", "es": "Sin decirle nada a Nyan, iba avanzando sola con el plan.", "en": "Without telling Nyan anything, he was moving the plan forward by himself."},
+   {"voz": "t10", "quien": "nyan", "jp": "もう、 我慢[がまん]できない！ タマに ちゃんと 聞[き]いて みよう。", "es": "¡Ya no puedo más! Voy a preguntarle a Tama como es debido.", "en": "I can't stand it anymore! I'm going to properly ask Tama."},
+   {"voz": "t11", "quien": "narrador", "jp": "ニャンは 勇気[ゆうき]を 出[だ]して、 タマに 聞[き]いて みた。", "es": "Nyan sacó valor y le preguntó a Tama.", "en": "Nyan gathered his courage and asked Tama."},
+   {"voz": "t12", "quien": "nyan", "jp": "タマ、 最近[さいきん] ニャンを 避[さ]けてる でしょう？ ニャンの こと、 嫌[きら]いに なった？", "es": "Tama, últimamente evitas a Nyan, ¿verdad? ¿Has dejado de que te guste Nyan?", "en": "Tama, you've been avoiding Nyan lately, haven't you? Have you come to dislike Nyan?"},
+   {"voz": "t13", "quien": "tama", "jp": "えっ！？ そんな こと ない よ！ 誤解[ごかい]だよ！", "es": "¿¡Eh!? ¡Eso no es verdad! ¡Es un malentendido!", "en": "Eh!? That's not true at all! It's a misunderstanding!"},
+   {"voz": "t14", "quien": "narrador", "jp": "タマは、 なぜ 避[さ]けて いたのかを 説明[せつめい]した。", "es": "Tama explicó por qué había estado evitándolo.", "en": "Tama explained why she'd been avoiding him."},
+   {"voz": "t15", "quien": "tama", "jp": "実[じつ]は、 ニャンの 誕生日[たんじょうび]の 準備[じゅんび]を してたの。", "es": "En realidad, estaba preparando el cumpleaños de Nyan.", "en": "Actually, I was preparing for Nyan's birthday."},
+   {"voz": "t16", "quien": "narrador", "jp": "それを 聞[き]いて、 ニャンは とても 驚[おどろ]いた。", "es": "Al oír eso, Nyan se sorprendió muchísimo.", "en": "Hearing that, Nyan was very surprised."},
+   {"voz": "t17", "quien": "nyan", "jp": "そうだったんだ…！ ごめんなさい、 変[へん]な 誤解[ごかい]を して。", "es": "¡Así que era eso...! Perdona por hacerme una idea tan rara.", "en": "So that's what it was...! Sorry for having such a strange misunderstanding."},
+   {"voz": "t18", "quien": "tama", "jp": "ごめんなさい、 心配[しんぱい]させて。", "es": "Perdona tú por preocuparte.", "en": "Sorry for making you worried."},
+   {"voz": "t19", "quien": "narrador", "jp": "二人[ふたり]は 一緒[いっしょ]に 笑[わら]って、 また いつもの 二人[ふたり]に 戻[もど]った。", "es": "Los dos se rieron juntos, y volvieron a ser los de siempre.", "en": "The two of them laughed together, and went back to being their usual selves."},
+   {"voz": "t20", "quien": "narrador", "jp": "時間[じかん]が 経[た]つに つれて、 二人[ふたり]の 仲[なか]は もっと 良[よ]く なった。", "es": "A medida que pasaba el tiempo, la relación entre los dos se hizo aún mejor.", "en": "As time passed, the bond between the two of them grew even better."}
+ ],
+ "preguntas": [
+  {"jp": "最近[さいきん]、 タマの 様子[ようす]は どうでしたか。", "es": "¿Cómo estaba Tama últimamente?", "en": "How had Tama been lately?",
+   "opciones": [{"jp": "いつもと 違[ちが]って、 ニャンを 避[さ]けて いる ようだった", "es": "Distinta a siempre, parecía evitar a Nyan", "en": "Different from usual, he seemed to be avoiding Nyan"}, {"jp": "とても 元気[げんき]そうだった", "es": "Parecía muy animada", "en": "He seemed very energetic"}, {"jp": "全然[ぜんぜん] 変[か]わらなかった", "es": "No había cambiado en nada", "en": "Hadn't changed at all"}],
+   "bien": 0, "porque": {"es": "「タマは忙しそうで、ニャンを避けているようだった」とある。", "en": "«タマは忙しそうで、ニャンを避けているようだった» (Tama seemed busy and looked like she was avoiding Nyan)."}},
+  {"jp": "ニャンは、 タマが 自分[じぶん]を 避[さ]けて いる 理由[りゆう]を どう 誤解[ごかい]しましたか。", "es": "¿Qué malentendió Nyan sobre el motivo por el que Tama lo evitaba?", "en": "What did Nyan misunderstand about the reason Tama was avoiding him?",
+   "opciones": [{"jp": "自分[じぶん]の ことが 嫌[きら]いに なった と 誤解[ごかい]した", "es": "Malentendió que había dejado de gustarle a Tama", "en": "He misunderstood that Tama had come to dislike him"}, {"jp": "タマが 病気[びょうき]だ と 誤解[ごかい]した", "es": "Malentendió que Tama estaba enferma", "en": "He misunderstood that Tama was sick"}, {"jp": "タマが 怒[おこ]られた と 誤解[ごかい]した", "es": "Malentendió que habían reñido a Tama", "en": "He misunderstood that Tama had gotten in trouble"}],
+   "bien": 0, "porque": {"es": "「タマが自分を避けていると誤解した」とある。", "en": "«タマが自分を避けていると誤解した» (he misunderstood that Tama was avoiding him)."}},
+  {"jp": "実[じつ]は、 タマは 何[なに]を して いましたか。", "es": "¿Qué estaba haciendo Tama en realidad?", "en": "What was Tama actually doing?",
+   "opciones": [{"jp": "ニャンの 誕生日[たんじょうび]の 準備[じゅんび]を して いた", "es": "Preparando el cumpleaños de Nyan", "en": "Preparing for Nyan's birthday"}, {"jp": "他[ほか]の 学校[がっこう]に 通[かよ]う 準備[じゅんび]を して いた", "es": "Preparándose para ir a otro colegio", "en": "Preparing to attend a different school"}, {"jp": "新[あたら]しい 友達[ともだち]と 遊[あそ]んで いた", "es": "Jugando con un amigo nuevo", "en": "Playing with a new friend"}],
+   "bien": 0, "porque": {"es": "「タマはニャンの誕生日のために、秘密の準備をしていた」とある。", "en": "«タマはニャンの誕生日のために、秘密の準備をしていた» (Tama was making secret preparations for Nyan's birthday)."}},
+  {"jp": "誤解[ごかい]が なくなった 後[あと]、 二人[ふたり]は どう なりましたか。", "es": "Después de que desapareciera el malentendido, ¿qué pasó con los dos?", "en": "After the misunderstanding was gone, what happened with the two of them?",
+   "opciones": [{"jp": "二人[ふたり]の 仲[なか]は もっと 良[よ]く なった", "es": "Su relación se hizo aún mejor", "en": "Their bond got even better"}, {"jp": "二人[ふたり]は けんかを した", "es": "Los dos se pelearon", "en": "The two of them had a fight"}, {"jp": "タマが 学校[がっこう]を やめた", "es": "Tama dejó el colegio", "en": "Tama quit school"}],
+   "bien": 0, "porque": {"es": "「二人の仲はもっと良くなった」とある。", "en": "«二人の仲はもっと良くなった» (the bond between the two of them got even better)."}},
+  {"tipo": "opinion", "jp": "友達[ともだち]の 様子[ようす]が 突然[とつぜん] 変[か]わったら、 あなたは どう しますか。", "es": "Si el comportamiento de un amigo cambiara de repente, ¿qué harías tú?", "en": "If a friend's behavior suddenly changed, what would you do?",
+   "opciones": [
+    {"jp": "すぐに 理由[りゆう]を 聞[き]く", "es": "Preguntarle el motivo enseguida", "en": "Ask the reason right away",
+     "nyan": {"jp": "それ、 いい 考[かんが]えだね！ ニャンも 早[はや]く 聞[き]けば よかったよ。", "es": "¡Esa es una buena idea! A Nyan le hubiera ido bien preguntar antes.", "en": "That's a good idea! Nyan should have asked sooner too."}},
+    {"jp": "自分[じぶん]で 理由[りゆう]を 考[かんが]えて みる", "es": "Intentar imaginarme yo el motivo", "en": "Try to figure out the reason myself",
+     "nyan": {"jp": "ニャンも 最初[さいしょ]は そう したけど、 誤解[ごかい]しちゃった。", "es": "Nyan también hizo eso al principio, pero acabó malentendiendo todo.", "en": "Nyan did that at first too, but ended up misunderstanding everything."}},
+    {"jp": "しばらく 様子[ようす]を 見[み]る", "es": "Esperar un poco observando cómo va", "en": "Wait a while and see how things go",
+     "nyan": {"jp": "それも いいね。 でも、 心配[しんぱい]に なる かも。", "es": "Eso también está bien. Aunque puede que te entre preocupación.", "en": "That's fine too. Though you might start to worry."}}
+   ]}
+ ]
+}

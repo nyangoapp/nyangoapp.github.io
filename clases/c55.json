@@ -1,0 +1,991 @@
+{
+ "id": "c55",
+ "clase": 55,
+ "desde": 1990,
+ "titulo": {
+  "es": "Comérselo todo: 〜切る, 〜かける, 〜直す y 〜合う",
+  "en": "Eating it all up: 〜切る, 〜かける, 〜直す and 〜合う"
+ },
+ "resumen": {
+  "es": "Verbo + 切る: hacerlo DEL TODO, sin dejar nada. Verbo + かける: empezar… y pararse a medias. Verbo + 直す: hacerlo de nuevo, mejor. Verbo + 合う: hacerlo ENTRE VARIOS.",
+  "en": "Verb + 切る: do it COMPLETELY, nothing left. Verb + かける: start… and stop halfway. Verb + 直す: do it again, better. Verb + 合う: do it TOGETHER, with each other."
+ },
+ "intro": [
+  {
+   "escena": {
+    "fondo": "cocina",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 130,
+      "cara": "feliz",
+      "brazo": "arriba"
+     },
+     {
+      "que": "onigiri",
+      "x": 280,
+      "s": 1.2
+     },
+     {
+      "que": "manpu",
+      "tipo": "brillo",
+      "x": 320,
+      "y": 110
+     }
+    ]
+   },
+   "cara": "feliz",
+   "jp": "全部[ぜんぶ] 食[た]べ切[き]りました！",
+   "voz": "i1",
+   "tr": {
+    "es": "¡Me lo he comido todo!",
+    "en": "I ate it all up!"
+   },
+   "cartela": {
+    "es": "動詞 + 切[き]る: hacerlo DEL TODO, sin dejar nada.",
+    "en": "verb + 切る: do it COMPLETELY, nothing left."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 130,
+      "cara": "pensando"
+     },
+     {
+      "que": "manpu",
+      "tipo": "sudor",
+      "x": 170,
+      "y": 110
+     }
+    ]
+   },
+   "cara": "pensando",
+   "jp": "あの… 実[じつ]は……。",
+   "voz": "i2",
+   "tr": {
+    "es": "Esto… en realidad……",
+    "en": "Um… actually……"
+   },
+   "cartela": {
+    "es": "Nyan empieza a hablar… y se para. Eso es 言[い]いかける。",
+    "en": "Nyan starts to talk… and stops. That's 言いかける。"
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "triste"
+     },
+     {
+      "que": "gato",
+      "x": 270
+     }
+    ]
+   },
+   "habla": "tama",
+   "cara": "pensando",
+   "jp": "ねえ、 それで？",
+   "voz": "i3",
+   "tr": {
+    "es": "Oye, ¿y qué más?",
+    "en": "Hey, and then?"
+   },
+   "cartela": {
+    "es": "Tama quiere que termine la frase. ¡Nyan no se libra tan fácil!",
+    "en": "Tama wants him to finish. Nyan won't get off that easy!"
+   }
+  },
+  {
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 130,
+      "cara": "normal"
+     },
+     {
+      "que": "pizarra",
+      "x": 280,
+      "s": 1.2
+     }
+    ]
+   },
+   "cara": "normal",
+   "jp": "漢字[かんじ]を 間違[まちが]えたから、 書[か]き直[なお]した。",
+   "voz": "i4",
+   "tr": {
+    "es": "Me equivoqué de kanji, así que lo rehice.",
+    "en": "I got the kanji wrong, so I rewrote it."
+   },
+   "cartela": {
+    "es": "動詞 + 直[なお]す: hacerlo de nuevo, mejor. ¡A practicar las cuatro!",
+    "en": "verb + 直す: do it again, better. Let's practice all four!"
+   }
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta cada frase. 切る: del todo, sin dejar nada. かける: empezar… y pararse a medias. 直す: otra vez, mejor. 合う: entre varios.",
+   "en": "Build each sentence. 切る: completely, nothing left. かける: start… and stop halfway. 直す: again, better. 合う: together, with each other."
+  },
+  "piezas": [
+   {
+    "id": "zenbu",
+    "jp": "全部[ぜんぶ]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "tabekirimashita",
+    "jp": "食[た]べ切[き]りました",
+    "tipo": "verbo"
+   },
+   {
+    "id": "tabehajimemashita",
+    "jp": "食[た]べ始[はじ]めました",
+    "tipo": "verbo"
+   },
+   {
+    "id": "tabeowarimashita",
+    "jp": "食[た]べ終[お]わりました",
+    "tipo": "verbo"
+   },
+   {
+    "id": "nanika",
+    "jp": "何[なに]か",
+    "tipo": "palabra"
+   },
+   {
+    "id": "iikaketa",
+    "jp": "言[い]いかけた",
+    "tipo": "verbo"
+   },
+   {
+    "id": "iihajimeta",
+    "jp": "言[い]い始[はじ]めた",
+    "tipo": "verbo"
+   },
+   {
+    "id": "itta",
+    "jp": "言[い]った",
+    "tipo": "verbo"
+   },
+   {
+    "id": "kanjiwo",
+    "jp": "漢字[かんじ]を",
+    "tipo": "palabra"
+   },
+   {
+    "id": "kakinaoshita",
+    "jp": "書[か]き直[なお]した",
+    "tipo": "verbo"
+   },
+   {
+    "id": "kakihajimeta",
+    "jp": "書[か]き始[はじ]めた",
+    "tipo": "verbo"
+   },
+   {
+    "id": "kaita",
+    "jp": "書[か]いた",
+    "tipo": "verbo"
+   },
+   {
+    "id": "hanashiaou",
+    "jp": "話[はな]し合[あ]おう",
+    "tipo": "verbo"
+   },
+   {
+    "id": "hanasou",
+    "jp": "話[はな]そう",
+    "tipo": "verbo"
+   },
+   {
+    "id": "hanashinaosou",
+    "jp": "話[はな]し直[なお]そう",
+    "tipo": "verbo"
+   },
+   {
+    "id": "yomikirimashita",
+    "jp": "読[よ]み切[き]りました",
+    "tipo": "verbo"
+   },
+   {
+    "id": "yomihajimemashita",
+    "jp": "読[よ]み始[はじ]めました",
+    "tipo": "verbo"
+   },
+   {
+    "id": "yomiowarimashita",
+    "jp": "読[よ]み終[お]わりました",
+    "tipo": "verbo"
+   },
+   {
+    "id": "yominaoshimashita",
+    "jp": "読[よ]み直[なお]しました",
+    "tipo": "verbo"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Nyan se ha comido todos los onigiri, sin dejar ni uno. Di: «Me los comí todos».",
+     "en": "Nyan ate every single onigiri, not one left. Say: «I ate them all up»."
+    },
+    "escena": {
+     "fondo": "cocina",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 130,
+       "cara": "feliz"
+      },
+      {
+       "que": "onigiri",
+       "x": 270,
+       "s": 1.2
+      }
+     ]
+    },
+    "piezas": [
+     "zenbu",
+     "tabekirimashita",
+     "tabehajimemashita",
+     "tabeowarimashita"
+    ],
+    "bien": [
+     [
+      "zenbu",
+      "tabekirimashita"
+     ]
+    ],
+    "tr": {
+     "es": "Me los comí todos.",
+     "en": "I ate them all up."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "desaparece",
+      "objeto": "onigiri"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz",
+      "brazo": "arriba"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "tabehajimemashita"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "始めました es que EMPEZÓ a comer, no que terminó. Para decir que no dejó nada: 食べ切りました。",
+       "en": "始めました means he STARTED eating, not that he finished. To say nothing was left: 食べ切りました。"
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "tabeowarimashita"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "終わりました dice que terminó de comer, pero 切る insiste en que no quedó NADA: más contundente.",
+       "en": "終わりました says he finished eating, but 切る insists NOTHING was left: stronger."
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "tabekirimashita"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin 食べ切りました no queda claro que no dejó nada.",
+       "en": "Without 食べ切りました it's not clear nothing was left."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Nyan empieza a confesar algo… y se calla a media frase. Di: «Empecé a decir algo…».",
+     "en": "Nyan starts to confess something… and stops mid-sentence. Say: «I started to say something…»."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "pensando"
+      },
+      {
+       "que": "gato",
+       "x": 270,
+       "cara": "pensando"
+      }
+     ]
+    },
+    "piezas": [
+     "nanika",
+     "iikaketa",
+     "iihajimeta",
+     "itta"
+    ],
+    "bien": [
+     [
+      "nanika",
+      "iikaketa"
+     ]
+    ],
+    "tr": {
+     "es": "Empecé a decir algo…",
+     "en": "I started to say something…"
+    },
+    "efecto_bien": [
+     {
+      "tipo": "manpu",
+      "objeto": "gato",
+      "manpu": "pregunta"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "pensando"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "iihajimeta"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "始めた implica que siguió hablando. 言いかけた dice que EMPEZÓ… y se paró.",
+       "en": "始めた implies he kept talking. 言いかけた says he STARTED… and stopped."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "itta"
+       ]
+      },
+      "efecto": {
+       "tipo": "manpu",
+       "objeto": "gato",
+       "manpu": "sudor"
+      },
+      "msg": {
+       "es": "言った es que lo dijo entero; aquí se quedó a medias: 言いかけた。",
+       "en": "言った means he said it all; here he stopped halfway: 言いかけた。"
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "iikaketa"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin 言いかけた no queda la idea de «empezar y pararse».",
+       "en": "Without 言いかけた you lose the «start and stop» idea."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Nyan se equivocó de kanji y lo escribe otra vez, bien. Di: «Lo reescribí».",
+     "en": "Nyan got the kanji wrong and writes it again, correctly. Say: «I rewrote it»."
+    },
+    "escena": {
+     "fondo": "escuela",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 130,
+       "cara": "pensando"
+      },
+      {
+       "que": "pizarra",
+       "x": 270,
+       "s": 1.2
+      }
+     ]
+    },
+    "piezas": [
+     "kanjiwo",
+     "kakinaoshita",
+     "kakihajimeta",
+     "kaita"
+    ],
+    "bien": [
+     [
+      "kanjiwo",
+      "kakinaoshita"
+     ]
+    ],
+    "tr": {
+     "es": "Reescribí el kanji.",
+     "en": "I rewrote the kanji."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "brilla",
+      "objeto": "pizarra"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "kakihajimeta"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "始めた es EMPEZAR a escribir; aquí ya lo había escrito MAL y lo rehace: 書き直した。",
+       "en": "始めた is STARTING to write; here he'd already written it WRONG and redoes it: 書き直した。"
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "kaita"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "書いた solo dice que lo escribió (¿bien? ¿mal?); 直す dice que lo corrigió.",
+       "en": "書いた just says he wrote it (right? wrong?); 直す says he corrected it."
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "kakinaoshita"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin 書き直した no queda claro que lo corrigió.",
+       "en": "Without 書き直した it's not clear he corrected it."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Sugiere a Tama: «Hablémoslo entre los dos».",
+     "en": "Suggest to Tama: «Let's talk it over, just the two of us»."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "normal"
+      },
+      {
+       "que": "gato",
+       "x": 270
+      }
+     ]
+    },
+    "piezas": [
+     "hanashiaou",
+     "hanasou",
+     "hanashinaosou"
+    ],
+    "bien": [
+     [
+      "hanashiaou"
+     ]
+    ],
+    "tr": {
+     "es": "Hablémoslo entre los dos.",
+     "en": "Let's talk it over, just the two of us."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "manpu",
+      "objeto": "gato",
+      "manpu": "corazon"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "hanasou"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "話そう es «hablemos», pero no dice que sea ENTRE LOS DOS, hasta llegar a un acuerdo: 話し合おう。",
+       "en": "話そう is «let's talk», but doesn't say it's TOGETHER, working it out: 話し合おう。"
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "hanashinaosou"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "直す es rehacerlo; aquí no hay que rehacer nada, hay que hablarlo JUNTOS: 合う。",
+       "en": "直す is redoing it; there's nothing to redo here, just talk it out TOGETHER: 合う。"
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Reto: Nyan leyó todo el libro sin saltarse ni una página. Di: «Me lo leí entero».",
+     "en": "Challenge: Nyan read the whole book without skipping a page. Say: «I read it all the way through»."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 130,
+       "cara": "feliz"
+      },
+      {
+       "que": "libro",
+       "x": 270,
+       "s": 1.3
+      }
+     ]
+    },
+    "piezas": [
+     "zenbu",
+     "yomikirimashita",
+     "yomihajimemashita",
+     "yomiowarimashita",
+     "yominaoshimashita"
+    ],
+    "bien": [
+     [
+      "zenbu",
+      "yomikirimashita"
+     ]
+    ],
+    "tr": {
+     "es": "Me lo leí entero.",
+     "en": "I read it all the way through."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "brilla",
+      "objeto": "libro"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz",
+      "brazo": "arriba"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "yomihajimemashita"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "始めました es solo EMPEZAR a leer. Falta decir que lo acabó del todo: 読み切りました。",
+       "en": "始めました is just STARTING to read. You need to say he finished it completely: 読み切りました。"
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "yomiowarimashita"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "終わりました vale, pero 切る insiste más: ni una página se quedó sin leer.",
+       "en": "終わりました works, but 切る insists more: not a single page was left unread."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "yominaoshimashita"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "直す es volver a leerlo (para entenderlo mejor); aquí lo importante es que no se dejó NADA: 切る。",
+       "en": "直す is reading it again (to understand it better); here what matters is nothing was left out: 切る。"
+      }
+     }
+    ],
+    "pista": {
+     "es": "Empieza por 全部[ぜんぶ]: nada se quedó sin leer.",
+     "en": "Start with 全部[ぜんぶ]: nothing was left unread."
+    }
+   }
+  ]
+ },
+ "juego": {
+  "intro": {
+   "es": "¿切る (del todo), かける (empezar y parar) o 直す (otra vez, mejor)? Completa cada frase.",
+   "en": "切る (completely), かける (start and stop), or 直す (again, better)? Complete each sentence."
+  },
+  "nyan": {
+   "es": "A mí lo que me sale mejor es かける: empezar cosas. Lo de acabarlas ya es otro tema.",
+   "en": "What I'm best at is かける: starting things. Finishing them is another matter."
+  },
+  "cestas": [
+   {
+    "id": "kiru",
+    "jp": "〜切る",
+    "sub": {
+     "es": "hacerlo del todo, sin dejar nada",
+     "en": "do it completely, nothing left"
+    }
+   },
+   {
+    "id": "kakeru",
+    "jp": "〜かける",
+    "sub": {
+     "es": "empezar… y pararse a medias",
+     "en": "start… and stop halfway"
+    }
+   },
+   {
+    "id": "naosu",
+    "jp": "〜直す",
+    "sub": {
+     "es": "hacerlo de nuevo, mejor",
+     "en": "do it again, better"
+    }
+   }
+  ],
+  "cartas": [
+   {
+    "id": "j1",
+    "dibujo": "onigiri",
+    "jp": "全部[ぜんぶ] 食[た]べ＿ました。",
+    "cesta": "kiru",
+    "es": "Me lo comí todo.",
+    "en": "I ate it all up."
+   },
+   {
+    "id": "j2",
+    "jp": "何[なに]か 言[い]い＿た。",
+    "cesta": "kakeru",
+    "es": "Empecé a decir algo… (y me callé).",
+    "en": "I started to say something… (and stopped)."
+   },
+   {
+    "id": "j3",
+    "dibujo": "pizarra",
+    "jp": "漢字[かんじ]を 書[か]き＿した。",
+    "cesta": "naosu",
+    "es": "Reescribí el kanji.",
+    "en": "I rewrote the kanji."
+   },
+   {
+    "id": "j4",
+    "dibujo": "libro",
+    "jp": "全部[ぜんぶ] 読[よ]み＿ました。",
+    "cesta": "kiru",
+    "es": "Me lo leí entero.",
+    "en": "I read it all the way through."
+   },
+   {
+    "id": "j5",
+    "dibujo": "libro",
+    "jp": "本[ほん]を 読[よ]み＿た。",
+    "cesta": "kakeru",
+    "es": "Empecé a leer el libro… (y lo dejé).",
+    "en": "I started reading the book… (and left it).",
+    "truco": {
+     "es": "読みかける: empezar y no acabar; distinto de 読み切る (acabarlo del todo).",
+     "en": "読みかける: to start and not finish; different from 読み切る (finishing it completely)."
+    }
+   },
+   {
+    "id": "j6",
+    "jp": "間違[まちが]えたから、 やり＿した。",
+    "cesta": "naosu",
+    "es": "Como me equivoqué, lo rehice.",
+    "en": "Since I got it wrong, I did it again."
+   },
+   {
+    "id": "j7",
+    "dibujo": "caja",
+    "jp": "箱[はこ]を 作[つく]り＿した。",
+    "cesta": "naosu",
+    "es": "Rehice la caja.",
+    "en": "I remade the box."
+   },
+   {
+    "id": "j8",
+    "dibujo": "taza",
+    "jp": "お茶[ちゃ]を 飲[の]み＿た。",
+    "cesta": "kakeru",
+    "es": "Empecé a beber el té… (y lo dejé).",
+    "en": "I started drinking the tea… (and left it)."
+   }
+  ]
+ },
+ "outro": [
+  {
+   "escena": {
+    "fondo": "cocina",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 130,
+      "cara": "feliz",
+      "brazo": "arriba"
+     },
+     {
+      "que": "onigiri",
+      "x": 280,
+      "s": 1.2
+     }
+    ]
+   },
+   "cara": "feliz",
+   "jp": "全部[ぜんぶ] 食[た]べ切[き]りました！",
+   "voz": "o1",
+   "tr": {
+    "es": "¡Me lo he comido todo!",
+    "en": "I ate it all up!"
+   },
+   "cartela": {
+    "es": "切る: hacerlo DEL TODO.",
+    "en": "切る: do it COMPLETELY."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "triste"
+     },
+     {
+      "que": "gato",
+      "x": 270
+     }
+    ]
+   },
+   "habla": "tama",
+   "cara": "pensando",
+   "jp": "宿題[しゅくだい]は 終[お]わった？",
+   "voz": "o2",
+   "tr": {
+    "es": "¿Terminaste los deberes?",
+    "en": "Did you finish your homework?"
+   },
+   "cartela": {
+    "es": "終わる es simple: TERMINAR. 切る insiste en que no quedó nada.",
+    "en": "終わる is simple: TO FINISH. 切る insists nothing was left."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 130,
+      "cara": "triste"
+     },
+     {
+      "que": "libro",
+      "x": 280,
+      "s": 1.1
+     },
+     {
+      "que": "manpu",
+      "tipo": "sudor",
+      "x": 170,
+      "y": 110
+     }
+    ]
+   },
+   "cara": "triste",
+   "jp": "それは…まだ やりかけ……。",
+   "voz": "o3",
+   "tr": {
+    "es": "Eso es… todavía está a medias……",
+    "en": "That is… still half-done……"
+   },
+   "cartela": {
+    "es": "Fin. Ni lo acabó (切る) ni lo terminó (終わる): se quedó a medias, con かける. ¡Nyan nunca cambia!",
+    "en": "The end. He didn't finish it (切る) or complete it (終わる): stuck halfway, with かける. Nyan never changes!"
+   }
+  }
+ ],
+ "chuleta": {
+  "patron": {
+   "es": "動詞[ます形] + 切る／かける／直す／合う",
+   "en": "verb stem + 切る／かける／直す／合う"
+  },
+  "patron_tr": {
+   "es": "hacerlo del todo / empezar y parar / rehacerlo / hacerlo juntos",
+   "en": "do it completely / start and stop / redo it / do it together"
+  },
+  "columnas": [
+   {
+    "jp": "切る",
+    "texto": {
+     "es": "del todo, sin dejar nada",
+     "en": "completely, nothing left"
+    },
+    "dibujos": [
+     "onigiri"
+    ]
+   },
+   {
+    "jp": "かける",
+    "texto": {
+     "es": "empezar… y pararse a medias",
+     "en": "start… and stop halfway"
+    },
+    "dibujos": [
+     "libro"
+    ]
+   },
+   {
+    "jp": "直す",
+    "texto": {
+     "es": "otra vez, mejor",
+     "en": "again, better"
+    },
+    "dibujos": [
+     "lapiz"
+    ]
+   },
+   {
+    "jp": "合う",
+    "texto": {
+     "es": "entre varios, uno con otro",
+     "en": "together, with each other"
+    },
+    "dibujos": [
+     "gato"
+    ]
+   }
+  ],
+  "filas": [
+   {
+    "jp": "全部[ぜんぶ] 食[た]べ切[き]りました。",
+    "es": "Me lo comí todo.",
+    "en": "I ate it all up."
+   },
+   {
+    "jp": "何[なに]か 言[い]いかけた。",
+    "es": "Empecé a decir algo (y me callé).",
+    "en": "I started to say something (and stopped)."
+   },
+   {
+    "jp": "漢字[かんじ]を 書[か]き直[なお]した。",
+    "es": "Reescribí el kanji.",
+    "en": "I rewrote the kanji."
+   },
+   {
+    "jp": "二人[ふたり]で 話[はな]し合[あ]おう。",
+    "es": "Hablémoslo entre los dos.",
+    "en": "Let's talk it over, just the two of us."
+   }
+  ],
+  "consejo": {
+   "es": "始める／終わる (ya los viste) son simples: EMPEZAR y TERMINAR. 切る añade fuerza: no quedó nada. かける añade que se quedó a medias. 直す y 合う son nuevos del todo.",
+   "en": "始める／終わる (you already saw these) are simple: TO START and TO FINISH. 切る adds force: nothing was left. かける adds that it stopped halfway. 直す and 合う are brand new."
+  }
+ }
+}

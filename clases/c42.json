@@ -1,0 +1,743 @@
+{
+ "id": "c42",
+ "clase": 32,
+ "desde": 480,
+ "titulo": {
+  "es": "Los 年賀状: 〜ために y 〜ように",
+  "en": "The 年賀状: 〜ために and 〜ように"
+ },
+ "resumen": {
+  "es": "〜ために = para conseguir algo que TÚ decides hacer (comer, ir, estudiar…). 〜ように = para algo que no controlas del todo (poder, no olvidar, que otro lo oiga…), o cuando quien consigue la segunda parte es otra persona.",
+  "en": "〜ために = in order to do something YOU choose to do (eat, go, study…). 〜ように = for something not fully under your control (being able to, not forgetting, someone else hearing…), or when a different person benefits from the second part."
+ },
+ "formato": 2,
+ "lugar": "calle",
+ "mision": {
+  "texto": {
+   "es": "Hay que mandar los 年賀状, las postales de Año Nuevo. Correos de Japón las guarda y las reparte todas el 1 de enero, pero solo si se echan al buzón antes del 25 de diciembre. Explica PARA QUÉ haces cada cosa.",
+   "en": "Time to send the 年賀状, the New Year cards. Japan Post holds them and delivers them all on January 1st, but only if they're posted by December 25th. Explain WHAT FOR you do each thing."
+  },
+  "escena": {
+   "fondo": "calle",
+   "cosas": [
+    {
+     "que": "nyan",
+     "x": 75
+    },
+    {
+     "que": "hagaki",
+     "x": 150,
+     "s": 1.0
+    },
+    {
+     "que": "gato",
+     "id": "tama",
+     "x": 335
+    }
+   ]
+  },
+  "cara": "feliz",
+  "jp": "年賀状[ねんがじょう]！",
+  "voz": "m0"
+ },
+ "reglas": [
+  {
+   "id": "tame",
+   "nombre": {
+    "es": "〜ために: para (una meta tuya)",
+    "en": "〜ために: in order to (your goal)"
+   },
+   "patron": {
+    "es": "〔verbo de voluntad〕ために ・ 〔nombre〕のために",
+    "en": "〔verb of will〕ために ・ 〔noun〕のために"
+   },
+   "explica": {
+    "es": "ために marca el objetivo de lo que haces: 年賀状を書くために、漢字を練習する, «practico kanji para escribir el 年賀状». Se usa cuando la meta es una acción que TÚ decides y controlas (escribir, ir, comprar), en forma de diccionario. Con nombres, のために: 家族のために, «para mi familia».",
+    "en": "ために marks the goal of what you do: 年賀状を書くために、漢字を練習する, «I practise kanji to write the 年賀状». It's used when the goal is an action YOU decide and control (write, go, buy), in dictionary form. With nouns, のために: 家族のために, «for my family»."
+   },
+   "ejemplos": [
+    {
+     "jp": "年賀状[ねんがじょう]を 書[か]くために、 漢字[かんじ]を 練習[れんしゅう]します。",
+     "es": "Practico kanji para escribir el 年賀状.",
+     "en": "I practise kanji to write the 年賀状.",
+     "voz": "r1-1"
+    },
+    {
+     "jp": "みんなの ために ケーキを 作[つく]りました。",
+     "es": "He hecho una tarta para todos.",
+     "en": "I made a cake for everyone.",
+     "voz": "r1-2"
+    }
+   ],
+   "ojo": {
+    "es": "Con «poder» (書ける), con negativos (忘れない) o cuando lo consigue otra persona, ために no encaja, porque ya no es algo que tú decidas: ahí va ように.",
+    "en": "With «can» (書ける), negatives (忘れない) or when someone else achieves it, ために doesn't fit, because it's no longer something you decide: use ように."
+   }
+  },
+  {
+   "id": "youni",
+   "nombre": {
+    "es": "〜ように: para que…",
+    "en": "〜ように: so that…"
+   },
+   "patron": {
+    "es": "〔potencial／negativo／lo que no controlas〕ように",
+    "en": "〔potential／negative／what you don't control〕ように"
+   },
+   "explica": {
+    "es": "ように también es «para», pero para cosas que no dependen del todo de ti: que puedas hacer algo (読めるように), que algo no pase (風邪をひかないように) o que lo haga otra persona o cosa (元日に届くように, «para que llegue el día 1»). La idea es «de manera que…»: haces algo y confías en que el resultado llegue.",
+    "en": "ように is also «so», but for things not fully up to you: being able to do something (読めるように), something not happening (風邪をひかないように) or someone or something else doing it (元日に届くように, «so it arrives on the 1st»). The idea is «in such a way that…»: you act and trust the result will follow."
+   },
+   "ejemplos": [
+    {
+     "jp": "元日[がんじつ]に 届[とど]くように、 二十五日[にじゅうごにち]までに 出[だ]します。",
+     "es": "Para que lleguen el día 1, se echan antes del 25.",
+     "en": "So they arrive on the 1st, you post them by the 25th.",
+     "voz": "r2-1"
+    },
+    {
+     "jp": "風邪[かぜ]を ひかないように、 マフラーを します。",
+     "es": "Me pongo la bufanda para no resfriarme.",
+     "en": "I wear a scarf so I don't catch a cold.",
+     "voz": "r2-2"
+    }
+   ],
+   "ojo": {
+    "es": "Truco rápido: si detrás de «para» hay «poder», «no» o «que otro…», casi siempre es ように.",
+    "en": "Quick trick: if «so» comes with «can», «not» or «someone else…», it's almost always ように."
+   }
+  }
+ ],
+ "historia": [
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "年賀状[ねんがじょう]を 出[だ]しに 行[い]きましょう！",
+   "tr": {
+    "es": "¡Vamos a echar los 年賀状!",
+    "en": "Let's go post the 年賀状!"
+   },
+   "voz": "h1",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "calle",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 75
+     },
+     {
+      "que": "hagaki",
+      "x": 150,
+      "id": "hagaki",
+      "s": 1.0
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 335
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "年賀状[ねんがじょう]って 何[なん]ですか。",
+   "tr": {
+    "es": "¿Qué es un 年賀状?",
+    "en": "What's a 年賀状?"
+   },
+   "voz": "h2",
+   "cara": "pensando"
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "お正月[しょうがつ]に 届[とど]く はがきです。 元日[がんじつ]に 届[とど]くように、 二十五日[にじゅうごにち]までに 出[だ]します。",
+   "tr": {
+    "es": "Son postales que llegan en Año Nuevo. Para que lleguen el día 1, se echan antes del 25.",
+    "en": "They're postcards that arrive at New Year. So they arrive on the 1st, you post them by the 25th."
+   },
+   "voz": "h3",
+   "cara": "feliz"
+  },
+  {
+   "t": "regla",
+   "regla": "tame"
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "Nyan quiere escribir bien su 年賀状 para Kage. ¿Qué hace, y para qué?",
+    "en": "Nyan wants to write his 年賀状 to Kage nicely. What does he do, and why?"
+   },
+   "opciones": [
+    {
+     "jp": "年賀状[ねんがじょう]を 書[か]くために、 漢字[かんじ]を 練習[れんしゅう]します。",
+     "bien": true,
+     "tr": {
+      "es": "Practico kanji para escribir el 年賀状.",
+      "en": "I practise kanji to write the 年賀状."
+     },
+     "voz": "h4",
+     "porque": {
+      "es": "Una meta que tú decides y haces (escribir) + ために.",
+      "en": "A goal you decide and carry out (writing) + ために."
+     }
+    },
+    {
+     "jp": "年賀状[ねんがじょう]を 書[か]けるために、 漢字[かんじ]を 練習[れんしゅう]します。",
+     "bien": false,
+     "porque": {
+      "es": "ために va con verbos de voluntad (書く). Con el potencial (書ける), ように: 書けるように練習します.",
+      "en": "ために goes with verbs of will (書く). With the potential (書ける), ように: 書けるように練習します."
+     }
+    },
+    {
+     "jp": "年賀状[ねんがじょう]を 書[か]きますために、 漢字[かんじ]を 練習[れんしゅう]します。",
+     "bien": false,
+     "porque": {
+      "es": "Delante de ために va la forma de diccionario: 書くために. ます solo va al final.",
+      "en": "ために takes the dictionary form: 書くために. ます only goes at the end."
+     }
+    }
+   ],
+   "cara": "pensando",
+   "escena": {
+    "fondo": "calle",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 75
+     },
+     {
+      "que": "hagaki",
+      "x": 150,
+      "s": 1.0
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 335
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "youni"
+  },
+  {
+   "t": "monta",
+   "encargo": 0
+  },
+  {
+   "t": "dice",
+   "habla": "kage",
+   "jp": "…ふん。 俺[おれ]も 出[だ]しに 来[き]た。",
+   "tr": {
+    "es": "…Hmpf. Yo también he venido a echar la mía.",
+    "en": "…Hmph. I came to post mine too."
+   },
+   "voz": "h5",
+   "cara": "presumido",
+   "reacciona": {
+    "tama": "sorpresa"
+   },
+   "escena": {
+    "fondo": "calle",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 150
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 335
+     }
+    ]
+   }
+  },
+  {
+   "t": "elige",
+   "habla": "tama",
+   "pide": {
+    "es": "Hace un frío que pela. Tama le dice a Nyan que se abrigue. ¿Qué dice?",
+    "en": "It's freezing. Tama tells Nyan to wrap up. What does she say?"
+   },
+   "opciones": [
+    {
+     "jp": "風邪[かぜ]を ひかないように、 マフラーを して ください。",
+     "bien": true,
+     "tr": {
+      "es": "Ponte la bufanda para no resfriarte.",
+      "en": "Put your scarf on so you don't catch a cold."
+     },
+     "voz": "h6",
+     "porque": {
+      "es": "Resfriarse no se hace a propósito: para evitarlo, ように + negativo.",
+      "en": "Catching a cold isn't done on purpose: to avoid it, ように + negative."
+     }
+    },
+    {
+     "jp": "風邪[かぜ]を ひくように、 マフラーを して ください。",
+     "bien": false,
+     "porque": {
+      "es": "«Para que te resfríes»… ¡justo lo contrario! Para evitarlo, en negativo: ひかないように.",
+      "en": "«So that you catch a cold»… the exact opposite! To avoid it, negative: ひかないように."
+     }
+    },
+    {
+     "jp": "風邪[かぜ]を ひかないために、 マフラーを して ください。",
+     "bien": false,
+     "porque": {
+      "es": "Resfriarse no depende de tu voluntad, así que ために no encaja bien: ように.",
+      "en": "Catching a cold isn't down to your will, so ために doesn't fit well: ように."
+     }
+    }
+   ],
+   "cara": "pensando",
+   "escena": {
+    "fondo": "calle",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 75
+     },
+     {
+      "que": "bufanda",
+      "x": 150,
+      "s": 0.9
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 335
+     }
+    ]
+   }
+  },
+  {
+   "t": "toca",
+   "pide": {
+    "es": "¿Qué echa Tama al buzón? Escucha y tócalo.",
+    "en": "What does Tama put in the postbox? Listen and tap it."
+   },
+   "bien": "hagaki",
+   "quien": "tama",
+   "escena": {
+    "fondo": "calle",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 55
+     },
+     {
+      "que": "hagaki",
+      "x": 120,
+      "id": "hagaki",
+      "s": 1.0
+     },
+     {
+      "que": "bolsa",
+      "x": 165,
+      "id": "bolsa",
+      "s": 0.9
+     },
+     {
+      "que": "telefono",
+      "x": 205,
+      "id": "telefono",
+      "s": 0.9
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 345
+     }
+    ]
+   },
+   "jp": "この 年賀状[ねんがじょう]を ポストに 入[い]れます。",
+   "voz": "h7",
+   "bien_msg": {
+    "es": "¡Eso! El 年賀状, la postal de Año Nuevo, directa al buzón rojo.",
+    "en": "Right! The 年賀状, the New Year card, straight into the red postbox."
+   },
+   "mal_msg": {
+    "es": "Ha dicho 年賀状: la postal con el sol rojo y 賀正.",
+    "en": "She said 年賀状: the card with the red sun and 賀正."
+   }
+  }
+ ],
+ "epilogo": [
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "元日[がんじつ]に 届[とど]くと いいですね。",
+   "tr": {
+    "es": "Ojalá lleguen el día 1.",
+    "en": "I hope they arrive on the 1st."
+   },
+   "voz": "x1",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "calle",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 150
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 335
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "カゲ、 読[よ]めるかな。",
+   "tr": {
+    "es": "¿Podrá leerlo Kage?",
+    "en": "I wonder if Kage can read it."
+   },
+   "voz": "x2",
+   "cara": "pensando"
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta la frase: la escena hará lo que digas.",
+   "en": "Build the sentence: the scene will do what you say."
+  },
+  "piezas": [
+   {
+    "id": "yomeru",
+    "jp": "読[よ]める",
+    "tipo": "verbo"
+   },
+   {
+    "id": "youni",
+    "jp": "ように",
+    "tipo": "particula"
+   },
+   {
+    "id": "tameni",
+    "jp": "ために",
+    "tipo": "particula"
+   },
+   {
+    "id": "ookiku",
+    "jp": "大[おお]きく",
+    "tipo": "palabra"
+   },
+   {
+    "id": "chiisaku",
+    "jp": "小[ちい]さく",
+    "tipo": "palabra"
+   },
+   {
+    "id": "kaku",
+    "jp": "書[か]く",
+    "tipo": "verbo"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Tama le da un consejo: «Escríbelo grande, para que Kage lo pueda leer»",
+     "en": "Tama gives advice: «Write it big, so Kage can read it»"
+    },
+    "escena": {
+     "fondo": "calle",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 75
+      },
+      {
+       "que": "hagaki",
+       "x": 150,
+       "id": "hagaki",
+       "s": 1.0
+      },
+      {
+       "que": "gato",
+       "id": "tama",
+       "x": 335
+      }
+     ]
+    },
+    "piezas": [
+     "yomeru",
+     "youni",
+     "tameni",
+     "ookiku",
+     "chiisaku",
+     "kaku"
+    ],
+    "bien": [
+     [
+      "yomeru",
+      "youni",
+      "ookiku",
+      "kaku"
+     ]
+    ],
+    "tr": {
+     "es": "Lo escribo grande para que se pueda leer.",
+     "en": "I write it big so it can be read."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "brilla",
+      "objeto": "hagaki"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "tameni"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "ために no va con el potencial (読める): que Kage pueda leerlo no depende del todo de ti. Para eso, ように.",
+       "en": "ために doesn't go with the potential (読める): whether Kage can read it isn't fully up to you. For that, ように."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "chiisaku"
+       ]
+      },
+      "efecto": {
+       "tipo": "manpu",
+       "objeto": "tama",
+       "manpu": "sudor"
+      },
+      "msg": {
+       "es": "¡En pequeño no hay quien lo lea! Para que se lea bien, 大きく.",
+       "en": "Nobody can read it that small! So it's easy to read, 大きく."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "reto": {
+  "intro": {
+   "jp": "ふん。 勝[か]つために 来[き]た。",
+   "tr": {
+    "es": "Hmpf. He venido a ganar.",
+    "en": "Hmph. I came here to win."
+   },
+   "voz": "k0"
+  },
+  "gana": {
+   "jp": "…くっ。 次[つぎ]は 負[ま]けないように する。",
+   "tr": {
+    "es": "…Tsk. La próxima procuraré no perder.",
+    "en": "…Tch. Next time I'll make sure not to lose."
+   },
+   "voz": "kw"
+  },
+  "pierde": {
+   "jp": "ふん。 もっと 強[つよ]く なるように がんばれ。",
+   "tr": {
+    "es": "Hmpf. Esfuérzate, a ver si te haces más fuerte.",
+    "en": "Hmph. Work hard so you get stronger."
+   },
+   "voz": "kl"
+  },
+  "pica": {
+   "jp": "…やるな。",
+   "tr": {
+    "es": "…No está mal.",
+    "en": "…Not bad."
+   },
+   "voz": "kp"
+  },
+  "burla": {
+   "jp": "ふん！",
+   "tr": {
+    "es": "¡Ja!",
+    "en": "Hah!"
+   },
+   "voz": "kb"
+  },
+  "preguntas": [
+   {
+    "tipo": "elige",
+    "jp": "日本[にほん]に 行[い]く＿、 日本語[にほんご]を 勉強[べんきょう]します。",
+    "opciones": [
+     "ために",
+     "ように",
+     "のに"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Estudio japonés para ir a Japón.",
+     "en": "I study Japanese to go to Japan."
+    },
+    "porque": {
+     "es": "Una meta tuya y voluntaria (ir): ために.",
+     "en": "A goal you choose (going): ために."
+    },
+    "voz": "q1"
+   },
+   {
+    "tipo": "elige",
+    "jp": "忘[わす]れない＿、 メモします。",
+    "opciones": [
+     "ように",
+     "ながら",
+     "まで"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Lo apunto para no olvidarlo.",
+     "en": "I'll note it down so I don't forget."
+    },
+    "porque": {
+     "es": "Olvidar no depende de tu voluntad: ように + negativo.",
+     "en": "Forgetting isn't voluntary: ように + negative."
+    },
+    "voz": "q2"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "みんなに 聞[き]こえるように、 大[おお]きい 声[こえ]で 話[はな]します。",
+    "correcta": true,
+    "tr": {
+     "es": "Hablo alto para que todos me oigan.",
+     "en": "I speak loudly so everyone can hear."
+    },
+    "porque": {
+     "es": "Bien: que otros oigan no depende de ti, así que ように.",
+     "en": "Right: whether others hear isn't up to you, so ように."
+    },
+    "voz": "q3"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "漢字[かんじ]が 読[よ]めるために、 勉強[べんきょう]します。",
+    "correcta": false,
+    "tr": {
+     "es": "(Estudio para poder leer kanji.)",
+     "en": "(I study so I can read kanji.)"
+    },
+    "porque": {
+     "es": "Con el potencial (読める), ように: 読めるように.",
+     "en": "With the potential (読める), ように: 読めるように."
+    },
+    "voz": "q4"
+   },
+   {
+    "tipo": "oye",
+    "jp": "元日[がんじつ]に 届[とど]くように、 早[はや]く 出[だ]しました。",
+    "habla": "tama",
+    "opciones": [
+     {
+      "es": "Lo eché pronto para que llegue el día 1.",
+      "en": "I posted it early so it arrives on the 1st."
+     },
+     {
+      "es": "Llegó el día 1, así que lo eché.",
+      "en": "It arrived on the 1st, so I posted it."
+     },
+     {
+      "es": "Quiero que llegue pronto.",
+      "en": "I want it to arrive soon."
+     }
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "ように: para que algo que no controlas (que llegue) salga bien.",
+     "en": "ように: so that something you don't control (arriving) works out."
+    },
+    "voz": "q5"
+   },
+   {
+    "tipo": "imagen",
+    "jp": "この はがきを ポストに 入[い]れます。",
+    "opciones": [
+     "hagaki",
+     "otoshidama",
+     "kusuri"
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "はがき: la postal (aquí, el 年賀状).",
+     "en": "はがき: the postcard (here, the 年賀状)."
+    },
+    "pide": {
+     "es": "¿Qué va al buzón?",
+     "en": "What goes in the postbox?"
+    }
+   }
+  ]
+ },
+ "siguiente": {
+  "es": "Nochebuena: en Japón se come tarta de fresas… y en la tienda de Pon solo queda una. ¿Quién se la llevará?",
+  "en": "Christmas Eve: in Japan, people eat strawberry cake… and Pon's shop has only one left. Who'll get it?"
+ },
+ "chuleta": {
+  "patron": {
+   "es": "〔diccionario〕ために ・ 〔potencial／ない〕ように",
+   "en": "〔dictionary〕ために ・ 〔potential／ない〕ように"
+  },
+  "patron_tr": {
+   "es": "para (lo que decido) ・ para que (no depende de mí)",
+   "en": "in order to (my will) ・ so that (not up to me)"
+  },
+  "filas": [
+   {
+    "jp": "日本[にほん]に 行[い]くために、 お金[かね]を ためて います。",
+    "es": "Ahorro para ir a Japón.",
+    "en": "I'm saving to go to Japan.",
+    "registro": "educado"
+   },
+   {
+    "jp": "忘[わす]れないように メモしとく。",
+    "es": "Lo apunto para no olvidarlo. (a un amigo)",
+    "en": "I'll note it so I don't forget. (to a friend)",
+    "registro": "amigos"
+   },
+   {
+    "jp": "みんなに 聞[き]こえるように 話[はな]して ください。",
+    "es": "Habla de forma que te oigan todos, por favor.",
+    "en": "Please speak so everyone can hear."
+   }
+  ],
+  "consejo": {
+   "es": "En los santuarios verás deseos que acaban en ように: 合格しますように, «que apruebe». Es ように usado como deseo, de tanto pedir «para que…».",
+   "en": "At shrines you'll see wishes ending in ように: 合格しますように, «may I pass». It's ように as a wish, from so much asking «so that…»."
+  }
+ }
+}

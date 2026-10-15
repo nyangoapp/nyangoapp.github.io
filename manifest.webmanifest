@@ -1,0 +1,15 @@
+{
+  "name": "Nyango · ニャン語",
+  "short_name": "Nyango",
+  "description": "Aprende japonés desde cero con Nyan.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#fbf6ea",
+  "theme_color": "#f2661b",
+  "lang": "es",
+  "icons": [
+    { "src": "/img/marca/nyango/icono-256.png", "sizes": "256x256", "type": "image/png", "purpose": "any" },
+    { "src": "/img/marca/nyango/icono-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}

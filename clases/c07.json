@@ -1,0 +1,902 @@
+{
+ "id": "c07",
+ "clase": 7,
+ "desde": 53,
+ "titulo": {
+  "es": "¿Quién será el líder?: と思[おも]う, と言[い]う y になる",
+  "en": "Who will be the leader?: と思[おも]う, と言[い]う and になる"
+ },
+ "resumen": {
+  "es": "La idea completa + と思います (pienso que…) o と言います (digo que…). Con に: en qué te conviertes (になる) o qué eliges (にする).",
+  "en": "The whole idea + と思います (I think that…) or と言います (I say that…). With に: what you become (になる) or what you choose (にする)."
+ },
+ "formato": 2,
+ "lugar": "escuela",
+ "mision": {
+  "texto": {
+   "es": "Hoy se elige al líder de la clase. Nyan quiere serlo, pero Kage dice que el puesto es suyo. Convence a todos diciendo lo que piensas… y elige bien.",
+   "en": "Today the class leader is chosen. Nyan wants it, but Kage says the job is his. Win everyone over by saying what you think… and choose well."
+  },
+  "escena": {
+   "fondo": "escuela",
+   "cosas": [
+    {
+     "que": "nyan",
+     "x": 110
+    },
+    {
+     "que": "kage",
+     "id": "kage",
+     "x": 300
+    }
+   ]
+  },
+  "cara": "enfado",
+  "jp": "リーダー…！",
+  "voz": "m0"
+ },
+ "reglas": [
+  {
+   "id": "naru_suru",
+   "nombre": {
+    "es": "になる y にする: convertirse y elegir",
+    "en": "になる and にする: become and choose"
+   },
+   "patron": {
+    "es": "〔en qué〕に なる ・ 〔lo que eliges〕に する",
+    "en": "〔what〕に なる ・ 〔your choice〕に する"
+   },
+   "explica": {
+    "es": "なる es «llegar a ser, convertirse»: lo que llegas a ser lleva に. リーダーになります, «seré el líder». する es «hacer», pero con に significa «elegir, decidirse por»: 水にします, «me pido agua». Es justo lo que dirás en una cafetería japonesa.",
+    "en": "なる means «become»: what you become takes に. リーダーになります, «I'll become the leader». する means «do», but with に it means «choose, decide on»: 水にします, «I'll have water». It's exactly what you'll say at a Japanese café."
+   },
+   "ejemplos": [
+    {
+     "jp": "先生[せんせい]に なります。",
+     "es": "Seré profesor.",
+     "en": "I'll become a teacher.",
+     "voz": "r1-1"
+    },
+    {
+     "jp": "おにぎりに します。",
+     "es": "Me pido onigiri.",
+     "en": "I'll have onigiri.",
+     "voz": "r1-2"
+    }
+   ],
+   "ojo": {
+    "es": "Parecen iguales, pero no lo son: 水になります es «me convierto en agua»; para pedirla, 水にします.",
+    "en": "They look alike but aren't: 水になります is «I turn into water»; to order it, 水にします."
+   }
+  },
+  {
+   "id": "dict",
+   "nombre": {
+    "es": "La forma de diccionario",
+    "en": "The dictionary form"
+   },
+   "patron": {
+    "es": "〔verbo en -u: る, く, む, つ…〕",
+    "en": "〔verb in -u: る, く, む, つ…〕"
+   },
+   "explica": {
+    "es": "Cada verbo tiene una forma «de diccionario», la que buscarías en él: 食べる, 飲む, 行く, なる. Es la que usas con amigos (en vez de ます) y la que va DENTRO de otras frases, delante de と思います o と言います. Siempre acaba en «u»: る, く, む, つ… Poco a poco verás cómo se pasa de ます a diccionario: 食べます → 食べる, なります → なる, 飲みます → 飲む.",
+    "en": "Every verb has a «dictionary form», the one you'd look up: 食べる, 飲む, 行く, なる. It's what you use with friends (instead of ます) and what goes INSIDE other sentences, before と思います or と言います. It always ends in «u»: る, く, む, つ… Little by little you'll see how ます becomes dictionary form: 食べます → 食べる, なります → なる, 飲みます → 飲む."
+   },
+   "ejemplos": [
+    {
+     "jp": "食[た]べる？",
+     "es": "¿Comes? (a un amigo)",
+     "en": "Eating? (to a friend)",
+     "voz": "r2-1"
+    },
+    {
+     "jp": "勝[か]つ！",
+     "es": "¡Voy a ganar!",
+     "en": "I'll win!",
+     "voz": "r2-2"
+    }
+   ],
+   "ojo": {
+    "es": "La cortesía se pone una sola vez, al final de la frase: por eso dentro va なる (diccionario) y fuera 思います.",
+    "en": "Politeness goes only once, at the very end: so inside goes なる (dictionary) and outside 思います."
+   }
+  },
+  {
+   "id": "omou_iu",
+   "nombre": {
+    "es": "と思う y と言う: «creo que» y «dice que»",
+    "en": "と思う and と言う: «I think that» and «says that»"
+   },
+   "patron": {
+    "es": "〔la idea〕と 思[おも]います ・ 〔lo dicho〕と 言[い]います",
+    "en": "〔the idea〕と 思[おも]います ・ 〔what's said〕と 言[い]います"
+   },
+   "explica": {
+    "es": "Para contar lo que piensas, pones la idea completa (con el verbo en forma de diccionario), luego と —que funciona como unas comillas— y 思います: ニャンは勝つと思います, «creo que Nyan gana». Con 言います cuentas lo que dice alguien: カゲは一番だと言います. Si la idea acaba en un nombre, lleva だ antes de と: 一番だと.",
+    "en": "To say what you think, put the whole idea (verb in dictionary form), then と —it works like quotation marks— and 思います: ニャンは勝つと思います, «I think Nyan will win». With 言います you report what someone says: カゲは一番だと言います. If the idea ends in a noun, add だ before と: 一番だと."
+   },
+   "ejemplos": [
+    {
+     "jp": "ニャンは 勝[か]つと 思[おも]います。",
+     "es": "Creo que Nyan gana.",
+     "en": "I think Nyan will win.",
+     "voz": "r3-1"
+    },
+    {
+     "jp": "カゲは 一番[いちばん]だと 言[い]います。",
+     "es": "Kage dice que es el mejor.",
+     "en": "Kage says he's the best.",
+     "voz": "r3-2"
+    }
+   ],
+   "ojo": {
+    "es": "と funciona como unas comillas que encierran la idea: sin él, 思います no sabe qué es lo que piensas.",
+    "en": "と works like quotation marks around the idea: without it, 思います doesn't know what you think."
+   }
+  }
+ ],
+ "historia": [
+  {
+   "t": "dice",
+   "habla": "sensei",
+   "jp": "今日[きょう]は クラスの リーダーを 決[き]めます。",
+   "tr": {
+    "es": "Hoy elegimos al líder de la clase.",
+    "en": "Today we choose the class leader."
+   },
+   "voz": "h1",
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 90
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 205
+     },
+     {
+      "que": "sensei",
+      "id": "sensei",
+      "x": 320
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "kage",
+   "jp": "ふん。 俺[おれ]が リーダーに なる。",
+   "tr": {
+    "es": "Hmpf. El líder seré yo.",
+    "en": "Hmph. I'll be the leader."
+   },
+   "voz": "h2",
+   "cara": "presumido",
+   "plano": "medio",
+   "reacciona": {
+    "nyan": "enfado"
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "naru_suru"
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "Nyan también quiere. Díselo a todos: «Yo seré el líder».",
+    "en": "Nyan wants it too. Tell everyone: «I'll be the leader»."
+   },
+   "opciones": [
+    {
+     "jp": "わたしが リーダーに なります！",
+     "bien": true,
+     "tr": {
+      "es": "¡Yo seré el líder!",
+      "en": "I'll be the leader!"
+     },
+     "voz": "h3",
+     "porque": {
+      "es": "Lo que llegas a ser lleva に: リーダーに なります.",
+      "en": "What you become takes に: リーダーに なります."
+     }
+    },
+    {
+     "jp": "わたしが リーダーを なります！",
+     "bien": false,
+     "porque": {
+      "es": "なる significa «llegar a ser», y aquello en lo que te conviertes se marca con に: リーダーに, no を.",
+      "en": "なる means «become», and what you become is marked with に: リーダーに, not を."
+     }
+    },
+    {
+     "jp": "わたしは リーダーです！",
+     "bien": false,
+     "porque": {
+      "es": "リーダーです dice que YA eres el líder, y aún no te han elegido. Para «seré / llegaré a ser», なります.",
+      "en": "リーダーです says you ARE already the leader, and nobody chose you yet. For «I'll become», なります."
+     }
+    }
+   ],
+   "cara": "enfado"
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "ニャンは いい リーダーに なると 思[おも]います。",
+   "tr": {
+    "es": "Creo que Nyan será un buen líder.",
+    "en": "I think Nyan will be a good leader."
+   },
+   "voz": "h4",
+   "cara": "feliz",
+   "reacciona": {
+    "kage": "aburrido"
+   },
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 90
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 205
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 320
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "dict"
+  },
+  {
+   "t": "regla",
+   "regla": "omou_iu"
+  },
+  {
+   "t": "monta",
+   "encargo": 0
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "カゲは いつも 一番[いちばん]だと 言[い]います。",
+   "tr": {
+    "es": "Kage siempre dice que es el mejor.",
+    "en": "Kage always says he's the best."
+   },
+   "voz": "h5",
+   "cara": "normal",
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 90
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 205
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 320
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "ニャン、 お昼[ひる]は 何[なに]に しますか。",
+   "tr": {
+    "es": "Nyan, ¿qué te pides para comer?",
+    "en": "Nyan, what will you have for lunch?"
+   },
+   "voz": "h6",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 100
+     },
+     {
+      "que": "onigiri",
+      "x": 185,
+      "s": 1.4
+     },
+     {
+      "que": "pan",
+      "x": 235,
+      "s": 1.3
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 325
+     }
+    ]
+   }
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "Elige el onigiri: «Me pido onigiri».",
+    "en": "Choose the onigiri: «I'll have onigiri»."
+   },
+   "opciones": [
+    {
+     "jp": "おにぎりに します。",
+     "bien": true,
+     "tr": {
+      "es": "Me pido onigiri.",
+      "en": "I'll have onigiri."
+     },
+     "voz": "h7",
+     "porque": {
+      "es": "Lo que eliges + に します.",
+      "en": "What you choose + に します."
+     }
+    },
+    {
+     "jp": "おにぎりを します。",
+     "bien": false,
+     "porque": {
+      "es": "Con を dirías «hago onigiri», como si los cocinaras. Para elegir de una carta, lo elegido va con に: おにぎりにします.",
+      "en": "With を you'd say «I make onigiri», as if cooking them. To choose from a menu, the choice takes に: おにぎりにします."
+     }
+    },
+    {
+     "jp": "おにぎりに なります。",
+     "bien": false,
+     "porque": {
+      "es": "¡«Me convierto en onigiri»! なる es transformarse; para escoger algo, にする.",
+      "en": "«I turn into an onigiri»! なる is to transform; to pick something, にする."
+     }
+    }
+   ],
+   "cara": "feliz"
+  },
+  {
+   "t": "monta",
+   "encargo": 1
+  },
+  {
+   "t": "dice",
+   "habla": "sensei",
+   "jp": "リーダーは… ニャンさんに します！",
+   "tr": {
+    "es": "El líder será… ¡Nyan!",
+    "en": "The leader will be… Nyan!"
+   },
+   "voz": "h8",
+   "cara": "feliz",
+   "reacciona": {
+    "kage": "aburrido",
+    "nyan": "sorpresa"
+   },
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 90
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 205
+     },
+     {
+      "que": "sensei",
+      "id": "sensei",
+      "x": 320
+     }
+    ]
+   }
+  }
+ ],
+ "epilogo": [
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "ニャン、 リーダーに なりました！",
+   "tr": {
+    "es": "¡Nyan, eres el líder!",
+    "en": "Nyan, you're the leader!"
+   },
+   "voz": "x1",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "brazo": "arriba"
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 290
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "みんな、 よろしく！",
+   "tr": {
+    "es": "¡Contad conmigo, chicos!",
+    "en": "Count on me, everyone!"
+   },
+   "voz": "x2",
+   "cara": "feliz"
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta la frase: la escena hará lo que digas.",
+   "en": "Build the sentence: the scene will do what you say."
+  },
+  "piezas": [
+   {
+    "id": "nyan",
+    "jp": "ニャン",
+    "tipo": "palabra"
+   },
+   {
+    "id": "mizu",
+    "jp": "水[みず]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "wa",
+    "jp": "は",
+    "tipo": "particula"
+   },
+   {
+    "id": "to",
+    "jp": "と",
+    "tipo": "particula"
+   },
+   {
+    "id": "ni",
+    "jp": "に",
+    "tipo": "particula"
+   },
+   {
+    "id": "wo",
+    "jp": "を",
+    "tipo": "particula"
+   },
+   {
+    "id": "katsu",
+    "jp": "勝[か]つ",
+    "tipo": "verbo"
+   },
+   {
+    "id": "kachimasu",
+    "jp": "勝[か]ちます",
+    "tipo": "verbo"
+   },
+   {
+    "id": "omoimasu",
+    "jp": "思[おも]います",
+    "tipo": "verbo"
+   },
+   {
+    "id": "shimasu",
+    "jp": "します",
+    "tipo": "verbo"
+   },
+   {
+    "id": "narimasu",
+    "jp": "なります",
+    "tipo": "verbo"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Anima a la clase: «Creo que Nyan gana».",
+     "en": "Rally the class: «I think Nyan will win»."
+    },
+    "escena": {
+     "fondo": "escuela",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 95
+      },
+      {
+       "que": "gato",
+       "id": "tama",
+       "x": 210
+      },
+      {
+       "que": "kage",
+       "id": "kage",
+       "x": 320
+      }
+     ]
+    },
+    "piezas": [
+     "nyan",
+     "wa",
+     "katsu",
+     "kachimasu",
+     "to",
+     "ni",
+     "omoimasu"
+    ],
+    "bien": [
+     [
+      "nyan",
+      "wa",
+      "katsu",
+      "to",
+      "omoimasu"
+     ]
+    ],
+    "tr": {
+     "es": "Creo que Nyan gana.",
+     "en": "I think Nyan will win."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "feliz",
+      "brazo": "arriba"
+     },
+     {
+      "tipo": "manpu",
+      "objeto": "kage",
+      "manpu": "sudor"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "kachimasu"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "La idea que va dentro de と思います se dice en forma de diccionario (勝つ): la cortesía ya la pone 思います al final.",
+       "en": "The idea inside と思います uses the dictionary form (勝つ): 思います at the end already adds the politeness."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "ni"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "La idea que piensas se cierra con と, como si la pusieras entre comillas: 〜と思います.",
+       "en": "The idea you think is closed with と, as if in quotation marks: 〜と思います."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "¿Y de beber? Elige agua: «Me pido agua».",
+     "en": "And to drink? Choose water: «I'll have water»."
+    },
+    "escena": {
+     "fondo": "escuela",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110
+      },
+      {
+       "que": "vaso",
+       "x": 200,
+       "id": "vaso",
+       "s": 1.4
+      },
+      {
+       "que": "gato",
+       "id": "tama",
+       "x": 300
+      }
+     ]
+    },
+    "piezas": [
+     "mizu",
+     "ni",
+     "wo",
+     "shimasu",
+     "narimasu"
+    ],
+    "bien": [
+     [
+      "mizu",
+      "ni",
+      "shimasu"
+     ]
+    ],
+    "tr": {
+     "es": "Me pido agua.",
+     "en": "I'll have water."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "brilla",
+      "objeto": "vaso"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "narimasu"
+       ]
+      },
+      "efecto": [
+       {
+        "tipo": "disfraz",
+        "objeto": "nyan",
+        "como": "vaso"
+       },
+       {
+        "tipo": "manpu",
+        "objeto": "tama",
+        "manpu": "excl"
+       }
+      ],
+      "msg": {
+       "es": "¡水になります = «me convierto en agua»… y Nyan es ahora un vaso! Para elegir: 水にします.",
+       "en": "水になります = «I become water»… and Nyan is now a glass! To choose: 水にします."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "wo"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "を diría «hago agua». Al elegir, lo que escoges lleva に: 水にします, «me decido por el agua».",
+       "en": "を would say «I do water». When choosing, your choice takes に: 水にします, «I'll go with water»."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "reto": {
+  "intro": {
+   "jp": "ふん。 リーダーは 俺[おれ]だ。 勝負[しょうぶ]！",
+   "tr": {
+    "es": "Hmpf. El líder soy yo. ¡Duelo!",
+    "en": "Hmph. I'm the leader. Duel!"
+   },
+   "voz": "k0"
+  },
+  "gana": {
+   "jp": "…くっ。 今日[きょう]は お前[まえ]が リーダーだ。",
+   "tr": {
+    "es": "…Tsk. Hoy el líder eres tú.",
+    "en": "…Tch. Today you're the leader."
+   },
+   "voz": "kw"
+  },
+  "pierde": {
+   "jp": "ふん。 やっぱり 俺[おれ]が リーダーに なる。",
+   "tr": {
+    "es": "Hmpf. Al final, el líder seré yo.",
+    "en": "Hmph. I'll be the leader after all."
+   },
+   "voz": "kl"
+  },
+  "pica": {
+   "jp": "…やるな。",
+   "tr": {
+    "es": "…No está mal.",
+    "en": "…Not bad."
+   },
+   "voz": "kp"
+  },
+  "burla": {
+   "jp": "ふん！",
+   "tr": {
+    "es": "¡Ja!",
+    "en": "Hah!"
+   },
+   "voz": "kb"
+  },
+  "preguntas": [
+   {
+    "tipo": "elige",
+    "jp": "リーダー＿ なります。",
+    "opciones": [
+     "に",
+     "を",
+     "で"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Seré el líder.",
+     "en": "I'll become the leader."
+    },
+    "porque": {
+     "es": "なる es «llegar a ser», y en lo que te conviertes se marca con に: リーダーになります.",
+     "en": "なる is «become», and what you become is marked with に: リーダーになります."
+    },
+    "voz": "q1"
+   },
+   {
+    "tipo": "elige",
+    "jp": "ニャンは 来[く]る＿ 思[おも]います。",
+    "opciones": [
+     "と",
+     "を",
+     "に"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Creo que Nyan viene.",
+     "en": "I think Nyan will come."
+    },
+    "porque": {
+     "es": "と cierra la idea como unas comillas antes de 思います: 来ると思います.",
+     "en": "と closes the idea like quotation marks before 思います: 来ると思います."
+    },
+    "voz": "q2"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "わたしは おにぎりに します。",
+    "correcta": true,
+    "tr": {
+     "es": "Me pido onigiri.",
+     "en": "I'll have onigiri."
+    },
+    "porque": {
+     "es": "Bien: para escoger algo (en una tienda, en una carta) se dice lo elegido + にします.",
+     "en": "Right: to pick something (in a shop, from a menu) you say your choice + にします."
+    },
+    "voz": "q3"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "カゲは 勝[か]ちますと 思[おも]います。",
+    "correcta": false,
+    "tr": {
+     "es": "(Creo que Kage gana.)",
+     "en": "(I think Kage will win.)"
+    },
+    "porque": {
+     "es": "La cortesía va una sola vez, al final (思います): lo de dentro, en forma de diccionario, 勝つと思います.",
+     "en": "Politeness goes only once, at the end (思います): the inside part in dictionary form, 勝つと思います."
+    },
+    "voz": "q4"
+   },
+   {
+    "tipo": "oye",
+    "jp": "タマは 先生[せんせい]に なると 言[い]います。",
+    "habla": "kotaro",
+    "opciones": [
+     {
+      "es": "Tama dice que será profesora.",
+      "en": "Tama says she'll be a teacher."
+     },
+     {
+      "es": "Tama es profesora.",
+      "en": "Tama is a teacher."
+     },
+     {
+      "es": "Tama dice que viene la profesora.",
+      "en": "Tama says the teacher is coming."
+     }
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "〜になる es «llegar a ser» y と言います cuenta lo que alguien dice.",
+     "en": "〜になる is «become» and と言います reports what someone says."
+    },
+    "voz": "q5"
+   },
+   {
+    "tipo": "imagen",
+    "jp": "水[みず]に します。",
+    "opciones": [
+     "vaso",
+     "onigiri",
+     "pan"
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "水にします es «me decido por el agua»: lo que dirías al pedir en una cafetería.",
+     "en": "水にします is «I'll go with water»: what you'd say when ordering at a café."
+    },
+    "pide": {
+     "es": "¿Qué ha elegido?",
+     "en": "What did they choose?"
+    }
+   }
+  ]
+ },
+ "siguiente": {
+  "es": "Mañana, el líder Nyan organiza la fiesta de la clase: ¿cuántos onigiri hacen falta? ¡A contar!",
+  "en": "Tomorrow, leader Nyan plans the class party: how many onigiri are needed? Time to count!"
+ },
+ "chuleta": {
+  "patron": {
+   "es": "〔idea〕と 思[おも]います ・ 〔…〕に なります ・ 〔…〕に します",
+   "en": "〔idea〕と 思[おも]います ・ 〔…〕に なります ・ 〔…〕に します"
+  },
+  "patron_tr": {
+   "es": "creo que… ・ llegar a ser… ・ elijo…",
+   "en": "I think… ・ become… ・ I'll have…"
+  },
+  "filas": [
+   {
+    "jp": "ニャンは 勝[か]つと 思[おも]います。",
+    "es": "Creo que Nyan gana.",
+    "en": "I think Nyan will win.",
+    "registro": "educado"
+   },
+   {
+    "jp": "勝[か]つと 思[おも]う！",
+    "es": "¡Creo que gana! (a un amigo)",
+    "en": "I think he'll win! (to a friend)",
+    "registro": "amigos"
+   },
+   {
+    "jp": "リーダーに なります。",
+    "es": "Seré el líder.",
+    "en": "I'll become the leader."
+   },
+   {
+    "jp": "水[みず]に します。",
+    "es": "Me pido agua.",
+    "en": "I'll have water."
+   }
+  ],
+  "consejo": {
+   "es": "Con amigos, todo en forma de diccionario: 勝つと思う, 水にする. Con la sensei, ます al final: 勝つと思います.",
+   "en": "With friends, everything in dictionary form: 勝つと思う, 水にする. With the teacher, ます at the end: 勝つと思います."
+  }
+ }
+}

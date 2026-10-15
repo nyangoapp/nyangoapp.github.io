@@ -1,0 +1,595 @@
+{
+ "id": "c65",
+ "clase": 65,
+ "desde": 2590,
+ "titulo": {
+  "es": "En vez de estudiar: 〜かわりに y 〜ついでに",
+  "en": "Instead of studying: 〜かわりに and 〜ついでに"
+ },
+ "resumen": {
+  "es": "〜かわりに: una cosa SUSTITUYE a otra (en vez de estudiar, dormí). 〜ついでに: aprovechas que haces algo para hacer otra cosa MÁS (las dos pasan). Su primo ために (clase «para no olvidarlo») no sustituye nada: solo dice el motivo.",
+  "en": "〜かわりに: one thing REPLACES another (instead of studying, I slept). 〜ついでに: you take the chance to do something extra while already doing something else (both happen). Its cousin ために (class “so you don't forget”) doesn't replace anything: it just states the reason."
+ },
+ "intro": [
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     { "que": "nyan", "x": 110, "cara": "pensando" },
+     { "que": "libro", "x": 270, "s": 1.6 }
+    ]
+   },
+   "cara": "pensando",
+   "jp": "明日[あした]、 試験[しけん]が ある…",
+   "voz": "i1",
+   "tr": {
+    "es": "Mañana hay examen…",
+    "en": "There's an exam tomorrow…"
+   },
+   "cartela": {
+    "es": "Nyan tenía que estudiar. Tenía.",
+    "en": "Nyan was supposed to study. Was."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     { "que": "nyan", "x": 110, "cara": "sueno" },
+     { "que": "cama", "x": 270 },
+     { "que": "manpu", "tipo": "z", "x": 160, "y": 110 }
+    ]
+   },
+   "cara": "sueno",
+   "jp": "勉強[べんきょう]する かわりに、 昼寝[ひるね]した。",
+   "voz": "i2",
+   "tr": {
+    "es": "En vez de estudiar, hice la siesta.",
+    "en": "Instead of studying, I napped."
+   },
+   "nota": {
+    "es": "◯するかわりに◯する = en vez de una cosa, haces otra",
+    "en": "◯するかわりに◯する = instead of one thing, you do another"
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     { "que": "nyan", "x": 110, "cara": "triste" },
+     { "que": "gato", "x": 270, "brazo": "arriba" },
+     { "que": "libro", "x": 330, "s": 1.1 }
+    ]
+   },
+   "habla": "tama",
+   "cara": "normal",
+   "jp": "しょうがないなあ。 ニャンの かわりに、 タマが 勉強[べんきょう]するよ。",
+   "voz": "i3",
+   "tr": {
+    "es": "No hay remedio. En tu lugar, estudiará Tama.",
+    "en": "Can't be helped. In your place, Tama will study."
+   },
+   "cartela": {
+    "es": "〔persona〕の かわりに = en su lugar (no en vez de HACER algo, sino en vez de ESA persona).",
+    "en": "〔person〕の かわりに = in their place (not instead of DOING something, but instead of that PERSON)."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "calle",
+    "cosas": [
+     { "que": "nyan", "x": 110, "cara": "feliz", "brazo": "arriba" },
+     { "que": "bolsa", "x": 260 },
+     { "que": "libro", "x": 330, "s": 1.1 }
+    ]
+   },
+   "cara": "feliz",
+   "jp": "買[か]い物[もの]に 行[い]く ついでに、 本[ほん]を 返[かえ]した。",
+   "voz": "i4",
+   "tr": {
+    "es": "Aprovechando que iba de compras, devolví el libro.",
+    "en": "While I was out shopping, I returned the book."
+   },
+   "cartela": {
+    "es": "Ya no es «en vez de»: es «además». Eso es ついでに.",
+    "en": "This isn't «instead of» anymore: it's «also». That's ついでに."
+   }
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta cada frase: かわりに sustituye, ついでに añade.",
+   "en": "Build each sentence: かわりに replaces, ついでに adds."
+  },
+  "piezas": [
+   { "id": "benkyou", "jp": "勉強[べんきょう]", "tipo": "palabra" },
+   { "id": "suru", "jp": "する", "tipo": "verbo" },
+   { "id": "kawarini", "jp": "かわりに", "tipo": "particula" },
+   { "id": "hirune", "jp": "昼寝[ひるね]", "tipo": "palabra" },
+   { "id": "shita", "jp": "した", "tipo": "verbo" },
+   { "id": "shimashita", "jp": "しました", "tipo": "verbo" },
+   { "id": "tsuideni", "jp": "ついでに", "tipo": "particula" },
+   { "id": "watashi", "jp": "私[わたし]", "tipo": "palabra" },
+   { "id": "no", "jp": "の", "tipo": "particula" },
+   { "id": "tama", "jp": "タマ", "tipo": "palabra" },
+   { "id": "ga", "jp": "が", "tipo": "particula" },
+   { "id": "itta", "jp": "行[い]った", "tipo": "verbo" },
+   { "id": "iku", "jp": "行[い]く", "tipo": "verbo" },
+   { "id": "tameni", "jp": "ために", "tipo": "particula" },
+   { "id": "kaimono", "jp": "買[か]い物[もの]", "tipo": "palabra" },
+   { "id": "ni", "jp": "に", "tipo": "particula" },
+   { "id": "hon", "jp": "本[ほん]", "tipo": "palabra" },
+   { "id": "wo", "jp": "を", "tipo": "particula" },
+   { "id": "kaeshita", "jp": "返[かえ]した", "tipo": "verbo" },
+   { "id": "purezento", "jp": "プレゼント", "tipo": "palabra" },
+   { "id": "onigiri", "jp": "おにぎり", "tipo": "palabra" },
+   { "id": "kureta", "jp": "くれた", "tipo": "verbo" },
+   { "id": "ageta", "jp": "あげた", "tipo": "verbo" }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Dile a Tama (de tú): «En vez de estudiar, hice la siesta».",
+     "en": "Tell Tama (casually): «Instead of studying, I napped»."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      { "que": "nyan", "x": 110, "cara": "sueno" },
+      { "que": "cama", "x": 270 },
+      { "que": "gato", "x": 330, "s": 0.9 }
+     ]
+    },
+    "piezas": ["benkyou", "suru", "kawarini", "hirune", "shita", "shimashita", "tsuideni"],
+    "bien": [["benkyou", "suru", "kawarini", "hirune", "shita"]],
+    "tr": {
+     "es": "En vez de estudiar, hice la siesta.",
+     "en": "Instead of studying, I napped."
+    },
+    "efecto_bien": [
+     { "tipo": "duerme", "objeto": "nyan" },
+     { "tipo": "nyan", "cara": "sueno" }
+    ],
+    "fallos": [
+     {
+      "si": { "contiene": ["shimashita"] },
+      "efecto": { "tipo": "nyan", "cara": "pensando", "manpu": "pregunta" },
+      "msg": {
+       "es": "しました es educado, para el sensei. Con Tama, plano: した.",
+       "en": "しました is polite, for the teacher. With Tama, plain: した."
+      }
+     },
+     {
+      "si": { "contiene": ["tsuideni"] },
+      "efecto": { "tipo": "nyan", "cara": "sorpresa" },
+      "msg": {
+       "es": "ついでに sería que pasan las DOS cosas. Aquí una sustituye a la otra: かわりに.",
+       "en": "ついでに would mean BOTH things happen. Here one replaces the other: かわりに."
+      }
+     },
+     {
+      "si": { "falta": ["kawarini"] },
+      "efecto": { "tipo": "nyan", "cara": "normal" },
+      "msg": {
+       "es": "Sin かわりに no queda claro que dormiste EN VEZ DE estudiar.",
+       "en": "Without かわりに it's not clear you napped INSTEAD OF studying."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Di: «Tama fue en mi lugar».",
+     "en": "Say: «Tama went in my place»."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      { "que": "nyan", "x": 110, "cara": "triste" },
+      { "que": "gato", "x": 270, "brazo": "arriba" }
+     ]
+    },
+    "piezas": ["watashi", "no", "kawarini", "tama", "ga", "itta", "iku", "tameni"],
+    "bien": [["watashi", "no", "kawarini", "tama", "ga", "itta"]],
+    "tr": {
+     "es": "Tama fue en mi lugar.",
+     "en": "Tama went in my place."
+    },
+    "efecto_bien": [
+     { "tipo": "salta", "objeto": "gato" },
+     { "tipo": "nyan", "cara": "triste" }
+    ],
+    "fallos": [
+     {
+      "si": { "contiene": ["tameni"] },
+      "efecto": { "tipo": "nyan", "cara": "pensando", "manpu": "pregunta" },
+      "msg": {
+       "es": "ために sería «para mi bien». Aquí Tama te SUSTITUYE: かわりに.",
+       "en": "ために would mean «for my sake». Here Tama REPLACES you: かわりに."
+      }
+     },
+     {
+      "si": { "contiene": ["iku"] },
+      "efecto": { "tipo": "nyan", "cara": "pensando" },
+      "msg": {
+       "es": "行[い]く es presente. Aquí ya pasó: 行[い]った.",
+       "en": "行く is present tense. This already happened: 行った."
+      }
+     },
+     {
+      "si": { "falta": ["no"] },
+      "efecto": { "tipo": "nyan", "cara": "normal" },
+      "msg": {
+       "es": "Antes de かわりに con una persona hace falta の: 私[わたし]の かわりに.",
+       "en": "Before かわりに with a person you need の: 私の かわりに."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Di: «Aprovechando que iba de compras, devolví el libro».",
+     "en": "Say: «While I was out shopping, I returned the book»."
+    },
+    "escena": {
+     "fondo": "calle",
+     "cosas": [
+      { "que": "nyan", "x": 110, "cara": "feliz", "brazo": "arriba" },
+      { "que": "bolsa", "x": 260 },
+      { "que": "libro", "x": 330, "s": 1.1 }
+     ]
+    },
+    "piezas": ["kaimono", "ni", "iku", "tsuideni", "hon", "wo", "kaeshita", "kawarini"],
+    "bien": [["kaimono", "ni", "iku", "tsuideni", "hon", "wo", "kaeshita"]],
+    "tr": {
+     "es": "Aprovechando que iba de compras, devolví el libro.",
+     "en": "While I was out shopping, I returned the book."
+    },
+    "efecto_bien": [
+     { "tipo": "brilla", "objeto": "libro" },
+     { "tipo": "nyan", "cara": "feliz" }
+    ],
+    "fallos": [
+     {
+      "si": { "contiene": ["kawarini"] },
+      "efecto": [
+       { "tipo": "desaparece", "objeto": "bolsa" },
+       { "tipo": "nyan", "cara": "sorpresa", "manpu": "excl" }
+      ],
+      "msg": {
+       "es": "Con かわりに no habrías ido de compras: solo habrías devuelto el libro. Aquí pasan las DOS cosas: ついでに.",
+       "en": "With かわりに you wouldn't have gone shopping: you'd only have returned the book. Here BOTH happen: ついでに."
+      }
+     },
+     {
+      "si": { "falta": ["tsuideni"] },
+      "efecto": { "tipo": "nyan", "cara": "normal" },
+      "msg": {
+       "es": "Sin ついでに las dos frases quedan sueltas: no se sabe que una pasó aprovechando la otra.",
+       "en": "Without ついでに the two clauses stay loose: it's not clear one happened while doing the other."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Explícaselo ahora al sensei (con educación): «En vez de estudiar, hice la siesta».",
+     "en": "Now explain it to the teacher (politely): «Instead of studying, I napped»."
+    },
+    "escena": {
+     "fondo": "escuela",
+     "cosas": [
+      { "que": "nyan", "x": 110, "cara": "triste" },
+      { "que": "profesor", "x": 280, "cara": "sorpresa" }
+     ]
+    },
+    "piezas": ["benkyou", "suru", "kawarini", "hirune", "shita", "shimashita"],
+    "bien": [["benkyou", "suru", "kawarini", "hirune", "shimashita"]],
+    "tr": {
+     "es": "En vez de estudiar, hice la siesta.",
+     "en": "Instead of studying, I napped."
+    },
+    "efecto_bien": [
+     { "tipo": "manpu", "objeto": "profesor", "manpu": "sudor" },
+     { "tipo": "nyan", "cara": "triste" }
+    ],
+    "fallos": [
+     {
+      "si": { "contiene": ["shita"] },
+      "efecto": { "tipo": "nyan", "cara": "sorpresa" },
+      "msg": {
+       "es": "Con el sensei, mejor con educación: しました, no した.",
+       "en": "With the teacher, better polite: しました, not した."
+      }
+     },
+     {
+      "si": { "falta": ["kawarini"] },
+      "efecto": { "tipo": "nyan", "cara": "normal" },
+      "msg": {
+       "es": "Sin かわりに no queda claro que dormiste EN VEZ DE estudiar.",
+       "en": "Without かわりに it's not clear you napped INSTEAD OF studying."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Reto: di «En vez de un regalo, me dio un onigiri» — ¡y se transformará!",
+     "en": "Challenge: say «Instead of a present, he gave me onigiri» — and it'll transform!"
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      { "que": "nyan", "x": 110, "cara": "sorpresa", "brazo": "arriba" },
+      { "que": "regalo", "x": 270, "s": 1.6 },
+      { "que": "gato", "x": 330 }
+     ]
+    },
+    "piezas": ["purezento", "no", "kawarini", "onigiri", "wo", "kureta", "ageta", "tsuideni"],
+    "bien": [["purezento", "no", "kawarini", "onigiri", "wo", "kureta"]],
+    "tr": {
+     "es": "En vez de un regalo, me dio un onigiri.",
+     "en": "Instead of a present, he gave me onigiri."
+    },
+    "efecto_bien": [
+     { "tipo": "disfraz", "objeto": "regalo", "como": "onigiri" },
+     { "tipo": "brilla", "objeto": "regalo" },
+     { "tipo": "nyan", "cara": "feliz", "brazo": "arriba" }
+    ],
+    "fallos": [
+     {
+      "si": { "contiene": ["tsuideni"] },
+      "efecto": { "tipo": "nyan", "cara": "pensando", "manpu": "pregunta" },
+      "msg": {
+       "es": "ついでに sería «además del regalo, un onigiri». Aquí solo llega uno: かわりに.",
+       "en": "ついでに would mean «a present AND ALSO onigiri». Here only one arrives: かわりに."
+      }
+     },
+     {
+      "si": { "contiene": ["ageta"] },
+      "efecto": { "tipo": "nyan", "cara": "sorpresa" },
+      "msg": {
+       "es": "あげた es cuando TÚ das algo a otro. Aquí Tama te da a TI: くれた.",
+       "en": "あげた is when YOU give something to someone. Here Tama gives it to YOU: くれた."
+      }
+     },
+     {
+      "si": { "falta": ["kawarini"] },
+      "efecto": { "tipo": "nyan", "cara": "normal" },
+      "msg": {
+       "es": "Sin かわりに no se entiende que el onigiri sustituye al regalo.",
+       "en": "Without かわりに it's not clear the onigiri replaces the present."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "juego": {
+  "intro": {
+   "es": "¿かわりに (sustituye), ついでに (además) o ために (el primo: propósito)?",
+   "en": "かわりに (replaces), ついでに (adds) or ために (the cousin: purpose)?"
+  },
+  "nyan": {
+   "es": "Uno cambia una cosa por otra, otro suma, y el primo… ni idea, pero suena parecido.",
+   "en": "One swaps one thing for another, one adds on, and the cousin… no idea, but it sounds similar."
+  },
+  "cestas": [
+   {
+    "id": "kawarini",
+    "jp": "かわりに",
+    "sub": { "es": "en vez de (sustituye)", "en": "instead of (replaces)" }
+   },
+   {
+    "id": "tsuideni",
+    "jp": "ついでに",
+    "sub": { "es": "aprovechando (además)", "en": "while you're at it (adds)" }
+   },
+   {
+    "id": "tameni",
+    "jp": "ために",
+    "sub": { "es": "primo: para (propósito)", "en": "cousin: in order to (purpose)" }
+   }
+  ],
+  "cartas": [
+   {
+    "id": "j1",
+    "dibujo": "cama",
+    "jp": "勉強[べんきょう]する ＿、 昼寝[ひるね]した。",
+    "cesta": "kawarini",
+    "es": "En vez de estudiar, hice la siesta.",
+    "en": "Instead of studying, I napped."
+   },
+   {
+    "id": "j2",
+    "dibujo": "libro",
+    "jp": "買[か]い物[もの]に 行[い]く ＿、 本[ほん]を 返[かえ]した。",
+    "cesta": "tsuideni",
+    "es": "Aprovechando que iba de compras, devolví el libro.",
+    "en": "While shopping, I returned the book."
+   },
+   {
+    "id": "j3",
+    "dibujo": "tren",
+    "jp": "電車[でんしゃ]に 間[ま]に合[あ]う ＿、 早[はや]く 起[お]きた。",
+    "cesta": "tameni",
+    "es": "Para llegar a tiempo al tren, me levanté pronto.",
+    "en": "To catch the train, I got up early."
+   },
+   {
+    "id": "j4",
+    "dibujo": "profesor",
+    "jp": "先生[せんせい]の ＿、 タマが 説明[せつめい]した。",
+    "cesta": "kawarini",
+    "es": "En vez del profesor, lo explicó Tama.",
+    "en": "Instead of the teacher, Tama explained it.",
+    "truco": {
+     "es": "Con una PERSONA (先生の), かわりに = en su lugar.",
+     "en": "With a PERSON (先生の), かわりに = in their place."
+    }
+   },
+   {
+    "id": "j5",
+    "dibujo": "tele",
+    "jp": "宿題[しゅくだい]を する ＿、 テレビを 見[み]た。",
+    "cesta": "kawarini",
+    "es": "En vez de hacer los deberes, vi la tele.",
+    "en": "Instead of doing homework, I watched TV."
+   },
+   {
+    "id": "j6",
+    "dibujo": "regalo",
+    "jp": "友達[ともだち]に 会[あ]う ＿、 プレゼントを 買[か]った。",
+    "cesta": "tsuideni",
+    "es": "Aprovechando que quedé con un amigo, compré un regalo.",
+    "en": "While meeting a friend, I bought a present."
+   },
+   {
+    "id": "j7",
+    "dibujo": "escuela",
+    "jp": "先生[せんせい]に 会[あ]う ＿、 学校[がっこう]に 行[い]った。",
+    "cesta": "tameni",
+    "es": "Para ver al profesor, fui a la escuela.",
+    "en": "To see the teacher, I went to school."
+   },
+   {
+    "id": "j8",
+    "jp": "掃除[そうじ]する ＿、 洗濯[せんたく]も した。",
+    "cesta": "tsuideni",
+    "es": "Aprovechando que limpiaba, también hice la colada.",
+    "en": "While cleaning, I also did the laundry."
+   },
+   {
+    "id": "j9",
+    "dibujo": "reloj",
+    "jp": "遅[おく]れない ＿、 早[はや]く 出[で]た。",
+    "cesta": "tameni",
+    "es": "Para no llegar tarde, salí pronto.",
+    "en": "So as not to be late, I left early."
+   }
+  ]
+ },
+ "outro": [
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     { "que": "nyan", "x": 110, "cara": "sueno" },
+     { "que": "cama", "x": 270 }
+    ]
+   },
+   "cara": "sueno",
+   "jp": "勉強[べんきょう]する かわりに、 昼寝[ひるね]した。",
+   "voz": "o1",
+   "tr": {
+    "es": "En vez de estudiar, hice la siesta.",
+    "en": "Instead of studying, I napped."
+   },
+   "cartela": {
+    "es": "〜かわりに: una cosa sustituye a otra.",
+    "en": "〜かわりに: one thing replaces another."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "calle",
+    "cosas": [
+     { "que": "nyan", "x": 110, "cara": "feliz" },
+     { "que": "bolsa", "x": 260 },
+     { "que": "libro", "x": 330, "s": 1.1 }
+    ]
+   },
+   "cara": "feliz",
+   "jp": "買[か]い物[もの]に 行[い]く ついでに、 本[ほん]を 返[かえ]した。",
+   "voz": "o2",
+   "tr": {
+    "es": "Aprovechando que iba de compras, devolví el libro.",
+    "en": "While shopping, I returned the book."
+   },
+   "cartela": {
+    "es": "〜ついでに: aprovechas y haces otra cosa más.",
+    "en": "〜ついでに: you take the chance to do something extra too."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     { "que": "nyan", "x": 110, "cara": "feliz", "brazo": "arriba" },
+     { "que": "gato", "x": 270 }
+    ]
+   },
+   "habla": "tama",
+   "cara": "normal",
+   "jp": "ために とは 違[ちが]うから、 気[き]をつけてね。",
+   "voz": "o3",
+   "tr": {
+    "es": "Es distinto de ために, así que ten cuidado.",
+    "en": "It's different from ために, so watch out."
+   },
+   "cartela": {
+    "es": "ために = por el motivo · かわりに = en su lugar · ついでに = además.",
+    "en": "ために = for the reason · かわりに = in its place · ついでに = as well."
+   }
+  }
+ ],
+ "chuleta": {
+  "patron": {
+   "es": "〔A〕（の）かわりに〔B〕 ／ 〔A〕ついでに〔B〕",
+   "en": "〔A〕（の）かわりに〔B〕 / 〔A〕ついでに〔B〕"
+  },
+  "patron_tr": {
+   "es": "en vez de A, B ／ ya que haces A, B también",
+   "en": "instead of A, B / while doing A, B too"
+  },
+  "columnas": [
+   {
+    "jp": "かわりに",
+    "texto": {
+     "es": "en vez de: una cosa SUSTITUYE a la otra",
+     "en": "instead of: one thing REPLACES the other"
+    },
+    "dibujos": ["cama"]
+   },
+   {
+    "jp": "ついでに",
+    "texto": {
+     "es": "aprovechando: pasan las DOS cosas",
+     "en": "while at it: BOTH things happen"
+    },
+    "dibujos": ["bolsa"]
+   }
+  ],
+  "filas": [
+   {
+    "jp": "勉強[べんきょう]する かわりに、 昼寝[ひるね]した。",
+    "es": "En vez de estudiar, hice la siesta.",
+    "en": "Instead of studying, I napped.",
+    "registro": "amigos"
+   },
+   {
+    "jp": "勉強[べんきょう]する かわりに、 昼寝[ひるね]しました。",
+    "es": "(al sensei) En vez de estudiar, hice la siesta.",
+    "en": "(to the teacher) Instead of studying, I napped.",
+    "registro": "educado"
+   },
+   {
+    "jp": "買[か]い物[もの]に 行[い]く ついでに、 本[ほん]を 返[かえ]した。",
+    "es": "Aprovechando que iba de compras, devolví el libro.",
+    "en": "While shopping, I returned the book.",
+    "registro": "amigos"
+   },
+   {
+    "jp": "私[わたし]の かわりに、 タマが 行[い]った。",
+    "es": "Tama fue en mi lugar.",
+    "en": "Tama went in my place.",
+    "registro": "amigos"
+   }
+  ],
+  "consejo": {
+   "es": "El primo es ために (clase «para no olvidarlo»): 〔persona/cosa〕の ために es para conseguir algo (el motivo); 〔persona/cosa〕の かわりに es que ALGO O ALGUIEN MÁS ocupa su lugar (la sustituye). ために no cambia nada; かわりに sí.",
+   "en": "The cousin is ために (class “so you don't forget”): 〔person/thing〕の ために is about getting something (the reason); 〔person/thing〕の かわりに means something or someone ELSE takes its place (it replaces it). ために changes nothing; かわりに does."
+  }
+ }
+}

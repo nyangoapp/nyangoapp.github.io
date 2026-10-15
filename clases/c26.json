@@ -1,0 +1,813 @@
+{
+ "id": "c26",
+ "clase": 26,
+ "desde": 550,
+ "titulo": {
+  "es": "Nochevieja: こと, もの, ところ y という",
+  "en": "New Year's Eve: こと, もの, ところ and という"
+ },
+ "resumen": {
+  "es": "こと convierte un verbo en una idea («dormir» como concepto). もの es para cosas que puedes tocar. ところ es un lugar o un momento. という presenta un nombre: «algo llamado…».",
+  "en": "こと turns a verb into an idea («sleeping» as a concept). もの is for things you can touch. ところ is a place or a moment. という introduces a name: «something called…»."
+ },
+ "formato": 2,
+ "lugar": "torii",
+ "mision": {
+  "texto": {
+   "es": "大晦日, Nochevieja. En Japón hay dos tradiciones: comer 年越しそば, los fideos de «cruzar el año», y oír la campana del templo, que suena ciento ocho veces a medianoche. Kage os ha citado bajo el torii… Aprende a hablar de ideas, cosas, momentos y nombres.",
+   "en": "大晦日, New Year's Eve. Japan has two traditions: eating 年越しそば, the «year-crossing» noodles, and hearing the temple bell ring a hundred and eight times at midnight. Kage has asked you to meet under the torii… Learn to talk about ideas, things, moments and names."
+  },
+  "escena": {
+   "fondo": "torii",
+   "cosas": [
+    {
+     "que": "nyan",
+     "x": 70
+    },
+    {
+     "que": "gato",
+     "id": "tama",
+     "x": 160
+    },
+    {
+     "que": "kage",
+     "id": "kage",
+     "x": 330
+    }
+   ]
+  },
+  "cara": "feliz",
+  "jp": "大晦日[おおみそか]だ！",
+  "voz": "m0"
+ },
+ "reglas": [
+  {
+   "id": "tokoro",
+   "nombre": {
+    "es": "〜ところ: justo en ese momento",
+    "en": "〜ところ: right at that moment"
+   },
+   "patron": {
+    "es": "〔diccionario〕ところ ・ 〔ている〕ところ ・ 〔た〕ところ",
+    "en": "〔dictionary〕ところ ・ 〔ている〕ところ ・ 〔た〕ところ"
+   },
+   "explica": {
+    "es": "ところ significa «sitio», pero pegado a un verbo marca un MOMENTO de la acción: a punto de empezar (食べるところ, «estoy a punto de comer»), en plena acción (食べているところ, «estoy justo comiendo») o recién acabada (食べたところ, «acabo de comer»). Es como si señalaras en qué punto exacto del camino estás.",
+    "en": "ところ means «place», but attached to a verb it marks a MOMENT of the action: about to start (食べるところ, «I'm about to eat»), in the middle (食べているところ, «I'm right in the middle of eating») or just finished (食べたところ, «I've just eaten»). It's like pointing to exactly where you are on the road."
+   },
+   "ejemplos": [
+    {
+     "jp": "年越[としこ]しそばを 食[た]べて いる ところでした。",
+     "es": "Estábamos justo comiendo la soba.",
+     "en": "We were in the middle of eating soba.",
+     "voz": "r1-1"
+    },
+    {
+     "jp": "今[いま] 出[で]る ところです。",
+     "es": "Estoy a punto de salir.",
+     "en": "I'm just about to leave.",
+     "voz": "r1-2"
+    }
+   ],
+   "ojo": {
+    "es": "たところ es inmediato («ahora mismo»); たばかり, que verás más adelante, también es «acabo de», pero puede ser de hace días.",
+    "en": "たところ is immediate («just now»); たばかり, coming later, also means «just did», but it can be days ago."
+   }
+  },
+  {
+   "id": "toiu",
+   "nombre": {
+    "es": "〜という: llamado…",
+    "en": "〜という: called…"
+   },
+   "patron": {
+    "es": "〔nombre〕という〔nombre〕",
+    "en": "〔name〕という〔noun〕"
+   },
+   "explica": {
+    "es": "Para presentar algo por su nombre, sobre todo si el otro no lo conoce, se usa という, «que se dice…»: 年越しそばというもの, «eso llamado toshikoshi soba». Se forma con と (la marca de cita) y いう (decir). Entre amigos se acorta a って: 年越しそばって何？, «¿qué es eso del toshikoshi soba?».",
+    "en": "To introduce something by name, especially if the listener doesn't know it, use という, «that is called…»: 年越しそばというもの, «this thing called toshikoshi soba». It's と (the quote marker) plus いう (say). Among friends it shortens to って: 年越しそばって何？, «what's this toshikoshi soba thing?»."
+   },
+   "ejemplos": [
+    {
+     "jp": "「年越[としこ]しそば」という ものを 食[た]べました。",
+     "es": "He comido eso llamado «toshikoshi soba».",
+     "en": "I ate this thing called «toshikoshi soba».",
+     "voz": "r2-1"
+    },
+    {
+     "jp": "「除夜[じょや]の 鐘[かね]」という 習慣[しゅうかん]です。",
+     "es": "Es una costumbre llamada 除夜の鐘.",
+     "en": "It's a custom called 除夜の鐘.",
+     "voz": "r2-2"
+    }
+   ],
+   "ojo": {
+    "es": "Es muy útil para preguntar por palabras nuevas: 〜という言葉はどういう意味ですか, «¿qué significa la palabra…?».",
+    "en": "It's very handy for asking about new words: 〜という言葉はどういう意味ですか, «what does the word… mean?»."
+   }
+  },
+  {
+   "id": "koto_mono",
+   "nombre": {
+    "es": "こと y もの: la idea y la cosa",
+    "en": "こと and もの: the idea and the thing"
+   },
+   "patron": {
+    "es": "〔verbo〕こと ・ 〔algo que se toca〕もの",
+    "en": "〔verb〕こと ・ 〔touchable thing〕もの"
+   },
+   "explica": {
+    "es": "Las dos significan «cosa», pero no la misma. こと es una cosa abstracta: una idea, un hecho, una acción convertida en sustantivo (起きていること, «el quedarse despierto»; 百八回鳴ること, «que suene ciento ocho veces»). もの es una cosa física, que se puede tocar (食べるもの, «algo para comer»). Por eso, para lo que te gusta HACER, こと.",
+    "en": "Both mean «thing», but not the same kind. こと is abstract: an idea, a fact, an action turned into a noun (起きていること, «staying up»; 百八回鳴ること, «that it rings 108 times»). もの is a physical thing you can touch (食べるもの, «something to eat»). So for what you like DOING, こと."
+   },
+   "ejemplos": [
+    {
+     "jp": "夜[よる] 遅[おそ]くまで 起[お]きて いる ことが 好[す]きです。",
+     "es": "Me gusta quedarme despierto hasta tarde.",
+     "en": "I like staying up late.",
+     "voz": "r3-1"
+    },
+    {
+     "jp": "百八回[ひゃくはちかい] 鳴[な]る ことを 知[し]って いますか。",
+     "es": "¿Sabías que suena ciento ocho veces?",
+     "en": "Did you know it rings 108 times?",
+     "voz": "r3-2"
+    }
+   ],
+   "ojo": {
+    "es": "Truco: si puedes cogerlo con la mano, もの; si es algo que se hace, se piensa o pasa, こと.",
+    "en": "Trick: if you can pick it up, もの; if it's something done, thought or happening, こと."
+   }
+  }
+ ],
+ "historia": [
+  {
+   "t": "dice",
+   "habla": "kage",
+   "jp": "遅[おそ]い。",
+   "tr": {
+    "es": "Llegáis tarde.",
+    "en": "You're late."
+   },
+   "voz": "h1",
+   "cara": "aburrido",
+   "escena": {
+    "fondo": "torii",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 160
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 330
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "ごめんなさい。 年越[としこ]しそばを 食[た]べて いる ところでした。",
+   "tr": {
+    "es": "Perdona. Estábamos justo comiendo la soba de fin de año.",
+    "en": "Sorry. We were right in the middle of eating our New Year's Eve soba."
+   },
+   "voz": "h2",
+   "cara": "feliz"
+  },
+  {
+   "t": "regla",
+   "regla": "tokoro"
+  },
+  {
+   "t": "elige",
+   "habla": "kage",
+   "pide": {
+    "es": "Kage dice que él acaba de cenar. ¿Cómo lo dice?",
+    "en": "Kage says he's just had dinner. How does he say it?"
+   },
+   "opciones": [
+    {
+     "jp": "俺[おれ]は 今[いま] 食[た]べた ところだ。",
+     "bien": true,
+     "tr": {
+      "es": "Yo acabo de cenar.",
+      "en": "I've just eaten."
+     },
+     "voz": "h3",
+     "porque": {
+      "es": "Pasado + ところ: la acción se acaba de terminar, justo ahora.",
+      "en": "Past + ところ: the action has just finished, right now."
+     }
+    },
+    {
+     "jp": "俺[おれ]は 今[いま] 食[た]べる ところだ。",
+     "bien": false,
+     "porque": {
+      "es": "食べるところ es «estoy a punto de comer»: aún no ha empezado. Para «acabo de», el pasado: 食べたところ.",
+      "en": "食べるところ is «I'm about to eat»: it hasn't started. For «just did», the past: 食べたところ."
+     }
+    },
+    {
+     "jp": "俺[おれ]は 今[いま] 食[た]べた ことだ。",
+     "bien": false,
+     "porque": {
+      "es": "こと convierte la acción en una idea; para el MOMENTO de la acción, ところ.",
+      "en": "こと turns the action into an idea; for the MOMENT of the action, ところ."
+     }
+    }
+   ],
+   "cara": "pensando",
+   "escena": {
+    "fondo": "torii",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 160
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 330
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "「年越[としこ]しそば」という ものを 初[はじ]めて 食[た]べました！",
+   "tr": {
+    "es": "¡Es la primera vez que como eso llamado «toshikoshi soba»!",
+    "en": "It's the first time I've eaten this thing called «toshikoshi soba»!"
+   },
+   "voz": "h4",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "torii",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "soba",
+      "x": 190,
+      "id": "soba",
+      "s": 1.0
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 330
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "toiu"
+  },
+  {
+   "t": "dice",
+   "habla": "kage",
+   "jp": "そばは 細[ほそ]くて 長[なが]い。 だから、 長生[ながい]きできるように 食[た]べるらしい。",
+   "tr": {
+    "es": "La soba es fina y larga. Por eso, dicen, se come para vivir muchos años.",
+    "en": "Soba is thin and long. So, they say, you eat it to live a long life."
+   },
+   "voz": "h5",
+   "cara": "presumido"
+  },
+  {
+   "t": "regla",
+   "regla": "koto_mono"
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "Nyan cuenta qué le gusta de Nochevieja:",
+    "en": "Nyan says what he likes about New Year's Eve:"
+   },
+   "opciones": [
+    {
+     "jp": "夜[よる] 遅[おそ]くまで 起[お]きて いる ことが 好[す]きです。",
+     "bien": true,
+     "tr": {
+      "es": "Me gusta quedarme despierto hasta tarde.",
+      "en": "I like staying up late."
+     },
+     "voz": "h6",
+     "porque": {
+      "es": "こと convierte la acción en una idea: «el quedarse despierto».",
+      "en": "こと turns the action into an idea: «staying up»."
+     }
+    },
+    {
+     "jp": "夜[よる] 遅[おそ]くまで 起[お]きて いるが 好[す]きです。",
+     "bien": false,
+     "porque": {
+      "es": "好き necesita una cosa; la acción se convierte en cosa con こと (o の): 起きていることが好き.",
+      "en": "好き needs a thing; the action becomes a thing with こと (or の): 起きていることが好き."
+     }
+    },
+    {
+     "jp": "夜[よる] 遅[おそ]くまで 起[お]きて いる ものが 好[す]きです。",
+     "bien": false,
+     "porque": {
+      "es": "もの es para cosas que se pueden tocar. Para una acción o una idea, こと.",
+      "en": "もの is for things you can touch. For an action or an idea, こと."
+     }
+    }
+   ],
+   "cara": "feliz",
+   "escena": {
+    "fondo": "torii",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 300
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "kage",
+   "jp": "鐘[かね]の 音[おと]だ。 百八回[ひゃくはちかい] 鳴[な]る ことを 知[し]って いるか？",
+   "tr": {
+    "es": "Es la campana. ¿Sabías que suena ciento ocho veces?",
+    "en": "That's the bell. Did you know it rings a hundred and eight times?"
+   },
+   "voz": "h7",
+   "cara": "presumido",
+   "reacciona": {
+    "nyan": "sorpresa"
+   },
+   "escena": {
+    "fondo": "torii",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 160
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 330
+     }
+    ]
+   }
+  },
+  {
+   "t": "monta",
+   "encargo": 0
+  },
+  {
+   "t": "toca",
+   "pide": {
+    "es": "Kage ha traído algo para el Año Nuevo. Escucha y tócalo.",
+    "en": "Kage brought something for New Year. Listen and tap it."
+   },
+   "bien": "kagamimochi",
+   "quien": "kage",
+   "escena": {
+    "fondo": "torii",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 65
+     },
+     {
+      "que": "soba",
+      "x": 160,
+      "id": "soba",
+      "s": 0.9
+     },
+     {
+      "que": "kagamimochi",
+      "x": 218,
+      "id": "kagamimochi",
+      "s": 1.0
+     },
+     {
+      "que": "hagaki",
+      "x": 272,
+      "id": "hagaki",
+      "s": 0.9
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 345
+     }
+    ]
+   },
+   "jp": "鏡餅[かがみもち]という ものを 持[も]って きた。",
+   "voz": "h8",
+   "bien_msg": {
+    "es": "¡Eso! El 鏡餅: se pone en casa para recibir el año nuevo.",
+    "en": "Right! The 鏡餅: it's placed at home to welcome the new year."
+   },
+   "mal_msg": {
+    "es": "Ha dicho 鏡餅: los dos pasteles de arroz con la naranja encima.",
+    "en": "He said 鏡餅: the two rice cakes topped with an orange."
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "あけまして おめでとう！",
+   "tr": {
+    "es": "¡Feliz Año Nuevo!",
+    "en": "Happy New Year!"
+   },
+   "voz": "h9",
+   "cara": "feliz",
+   "reacciona": {
+    "nyan": "feliz"
+   },
+   "escena": {
+    "fondo": "torii",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 160
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 330
+     }
+    ]
+   }
+  }
+ ],
+ "epilogo": [
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "今年[ことし]も よろしく！",
+   "tr": {
+    "es": "¡Contad conmigo este año también!",
+    "en": "Here's to another year together!"
+   },
+   "voz": "x1",
+   "cara": "feliz",
+   "brazo": "arriba",
+   "escena": {
+    "fondo": "torii",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 160
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 330
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "kage",
+   "jp": "…ふん。 よろしく。",
+   "tr": {
+    "es": "…Hmpf. Igualmente.",
+    "en": "…Hmph. Likewise."
+   },
+   "voz": "x2",
+   "cara": "presumido"
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta la frase: la escena hará lo que digas.",
+   "en": "Build the sentence: the scene will do what you say."
+  },
+  "piezas": [
+   {
+    "id": "joya",
+    "jp": "除夜[じょや]の 鐘[かね]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "toiu",
+    "jp": "という",
+    "tipo": "particula"
+   },
+   {
+    "id": "iu",
+    "jp": "いう",
+    "tipo": "particula"
+   },
+   {
+    "id": "shuukan",
+    "jp": "習慣[しゅうかん]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "desu",
+    "jp": "です",
+    "tipo": "verbo"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Tama se lo explica a Nyan: «Es una costumbre llamada 除夜の鐘»",
+     "en": "Tama explains to Nyan: «It's a custom called 除夜の鐘»"
+    },
+    "escena": {
+     "fondo": "torii",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 70
+      },
+      {
+       "que": "gato",
+       "id": "tama",
+       "x": 300
+      }
+     ]
+    },
+    "piezas": [
+     "joya",
+     "toiu",
+     "iu",
+     "shuukan",
+     "desu"
+    ],
+    "bien": [
+     [
+      "joya",
+      "toiu",
+      "shuukan",
+      "desu"
+     ]
+    ],
+    "tr": {
+     "es": "Es una costumbre llamada 除夜の鐘 (la campana de Nochevieja).",
+     "en": "It's a custom called 除夜の鐘 (the New Year's Eve bell)."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "texto",
+      "texto": "ゴーン…",
+      "x": 300,
+      "y": 80
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "iu"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "Falta と: と marca el nombre que citas, y いう es «llamar, decir». Juntos: という.",
+       "en": "と is missing: と marks the name you're quoting, and いう means «call, say». Together: という."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "reto": {
+  "intro": {
+   "jp": "ふん。 今年[ことし] 最後[さいご]の 勝負[しょうぶ]と いう ことだ。",
+   "tr": {
+    "es": "Hmpf. Digamos que es el último duelo del año.",
+    "en": "Hmph. Call it the last duel of the year."
+   },
+   "voz": "k0"
+  },
+  "gana": {
+   "jp": "…くっ。 来年[らいねん]は 勝[か]つ ことに する。",
+   "tr": {
+    "es": "…Tsk. El año que viene, ganaré yo.",
+    "en": "…Tch. Next year, I'll win."
+   },
+   "voz": "kw"
+  },
+  "pierde": {
+   "jp": "ふん。 今年[ことし]も 俺[おれ]の 勝[か]ちで 終[お]わる ところだ。",
+   "tr": {
+    "es": "Hmpf. El año acaba justo con mi victoria.",
+    "en": "Hmph. The year ends right on my win."
+   },
+   "voz": "kl"
+  },
+  "pica": {
+   "jp": "…やるな。",
+   "tr": {
+    "es": "…No está mal.",
+    "en": "…Not bad."
+   },
+   "voz": "kp"
+  },
+  "burla": {
+   "jp": "ふん！",
+   "tr": {
+    "es": "¡Ja!",
+    "en": "Hah!"
+   },
+   "voz": "kb"
+  },
+  "preguntas": [
+   {
+    "tipo": "elige",
+    "jp": "今[いま]、 ご飯[はん]を 食[た]べて いる ＿です。",
+    "opciones": [
+     "ところ",
+     "こと",
+     "もの"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Estoy justo comiendo.",
+     "en": "I'm right in the middle of eating."
+    },
+    "porque": {
+     "es": "El momento de la acción (en plena acción): ているところ.",
+     "en": "The moment of the action (in the middle of it): ているところ."
+    },
+    "voz": "q1"
+   },
+   {
+    "tipo": "elige",
+    "jp": "「納豆[なっとう]」＿ 食[た]べ物[もの]を 知[し]って いますか。",
+    "opciones": [
+     "という",
+     "ことの",
+     "ものが"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "¿Conoces una comida llamada «natto»?",
+     "en": "Do you know a food called «natto»?"
+    },
+    "porque": {
+     "es": "Para presentar un nombre: という.",
+     "en": "To introduce a name: という."
+    },
+    "voz": "q2"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "泳[およ]ぐ ことが 好[す]きです。",
+    "correcta": true,
+    "tr": {
+     "es": "Me gusta nadar.",
+     "en": "I like swimming."
+    },
+    "porque": {
+     "es": "Bien: la acción, convertida en idea con こと.",
+     "en": "Right: the action, turned into an idea with こと."
+    },
+    "voz": "q3"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "寝[ね]る ものが 好[す]きです。",
+    "correcta": false,
+    "tr": {
+     "es": "(Me gusta dormir.)",
+     "en": "(I like sleeping.)"
+    },
+    "porque": {
+     "es": "Una acción se vuelve cosa con こと, no con もの: 寝ることが好き.",
+     "en": "An action becomes a thing with こと, not もの: 寝ることが好き."
+    },
+    "voz": "q4"
+   },
+   {
+    "tipo": "oye",
+    "jp": "今[いま]、 出[で]る ところです。",
+    "habla": "kage",
+    "opciones": [
+     {
+      "es": "Estoy a punto de salir.",
+      "en": "I'm just about to leave."
+     },
+     {
+      "es": "Acabo de salir.",
+      "en": "I've just left."
+     },
+     {
+      "es": "Salgo todos los días.",
+      "en": "I leave every day."
+     }
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "Diccionario + ところ: justo antes de empezar.",
+     "en": "Dictionary form + ところ: just before starting."
+    },
+    "voz": "q5"
+   },
+   {
+    "tipo": "imagen",
+    "jp": "年越[としこ]しそばという ものを 食[た]べました。",
+    "opciones": [
+     "soba",
+     "keki",
+     "mikan"
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "年越しそば: los fideos de Nochevieja.",
+     "en": "年越しそば: the New Year's Eve noodles."
+    },
+    "pide": {
+     "es": "¿Qué han comido?",
+     "en": "What did they eat?"
+    }
+   }
+  ]
+ },
+ "siguiente": {
+  "es": "1 de enero: la primera visita del año al santuario y los propósitos de Año Nuevo. ¿Qué decidirá cada uno?",
+  "en": "January 1st: the first shrine visit of the year and New Year's resolutions. What will each one decide?"
+ },
+ "chuleta": {
+  "patron": {
+   "es": "〔verbo〕ところ ・ 〔nombre〕という ・ こと／もの",
+   "en": "〔verb〕ところ ・ 〔name〕という ・ こと／もの"
+  },
+  "patron_tr": {
+   "es": "justo ahora ・ llamado… ・ la idea / la cosa",
+   "en": "right now ・ called… ・ idea / thing"
+  },
+  "filas": [
+   {
+    "jp": "今[いま]、 家[いえ]を 出[で]る ところです。",
+    "es": "Estoy saliendo de casa ahora mismo.",
+    "en": "I'm just leaving home.",
+    "registro": "educado"
+   },
+   {
+    "jp": "「こたつ」って 何[なに]？",
+    "es": "¿Qué es eso de «kotatsu»? (a un amigo)",
+    "en": "What's a «kotatsu»? (to a friend)",
+    "registro": "amigos"
+   },
+   {
+    "jp": "日本[にほん]で 一番[いちばん] 好[す]きな ことは 何[なん]ですか。",
+    "es": "¿Qué es lo que más te gusta de Japón?",
+    "en": "What do you like most about Japan?"
+   }
+  ],
+  "consejo": {
+   "es": "Las ciento ocho campanadas del 除夜の鐘 son, según la tradición budista, una por cada deseo terrenal que dejas atrás con el año viejo.",
+   "en": "The 108 strokes of the 除夜の鐘 are, by Buddhist tradition, one for each worldly desire you leave behind with the old year."
+  }
+ }
+}

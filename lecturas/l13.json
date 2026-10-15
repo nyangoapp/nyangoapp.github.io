@@ -1,0 +1,48 @@
+{
+ "id": "l13", "desde": 1050,
+ "titulo": {"jp": "雨[あめ]に 降[ふ]られた 日[ひ]", "es": "El día que le pilló la lluvia", "en": "The day the rain caught him"},
+ "resumen": {"es": "Nyan no lleva paraguas, y la lluvia lo pilla en plena calle.", "en": "Nyan doesn't bring an umbrella, and the rain catches him in the middle of the street."},
+ "portada": {"fondo": "calle", "cosas": [{"que": "nyan", "x": 110, "cara": "triste"}, {"que": "gato", "x": 200}, {"que": "nube", "x": 300, "y": 90}]},
+ "texto": [
+  {"voz": "t1", "quien": "narrador", "jp": "その 日[ひ]は 朝[あさ]から 雲[くも]が 多[おお]かった。", "es": "Ese día había muchas nubes desde la mañana.", "en": "That day there were a lot of clouds from the morning."},
+  {"voz": "t2", "quien": "tama", "jp": "傘[かさ]を 持[も]って いく べきだよ。", "es": "Deberías llevarte un paraguas.", "en": "You should take an umbrella."},
+  {"voz": "t3", "quien": "nyan", "jp": "大丈夫[だいじょうぶ]！ たぶん 降[ふ]らないよ。", "es": "¡Tranquilo! Seguro que no llueve.", "en": "It's fine! It probably won't rain."},
+  {"voz": "t4", "quien": "narrador", "jp": "でも、 二人[ふたり]が 道路[どうろ]を 歩[ある]いて いる 時[とき]、 突然[とつぜん] 雨[あめ]が 降[ふ]って きた。", "es": "Pero, mientras los dos caminaban por la calle, de repente empezó a llover.", "en": "But while the two of them were walking down the street, it suddenly started to rain."},
+  {"voz": "t5", "quien": "narrador", "jp": "ニャンは 傘[かさ]を 持[も]って いなかったので、 雨[あめ]に 降[ふ]られて しまった。", "es": "Como Nyan no llevaba paraguas, le pilló la lluvia.", "en": "Since Nyan wasn't carrying an umbrella, he got caught in the rain."},
+  {"voz": "t6", "quien": "narrador", "jp": "二人[ふたり]は 近[ちか]くの 映画館[えいがかん]まで 走[はし]って 入[はい]った。", "es": "Los dos corrieron hasta un cine cercano y entraron.", "en": "The two of them ran to a nearby movie theater and went in."},
+  {"voz": "t7", "quien": "tama", "jp": "大丈夫[だいじょうぶ]？ 服[ふく]が 冷[つめ]たく なってる よ。", "es": "¿Estás bien? Tienes la ropa fría.", "en": "Are you okay? Your clothes have gone cold."},
+  {"voz": "t8", "quien": "nyan", "jp": "うん…。 でも、 かばんの 中[なか]の 本[ほん]は 大丈夫[だいじょうぶ]だった。", "es": "Sí... Pero el libro que llevaba en la bolsa estaba bien.", "en": "Yeah... But the book inside my bag was fine."},
+  {"voz": "t9", "quien": "narrador", "jp": "二人[ふたり]は 映画館[えいがかん]で 少[すこ]し 休[やす]んだ。", "es": "Los dos descansaron un poco en el cine.", "en": "The two of them rested a little at the movie theater."},
+  {"voz": "t10", "quien": "tama", "jp": "熱[あつ]い 飲[の]み 物[もの]を 買[か]おうか。", "es": "¿Compramos algo caliente para beber?", "en": "Shall we buy something hot to drink?"},
+  {"voz": "t11", "quien": "narrador", "jp": "二人[ふたり]は 熱[あつ]い お 茶[ちゃ]を 飲[の]んで、 少[すこ]し 暖[あたた]かく なった。", "es": "Los dos bebieron té caliente, y entraron un poco en calor.", "en": "The two of them drank hot tea, and warmed up a little."},
+  {"voz": "t12", "quien": "nyan", "jp": "ありがとう、 タマ。 やっぱり 傘[かさ]を 持[も]って くれば よかった。", "es": "Gracias, Tama. Sí que debería haber traído un paraguas.", "en": "Thanks, Tama. I really should have brought an umbrella."},
+  {"voz": "t13", "quien": "tama", "jp": "そうだね。 今度[こんど]から 天気[てんき]を 確認[かくにん]した ほうが いいよ。", "es": "Ya lo creo. A partir de ahora deberías comprobar el tiempo.", "en": "I bet. From now on you should check the weather."},
+  {"voz": "t14", "quien": "narrador", "jp": "雨[あめ]は しばらくして 止[と]まった。", "es": "La lluvia paró al cabo de un rato.", "en": "The rain stopped after a while."},
+  {"voz": "t15", "quien": "narrador", "jp": "二人[ふたり]は また 歩[ある]いて 帰[かえ]った。", "es": "Los dos volvieron a casa caminando.", "en": "The two of them walked home again."},
+  {"voz": "t16", "quien": "narrador", "jp": "家[いえ]に 着[つ]くと、 ニャンは すぐ お 風呂[ふろ]に 入[はい]った。", "es": "Al llegar a casa, Nyan se metió enseguida en el baño.", "en": "When he got home, Nyan got into the bath right away."},
+  {"voz": "t17", "quien": "nyan", "jp": "明日[あした]は 絶対[ぜったい]に 傘[かさ]を 忘[わす]れない！", "es": "¡Mañana no me olvido el paraguas, seguro!", "en": "Tomorrow I'm definitely not forgetting my umbrella!"}
+ ],
+ "preguntas": [
+  {"jp": "朝[あさ]、 天気[てんき]は どうでしたか。", "es": "¿Qué tiempo hacía por la mañana?", "en": "What was the weather like in the morning?",
+   "opciones": [{"jp": "雲[くも]が 多[おお]かった", "es": "Había muchas nubes", "en": "There were a lot of clouds"}, {"jp": "雨[あめ]が 降[ふ]って いた", "es": "Estaba lloviendo", "en": "It was raining"}, {"jp": "とても 暑[あつ]かった", "es": "Hacía mucho calor", "en": "It was very hot"}],
+   "bien": 0, "porque": {"es": "«その日は朝から雲が多かった» とある。", "en": "«その日は朝から雲が多かった» (there were a lot of clouds from the morning)."}},
+  {"jp": "ニャンは なぜ 雨[あめ]に 降[ふ]られましたか。", "es": "¿Por qué le pilló la lluvia a Nyan?", "en": "Why did Nyan get caught in the rain?",
+   "opciones": [{"jp": "傘[かさ]を 持[も]って いなかったから", "es": "Porque no llevaba paraguas", "en": "Because he wasn't carrying an umbrella"}, {"jp": "走[はし]るのが 遅[おそ]かったから", "es": "Porque era lento corriendo", "en": "Because he was slow at running"}, {"jp": "道[みち]が 分[わ]からなかったから", "es": "Porque no sabía el camino", "en": "Because he didn't know the way"}],
+   "bien": 0, "porque": {"es": "«ニャンは傘を持っていなかったので、雨に降られてしまった» とある。", "en": "«ニャンは傘を持っていなかったので、雨に降られてしまった» (Nyan wasn't carrying an umbrella, so he got rained on)."}},
+  {"jp": "雨[あめ]が 降[ふ]って きた とき、 二人[ふたり]は どこへ 走[はし]りましたか。", "es": "¿Adónde corrieron los dos cuando empezó a llover?", "en": "Where did the two of them run when it started raining?",
+   "opciones": [{"jp": "映画館[えいがかん]", "es": "Al cine", "en": "To the movie theater"}, {"jp": "駅[えき]", "es": "A la estación", "en": "To the station"}, {"jp": "家[いえ]", "es": "A casa", "en": "Home"}],
+   "bien": 0, "porque": {"es": "«近くの映画館まで走って入った» とある。", "en": "«近くの映画館まで走って入った» (they ran into a nearby movie theater)."}},
+  {"jp": "映画館[えいがかん]で、 ニャンは 何[なに]を すれば よかったと 言[い]いましたか。", "es": "En el cine, ¿qué dijo Nyan que debería haber hecho?", "en": "At the movie theater, what did Nyan say he should have done?",
+   "opciones": [{"jp": "傘[かさ]を 持[も]って くる こと", "es": "Traer un paraguas", "en": "Bringing an umbrella"}, {"jp": "もっと 早[はや]く 出[で]る こと", "es": "Salir más temprano", "en": "Leaving earlier"}, {"jp": "タマと 一緒[いっしょ]に 走[はし]る こと", "es": "Correr junto con Tama", "en": "Running together with Tama"}],
+   "bien": 0, "porque": {"es": "「傘を持ってくればよかった」と言った。", "en": "He said «傘を持ってくればよかった» (I should have brought an umbrella)."}},
+  {"tipo": "opinion", "jp": "雨[あめ]の 日[ひ]に 傘[かさ]を 忘[わす]れたら、 あなたは どう しますか。", "es": "Si olvidaras el paraguas en un día de lluvia, ¿qué harías?", "en": "If you forgot your umbrella on a rainy day, what would you do?",
+   "opciones": [
+    {"jp": "お 店[みせ]で 傘[かさ]を 買[か]う", "es": "Comprar un paraguas en una tienda", "en": "Buy an umbrella at a shop",
+     "nyan": {"jp": "いいね！ でも、 お 金[かね]が ない ときは…？", "es": "¡Buena idea! Pero, ¿y cuando no hay dinero…?", "en": "Nice! But what about when there's no money...?"}},
+    {"jp": "雨[あめ]が 止[と]まるまで 待[ま]つ", "es": "Esperar hasta que pare la lluvia", "en": "Wait until the rain stops",
+     "nyan": {"jp": "ニャンは 待[ま]つのが 好[す]き！ 寝[ね]ながら 待[ま]てるから！", "es": "¡A Nyan le gusta esperar! ¡Porque puede esperar durmiendo!", "en": "Nyan likes waiting! Because he can wait while sleeping!"}},
+    {"jp": "走[はし]って 帰[かえ]る", "es": "Correr hasta casa", "en": "Run home",
+     "nyan": {"jp": "それは 大変[たいへん]そう…。 ニャンは ゆっくり 歩[ある]く ほうが いいな。", "es": "Eso suena duro… Nyan prefiere caminar despacio.", "en": "That sounds tough... Nyan prefers walking slowly."}}
+   ]}
+ ]
+}

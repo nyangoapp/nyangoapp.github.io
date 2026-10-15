@@ -1,0 +1,847 @@
+{
+ "id": "c23",
+ "clase": 23,
+ "desde": 420,
+ "titulo": {
+  "es": "La última noche: かもしれない, でしょう y かな",
+  "en": "The last night: かもしれない, でしょう and かな"
+ },
+ "resumen": {
+  "es": "かもしれない = quizás (poco seguro). でしょう = seguramente (bastante seguro). かな al final = «me pregunto…», hablando contigo mismo.",
+  "en": "かもしれない = maybe (not very sure). でしょう = probably (fairly sure). かな at the end = «I wonder…», thinking out loud."
+ },
+ "formato": 2,
+ "lugar": "santuario",
+ "mision": {
+  "texto": {
+   "es": "Última noche en Hokkaido. En el santuario del pueblo, todos escriben un deseo en su 絵馬. Mañana volvéis a casa… si la nieve deja salir el tren. Habla de lo que quizá pase, de lo que seguramente pase, y pregúntate cosas en voz alta.",
+   "en": "The last night in Hokkaido. At the town shrine, everyone writes a wish on their 絵馬. Tomorrow you go home… if the snow lets the train run. Talk about what might happen, what will probably happen, and wonder aloud."
+  },
+  "escena": {
+   "fondo": "santuario",
+   "cosas": [
+    {
+     "que": "nyan",
+     "x": 70
+    },
+    {
+     "que": "ema",
+     "x": 200,
+     "s": 1.1
+    },
+    {
+     "que": "gato",
+     "id": "tama",
+     "x": 310
+    }
+   ]
+  },
+  "cara": "feliz",
+  "jp": "お願[ねが]い…",
+  "voz": "m0"
+ },
+ "reglas": [
+  {
+   "id": "kamo",
+   "nombre": {
+    "es": "〜かもしれない: quizá",
+    "en": "〜かもしれない: maybe"
+   },
+   "patron": {
+    "es": "〔forma corta〕かもしれない（かもしれません）",
+    "en": "〔short form〕かもしれない（かもしれません）"
+   },
+   "explica": {
+    "es": "かもしれない añade «quizá, puede que»: 大雪かもしれない, «puede que haya una gran nevada». Dice que es posible, pero no apuestas por ello (más o menos un 50 %). Va detrás de la forma corta; con nombres y adjetivos en な, sin だ: 大雪かもしれない, 静かかもしれない. En forma educada, かもしれません; entre amigos, a menudo solo かも.",
+    "en": "かもしれない adds «maybe, might»: 大雪かもしれない, «there may be heavy snow». It says it's possible, but you're not betting on it (about 50 %). It follows the short form; with nouns and な adjectives, without だ: 大雪かもしれない, 静かかもしれない. Politely, かもしれません; among friends, often just かも."
+   },
+   "ejemplos": [
+    {
+     "jp": "明日[あした]は 大雪[おおゆき]かも しれません。",
+     "es": "Mañana quizá haya una gran nevada.",
+     "en": "There may be heavy snow tomorrow.",
+     "voz": "r1-1"
+    },
+    {
+     "jp": "電車[でんしゃ]が 止[と]まるかも しれません。",
+     "es": "Quizá se pare el tren.",
+     "en": "The train might stop.",
+     "voz": "r1-2"
+    }
+   ],
+   "ojo": {
+    "es": "Es しれない (de しれる, «llegar a saberse»), no しらない: かもしれない viene a decir «si será… no se sabe», y por eso lleva ese verbo.",
+    "en": "It's しれない (from しれる, «come to be known»), not しらない: かもしれない roughly means «whether it is… can't be known», hence that verb."
+   }
+  },
+  {
+   "id": "deshou",
+   "nombre": {
+    "es": "〜でしょう／〜だろう: seguramente",
+    "en": "〜でしょう／〜だろう: probably"
+   },
+   "patron": {
+    "es": "〔forma corta〕でしょう ・ だろう",
+    "en": "〔short form〕でしょう ・ だろう"
+   },
+   "explica": {
+    "es": "でしょう dice «seguramente»: estás bastante seguro, más que con かもしれない (piensa en un 80 %). Es la palabra favorita de los partes del tiempo: 明日は晴れるでしょう. だろう es la versión llana, más de chicos o de hablar solo: 大丈夫だろう. Con entonación de pregunta, でしょ？ busca que el otro te dé la razón: «¿a que sí?».",
+    "en": "でしょう means «probably»: you're fairly sure, more than with かもしれない (think 80 %). It's the weather forecast's favourite word: 明日は晴れるでしょう. だろう is the plain version, more boyish or for talking to yourself: 大丈夫だろう. With a rising tone, でしょ？ seeks agreement: «right?»."
+   },
+   "ejemplos": [
+    {
+     "jp": "明日[あした]は 晴[は]れるでしょう。",
+     "es": "Mañana seguramente hará sol.",
+     "en": "Tomorrow will probably be sunny.",
+     "voz": "r2-1"
+    },
+    {
+     "jp": "大丈夫[だいじょうぶ]だろう。",
+     "es": "Seguro que no pasa nada.",
+     "en": "It'll probably be fine.",
+     "voz": "r2-2"
+    }
+   ],
+   "ojo": {
+    "es": "Con nombres y adjetivos en な, sin だ delante: 雪でしょう, no 雪だでしょう, porque でしょう ya contiene ese «es».",
+    "en": "With nouns and な adjectives, no だ before it: 雪でしょう, not 雪だでしょう, because でしょう already includes that «is»."
+   }
+  },
+  {
+   "id": "kana",
+   "nombre": {
+    "es": "〜かな: me pregunto si…",
+    "en": "〜かな: I wonder…"
+   },
+   "patron": {
+    "es": "〔forma corta〕かな",
+    "en": "〔short form〕かな"
+   },
+   "explica": {
+    "es": "かな al final de una frase es preguntarse algo a uno mismo, en voz alta: また来られるかな, «¿podré volver…?». No espera respuesta, pero si hay alguien delante, le invita a opinar. Es informal: con desconocidos se dice でしょうか. Con ない (来ないかな) expresa un deseo: «ojalá viniera».",
+    "en": "かな at the end of a sentence is wondering aloud: また来られるかな, «I wonder if I can come back…». It expects no answer, but if someone's there, it invites them to chime in. It's casual: with strangers, use でしょうか. With ない (来ないかな) it expresses a wish: «I wish he'd come»."
+   },
+   "ejemplos": [
+    {
+     "jp": "また 北海道[ほっかいどう]に 来[こ]られるかな。",
+     "es": "¿Podré volver a Hokkaido?",
+     "en": "I wonder if I can come back to Hokkaido.",
+     "voz": "r3-1"
+    },
+    {
+     "jp": "カゲは 来[く]るかな。",
+     "es": "¿Vendrá Kage?",
+     "en": "I wonder if Kage's coming.",
+     "voz": "r3-2"
+    }
+   ],
+   "ojo": {
+    "es": "かな va con la forma corta y cierra la frase, sin です ni ます: es una pregunta que te haces a ti, y contigo no hace falta cortesía.",
+    "en": "かな takes the short form and closes the sentence, no です or ます: it's a question to yourself, and you needn't be polite to yourself."
+   }
+  }
+ ],
+ "historia": [
+  {
+   "t": "dice",
+   "habla": "sensei",
+   "jp": "明日[あした]は 大雪[おおゆき]かも しれません。",
+   "tr": {
+    "es": "Mañana quizá haya una gran nevada.",
+    "en": "There may be heavy snow tomorrow."
+   },
+   "voz": "h1",
+   "escena": {
+    "fondo": "santuario",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 170
+     },
+     {
+      "que": "sensei",
+      "id": "sensei",
+      "x": 330
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "kamo"
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "Nyan se preocupa por el tren de vuelta. ¿Qué dice?",
+    "en": "Nyan worries about the train home. What does he say?"
+   },
+   "opciones": [
+    {
+     "jp": "電車[でんしゃ]が 止[と]まるかも しれません。",
+     "bien": true,
+     "tr": {
+      "es": "Quizá se pare el tren.",
+      "en": "The train might stop."
+     },
+     "voz": "h2",
+     "porque": {
+      "es": "Forma corta + かもしれない: puede que sí, puede que no.",
+      "en": "Short form + かもしれない: maybe yes, maybe no."
+     }
+    },
+    {
+     "jp": "電車[でんしゃ]が 止[と]まりますかも しれません。",
+     "bien": false,
+     "porque": {
+      "es": "かもしれない va con la forma corta: 止まるかもしれません. La cortesía la lleva el final.",
+      "en": "かもしれない takes the short form: 止まるかもしれません. The ending carries the politeness."
+     }
+    },
+    {
+     "jp": "電車[でんしゃ]が 止[と]まるかも しりません。",
+     "bien": false,
+     "porque": {
+      "es": "Es しれません (de しれる), no しりません (de 知る, «saber»). Se parecen, pero la expresión fija es かもしれない.",
+      "en": "It's しれません (from しれる), not しりません (from 知る, «know»). They look alike, but the fixed phrase is かもしれない."
+     }
+    }
+   ],
+   "cara": "triste",
+   "escena": {
+    "fondo": "santuario",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 300
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "kage",
+   "jp": "大丈夫[だいじょうぶ]だろう。",
+   "tr": {
+    "es": "Seguro que no pasa nada.",
+    "en": "It'll probably be fine."
+   },
+   "voz": "h3",
+   "cara": "presumido",
+   "escena": {
+    "fondo": "santuario",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 230
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 330
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "deshou"
+  },
+  {
+   "t": "monta",
+   "encargo": 0
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "みんなで 絵馬[えま]を 書[か]きましょう！",
+   "tr": {
+    "es": "¡Escribamos todos un ema!",
+    "en": "Let's all write an ema!"
+   },
+   "voz": "h4",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "santuario",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "ema",
+      "x": 200,
+      "id": "ema",
+      "s": 1.1
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 310
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "kana"
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "Nyan escribe su deseo y se pregunta, en voz alta:",
+    "en": "Nyan writes his wish and wonders aloud:"
+   },
+   "opciones": [
+    {
+     "jp": "また 北海道[ほっかいどう]に 来[こ]られるかな。",
+     "bien": true,
+     "tr": {
+      "es": "¿Podré volver a Hokkaido?",
+      "en": "I wonder if I can come back to Hokkaido."
+     },
+     "voz": "h5",
+     "porque": {
+      "es": "かな al final: te lo preguntas a ti mismo, sin esperar respuesta.",
+      "en": "かな at the end: you're asking yourself, not expecting an answer."
+     }
+    },
+    {
+     "jp": "また 北海道[ほっかいどう]に 来[こ]られますかな。",
+     "bien": false,
+     "porque": {
+      "es": "かな va con la forma corta: 来られるかな. Con ます choca, porque かな es para hablar contigo mismo.",
+      "en": "かな takes the short form: 来られるかな. ます clashes, because かな is for talking to yourself."
+     }
+    },
+    {
+     "jp": "また 北海道[ほっかいどう]に 来[こ]られるかなです。",
+     "bien": false,
+     "porque": {
+      "es": "かな cierra la frase: detrás no va です.",
+      "en": "かな closes the sentence: no です after it."
+     }
+    }
+   ],
+   "cara": "pensando",
+   "escena": {
+    "fondo": "santuario",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "ema",
+      "x": 200,
+      "s": 1.1
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 310
+     }
+    ]
+   }
+  },
+  {
+   "t": "toca",
+   "pide": {
+    "es": "Tama lee a escondidas el ema de Kage. Escucha y toca lo que desea.",
+    "en": "Tama sneaks a look at Kage's ema. Listen and tap what he wishes for."
+   },
+   "bien": "taiko",
+   "quien": "tama",
+   "escena": {
+    "fondo": "santuario",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 65
+     },
+     {
+      "que": "taiko",
+      "x": 160,
+      "id": "taiko",
+      "s": 0.95
+     },
+     {
+      "que": "ema",
+      "x": 218,
+      "id": "ema",
+      "s": 1.0
+     },
+     {
+      "que": "daruma",
+      "x": 272,
+      "id": "daruma",
+      "s": 0.95
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 345
+     }
+    ]
+   },
+   "jp": "カゲは 来年[らいねん]も みんなと 太鼓[たいこ]を たたきたいんですね。",
+   "voz": "h6",
+   "bien_msg": {
+    "es": "¡Eso! El 太鼓: Kage quiere tocar el tambor con todos otra vez. ¡Qué tierno!",
+    "en": "Right! The 太鼓: Kage wants to play the drum with everyone again. How sweet!"
+   },
+   "mal_msg": {
+    "es": "Ha dicho 太鼓: el tambor del festival.",
+    "en": "She said 太鼓: the festival drum."
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "kage",
+   "jp": "…う、 うるさい！",
+   "tr": {
+    "es": "¡…C-cállate!",
+    "en": "…Sh-shut up!"
+   },
+   "voz": "h7",
+   "cara": "aburrido",
+   "reacciona": {
+    "tama": "feliz"
+   },
+   "escena": {
+    "fondo": "santuario",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 230
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 330
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "sensei",
+   "jp": "雪[ゆき]ですね。 きれいでしょう？",
+   "tr": {
+    "es": "Está nevando. Precioso, ¿verdad?",
+    "en": "It's snowing. Beautiful, isn't it?"
+   },
+   "voz": "h8",
+   "reacciona": {
+    "nyan": "feliz",
+    "tama": "feliz"
+   },
+   "escena": {
+    "fondo": "santuario",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 160
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 250
+     },
+     {
+      "que": "sensei",
+      "id": "sensei",
+      "x": 345
+     }
+    ]
+   }
+  }
+ ],
+ "epilogo": [
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "また 来[き]たいな…",
+   "tr": {
+    "es": "Me gustaría volver…",
+    "en": "I'd love to come back…"
+   },
+   "voz": "x1",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "santuario",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 200
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 290
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "きっと また 来[こ]られるでしょう！",
+   "tr": {
+    "es": "¡Seguro que volveremos!",
+    "en": "We'll surely come back!"
+   },
+   "voz": "x2",
+   "cara": "feliz"
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta la frase: la escena hará lo que digas.",
+   "en": "Build the sentence: the scene will do what you say."
+  },
+  "piezas": [
+   {
+    "id": "ashita",
+    "jp": "明日[あした]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "wa",
+    "jp": "は",
+    "tipo": "particula"
+   },
+   {
+    "id": "hareru",
+    "jp": "晴[は]れる",
+    "tipo": "verbo"
+   },
+   {
+    "id": "haremasu",
+    "jp": "晴[は]れます",
+    "tipo": "verbo"
+   },
+   {
+    "id": "deshou",
+    "jp": "でしょう",
+    "tipo": "verbo"
+   },
+   {
+    "id": "kamoshiremasen",
+    "jp": "かもしれません",
+    "tipo": "verbo"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Nyan repite, más tranquilo, lo que dice el parte: «Mañana seguramente hará sol».",
+     "en": "Nyan repeats, calmer, what the forecast says: «Tomorrow will probably be sunny»."
+    },
+    "escena": {
+     "fondo": "santuario",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 70
+      },
+      {
+       "que": "gato",
+       "id": "tama",
+       "x": 310
+      }
+     ]
+    },
+    "piezas": [
+     "ashita",
+     "wa",
+     "hareru",
+     "haremasu",
+     "deshou",
+     "kamoshiremasen"
+    ],
+    "bien": [
+     [
+      "ashita",
+      "wa",
+      "hareru",
+      "deshou"
+     ]
+    ],
+    "tr": {
+     "es": "Mañana seguramente hará sol.",
+     "en": "Tomorrow will probably be sunny."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "aparece",
+      "que": "luna",
+      "x": 330,
+      "y": 90,
+      "s": 0.8
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "haremasu"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "でしょう va con la forma corta: 晴れるでしょう. 晴れますでしょう junta dos cortesías y suena rarísimo.",
+       "en": "でしょう takes the short form: 晴れるでしょう. 晴れますでしょう stacks two politenesses and sounds very odd."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "kamoshiremasen"
+       ]
+      },
+      "efecto": {
+       "tipo": "manpu",
+       "objeto": "tama",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "かもしれません es «quizá», poco seguro. El parte está bastante seguro: でしょう.",
+       "en": "かもしれません is «maybe», not very sure. The forecast is fairly sure: でしょう."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "reto": {
+  "intro": {
+   "jp": "ふん。 最後[さいご]の 勝負[しょうぶ]だ。 お前[まえ]が 勝[か]つかも しれないな。",
+   "tr": {
+    "es": "Hmpf. El último duelo. Quizá ganes tú, ¿eh?",
+    "en": "Hmph. The last duel. Maybe you'll win, huh?"
+   },
+   "voz": "k0"
+  },
+  "gana": {
+   "jp": "…くっ。 来年[らいねん]も 勝負[しょうぶ]だ。 …また 来[く]るだろう？",
+   "tr": {
+    "es": "…Tsk. El año que viene, otro duelo. …Volverás, ¿no?",
+    "en": "…Tch. Another duel next year. …You'll come back, right?"
+   },
+   "voz": "kw"
+  },
+  "pierde": {
+   "jp": "ふん。 やっぱり 俺[おれ]の 勝[か]ちだろう。",
+   "tr": {
+    "es": "Hmpf. Ya sabía yo que ganaría.",
+    "en": "Hmph. I knew I'd win."
+   },
+   "voz": "kl"
+  },
+  "pica": {
+   "jp": "…やるな。",
+   "tr": {
+    "es": "…No está mal.",
+    "en": "…Not bad."
+   },
+   "voz": "kp"
+  },
+  "burla": {
+   "jp": "ふん！",
+   "tr": {
+    "es": "¡Ja!",
+    "en": "Hah!"
+   },
+   "voz": "kb"
+  },
+  "preguntas": [
+   {
+    "tipo": "elige",
+    "jp": "明日[あした]は 雨[あめ]が 降[ふ]る＿ しれません。",
+    "opciones": [
+     "かも",
+     "でしょう",
+     "かな"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Quizá llueva mañana.",
+     "en": "It might rain tomorrow."
+    },
+    "porque": {
+     "es": "かも + しれません: quizá.",
+     "en": "かも + しれません: maybe."
+    },
+    "voz": "q1"
+   },
+   {
+    "tipo": "elige",
+    "jp": "明日[あした]は たぶん 晴[は]れる＿。",
+    "opciones": [
+     "でしょう",
+     "かも しれ",
+     "ましょう"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Mañana seguramente hará sol.",
+     "en": "Tomorrow will probably be sunny."
+    },
+    "porque": {
+     "es": "でしょう: bastante seguro, como en el parte del tiempo.",
+     "en": "でしょう: fairly sure, like a weather forecast."
+    },
+    "voz": "q2"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "カゲは 来[く]るかな。",
+    "correcta": true,
+    "tr": {
+     "es": "¿Vendrá Kage?",
+     "en": "I wonder if Kage will come."
+    },
+    "porque": {
+     "es": "Bien: forma corta + かな.",
+     "en": "Right: short form + かな."
+    },
+    "voz": "q3"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "明日[あした]は 雪[ゆき]かも しりません。",
+    "correcta": false,
+    "tr": {
+     "es": "(Quizá nieve mañana.)",
+     "en": "(It may snow tomorrow.)"
+    },
+    "porque": {
+     "es": "Es かもしれません (しれる), no しりません.",
+     "en": "It's かもしれません (しれる), not しりません."
+    },
+    "voz": "q4"
+   },
+   {
+    "tipo": "oye",
+    "jp": "たぶん 大丈夫[だいじょうぶ]でしょう。",
+    "habla": "sensei",
+    "opciones": [
+     {
+      "es": "Seguramente no pasará nada.",
+      "en": "It'll probably be fine."
+     },
+     {
+      "es": "Quizá no esté bien.",
+      "en": "It might not be OK."
+     },
+     {
+      "es": "No está bien.",
+      "en": "It's not OK."
+     }
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "たぶん…でしょう: bastante seguro.",
+     "en": "たぶん…でしょう: fairly sure."
+    },
+    "voz": "q5"
+   },
+   {
+    "tipo": "imagen",
+    "jp": "神社[じんじゃ]で これに 願[ねが]いを 書[か]きます。",
+    "opciones": [
+     "ema",
+     "carta",
+     "libro"
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "絵馬: la tablilla de madera de los deseos.",
+     "en": "絵馬: the wooden wish plaque."
+    },
+    "pide": {
+     "es": "¿Dónde se escribe el deseo?",
+     "en": "Where is the wish written?"
+    }
+   }
+  ]
+ },
+ "siguiente": {
+  "es": "Fin de la temporada 3. Lo que viene: de vuelta a casa… y un invierno lleno de sorpresas.",
+  "en": "End of season 3. Coming up: back home… and a winter full of surprises."
+ },
+ "chuleta": {
+  "patron": {
+   "es": "〔corta〕かもしれない ・ 〔corta〕でしょう ・ 〔corta〕かな",
+   "en": "〔short〕かもしれない ・ 〔short〕でしょう ・ 〔short〕かな"
+  },
+  "patron_tr": {
+   "es": "quizá (50 %) ・ seguramente (80 %) ・ me pregunto si…",
+   "en": "maybe (50 %) ・ probably (80 %) ・ I wonder…"
+  },
+  "filas": [
+   {
+    "jp": "明日[あした]は 雪[ゆき]でしょう。",
+    "es": "Mañana seguramente nevará.",
+    "en": "It'll probably snow tomorrow.",
+    "registro": "educado"
+   },
+   {
+    "jp": "雨[あめ]かも。",
+    "es": "Igual llueve. (a un amigo)",
+    "en": "Might rain. (to a friend)",
+    "registro": "amigos"
+   },
+   {
+    "jp": "今[いま]、 何時[なんじ]かな。",
+    "es": "¿Qué hora será?",
+    "en": "I wonder what time it is."
+   }
+  ],
+  "consejo": {
+   "es": "Escucha el parte del tiempo japonés (天気予報): está lleno de でしょう. 明日は晴れるでしょう es de las primeras frases que entenderás enteras.",
+   "en": "Listen to the Japanese weather forecast (天気予報): it's full of でしょう. 明日は晴れるでしょう is one of the first sentences you'll understand in full."
+  }
+ }
+}

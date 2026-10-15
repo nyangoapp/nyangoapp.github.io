@@ -1,0 +1,769 @@
+{
+ "id": "c28",
+ "clase": 28,
+ "desde": 660,
+ "titulo": {
+  "es": "Nyan se ha resfriado: 〜ほうがいい, 〜たらどう y 〜なさい",
+  "en": "Nyan's got a cold: 〜ほうがいい, 〜たらどう and 〜なさい"
+ },
+ "resumen": {
+  "es": "Tres formas de aconsejar. 〜ほうがいい: «sería mejor…» (con la forma た). 〜たらどう: «¿por qué no…?», más suave. 〜なさい: una orden suave, pegada al radical de 〜ます.",
+  "en": "Three ways to advise. 〜ほうがいい: “it'd be better to…” (with the た form). 〜たらどう: “why not…?”, softer. 〜なさい: a gentle order, attached to the 〜ます stem."
+ },
+ "formato": 2,
+ "lugar": "jardin",
+ "mision": {
+  "texto": {
+   "es": "Tanta nieve tenía que pasar factura: Nyan se ha resfriado. Todos le dan consejos, cada uno a su manera: Tama con cariño, Kage a regañadientes… y Fukuro-sensei, como una madre. Aconseja, sugiere y manda.",
+   "en": "All that snow had to catch up with him: Nyan's got a cold. Everyone gives him advice in their own way: Tama kindly, Kage grudgingly… and Fukuro-sensei, like a mother. Advise, suggest and order."
+  },
+  "escena": {
+   "fondo": "jardin",
+   "cosas": [
+    {
+     "que": "nyan",
+     "x": 90,
+     "cara": "triste"
+    },
+    {
+     "que": "gato",
+     "id": "tama",
+     "x": 310
+    }
+   ]
+  },
+  "cara": "triste",
+  "jp": "はっくしょん！",
+  "voz": "m0"
+ },
+ "reglas": [
+  {
+   "id": "hougaii",
+   "nombre": {
+    "es": "〜ほうがいい: más vale que…",
+    "en": "〜ほうがいい: you'd better…"
+   },
+   "patron": {
+    "es": "〔pasado〕ほうがいい ・ 〔ない〕ほうがいい",
+    "en": "〔past〕ほうがいい ・ 〔ない〕ほうがいい"
+   },
+   "explica": {
+    "es": "Para aconsejar con claridad, ほうがいい: literalmente «el lado de… es mejor». Con lo que SÍ conviene hacer se usa el pasado: 寝たほうがいい, «más vale que te acuestes»; con lo que NO conviene, la forma ない: 出ないほうがいい, «mejor no salgas». El pasado le da un tono de «hazlo, es lo sensato».",
+    "en": "For clear advice, ほうがいい: literally «the side of… is better». For what you SHOULD do, use the past: 寝たほうがいい, «you'd better lie down»; for what you shouldn't, the ない form: 出ないほうがいい, «better not go out». The past gives it a «do it, it's the sensible thing» tone."
+   },
+   "ejemplos": [
+    {
+     "jp": "寝[ね]た ほうが いいですよ。",
+     "es": "Más vale que te acuestes.",
+     "en": "You'd better lie down.",
+     "voz": "r1-1"
+    },
+    {
+     "jp": "今日[きょう]は 外[そと]に 出[で]ない ほうが いいです。",
+     "es": "Hoy mejor no salgas.",
+     "en": "Better not go out today.",
+     "voz": "r1-2"
+    }
+   ],
+   "ojo": {
+    "es": "Es un consejo bastante directo. Con alguien mayor o con tu jefe, suavízalo: 〜たほうがいいと思います, «creo que sería mejor…».",
+    "en": "It's fairly direct advice. With someone older or your boss, soften it: 〜たほうがいいと思います, «I think it might be better to…»."
+   }
+  },
+  {
+   "id": "taradou",
+   "nombre": {
+    "es": "〜たらどう: ¿y si…?",
+    "en": "〜たらどう: why don't you…?"
+   },
+   "patron": {
+    "es": "〔pasado〕らどう（ですか）",
+    "en": "〔past〕らどう（ですか）"
+   },
+   "explica": {
+    "es": "たらどう (al pie de la letra, «si lo hicieras, ¿qué tal?») es una sugerencia suave que deja la decisión al otro: 薬を飲んだらどう？, «¿y si te tomas la medicina?». Suena menos insistente que ほうがいい. Con amigos, たらどう？ o solo たら？; con educación, たらどうですか.",
+    "en": "たらどう (literally «if you did it, how about it?») is a gentle suggestion that leaves the choice to the other person: 薬を飲んだらどう？, «why don't you take some medicine?». It's less pushy than ほうがいい. With friends, たらどう？ or just たら？; politely, たらどうですか."
+   },
+   "ejemplos": [
+    {
+     "jp": "薬[くすり]を 飲[の]んだら どうだ。",
+     "es": "¿Y si te tomas la medicina?",
+     "en": "Why don't you take some medicine?",
+     "voz": "r2-1"
+    },
+    {
+     "jp": "温[あたた]かい お茶[ちゃ]を 飲[の]んだら どうですか。",
+     "es": "¿Por qué no te tomas un té calentito?",
+     "en": "Why don't you have a warm tea?",
+     "voz": "r2-2"
+    }
+   ],
+   "ojo": {
+    "es": "Con cierto tono puede sonar a reproche («¿y si te callas?»). Si quieres que suene amable, añade ですか.",
+    "en": "In a certain tone it can sound like a reproach («why don't you shut up?»). To sound kind, add ですか."
+   }
+  },
+  {
+   "id": "nasai",
+   "nombre": {
+    "es": "〜なさい: orden de madre (o de profe)",
+    "en": "〜なさい: a parent's (or teacher's) order"
+   },
+   "patron": {
+    "es": "〔raíz del verbo〕なさい",
+    "en": "〔verb stem〕なさい"
+   },
+   "explica": {
+    "es": "なさい se pega a la raíz de ます (寝ます → 寝なさい) y da una orden firme pero educada, de alguien con autoridad a alguien a su cargo: padres a hijos, profes a alumnos. 早く寝なさい, «a dormir ya». También sale en los enunciados de los exámenes: 答えなさい, «responde».",
+    "en": "なさい attaches to the ます stem (寝ます → 寝なさい) and gives a firm but polite order, from someone in charge to someone under their care: parents to kids, teachers to pupils. 早く寝なさい, «off to bed now». It also appears in exam instructions: 答えなさい, «answer»."
+   },
+   "ejemplos": [
+    {
+     "jp": "早[はや]く 寝[ね]なさい。",
+     "es": "A dormir ya.",
+     "en": "Off to bed now.",
+     "voz": "r3-1"
+    },
+    {
+     "jp": "薬[くすり]を 飲[の]みなさい。",
+     "es": "Tómate la medicina.",
+     "en": "Take your medicine.",
+     "voz": "r3-2"
+    }
+   ],
+   "ojo": {
+    "es": "No la uses con alguien mayor o de más rango, porque sonaría a que le das órdenes como a un niño.",
+    "en": "Don't use it with someone older or higher up, because it would sound like you're ordering them around like a child."
+   }
+  }
+ ],
+ "historia": [
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "はっくしょん！ 頭[あたま]が 痛[いた]い…。",
+   "tr": {
+    "es": "¡Achís! Me duele la cabeza…",
+    "en": "Achoo! My head hurts…"
+   },
+   "voz": "h1",
+   "cara": "triste",
+   "reacciona": {
+    "tama": "pensando"
+   },
+   "escena": {
+    "fondo": "jardin",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 90,
+      "cara": "triste"
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 310
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "寝[ね]た ほうが いいですよ。",
+   "tr": {
+    "es": "Más vale que te acuestes.",
+    "en": "You'd better lie down."
+   },
+   "voz": "h2",
+   "cara": "pensando"
+  },
+  {
+   "t": "regla",
+   "regla": "hougaii"
+  },
+  {
+   "t": "elige",
+   "habla": "tama",
+   "pide": {
+    "es": "Tama le aconseja NO salir hoy. ¿Qué dice?",
+    "en": "Tama advises him NOT to go out today. What does she say?"
+   },
+   "opciones": [
+    {
+     "jp": "今日[きょう]は 外[そと]に 出[で]ない ほうが いいです。",
+     "bien": true,
+     "tr": {
+      "es": "Hoy mejor no salgas.",
+      "en": "Better not go out today."
+     },
+     "voz": "h3",
+     "porque": {
+      "es": "Para aconsejar NO hacer algo: forma ない + ほうがいい.",
+      "en": "To advise NOT doing something: ない form + ほうがいい."
+     }
+    },
+    {
+     "jp": "今日[きょう]は 外[そと]に 出[で]なかった ほうが いいです。",
+     "bien": false,
+     "porque": {
+      "es": "En negativo, ほうがいい va con la forma ない normal (出ない), no con el pasado.",
+      "en": "In the negative, ほうがいい takes the plain ない form (出ない), not the past."
+     }
+    },
+    {
+     "jp": "今日[きょう]は 外[そと]に 出[で]た ほうが いいです。",
+     "bien": false,
+     "porque": {
+      "es": "Así le aconsejas SALIR… ¡con fiebre! Para «mejor no salgas», 出ないほうがいい.",
+      "en": "That advises him TO go out… with a fever! For «better not go out», 出ないほうがいい."
+     }
+    }
+   ],
+   "cara": "pensando",
+   "escena": {
+    "fondo": "jardin",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 90,
+      "cara": "triste"
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 310
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "kage",
+   "jp": "…薬[くすり]を 飲[の]んだら どうだ。",
+   "tr": {
+    "es": "…¿Y si te tomas la medicina?",
+    "en": "…Why don't you take some medicine?"
+   },
+   "voz": "h4",
+   "cara": "aburrido",
+   "reacciona": {
+    "nyan": "sorpresa"
+   },
+   "escena": {
+    "fondo": "jardin",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 90,
+      "cara": "triste"
+     },
+     {
+      "que": "kusuri",
+      "x": 200,
+      "id": "kusuri",
+      "s": 1.0
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 320
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "taradou"
+  },
+  {
+   "t": "monta",
+   "encargo": 0
+  },
+  {
+   "t": "dice",
+   "habla": "sensei",
+   "jp": "ニャンさん、 早[はや]く 寝[ね]なさい。",
+   "tr": {
+    "es": "Nyan, a dormir ya.",
+    "en": "Nyan, off to bed now."
+   },
+   "voz": "h5",
+   "reacciona": {
+    "nyan": "sueno"
+   },
+   "escena": {
+    "fondo": "jardin",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 90,
+      "cara": "triste"
+     },
+     {
+      "que": "kusuri",
+      "x": 200,
+      "id": "kusuri",
+      "s": 1.0
+     },
+     {
+      "que": "sensei",
+      "id": "sensei",
+      "x": 320
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "nasai"
+  },
+  {
+   "t": "elige",
+   "habla": "sensei",
+   "pide": {
+    "es": "Fukuro le manda tomarse la medicina, como una madre. ¿Qué le dice?",
+    "en": "Fukuro tells him to take his medicine, like a mother. What does she say?"
+   },
+   "opciones": [
+    {
+     "jp": "薬[くすり]を 飲[の]みなさい。",
+     "bien": true,
+     "tr": {
+      "es": "Tómate la medicina.",
+      "en": "Take your medicine."
+     },
+     "voz": "h6",
+     "porque": {
+      "es": "Raíz del verbo (飲み) + なさい: una orden firme pero cariñosa, de madre o de profe.",
+      "en": "Verb stem (飲み) + なさい: a firm but caring order, from a parent or teacher."
+     }
+    },
+    {
+     "jp": "薬[くすり]を 飲[の]むなさい。",
+     "bien": false,
+     "porque": {
+      "es": "なさい va con la raíz, la misma que usas con ます: 飲み + なさい.",
+      "en": "なさい takes the stem, the same one you use with ます: 飲み + なさい."
+     }
+    },
+    {
+     "jp": "薬[くすり]を 飲[の]んで なさい。",
+     "bien": false,
+     "porque": {
+      "es": "なさい no va con la forma て. (Con て sería 飲んでください, más educado.)",
+      "en": "なさい doesn't go with the て form. (With て it'd be 飲んでください, more polite.)"
+     }
+    }
+   ],
+   "cara": "triste",
+   "escena": {
+    "fondo": "jardin",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 90,
+      "cara": "triste"
+     },
+     {
+      "que": "kusuri",
+      "x": 200,
+      "id": "kusuri",
+      "s": 1.0
+     },
+     {
+      "que": "sensei",
+      "id": "sensei",
+      "x": 320
+     }
+    ]
+   }
+  },
+  {
+   "t": "toca",
+   "pide": {
+    "es": "Tama le trae algo calentito. Escucha y tócalo.",
+    "en": "Tama brings him something warm. Listen and tap it."
+   },
+   "bien": "taza",
+   "quien": "tama",
+   "escena": {
+    "fondo": "jardin",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 65,
+      "cara": "triste"
+     },
+     {
+      "que": "taza",
+      "x": 160,
+      "id": "taza",
+      "s": 0.95
+     },
+     {
+      "que": "kusuri",
+      "x": 215,
+      "id": "kusuri",
+      "s": 0.95
+     },
+     {
+      "que": "mikan",
+      "x": 268,
+      "id": "mikan",
+      "s": 0.95
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 345
+     }
+    ]
+   },
+   "jp": "温[あたた]かい お茶[ちゃ]を 飲[の]んだら どうですか。",
+   "voz": "h7",
+   "bien_msg": {
+    "es": "¡Eso! La お茶: un té calentito, que siempre ayuda.",
+    "en": "Right! The お茶: a warm tea, which always helps."
+   },
+   "mal_msg": {
+    "es": "Ha dicho お茶: el té, en su taza.",
+    "en": "She said お茶: tea, in its cup."
+   }
+  }
+ ],
+ "epilogo": [
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "みんな、 ありがとう…。",
+   "tr": {
+    "es": "Gracias a todos…",
+    "en": "Thanks, everyone…"
+   },
+   "voz": "x1",
+   "cara": "sueno",
+   "escena": {
+    "fondo": "jardin",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 90,
+      "cara": "sueno"
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 310
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "おやすみなさい。 早[はや]く 元気[げんき]に なってね。",
+   "tr": {
+    "es": "Buenas noches. Ponte bueno pronto.",
+    "en": "Good night. Get well soon."
+   },
+   "voz": "x2",
+   "cara": "feliz"
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta la frase: la escena hará lo que digas.",
+   "en": "Build the sentence: the scene will do what you say."
+  },
+  "piezas": [
+   {
+    "id": "kotaro",
+    "jp": "コタロー",
+    "tipo": "palabra"
+   },
+   {
+    "id": "mo",
+    "jp": "も",
+    "tipo": "particula"
+   },
+   {
+    "id": "yasundara",
+    "jp": "休[やす]んだら",
+    "tipo": "verbo"
+   },
+   {
+    "id": "yasumunara",
+    "jp": "休[やす]むなら",
+    "tipo": "verbo"
+   },
+   {
+    "id": "dou",
+    "jp": "どう？",
+    "tipo": "palabra"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Kotarō no para quieto a su lado. Nyan, con voz ronca: «¿Por qué no descansas tú también, Kotarō?»",
+     "en": "Kotarō won't sit still beside him. Nyan, hoarse: «Why don't you rest too, Kotarō?»"
+    },
+    "escena": {
+     "fondo": "jardin",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 90,
+       "cara": "triste"
+      },
+      {
+       "que": "perro",
+       "id": "kotaro",
+       "x": 300
+      }
+     ]
+    },
+    "piezas": [
+     "kotaro",
+     "mo",
+     "yasundara",
+     "yasumunara",
+     "dou"
+    ],
+    "bien": [
+     [
+      "kotaro",
+      "mo",
+      "yasundara",
+      "dou"
+     ]
+    ],
+    "tr": {
+     "es": "¿Y si descansas tú también, Kotarō?",
+     "en": "Why don't you rest too, Kotarō?"
+    },
+    "efecto_bien": [
+     {
+      "tipo": "manpu",
+      "objeto": "kotaro",
+      "manpu": "z"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "yasumunara"
+       ]
+      },
+      "efecto": {
+       "tipo": "manpu",
+       "objeto": "kotaro",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "なら reacciona a algo que el otro ha dicho. Para sugerir «¿y si…?», たら + どう: 休んだらどう？",
+       "en": "なら reacts to something the other person said. To suggest «why don't you…?», たら + どう: 休んだらどう？"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "reto": {
+  "intro": {
+   "jp": "ふん。 風邪[かぜ]でも 勝負[しょうぶ]は する。 休[やす]んだ ほうが いいのにな。",
+   "tr": {
+    "es": "Hmpf. Resfriado o no, hay duelo. Aunque más te valdría descansar.",
+    "en": "Hmph. Cold or not, we duel. Though you'd better rest."
+   },
+   "voz": "k0"
+  },
+  "gana": {
+   "jp": "…くっ。 早[はや]く 治[なお]しなさい。",
+   "tr": {
+    "es": "…Tsk. Cúrate pronto.",
+    "en": "…Tch. Get better soon."
+   },
+   "voz": "kw"
+  },
+  "pierde": {
+   "jp": "ふん。 寝[ね]て いた ほうが よかったな。",
+   "tr": {
+    "es": "Hmpf. Mejor te hubieras quedado en la cama.",
+    "en": "Hmph. You'd have been better off in bed."
+   },
+   "voz": "kl"
+  },
+  "pica": {
+   "jp": "…やるな。",
+   "tr": {
+    "es": "…No está mal.",
+    "en": "…Not bad."
+   },
+   "voz": "kp"
+  },
+  "burla": {
+   "jp": "ふん！",
+   "tr": {
+    "es": "¡Ja!",
+    "en": "Hah!"
+   },
+   "voz": "kb"
+  },
+  "preguntas": [
+   {
+    "tipo": "elige",
+    "jp": "熱[ねつ]が あるなら、 病院[びょういん]に 行[い]った ＿が いいです。",
+    "opciones": [
+     "ほう",
+     "こと",
+     "ところ"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Si tienes fiebre, mejor ve al médico.",
+     "en": "If you have a fever, you'd better see a doctor."
+    },
+    "porque": {
+     "es": "Consejo: pasado + ほうがいい.",
+     "en": "Advice: past + ほうがいい."
+    },
+    "voz": "q1"
+   },
+   {
+    "tipo": "elige",
+    "jp": "早[はや]く 寝[ね]＿！",
+    "opciones": [
+     "なさい",
+     "るなさい",
+     "てなさい"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "¡A dormir ya!",
+     "en": "Go to bed now!"
+    },
+    "porque": {
+     "es": "Raíz (寝) + なさい.",
+     "en": "Stem (寝) + なさい."
+    },
+    "voz": "q2"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "疲[つか]れたなら、 休[やす]んだら どうですか。",
+    "correcta": true,
+    "tr": {
+     "es": "Si estás cansado, ¿por qué no descansas?",
+     "en": "If you're tired, why not rest?"
+    },
+    "porque": {
+     "es": "Bien: una sugerencia suave con たらどう.",
+     "en": "Right: a gentle suggestion with たらどう."
+    },
+    "voz": "q3"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "薬[くすり]を 飲[の]むなさい。",
+    "correcta": false,
+    "tr": {
+     "es": "(Tómate la medicina.)",
+     "en": "(Take your medicine.)"
+    },
+    "porque": {
+     "es": "なさい va con la raíz: 飲みなさい.",
+     "en": "なさい takes the stem: 飲みなさい."
+    },
+    "voz": "q4"
+   },
+   {
+    "tipo": "oye",
+    "jp": "寝[ね]た ほうが いいですよ。",
+    "habla": "tama",
+    "opciones": [
+     {
+      "es": "Más vale que te acuestes.",
+      "en": "You'd better lie down."
+     },
+     {
+      "es": "Te has acostado.",
+      "en": "You lay down."
+     },
+     {
+      "es": "¿Te acuestas?",
+      "en": "Are you going to bed?"
+     }
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "ほうがいい: un consejo claro.",
+     "en": "ほうがいい: clear advice."
+    },
+    "voz": "q5"
+   },
+   {
+    "tipo": "imagen",
+    "jp": "薬[くすり]を 飲[の]みなさい。",
+    "opciones": [
+     "kusuri",
+     "taza",
+     "mikan"
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "薬: la medicina.",
+     "en": "薬: the medicine."
+    },
+    "pide": {
+     "es": "¿Qué tiene que tomarse?",
+     "en": "What does he have to take?"
+    }
+   }
+  ]
+ },
+ "siguiente": {
+  "es": "Primer día de clase tras las vacaciones… y Fukuro-sensei pide los deberes de invierno. Nyan tiene un problema.",
+  "en": "First day back after the holidays… and Fukuro-sensei asks for the winter homework. Nyan has a problem."
+ },
+ "chuleta": {
+  "patron": {
+   "es": "〔た〕ほうがいい ・ 〔た〕らどう ・ 〔raíz〕なさい",
+   "en": "〔た〕ほうがいい ・ 〔た〕らどう ・ 〔stem〕なさい"
+  },
+  "patron_tr": {
+   "es": "más vale que ・ ¿y si…? ・ haz… (de madre)",
+   "en": "you'd better ・ why don't you…? ・ do… (parent)"
+  },
+  "filas": [
+   {
+    "jp": "病院[びょういん]に 行[い]った ほうが いいと 思[おも]います。",
+    "es": "Creo que sería mejor que fueras al médico.",
+    "en": "I think you'd better see a doctor.",
+    "registro": "educado"
+   },
+   {
+    "jp": "少[すこ]し 休[やす]んだら？",
+    "es": "¿Y si descansas un poco? (a un amigo)",
+    "en": "Why not rest a bit? (to a friend)",
+    "registro": "amigos"
+   },
+   {
+    "jp": "早[はや]く 起[お]きなさい！",
+    "es": "¡Levántate ya! (una madre)",
+    "en": "Get up now! (a parent)"
+   }
+  ],
+  "consejo": {
+   "es": "En Japón, quien está resfriado suele llevar mascarilla (マスク) por consideración a los demás. Y si alguien estornuda, no se dice nada: no hay «¡Jesús!».",
+   "en": "In Japan, people with a cold usually wear a mask (マスク) out of consideration for others. And when someone sneezes, nobody says anything: there's no «bless you»."
+  }
+ }
+}

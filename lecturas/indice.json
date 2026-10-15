@@ -1,0 +1,1231 @@
+[
+{
+"id": "l01",
+"desde": 150,
+"titulo": {
+"jp": "ニャン と おにぎり",
+"es": "Nyan y el onigiri",
+"en": "Nyan and the onigiri"
+},
+"resumen": {
+"es": "A Nyan le apetece un onigiri, pero en casa no queda ninguno: ¿qué hará?",
+"en": "Nyan craves an onigiri, but there isn't one at home: what will he do?"
+},
+"frases": 9,
+"portada": {
+"fondo": "cuarto",
+"cosas": [
+{
+"que": "nyan",
+"x": 110,
+"cara": "triste"
+},
+{
+"que": "plato",
+"x": 270
+}
+]
+}
+},
+{
+"id": "l02",
+"desde": 225,
+"titulo": {
+"jp": "ニャン と 高[たか]い 本[ほん]",
+"es": "Nyan y el libro caro",
+"en": "Nyan and the expensive book"
+},
+"resumen": {
+"es": "Nyan quiere un libro nuevo, pero es demasiado caro: ¿cómo acabará el día?",
+"en": "Nyan wants a new book, but it's too expensive: how will the day end?"
+},
+"frases": 8,
+"portada": {
+"fondo": "tienda",
+"cosas": [
+{
+"que": "nyan",
+"x": 110,
+"cara": "triste"
+},
+{
+"que": "libro",
+"x": 270
+},
+{
+"que": "persona",
+"x": 320
+}
+]
+}
+},
+{
+"id": "l03",
+"desde": 300,
+"titulo": {
+"jp": "ニャン の 昼寝[ひるね]",
+"es": "La siesta de Nyan",
+"en": "Nyan's nap"
+},
+"resumen": {
+"es": "Nyan tiene deberes, pero el sueño le puede: ¿logrará Tama despertarlo?",
+"en": "Nyan has homework, but sleep wins: will Tama manage to wake him up?"
+},
+"frases": 9,
+"portada": {
+"fondo": "cuarto",
+"cosas": [
+{
+"que": "nyan",
+"x": 110,
+"cara": "sueno"
+},
+{
+"que": "libro",
+"x": 260
+},
+{
+"que": "gato",
+"x": 320
+}
+]
+}
+},
+{
+"id": "l04",
+"desde": 375,
+"titulo": {
+"jp": "ニャン の 誕生日[たんじょうび]",
+"es": "El cumpleaños de Nyan",
+"en": "Nyan's birthday"
+},
+"resumen": {
+"es": "Tama prepara algo en secreto para el cumpleaños de Nyan: ¿conseguirá que no se entere?",
+"en": "Tama is secretly preparing something for Nyan's birthday: will she manage to keep it a surprise?"
+},
+"frases": 12,
+"portada": {
+"fondo": "cuarto",
+"cosas": [
+{
+"que": "gato",
+"x": 110,
+"cara": "feliz"
+},
+{
+"que": "nyan",
+"x": 260,
+"cara": "sorpresa"
+},
+{
+"que": "regalo",
+"x": 330
+}
+]
+}
+},
+{
+"id": "l05",
+"desde": 450,
+"titulo": {
+"jp": "図書館[としょかん] までの 電車[でんしゃ]",
+"es": "El tren hasta la biblioteca",
+"en": "The train to the library"
+},
+"resumen": {
+"es": "Nyan y Tama van a la biblioteca justo cuando amenaza lluvia: ¿llegarán a tiempo?",
+"en": "Nyan and Tama head to the library just as rain threatens: will they make it in time?"
+},
+"frases": 11,
+"portada": {
+"fondo": "calle",
+"cosas": [
+{
+"que": "nyan",
+"x": 110,
+"cara": "pensando"
+},
+{
+"que": "gato",
+"x": 200
+},
+{
+"que": "tren",
+"x": 320
+}
+]
+}
+},
+{
+"id": "l06",
+"desde": 525,
+"titulo": {
+"jp": "二[ふた]つ の 弁当[べんとう]",
+"es": "Los dos bentos",
+"en": "The two bentos"
+},
+"resumen": {
+"es": "Nyan se olvida de hacerse la comida, pero Tama siempre está un paso por delante.",
+"en": "Nyan forgets to make his lunch, but Tama is always one step ahead."
+},
+"frases": 11,
+"portada": {
+"fondo": "escuela",
+"cosas": [
+{
+"que": "nyan",
+"x": 110,
+"cara": "sorpresa"
+},
+{
+"que": "gato",
+"x": 240
+},
+{
+"que": "caja",
+"x": 320
+}
+]
+}
+},
+{
+"id": "l07",
+"desde": 600,
+"titulo": {
+"jp": "公園[こうえん]の 試験[しけん] 勉強[べんきょう]",
+"es": "Estudiar para el examen en el parque",
+"en": "Studying for the test in the park"
+},
+"resumen": {
+"es": "Nyan decide estudiar en el parque antes del examen: buena idea, mal enemigo (el sueño).",
+"en": "Nyan decides to study in the park before the exam: good idea, bad enemy (sleep)."
+},
+"frases": 16,
+"portada": {
+"fondo": "parque",
+"cosas": [
+{
+"que": "nyan",
+"x": 110,
+"cara": "sueno"
+},
+{
+"que": "libro",
+"x": 200
+},
+{
+"que": "gato",
+"x": 300
+}
+]
+}
+},
+{
+"id": "l08",
+"desde": 675,
+"titulo": {
+"jp": "授業[じゅぎょう] 中[ちゅう]の ニャン",
+"es": "Nyan en plena clase",
+"en": "Nyan in the middle of class"
+},
+"resumen": {
+"es": "El sensei intenta mantener despierto a Nyan durante la clase: misión casi imposible.",
+"en": "The teacher tries to keep Nyan awake during class: mission nearly impossible."
+},
+"frases": 13,
+"portada": {
+"fondo": "escuela",
+"cosas": [
+{
+"que": "nyan",
+"x": 110,
+"cara": "sueno"
+},
+{
+"que": "sensei",
+"x": 300
+},
+{
+"que": "pizarra",
+"x": 230
+}
+]
+}
+},
+{
+"id": "l09",
+"desde": 750,
+"titulo": {
+"jp": "ニャン の 風邪[かぜ]",
+"es": "El resfriado de Nyan",
+"en": "Nyan's cold"
+},
+"resumen": {
+"es": "Nyan y Tama planean salir a pasear, pero una noche sin abrigo lo estropea todo.",
+"en": "Nyan and Tama plan to go for a walk, but one night without a coat ruins everything."
+},
+"frases": 13,
+"portada": {
+"fondo": "cuarto",
+"cosas": [
+{
+"que": "nyan",
+"x": 110,
+"cara": "triste"
+},
+{
+"que": "cama",
+"x": 260
+},
+{
+"que": "gato",
+"x": 330
+}
+]
+}
+},
+{
+"id": "l10",
+"desde": 825,
+"titulo": {
+"jp": "なくした 鍵[かぎ] と プレゼント",
+"es": "La llave perdida y el regalo",
+"en": "The lost key and the present"
+},
+"resumen": {
+"es": "El abuelo de Nyan le manda un regalo, pero un sábado en el parque las cosas se complican.",
+"en": "Nyan's grandfather sends him a present, but one Saturday at the park things get complicated."
+},
+"frases": 16,
+"portada": {
+"fondo": "parque",
+"cosas": [
+{
+"que": "nyan",
+"x": 100,
+"cara": "sorpresa"
+},
+{
+"que": "gato",
+"x": 190
+},
+{
+"que": "regalo",
+"x": 320
+}
+]
+}
+},
+{
+"id": "l11",
+"desde": 900,
+"titulo": {
+"jp": "ニャンの 帽子[ぼうし]",
+"es": "El sombrero de Nyan",
+"en": "Nyan's hat"
+},
+"resumen": {
+"es": "El viento se lleva el sombrero nuevo de Nyan: ¿lo encontrará?",
+"en": "The wind carries off Nyan's new hat: will he find it?"
+},
+"frases": 17,
+"portada": {
+"fondo": "calle",
+"cosas": [
+{
+"que": "nyan",
+"x": 100,
+"cara": "sorpresa"
+},
+{
+"que": "gato",
+"x": 190
+},
+{
+"que": "persona",
+"x": 310
+}
+]
+}
+},
+{
+"id": "l12",
+"desde": 975,
+"titulo": {
+"jp": "動物園[どうぶつえん]への 電車[でんしゃ]",
+"es": "El tren al zoo",
+"en": "The train to the zoo"
+},
+"resumen": {
+"es": "Nyan casi pierde el tren, y en el zoo confunde una hoja con un pájaro.",
+"en": "Nyan almost misses the train, and at the zoo mistakes a leaf for a bird."
+},
+"frases": 17,
+"portada": {
+"fondo": "parque",
+"cosas": [
+{
+"que": "nyan",
+"x": 100,
+"cara": "sorpresa"
+},
+{
+"que": "gato",
+"x": 190
+},
+{
+"que": "pajaro",
+"x": 300
+}
+]
+}
+},
+{
+"id": "l13",
+"desde": 1050,
+"titulo": {
+"jp": "雨[あめ]に 降[ふ]られた 日[ひ]",
+"es": "El día que le pilló la lluvia",
+"en": "The day the rain caught him"
+},
+"resumen": {
+"es": "Nyan no lleva paraguas, y la lluvia lo pilla en plena calle.",
+"en": "Nyan doesn't bring an umbrella, and the rain catches him in the middle of the street."
+},
+"frases": 17,
+"portada": {
+"fondo": "calle",
+"cosas": [
+{
+"que": "nyan",
+"x": 110,
+"cara": "triste"
+},
+{
+"que": "gato",
+"x": 200
+},
+{
+"que": "nube",
+"x": 300,
+"y": 90
+}
+]
+}
+},
+{
+"id": "l14",
+"desde": 1125,
+"titulo": {
+"jp": "ニャンの お 仕事[しごと]",
+"es": "Nyan ayuda en la tienda",
+"en": "Nyan helps at the shop"
+},
+"resumen": {
+"es": "A Nyan le falta dinero para un dulce, así que ayuda en la tienda de Pon, el tanuki.",
+"en": "Nyan is short on money for a treat, so he helps out at Pon the tanuki's shop."
+},
+"frases": 17,
+"portada": {
+"fondo": "tienda",
+"cosas": [
+{
+"que": "nyan",
+"x": 100,
+"cara": "normal"
+},
+{
+"que": "caja",
+"x": 200
+},
+{
+"que": "persona",
+"x": 310
+}
+]
+}
+},
+{
+"id": "l15",
+"desde": 1200,
+"titulo": {
+"jp": "ニャンの 誕生日[たんじょうび]",
+"es": "El cumpleaños de Nyan",
+"en": "Nyan's birthday"
+},
+"resumen": {
+"es": "Una fiesta sorpresa, una tarta, y a Nyan lo hacen cantar delante de todos.",
+"en": "A surprise party, a cake, and Nyan is made to sing in front of everyone."
+},
+"frases": 21,
+"portada": {
+"fondo": "cuarto",
+"cosas": [
+{
+"que": "nyan",
+"x": 100,
+"cara": "sorpresa"
+},
+{
+"que": "gato",
+"x": 190
+},
+{
+"que": "regalo",
+"x": 300
+}
+]
+}
+},
+{
+"id": "l16",
+"desde": 1275,
+"titulo": {
+"jp": "夏[なつ]の 神社[じんじゃ]",
+"es": "El santuario de verano",
+"en": "The summer shrine"
+},
+"resumen": {
+"es": "Nyan y Tama van al santuario en kimono, rezan, y prueban algo delicioso.",
+"en": "Nyan and Tama go to the shrine in kimono, pray, and try something delicious."
+},
+"frases": 19,
+"portada": {
+"fondo": "noche",
+"cosas": [
+{
+"que": "nyan",
+"x": 100,
+"cara": "feliz"
+},
+{
+"que": "gato",
+"x": 190
+},
+{
+"que": "persona",
+"x": 300
+}
+]
+}
+},
+{
+"id": "l17",
+"desde": 1350,
+"titulo": {
+"jp": "おばあさんへの 手紙[てがみ]",
+"es": "Una carta para la abuela",
+"en": "A letter for grandma"
+},
+"resumen": {
+"es": "Nyan escribe una carta de agradecimiento, y de camino al buzón encuentra una postal perdida.",
+"en": "Nyan writes a thank-you letter, and on the way to the mailbox finds a lost postcard."
+},
+"frases": 20,
+"portada": {
+"fondo": "calle",
+"cosas": [
+{
+"que": "nyan",
+"x": 100
+},
+{
+"que": "gato",
+"x": 190
+},
+{
+"que": "carta",
+"x": 300
+}
+]
+}
+},
+{
+"id": "l18",
+"desde": 1425,
+"titulo": {
+"jp": "ニャンの スープ",
+"es": "La sopa de Nyan",
+"en": "Nyan's soup"
+},
+"resumen": {
+"es": "Nyan confunde la sal con el azúcar, y la sopa sale fatal.",
+"en": "Nyan mixes up salt and sugar, and the soup turns out terribly."
+},
+"frases": 21,
+"portada": {
+"fondo": "cocina",
+"cosas": [
+{
+"que": "nyan",
+"x": 100,
+"cara": "triste"
+},
+{
+"que": "gato",
+"x": 190
+},
+{
+"que": "cuenco",
+"x": 300
+}
+]
+}
+},
+{
+"id": "l19",
+"desde": 1500,
+"titulo": {
+"jp": "舞台[ぶたい]の 上[うえ]で",
+"es": "Sobre el escenario",
+"en": "On stage"
+},
+"resumen": {
+"es": "A Nyan le toca hablar delante de todos: ¿lo conseguirá?",
+"en": "Nyan has to speak in front of everyone: will he manage?"
+},
+"frases": 25,
+"portada": {
+"fondo": "escuela",
+"cosas": [
+{
+"que": "nyan",
+"x": 100,
+"cara": "sorpresa"
+},
+{
+"que": "gato",
+"x": 200
+},
+{
+"que": "profesor",
+"x": 310
+}
+]
+}
+},
+{
+"id": "l20",
+"desde": 1575,
+"titulo": {
+"jp": "海[うみ]への 小[ちい]さな 旅[たび]",
+"es": "Un pequeño viaje al mar",
+"en": "A little trip to the sea"
+},
+"resumen": {
+"es": "Nyan y Tama se van de viaje al mar, y a la vuelta Nyan tiene una buena razón para estar tan cansado.",
+"en": "Nyan and Tama go on a trip to the sea, and on the way back Nyan has a good reason for being so tired."
+},
+"frases": 24,
+"portada": {
+"fondo": "parque",
+"cosas": [
+{
+"que": "nyan",
+"x": 100,
+"cara": "feliz"
+},
+{
+"que": "gato",
+"x": 200
+},
+{
+"que": "sol",
+"x": 320,
+"y": 80
+}
+]
+}
+},
+{
+"id": "l21",
+"desde": 1650,
+"titulo": {
+"jp": "おじいさんの 犬[いぬ]",
+"es": "El perro del abuelo",
+"en": "Grandpa's dog"
+},
+"resumen": {
+"es": "A Nyan y Tama les toca cuidar de Kotarō, el perro del abuelo, y las cosas no salen exactamente como esperaban.",
+"en": "Nyan and Tama have to look after Kotarō, grandpa's dog, and things don't go quite as planned."
+},
+"frases": 26,
+"portada": {
+"fondo": "calle",
+"cosas": [
+{
+"que": "nyan",
+"x": 100,
+"cara": "triste"
+},
+{
+"que": "perro",
+"x": 200
+},
+{
+"que": "gato",
+"x": 300
+}
+]
+}
+},
+{
+"id": "l22",
+"desde": 1725,
+"titulo": {
+"jp": "雨[あめ]の 祭[まつり]",
+"es": "El festival de lluvia",
+"en": "The rainy festival"
+},
+"resumen": {
+"es": "Un chaparrón a mitad del festival pone a prueba las ganas de Nyan y Tama de quedarse hasta el final.",
+"en": "A downpour in the middle of the festival tests how much Nyan and Tama want to stay until the end."
+},
+"frases": 25,
+"portada": {
+"fondo": "noche",
+"cosas": [
+{
+"que": "nyan",
+"x": 100,
+"cara": "feliz"
+},
+{
+"que": "gato",
+"x": 200
+},
+{
+"que": "nube",
+"x": 320,
+"y": 80
+}
+]
+}
+},
+{
+"id": "l23",
+"desde": 1800,
+"titulo": {
+"jp": "海[うみ]を 越[こ]えた 手紙[てがみ]",
+"es": "Una carta que cruzó el mar",
+"en": "A letter that crossed the sea"
+},
+"resumen": {
+"es": "A casa de Tama llega una carta de un viejo amigo que vive muy lejos, con un sello que llama la atención de Nyan.",
+"en": "A letter arrives at Tama's for an old friend living far away, with a stamp that catches Nyan's eye."
+},
+"frases": 20,
+"portada": {
+"fondo": "cuarto",
+"cosas": [
+{
+"que": "nyan",
+"x": 100,
+"cara": "sorpresa"
+},
+{
+"que": "gato",
+"x": 200
+},
+{
+"que": "carta",
+"x": 310
+}
+]
+}
+},
+{
+"id": "l24",
+"desde": 1875,
+"titulo": {
+"jp": "タマが 引[ひ]っ越[こ]す 日[ひ]",
+"es": "El día en que Tama se muda",
+"en": "The day Tama moves"
+},
+"resumen": {
+"es": "A Tama le toca mudarse a otra casa, y a Nyan le preocupa lo que eso significa para su amistad.",
+"en": "Tama has to move to another house, and Nyan worries about what that means for their friendship."
+},
+"frases": 23,
+"portada": {
+"fondo": "calle",
+"cosas": [
+{
+"que": "nyan",
+"x": 100,
+"cara": "triste"
+},
+{
+"que": "gato",
+"x": 200
+},
+{
+"que": "caja",
+"x": 300
+}
+]
+}
+},
+{
+"id": "l25",
+"desde": 1950,
+"titulo": {
+"jp": "おにぎりを 早[はや]く 食[た]べる 競争[きょうそう]",
+"es": "El concurso de comer onigiri rápido",
+"en": "The contest of eating onigiri fast"
+},
+"resumen": {
+"es": "Nyan llega tarde a la inscripción de un concurso de comer onigiri, y tiene que pedir que lo dejen participar igualmente.",
+"en": "Nyan arrives late to sign up for an onigiri-eating contest, and has to ask to be let in anyway."
+},
+"frases": 25,
+"portada": {
+"fondo": "parque",
+"cosas": [
+{
+"que": "nyan",
+"x": 100,
+"cara": "feliz"
+},
+{
+"que": "onigiri",
+"x": 200
+},
+{
+"que": "profesor",
+"x": 310
+}
+]
+}
+},
+{
+"id": "l26",
+"desde": 2025,
+"titulo": {
+"jp": "秘密[ひみつ]の スープ",
+"es": "La sopa secreta",
+"en": "The secret soup"
+},
+"resumen": {
+"es": "Tama quiere enseñarle a Nyan la sopa secreta de su abuela, pero antes de que les salga bien tienen que estropearla una vez.",
+"en": "Tama wants to teach Nyan his grandma's secret soup, but before it comes out right they have to ruin it once."
+},
+"frases": 19,
+"portada": {
+"fondo": "cocina",
+"cosas": [
+{
+"que": "nyan",
+"x": 100,
+"cara": "normal"
+},
+{
+"que": "gato",
+"x": 200
+},
+{
+"que": "cuenco",
+"x": 300
+}
+]
+}
+},
+{
+"id": "l27",
+"desde": 2100,
+"titulo": {
+"jp": "なくした 財布[さいふ]",
+"es": "La cartera perdida",
+"en": "The lost wallet"
+},
+"resumen": {
+"es": "A Nyan se le pierde la cartera en la ciudad, y la búsqueda le enseña algo sobre la gente.",
+"en": "Nyan loses his wallet somewhere in town, and the search teaches him something about people."
+},
+"frases": 20,
+"portada": {
+"fondo": "calle",
+"cosas": [
+{
+"que": "nyan",
+"x": 100,
+"cara": "triste"
+},
+{
+"que": "gato",
+"x": 200
+},
+{
+"que": "dinero",
+"x": 310
+}
+]
+}
+},
+{
+"id": "l28",
+"desde": 2175,
+"titulo": {
+"jp": "ニャンの アルバイト",
+"es": "El trabajo a tiempo parcial de Nyan",
+"en": "Nyan's part-time job"
+},
+"resumen": {
+"es": "A Nyan le sale su primer trabajo a tiempo parcial en una panadería, y descubre que ser responsable cuesta un poco.",
+"en": "Nyan gets his first part-time job at a bakery, and discovers that being responsible takes some effort."
+},
+"frases": 20,
+"portada": {
+"fondo": "tienda",
+"cosas": [
+{
+"que": "nyan",
+"x": 100,
+"cara": "normal"
+},
+{
+"que": "persona",
+"x": 210
+},
+{
+"que": "pan",
+"x": 310
+}
+]
+}
+},
+{
+"id": "l29",
+"desde": 2250,
+"titulo": {
+"jp": "ニャンの 誤解[ごかい]",
+"es": "El malentendido de Nyan",
+"en": "Nyan's misunderstanding"
+},
+"resumen": {
+"es": "Tama empieza a comportarse de un modo extraño, y Nyan se hace una idea completamente equivocada del motivo.",
+"en": "Tama starts acting strangely, and Nyan gets a completely wrong idea about the reason why."
+},
+"frases": 20,
+"portada": {
+"fondo": "cuarto",
+"cosas": [
+{
+"que": "nyan",
+"x": 100,
+"cara": "triste"
+},
+{
+"que": "gato",
+"x": 210
+},
+{
+"que": "regalo",
+"x": 310
+}
+]
+}
+},
+{
+"id": "l30",
+"desde": 2325,
+"titulo": {
+"jp": "北[きた]への 旅[たび]",
+"es": "Un viaje al norte",
+"en": "A trip north"
+},
+"resumen": {
+"es": "El pronóstico dice que va a nevar mucho: ¿deberían Nyan y Tama cancelar su viaje al norte?",
+"en": "The forecast says it's going to snow heavily: should Nyan and Tama cancel their trip north?"
+},
+"frases": 24,
+"portada": {
+"fondo": "calle",
+"cosas": [
+{
+"que": "nyan",
+"x": 100
+},
+{
+"que": "gato",
+"x": 190
+},
+{
+"que": "tren",
+"x": 300
+}
+]
+}
+},
+{
+"id": "l31",
+"desde": 2400,
+"titulo": {
+"jp": "タマの 面接[めんせつ] 練習[れんしゅう]",
+"es": "El ensayo de la entrevista de Tama",
+"en": "Tama's interview practice"
+},
+"resumen": {
+"es": "Tama quiere ayudar en la biblioteca, pero le da miedo la entrevista: Nyan se convierte en su entrenador.",
+"en": "Tama wants to help out at the library, but the interview scares him: Nyan becomes his coach."
+},
+"frases": 23,
+"portada": {
+"fondo": "cuarto",
+"cosas": [
+{
+"que": "gato",
+"x": 110,
+"cara": "sorpresa"
+},
+{
+"que": "nyan",
+"x": 280
+}
+]
+}
+},
+{
+"id": "l32",
+"desde": 2475,
+"titulo": {
+"jp": "ラジオの 問題[もんだい]",
+"es": "El concurso de la radio",
+"en": "The radio quiz"
+},
+"resumen": {
+"es": "Nyan y Tama intentan ganar un premio respondiendo a una pregunta de la radio: ¿lo conseguirán?",
+"en": "Nyan and Tama try to win a prize by answering a question on the radio: will they manage?"
+},
+"frases": 27,
+"portada": {
+"fondo": "cuarto",
+"cosas": [
+{
+"que": "nyan",
+"x": 100
+},
+{
+"que": "gato",
+"x": 190
+},
+{
+"que": "telefono",
+"x": 300
+}
+]
+}
+},
+{
+"id": "l33",
+"desde": 2550,
+"titulo": {
+"jp": "公園[こうえん] 掃除[そうじ]の 日[ひ]",
+"es": "El día de limpiar el parque",
+"en": "Park cleanup day"
+},
+"resumen": {
+"es": "A Nyan no le hace ninguna gracia ir a limpiar el parque, pero el día le da una sorpresa.",
+"en": "Nyan isn't at all thrilled about cleaning the park, but the day surprises him."
+},
+"frases": 24,
+"portada": {
+"fondo": "parque",
+"cosas": [
+{
+"que": "nyan",
+"x": 110,
+"cara": "triste"
+},
+{
+"que": "gato",
+"x": 210
+},
+{
+"que": "profesor",
+"x": 310
+}
+]
+}
+},
+{
+"id": "l34",
+"desde": 2625,
+"titulo": {
+"jp": "古[ふる]い 写真[しゃしん]の 秘密[ひみつ]",
+"es": "El secreto de la foto vieja",
+"en": "The secret of the old photo"
+},
+"resumen": {
+"es": "Nyan encuentra una foto vieja en una caja olvidada, y descubre algo sorprendente de su abuelo.",
+"en": "Nyan finds an old photo in a forgotten box, and discovers something surprising about his grandfather."
+},
+"frases": 26,
+"portada": {
+"fondo": "cuarto",
+"cosas": [
+{
+"que": "nyan",
+"x": 110,
+"cara": "sorpresa"
+},
+{
+"que": "caja",
+"x": 260
+}
+]
+}
+},
+{
+"id": "l35",
+"desde": 2700,
+"titulo": {
+"jp": "嵐[あらし]の 夜[よる]",
+"es": "La noche de la tormenta",
+"en": "Storm night"
+},
+"resumen": {
+"es": "Un fuerte tifón deja a Nyan solo, a oscuras y asustado: ¿quién lo acompañará esa noche?",
+"en": "A strong typhoon leaves Nyan alone, in the dark and scared: who will keep him company that night?"
+},
+"frases": 22,
+"portada": {
+"fondo": "noche",
+"cosas": [
+{
+"que": "nyan",
+"x": 110,
+"cara": "triste"
+},
+{
+"que": "nube",
+"x": 270
+}
+]
+}
+},
+{
+"id": "l36",
+"desde": 2775,
+"titulo": {
+"jp": "新聞[しんぶん] 係[かかり]の 二人[ふたり]",
+"es": "Los dos del periódico escolar",
+"en": "The two of the school newspaper"
+},
+"resumen": {
+"es": "El sensei les pide a Nyan y Tama que escriban un artículo para el periódico de la escuela.",
+"en": "The sensei asks Nyan and Tama to write an article for the school newspaper."
+},
+"frases": 26,
+"portada": {
+"fondo": "escuela",
+"cosas": [
+{
+"que": "nyan",
+"x": 100,
+"cara": "pensando"
+},
+{
+"que": "gato",
+"x": 200
+},
+{
+"que": "libro",
+"x": 300
+}
+]
+}
+},
+{
+"id": "l37",
+"desde": 2850,
+"titulo": {
+"jp": "ニャンの 初[はじ]めての 電話[でんわ]",
+"es": "La primera llamada formal de Nyan",
+"en": "Nyan's first formal phone call"
+},
+"resumen": {
+"es": "La maestra Fukuro le pide a Nyan que llame a la tienda de Pon y use el japonés más formal que sabe.",
+"en": "Ms. Fukuro asks Nyan to call Pon's shop and use the most formal Japanese he knows."
+},
+"frases": 24,
+"portada": {
+"fondo": "cuarto",
+"cosas": [
+{
+"que": "nyan",
+"x": 110,
+"cara": "sorpresa"
+},
+{
+"que": "telefono",
+"x": 240
+},
+{
+"que": "gato",
+"x": 330
+}
+]
+}
+},
+{
+"id": "l38",
+"desde": 2925,
+"titulo": {
+"jp": "「いつもの 場所[ばしょ]」の 誤解[ごかい]",
+"es": "El malentendido del «sitio de siempre»",
+"en": "The \"usual place\" misunderstanding"
+},
+"resumen": {
+"es": "Nyan y Tama quedan en «el sitio de siempre», pero cada uno piensa en un sitio distinto.",
+"en": "Nyan and Tama agree to meet at \"the usual place,\" but each of them has a different place in mind."
+},
+"frases": 26,
+"portada": {
+"fondo": "parque",
+"cosas": [
+{
+"que": "nyan",
+"x": 110,
+"cara": "pensando"
+},
+{
+"que": "reloj",
+"x": 260
+}
+]
+}
+},
+{
+"id": "l39",
+"desde": 3000,
+"titulo": {
+"jp": "ニャンと タマの、 これまでの 道[みち]",
+"es": "El camino de Nyan y Tama hasta ahora",
+"en": "Nyan and Tama's road so far"
+},
+"resumen": {
+"es": "Nyan termina de leer la última página y, con Tama a su lado, mira atrás a todo lo que han vivido juntos.",
+"en": "Nyan finishes reading the last page and, with Tama by his side, looks back at everything they've lived through together."
+},
+"frases": 29,
+"portada": {
+"fondo": "cuarto",
+"cosas": [
+{
+"que": "nyan",
+"x": 100,
+"cara": "feliz"
+},
+{
+"que": "gato",
+"x": 210
+},
+{
+"que": "libro",
+"x": 310
+}
+]
+}
+}
+]

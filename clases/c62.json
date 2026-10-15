@@ -1,0 +1,807 @@
+{
+ "id": "c62",
+ "clase": 62,
+ "desde": 2410,
+ "titulo": {
+  "es": "No hace falta: 〜ことはない y 〜ことだ",
+  "en": "No need to: 〜ことはない and 〜ことだ"
+ },
+ "resumen": {
+  "es": "〜ことはない tranquiliza: no hay motivo para hacer eso (心配することはない). 〜ことだ aconseja con fuerza: lo mejor es hacer eso (早く寝ることだ).",
+  "en": "〜ことはない reassures: there's no reason to do that (心配することはない). 〜ことだ advises firmly: the thing to do is that (早く寝ることだ)."
+ },
+ "intro": [
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 120,
+      "cara": "triste"
+     }
+    ]
+   },
+   "jp": "明日[あした]の 試験[しけん]、 心配[しんぱい]だ…。",
+   "voz": "i1",
+   "tr": {
+    "es": "El examen de mañana, me preocupa…",
+    "en": "Tomorrow's exam, I'm worried…"
+   },
+   "cara": "triste"
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "triste"
+     },
+     {
+      "que": "gato",
+      "x": 270
+     }
+    ]
+   },
+   "jp": "心配[しんぱい]する ことは ないよ。",
+   "voz": "i2",
+   "tr": {
+    "es": "No hace falta que te preocupes.",
+    "en": "There's no need for you to worry."
+   },
+   "cara": "normal",
+   "cartela": {
+    "es": "〜ことはない: «no hace falta que…», para tranquilizar.",
+    "en": "〜ことはない: «no need to…», to reassure someone."
+   },
+   "habla": "tama"
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 120,
+      "cara": "pensando"
+     },
+     {
+      "que": "cama",
+      "x": 270,
+      "s": 1.3
+     }
+    ]
+   },
+   "jp": "じゃあ、 今日[きょう]は 早[はや]く 寝[ね]る ことだ。",
+   "voz": "i3",
+   "tr": {
+    "es": "Entonces, lo mejor es dormir pronto hoy.",
+    "en": "Then, the best thing is to sleep early today."
+   },
+   "cara": "pensando",
+   "cartela": {
+    "es": "〜ことだ: «lo mejor es…», un consejo con fuerza.",
+    "en": "〜ことだ: «you'd better…», a firm piece of advice."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 150,
+      "cara": "sorpresa"
+     },
+     {
+      "que": "manpu",
+      "tipo": "sudor",
+      "x": 200,
+      "y": 105
+     }
+    ]
+   },
+   "jp": "あ、 もう 遅[おそ]い！",
+   "voz": "i4",
+   "tr": {
+    "es": "¡Ah, ya es tarde!",
+    "en": "Oh, it's already late!"
+   },
+   "cara": "sorpresa",
+   "cartela": {
+    "es": "Fin de la intro. El que dijo «lo mejor es dormir pronto»… se ha quedado dormido demasiado. ¡A practicar!",
+    "en": "End of the intro. The one who said «you'd better sleep early»… overslept. Let's practice!"
+   }
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta cada frase con ことはない (no hace falta) o ことだ (lo mejor es).",
+   "en": "Build each sentence with ことはない (no need to) or ことだ (you'd better)."
+  },
+  "piezas": [
+   {
+    "id": "shinpai",
+    "jp": "心配[しんぱい]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "suru",
+    "jp": "する",
+    "tipo": "verbo"
+   },
+   {
+    "id": "koto",
+    "jp": "こと",
+    "tipo": "palabra"
+   },
+   {
+    "id": "wa",
+    "jp": "は",
+    "tipo": "particula"
+   },
+   {
+    "id": "nai",
+    "jp": "ない",
+    "tipo": "verbo"
+   },
+   {
+    "id": "da",
+    "jp": "だ",
+    "tipo": "verbo"
+   },
+   {
+    "id": "nakutemoii",
+    "jp": "心配[しんぱい]しなくてもいい",
+    "tipo": "verbo"
+   },
+   {
+    "id": "hayaku",
+    "jp": "早[はや]く",
+    "tipo": "palabra"
+   },
+   {
+    "id": "neru",
+    "jp": "寝[ね]る",
+    "tipo": "verbo"
+   },
+   {
+    "id": "houganoii",
+    "jp": "寝[ね]た ほうがいい",
+    "tipo": "verbo"
+   },
+   {
+    "id": "arimasen",
+    "jp": "ありません",
+    "tipo": "verbo"
+   },
+   {
+    "id": "yo",
+    "jp": "よ",
+    "tipo": "particula"
+   },
+   {
+    "id": "ayamaru",
+    "jp": "謝[あやま]る",
+    "tipo": "verbo"
+   },
+   {
+    "id": "ayamaranakutemoii",
+    "jp": "謝[あやま]らなくてもいい",
+    "tipo": "verbo"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Tranquiliza a Nyan: «No hace falta preocuparse».",
+     "en": "Reassure Nyan: «No need to worry»."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 120,
+       "cara": "triste"
+      }
+     ]
+    },
+    "piezas": [
+     "shinpai",
+     "suru",
+     "koto",
+     "wa",
+     "nai",
+     "da",
+     "nakutemoii",
+     "yo"
+    ],
+    "bien": [
+     [
+      "shinpai",
+      "suru",
+      "koto",
+      "wa",
+      "nai",
+      "yo"
+     ]
+    ],
+    "tr": {
+     "es": "No hace falta preocuparse.",
+     "en": "No need to worry."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "da"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "ことだ es un CONSEJO (lo mejor es…). Para decir que NO hace falta, usa ない: ことはない.",
+       "en": "ことだ is ADVICE (you'd better…). To say there's NO need, use ない: ことはない."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "nakutemoii"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "心配[しんぱい]しなくてもいい también vale (tu primo de antes), pero aquí practica ことはない: suena más a tranquilizar, «no hay motivo».",
+       "en": "心配しなくてもいい also works (your earlier cousin pattern), but here practice ことはない: it sounds more reassuring, «there's no reason»."
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "wa"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin は, ことない a secas suena raro: hace falta ことはない.",
+       "en": "Without は, plain ことない sounds odd: you need ことはない."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Aconséjale: «Lo mejor es dormir pronto».",
+     "en": "Advise him: «You'd better sleep early»."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 120,
+       "cara": "pensando"
+      },
+      {
+       "que": "cama",
+       "x": 270,
+       "s": 1.3
+      }
+     ]
+    },
+    "piezas": [
+     "hayaku",
+     "neru",
+     "koto",
+     "da",
+     "wa",
+     "nai",
+     "houganoii"
+    ],
+    "bien": [
+     [
+      "hayaku",
+      "neru",
+      "koto",
+      "da"
+     ]
+    ],
+    "tr": {
+     "es": "Lo mejor es dormir pronto.",
+     "en": "You'd better sleep early."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "duerme",
+      "objeto": "nyan"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "sueno"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "nai"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "ことはない dice que NO hace falta; aquí es un CONSEJO (hazlo): ことだ.",
+       "en": "ことはない says there's NO need; here it's ADVICE (do it): ことだ."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "houganoii"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "寝[ね]た ほうがいい también es un consejo (tu primo), pero más suave. ことだ suena más seguro, casi una orden cariñosa.",
+       "en": "寝たほうがいい is also advice (your cousin pattern), but softer. ことだ sounds more certain, almost a caring order."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Dile al sensei, con educación: «No hace falta preocuparse».",
+     "en": "Tell the teacher, politely: «No need to worry»."
+    },
+    "escena": {
+     "fondo": "escuela",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "triste"
+      },
+      {
+       "que": "profesor",
+       "x": 280
+      }
+     ]
+    },
+    "piezas": [
+     "shinpai",
+     "suru",
+     "koto",
+     "wa",
+     "arimasen",
+     "nai"
+    ],
+    "bien": [
+     [
+      "shinpai",
+      "suru",
+      "koto",
+      "wa",
+      "arimasen"
+     ]
+    ],
+    "tr": {
+     "es": "No hace falta preocuparse.",
+     "en": "No need to worry."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "brilla",
+      "objeto": "profesor"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "normal"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "nai"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "sorpresa",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Hablas con el sensei: hace falta ありません, no ない a secas.",
+       "en": "You're speaking to the teacher: you need ありません, not plain ない."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Ahora dile lo mismo a Tama, en plan casual.",
+     "en": "Now tell Tama the same thing, casually."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "triste"
+      },
+      {
+       "que": "gato",
+       "x": 270
+      }
+     ]
+    },
+    "piezas": [
+     "shinpai",
+     "suru",
+     "koto",
+     "wa",
+     "nai",
+     "arimasen",
+     "yo"
+    ],
+    "bien": [
+     [
+      "shinpai",
+      "suru",
+      "koto",
+      "wa",
+      "nai",
+      "yo"
+     ]
+    ],
+    "tr": {
+     "es": "No hace falta preocuparse.",
+     "en": "No need to worry."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "arimasen"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Con Tama no hace falta tanta educación: ない basta (no ありません).",
+       "en": "With Tama you don't need to be that formal: ない is enough (not ありません)."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Reto: dile a Tama que no hace falta que se disculpe (usa ことはない, no lo que ya sabías).",
+     "en": "Challenge: tell Tama there's no need to apologize (use ことはない, not what you already knew)."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "normal"
+      },
+      {
+       "que": "gato",
+       "x": 270
+      }
+     ]
+    },
+    "piezas": [
+     "ayamaru",
+     "koto",
+     "wa",
+     "nai",
+     "ayamaranakutemoii"
+    ],
+    "bien": [
+     [
+      "ayamaru",
+      "koto",
+      "wa",
+      "nai"
+     ]
+    ],
+    "tr": {
+     "es": "No hace falta que te disculpes.",
+     "en": "There's no need to apologize."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "ayamaranakutemoii"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "謝[あやま]らなくてもいい también vale, pero es más neutro («no es obligatorio»); ことはない consuela más: «no hay motivo para eso».",
+       "en": "謝らなくてもいい also works, but it's more neutral («it's not mandatory»); ことはない is more reassuring: «there's no reason for that»."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "juego": {
+  "intro": {
+   "es": "¿ことはない (no hace falta) o ことだ (lo mejor es)? Completa cada frase.",
+   "en": "ことはない (no need) or ことだ (you'd better)? Complete each sentence."
+  },
+  "nyan": {
+   "es": "A mí lo que me hace falta es una siesta. De eso no hay duda.",
+   "en": "What I need is a nap. No doubt about that."
+  },
+  "cestas": [
+   {
+    "id": "hanai",
+    "jp": "ことはない",
+    "sub": {
+     "es": "no hace falta",
+     "en": "no need to"
+    }
+   },
+   {
+    "id": "koda",
+    "jp": "ことだ",
+    "sub": {
+     "es": "lo mejor es",
+     "en": "you'd better"
+    }
+   }
+  ],
+  "cartas": [
+   {
+    "id": "j1",
+    "jp": "心配[しんぱい]する＿。",
+    "cesta": "hanai",
+    "es": "No hace falta preocuparse.",
+    "en": "No need to worry."
+   },
+   {
+    "id": "j2",
+    "dibujo": "cama",
+    "jp": "早[はや]く 寝[ね]る＿。",
+    "cesta": "koda",
+    "es": "Lo mejor es dormir pronto.",
+    "en": "You'd better sleep early."
+   },
+   {
+    "id": "j3",
+    "jp": "謝[あやま]る＿。",
+    "cesta": "hanai",
+    "es": "No hace falta disculparse.",
+    "en": "No need to apologize."
+   },
+   {
+    "id": "j4",
+    "jp": "頑張[がんば]る＿。",
+    "cesta": "koda",
+    "es": "Lo mejor es esforzarse.",
+    "en": "You'd better try hard."
+   },
+   {
+    "id": "j5",
+    "jp": "急[いそ]ぐ＿。",
+    "cesta": "hanai",
+    "es": "No hace falta darse prisa.",
+    "en": "No need to hurry."
+   },
+   {
+    "id": "j6",
+    "jp": "忘[わす]れない＿。",
+    "cesta": "koda",
+    "es": "Lo mejor es no olvidarlo.",
+    "en": "You'd better not forget.",
+    "truco": {
+     "es": "忘[わす]れない＋ことだ: un consejo, aunque el verbo esté en negativo.",
+     "en": "忘れない + ことだ: it's advice, even though the verb is negative."
+    }
+   },
+   {
+    "id": "j7",
+    "jp": "泣[な]く＿。",
+    "cesta": "hanai",
+    "es": "No hace falta llorar.",
+    "en": "No need to cry."
+   },
+   {
+    "id": "j8",
+    "dibujo": "persona",
+    "jp": "手伝[てつだ]う＿。",
+    "cesta": "koda",
+    "es": "Lo mejor es ayudar.",
+    "en": "You'd better help."
+   }
+  ]
+ },
+ "outro": [
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 120,
+      "cara": "triste"
+     }
+    ]
+   },
+   "jp": "試験[しけん]、 心配[しんぱい]する ことは ない。",
+   "voz": "o1",
+   "tr": {
+    "es": "El examen, no hace falta que me preocupe.",
+    "en": "The exam, no need for me to worry."
+   },
+   "cara": "normal"
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "pensando"
+     },
+     {
+      "que": "gato",
+      "x": 270
+     }
+    ]
+   },
+   "jp": "でも、 早[はや]く 寝[ね]る ことだよ。",
+   "voz": "o2",
+   "tr": {
+    "es": "Pero, lo mejor es dormir pronto.",
+    "en": "But, you'd better sleep early."
+   },
+   "cara": "normal",
+   "habla": "tama"
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 150,
+      "cara": "sorpresa"
+     },
+     {
+      "que": "manpu",
+      "tipo": "sudor",
+      "x": 200,
+      "y": 105
+     }
+    ]
+   },
+   "jp": "あ、 もう 遅[おそ]い！",
+   "voz": "o3",
+   "tr": {
+    "es": "¡Ah, ya es tarde!",
+    "en": "Oh, it's already late!"
+   },
+   "cara": "sorpresa",
+   "cartela": {
+    "es": "Fin. El consejo era bueno… lástima que Nyan nunca lo siga a tiempo.",
+    "en": "The end. The advice was good… too bad Nyan never follows it in time."
+   }
+  }
+ ],
+ "chuleta": {
+  "patron": {
+   "es": "〔Vる〕ことはない ／ 〔Vる〕ことだ",
+   "en": "〔Vる〕ことはない ／ 〔Vる〕ことだ"
+  },
+  "patron_tr": {
+   "es": "no hace falta hacer 〔algo〕 ／ lo mejor es hacer 〔algo〕",
+   "en": "no need to do 〔something〕 ／ you'd better do 〔something〕"
+  },
+  "columnas": [
+   {
+    "jp": "ことはない",
+    "texto": {
+     "es": "tranquiliza: no hay motivo",
+     "en": "reassures: no reason to"
+    },
+    "dibujos": [
+     "nyan"
+    ]
+   },
+   {
+    "jp": "ことだ",
+    "texto": {
+     "es": "aconseja con fuerza",
+     "en": "advises firmly"
+    },
+    "dibujos": [
+     "cama"
+    ]
+   }
+  ],
+  "filas": [
+   {
+    "jp": "心配[しんぱい]する ことは ない。",
+    "es": "No hace falta preocuparse.",
+    "en": "No need to worry."
+   },
+   {
+    "jp": "心配[しんぱい]する ことは ありません。",
+    "es": "No hace falta preocuparse.",
+    "en": "No need to worry.",
+    "registro": "educado"
+   },
+   {
+    "jp": "心配[しんぱい]する ことは ないよ。",
+    "es": "No hace falta preocuparse.",
+    "en": "No need to worry.",
+    "registro": "amigos"
+   },
+   {
+    "jp": "早[はや]く 寝[ね]る ことだ。",
+    "es": "Lo mejor es dormir pronto.",
+    "en": "You'd better sleep early."
+   }
+  ],
+  "consejo": {
+   "es": "〜なくてもいい ya lo sabías: «no es obligatorio». ことはない tranquiliza más fuerte: «no hay motivo para eso». 〜ほうがいい ya lo sabías: un consejo suave. ことだ pesa más, casi una orden cariñosa.",
+   "en": "You already knew 〜なくてもいい: «it's not mandatory». ことはない reassures more strongly: «there's no reason for that». You already knew 〜ほうがいい: soft advice. ことだ carries more weight, almost a caring order."
+  }
+ }
+}

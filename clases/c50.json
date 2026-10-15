@@ -1,0 +1,1058 @@
+{
+ "id": "c50",
+ "clase": 50,
+ "desde": 1690,
+ "titulo": {
+  "es": "Mientras sea joven: 〜うちに, 〜たびに y 〜間に",
+  "en": "While I'm still young: 〜うちに, 〜たびに and 〜間に"
+ },
+ "resumen": {
+  "es": "〜うちに: mientras dure un estado, antes de que cambie. 〜間[あいだ]に: durante un rato concreto. 〜たびに: cada vez que pasa algo.",
+  "en": "〜うちに: while a state lasts, before it changes. 〜間に: during a specific stretch. 〜たびに: every time something happens."
+ },
+ "intro": [
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "normal"
+     },
+     {
+      "que": "gato",
+      "x": 270
+     }
+    ]
+   },
+   "habla": "tama",
+   "cara": "normal",
+   "jp": "ちょっと 出[で]かけてくる。",
+   "voz": "i1",
+   "tr": {
+    "es": "Voy a salir un momento.",
+    "en": "I'm heading out for a bit."
+   },
+   "cartela": {
+    "es": "Tama sale de casa. Nyan se queda solo…",
+    "en": "Tama heads out. Nyan is left alone…"
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "pensando"
+     },
+     {
+      "que": "onigiri",
+      "x": 270,
+      "s": 1.1
+     }
+    ]
+   },
+   "cara": "pensando",
+   "jp": "タマが いない 間[あいだ]に、 おにぎりを 食[た]べちゃおう。",
+   "voz": "i2",
+   "tr": {
+    "es": "Mientras Tama no está, me como el onigiri.",
+    "en": "While Tama's not here, I'll eat the onigiri."
+   },
+   "cartela": {
+    "es": "〜間[あいだ]に: DURANTE ese rato (mientras dura una situación concreta).",
+    "en": "〜間に: DURING that stretch (while a specific situation lasts)."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 130,
+      "cara": "sueno"
+     },
+     {
+      "que": "cama",
+      "x": 270,
+      "s": 1.2
+     }
+    ]
+   },
+   "cara": "sueno",
+   "jp": "あ…ちょっと 昼寝[ひるね]しよう。 若[わか]い うちに 寝[ね]て おかないと！",
+   "voz": "i3",
+   "tr": {
+    "es": "Ah… voy a echarme una siesta. ¡Hay que dormir mientras se es joven!",
+    "en": "Ah… let me take a nap. Gotta sleep while I'm still young!"
+   },
+   "cartela": {
+    "es": "〜うちに: mientras dure este estado (antes de que cambie). Nyan lo usa fatal, pero la gramática le sale bien.",
+    "en": "〜うちに: while this state lasts (before it changes). Nyan's using it badly, but the grammar's spot on."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "sueno"
+     },
+     {
+      "que": "gato",
+      "x": 270
+     },
+     {
+      "que": "manpu",
+      "tipo": "z",
+      "x": 165,
+      "y": 100
+     }
+    ]
+   },
+   "habla": "tama",
+   "cara": "enfado",
+   "jp": "タマが 出[で]かける たびに、 ニャンは 昼寝[ひるね]するんだから…。",
+   "voz": "i4",
+   "tr": {
+    "es": "Cada vez que salgo, Nyan se echa una siesta…",
+    "en": "Every time I go out, Nyan takes a nap…"
+   },
+   "cartela": {
+    "es": "Fin de la intro: うちに, たびに y 間に. ¡A practicar!",
+    "en": "End of the intro: うちに, たびに and 間に. Let's practice!"
+   }
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta cada frase. うちに para un estado que dura, 間に para un rato concreto, たびに para lo que se repite.",
+   "en": "Build each sentence. うちに for a lasting state, 間に for a specific stretch, たびに for what repeats."
+  },
+  "piezas": [
+   {
+    "id": "wakai",
+    "jp": "若[わか]い",
+    "tipo": "palabra"
+   },
+   {
+    "id": "uchini",
+    "jp": "うちに",
+    "tipo": "particula"
+   },
+   {
+    "id": "ryokou",
+    "jp": "旅行[りょこう]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "ni",
+    "jp": "に",
+    "tipo": "particula"
+   },
+   {
+    "id": "ikou",
+    "jp": "行[い]こう",
+    "tipo": "verbo"
+   },
+   {
+    "id": "tama",
+    "jp": "タマ",
+    "tipo": "palabra"
+   },
+   {
+    "id": "ga",
+    "jp": "が",
+    "tipo": "particula"
+   },
+   {
+    "id": "inai",
+    "jp": "いない",
+    "tipo": "verbo"
+   },
+   {
+    "id": "aidani",
+    "jp": "間[あいだ]に",
+    "tipo": "particula"
+   },
+   {
+    "id": "onigiri",
+    "jp": "おにぎり",
+    "tipo": "palabra"
+   },
+   {
+    "id": "wo",
+    "jp": "を",
+    "tipo": "particula"
+   },
+   {
+    "id": "tabeta",
+    "jp": "食[た]べた",
+    "tipo": "verbo"
+   },
+   {
+    "id": "dekakeru",
+    "jp": "出[で]かける",
+    "tipo": "verbo"
+   },
+   {
+    "id": "tabini",
+    "jp": "たびに",
+    "tipo": "particula"
+   },
+   {
+    "id": "nyanwa",
+    "jp": "ニャンは",
+    "tipo": "palabra"
+   },
+   {
+    "id": "hirunesuru",
+    "jp": "昼寝[ひるね]する",
+    "tipo": "verbo"
+   },
+   {
+    "id": "ongaku",
+    "jp": "音楽[おんがく]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "kikinagara",
+    "jp": "聞[き]きながら",
+    "tipo": "verbo"
+   },
+   {
+    "id": "benkyousuru",
+    "jp": "勉強[べんきょう]する",
+    "tipo": "verbo"
+   },
+   {
+    "id": "youni",
+    "jp": "ように",
+    "tipo": "particula"
+   },
+   {
+    "id": "atsui",
+    "jp": "熱[あつ]い",
+    "tipo": "palabra"
+   },
+   {
+    "id": "tabete",
+    "jp": "食[た]べて",
+    "tipo": "verbo"
+   },
+   {
+    "id": "kudasai",
+    "jp": "ください",
+    "tipo": "verbo"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Anímale a Tama: dile «Viajemos mientras somos jóvenes».",
+     "en": "Encourage Tama: say «Let's travel while we're young»."
+    },
+    "escena": {
+     "fondo": "parque",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "feliz",
+       "brazo": "arriba"
+      },
+      {
+       "que": "gato",
+       "x": 270
+      }
+     ]
+    },
+    "piezas": [
+     "wakai",
+     "uchini",
+     "ryokou",
+     "ni",
+     "ikou",
+     "tabini",
+     "aidani"
+    ],
+    "bien": [
+     [
+      "wakai",
+      "uchini",
+      "ryokou",
+      "ni",
+      "ikou"
+     ]
+    ],
+    "tr": {
+     "es": "Viajemos mientras somos jóvenes.",
+     "en": "Let's travel while we're young."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "feliz",
+      "brazo": "arriba"
+     },
+     {
+      "tipo": "salta",
+      "objeto": "gato"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "tabini"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "たびに es «cada vez que» (se repite). Ser joven es un estado que no dura siempre: usa うちに.",
+       "en": "たびに is «every time» (something repeats). Being young is a state that won't last: use うちに."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "aidani"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "間に es un rato concreto. «Ser joven» cambia poco a poco: usa うちに.",
+       "en": "間に is a specific stretch. «Being young» changes little by little: use うちに."
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "ikou"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin 行[い]こう no invitas a hacerlo: es la forma «¡vamos a…!».",
+       "en": "Without 行こう you're not inviting someone to do it: it's the «let's…!» form."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Cuenta el plan secreto de Nyan: «Mientras Tama no está, me como el onigiri».",
+     "en": "Tell Nyan's secret plan: «While Tama's not here, I'll eat the onigiri»."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "pensando"
+      },
+      {
+       "que": "onigiri",
+       "x": 270,
+       "s": 1.1
+      }
+     ]
+    },
+    "piezas": [
+     "tama",
+     "ga",
+     "inai",
+     "aidani",
+     "onigiri",
+     "wo",
+     "tabeta",
+     "uchini",
+     "tabini"
+    ],
+    "bien": [
+     [
+      "tama",
+      "ga",
+      "inai",
+      "aidani",
+      "onigiri",
+      "wo",
+      "tabeta"
+     ]
+    ],
+    "tr": {
+     "es": "Mientras Tama no está, me como el onigiri.",
+     "en": "While Tama's not here, I'll eat the onigiri."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "come",
+      "objeto": "onigiri",
+      "texto": "もぐもぐ"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "uchini"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "うちに es un estado que cambia poco a poco. Esto es un rato muy concreto (mientras Tama no está): usa 間に.",
+       "en": "うちに is a state that changes little by little. This is one specific stretch (while Tama's gone): use 間に."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "tabini"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "たびに es «cada vez que». Esto pasa solo UNA vez, ahora mismo: usa 間に.",
+       "en": "たびに is «every time». This happens just ONCE, right now: use 間に."
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "inai"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin いない no dices que Tama NO ESTÁ.",
+       "en": "Without いない you're not saying Tama is NOT here."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Quéjate como Tama: dile «Cada vez que salgo, Nyan se echa una siesta».",
+     "en": "Complain like Tama: say «Every time I go out, Nyan takes a nap»."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "sueno"
+      },
+      {
+       "que": "gato",
+       "x": 270
+      },
+      {
+       "que": "manpu",
+       "tipo": "z",
+       "x": 165,
+       "y": 100
+      }
+     ]
+    },
+    "piezas": [
+     "tama",
+     "ga",
+     "dekakeru",
+     "tabini",
+     "nyanwa",
+     "hirunesuru",
+     "uchini",
+     "aidani"
+    ],
+    "bien": [
+     [
+      "tama",
+      "ga",
+      "dekakeru",
+      "tabini",
+      "nyanwa",
+      "hirunesuru"
+     ]
+    ],
+    "tr": {
+     "es": "Cada vez que Tama sale, Nyan se echa una siesta.",
+     "en": "Every time Tama goes out, Nyan takes a nap."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "manpu",
+      "objeto": "gato",
+      "manpu": "excl"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "sueno"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "uchini"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "うちに es un estado, no algo que se repite cada vez: usa たびに.",
+       "en": "うちに is a state, not something that repeats every time: use たびに."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "aidani"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "間に es un rato concreto, no cada repetición: usa たびに.",
+       "en": "間に is one specific stretch, not each repetition: use たびに."
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "hirunesuru"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin 昼寝[ひるね]する no dices QUÉ hace Nyan.",
+       "en": "Without 昼寝する you're not saying WHAT Nyan does."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Repaso: Nyan hace dos cosas a la vez. Dilo con ながら: «Estudia escuchando música».",
+     "en": "Review: Nyan does two things at once. Say it with ながら: «He studies while listening to music»."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 150,
+       "cara": "normal"
+      },
+      {
+       "que": "silla",
+       "x": 270,
+       "s": 1.1
+      }
+     ]
+    },
+    "piezas": [
+     "ongaku",
+     "wo",
+     "kikinagara",
+     "benkyousuru",
+     "uchini",
+     "aidani",
+     "youni"
+    ],
+    "bien": [
+     [
+      "ongaku",
+      "wo",
+      "kikinagara",
+      "benkyousuru"
+     ]
+    ],
+    "tr": {
+     "es": "Estudia escuchando música.",
+     "en": "He studies while listening to music."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "normal"
+     },
+     {
+      "tipo": "brilla",
+      "objeto": "nyan"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "uchini"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "うちに no es «a la vez»: aquí son DOS acciones simultáneas, usa ながら (repaso de la clase 17).",
+       "en": "うちに doesn't mean «at the same time»: here you have TWO simultaneous actions, use ながら (a review from class 17)."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "aidani"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "間に tampoco es «a la vez»: usa ながら.",
+       "en": "間に doesn't mean «at the same time» either: use ながら."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "youni"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "ように es para cambios poco a poco (¿recuerdas 乗れるように なった?), no para hacer dos cosas a la vez: usa ながら.",
+       "en": "ように is for gradual changes (remember 乗れるようになった?), not for doing two things at once: use ながら."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Reto: el dependiente te da algo recién hecho. Dile, con educación: «Cómalo mientras está caliente».",
+     "en": "Challenge: the shopkeeper hands you something fresh. Tell them, politely: «Please eat it while it's hot»."
+    },
+    "escena": {
+     "fondo": "tienda",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "feliz"
+      },
+      {
+       "que": "persona",
+       "x": 270
+      }
+     ]
+    },
+    "piezas": [
+     "atsui",
+     "uchini",
+     "tabete",
+     "kudasai",
+     "aidani",
+     "tabini"
+    ],
+    "bien": [
+     [
+      "atsui",
+      "uchini",
+      "tabete",
+      "kudasai"
+     ]
+    ],
+    "tr": {
+     "es": "Cómalo mientras está caliente.",
+     "en": "Please eat it while it's hot."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     },
+     {
+      "tipo": "texto",
+      "texto": "どうぞ",
+      "objeto": "persona"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "aidani"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "間に es un rato ya fijado; aquí es «antes de que se enfríe»: usa うちに.",
+       "en": "間に is a fixed stretch; here it's «before it cools down»: use うちに."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "tabini"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "たびに es «cada vez que»; esto es de una sola vez: usa うちに.",
+       "en": "たびに is «every time»; this is a one-time thing: use うちに."
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "kudasai"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Con el dependiente hace falta ください, para pedirlo con educación.",
+       "en": "With the shopkeeper you need ください, to ask politely."
+      }
+     }
+    ],
+    "pista": {
+     "es": "Empieza por lo que no debe cambiar: 熱[あつ]い うちに…",
+     "en": "Start with what shouldn't change: atsui uchini…"
+    }
+   }
+  ]
+ },
+ "juego": {
+  "intro": {
+   "es": "¿うちに (mientras dura), たびに (cada vez) o 間に (durante ese rato)? Completa cada frase.",
+   "en": "うちに (while it lasts), たびに (every time) or 間に (during that stretch)? Complete each sentence."
+  },
+  "nyan": {
+   "es": "A mí que no me den plazos. Todo lo hago mientras Tama no mira.",
+   "en": "Don't give me deadlines. I do everything while Tama's not looking."
+  },
+  "cestas": [
+   {
+    "id": "uchini",
+    "jp": "うちに",
+    "sub": {
+     "es": "mientras dure (antes de que cambie)",
+     "en": "while it lasts (before it changes)"
+    }
+   },
+   {
+    "id": "tabini",
+    "jp": "たびに",
+    "sub": {
+     "es": "cada vez que…",
+     "en": "every time…"
+    }
+   },
+   {
+    "id": "aidani",
+    "jp": "間に",
+    "sub": {
+     "es": "durante ese rato concreto",
+     "en": "during that specific stretch"
+    }
+   }
+  ],
+  "cartas": [
+   {
+    "id": "j1",
+    "jp": "若[わか]い ＿、 いろいろ 挑戦[ちょうせん]しよう。",
+    "cesta": "uchini",
+    "es": "Mientras seamos jóvenes, probemos cosas nuevas.",
+    "en": "While we're young, let's try new things."
+   },
+   {
+    "id": "j2",
+    "dibujo": "gato",
+    "jp": "タマに 会[あ]う ＿、 「元気[げんき]？」って 聞[き]かれる。",
+    "cesta": "tabini",
+    "es": "Cada vez que veo a Tama, me pregunta «¿qué tal?».",
+    "en": "Every time I see Tama, he asks me «how are you?»."
+   },
+   {
+    "id": "j3",
+    "dibujo": "profesor",
+    "jp": "先生[せんせい]が いない ＿、 教室[きょうしつ]は 静[しず]かだった。",
+    "cesta": "aidani",
+    "es": "Mientras el sensei no estaba, el aula estaba tranquila.",
+    "en": "While the teacher was gone, the classroom was quiet."
+   },
+   {
+    "id": "j4",
+    "dibujo": "onigiri",
+    "jp": "熱[あつ]い ＿、 食[た]べてね。",
+    "cesta": "uchini",
+    "es": "Cómelo mientras está caliente, ¿eh.",
+    "en": "Eat it while it's hot, okay."
+   },
+   {
+    "id": "j5",
+    "jp": "旅行[りょこう]に 行[い]く ＿、 いつも 写真[しゃしん]を 撮[と]る。",
+    "cesta": "tabini",
+    "es": "Cada vez que viajo, siempre hago fotos.",
+    "en": "Every time I travel, I always take photos."
+   },
+   {
+    "id": "j6",
+    "dibujo": "libro",
+    "jp": "雨[あめ]が 降[ふ]ってる ＿、 家[いえ]で 本[ほん]を 読[よ]んだ。",
+    "cesta": "aidani",
+    "es": "Mientras llovía, leí un libro en casa.",
+    "en": "While it was raining, I read a book at home."
+   },
+   {
+    "id": "j7",
+    "jp": "忘[わす]れない ＿、 メモしよう。",
+    "cesta": "uchini",
+    "es": "Antes de que se me olvide, voy a apuntarlo.",
+    "en": "Before I forget, let me write it down.",
+    "truco": {
+     "es": "うちに también sirve para «antes de que sea tarde».",
+     "en": "うちに is also used for «before it's too late»."
+    }
+   },
+   {
+    "id": "j8",
+    "jp": "友達[ともだち]に 会[あ]う ＿、 プレゼントを 買[か]う。",
+    "cesta": "tabini",
+    "es": "Cada vez que veo a un amigo, le compro un regalo.",
+    "en": "Every time I see a friend, I buy them a present."
+   }
+  ]
+ },
+ "outro": [
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "pensando"
+     },
+     {
+      "que": "onigiri",
+      "x": 270,
+      "s": 1.1
+     }
+    ]
+   },
+   "cara": "pensando",
+   "jp": "タマが いない 間[あいだ]に、 おにぎりを 食[た]べちゃおう。",
+   "voz": "o1",
+   "tr": {
+    "es": "Mientras Tama no está, me como el onigiri.",
+    "en": "While Tama's not here, I'll eat the onigiri."
+   },
+   "cartela": {
+    "es": "間に: durante ese rato concreto.",
+    "en": "間に: during that specific stretch."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 130,
+      "cara": "sueno"
+     },
+     {
+      "que": "cama",
+      "x": 270,
+      "s": 1.2
+     }
+    ]
+   },
+   "cara": "sueno",
+   "jp": "若[わか]い うちに 寝[ね]て おかないと！",
+   "voz": "o2",
+   "tr": {
+    "es": "¡Hay que dormir mientras se es joven!",
+    "en": "Gotta sleep while I'm still young!"
+   },
+   "cartela": {
+    "es": "うちに: mientras dure este estado.",
+    "en": "うちに: while this state lasts."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "sueno"
+     },
+     {
+      "que": "gato",
+      "x": 270
+     },
+     {
+      "que": "manpu",
+      "tipo": "sudor",
+      "x": 320,
+      "y": 100
+     }
+    ]
+   },
+   "habla": "tama",
+   "cara": "enfado",
+   "jp": "出[で]かける たびに 昼寝[ひるね]？ もう…。",
+   "voz": "o3",
+   "tr": {
+    "es": "¿Una siesta cada vez que salgo? Ya, en serio…",
+    "en": "A nap every time I go out? Seriously…"
+   },
+   "cartela": {
+    "es": "Fin. たびに: cada vez que. Ya sabes las tres: うちに, 間に y たびに.",
+    "en": "The end. たびに: every time. Now you know all three: うちに, 間に and たびに."
+   }
+  }
+ ],
+ "chuleta": {
+  "patron": {
+   "es": "〜若[わか]い うちに ／ 〜たびに ／ 〜間[あいだ]に",
+   "en": "〜若い うちに ／ 〜たびに ／ 〜間に"
+  },
+  "patron_tr": {
+   "es": "mientras dure ／ cada vez que ／ durante",
+   "en": "while it lasts ／ every time ／ during"
+  },
+  "columnas": [
+   {
+    "jp": "うちに",
+    "texto": {
+     "es": "mientras dura (antes de que cambie)",
+     "en": "while it lasts (before it changes)"
+    },
+    "dibujos": [
+     "nyan"
+    ]
+   },
+   {
+    "jp": "たびに",
+    "texto": {
+     "es": "cada vez que pasa algo",
+     "en": "every time something happens"
+    },
+    "dibujos": [
+     "gato"
+    ]
+   },
+   {
+    "jp": "間[あいだ]に",
+    "texto": {
+     "es": "durante un rato concreto",
+     "en": "during one specific stretch"
+    },
+    "dibujos": [
+     "cama"
+    ]
+   }
+  ],
+  "filas": [
+   {
+    "jp": "若[わか]い うちに、 いろいろ 挑戦[ちょうせん]しよう。",
+    "es": "Mientras seamos jóvenes, probemos cosas nuevas.",
+    "en": "While we're young, let's try new things."
+   },
+   {
+    "jp": "タマが 出[で]かける たびに、 ニャンは 昼寝[ひるね]する。",
+    "es": "Cada vez que Tama sale, Nyan se echa una siesta.",
+    "en": "Every time Tama goes out, Nyan takes a nap."
+   },
+   {
+    "jp": "タマが いない 間[あいだ]に、 おにぎりを 食[た]べた。",
+    "es": "Mientras Tama no estaba, me comí el onigiri.",
+    "en": "While Tama wasn't here, I ate the onigiri."
+   },
+   {
+    "jp": "熱[あつ]い うちに、 食[た]べて ください。",
+    "es": "Cómalo mientras está caliente.",
+    "en": "Please eat it while it's hot.",
+    "registro": "educado"
+   },
+   {
+    "jp": "熱[あつ]い うちに、 食[た]べて。",
+    "es": "Cómetelo mientras está caliente.",
+    "en": "Eat it while it's hot.",
+    "registro": "amigos"
+   }
+  ],
+  "consejo": {
+   "es": "ながら (clase 17) es hacer DOS cosas A LA VEZ. うちに／間に hablan de UN estado o rato que dura (antes de que cambie, o mientras pasa). Y たびに es CADA VEZ que algo se repite.",
+   "en": "ながら (class 17) is doing TWO things AT THE SAME TIME. うちに／間に talk about a state or stretch that lasts (before it changes, or while it happens). And たびに is EVERY TIME something repeats."
+  }
+ }
+}

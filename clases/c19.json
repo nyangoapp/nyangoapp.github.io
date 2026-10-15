@@ -1,0 +1,821 @@
+{
+ "id": "c19",
+ "clase": 19,
+ "desde": 301,
+ "titulo": {
+  "es": "Carta de la abuela: 〜たり〜たり y 〜ないで",
+  "en": "A letter from Grandma: 〜たり〜たり and 〜ないで"
+ },
+ "resumen": {
+  "es": "Con 〜たり〜たりする das ejemplos de cosas que haces (no hace falta decirlo todo). Con 〜ないで dices que haces algo SIN hacer otra cosa antes.",
+  "en": "With 〜たり〜たりする you give examples of things you do (no need to list it all). With 〜ないで you say you do something WITHOUT doing another thing first."
+ },
+ "formato": 2,
+ "lugar": "salon",
+ "mision": {
+  "texto": {
+   "es": "Primera noche en casa de la abuela de Tama. La abuela ha salido, pero ha dejado una carta: quiere saber qué habéis hecho hoy. Cuéntaselo sin enumerarlo todo… y confiesa lo que Nyan hizo sin pensar.",
+   "en": "First night at Tama's grandma's. Grandma is out, but she left a letter: she wants to know what you did today. Tell her without listing everything… and confess what Nyan did without thinking."
+  },
+  "escena": {
+   "fondo": "salon",
+   "cosas": [
+    {
+     "que": "nyan",
+     "x": 70
+    },
+    {
+     "que": "carta",
+     "x": 205,
+     "y": 134,
+     "s": 0.9
+    },
+    {
+     "que": "gato",
+     "id": "tama",
+     "x": 320
+    }
+   ]
+  },
+  "cara": "feliz",
+  "jp": "おばあちゃんの 家[いえ]だ！",
+  "voz": "m0"
+ },
+ "reglas": [
+  {
+   "id": "tari",
+   "nombre": {
+    "es": "〜たり〜たりする: cosas como…",
+    "en": "〜たり〜たりする: things like…"
+   },
+   "patron": {
+    "es": "〔pasado〕り、〔pasado〕り する",
+    "en": "〔past〕り、〔past〕り する"
+   },
+   "explica": {
+    "es": "Cuando no quieres enumerarlo todo, das ejemplos con たり: 写真を撮ったり、走ったりしました, «hicimos fotos, corrimos… (cosas así)». Se forma desde el pasado corto con り (撮った → 撮ったり), y la lista se cierra con する, que es el que lleva el tiempo y la cortesía: します, しました. Deja claro que hubo más cosas: es el «y tal» del español.",
+    "en": "When you don't want to list everything, give examples with たり: 写真を撮ったり、走ったりしました, «we took photos, ran around… (that sort of thing)». It's built from the short past plus り (撮った → 撮ったり), and the list closes with する, which carries tense and politeness: します, しました. It makes clear there was more: it's the «and stuff» of English."
+   },
+   "ejemplos": [
+    {
+     "jp": "写真[しゃしん]を 撮[と]ったり、 走[はし]ったり しました。",
+     "es": "Hicimos fotos, corrimos…",
+     "en": "We took photos, ran around…",
+     "voz": "r1-1"
+    },
+    {
+     "jp": "スキーを したり、 雪[ゆき]まつりに 行[い]ったり します。",
+     "es": "Se esquía, se va al festival de la nieve…",
+     "en": "People ski, go to the snow festival…",
+     "voz": "r1-2"
+    }
+   ],
+   "ojo": {
+    "es": "Si solo quieres contar acciones en orden («primero…, luego…»), usa la forma て (clase 11): たり dice «entre otras cosas», no «después».",
+    "en": "If you just want actions in order («first…, then…»), use the て form (class 11): たり says «among other things», not «afterwards»."
+   }
+  },
+  {
+   "id": "naide",
+   "nombre": {
+    "es": "〜ないで: sin hacer…",
+    "en": "〜ないで: without doing…"
+   },
+   "patron": {
+    "es": "〔verbo〕ないで、〔acción〕",
+    "en": "〔verb〕ないで、〔action〕"
+   },
+   "explica": {
+    "es": "Para decir que haces algo SIN hacer otra cosa, pon esa otra acción en forma ない y añade で: マフラーをしないで出かけた, «salí sin ponerme la bufanda». Es la misma forma ない de la clase 14, con で pegada. Sirve para contar algo que normalmente se hace y esta vez no: por eso suele sonar a descuido.",
+    "en": "To say you do something WITHOUT doing something else, put that other action in the ない form and add で: マフラーをしないで出かけた, «I went out without my scarf». It's the same ない form from class 14, with で attached. It tells of something usually done that wasn't this time: that's why it often sounds careless."
+   },
+   "ejemplos": [
+    {
+     "jp": "マフラーを しないで 出[で]かけました。",
+     "es": "Salí sin la bufanda.",
+     "en": "I went out without my scarf.",
+     "voz": "r2-1"
+    },
+    {
+     "jp": "歯[は]を 磨[みが]かないで 寝[ね]ました。",
+     "es": "Me dormí sin lavarme los dientes.",
+     "en": "I went to bed without brushing my teeth.",
+     "voz": "r2-2"
+    }
+   ],
+   "ojo": {
+    "es": "No lo confundas con なくて, que da una causa: マフラーがなくて寒かった, «como no tenía bufanda, pasé frío». ないで = sin; なくて = como no.",
+    "en": "Don't mix it up with なくて, which gives a cause: マフラーがなくて寒かった, «I was cold since I had no scarf». ないで = without; なくて = since not."
+   }
+  }
+ ],
+ "historia": [
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "おばあちゃんの 手紙[てがみ]です。",
+   "tr": {
+    "es": "Es una carta de la abuela.",
+    "en": "It's a letter from Grandma."
+   },
+   "voz": "h1",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "salon",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "carta",
+      "x": 205,
+      "y": 134,
+      "id": "carta",
+      "s": 0.9
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 320
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "「今日[きょう]は 何[なに]を しましたか」って。",
+   "tr": {
+    "es": "Dice: «¿Qué habéis hecho hoy?».",
+    "en": "It says: «What did you do today?»."
+   },
+   "voz": "h2",
+   "plano": "medio",
+   "cara": "pensando"
+  },
+  {
+   "t": "regla",
+   "regla": "tari"
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "Contéstale a la abuela con un par de ejemplos, sin decirlo todo:",
+    "en": "Answer Grandma with a couple of examples, without listing everything:"
+   },
+   "opciones": [
+    {
+     "jp": "写真[しゃしん]を 撮[と]ったり、 走[はし]ったり しました。",
+     "bien": true,
+     "tr": {
+      "es": "Hicimos fotos, corrimos… (y más cosas).",
+      "en": "We took photos, ran around… (and more)."
+     },
+     "voz": "h3",
+     "porque": {
+      "es": "たり + たり + する: dos ejemplos de una lista más larga. El tiempo lo lleva する, al final.",
+      "en": "たり + たり + する: two examples from a longer list. する, at the end, carries the tense."
+     }
+    },
+    {
+     "jp": "写真[しゃしん]を 撮[と]ったり、 走[はし]ったり でした。",
+     "bien": false,
+     "porque": {
+      "es": "Detrás de los たり va する (aquí しました), porque son acciones. です no sirve para cerrar una lista de acciones.",
+      "en": "The たり list is closed with する (here しました), because they're actions. です can't close a list of actions."
+     }
+    },
+    {
+     "jp": "写真[しゃしん]を 撮[と]りたり、 走[はし]りたり しました。",
+     "bien": false,
+     "porque": {
+      "es": "たり se forma desde el pasado: 撮った → 撮ったり, 走った → 走ったり.",
+      "en": "たり is built from the past: 撮った → 撮ったり, 走った → 走ったり."
+     }
+    }
+   ],
+   "cara": "feliz",
+   "escena": {
+    "fondo": "salon",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "carta",
+      "x": 205,
+      "y": 134,
+      "s": 0.9
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 320
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "はっくしょん！",
+   "tr": {
+    "es": "¡Achís!",
+    "en": "Achoo!"
+   },
+   "voz": "h4",
+   "cara": "triste",
+   "reacciona": {
+    "tama": "sorpresa"
+   },
+   "escena": {
+    "fondo": "salon",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 90
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 310
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "ニャン、 マフラーを しないで 出[で]かけましたね！",
+   "tr": {
+    "es": "Nyan, ¡saliste sin la bufanda!",
+    "en": "Nyan, you went out without your scarf!"
+   },
+   "voz": "h5",
+   "cara": "enfado",
+   "reacciona": {
+    "nyan": "triste"
+   },
+   "escena": {
+    "fondo": "salon",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 90
+     },
+     {
+      "que": "bufanda",
+      "x": 200,
+      "y": 134,
+      "id": "bufanda",
+      "s": 0.9
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 310
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "naide"
+  },
+  {
+   "t": "monta",
+   "encargo": 0
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "じゃがいもを 食[た]べたり、 お風呂[ふろ]に 入[はい]ったり して、 温[あたた]まりましょう。",
+   "tr": {
+    "es": "A comer patatas, a darse un baño… ¡y a entrar en calor!",
+    "en": "Let's eat potatoes, take a bath… and warm up!"
+   },
+   "voz": "h6",
+   "cara": "feliz",
+   "reacciona": {
+    "nyan": "feliz"
+   },
+   "escena": {
+    "fondo": "salon",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 85
+     },
+     {
+      "que": "jagaimo",
+      "x": 200,
+      "y": 134,
+      "id": "jagaimo",
+      "s": 0.95
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 310
+     }
+    ]
+   }
+  },
+  {
+   "t": "toca",
+   "pide": {
+    "es": "La abuela dejó la cena preparada. Escucha a Tama y toca lo que vais a comer.",
+    "en": "Grandma left dinner ready. Listen to Tama and tap what you're going to eat."
+   },
+   "bien": "jagaimo",
+   "quien": "tama",
+   "escena": {
+    "fondo": "salon",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 65
+     },
+     {
+      "que": "taza",
+      "x": 160,
+      "y": 134,
+      "id": "taza",
+      "s": 0.8
+     },
+     {
+      "que": "jagaimo",
+      "x": 205,
+      "y": 134,
+      "id": "jagaimo",
+      "s": 0.9
+     },
+     {
+      "que": "carta",
+      "x": 248,
+      "y": 134,
+      "id": "carta",
+      "s": 0.8
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 335
+     }
+    ]
+   },
+   "jp": "おばあちゃんの じゃがいもを 食[た]べましょう！",
+   "voz": "h7",
+   "bien_msg": {
+    "es": "¡Eso! じゃがいも: las patatas de Hokkaido, famosas en todo Japón.",
+    "en": "Right! じゃがいも: Hokkaido potatoes, famous all over Japan."
+   },
+   "mal_msg": {
+    "es": "Ha dicho じゃがいも: las patatas, en su cesta.",
+    "en": "She said じゃがいも: the potatoes, in their basket."
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "kage",
+   "jp": "…ふん。 俺[おれ]は 歯[は]を 磨[みが]かないで 寝[ね]ない。",
+   "tr": {
+    "es": "…Hmpf. Yo no me acuesto sin lavarme los dientes.",
+    "en": "…Hmph. I never go to bed without brushing my teeth."
+   },
+   "voz": "h8",
+   "cara": "presumido",
+   "escena": {
+    "fondo": "salon",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 320
+     }
+    ]
+   }
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "¿Qué se hace en Hokkaido en invierno? Díselo a Kage con dos ejemplos:",
+    "en": "What do people do in Hokkaido in winter? Tell Kage with two examples:"
+   },
+   "opciones": [
+    {
+     "jp": "スキーを したり、 雪[ゆき]まつりに 行[い]ったり します。",
+     "bien": true,
+     "tr": {
+      "es": "Se esquía, se va al festival de la nieve…",
+      "en": "People ski, go to the snow festival…"
+     },
+     "voz": "h9",
+     "porque": {
+      "es": "Dos ejemplos con たり y la lista se cierra con する (します).",
+      "en": "Two examples with たり, and the list closes with する (します)."
+     }
+    },
+    {
+     "jp": "スキーを したり、 雪[ゆき]まつりに 行[い]きます。",
+     "bien": false,
+     "porque": {
+      "es": "Si empiezas la lista con たり, ciérrala con otro たり y する: 行ったりします. Si no, se queda coja.",
+      "en": "If you start the list with たり, close it with another たり and する: 行ったりします. Otherwise it limps."
+     }
+    },
+    {
+     "jp": "スキーを しりたり、 雪[ゆき]まつりに 行[い]ったり します。",
+     "bien": false,
+     "porque": {
+      "es": "La たり de する sale de su pasado した: したり.",
+      "en": "The たり of する comes from its past した: したり."
+     }
+    }
+   ],
+   "cara": "pensando",
+   "escena": {
+    "fondo": "salon",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 320
+     }
+    ]
+   }
+  }
+ ],
+ "epilogo": [
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "おやすみなさい！",
+   "tr": {
+    "es": "¡Buenas noches!",
+    "en": "Good night!"
+   },
+   "voz": "x1",
+   "cara": "sueno",
+   "escena": {
+    "fondo": "salon",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 90
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 310
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "おやすみ… はっくしょん！",
+   "tr": {
+    "es": "Buenas noches… ¡achís!",
+    "en": "Night… achoo!"
+   },
+   "voz": "x2",
+   "cara": "sueno"
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta la frase: la escena hará lo que digas.",
+   "en": "Build the sentence: the scene will do what you say."
+  },
+  "piezas": [
+   {
+    "id": "mafura",
+    "jp": "マフラー",
+    "tipo": "palabra"
+   },
+   {
+    "id": "wo",
+    "jp": "を",
+    "tipo": "particula"
+   },
+   {
+    "id": "shinaide",
+    "jp": "しないで",
+    "tipo": "verbo"
+   },
+   {
+    "id": "shite",
+    "jp": "して",
+    "tipo": "verbo"
+   },
+   {
+    "id": "shinakute",
+    "jp": "しなくて",
+    "tipo": "verbo"
+   },
+   {
+    "id": "dekakemashita",
+    "jp": "出[で]かけました",
+    "tipo": "verbo"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Nyan lo confiesa: «Salí sin (ponerme) la bufanda».",
+     "en": "Nyan confesses: «I went out without my scarf»."
+    },
+    "escena": {
+     "fondo": "salon",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 90
+      },
+      {
+       "que": "bufanda",
+       "x": 200,
+       "y": 134,
+       "id": "bufanda",
+       "s": 0.9
+      },
+      {
+       "que": "gato",
+       "id": "tama",
+       "x": 310
+      }
+     ]
+    },
+    "piezas": [
+     "mafura",
+     "wo",
+     "shinaide",
+     "shite",
+     "shinakute",
+     "dekakemashita"
+    ],
+    "bien": [
+     [
+      "mafura",
+      "wo",
+      "shinaide",
+      "dekakemashita"
+     ]
+    ],
+    "tr": {
+     "es": "Salí sin la bufanda.",
+     "en": "I went out without my scarf."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "brilla",
+      "objeto": "bufanda"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "triste",
+      "manpu": "sudor"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "shite"
+       ]
+      },
+      "efecto": {
+       "tipo": "manpu",
+       "objeto": "tama",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "«Me puse la bufanda y salí»: ¡eso no es lo que pasó! Para «sin», el verbo va en ない + で: しないで.",
+       "en": "«I put on my scarf and went out»: that's not what happened! For «without», the verb goes in ない + で: しないで."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "shinakute"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "なくて da una causa («como no…»). Para «sin hacer algo», ないで: しないで出かけました.",
+       "en": "なくて gives a cause («since I didn't…»). For «without doing», ないで: しないで出かけました."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "reto": {
+  "intro": {
+   "jp": "ふん。 寝[ね]る 前[まえ]に 勝負[しょうぶ]だ。 逃[に]げないで 来[こ]い！",
+   "tr": {
+    "es": "Hmpf. Un duelo antes de dormir. ¡Ven y no huyas!",
+    "en": "Hmph. A duel before bed. Come and don't run!"
+   },
+   "voz": "k0"
+  },
+  "gana": {
+   "jp": "…くっ。 寝[ね]たり 食[た]べたり して いるのに、 強[つよ]いな。",
+   "tr": {
+    "es": "…Tsk. Tanto dormir y comer, y aun así eres fuerte.",
+    "en": "…Tch. All that sleeping and eating, and you're still strong."
+   },
+   "voz": "kw"
+  },
+  "pierde": {
+   "jp": "ふん。 マフラーを しないで 出[で]かけるからだ。",
+   "tr": {
+    "es": "Hmpf. Eso te pasa por salir sin bufanda.",
+    "en": "Hmph. That's what you get for going out without a scarf."
+   },
+   "voz": "kl"
+  },
+  "pica": {
+   "jp": "…やるな。",
+   "tr": {
+    "es": "…No está mal.",
+    "en": "…Not bad."
+   },
+   "voz": "kp"
+  },
+  "burla": {
+   "jp": "ふん！",
+   "tr": {
+    "es": "¡Ja!",
+    "en": "Hah!"
+   },
+   "voz": "kb"
+  },
+  "preguntas": [
+   {
+    "tipo": "elige",
+    "jp": "日曜日[にちようび]は 本[ほん]を 読[よ]んだり、 寝[ね]＿ します。",
+    "opciones": [
+     "たり",
+     "て",
+     "ないで"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Los domingos leo, duermo…",
+     "en": "On Sundays I read, sleep…"
+    },
+    "porque": {
+     "es": "La lista de たり se cierra con otro たり y する.",
+     "en": "A たり list closes with another たり and する."
+    },
+    "voz": "q1"
+   },
+   {
+    "tipo": "elige",
+    "jp": "朝[あさ]ご飯[はん]を 食[た]べ＿ 学校[がっこう]に 行[い]きました。",
+    "opciones": [
+     "ないで",
+     "たり",
+     "ましょう"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Fui al cole sin desayunar.",
+     "en": "I went to school without breakfast."
+    },
+    "porque": {
+     "es": "ない + で: hacer algo SIN hacer otra cosa.",
+     "en": "ない + で: doing something WITHOUT doing something else."
+    },
+    "voz": "q2"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "傘[かさ]を 持[も]たないで 出[で]かけました。",
+    "correcta": true,
+    "tr": {
+     "es": "Salí sin paraguas.",
+     "en": "I went out without an umbrella."
+    },
+    "porque": {
+     "es": "Bien: 持たない + で, «sin llevar».",
+     "en": "Right: 持たない + で, «without taking»."
+    },
+    "voz": "q3"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "映画[えいが]を 見[み]たり、 買[か]い物[もの]を したり です。",
+    "correcta": false,
+    "tr": {
+     "es": "(Veo pelis, voy de compras…)",
+     "en": "(I watch films, go shopping…)"
+    },
+    "porque": {
+     "es": "Los たり se cierran con する (します, しました), no con です.",
+     "en": "たり lists close with する (します, しました), not です."
+    },
+    "voz": "q4"
+   },
+   {
+    "tipo": "oye",
+    "jp": "歯[は]を 磨[みが]かないで 寝[ね]ました。",
+    "habla": "kage",
+    "opciones": [
+     {
+      "es": "Me dormí sin lavarme los dientes.",
+      "en": "I went to bed without brushing my teeth."
+     },
+     {
+      "es": "Me lavé los dientes y me dormí.",
+      "en": "I brushed my teeth and went to bed."
+     },
+     {
+      "es": "No he dormido nada.",
+      "en": "I didn't sleep at all."
+     }
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "磨かないで: sin lavarse; 寝ました: se durmió.",
+     "en": "磨かないで: without brushing; 寝ました: went to sleep."
+    },
+    "voz": "q5"
+   },
+   {
+    "tipo": "imagen",
+    "jp": "マフラーを しないで 出[で]かけました。",
+    "opciones": [
+     "bufanda",
+     "paraguas",
+     "zapato"
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "マフラー: la bufanda que Nyan se dejó.",
+     "en": "マフラー: the scarf Nyan left behind."
+    },
+    "pide": {
+     "es": "¿Qué se dejó?",
+     "en": "What did he leave behind?"
+    }
+   }
+  ]
+ },
+ "siguiente": {
+  "es": "Mañana, excursión a una granja de patatas… ¡y resulta que es la de la familia de Pon! Pero allí hay normas.",
+  "en": "Tomorrow, a trip to a potato farm… and it turns out to be Pon's family's! But there are rules there."
+ },
+ "chuleta": {
+  "patron": {
+   "es": "〔pasado〕り、〔pasado〕り する ・ 〔verbo〕ないで",
+   "en": "〔past〕り、〔past〕り する ・ 〔verb〕ないで"
+  },
+  "patron_tr": {
+   "es": "cosas como… ・ sin hacer…",
+   "en": "things like… ・ without doing…"
+  },
+  "filas": [
+   {
+    "jp": "本[ほん]を 読[よ]んだり、 寝[ね]たり しました。",
+    "es": "Leí, dormí… (y tal).",
+    "en": "I read, slept… (and so on).",
+    "registro": "educado"
+   },
+   {
+    "jp": "何[なに]も 食[た]べないで 来[き]た！",
+    "es": "¡He venido sin comer nada! (a un amigo)",
+    "en": "I came without eating anything! (to a friend)",
+    "registro": "amigos"
+   },
+   {
+    "jp": "傘[かさ]を 持[も]たないで 出[で]かけました。",
+    "es": "Salí sin paraguas.",
+    "en": "I went out without an umbrella."
+   }
+  ],
+  "consejo": {
+   "es": "Cuando te pregunten «¿qué hiciste el finde?», たり es la respuesta perfecta: das dos ejemplos y dejas el resto a la imaginación.",
+   "en": "When asked «what did you do at the weekend?», たり is the perfect answer: two examples and the rest left to the imagination."
+  }
+ }
+}

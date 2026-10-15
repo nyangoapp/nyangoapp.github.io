@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="es" class="es-movil">
+<head>
+<script>window.__t = { ini: performance.now() }</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nyango · ニャン語</title>
+<meta name="description" content="Nyango: habla en miau, habla japonés. Aprende japonés desde cero con Nyan.">
+<link rel="icon" type="image/svg+xml" href="/img/marca/nyango/icono-mini.svg">
+<link rel="apple-touch-icon" href="/img/marca/nyango/icono-256.png">
+<meta name="theme-color" content="#f1e6d0">
+<script>(function () {
+  // el tema (Washi · Noche · Pop · Sumi · Auto) va en <html data-tema> ANTES de pintar: lo guardado en este teléfono ('nyango-tema'); «auto» sigue al sistema
+  var COL = { washi: '#f1e6d0', noche: '#0f1115', pop: '#f3f4f7', sumi: '#f6f5f2' }, h = document.documentElement, mq = matchMedia('(prefers-color-scheme: dark)');
+  function poner() {
+    var v = 'washi'; try { var g = localStorage.getItem('nyango-tema'); if (/^(washi|noche|pop|sumi|auto)$/.test(g)) v = g; } catch (e) { /* sin almacenamiento: Washi */ }
+    var t = v === 'auto' ? (mq.matches ? 'noche' : 'washi') : v; h.setAttribute('data-tema', t); h.setAttribute('data-tema-elegido', v);
+    var m = document.querySelector('meta[name="theme-color"]'); if (m) m.content = COL[t];
+  }
+  poner(); if (mq.addEventListener) mq.addEventListener('change', poner); else if (mq.addListener) mq.addListener(poner);
+  addEventListener('storage', function (e) { if (e.key === 'nyango-tema') poner(); });
+})();</script>
+<link rel="stylesheet" href="/css/temas.css">
+<link rel="manifest" href="/manifest.webmanifest">
+<meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Nyango">
+<script>window.NYANGO_LOCAL = true; window.NYANGO_SW = '17439bc1fe'; </script>
+<script type="importmap">{ "imports": {
+  "three": "/vendor/three/build/three.module.js",
+  "three/addons/": "/vendor/three/addons/",
+  "gsap": "/vendor/gsap/index.js",
+  "gsap/": "/vendor/gsap/"
+} }</script>
+<style>
+/* Nyango en el teléfono: la entrada (index.html manda aquí a los móviles). La pantalla de carga es toda dibujo (SVG y CSS,
+   sin una sola imagen) para que salga al instante y no gaste memoria: el sol, kana que suben, Nyan botando, el logo y una
+   barra que avanza de verdad (js/movil/app.js llama a __carga en cada paso del arranque). */
+html, body { margin: 0; height: 100%; background: var(--fondo); overscroll-behavior: none; -webkit-tap-highlight-color: transparent; }
+#intro { position: fixed; inset: 0; z-index: 9999; overflow: hidden; display: flex; flex-direction: column; align-items: center; justify-content: center;
+  padding: env(safe-area-inset-top, 0px) 0 env(safe-area-inset-bottom, 0px); color: var(--tinta);
+  background: radial-gradient(120% 75% at 50% 36%, var(--sup) 0, var(--fondo) 48%, var(--fondo-2) 100%); transition: opacity .45s ease, transform .45s ease; }
+#intro.fuera { opacity: 0; transform: scale(1.04); pointer-events: none; }
+#intro * { box-sizing: border-box; }
+/* el sol de detrás, con rayos que giran despacio */
+#intro .c-escena { position: relative; width: min(58vw, 36vh); aspect-ratio: 1; margin-top: -6vh; }
+#intro .c-sol { position: absolute; inset: -42%; border-radius: 50%; background: radial-gradient(circle, color-mix(in srgb, var(--acento) 32%, var(--fondo)) 0 34%, color-mix(in srgb, var(--acento) 18%, var(--fondo)) 35% 46%, transparent 66%); }
+#intro .c-rayos { position: absolute; inset: -60%; border-radius: 50%; opacity: .55; will-change: transform; animation: c-gira 48s linear infinite;
+  background: repeating-conic-gradient(from 0deg, color-mix(in srgb, var(--acento) 26%, var(--fondo)) 0 7deg, transparent 7deg 18deg);
+  -webkit-mask-image: radial-gradient(circle, #000 18%, transparent 68%); mask-image: radial-gradient(circle, #000 18%, transparent 68%); }
+/* kana que suben como burbujas */
+#intro .c-kana { position: absolute; inset: 0; pointer-events: none; }
+#intro .c-kana span { position: absolute; bottom: 8%; left: var(--x); font: 700 var(--s, 8vw) var(--f-jp);
+  color: var(--c, color-mix(in srgb, var(--acento) 62%, var(--fondo))); opacity: 0; will-change: transform, opacity; animation: c-sube var(--t, 7s) var(--d, 0s) ease-in-out infinite; }
+/* Nyan, botando sobre su sombra, y parpadea */
+#intro .c-nyan { position: absolute; inset: 0; }
+#intro .c-salto { position: absolute; inset: 4% 4% 10%; transform-origin: 50% 100%; will-change: transform; animation: c-bota 1.15s cubic-bezier(.45, 0, .55, 1) infinite; }
+#intro .c-salto svg { display: block; width: 100%; height: 100%; overflow: visible; filter: drop-shadow(0 .6vh 0 color-mix(in srgb, var(--acento-tinta) 22%, transparent)); }
+#intro .c-ojos { transform-box: fill-box; transform-origin: 50% 50%; animation: c-parpadea 3.4s 1s infinite; }
+#intro .c-sombra { position: absolute; left: 26%; right: 26%; bottom: 4%; height: 7%; border-radius: 50%; background: color-mix(in srgb, var(--velo) 55%, transparent);
+  will-change: transform, opacity; animation: c-sombra 1.15s cubic-bezier(.45, 0, .55, 1) infinite; }
+/* el logo (las letras son trazos: no esperan a ninguna fuente) */
+#intro .c-logo { position: relative; text-align: center; margin-top: 2vh; }
+#intro .c-logo h1 { margin: 0; font-size: min(15.5vw, 9.5vh); line-height: 0; white-space: nowrap; }
+#intro .c-l { display: inline-block; vertical-align: top; margin: 0 -.04em; transform-origin: 50% 90%; will-change: transform;
+  animation: c-letra .55s calc(var(--i) * .08s + .1s) cubic-bezier(.3, 1.7, .5, 1) both, c-mece 2.4s calc(var(--i) * .22s + 1s) ease-in-out infinite alternate; }
+#intro .c-l svg { display: block; overflow: visible; filter: drop-shadow(0 .06em 0 #b8470f); }   /* arte: la sombra del logo */
+#intro .c-l:nth-child(odd) svg { transform: rotate(-5deg); } #intro .c-l:nth-child(even) svg { transform: rotate(4deg) translateY(.05em); }
+#intro .c-logo p { margin: .2em 0 0; font: 800 min(3.4vw, 2vh) var(--f-texto); letter-spacing: .4em; text-indent: .4em; color: var(--acento-tinta);
+  animation: c-aparece .5s .6s ease-out both; }
+#intro .c-logo p i { font-style: normal; color: var(--aviso); margin: 0 .3em; }
+/* la barra: avanza con el arranque; la huella va en la punta */
+#intro .c-pie { position: absolute; left: 0; right: 0; bottom: calc(env(safe-area-inset-bottom, 0px) + max(28px, 7vh)); display: flex; flex-direction: column; align-items: center; gap: 12px;
+  animation: c-aparece .5s .4s ease-out both; }
+#intro .c-barra { position: relative; width: min(64vw, 300px); height: 12px; border-radius: 99px; background: var(--sup-3); box-shadow: inset 0 0 0 1px var(--linea); }
+#intro .c-relleno { position: absolute; inset: 0; border-radius: inherit; background: var(--acento); transform-origin: 0 50%; transform: scaleX(.04);
+  transition: transform .25s linear; }
+#intro .c-pata { position: absolute; left: -13px; top: -8px; width: 28px; height: 28px; transition: transform .25s linear; }
+#intro .c-pata svg { display: block; width: 100%; height: 100%; animation: c-pisa .5s ease-in-out infinite alternate; }
+#intro .c-texto { margin: 0; min-height: 1.3em; font: 700 14px var(--f-texto); letter-spacing: .04em; color: var(--tinta-2); }
+@keyframes c-gira { to { transform: rotate(1turn); } }
+@keyframes c-sube { 0% { opacity: 0; transform: translateY(0) rotate(-8deg); } 15% { opacity: .9; } 50% { transform: translateY(-34vh) translateX(3vw) rotate(6deg); }
+  85% { opacity: .7; } 100% { opacity: 0; transform: translateY(-62vh) translateX(-2vw) rotate(-4deg); } }
+@keyframes c-bota { 0%, 100% { transform: translateY(0) scale(1.08, .92); } 14% { transform: translateY(-3%) scale(.95, 1.06); }
+  50% { transform: translateY(-21%) scale(1, 1) rotate(-3deg); } 84% { transform: translateY(-2%) scale(.97, 1.04) rotate(1deg); } }
+@keyframes c-sombra { 0%, 100% { transform: scale(1.05); opacity: 1; } 50% { transform: scale(.62); opacity: .45; } }
+@keyframes c-parpadea { 0%, 90%, 100% { transform: none; } 94% { transform: scaleY(.12); } }
+@keyframes c-letra { from { opacity: 0; transform: scale(.2) translateY(40%); } to { opacity: 1; transform: none; } }
+@keyframes c-mece { from { transform: none; } to { transform: translateY(-.05em) rotate(2deg); } }
+@keyframes c-aparece { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+@keyframes c-pisa { from { transform: rotate(-12deg) translateY(0); } to { transform: rotate(10deg) translateY(-3px); } }
+@media (prefers-reduced-motion: reduce) { #intro *, #intro { animation: none !important; transition: none !important; } #intro .c-kana { display: none; } }
+</style>
+</head>
+<body>
+<div id="intro" role="progressbar" aria-label="Nyango" aria-valuemin="0" aria-valuemax="100" aria-valuenow="4">
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><linearGradient id="c-naranja" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="1000">
+<stop offset="0" stop-color="#ffc043"/><stop offset=".42" stop-color="#ff9a2e"/><stop offset=".7" stop-color="#f2661b"/><stop offset="1" stop-color="#e04e12"/></linearGradient></defs></svg>
+<div class="c-escena" aria-hidden="true">
+<div class="c-sol"><i class="c-rayos"></i></div>
+<div class="c-kana"><span style="--x:-18%;--d:0s;--t:7.5s">あ</span><span style="--x:92%;--d:1.2s;--t:8s;--c:color-mix(in srgb, var(--acento) 42%, var(--fondo));--s:6vw">ニ</span><span style="--x:4%;--d:2.6s;--t:6.8s;--c:color-mix(in srgb, var(--mal) 48%, var(--fondo));--s:7vw">ゃ</span><span style="--x:104%;--d:3.4s;--t:7.2s;--c:color-mix(in srgb, var(--aviso) 58%, var(--fondo))">ン</span><span style="--x:-30%;--d:4.6s;--t:8.4s;--c:color-mix(in srgb, var(--acento) 42%, var(--fondo));--s:6.5vw">か</span><span style="--x:80%;--d:5.5s;--t:6.6s;--c:color-mix(in srgb, var(--mal) 48%, var(--fondo));--s:7.5vw">ご</span></div>
+<div class="c-nyan"><i class="c-sombra"></i><div class="c-salto">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" aria-hidden="true">
+<g transform="translate(0 -6)"><g class="cara">
+  <defs>
+    <clipPath id="cm-cab"><path d="M46 94 C72 84 184 84 210 94 C230 102 238 146 236 176 C233 214 190 230 128 230 C66 230 23 214 20 176 C18 146 26 102 46 94 Z"/></clipPath>
+    <clipPath id="cm-od"><path d="M232 150 C230 108 216 64 198 36 C194 29 186 28 181 33 C161 54 144 74 128 98 Z"/></clipPath>
+    <radialGradient id="cm-vol" cx=".42" cy=".3" r=".8"><stop offset=".55" stop-color="#7a4a1c" stop-opacity="0"/><stop offset="1" stop-color="#7a4a1c" stop-opacity=".2"/></radialGradient>
+  </defs>
+  <g transform="translate(0 7)" fill="#d9c29a" stroke="#d9c29a" stroke-width="34" stroke-linejoin="round"><path d="M24 150 C26 108 40 64 58 36 C62 29 70 28 75 33 C95 54 112 74 128 98 Z"/><path d="M232 150 C230 108 216 64 198 36 C194 29 186 28 181 33 C161 54 144 74 128 98 Z"/><path d="M46 94 C72 84 184 84 210 94 C230 102 238 146 236 176 C233 214 190 230 128 230 C66 230 23 214 20 176 C18 146 26 102 46 94 Z"/></g>
+  <g fill="#fff7e8" stroke="#fff7e8" stroke-width="34" stroke-linejoin="round"><path d="M24 150 C26 108 40 64 58 36 C62 29 70 28 75 33 C95 54 112 74 128 98 Z"/><path d="M232 150 C230 108 216 64 198 36 C194 29 186 28 181 33 C161 54 144 74 128 98 Z"/><path d="M46 94 C72 84 184 84 210 94 C230 102 238 146 236 176 C233 214 190 230 128 230 C66 230 23 214 20 176 C18 146 26 102 46 94 Z"/></g>
+  <g fill="#231811" stroke="#231811" stroke-width="10" stroke-linejoin="round"><path d="M24 150 C26 108 40 64 58 36 C62 29 70 28 75 33 C95 54 112 74 128 98 Z"/><path d="M232 150 C230 108 216 64 198 36 C194 29 186 28 181 33 C161 54 144 74 128 98 Z"/><path d="M46 94 C72 84 184 84 210 94 C230 102 238 146 236 176 C233 214 190 230 128 230 C66 230 23 214 20 176 C18 146 26 102 46 94 Z"/></g>
+  <path d="M24 150 C26 108 40 64 58 36 C62 29 70 28 75 33 C95 54 112 74 128 98 Z" fill="#f39a3a"/><path d="M44 118 C47 94 55 70 64 56 C78 71 92 86 104 102 C86 106 62 111 44 118 Z" fill="#f7c79a"/>
+  <path d="M232 150 C230 108 216 64 198 36 C194 29 186 28 181 33 C161 54 144 74 128 98 Z" fill="#fffaf2"/><path d="M212 118 C209 94 201 70 192 56 C178 71 164 86 152 102 C170 106 194 111 212 118 Z" fill="#fcd6a6"/>
+  <path d="M46 94 C72 84 184 84 210 94 C230 102 238 146 236 176 C233 214 190 230 128 230 C66 230 23 214 20 176 C18 146 26 102 46 94 Z" fill="#fffaf2"/>
+  <g clip-path="url(#cm-cab)"><path d="M46 94 C72 84 184 84 210 94 C230 102 238 146 236 176 C233 214 190 230 128 230 C66 230 23 214 20 176 C18 146 26 102 46 94 Z" fill="url(#cm-vol)"/></g>
+  <path d="M58 110 C72 92 94 82 116 79" fill="none" stroke="#fff" stroke-opacity=".75" stroke-width="7" stroke-linecap="round"/>
+  <g class="c-ojos">
+  <ellipse cx="92" cy="150" rx="12.5" ry="16.5" fill="#231811"/><ellipse cx="164" cy="150" rx="12.5" ry="16.5" fill="#231811"/>
+  <circle cx="87.5" cy="143" r="5.5" fill="#fff"/><circle cx="159.5" cy="143" r="5.5" fill="#fff"/>
+  <circle cx="96.5" cy="158" r="2.4" fill="#fff"/><circle cx="168.5" cy="158" r="2.4" fill="#fff"/>
+  </g>
+  <ellipse cx="60" cy="178" rx="18" ry="10.5" fill="#f59a9a"/><ellipse cx="196" cy="178" rx="18" ry="10.5" fill="#f59a9a"/>
+  <g stroke="#fff" stroke-opacity=".85" stroke-width="3" stroke-linecap="round"><path d="M53 173 l-4 8 M61 173 l-4 8 M69 173 l-4 8 M189 173 l-4 8 M197 173 l-4 8 M205 173 l-4 8"/></g>
+  <path d="M113 171 Q120.5 183 128 172 Q135.5 183 143 171" fill="none" stroke="#231811" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g></g>
+</svg>
+</div></div>
+</div>
+<div class="c-logo"><h1 lang="ja" aria-label="ニャン語"><span class="c-l" style="--i:0"><svg viewBox="-46 -46 1092 1540" width="1.092em" height="1.54em" aria-hidden="true"><path d="M181 648 148 483Q186 469 240.0 458.5Q294 448 357.0 440.5Q420 433 486.0 429.0Q552 425 614 425Q679 425 735.5 429.5Q792 434 829 444L819 613Q779 603 728.0 599.0Q677 595 621 595Q542 595 459.5 602.0Q377 609 304.0 621.0Q231 633 181 648ZM70 1110 67 938Q143 954 235.5 963.0Q328 972 426 972Q517 972 607.5 964.0Q698 956 780.5 940.0Q863 924 930 900L939 1077Q843 1112 714.5 1128.5Q586 1145 452 1145Q349 1145 250.5 1136.0Q152 1127 70 1110Z" fill="url(#c-naranja)" stroke="#fff8ec" stroke-width="92" stroke-linejoin="round" paint-order="stroke fill"/></svg></span><span class="c-l" style="--i:1"><svg viewBox="-46 -46 1092 1540" width="1.092em" height="1.54em" aria-hidden="true"><path d="M503 1243Q462 1194 422.0 1129.5Q382 1065 345.5 992.5Q309 920 279 846Q255 859 230.0 873.0Q205 887 180 903L101 773Q133 754 165.0 736.5Q197 719 227 704Q214 661 204.0 621.5Q194 582 189 548L332 497Q336 529 344.5 565.5Q353 602 365 641Q465 601 542.5 581.0Q620 561 667.5 554.5Q715 548 725 548Q790 548 829.5 583.5Q869 619 869 678Q869 704 855.0 752.5Q841 801 804.5 865.0Q768 929 702 1001L573 914Q609 880 639.0 842.0Q669 804 687.0 771.5Q705 739 705 723Q705 702 680 702Q671 702 645.5 708.0Q620 714 585 724Q551 734 508.0 748.0Q465 762 416 783Q447 860 485.0 934.0Q523 1008 562.5 1068.5Q602 1129 639 1166Z" fill="url(#c-naranja)" stroke="#fff8ec" stroke-width="92" stroke-linejoin="round" paint-order="stroke fill"/></svg></span><span class="c-l" style="--i:2"><svg viewBox="-46 -46 1092 1540" width="1.092em" height="1.54em" aria-hidden="true"><path d="M373 711Q324 646 261.5 592.0Q199 538 134 501L249 379Q311 416 376.0 468.0Q441 520 496 591ZM561 1141Q488 1179 434.0 1191.0Q380 1203 343 1203Q148 1203 95 992L246 924Q260 981 286.0 1007.0Q312 1033 351 1033Q367 1033 405.0 1023.0Q443 1013 495.5 987.5Q548 962 608.0 916.0Q668 870 728.0 799.0Q788 728 840 626L967 743V744Q943 792 901.5 847.0Q860 902 806.5 956.5Q753 1011 690.5 1058.5Q628 1106 561 1141Z" fill="url(#c-naranja)" stroke="#fff8ec" stroke-width="92" stroke-linejoin="round" paint-order="stroke fill"/></svg></span><span class="c-l" style="--i:3"><svg viewBox="-46 -46 1092 1540" width="1.092em" height="1.54em" aria-hidden="true"><path d="M979 704V830H393V704H511Q515 686 518.5 666.5Q522 647 525 627H449V505H544L551 452H433V329H942V452H692L684 505H895V704ZM369 442H80V334H369ZM404 588H25V475H404ZM367 730H74V622H367ZM665 627Q661 647 658.0 666.5Q655 686 651 704H756V627ZM74 764H367V872H74ZM465 870H914V1251H772V1221H601V1255H465ZM376 1219H191V1255H70V908H376ZM601 999V1092H772V999ZM191 1021V1106H253V1021Z" fill="url(#c-naranja)" stroke="#fff8ec" stroke-width="92" stroke-linejoin="round" paint-order="stroke fill"/></svg></span></h1><p>NYAN<i>★</i>GO</p></div>
+<div class="c-pie"><div class="c-barra"><i class="c-relleno"></i><span class="c-pata" aria-hidden="true"><svg viewBox="0 0 32 32"><g style="fill: var(--acento); stroke: var(--sup)" stroke-width="2.4" paint-order="stroke">
+<ellipse cx="16" cy="21" rx="7.5" ry="6.4"/><ellipse cx="7.2" cy="13.6" rx="3" ry="3.7" transform="rotate(-18 7.2 13.6)"/><ellipse cx="12.6" cy="8.6" rx="3" ry="3.8" transform="rotate(-6 12.6 8.6)"/>
+<ellipse cx="19.4" cy="8.6" rx="3" ry="3.8" transform="rotate(6 19.4 8.6)"/><ellipse cx="24.8" cy="13.6" rx="3" ry="3.7" transform="rotate(18 24.8 13.6)"/></g></svg></span></div>
+<p class="c-texto"></p></div>
+<script>(function () {
+  // la barra avanza hasta el último paso que ha anunciado la app (__carga) y, mientras espera el siguiente, sigue un poco:
+  // nunca se queda quieta, pero tampoco llega al final antes de tiempo
+  var en = !/^es/i.test(navigator.language || ''), T = en ? ['Waking Nyan up…', 'Sorting your cards…', 'Almost there!'] : ['Despertando a Nyan…', 'Ordenando tus tarjetas…', '¡Ya casi!'];
+  var el = document.getElementById('intro'), rel = el.querySelector('.c-relleno'), pata = el.querySelector('.c-pata'), barra = el.querySelector('.c-barra'), txt = el.querySelector('.c-texto');
+  var visto = 0.04, meta = 0.15, ultimo = -1;
+  function pinta() {
+    rel.style.transform = 'scaleX(' + visto.toFixed(3) + ')'; pata.style.transform = 'translateX(' + Math.round(visto * barra.clientWidth) + 'px)';
+    var k = visto < 0.4 ? 0 : visto < 0.78 ? 1 : 2; if (k !== ultimo) { ultimo = k; txt.textContent = T[k]; }
+    el.setAttribute('aria-valuenow', Math.round(visto * 100));
+  }
+  window.__carga = function (p) { meta = Math.max(meta, Math.min(1, p)); if (meta >= 1) { visto = 1; pinta(); } };
+  var reloj = setInterval(function () {
+    if (!el.isConnected) return clearInterval(reloj);
+    if (meta >= 1) return;
+    var techo = Math.min(meta + 0.14, 0.96); visto += (techo - visto) * (visto < meta ? 0.35 : 0.04); pinta();
+  }, 220);
+  pinta();
+})();</script>
+</div>
+<script>(function () {
+  // la app (sus hojas y su módulo) se pide cuando la pantalla de carga ya está pintada
+  function arrancar() {
+    [['/vendor/fuentes/fuentes.css'], ['/css/movil.css', 'css-movil']].forEach(function (h) { var l = document.createElement('link'); l.rel = 'stylesheet'; l.href = h[0]; if (h[1]) l.id = h[1]; document.head.appendChild(l); });
+    var principal = '/js/movil/app.js';
+    var m = document.createElement('script'); m.type = 'module'; m.src = principal; document.body.appendChild(m);
+    // la web publicada se instala y abre sin conexión (sw.js); en desarrollo no hay
+    if (window.NYANGO_SW && 'serviceWorker' in navigator && window.isSecureContext) navigator.serviceWorker.register('/sw.js').catch(function () {});
+  }
+  if (document.readyState === 'complete') setTimeout(arrancar, 0); else addEventListener('load', function () { setTimeout(arrancar, 0); });
+})();</script>
+</body>
+</html>

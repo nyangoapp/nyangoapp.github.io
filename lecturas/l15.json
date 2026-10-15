@@ -1,0 +1,52 @@
+{
+ "id": "l15", "desde": 1200,
+ "titulo": {"jp": "ニャンの 誕生日[たんじょうび]", "es": "El cumpleaños de Nyan", "en": "Nyan's birthday"},
+ "resumen": {"es": "Una fiesta sorpresa, una tarta, y a Nyan lo hacen cantar delante de todos.", "en": "A surprise party, a cake, and Nyan is made to sing in front of everyone."},
+ "portada": {"fondo": "cuarto", "cosas": [{"que": "nyan", "x": 100, "cara": "sorpresa"}, {"que": "gato", "x": 190}, {"que": "regalo", "x": 300}]},
+ "texto": [
+   {"voz": "t1", "quien": "narrador", "jp": "今日[きょう]は ニャンの 誕生日[たんじょうび]だった。", "es": "Hoy era el cumpleaños de Nyan.", "en": "Today was Nyan's birthday."},
+   {"voz": "t2", "quien": "narrador", "jp": "ニャンは いつもと 同[おな]じように、 公園[こうえん]で 昼寝[ひるね]を して いた。", "es": "Nyan, como siempre, estaba echando la siesta en el parque.", "en": "Nyan, as usual, was taking a nap in the park."},
+   {"voz": "t3", "quien": "narrador", "jp": "実[じつ]は、 タマが みんなを 招待[しょうたい]して いた。", "es": "En realidad, Tama había invitado a todo el mundo.", "en": "In fact, Tama had invited everyone."},
+   {"voz": "t4", "quien": "narrador", "jp": "夕方[ゆうがた]、 タマが ニャンを 呼[よ]びに 来[き]た。", "es": "Al atardecer, Tama vino a buscar a Nyan.", "en": "In the evening, Tama came to fetch Nyan."},
+   {"voz": "t5", "quien": "tama", "jp": "ニャン、 ちょっと 来[き]て！ 大事[だいじ]な 話[はなし]が あるんだ。", "es": "¡Nyan, ven un momento! Tengo algo importante que decirte.", "en": "Nyan, come here a sec! I've got something important to tell you."},
+   {"voz": "t6", "quien": "narrador", "jp": "ニャンが タマの 家[いえ]に 着[つ]くと、 部屋[へや]の 電気[でんき]が 消[き]えて いた。", "es": "Cuando Nyan llegó a casa de Tama, la luz de la habitación estaba apagada.", "en": "When Nyan got to Tama's house, the room's light was off."},
+   {"voz": "t7", "quien": "narrador", "jp": "ドアを 開[あ]けると、 全員[ぜんいん]が 立[た]って、 大[おお]きな 声[こえ]で 「ニャン！」と 呼[よ]んだ。", "es": "Al abrir la puerta, todos se pusieron de pie y gritaron a la vez: «¡Nyan!»", "en": "When he opened the door, everyone stood up and shouted \"Nyan!\" all at once."},
+   {"voz": "t8", "quien": "narrador", "jp": "ニャンは とても びっくり した。", "es": "Nyan se llevó una gran sorpresa.", "en": "Nyan was very surprised."},
+   {"voz": "t9", "quien": "nyan", "jp": "えっ！？ みんな、 ここに いたの！？", "es": "¿Eh!? ¿Estabais todos aquí!?", "en": "Huh!? You were all here!?"},
+   {"voz": "t10", "quien": "narrador", "jp": "部屋[へや]には、 ニャンの ために 作[つく]られた ケーキが あった。", "es": "En la habitación había una tarta hecha especialmente para Nyan.", "en": "In the room there was a cake made especially for Nyan."},
+   {"voz": "t11", "quien": "tama", "jp": "さあ、 ニャン。 みんなの 前[まえ]で 歌[うた]を 歌[うた]って！", "es": "Venga, Nyan. ¡Canta una canción delante de todos!", "en": "Come on, Nyan. Sing a song in front of everyone!"},
+   {"voz": "t12", "quien": "nyan", "jp": "えっ、 恥[は]ずかしいよ…。", "es": "Eh, qué vergüenza…", "en": "Eh, that's embarrassing..."},
+   {"voz": "t13", "quien": "narrador", "jp": "でも、 ニャンは みんなに 歌[うた]わせられた。", "es": "Pero todos hicieron que Nyan cantara.", "en": "But Nyan was made to sing by everyone."},
+   {"voz": "t14", "quien": "narrador", "jp": "歌[うた]い 終[お]わると、 全員[ぜんいん]が 手[て]を たたいた。", "es": "Cuando terminó de cantar, todos aplaudieron.", "en": "When he finished singing, everyone clapped."},
+   {"voz": "t15", "quien": "tama", "jp": "上手[じょうず]だったよ！", "es": "¡Lo has hecho genial!", "en": "You did great!"},
+   {"voz": "t15b", "quien": "narrador", "jp": "カゲも 来[き]て いた。", "es": "Kage también había venido.", "en": "Kage had come too."},
+   {"voz": "t15c", "quien": "kage", "jp": "ふん…。 まあ、 悪[わる]く ない 歌[うた]だった。", "es": "Hmpf… Bueno, no ha estado mal la canción.", "en": "Hmph… Well, that song wasn't bad."},
+   {"voz": "t16", "quien": "nyan", "jp": "ありがとう。 でも、 もう したくない…。", "es": "Gracias. Pero no quiero volver a hacerlo…", "en": "Thanks. But I don't want to do it again..."},
+   {"voz": "t17", "quien": "narrador", "jp": "その 後[あと]、 みんなで ケーキを 食[た]べた。", "es": "Después, todos juntos comieron la tarta.", "en": "After that, everyone ate the cake together."},
+   {"voz": "t18", "quien": "narrador", "jp": "ニャンは 感謝[かんしゃ]の 気持[きも]ちで いっぱいだった。", "es": "Nyan estaba lleno de gratitud.", "en": "Nyan was full of gratitude."},
+   {"voz": "t19", "quien": "nyan", "jp": "今日[きょう]は 本当[ほんとう]に 幸[しあわ]せな 誕生日[たんじょうび]だった！", "es": "¡Hoy ha sido de verdad un cumpleaños feliz!", "en": "Today was truly a happy birthday!"}
+ ],
+ "preguntas": [
+  {"jp": "今日[きょう]は 何[なに]の 日[ひ]でしたか。", "es": "¿Qué día era hoy?", "en": "What day was it today?",
+   "opciones": [{"jp": "ニャンの 誕生日[たんじょうび]", "es": "El cumpleaños de Nyan", "en": "Nyan's birthday"}, {"jp": "タマの 誕生日[たんじょうび]", "es": "El cumpleaños de Tama", "en": "Tama's birthday"}, {"jp": "動物園[どうぶつえん]に 行[い]く 日[ひ]", "es": "El día de ir al zoo", "en": "The day to go to the zoo"}],
+   "bien": 0, "porque": {"es": "«今日はニャンの誕生日だった» とある。", "en": "«今日はニャンの誕生日だった» (today was Nyan's birthday)."}},
+  {"jp": "タマは 実[じつ]は 何[なに]を して いましたか。", "es": "¿Qué había estado haciendo Tama en realidad?", "en": "What had Tama actually been doing?",
+   "opciones": [{"jp": "みんなを 招待[しょうたい]して いた", "es": "Había invitado a todo el mundo", "en": "Had invited everyone"}, {"jp": "ケーキを 買[か]いに 行[い]って いた", "es": "Había ido a comprar una tarta", "en": "Had gone to buy a cake"}, {"jp": "公園[こうえん]で 昼寝[ひるね]して いた", "es": "Había estado echando la siesta en el parque", "en": "Had been napping in the park"}],
+   "bien": 0, "porque": {"es": "「実は、タマがみんなを招待していた」とある。", "en": "«実は、タマがみんなを招待していた» (in fact, Tama had invited everyone)."}},
+  {"jp": "部屋[へや]の ドアを 開[あ]けると、 何[なに]が ありましたか。", "es": "¿Qué había al abrir la puerta de la habitación?", "en": "What was there when the door was opened?",
+   "opciones": [{"jp": "ニャンの ための ケーキ", "es": "Una tarta especial para Nyan", "en": "A cake made for Nyan"}, {"jp": "タマの プレゼント", "es": "Un regalo de Tama", "en": "A present from Tama"}, {"jp": "新[あたら]しい 帽子[ぼうし]", "es": "Un sombrero nuevo", "en": "A new hat"}],
+   "bien": 0, "porque": {"es": "「部屋には、ニャンのために作られたケーキがあった」とある。", "en": "«部屋には、ニャンのために作られたケーキがあった» (there was a cake made especially for Nyan)."}},
+  {"jp": "みんなは ニャンに 何[なに]を させましたか。", "es": "¿Qué hicieron que Nyan hiciera?", "en": "What did everyone make Nyan do?",
+   "opciones": [{"jp": "歌[うた]を 歌[うた]わせた", "es": "Le hicieron cantar una canción", "en": "Made him sing a song"}, {"jp": "踊[おど]らせた", "es": "Le hicieron bailar", "en": "Made him dance"}, {"jp": "掃除[そうじ]させた", "es": "Le hicieron limpiar", "en": "Made him clean"}],
+   "bien": 0, "porque": {"es": "「ニャンはみんなに歌わせられた」とある。", "en": "«ニャンはみんなに歌わせられた» (Nyan was made to sing by everyone)."}},
+  {"tipo": "opinion", "jp": "もし あなたが ニャンだったら、 みんなの 前[まえ]で 歌[うた]う ことを どう 思[おも]いますか。", "es": "Si tú fueras Nyan, ¿qué te parecería cantar delante de todos?", "en": "If you were Nyan, what would you think about singing in front of everyone?",
+   "opciones": [
+    {"jp": "楽[たの]しいと 思[おも]う", "es": "Creo que sería divertido", "en": "I think it would be fun",
+     "nyan": {"jp": "いいなあ、 じゃあ 今度[こんど]は 一緒[いっしょ]に 歌[うた]おう！", "es": "Qué envidia. ¡Pues la próxima vez cantemos juntos!", "en": "Lucky you. Well, let's sing together next time!"}},
+    {"jp": "恥[は]ずかしいと 思[おも]う", "es": "Creo que daría vergüenza", "en": "I think it would be embarrassing",
+     "nyan": {"jp": "だよね…。 ニャンも すごく 恥[は]ずかしかった！", "es": "Ya ves… A Nyan también le dio muchísima vergüenza.", "en": "Right...? Nyan was really embarrassed too!"}},
+    {"jp": "できれば したくないと 思[おも]う", "es": "Preferiría no hacerlo si es posible", "en": "I'd rather not do it if possible",
+     "nyan": {"jp": "わかる…。 でも、 みんな 喜[よろこ]んで くれたから、 よかったよ。", "es": "Te entiendo… Pero como todos se alegraron, al final fue bueno.", "en": "I get it... But since everyone was happy, it turned out okay."}}
+   ]}
+ ]
+}

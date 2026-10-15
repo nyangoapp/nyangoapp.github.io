@@ -1,0 +1,50 @@
+{
+ "id": "l16", "desde": 1275,
+ "titulo": {"jp": "夏[なつ]の 神社[じんじゃ]", "es": "El santuario de verano", "en": "The summer shrine"},
+ "resumen": {"es": "Nyan y Tama van al santuario en kimono, rezan, y prueban algo delicioso.", "en": "Nyan and Tama go to the shrine in kimono, pray, and try something delicious."},
+ "portada": {"fondo": "noche", "cosas": [{"que": "nyan", "x": 100, "cara": "feliz"}, {"que": "gato", "x": 190}, {"que": "persona", "x": 300}]},
+ "texto": [
+   {"voz": "t1", "quien": "narrador", "jp": "夏[なつ]の 夜[よる]、 ニャンと タマは 神社[じんじゃ]へ 行[い]った。", "es": "Una noche de verano, Nyan y Tama fueron al santuario.", "en": "One summer night, Nyan and Tama went to the shrine."},
+   {"voz": "t2", "quien": "narrador", "jp": "二人[ふたり]は 着物[きもの]を 着[き]て いた。 とても 素敵[すてき]だった。", "es": "Los dos llevaban kimono puesto. Estaban muy elegantes.", "en": "The two of them were wearing kimono. They looked lovely."},
+   {"voz": "t3", "quien": "nyan", "jp": "すごい、 人[ひと]が 多[おお]いね！", "es": "¡Vaya, cuánta gente!", "en": "Wow, there are so many people!"},
+   {"voz": "t4", "quien": "narrador", "jp": "神社[じんじゃ]の 前[まえ]で、 二人[ふたり]は 静[しず]かに 祈[いの]った。", "es": "Delante del santuario, los dos rezaron en silencio.", "en": "In front of the shrine, the two of them prayed quietly."},
+   {"voz": "t5", "quien": "tama", "jp": "何[なに]を 祈[いの]ったの？", "es": "¿Qué has pedido?", "en": "What did you pray for?"},
+   {"voz": "t6", "quien": "nyan", "jp": "言[い]わないよ、 タマにも。", "es": "No te lo digo, ni a ti.", "en": "I'm not telling, not even you."},
+   {"voz": "t7", "quien": "narrador", "jp": "それから、 二人[ふたり]は 会場[かいじょう]を 歩[ある]いた。", "es": "Después, los dos pasearon por el recinto.", "en": "After that, the two of them walked around the grounds."},
+   {"voz": "t8", "quien": "narrador", "jp": "おいしそうな 匂[にお]いが して いた。", "es": "Se notaba un olor delicioso.", "en": "A delicious smell was in the air."},
+   {"voz": "t9", "quien": "narrador", "jp": "一[ひと]つの お 店[みせ]で、 ポンが 二人[ふたり]に 声[こえ]を かけた。", "es": "En un puesto, Pon los llamó.", "en": "At one stall, Pon called out to them."},
+   {"voz": "t10", "quien": "pon", "jp": "いらっしゃいませ！ ははは、 どうぞ、 召[め]し 上[あ]がって ください。", "es": "¡Bienvenidos! ¡Ja, ja! Adelante, pruébenlo.", "en": "Welcome! Ha ha! Go ahead, please try some."},
+   {"voz": "t11", "quien": "narrador", "jp": "ニャンは 幸[しあわ]せそうに、 それを 受[う]け 取[と]った。", "es": "Nyan lo recibió con cara de felicidad.", "en": "Nyan happily took it."},
+   {"voz": "t12", "quien": "nyan", "jp": "ありがとう、 ポン！", "es": "¡Gracias, Pon!", "en": "Thanks, Pon!"},
+   {"voz": "t13", "quien": "narrador", "jp": "二人[ふたり]は それを 食[た]べながら、 会場[かいじょう]を 見[み]て 回[まわ]った。", "es": "Los dos se lo comieron mientras recorrían el recinto.", "en": "The two of them ate it while walking around the grounds."},
+   {"voz": "t14", "quien": "narrador", "jp": "音楽[おんがく]が 流[なが]れて いて、 とても にぎやかだった。", "es": "Sonaba música, y todo era muy animado.", "en": "Music was playing, and it was all very lively."},
+   {"voz": "t15", "quien": "tama", "jp": "楽[たの]しいね！ また 来年[らいねん]も 来[こ]ようね。", "es": "¡Qué divertido! Volvamos también el año que viene.", "en": "This is fun! Let's come again next year too."},
+   {"voz": "t16", "quien": "nyan", "jp": "うん！ 絶対[ぜったい]に 来[く]る！", "es": "¡Sí! ¡Seguro que vengo!", "en": "Yeah! I'll definitely come!"},
+   {"voz": "t17", "quien": "narrador", "jp": "帰[かえ]る 前[まえ]に、 ニャンは もう 一度[いちど] 神社[じんじゃ]の 方[ほう]を 見[み]た。", "es": "Antes de volver, Nyan miró una vez más hacia el santuario.", "en": "Before heading home, Nyan looked back once more toward the shrine."},
+   {"voz": "t18", "quien": "narrador", "jp": "星[ほし]が たくさん 見[み]えた。", "es": "Se veían muchas estrellas.", "en": "Many stars could be seen."},
+   {"voz": "t19", "quien": "narrador", "jp": "それは、 とても 素敵[すてき]な 夜[よる]だった。", "es": "Fue una noche muy especial.", "en": "It was a very lovely night."}
+ ],
+ "preguntas": [
+  {"jp": "二人[ふたり]は 何[なに]を 着[き]て 神社[じんじゃ]へ 行[い]きましたか。", "es": "¿Qué llevaban puesto los dos al ir al santuario?", "en": "What were the two of them wearing when they went to the shrine?",
+   "opciones": [{"jp": "着物[きもの]", "es": "Kimono", "en": "Kimono"}, {"jp": "新[あたら]しい 服[ふく]", "es": "Ropa nueva", "en": "New clothes"}, {"jp": "帽子[ぼうし]だけ", "es": "Solo un sombrero", "en": "Just a hat"}],
+   "bien": 0, "porque": {"es": "«二人は着物を着ていた» とある。", "en": "«二人は着物を着ていた» (the two of them were wearing kimono)."}},
+  {"jp": "神社[じんじゃ]の 前[まえ]で、 二人[ふたり]は 何[なに]を しましたか。", "es": "¿Qué hicieron los dos delante del santuario?", "en": "What did the two of them do in front of the shrine?",
+   "opciones": [{"jp": "静[しず]かに 祈[いの]った", "es": "Rezaron en silencio", "en": "Prayed quietly"}, {"jp": "歌[うた]を 歌[うた]った", "es": "Cantaron una canción", "en": "Sang a song"}, {"jp": "写真[しゃしん]を 撮[と]った", "es": "Se hicieron una foto", "en": "Took a photo"}],
+   "bien": 0, "porque": {"es": "«神社の前で、二人は静かに祈った» とある。", "en": "«神社の前で、二人は静かに祈った» (in front of the shrine, the two of them prayed quietly)."}},
+  {"jp": "ポンは ニャンに 何[なに]と 言[い]いましたか。", "es": "¿Qué le dijo Pon a Nyan?", "en": "What did Pon say to Nyan?",
+   "opciones": [{"jp": "「召[め]し 上[あ]がって ください」", "es": "«Pruébelo, por favor»", "en": "\"Please, go ahead and try some\""}, {"jp": "「もう 終[お]わりです」", "es": "«Ya se ha terminado»", "en": "\"It's already finished\""}, {"jp": "「お 金[かね]が ありません」", "es": "«No tengo dinero»", "en": "\"I don't have any money\""}],
+   "bien": 0, "porque": {"es": "「どうぞ、召し上がってください」と言った。", "en": "They said «どうぞ、召し上がってください» (please, go ahead and try some)."}},
+  {"jp": "帰[かえ]る 前[まえ]に、 ニャンは 何[なに]を 見[み]ましたか。", "es": "¿Qué vio Nyan antes de volver?", "en": "What did Nyan see before heading home?",
+   "opciones": [{"jp": "星[ほし]", "es": "Estrellas", "en": "Stars"}, {"jp": "花[はな]", "es": "Flores", "en": "Flowers"}, {"jp": "鳥[とり]", "es": "Pájaros", "en": "Birds"}],
+   "bien": 0, "porque": {"es": "「星がたくさん見えた」とある。", "en": "«星がたくさん見えた» (many stars could be seen)."}},
+  {"tipo": "opinion", "jp": "あなたも 着物[きもの]を 着[き]て みたいですか。", "es": "¿A ti también te gustaría probar a llevar kimono?", "en": "Would you also like to try wearing kimono?",
+   "opciones": [
+    {"jp": "着[き]て みたい", "es": "Me gustaría probarlo", "en": "I'd like to try it",
+     "nyan": {"jp": "いいね！ 今度[こんど] 一緒[いっしょ]に 着[き]よう！", "es": "¡Qué bien! ¡La próxima vez nos lo ponemos juntos!", "en": "Nice! Let's wear one together next time!"}},
+    {"jp": "あまり 着[き]たくない", "es": "La verdad, no muchas ganas", "en": "Not really",
+     "nyan": {"jp": "そう？ でも、 着物[きもの]は 素敵[すてき]だよ！", "es": "¿Ah sí? Pero el kimono es precioso, ¿eh?", "en": "Really? But kimono is lovely, you know!"}},
+    {"jp": "着物[きもの]より 普段[ふだん]の 服[ふく]が いい", "es": "Prefiero la ropa de cada día antes que el kimono", "en": "I prefer everyday clothes over kimono",
+     "nyan": {"jp": "わかる！ 着物[きもの]は ちょっと 動[うご]きにくいもんね。", "es": "¡Te entiendo! El kimono es un poco difícil de mover, ¿verdad?", "en": "I get it! Kimono is a bit hard to move around in, right?"}}
+   ]}
+ ]
+}

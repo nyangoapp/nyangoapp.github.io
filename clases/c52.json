@@ -1,0 +1,977 @@
+{
+ "id": "c52",
+ "clase": 52,
+ "desde": 1810,
+ "titulo": {
+  "es": "Hablemos de onigiri: 〜について, 〜にとって, 〜に対して y 〜によって",
+  "en": "Let's talk about onigiri: 〜について, 〜にとって, 〜に対して and 〜によって"
+ },
+ "resumen": {
+  "es": "について: sobre, el tema del que hablas. にとって: para alguien, su punto de vista. に対して: hacia algo, una actitud. によって: según, depende de. La confusión clásica es にとって contra に対して.",
+  "en": "について: about, the topic you're discussing. にとって: for someone, their point of view. に対して: towards something, an attitude. によって: depending on. The classic mix-up is にとって versus に対して."
+ },
+ "intro": [
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "feliz",
+      "brazo": "arriba"
+     },
+     {
+      "que": "onigiri",
+      "x": 270,
+      "s": 1.2
+     }
+    ]
+   },
+   "cara": "feliz",
+   "jp": "今日[きょう]は、 おにぎりに ついて 話[はな]そう！",
+   "voz": "i1",
+   "tr": {
+    "es": "¡Hoy vamos a hablar sobre el onigiri!",
+    "en": "Today let's talk about onigiri!"
+   },
+   "cartela": {
+    "es": "〜に ついて: sobre algo, el tema del que hablas.",
+    "en": "〜に ついて: about something, the topic you're discussing."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "normal"
+     },
+     {
+      "que": "onigiri",
+      "x": 270,
+      "s": 1.1
+     }
+    ]
+   },
+   "cara": "normal",
+   "jp": "ニャンに とって、 おにぎりは 一番[いちばん] 大切[たいせつ]な 食[た]べ物[もの]だ。",
+   "voz": "i2",
+   "tr": {
+    "es": "Para Nyan, el onigiri es la comida más importante.",
+    "en": "For Nyan, onigiri is the most important food."
+   },
+   "cartela": {
+    "es": "〜に とって: para alguien, DESDE su punto de vista.",
+    "en": "〜に とって: for someone, FROM their point of view."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "normal"
+     },
+     {
+      "que": "gato",
+      "x": 270
+     }
+    ]
+   },
+   "habla": "tama",
+   "cara": "normal",
+   "jp": "でも、 タマは おにぎりに 対[たい]して、 そんなに 興味[きょうみ]が ないんだよね。",
+   "voz": "i3",
+   "tr": {
+    "es": "Pero Tama no tiene tanto interés hacia el onigiri.",
+    "en": "But Tama doesn't have much interest in onigiri."
+   },
+   "cartela": {
+    "es": "〜に 対[たい]して: hacia algo, tu ACTITUD frente a ello.",
+    "en": "〜に 対して: towards something, your ATTITUDE facing it."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "normal"
+     },
+     {
+      "que": "gato",
+      "x": 230
+     },
+     {
+      "que": "onigiri",
+      "x": 320,
+      "s": 1
+     }
+    ]
+   },
+   "cara": "normal",
+   "jp": "まあ、 好[この]みは 人[ひと]に よって 違[ちが]うからね。",
+   "voz": "i4",
+   "tr": {
+    "es": "Bueno, los gustos varían según la persona.",
+    "en": "Well, tastes vary depending on the person."
+   },
+   "cartela": {
+    "es": "Fin de la intro: について, にとって, に対して y によって. ¡A practicar!",
+    "en": "End of the intro: について, にとって, に対して and によって. Let's practice!"
+   }
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta cada frase. について para el tema, にとって para tu punto de vista, に対して para una actitud, によって para «según».",
+   "en": "Build each sentence. について for the topic, にとって for your point of view, に対して for an attitude, によって for «depending on»."
+  },
+  "piezas": [
+   {
+    "id": "onigiri",
+    "jp": "おにぎり",
+    "tipo": "palabra"
+   },
+   {
+    "id": "nitsuite",
+    "jp": "に ついて",
+    "tipo": "particula"
+   },
+   {
+    "id": "hanasou",
+    "jp": "話[はな]そう",
+    "tipo": "verbo"
+   },
+   {
+    "id": "nyan",
+    "jp": "ニャン",
+    "tipo": "palabra"
+   },
+   {
+    "id": "nitotte",
+    "jp": "に とって",
+    "tipo": "particula"
+   },
+   {
+    "id": "wa",
+    "jp": "は",
+    "tipo": "particula"
+   },
+   {
+    "id": "taisetsu",
+    "jp": "大切[たいせつ]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "da",
+    "jp": "だ",
+    "tipo": "verbo"
+   },
+   {
+    "id": "desu",
+    "jp": "です",
+    "tipo": "verbo"
+   },
+   {
+    "id": "tamawa",
+    "jp": "タマは",
+    "tipo": "palabra"
+   },
+   {
+    "id": "nitaishite",
+    "jp": "に 対[たい]して",
+    "tipo": "particula"
+   },
+   {
+    "id": "kyoumi",
+    "jp": "興味[きょうみ]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "ga",
+    "jp": "が",
+    "tipo": "particula"
+   },
+   {
+    "id": "nai",
+    "jp": "ない",
+    "tipo": "verbo"
+   },
+   {
+    "id": "konomi",
+    "jp": "好[この]み",
+    "tipo": "palabra"
+   },
+   {
+    "id": "hito",
+    "jp": "人[ひと]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "niyotte",
+    "jp": "に よって",
+    "tipo": "particula"
+   },
+   {
+    "id": "chigau",
+    "jp": "違[ちが]う",
+    "tipo": "verbo"
+   },
+   {
+    "id": "watashi",
+    "jp": "私[わたし]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "benkyou",
+    "jp": "勉強[べんきょう]",
+    "tipo": "palabra"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Anuncia el tema como Nyan: «¡Hablemos sobre el onigiri!»",
+     "en": "Announce the topic like Nyan: «Let's talk about onigiri!»"
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "feliz",
+       "brazo": "arriba"
+      },
+      {
+       "que": "onigiri",
+       "x": 270,
+       "s": 1.2
+      }
+     ]
+    },
+    "piezas": [
+     "onigiri",
+     "nitsuite",
+     "hanasou",
+     "nitaishite",
+     "niyotte"
+    ],
+    "bien": [
+     [
+      "onigiri",
+      "nitsuite",
+      "hanasou"
+     ]
+    ],
+    "tr": {
+     "es": "¡Hablemos sobre el onigiri!",
+     "en": "Let's talk about onigiri!"
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "feliz",
+      "brazo": "arriba"
+     },
+     {
+      "tipo": "brilla",
+      "objeto": "onigiri"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "nitaishite"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "に対して es «hacia» (una actitud), no «sobre» un tema: usa について.",
+       "en": "に対して means «towards» (an attitude), not «about» a topic: use について."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "niyotte"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "によって es «según, depende de», no «sobre» un tema: usa について.",
+       "en": "によって means «depending on», not «about» a topic: use について."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Dile a Tama lo que opinas: «Para mí, el onigiri es lo más importante».",
+     "en": "Tell Tama what you think: «For me, onigiri is the most important thing»."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "feliz"
+      },
+      {
+       "que": "onigiri",
+       "x": 270,
+       "s": 1.1
+      }
+     ]
+    },
+    "piezas": [
+     "nyan",
+     "nitotte",
+     "onigiri",
+     "wa",
+     "taisetsu",
+     "da",
+     "nitaishite",
+     "niyotte"
+    ],
+    "bien": [
+     [
+      "nyan",
+      "nitotte",
+      "onigiri",
+      "wa",
+      "taisetsu",
+      "da"
+     ]
+    ],
+    "tr": {
+     "es": "Para mí, el onigiri es lo más importante.",
+     "en": "For me, onigiri is the most important thing."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "feliz",
+      "brazo": "arriba"
+     },
+     {
+      "tipo": "brilla",
+      "objeto": "onigiri"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "nitaishite"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "に対して es una actitud (a veces de enfrentamiento). Aquí das TU punto de vista: usa にとって.",
+       "en": "に対して is an attitude (sometimes a confrontational one). Here you're giving YOUR point of view: use にとって."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "niyotte"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "によって es «depende de». Aquí no depende de nadie, es TU opinión: usa にとって.",
+       "en": "によって means «depends on». Here it doesn't depend on anyone, it's YOUR opinion: use にとって."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Cuenta que a Tama no le interesa tanto: «Tama no tiene mucho interés hacia el onigiri».",
+     "en": "Tell how Tama isn't that interested: «Tama doesn't have much interest in onigiri»."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "normal"
+      },
+      {
+       "que": "gato",
+       "x": 270
+      }
+     ]
+    },
+    "piezas": [
+     "tamawa",
+     "onigiri",
+     "nitaishite",
+     "kyoumi",
+     "ga",
+     "nai",
+     "nitotte",
+     "niyotte"
+    ],
+    "bien": [
+     [
+      "tamawa",
+      "onigiri",
+      "nitaishite",
+      "kyoumi",
+      "ga",
+      "nai"
+     ]
+    ],
+    "tr": {
+     "es": "Tama no tiene mucho interés hacia el onigiri.",
+     "en": "Tama doesn't have much interest in onigiri."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "normal"
+     },
+     {
+      "tipo": "manpu",
+      "objeto": "gato",
+      "manpu": "sudor"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "nitotte"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "にとって da un punto de vista propio. Aquí hablas de la ACTITUD de Tama hacia algo: usa に対して.",
+       "en": "にとって gives a personal point of view. Here you're talking about Tama's ATTITUDE towards something: use に対して."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "niyotte"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "によって es «depende de». Aquí no depende de nada, es la actitud de Tama: usa に対して.",
+       "en": "によって means «depends on». Here nothing depends on anything, it's Tama's attitude: use に対して."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Concluye con sabiduría: «Los gustos varían según la persona».",
+     "en": "Conclude wisely: «Tastes vary depending on the person»."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 130,
+       "cara": "normal"
+      }
+     ]
+    },
+    "piezas": [
+     "konomi",
+     "wa",
+     "hito",
+     "niyotte",
+     "chigau",
+     "nitotte",
+     "nitaishite"
+    ],
+    "bien": [
+     [
+      "konomi",
+      "wa",
+      "hito",
+      "niyotte",
+      "chigau"
+     ]
+    ],
+    "tr": {
+     "es": "Los gustos varían según la persona.",
+     "en": "Tastes vary depending on the person."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "normal"
+     },
+     {
+      "tipo": "brilla",
+      "objeto": "nyan"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "nitotte"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "にとって da el punto de vista de alguien concreto. Aquí dices que CAMBIA según cada persona: usa によって.",
+       "en": "にとって gives one specific person's point of view. Here you're saying it CHANGES depending on each person: use によって."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "nitaishite"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "に対して es una actitud hacia algo. Aquí no hay actitud, es una diferencia SEGÚN la persona: usa によって.",
+       "en": "に対して is an attitude towards something. Here there's no attitude, it's a difference DEPENDING on the person: use によって."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Reto: dile al sensei, con educación: «Para mí, estudiar es importante».",
+     "en": "Challenge: tell the teacher, politely: «For me, studying is important»."
+    },
+    "escena": {
+     "fondo": "escuela",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "normal"
+      },
+      {
+       "que": "profesor",
+       "x": 270
+      }
+     ]
+    },
+    "piezas": [
+     "watashi",
+     "nitotte",
+     "benkyou",
+     "wa",
+     "taisetsu",
+     "desu",
+     "niyotte",
+     "nitaishite"
+    ],
+    "bien": [
+     [
+      "watashi",
+      "nitotte",
+      "benkyou",
+      "wa",
+      "taisetsu",
+      "desu"
+     ]
+    ],
+    "tr": {
+     "es": "Para mí, estudiar es importante.",
+     "en": "For me, studying is important."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "normal"
+     },
+     {
+      "tipo": "texto",
+      "texto": "ほう",
+      "objeto": "profesor"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "niyotte"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "によって es «depende de». Aquí das TU punto de vista: usa にとって.",
+       "en": "によって means «depends on». Here you're giving YOUR point of view: use にとって."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "nitaishite"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "に対して es una actitud hacia algo. Aquí es tu perspectiva: usa にとって.",
+       "en": "に対して is an attitude towards something. Here it's your perspective: use にとって."
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "desu"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Con el sensei hace falta です.",
+       "en": "With the teacher you need です."
+      }
+     }
+    ],
+    "pista": {
+     "es": "Empieza con tu punto de vista: 私[わたし]に とって…",
+     "en": "Start with your point of view: watashi ni totte…"
+    }
+   }
+  ]
+ },
+ "juego": {
+  "intro": {
+   "es": "¿にとって (tu punto de vista), に対して (una actitud) o によって (según)? Completa cada frase.",
+   "en": "にとって (your point of view), に対して (an attitude) or によって (depending on)? Complete each sentence."
+  },
+  "nyan": {
+   "es": "Para mí, esto de elegir cestas es demasiado difícil.",
+   "en": "For me, choosing baskets is too hard."
+  },
+  "cestas": [
+   {
+    "id": "nitotte",
+    "jp": "にとって",
+    "sub": {
+     "es": "para mí/ti… (tu punto de vista)",
+     "en": "for me/you… (your point of view)"
+    }
+   },
+   {
+    "id": "nitaishite",
+    "jp": "に対して",
+    "sub": {
+     "es": "hacia… (una actitud)",
+     "en": "towards… (an attitude)"
+    }
+   },
+   {
+    "id": "niyotte",
+    "jp": "によって",
+    "sub": {
+     "es": "según…, depende de…",
+     "en": "depending on…"
+    }
+   }
+  ],
+  "cartas": [
+   {
+    "id": "j1",
+    "dibujo": "onigiri",
+    "jp": "ニャン＿、 おにぎりは 一番[いちばん] 大切[たいせつ]だ。",
+    "cesta": "nitotte",
+    "es": "Para Nyan, el onigiri es lo más importante.",
+    "en": "For Nyan, onigiri is the most important thing."
+   },
+   {
+    "id": "j2",
+    "jp": "値段[ねだん]は 店[みせ]＿ 違[ちが]う。",
+    "cesta": "niyotte",
+    "es": "El precio varía según la tienda.",
+    "en": "The price varies depending on the store."
+   },
+   {
+    "id": "j3",
+    "dibujo": "gato",
+    "jp": "タマは 勉強[べんきょう]＿、 真剣[しんけん]だ。",
+    "cesta": "nitaishite",
+    "es": "Tama se lo toma en serio (tiene una actitud seria hacia) el estudio.",
+    "en": "Tama takes a serious attitude towards studying."
+   },
+   {
+    "id": "j4",
+    "dibujo": "nube",
+    "jp": "天気[てんき]は 季節[きせつ]＿ 変[か]わる。",
+    "cesta": "niyotte",
+    "es": "El tiempo cambia según la estación.",
+    "en": "The weather changes depending on the season."
+   },
+   {
+    "id": "j5",
+    "dibujo": "profesor",
+    "jp": "先生[せんせい]＿、 生徒[せいと]は みんな 大切[たいせつ]だ。",
+    "cesta": "nitotte",
+    "es": "Para el sensei, todos los alumnos son importantes.",
+    "en": "For the teacher, all students are important."
+   },
+   {
+    "id": "j6",
+    "dibujo": "gato",
+    "jp": "ニャンは 掃除[そうじ]＿、 興味[きょうみ]が ない。",
+    "cesta": "nitaishite",
+    "es": "Nyan no tiene interés hacia la limpieza.",
+    "en": "Nyan has no interest towards cleaning."
+   },
+   {
+    "id": "j7",
+    "jp": "答[こた]えは 人[ひと]＿ 違[ちが]う。",
+    "cesta": "niyotte",
+    "es": "La respuesta varía según la persona.",
+    "en": "The answer varies depending on the person."
+   },
+   {
+    "id": "j8",
+    "jp": "タマ＿、 静[しず]かな 時間[じかん]が 大切[たいせつ]だ。",
+    "cesta": "nitotte",
+    "es": "Para Tama, el tiempo tranquilo es importante.",
+    "en": "For Tama, quiet time is important.",
+    "truco": {
+     "es": "にとって: das el punto de vista de Tama, no el tuyo.",
+     "en": "にとって: you're giving Tama's point of view, not your own."
+    }
+   }
+  ]
+ },
+ "outro": [
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "feliz",
+      "brazo": "arriba"
+     },
+     {
+      "que": "onigiri",
+      "x": 270,
+      "s": 1.2
+     }
+    ]
+   },
+   "cara": "feliz",
+   "jp": "今日[きょう]は、 おにぎりに ついて 話[はな]そう！",
+   "voz": "o1",
+   "tr": {
+    "es": "¡Hoy vamos a hablar sobre el onigiri!",
+    "en": "Today let's talk about onigiri!"
+   },
+   "cartela": {
+    "es": "について: sobre algo, el tema.",
+    "en": "について: about something, the topic."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "normal"
+     },
+     {
+      "que": "gato",
+      "x": 270
+     }
+    ]
+   },
+   "habla": "tama",
+   "cara": "normal",
+   "jp": "タマは おにぎりに 対[たい]して、 そんなに 興味[きょうみ]が ないんだよね。",
+   "voz": "o2",
+   "tr": {
+    "es": "Tama no tiene tanto interés hacia el onigiri.",
+    "en": "Tama doesn't have much interest in onigiri."
+   },
+   "cartela": {
+    "es": "に対して: una actitud hacia algo.",
+    "en": "に対して: an attitude towards something."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "normal"
+     },
+     {
+      "que": "gato",
+      "x": 230
+     },
+     {
+      "que": "onigiri",
+      "x": 320,
+      "s": 1
+     }
+    ]
+   },
+   "cara": "normal",
+   "jp": "まあ、 好[この]みは 人[ひと]に よって 違[ちが]うからね。",
+   "voz": "o3",
+   "tr": {
+    "es": "Bueno, los gustos varían según la persona.",
+    "en": "Well, tastes vary depending on the person."
+   },
+   "cartela": {
+    "es": "Fin. について, にとって, に対して y によって: ya las tienes todas.",
+    "en": "The end. について, にとって, に対して and によって: now you have them all."
+   }
+  }
+ ],
+ "chuleta": {
+  "patron": {
+   "es": "〜について ／ 〜にとって ／ 〜に対[たい]して ／ 〜によって",
+   "en": "〜について ／ 〜にとって ／ 〜に対[たい]して ／ 〜によって"
+  },
+  "patron_tr": {
+   "es": "sobre… ／ para… (tu punto de vista) ／ hacia… ／ según…",
+   "en": "about… ／ for… (your point of view) ／ towards… ／ depending on…"
+  },
+  "columnas": [
+   {
+    "jp": "について",
+    "texto": {
+     "es": "sobre, el tema del que hablas",
+     "en": "about, the topic you're discussing"
+    },
+    "dibujos": [
+     "onigiri"
+    ]
+   },
+   {
+    "jp": "にとって",
+    "texto": {
+     "es": "para alguien (su punto de vista)",
+     "en": "for someone (their point of view)"
+    },
+    "dibujos": [
+     "nyan"
+    ]
+   },
+   {
+    "jp": "に対[たい]して",
+    "texto": {
+     "es": "hacia algo (una actitud)",
+     "en": "towards something (an attitude)"
+    },
+    "dibujos": [
+     "gato"
+    ]
+   },
+   {
+    "jp": "によって",
+    "texto": {
+     "es": "según, depende de",
+     "en": "depending on"
+    },
+    "dibujos": [
+     "persona"
+    ]
+   }
+  ],
+  "filas": [
+   {
+    "jp": "おにぎりに ついて 話[はな]す。",
+    "es": "Hablo sobre el onigiri.",
+    "en": "I talk about onigiri."
+   },
+   {
+    "jp": "ニャンに とって、 おにぎりは 大切[たいせつ]だ。",
+    "es": "Para Nyan, el onigiri es importante.",
+    "en": "For Nyan, onigiri is important.",
+    "registro": "amigos"
+   },
+   {
+    "jp": "私[わたし]に とって、 勉強[べんきょう]は 大切[たいせつ]です。",
+    "es": "Para mí, estudiar es importante.",
+    "en": "For me, studying is important.",
+    "registro": "educado"
+   },
+   {
+    "jp": "タマは おにぎりに 対[たい]して、 興味[きょうみ]が ない。",
+    "es": "Tama no tiene interés hacia el onigiri.",
+    "en": "Tama has no interest towards onigiri."
+   },
+   {
+    "jp": "好[この]みは 人[ひと]に よって 違[ちが]う。",
+    "es": "Los gustos varían según la persona.",
+    "en": "Tastes vary depending on the person."
+   }
+  ],
+  "consejo": {
+   "es": "で (clase 6) ya decía «con qué medio» (電車[でんしゃ]で行[い]く); によって es su versión más formal para «según» o «por». にとって da TU punto de vista; に対して habla de una actitud HACIA algo — esa es la confusión clásica.",
+   "en": "で (class 6) already said «by what means» (電車で行く); によって is its more formal version for «depending on» or «by». にとって gives YOUR point of view; に対して talks about an attitude TOWARDS something — that's the classic mix-up."
+  }
+ }
+}

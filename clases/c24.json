@@ -1,0 +1,801 @@
+{
+ "id": "c24",
+ "clase": 24,
+ "desde": 460,
+ "titulo": {
+  "es": "La gran limpieza: 〜ていく, 〜てくる, 〜ておく y 〜てある",
+  "en": "The big clean: 〜ていく, 〜てくる, 〜ておく and 〜てある"
+ },
+ "resumen": {
+  "es": "〜ていく = se aleja (te vas con ello). 〜てくる = se acerca (lo traes, o vas y vuelves). 〜ておく = lo dejas hecho de antemano. 〜てある = alguien lo dejó así a propósito.",
+  "en": "〜ていく = moving away (you take it with you). 〜てくる = coming closer (you bring it, or go and come back). 〜ておく = getting it done ahead of time. 〜てある = someone left it that way on purpose."
+ },
+ "formato": 2,
+ "lugar": "sala",
+ "mision": {
+  "texto": {
+   "es": "De vuelta a casa llega el 大掃除, la gran limpieza de fin de año: en Japón se deja la casa reluciente para recibir el año nuevo. Tama lo tiene todo organizado: cosas que llevarse, traer y dejar preparadas… y una carta misteriosa en el tatami.",
+   "en": "Back home comes the 大掃除, the big year-end clean: in Japan the house is left spotless to welcome the new year. Tama has it all planned: things to take, bring and get ready… and a mysterious letter on the tatami."
+  },
+  "escena": {
+   "fondo": "sala",
+   "cosas": [
+    {
+     "que": "nyan",
+     "x": 80
+    },
+    {
+     "que": "gato",
+     "id": "tama",
+     "x": 310
+    }
+   ]
+  },
+  "cara": "feliz",
+  "jp": "大掃除[おおそうじ]だ！",
+  "voz": "m0"
+ },
+ "reglas": [
+  {
+   "id": "teiku_kuru",
+   "nombre": {
+    "es": "〜ていく／〜てくる: alejarse o acercarse",
+    "en": "〜ていく／〜てくる: going away or coming back"
+   },
+   "patron": {
+    "es": "〔verbo en て〕いく ・ 〔verbo en て〕くる",
+    "en": "〔て verb〕いく ・ 〔て verb〕くる"
+   },
+   "explica": {
+    "es": "いく (ir) y くる (venir) pegados a la forma て dicen hacia dónde va la acción respecto a ti. 〜てくる: hacia aquí, o ir y volver: ゴミを捨ててくる, «voy a tirar la basura (y vuelvo)»; みかんを買ってきた, «he comprado mandarinas (y aquí están)». 〜ていく: alejándose, llevándote algo o a alguien: コタローを連れていく, «me llevo a Kotarō». En español lo decimos con «traer» y «llevar»; el japonés lo construye con cualquier verbo.",
+    "en": "いく (go) and くる (come) attached to the て form say which way the action goes relative to you. 〜てくる: toward here, or go and come back: ゴミを捨ててくる, «I'll take out the rubbish (and be back)»; みかんを買ってきた, «I bought mandarins (and here they are)». 〜ていく: going away, taking something or someone: コタローを連れていく, «I'll take Kotarō». English uses «bring» and «take»; Japanese builds it with any verb."
+   },
+   "ejemplos": [
+    {
+     "jp": "ゴミを 捨[す]てて きて ください。",
+     "es": "Ve a tirar la basura, por favor.",
+     "en": "Please go and take out the rubbish.",
+     "voz": "r1-1"
+    },
+    {
+     "jp": "コタローを 連[つ]れて いきます。",
+     "es": "Me llevo a Kotarō.",
+     "en": "I'll take Kotarō with me.",
+     "voz": "r1-2"
+    }
+   ],
+   "ojo": {
+    "es": "También hablan del tiempo: 寒くなってきた, «ha ido haciendo frío hasta ahora»; これから寒くなっていく, «a partir de ahora irá haciendo más frío».",
+    "en": "They also talk about time: 寒くなってきた, «it's been getting cold up to now»; これから寒くなっていく, «from now on it'll keep getting colder»."
+   }
+  },
+  {
+   "id": "teoku_aru",
+   "nombre": {
+    "es": "〜ておく y 〜てある: dejarlo hecho",
+    "en": "〜ておく and 〜てある: getting it done"
+   },
+   "patron": {
+    "es": "〔cosa〕を〔verbo en て〕おく ・ 〔cosa〕が〔verbo en て〕ある",
+    "en": "〔thing〕を〔て verb〕おく ・ 〔thing〕が〔て verb〕ある"
+   },
+   "explica": {
+    "es": "〜ておく es hacer algo ANTES, para tenerlo listo: 窓を拭いておく, «dejo limpia la ventana (para Año Nuevo)». El foco está en TU preparación, y lo que haces va con を. 〜てある describe el resultado que alguien dejó a propósito: 手紙が置いてある, «hay una carta puesta (alguien la dejó ahí)». El foco está en cómo ESTÁ la cosa, que va con が. Las dos van con verbos de algo que alguien hace a posta: poner, escribir, abrir…",
+    "en": "〜ておく is doing something BEFOREHAND, to have it ready: 窓を拭いておく, «I'll get the window clean (for New Year)». The focus is on YOUR preparation, and the thing takes を. 〜てある describes the result someone left on purpose: 手紙が置いてある, «a letter has been put here (someone left it)». The focus is on how the thing IS, and it takes が. Both go with verbs of things done on purpose: put, write, open…"
+   },
+   "ejemplos": [
+    {
+     "jp": "窓[まど]を 拭[ふ]いて おきます。",
+     "es": "Dejaré la ventana limpia.",
+     "en": "I'll get the window clean.",
+     "voz": "r2-1"
+    },
+    {
+     "jp": "手紙[てがみ]が 置[お]いて あります。",
+     "es": "Hay una carta puesta.",
+     "en": "A letter has been left here.",
+     "voz": "r2-2"
+    }
+   ],
+   "ojo": {
+    "es": "Hablando rápido, ておく se convierte en とく: 拭いとく, 買っとく. Lo oirás muchísimo.",
+    "en": "In fast speech, ておく becomes とく: 拭いとく, 買っとく. You'll hear it all the time."
+   }
+  }
+ ],
+ "historia": [
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "今日[きょう]は 大掃除[おおそうじ]です！",
+   "tr": {
+    "es": "¡Hoy toca la gran limpieza de fin de año!",
+    "en": "Today's the big year-end clean!"
+   },
+   "voz": "h1",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "sala",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 310
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "ニャン、 ゴミを 捨[す]てて きて ください。",
+   "tr": {
+    "es": "Nyan, ve a tirar la basura, por favor.",
+    "en": "Nyan, please go and take out the rubbish."
+   },
+   "voz": "h2",
+   "plano": "medio",
+   "escena": {
+    "fondo": "sala",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "bolsa",
+      "x": 200,
+      "id": "bolsa",
+      "s": 1.0
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 310
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "teiku_kuru"
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "Kotarō quiere ir con Nyan. ¿Qué le dice Nyan a Tama?",
+    "en": "Kotarō wants to go with Nyan. What does Nyan tell Tama?"
+   },
+   "opciones": [
+    {
+     "jp": "コタローを 連[つ]れて いきます。",
+     "bien": true,
+     "tr": {
+      "es": "Me llevo a Kotarō.",
+      "en": "I'll take Kotarō with me."
+     },
+     "voz": "h3",
+     "porque": {
+      "es": "Te lo llevas contigo, alejándote de aquí: 連れていく.",
+      "en": "You take him with you, going away from here: 連れていく."
+     }
+    },
+    {
+     "jp": "コタローを 連[つ]れて きます。",
+     "bien": false,
+     "porque": {
+      "es": "連れてくる es «traer a alguien hasta aquí». Kotarō ya está aquí: te lo llevas, alejándote: 連れていく.",
+      "en": "連れてくる is «bring someone here». Kotarō's already here: you're taking him away: 連れていく."
+     }
+    },
+    {
+     "jp": "コタローを 連[つ]れて あります。",
+     "bien": false,
+     "porque": {
+      "es": "てある es para cosas que alguien dejó hechas (con が), no para llevarse a nadie.",
+      "en": "てある is for things someone left done (with が), not for taking anyone along."
+     }
+    }
+   ],
+   "cara": "feliz",
+   "escena": {
+    "fondo": "sala",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "bolsa",
+      "x": 160,
+      "s": 1.0
+     },
+     {
+      "que": "perro",
+      "id": "kotaro",
+      "x": 230
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 330
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "ただいま！ みかんも 買[か]って きました！",
+   "tr": {
+    "es": "¡Ya estoy! ¡Y he comprado mandarinas!",
+    "en": "I'm back! And I bought mandarins!"
+   },
+   "voz": "h4",
+   "cara": "feliz",
+   "brazo": "arriba",
+   "reacciona": {
+    "tama": "feliz"
+   },
+   "escena": {
+    "fondo": "sala",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "mikan",
+      "x": 200,
+      "id": "mikan",
+      "s": 1.1
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 310
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "teoku_aru"
+  },
+  {
+   "t": "monta",
+   "encargo": 0
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "あれ？ 畳[たたみ]の 上[うえ]に 手紙[てがみ]が…",
+   "tr": {
+    "es": "¿Eh? Hay una carta en el tatami…",
+    "en": "Huh? There's a letter on the tatami…"
+   },
+   "voz": "h5",
+   "cara": "sorpresa",
+   "escena": {
+    "fondo": "sala",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "carta",
+      "x": 200,
+      "id": "carta",
+      "s": 0.9
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 310
+     }
+    ]
+   }
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "¿Quién la ha dejado ahí? Nyan describe lo que ve:",
+    "en": "Who left it there? Nyan describes what he sees:"
+   },
+   "opciones": [
+    {
+     "jp": "手紙[てがみ]が 置[お]いて あります。",
+     "bien": true,
+     "tr": {
+      "es": "Hay una carta puesta (alguien la ha dejado).",
+      "en": "A letter has been left here."
+     },
+     "voz": "h6",
+     "porque": {
+      "es": "てある + が: alguien la dejó ahí a propósito, y así sigue.",
+      "en": "てある + が: someone put it there on purpose, and there it stays."
+     }
+    },
+    {
+     "jp": "手紙[てがみ]が 置[お]いて います。",
+     "bien": false,
+     "porque": {
+      "es": "置いている sería «alguien está poniéndola» ahora mismo. Para algo que alguien dejó puesto y ahí sigue, てある.",
+      "en": "置いている would be «someone is putting it» right now. For something left in place, てある."
+     }
+    },
+    {
+     "jp": "手紙[てがみ]が 置[お]いて おきます。",
+     "bien": false,
+     "porque": {
+      "es": "ておく es lo que TÚ haces para prepararte, y no va con が. Para describir cómo está la carta, てある.",
+      "en": "ておく is what YOU do to get ready, and it doesn't take が. To describe how the letter is, てある."
+     }
+    }
+   ],
+   "cara": "pensando",
+   "escena": {
+    "fondo": "sala",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "carta",
+      "x": 200,
+      "s": 0.9
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 310
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "「大晦日[おおみそか]、 お寺[てら]の 鐘[かね]を 聞[き]きに 行[い]くぞ。 カゲ」…カゲからです！",
+   "tr": {
+    "es": "«Nochevieja: vamos a oír la campana del templo. Kage»… ¡Es de Kage!",
+    "en": "«New Year's Eve: we're going to hear the temple bell. Kage»… It's from Kage!"
+   },
+   "voz": "h7",
+   "cara": "feliz",
+   "reacciona": {
+    "nyan": "sorpresa"
+   },
+   "escena": {
+    "fondo": "sala",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "carta",
+      "x": 200,
+      "s": 0.9
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 310
+     }
+    ]
+   }
+  },
+  {
+   "t": "toca",
+   "pide": {
+    "es": "Tama te pide algo para decorar la casa. Escucha y tócalo.",
+    "en": "Tama asks you for something to decorate the house. Listen and tap it."
+   },
+   "bien": "kagamimochi",
+   "quien": "tama",
+   "escena": {
+    "fondo": "sala",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 65
+     },
+     {
+      "que": "kagamimochi",
+      "x": 160,
+      "id": "kagamimochi",
+      "s": 1.0
+     },
+     {
+      "que": "bolsa",
+      "x": 222,
+      "id": "bolsa",
+      "s": 1.0
+     },
+     {
+      "que": "taza",
+      "x": 275,
+      "id": "taza",
+      "s": 0.9
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 345
+     }
+    ]
+   },
+   "jp": "鏡餅[かがみもち]を 持[も]って きて ください。",
+   "voz": "h8",
+   "bien_msg": {
+    "es": "¡Eso! El 鏡餅: los dos pasteles de arroz con la naranja, la decoración de Año Nuevo.",
+    "en": "Right! The 鏡餅: the two rice cakes topped with an orange, the New Year decoration."
+   },
+   "mal_msg": {
+    "es": "Ha dicho 鏡餅: los pasteles de arroz redondos, uno encima de otro.",
+    "en": "She said 鏡餅: the round rice cakes, one on top of the other."
+   }
+  }
+ ],
+ "epilogo": [
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "きれいに なりましたね！",
+   "tr": {
+    "es": "¡Ha quedado todo limpísimo!",
+    "en": "It's all sparkling clean!"
+   },
+   "voz": "x1",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "sala",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "kagamimochi",
+      "x": 200,
+      "s": 1.0
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 310
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "疲[つか]れました…",
+   "tr": {
+    "es": "Estoy agotado…",
+    "en": "I'm exhausted…"
+   },
+   "voz": "x2",
+   "cara": "sueno"
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta la frase: la escena hará lo que digas.",
+   "en": "Build the sentence: the scene will do what you say."
+  },
+  "piezas": [
+   {
+    "id": "mado",
+    "jp": "窓[まど]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "wo",
+    "jp": "を",
+    "tipo": "particula"
+   },
+   {
+    "id": "fuiteokimasu",
+    "jp": "拭[ふ]いて おきます",
+    "tipo": "verbo"
+   },
+   {
+    "id": "fuitearimasu",
+    "jp": "拭[ふ]いて あります",
+    "tipo": "verbo"
+   },
+   {
+    "id": "fuitekimasu",
+    "jp": "拭[ふ]いて きます",
+    "tipo": "verbo"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Tama lo quiere todo listo para Año Nuevo: «Dejaré la ventana limpia (desde ya)».",
+     "en": "Tama wants everything ready for New Year: «I'll get the window clean (ahead of time)»."
+    },
+    "escena": {
+     "fondo": "sala",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 80
+      },
+      {
+       "que": "gato",
+       "id": "tama",
+       "x": 310
+      }
+     ]
+    },
+    "piezas": [
+     "mado",
+     "wo",
+     "fuiteokimasu",
+     "fuitearimasu",
+     "fuitekimasu"
+    ],
+    "bien": [
+     [
+      "mado",
+      "wo",
+      "fuiteokimasu"
+     ]
+    ],
+    "tr": {
+     "es": "Dejaré la ventana limpia.",
+     "en": "I'll get the window clean ahead of time."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "texto",
+      "texto": "ピカピカ！",
+      "x": 200,
+      "y": 100
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "fuitearimasu"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "てある cuenta cómo ESTÁ algo (con が: 窓が拭いてある). Para lo que TÚ dejas preparado, ておく: 拭いておきます.",
+       "en": "てある tells how something IS (with が: 窓が拭いてある). For what YOU get ready, ておく: 拭いておきます."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "fuitekimasu"
+       ]
+      },
+      "efecto": {
+       "tipo": "manpu",
+       "objeto": "tama",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "拭いてきます es «voy a limpiarla y vuelvo». Tama quiere dejarla lista de antemano: 拭いておきます.",
+       "en": "拭いてきます is «I'll go clean it and come back». Tama wants it done ahead of time: 拭いておきます."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "reto": {
+  "intro": {
+   "jp": "ふん。 大掃除[おおそうじ]の 前[まえ]に、 勝負[しょうぶ]を 片付[かたづ]けて おく。",
+   "tr": {
+    "es": "Hmpf. Antes de la limpieza, dejo resuelto nuestro duelo.",
+    "en": "Hmph. Before the cleaning, I'll settle our duel."
+   },
+   "voz": "k0"
+  },
+  "gana": {
+   "jp": "…くっ。 練習[れんしゅう]して くる。",
+   "tr": {
+    "es": "…Tsk. Voy a practicar y vuelvo.",
+    "en": "…Tch. I'll go practise and come back."
+   },
+   "voz": "kw"
+  },
+  "pierde": {
+   "jp": "ふん。 勝[か]ちは もらって いく。",
+   "tr": {
+    "es": "Hmpf. La victoria me la llevo yo.",
+    "en": "Hmph. I'll be taking the win."
+   },
+   "voz": "kl"
+  },
+  "pica": {
+   "jp": "…やるな。",
+   "tr": {
+    "es": "…No está mal.",
+    "en": "…Not bad."
+   },
+   "voz": "kp"
+  },
+  "burla": {
+   "jp": "ふん！",
+   "tr": {
+    "es": "¡Ja!",
+    "en": "Hah!"
+   },
+   "voz": "kb"
+  },
+  "preguntas": [
+   {
+    "tipo": "elige",
+    "jp": "壁[かべ]に 絵[え]が 貼[は]って ＿ます。",
+    "opciones": [
+     "あり",
+     "おき",
+     "き"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Hay un cuadro colgado en la pared.",
+     "en": "There's a picture up on the wall."
+    },
+    "porque": {
+     "es": "Cómo está algo que alguien dejó hecho, con が: てあります.",
+     "en": "How something someone left done looks, with が: てあります."
+    },
+    "voz": "q1"
+   },
+   {
+    "tipo": "elige",
+    "jp": "コタローを 散歩[さんぽ]に 連[つ]れて ＿ます。",
+    "opciones": [
+     "いき",
+     "あり",
+     "おき"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Me llevo a Kotarō de paseo.",
+     "en": "I'm taking Kotarō for a walk."
+    },
+    "porque": {
+     "es": "Te lo llevas contigo: 連れていきます.",
+     "en": "You take him with you: 連れていきます."
+    },
+    "voz": "q2"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "お客[きゃく]さんが 来[く]る 前[まえ]に、 部屋[へや]を 掃除[そうじ]して おきます。",
+    "correcta": true,
+    "tr": {
+     "es": "Antes de que vengan las visitas, dejo limpia la habitación.",
+     "en": "Before the guests come, I'll get the room clean."
+    },
+    "porque": {
+     "es": "Bien: ておく, preparar algo de antemano.",
+     "en": "Right: ておく, getting something ready beforehand."
+    },
+    "voz": "q3"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "ドアが 閉[し]めて おきます。",
+    "correcta": false,
+    "tr": {
+     "es": "(Dejo la puerta cerrada.)",
+     "en": "(I'll leave the door shut.)"
+    },
+    "porque": {
+     "es": "ておく va con を y cuenta lo que haces tú: ドアを閉めておきます. Para describir cómo está: ドアが閉めてあります.",
+     "en": "ておく takes を and says what you do: ドアを閉めておきます. To describe how it is: ドアが閉めてあります."
+    },
+    "voz": "q4"
+   },
+   {
+    "tipo": "oye",
+    "jp": "パンを 買[か]って きました。",
+    "habla": "tama",
+    "opciones": [
+     {
+      "es": "He comprado pan (y aquí está).",
+      "en": "I've bought bread (here it is)."
+     },
+     {
+      "es": "Voy a comprar pan.",
+      "en": "I'm going to buy bread."
+     },
+     {
+      "es": "El pan estaba comprado de antes.",
+      "en": "The bread was bought in advance."
+     }
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "買ってきた: fuiste, lo compraste y has vuelto con él.",
+     "en": "買ってきた: you went, bought it and came back with it."
+    },
+    "voz": "q5"
+   },
+   {
+    "tipo": "imagen",
+    "jp": "鏡餅[かがみもち]を 持[も]って きて ください。",
+    "opciones": [
+     "kagamimochi",
+     "keki",
+     "soba"
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "鏡餅: la decoración de Año Nuevo.",
+     "en": "鏡餅: the New Year decoration."
+    },
+    "pide": {
+     "es": "¿Qué hay que traer?",
+     "en": "What needs bringing?"
+    }
+   }
+  ]
+ },
+ "siguiente": {
+  "es": "Antes de Año Nuevo hay que mandar los 年賀状, las postales de felicitación. Y para que lleguen a tiempo…",
+  "en": "Before New Year, you have to send the 年賀状, the greeting cards. And for them to arrive in time…"
+ },
+ "chuleta": {
+  "patron": {
+   "es": "〔て〕いく／くる ・ 〔て〕おく ・ 〔が〕〔て〕ある",
+   "en": "〔て〕いく／くる ・ 〔て〕おく ・ 〔が〕〔て〕ある"
+  },
+  "patron_tr": {
+   "es": "llevar / traer ・ dejar preparado ・ está hecho",
+   "en": "take / bring ・ get ready ・ has been done"
+  },
+  "filas": [
+   {
+    "jp": "飲[の]み物[もの]を 買[か]って きます。",
+    "es": "Voy a comprar bebida (y vuelvo).",
+    "en": "I'll go get drinks (and come back).",
+    "registro": "educado"
+   },
+   {
+    "jp": "明日[あした]の 準備[じゅんび]、 しとくね。",
+    "es": "Dejo lo de mañana preparado. (a un amigo)",
+    "en": "I'll get tomorrow's stuff ready. (to a friend)",
+    "registro": "amigos"
+   },
+   {
+    "jp": "ドアが 開[あ]けて あります。",
+    "es": "La puerta está abierta (alguien la dejó así).",
+    "en": "The door's been left open."
+   }
+  ],
+  "consejo": {
+   "es": "行ってきます («me voy y vuelvo») es justamente ていく + くる: lo que dices cada mañana al salir de casa. Y la respuesta, いってらっしゃい.",
+   "en": "行ってきます («I'm off and I'll be back») is exactly て + くる: what you say every morning leaving home. The reply: いってらっしゃい."
+  }
+ }
+}
