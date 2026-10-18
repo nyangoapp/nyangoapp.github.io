@@ -1,0 +1,976 @@
+{
+ "id": "c49",
+ "clase": 49,
+ "desde": 1630,
+ "titulo": {
+  "es": "¡Por tu culpa!: 〜おかげで y 〜せいで",
+  "en": "It's your fault!: 〜おかげで and 〜せいで"
+ },
+ "resumen": {
+  "es": "〜の／〜た おかげで: gracias a algo, una causa BUENA. 〜の／〜た せいで: por culpa de algo, una causa MALA. La misma idea que から／ので (clase 14), pero diciendo si la razón fue buena o mala.",
+  "en": "〜の／〜た おかげで: thanks to something, a GOOD cause. 〜の／〜た せいで: because of something, a BAD cause. The same idea as から／ので (class 14), but saying whether the reason was good or bad."
+ },
+ "intro": [
+  {
+   "escena": {
+    "fondo": "calle",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "feliz"
+     },
+     {
+      "que": "paraguas",
+      "x": 190,
+      "s": 1.1
+     },
+     {
+      "que": "gato",
+      "x": 300
+     }
+    ]
+   },
+   "cara": "feliz",
+   "jp": "傘[かさ]を 貸[か]してくれて ありがとう。",
+   "voz": "i1",
+   "tr": {
+    "es": "Gracias por prestarme el paraguas.",
+    "en": "Thanks for lending me the umbrella."
+   },
+   "cartela": {
+    "es": "てくれる: alguien hace algo POR TI (ya lo sabes). Aquí, Tama le presta el paraguas.",
+    "en": "てくれる: someone does something FOR you (you already know this one). Here, Tama lends him the umbrella."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "calle",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "feliz"
+     },
+     {
+      "que": "paraguas",
+      "x": 190,
+      "s": 1.1
+     },
+     {
+      "que": "gato",
+      "x": 300
+     }
+    ]
+   },
+   "cara": "feliz",
+   "jp": "傘[かさ]の おかげで、 濡[ぬ]れなかったよ。",
+   "voz": "i2",
+   "tr": {
+    "es": "Gracias al paraguas, no me mojé.",
+    "en": "Thanks to the umbrella, I didn't get wet."
+   },
+   "cartela": {
+    "es": "〜の おかげで: gracias a algo (una causa BUENA).",
+    "en": "〜の おかげで: thanks to something (a GOOD cause)."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "triste"
+     },
+     {
+      "que": "libro",
+      "x": 270,
+      "s": 1.2
+     },
+     {
+      "que": "manpu",
+      "tipo": "sudor",
+      "x": 170,
+      "y": 105
+     }
+    ]
+   },
+   "cara": "triste",
+   "jp": "でも…夜[よる] 遅[おそ]くまで 漫画[まんが]を 読[よ]んだ せいで、 試験[しけん]に 落[お]ちた…。",
+   "voz": "i3",
+   "tr": {
+    "es": "Pero… por leer manga hasta tarde, suspendí el examen…",
+    "en": "But… because I read manga till late, I failed the exam…"
+   },
+   "cartela": {
+    "es": "〜た せいで: por culpa de algo (una causa MALA).",
+    "en": "〜た せいで: because of something (a BAD cause)."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "triste"
+     },
+     {
+      "que": "gato",
+      "x": 270
+     }
+    ]
+   },
+   "habla": "tama",
+   "cara": "normal",
+   "jp": "傘[かさ]の おかげで 濡[ぬ]れなかったのに、 漫画[まんが]の せいで 試験[しけん]に 落[お]ちたね。",
+   "voz": "i4",
+   "tr": {
+    "es": "Gracias al paraguas no te mojaste, pero por el manga suspendiste el examen, ¿eh.",
+    "en": "Thanks to the umbrella you didn't get wet, but because of the manga you failed the exam, huh."
+   },
+   "cartela": {
+    "es": "Fin de la intro: おかげで (algo bueno) y せいで (algo malo). ¡A practicar!",
+    "en": "End of the intro: おかげで (something good) and せいで (something bad). Let's practice!"
+   }
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta cada frase. おかげで para lo bueno, せいで para lo malo.",
+   "en": "Build each sentence. おかげで for the good, せいで for the bad."
+  },
+  "piezas": [
+   {
+    "id": "kasa",
+    "jp": "傘[かさ]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "no",
+    "jp": "の",
+    "tipo": "particula"
+   },
+   {
+    "id": "okagede",
+    "jp": "おかげで",
+    "tipo": "particula"
+   },
+   {
+    "id": "seide",
+    "jp": "せいで",
+    "tipo": "particula"
+   },
+   {
+    "id": "nurenakatta",
+    "jp": "濡[ぬ]れなかった",
+    "tipo": "verbo"
+   },
+   {
+    "id": "nuremasendeshita",
+    "jp": "濡[ぬ]れませんでした",
+    "tipo": "verbo"
+   },
+   {
+    "id": "yo",
+    "jp": "よ",
+    "tipo": "particula"
+   },
+   {
+    "id": "manga",
+    "jp": "漫画[まんが]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "wo",
+    "jp": "を",
+    "tipo": "particula"
+   },
+   {
+    "id": "yonda",
+    "jp": "読[よ]んだ",
+    "tipo": "verbo"
+   },
+   {
+    "id": "shiken",
+    "jp": "試験[しけん]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "ni",
+    "jp": "に",
+    "tipo": "particula"
+   },
+   {
+    "id": "ochita",
+    "jp": "落[お]ちた",
+    "tipo": "verbo"
+   },
+   {
+    "id": "tomodachi",
+    "jp": "友達[ともだち]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "tasuketa",
+    "jp": "助[たす]けた",
+    "tipo": "verbo"
+   },
+   {
+    "id": "okuremashita",
+    "jp": "遅[おく]れました",
+    "tipo": "verbo"
+   },
+   {
+    "id": "ame",
+    "jp": "雨[あめ]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "shiai",
+    "jp": "試合[しあい]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "ga",
+    "jp": "が",
+    "tipo": "particula"
+   },
+   {
+    "id": "chuushi",
+    "jp": "中止[ちゅうし]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "ninatta",
+    "jp": "に なった",
+    "tipo": "verbo"
+   },
+   {
+    "id": "sensei",
+    "jp": "先生[せんせい]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "kanji",
+    "jp": "漢字[かんじ]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "wakaruyouninatta",
+    "jp": "わかるように なった",
+    "tipo": "verbo"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Dile a Tama, en plan casual: «Gracias al paraguas, no me mojé».",
+     "en": "Tell Tama, casually: «Thanks to the umbrella, I didn't get wet»."
+    },
+    "escena": {
+     "fondo": "calle",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "feliz"
+      },
+      {
+       "que": "paraguas",
+       "x": 200,
+       "s": 1.1
+      },
+      {
+       "que": "gato",
+       "x": 300
+      }
+     ]
+    },
+    "piezas": [
+     "kasa",
+     "no",
+     "okagede",
+     "seide",
+     "nurenakatta",
+     "yo"
+    ],
+    "bien": [
+     [
+      "kasa",
+      "no",
+      "okagede",
+      "nurenakatta",
+      "yo"
+     ]
+    ],
+    "tr": {
+     "es": "Gracias al paraguas, no me mojé.",
+     "en": "Thanks to the umbrella, I didn't get wet."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "feliz",
+      "brazo": "arriba"
+     },
+     {
+      "tipo": "brilla",
+      "objeto": "paraguas"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "seide"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "せいで es para algo MALO. No mojarte es bueno: usa おかげで.",
+       "en": "せいで is for something BAD. Not getting wet is good: use おかげで."
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "nurenakatta"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin 濡[ぬ]れなかった no dices QUÉ pasó gracias al paraguas.",
+       "en": "Without 濡れなかった you're not saying WHAT happened thanks to the umbrella."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Ahora cuéntaselo al sensei, con educación: «Gracias al paraguas, no me mojé».",
+     "en": "Now tell the teacher, politely: «Thanks to the umbrella, I didn't get wet»."
+    },
+    "escena": {
+     "fondo": "escuela",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "normal"
+      },
+      {
+       "que": "profesor",
+       "x": 270
+      }
+     ]
+    },
+    "piezas": [
+     "kasa",
+     "no",
+     "okagede",
+     "seide",
+     "nuremasendeshita"
+    ],
+    "bien": [
+     [
+      "kasa",
+      "no",
+      "okagede",
+      "nuremasendeshita"
+     ]
+    ],
+    "tr": {
+     "es": "Gracias al paraguas, no me mojé.",
+     "en": "Thanks to the umbrella, I didn't get wet."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "normal"
+     },
+     {
+      "tipo": "texto",
+      "texto": "そうですか",
+      "objeto": "profesor"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "seide"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "せいで es para algo MALO. No mojarte es bueno: usa おかげで.",
+       "en": "せいで is for something BAD. Not getting wet is good: use おかげで."
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "nuremasendeshita"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Con el sensei hace falta la forma educada: 濡[ぬ]れませんでした.",
+       "en": "With the teacher you need the polite form: 濡れませんでした."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Cuéntale a Tama, en plan casual: «Por leer manga hasta tarde, suspendí el examen».",
+     "en": "Tell Tama, casually: «Because I read manga till late, I failed the exam»."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "triste"
+      },
+      {
+       "que": "libro",
+       "x": 270,
+       "s": 1.2
+      }
+     ]
+    },
+    "piezas": [
+     "manga",
+     "wo",
+     "yonda",
+     "seide",
+     "okagede",
+     "shiken",
+     "ni",
+     "ochita"
+    ],
+    "bien": [
+     [
+      "manga",
+      "wo",
+      "yonda",
+      "seide",
+      "shiken",
+      "ni",
+      "ochita"
+     ]
+    ],
+    "tr": {
+     "es": "Por leer manga hasta tarde, suspendí el examen.",
+     "en": "Because I read manga till late, I failed the exam."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "triste"
+     },
+     {
+      "tipo": "manpu",
+      "objeto": "libro",
+      "manpu": "sudor"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "okagede"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "おかげで es para algo BUENO. Suspender no lo es: usa せいで.",
+       "en": "おかげで is for something GOOD. Failing isn't: use せいで."
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "ochita"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin 落[お]ちた no dices QUÉ pasó al final.",
+       "en": "Without 落ちた you're not saying what ended up happening."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Explícale al sensei por qué llegaste tarde, con educación: «Gracias a que ayudé a un amigo, llegué tarde».",
+     "en": "Explain to the teacher why you were late, politely: «Because I helped a friend, I was late»."
+    },
+    "escena": {
+     "fondo": "escuela",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "normal"
+      },
+      {
+       "que": "profesor",
+       "x": 270
+      }
+     ]
+    },
+    "piezas": [
+     "tomodachi",
+     "wo",
+     "tasuketa",
+     "okagede",
+     "seide",
+     "okuremashita"
+    ],
+    "bien": [
+     [
+      "tomodachi",
+      "wo",
+      "tasuketa",
+      "okagede",
+      "okuremashita"
+     ]
+    ],
+    "tr": {
+     "es": "Gracias a que ayudé a un amigo, llegué tarde.",
+     "en": "Because I helped a friend, I was late."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "normal"
+     },
+     {
+      "tipo": "texto",
+      "texto": "えらいね",
+      "objeto": "profesor"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "seide"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Llegar tarde no es bueno, pero AYUDAR a un amigo sí: おかげで también sirve para admitir con orgullo una buena causa, aunque el resultado no sea perfecto.",
+       "en": "Being late isn't good, but HELPING a friend is: おかげで can also proudly own up to a good cause, even if the result wasn't perfect."
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "tasuketa"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin 助[たす]けた no dices QUÉ hiciste.",
+       "en": "Without 助けた you're not saying what you did."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Reto: gracias al sensei, has llegado a entender los kanji. Dilo con la palabra correcta (¡positiva!): «Gracias al sensei, he llegado a entender los kanji».",
+     "en": "Challenge: thanks to the teacher, you've come to understand kanji. Say it with the correct (positive!) word: «Thanks to the teacher, I've come to understand kanji»."
+    },
+    "escena": {
+     "fondo": "escuela",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 130,
+       "cara": "feliz"
+      },
+      {
+       "que": "profesor",
+       "x": 270
+      }
+     ]
+    },
+    "piezas": [
+     "sensei",
+     "no",
+     "okagede",
+     "seide",
+     "kanji",
+     "ga",
+     "wakaruyouninatta"
+    ],
+    "bien": [
+     [
+      "sensei",
+      "no",
+      "okagede",
+      "kanji",
+      "ga",
+      "wakaruyouninatta"
+     ]
+    ],
+    "tr": {
+     "es": "Gracias al sensei, he llegado a entender los kanji.",
+     "en": "Thanks to the teacher, I've come to understand kanji."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "feliz",
+      "brazo": "arriba"
+     },
+     {
+      "tipo": "brilla",
+      "objeto": "profesor"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "seide"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Aquí el resultado es BUENO (entender los kanji): usa おかげで, no せいで.",
+       "en": "Here the result is GOOD (understanding kanji): use おかげで, not せいで."
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "okagede"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin おかげで no expresas agradecimiento por la causa.",
+       "en": "Without おかげで you're not expressing thanks for the cause."
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "wakaruyouninatta"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin ように なった no dices que has LLEGADO a entenderlos (repaso de la clase 35).",
+       "en": "Without ように なった you're not saying you've COME to understand them (a review from class 35)."
+      }
+     }
+    ],
+    "pista": {
+     "es": "Empieza con quién te ha ayudado: 先生[せんせい]の…",
+     "en": "Start with who helped you: sensei no…"
+    }
+   }
+  ]
+ },
+ "juego": {
+  "intro": {
+   "es": "¿おかげで (algo bueno) o せいで (algo malo)? Completa cada frase.",
+   "en": "おかげで (something good) or せいで (something bad)? Complete each sentence."
+  },
+  "nyan": {
+   "es": "Todo lo que me pasa es gracias a alguien… o por culpa de alguien. Nunca por mí.",
+   "en": "Everything that happens to me is thanks to someone… or someone's fault. Never mine."
+  },
+  "cestas": [
+   {
+    "id": "okagede",
+    "jp": "おかげで",
+    "sub": {
+     "es": "gracias a… (algo bueno)",
+     "en": "thanks to… (something good)"
+    }
+   },
+   {
+    "id": "seide",
+    "jp": "せいで",
+    "sub": {
+     "es": "por culpa de… (algo malo)",
+     "en": "because of… (something bad)"
+    }
+   }
+  ],
+  "cartas": [
+   {
+    "id": "j1",
+    "dibujo": "paraguas",
+    "jp": "傘[かさ]の ＿、 濡[ぬ]れなかった。",
+    "cesta": "okagede",
+    "es": "Gracias al paraguas, no me mojé.",
+    "en": "Thanks to the umbrella, I didn't get wet."
+   },
+   {
+    "id": "j2",
+    "jp": "漫画[まんが]を 読[よ]んだ ＿、 試験[しけん]に 落[お]ちた。",
+    "cesta": "seide",
+    "es": "Por leer manga, suspendí el examen.",
+    "en": "Because I read manga, I failed the exam."
+   },
+   {
+    "id": "j3",
+    "dibujo": "profesor",
+    "jp": "先生[せんせい]の ＿、 漢字[かんじ]が わかるように なった。",
+    "cesta": "okagede",
+    "es": "Gracias al sensei, entiendo los kanji.",
+    "en": "Thanks to the teacher, I understand kanji."
+   },
+   {
+    "id": "j4",
+    "dibujo": "nube",
+    "jp": "雨[あめ]の ＿、 試合[しあい]が 中止[ちゅうし]に なった。",
+    "cesta": "seide",
+    "es": "Por culpa de la lluvia, se canceló el partido.",
+    "en": "Because of the rain, the match got cancelled."
+   },
+   {
+    "id": "j5",
+    "jp": "友達[ともだち]の ＿、 パーティーが 楽[たの]しかった。",
+    "cesta": "okagede",
+    "es": "Gracias a mi amigo, la fiesta fue divertida.",
+    "en": "Thanks to my friend, the party was fun."
+   },
+   {
+    "id": "j6",
+    "jp": "夜[よる] 遅[おそ]くまで 起[お]きてた ＿、 今日[きょう]は 眠[ねむ]い。",
+    "cesta": "seide",
+    "es": "Por quedarme despierto hasta tarde, hoy tengo sueño.",
+    "en": "Because I stayed up late, I'm sleepy today."
+   },
+   {
+    "id": "j7",
+    "dibujo": "gato",
+    "jp": "タマが 手伝[てつだ]って くれた ＿、 早[はや]く 終[お]わった。",
+    "cesta": "okagede",
+    "es": "Gracias a que Tama me ayudó, terminé pronto.",
+    "en": "Thanks to Tama helping me, I finished early."
+   },
+   {
+    "id": "j8",
+    "jp": "宿題[しゅくだい]を 忘[わす]れた ＿、 先生[せんせい]に 怒[おこ]られた。",
+    "cesta": "seide",
+    "es": "Por olvidarme los deberes, el sensei se enfadó conmigo.",
+    "en": "Because I forgot my homework, the teacher got mad at me.",
+    "truco": {
+     "es": "せいで: la causa es tuya y el resultado, malo.",
+     "en": "せいで: the cause is yours and the result is bad."
+    }
+   }
+  ]
+ },
+ "outro": [
+  {
+   "escena": {
+    "fondo": "calle",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "feliz"
+     },
+     {
+      "que": "paraguas",
+      "x": 200,
+      "s": 1.1
+     },
+     {
+      "que": "gato",
+      "x": 300
+     }
+    ]
+   },
+   "cara": "feliz",
+   "jp": "傘[かさ]の おかげで、 濡[ぬ]れなかったよ。",
+   "voz": "o1",
+   "tr": {
+    "es": "Gracias al paraguas, no me mojé.",
+    "en": "Thanks to the umbrella, I didn't get wet."
+   },
+   "cartela": {
+    "es": "おかげで: una causa buena.",
+    "en": "おかげで: a good cause."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "triste"
+     },
+     {
+      "que": "libro",
+      "x": 270,
+      "s": 1.2
+     }
+    ]
+   },
+   "cara": "triste",
+   "jp": "漫画[まんが]の せいで、 試験[しけん]に 落[お]ちた。",
+   "voz": "o2",
+   "tr": {
+    "es": "Por culpa del manga, suspendí el examen.",
+    "en": "Because of the manga, I failed the exam."
+   },
+   "cartela": {
+    "es": "せいで: una causa mala.",
+    "en": "せいで: a bad cause."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "feliz"
+     },
+     {
+      "que": "gato",
+      "x": 270
+     }
+    ]
+   },
+   "habla": "tama",
+   "cara": "normal",
+   "jp": "まあ、 ニャンの せいで、 いつも タマが 忙[いそが]しいけどね。",
+   "voz": "o3",
+   "tr": {
+    "es": "Bueno, aunque por culpa de Nyan, Tama siempre está ocupado.",
+    "en": "Well, though because of Nyan, Tama's always busy."
+   },
+   "cartela": {
+    "es": "Fin. おかげで para lo bueno, せいで para lo malo… y a veces, la causa eres tú.",
+    "en": "The end. おかげで for the good, せいで for the bad… and sometimes, the cause is you."
+   }
+  }
+ ],
+ "chuleta": {
+  "patron": {
+   "es": "〜の／〜た おかげで ／ 〜の／〜た せいで",
+   "en": "〜の／〜た おかげで ／ 〜の／〜た せいで"
+  },
+  "patron_tr": {
+   "es": "gracias a… (bueno) ／ por culpa de… (malo)",
+   "en": "thanks to… (good) ／ because of… (bad)"
+  },
+  "columnas": [
+   {
+    "jp": "おかげで",
+    "texto": {
+     "es": "una causa BUENA",
+     "en": "a GOOD cause"
+    },
+    "dibujos": [
+     "paraguas"
+    ]
+   },
+   {
+    "jp": "せいで",
+    "texto": {
+     "es": "una causa MALA",
+     "en": "a BAD cause"
+    },
+    "dibujos": [
+     "nube"
+    ]
+   }
+  ],
+  "filas": [
+   {
+    "jp": "傘[かさ]の おかげで、 濡[ぬ]れなかったよ。",
+    "es": "Gracias al paraguas, no me mojé.",
+    "en": "Thanks to the umbrella, I didn't get wet.",
+    "registro": "amigos"
+   },
+   {
+    "jp": "傘[かさ]の おかげで、 濡[ぬ]れませんでした。",
+    "es": "Gracias al paraguas, no me mojé.",
+    "en": "Thanks to the umbrella, I didn't get wet.",
+    "registro": "educado"
+   },
+   {
+    "jp": "漫画[まんが]の せいで、 試験[しけん]に 落[お]ちた。",
+    "es": "Por culpa del manga, suspendí el examen.",
+    "en": "Because of the manga, I failed the exam."
+   },
+   {
+    "jp": "雨[あめ]の せいで、 試合[しあい]が 中止[ちゅうし]に なった。",
+    "es": "Por culpa de la lluvia, se canceló el partido.",
+    "en": "Because of the rain, the match got cancelled."
+   }
+  ],
+  "consejo": {
+   "es": "から・ので (clase 14) dan cualquier razón, buena o mala. おかげで／せいで además dicen SI esa razón fue buena o mala.",
+   "en": "から・ので (class 14) give any reason at all, good or bad. おかげで／せいで additionally say WHETHER that reason was good or bad."
+  }
+ }
+}

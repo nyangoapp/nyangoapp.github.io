@@ -1,0 +1,889 @@
+{
+ "id": "c51",
+ "clase": 51,
+ "desde": 1750,
+ "titulo": {
+  "es": "Un poco gato: 〜っぽい y 〜がち",
+  "en": "A little cat-like: 〜っぽい and 〜がち"
+ },
+ "resumen": {
+  "es": "っぽい: tiene pinta de…, un rasgo (muy casual). がち: tiende a…, casi siempre algo negativo. Distinto de らしい／みたい (clase 33): eso es lo que has oído, sin estar seguro.",
+  "en": "っぽい: seems like…, a trait (very casual). がち: tends to…, almost always something negative. Different from らしい／みたい (class 33): that's what you've heard, without being sure."
+ },
+ "intro": [
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "normal"
+     },
+     {
+      "que": "gato",
+      "x": 270
+     }
+    ]
+   },
+   "habla": "tama",
+   "cara": "normal",
+   "jp": "ニャンって、 ちょっと 子供[こども]っぽいよね。",
+   "voz": "i1",
+   "tr": {
+    "es": "Nyan, eres un poco infantil, ¿eh.",
+    "en": "Nyan, you're a bit childish, huh."
+   },
+   "cartela": {
+    "es": "っぽい: «tiene pinta de…», «un poco…». Muy casual.",
+    "en": "っぽい: «kind of…», «seems like…». Very casual."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "sorpresa"
+     },
+     {
+      "que": "gato",
+      "x": 270
+     },
+     {
+      "que": "manpu",
+      "tipo": "pregunta",
+      "x": 160,
+      "y": 105
+     }
+    ]
+   },
+   "cara": "sorpresa",
+   "jp": "そんなこと ないよ！ ……あれ、 宿題[しゅくだい] どこ？",
+   "voz": "i2",
+   "tr": {
+    "es": "¡Eso no es verdad! ……¿eh? ¿Dónde están mis deberes?",
+    "en": "That's not true! ……huh? Where's my homework?"
+   },
+   "cartela": {
+    "es": "(Nyan protesta… y al momento demuestra lo contrario.)",
+    "en": "(Nyan protests… and immediately proves otherwise.)"
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "triste"
+     },
+     {
+      "que": "gato",
+      "x": 270
+     }
+    ]
+   },
+   "habla": "tama",
+   "cara": "feliz",
+   "jp": "ほら、 忘[わす]れっぽいでしょ。",
+   "voz": "i3",
+   "tr": {
+    "es": "Mira, eres olvidadizo, ¿a que sí?",
+    "en": "See, you're forgetful, aren't you."
+   },
+   "cartela": {
+    "es": "忘[わす]れっぽい: alguien que SUELE olvidar cosas (っぽい pegado al verbo, un rasgo).",
+    "en": "忘れっぽい: someone who tends to forget things (っぽい stuck onto the verb, a trait)."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 130,
+      "cara": "triste"
+     }
+    ]
+   },
+   "cara": "triste",
+   "jp": "最近[さいきん]、 忘[わす]れがち なんだよね…。",
+   "voz": "i4",
+   "tr": {
+    "es": "Últimamente, tiendo a olvidar cosas…",
+    "en": "Lately, I've been tending to forget things…"
+   },
+   "cartela": {
+    "es": "Fin de la intro: っぽい (parece/tiene el rasgo) y がち (tiende a, casi siempre negativo). ¡A practicar!",
+    "en": "End of the intro: っぽい (seems like/has the trait) and がち (tends to, almost always negative). Let's practice!"
+   }
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta cada frase. っぽい para un rasgo, がち para una tendencia (normalmente mala).",
+   "en": "Build each sentence. っぽい for a trait, がち for a tendency (usually a bad one)."
+  },
+  "piezas": [
+   {
+    "id": "nyanwa",
+    "jp": "ニャンは",
+    "tipo": "palabra"
+   },
+   {
+    "id": "kodomoppoi",
+    "jp": "子供[こども]っぽい",
+    "tipo": "palabra"
+   },
+   {
+    "id": "otonappoi",
+    "jp": "大人[おとな]っぽい",
+    "tipo": "palabra"
+   },
+   {
+    "id": "wasureppoi",
+    "jp": "忘[わす]れっぽい",
+    "tipo": "palabra"
+   },
+   {
+    "id": "wasuregachi",
+    "jp": "忘[わす]れがち",
+    "tipo": "palabra"
+   },
+   {
+    "id": "da",
+    "jp": "だ",
+    "tipo": "verbo"
+   },
+   {
+    "id": "desu",
+    "jp": "です",
+    "tipo": "verbo"
+   },
+   {
+    "id": "yo",
+    "jp": "よ",
+    "tipo": "particula"
+   },
+   {
+    "id": "saikin",
+    "jp": "最近[さいきん]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "nda",
+    "jp": "なんだ",
+    "tipo": "particula"
+   },
+   {
+    "id": "kyouwa",
+    "jp": "今日[きょう]は",
+    "tipo": "palabra"
+   },
+   {
+    "id": "yasumi",
+    "jp": "休[やす]み",
+    "tipo": "palabra"
+   },
+   {
+    "id": "rashii",
+    "jp": "らしい",
+    "tipo": "particula"
+   },
+   {
+    "id": "yasumigachi",
+    "jp": "休[やす]みがち",
+    "tipo": "palabra"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Descríbelo como Tama: dile a alguien «Nyan es un poco infantil».",
+     "en": "Describe him like Tama: say «Nyan is a bit childish»."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "normal"
+      },
+      {
+       "que": "gato",
+       "x": 270
+      }
+     ]
+    },
+    "piezas": [
+     "nyanwa",
+     "kodomoppoi",
+     "otonappoi",
+     "da",
+     "yo"
+    ],
+    "bien": [
+     [
+      "nyanwa",
+      "kodomoppoi",
+      "da",
+      "yo"
+     ]
+    ],
+    "tr": {
+     "es": "Nyan es un poco infantil.",
+     "en": "Nyan is a bit childish."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "triste"
+     },
+     {
+      "tipo": "manpu",
+      "objeto": "gato",
+      "manpu": "excl"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "otonappoi"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "大人[おとな]っぽい es «con pinta de adulto», lo CONTRARIO. Aquí es infantil: usa 子供[こども]っぽい.",
+       "en": "大人っぽい means «adult-like», the OPPOSITE. Here it's childish: use 子供っぽい."
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "da"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin だ la frase queda a medias con Tama.",
+       "en": "Without だ the sentence trails off with Tama."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Ahora dile por qué lo dice: «Nyan es olvidadizo».",
+     "en": "Now say why: «Nyan is forgetful»."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "triste"
+      },
+      {
+       "que": "gato",
+       "x": 270
+      }
+     ]
+    },
+    "piezas": [
+     "nyanwa",
+     "wasureppoi",
+     "wasuregachi",
+     "da",
+     "yo"
+    ],
+    "bien": [
+     [
+      "nyanwa",
+      "wasureppoi",
+      "da",
+      "yo"
+     ]
+    ],
+    "tr": {
+     "es": "Nyan es olvidadizo.",
+     "en": "Nyan is forgetful."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "triste"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "wasuregachi"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "がち es «tiende a olvidar» (una costumbre repetida). Aquí describes su carácter: usa っぽい.",
+       "en": "がち means «tends to forget» (a repeated habit). Here you're describing his character: use っぽい."
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "da"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin だ la frase queda a medias.",
+       "en": "Without だ the sentence trails off."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Confiesa como Nyan: «Últimamente, tiendo a olvidar cosas».",
+     "en": "Confess like Nyan: «Lately, I've been tending to forget things»."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 130,
+       "cara": "triste"
+      },
+      {
+       "que": "manpu",
+       "tipo": "sudor",
+       "x": 180,
+       "y": 100
+      }
+     ]
+    },
+    "piezas": [
+     "saikin",
+     "wasuregachi",
+     "wasureppoi",
+     "nda"
+    ],
+    "bien": [
+     [
+      "saikin",
+      "wasuregachi",
+      "nda"
+     ]
+    ],
+    "tr": {
+     "es": "Últimamente, tiendo a olvidar cosas.",
+     "en": "Lately, I've been tending to forget things."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "triste"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "wasureppoi"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "っぽい describe un rasgo fijo. Aquí hablas de algo de ÚLTIMAMENTE, una tendencia: usa がち.",
+       "en": "っぽい describes a fixed trait. Here you're talking about something LATELY, a tendency: use がち."
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "saikin"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin 最近[さいきん] no queda claro que es algo de últimamente.",
+       "en": "Without 最近 it's not clear this is something lately."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Repaso: has oído que hoy es fiesta, pero no estás seguro (usa らしい, clase 33): «Parece que hoy es fiesta».",
+     "en": "Review: you heard today's a holiday, but you're not sure (use らしい, class 33): «It seems today's a holiday»."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 130,
+       "cara": "pensando"
+      }
+     ]
+    },
+    "piezas": [
+     "kyouwa",
+     "yasumi",
+     "rashii",
+     "yasumigachi"
+    ],
+    "bien": [
+     [
+      "kyouwa",
+      "yasumi",
+      "rashii"
+     ]
+    ],
+    "tr": {
+     "es": "Parece que hoy es fiesta.",
+     "en": "It seems today's a holiday."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     },
+     {
+      "tipo": "brilla",
+      "objeto": "nyan"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "yasumigachi"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "がち es «tender a», no «parece que» (algo que has oído). Usa らしい.",
+       "en": "がち means «tends to», not «apparently» (something you heard). Use らしい."
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "rashii"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin らしい no expresas que lo has oído, no que lo sabes seguro.",
+       "en": "Without らしい you're not saying you heard it, not that you're sure."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Reto: discúlpate con el sensei, con educación: «Últimamente, tiendo a olvidar cosas».",
+     "en": "Challenge: apologize to the teacher, politely: «Lately, I've been tending to forget things»."
+    },
+    "escena": {
+     "fondo": "escuela",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "triste"
+      },
+      {
+       "que": "profesor",
+       "x": 270
+      }
+     ]
+    },
+    "piezas": [
+     "saikin",
+     "wasuregachi",
+     "desu",
+     "da",
+     "wasureppoi"
+    ],
+    "bien": [
+     [
+      "saikin",
+      "wasuregachi",
+      "desu"
+     ]
+    ],
+    "tr": {
+     "es": "Últimamente, tiendo a olvidar cosas.",
+     "en": "Lately, I've been tending to forget things."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "triste"
+     },
+     {
+      "tipo": "texto",
+      "texto": "そうですか",
+      "objeto": "profesor"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "da"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "だ es demasiado casual para el sensei: usa です.",
+       "en": "だ is too casual for the teacher: use です."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "wasureppoi"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Aquí hablas de una tendencia reciente, no de un rasgo fijo: usa がち.",
+       "en": "Here you're talking about a recent tendency, not a fixed trait: use がち."
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "desu"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Con el sensei hace falta です.",
+       "en": "With the teacher you need です."
+      }
+     }
+    ],
+    "pista": {
+     "es": "Empieza con cuándo: 最近[さいきん]…",
+     "en": "Start with when: saikin…"
+    }
+   }
+  ]
+ },
+ "juego": {
+  "intro": {
+   "es": "¿っぽい (rasgo), がち (tendencia) o らしい (lo has oído)? Completa cada frase.",
+   "en": "っぽい (trait), がち (tendency) or らしい (you heard it)? Complete each sentence."
+  },
+  "nyan": {
+   "es": "Yo no soy olvidadizo. Bueno… ¿de qué estábamos hablando?",
+   "en": "I'm not forgetful. Well… what were we talking about?"
+  },
+  "cestas": [
+   {
+    "id": "ppoi",
+    "jp": "っぽい",
+    "sub": {
+     "es": "tiene pinta de…, un rasgo (casual)",
+     "en": "seems like…, a trait (casual)"
+    }
+   },
+   {
+    "id": "gachi",
+    "jp": "がち",
+    "sub": {
+     "es": "tiende a… (normalmente malo)",
+     "en": "tends to… (usually bad)"
+    }
+   },
+   {
+    "id": "rashii",
+    "jp": "らしい",
+    "sub": {
+     "es": "parece que… (lo has oído)",
+     "en": "apparently… (you heard it)"
+    }
+   }
+  ],
+  "cartas": [
+   {
+    "id": "j1",
+    "dibujo": "nyan",
+    "jp": "ニャンは 子供[こども]＿。",
+    "cesta": "ppoi",
+    "es": "Nyan tiene pinta de niño.",
+    "en": "Nyan seems childish."
+   },
+   {
+    "id": "j2",
+    "jp": "最近[さいきん]、 遅[おく]れ＿。",
+    "cesta": "gachi",
+    "es": "Últimamente, tiendo a llegar tarde.",
+    "en": "Lately, I've been tending to be late."
+   },
+   {
+    "id": "j3",
+    "dibujo": "profesor",
+    "jp": "先生[せんせい]は 忙[いそが]しい＿。",
+    "cesta": "rashii",
+    "es": "Parece que el sensei está ocupado.",
+    "en": "It seems the teacher is busy."
+   },
+   {
+    "id": "j4",
+    "jp": "雨[あめ]の 日[ひ]は、 電車[でんしゃ]が 遅[おく]れ＿。",
+    "cesta": "gachi",
+    "es": "Los días de lluvia, el tren tiende a llegar tarde.",
+    "en": "On rainy days, the train tends to be late."
+   },
+   {
+    "id": "j5",
+    "dibujo": "gato",
+    "jp": "この 声[こえ]、 タマ＿。",
+    "cesta": "ppoi",
+    "es": "Esta voz tiene pinta de ser de Tama.",
+    "en": "This voice sounds like Tama's."
+   },
+   {
+    "id": "j6",
+    "jp": "テストは 明日[あした]＿。",
+    "cesta": "rashii",
+    "es": "Parece que el examen es mañana.",
+    "en": "It seems the exam is tomorrow."
+   },
+   {
+    "id": "j7",
+    "jp": "子供[こども]は 風邪[かぜ]を 引[ひ]き＿。",
+    "cesta": "gachi",
+    "es": "Los niños tienden a resfriarse.",
+    "en": "Children tend to catch colds."
+   },
+   {
+    "id": "j8",
+    "dibujo": "gato",
+    "jp": "その 猫[ねこ]、 怒[おこ]り＿。",
+    "cesta": "ppoi",
+    "es": "Ese gato tiene pinta de enfadarse fácil.",
+    "en": "That cat seems quick to anger.",
+    "truco": {
+     "es": "っぽい pegado a 怒り (de 怒る): un rasgo del carácter.",
+     "en": "っぽい stuck onto 怒り (from 怒る): a character trait."
+    }
+   }
+  ]
+ },
+ "outro": [
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "normal"
+     },
+     {
+      "que": "gato",
+      "x": 270
+     }
+    ]
+   },
+   "habla": "tama",
+   "cara": "normal",
+   "jp": "ニャンって、 ちょっと 子供[こども]っぽいよね。",
+   "voz": "o1",
+   "tr": {
+    "es": "Nyan, eres un poco infantil, ¿eh.",
+    "en": "Nyan, you're a bit childish, huh."
+   },
+   "cartela": {
+    "es": "っぽい: un rasgo, muy casual.",
+    "en": "っぽい: a trait, very casual."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 130,
+      "cara": "triste"
+     }
+    ]
+   },
+   "cara": "triste",
+   "jp": "最近[さいきん]、 忘[わす]れがち なんだよね…。",
+   "voz": "o2",
+   "tr": {
+    "es": "Últimamente, tiendo a olvidar cosas…",
+    "en": "Lately, I've been tending to forget things…"
+   },
+   "cartela": {
+    "es": "がち: una tendencia, casi siempre negativa.",
+    "en": "がち: a tendency, almost always negative."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "triste"
+     },
+     {
+      "que": "gato",
+      "x": 270
+     }
+    ]
+   },
+   "habla": "tama",
+   "cara": "feliz",
+   "jp": "それも 忘[わす]れがちだから、 メモしたら？",
+   "voz": "o3",
+   "tr": {
+    "es": "Como eso también sueles olvidarlo, ¿por qué no lo apuntas?",
+    "en": "Since you tend to forget that too, why not write it down?"
+   },
+   "cartela": {
+    "es": "Fin. っぽい para rasgos, がち para tendencias. (Y メモ, buena idea.)",
+    "en": "The end. っぽい for traits, がち for tendencies. (And writing it down, good idea.)"
+   }
+  }
+ ],
+ "chuleta": {
+  "patron": {
+   "es": "〜っぽい ／ 〜がち",
+   "en": "〜っぽい ／ 〜がち"
+  },
+  "patron_tr": {
+   "es": "tiene pinta de… ／ tiende a… (normalmente malo)",
+   "en": "seems like… ／ tends to… (usually bad)"
+  },
+  "columnas": [
+   {
+    "jp": "っぽい",
+    "texto": {
+     "es": "un rasgo, tiene pinta de…",
+     "en": "a trait, seems like…"
+    },
+    "dibujos": [
+     "nyan"
+    ]
+   },
+   {
+    "jp": "がち",
+    "texto": {
+     "es": "una tendencia (normalmente mala)",
+     "en": "a tendency (usually bad)"
+    },
+    "dibujos": [
+     "gato"
+    ]
+   },
+   {
+    "jp": "らしい",
+    "texto": {
+     "es": "lo has oído, no lo sabes seguro",
+     "en": "you heard it, not sure"
+    },
+    "dibujos": [
+     "profesor"
+    ]
+   }
+  ],
+  "filas": [
+   {
+    "jp": "ニャンは 子供[こども]っぽいよ。",
+    "es": "Nyan es un poco infantil.",
+    "en": "Nyan is a bit childish.",
+    "registro": "amigos"
+   },
+   {
+    "jp": "最近[さいきん]、 忘[わす]れがちです。",
+    "es": "Últimamente, tiendo a olvidar cosas.",
+    "en": "Lately, I've been tending to forget things.",
+    "registro": "educado"
+   },
+   {
+    "jp": "最近[さいきん]、 忘[わす]れがち なんだよね。",
+    "es": "Últimamente, tiendo a olvidar cosas.",
+    "en": "Lately, I've been tending to forget things.",
+    "registro": "amigos"
+   },
+   {
+    "jp": "今日[きょう]は 休[やす]みらしい。",
+    "es": "Parece que hoy es fiesta.",
+    "en": "It seems today's a holiday."
+   },
+   {
+    "jp": "大人[おとな]っぽいね。",
+    "es": "Tienes pinta de adulto, ¿eh.",
+    "en": "You seem grown-up, huh."
+   }
+  ],
+  "consejo": {
+   "es": "らしい／みたい (clase 33) es lo que has oído o cómo parece por fuera, sin estar seguro. っぽい es más casual (un rasgo, a veces con toque negativo); がち es una tendencia que se repite, casi siempre algo que no mola.",
+   "en": "らしい／みたい (class 33) is what you've heard or how it looks from outside, without being sure. っぽい is more casual (a trait, sometimes with a negative edge); がち is a repeating tendency, almost always something not great."
+  }
+ }
+}

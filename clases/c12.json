@@ -1,0 +1,846 @@
+{
+ "id": "c12",
+ "clase": 12,
+ "desde": 130,
+ "titulo": {
+  "es": "¿Qué estás haciendo?: 〜ている",
+  "en": "What are you doing?: 〜ている"
+ },
+ "resumen": {
+  "es": "〜ている dice que algo pasa AHORA MISMO, o que las cosas se han quedado así (un estado). です/ます solos no valen para «ahora».",
+  "en": "〜ている says something is happening RIGHT NOW, or that things have stayed that way (a state). です/ます alone don't work for «right now»."
+ },
+ "formato": 2,
+ "lugar": "parque",
+ "mision": {
+  "texto": {
+   "es": "Todos preparan el puesto del festival en el parque. Fukuro-sensei llama por teléfono para saber cómo va: cuéntale qué está haciendo cada uno AHORA… sin delatar que Nyan estaba durmiendo.",
+   "en": "Everyone is setting up the festival stall in the park. Fukuro-sensei phones to check in: tell her what each one is doing RIGHT NOW… without revealing that Nyan was asleep."
+  },
+  "escena": {
+   "fondo": "parque",
+   "cosas": [
+    {
+     "que": "nyan",
+     "x": 110
+    },
+    {
+     "que": "gato",
+     "id": "tama",
+     "x": 300
+    }
+   ]
+  },
+  "cara": "sueno"
+ },
+ "reglas": [
+  {
+   "id": "teiru_ahora",
+   "nombre": {
+    "es": "〜ている: lo que pasa ahora mismo",
+    "en": "〜ている: what's happening right now"
+   },
+   "patron": {
+    "es": "〔verbo en て〕います",
+    "en": "〔て verb〕います"
+   },
+   "explica": {
+    "es": "El presente japonés (食べます) habla de costumbres o del futuro: «como», «comeré». Para lo que está pasando JUSTO AHORA se usa la forma て + いる (います): 食べています, «está comiendo». Es como el «estar + -ando» del español: una acción en marcha delante de tus ojos.",
+    "en": "The Japanese present (食べます) talks about habits or the future: «I eat», «I'll eat». For what's happening RIGHT NOW you use the て form + いる (います): 食べています, «is eating». It's like English «be + -ing»: an action in progress in front of you."
+   },
+   "ejemplos": [
+    {
+     "jp": "タマは 本[ほん]を 読[よ]んで います。",
+     "es": "Tama está leyendo un libro.",
+     "en": "Tama is reading a book.",
+     "voz": "r1-1"
+    },
+    {
+     "jp": "何[なに]を して いますか。",
+     "es": "¿Qué estás haciendo?",
+     "en": "What are you doing?",
+     "voz": "r1-2"
+    }
+   ],
+   "ojo": {
+    "es": "食べます solo no vale para «ahora»: sonaría a «como (normalmente)» o «comeré». Para la escena que estás viendo, ている.",
+    "en": "食べます alone doesn't work for «now»: it sounds like «I eat (usually)» or «I'll eat». For the scene you're looking at, ている."
+   }
+  },
+  {
+   "id": "teiru_estado",
+   "nombre": {
+    "es": "〜ている: cómo han quedado las cosas",
+    "en": "〜ている: how things have ended up"
+   },
+   "patron": {
+    "es": "〔verbo en て〕います (estado)",
+    "en": "〔て verb〕います (state)"
+   },
+   "explica": {
+    "es": "Con algunos verbos, ている no es una acción en curso sino un ESTADO que se queda: 疲れる es «cansarse», así que 疲れています es «estar cansado» (me cansé y sigo así). Lo mismo con 知る: 知っています, «lo sé» (lo aprendí y lo sigo sabiendo). Piensa en el resultado que dura.",
+    "en": "With some verbs, ている isn't an ongoing action but a lasting STATE: 疲れる is «get tired», so 疲れています is «be tired» (I got tired and still am). Same with 知る: 知っています, «I know» (I learned it and still know it). Think of the result that lasts."
+   },
+   "ejemplos": [
+    {
+     "jp": "ニャンは 疲[つか]れて います。",
+     "es": "Nyan está cansado.",
+     "en": "Nyan is tired.",
+     "voz": "r2-1"
+    },
+    {
+     "jp": "それは 知[し]って います。",
+     "es": "Eso lo sé.",
+     "en": "I know that.",
+     "voz": "r2-2"
+    }
+   ],
+   "ojo": {
+    "es": "Ojo con 知る: «lo sé» es 知っています, pero «no lo sé» es 知りません, sin ている.",
+    "en": "Careful with 知る: «I know» is 知っています, but «I don't know» is 知りません, without ている."
+   }
+  }
+ ],
+ "historia": [
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "ニャン！ 寝[ね]て いますか！",
+   "tr": {
+    "es": "¡Nyan! ¿¡Estás durmiendo!?",
+    "en": "Nyan! Are you sleeping?!"
+   },
+   "voz": "h1",
+   "cara": "enfado",
+   "reacciona": {
+    "nyan": "sueno"
+   },
+   "escena": {
+    "fondo": "parque",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110
+     },
+     {
+      "que": "manpu",
+      "tipo": "z",
+      "x": 150,
+      "y": 110
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 300
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "ね、 寝[ね]て いません！",
+   "tr": {
+    "es": "¡N-no estoy durmiendo!",
+    "en": "I-I'm not sleeping!"
+   },
+   "voz": "h2",
+   "cara": "sorpresa",
+   "escena": {
+    "fondo": "parque",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 300
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "teiru_ahora"
+  },
+  {
+   "t": "dice",
+   "habla": "sensei",
+   "jp": "もしもし、 ニャンさん。 みんな、 何[なに]を して いますか。",
+   "tr": {
+    "es": "Diga, Nyan. ¿Qué está haciendo todo el mundo?",
+    "en": "Hello, Nyan. What is everyone doing?"
+   },
+   "voz": "h3",
+   "por": "telefono",
+   "escena": {
+    "fondo": "parque",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 90
+     },
+     {
+      "que": "telefono",
+      "x": 145,
+      "id": "telefono",
+      "s": 0.9
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 300,
+      "cara": "pensando"
+     }
+    ]
+   }
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "Tama está leyendo el plano del puesto. Cuéntaselo a Fukuro:",
+    "en": "Tama is reading the stall plan. Tell Fukuro:"
+   },
+   "opciones": [
+    {
+     "jp": "タマは 本[ほん]を 読[よ]んで います。",
+     "bien": true,
+     "tr": {
+      "es": "Tama está leyendo un libro.",
+      "en": "Tama is reading a book."
+     },
+     "voz": "h4",
+     "porque": {
+      "es": "Lo que pasa ahora mismo: て + います (読んでいます).",
+      "en": "What's happening right now: て + います (読んでいます)."
+     }
+    },
+    {
+     "jp": "タマは 本[ほん]を 読[よ]みます。",
+     "bien": false,
+     "porque": {
+      "es": "読みます es «lee» en general o «leerá». Para lo que está haciendo en este momento: 読んでいます.",
+      "en": "読みます is «reads» in general or «will read». For what she's doing right now: 読んでいます."
+     }
+    },
+    {
+     "jp": "タマは 本[ほん]を 読[よ]んで いました。",
+     "bien": false,
+     "porque": {
+      "es": "いました es pasado: «estaba leyendo». Fukuro pregunta por AHORA: 読んでいます.",
+      "en": "いました is past: «was reading». Fukuro asks about NOW: 読んでいます."
+     }
+    }
+   ],
+   "cara": "pensando",
+   "escena": {
+    "fondo": "parque",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 90
+     },
+     {
+      "que": "libro",
+      "x": 240,
+      "id": "libro",
+      "s": 1.4
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 310
+     }
+    ]
+   }
+  },
+  {
+   "t": "monta",
+   "encargo": 0
+  },
+  {
+   "t": "dice",
+   "habla": "sensei",
+   "jp": "ニャンさんは？ 何[なに]を して いますか。",
+   "tr": {
+    "es": "¿Y tú, Nyan? ¿Qué estás haciendo?",
+    "en": "And you, Nyan? What are you doing?"
+   },
+   "voz": "h5",
+   "por": "telefono",
+   "escena": {
+    "fondo": "parque",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 90
+     },
+     {
+      "que": "telefono",
+      "x": 145,
+      "id": "telefono",
+      "s": 0.9
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 300
+     }
+    ]
+   }
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "Nyan acaba de despertarse… pero no quiere que Fukuro lo sepa. ¿Qué dice?",
+    "en": "Nyan just woke up… but doesn't want Fukuro to know. What does he say?"
+   },
+   "opciones": [
+    {
+     "jp": "仕事[しごと]を して います！",
+     "bien": true,
+     "tr": {
+      "es": "¡Estoy trabajando!",
+      "en": "I'm working!"
+     },
+     "voz": "h6",
+     "porque": {
+      "es": "Gramaticalmente, perfecto: して + います. Otra cosa es que sea verdad…",
+      "en": "Grammatically perfect: して + います. Whether it's true is another matter…"
+     }
+    },
+    {
+     "jp": "仕事[しごと]を します！",
+     "bien": false,
+     "porque": {
+      "es": "します es «trabajaré» o «trabajo (en general)». Fukuro pregunta qué haces AHORA: しています.",
+      "en": "します is «I'll work» or «I work (generally)». Fukuro asks what you're doing NOW: しています."
+     }
+    },
+    {
+     "jp": "寝[ね]て います！",
+     "bien": false,
+     "porque": {
+      "es": "¡Así confiesas que estás durmiendo… mientras hablas por teléfono! Además, ya no es verdad.",
+      "en": "That confesses you're sleeping… while on the phone! Besides, it isn't true anymore."
+     }
+    }
+   ],
+   "cara": "sorpresa"
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "うそ！ さっき 寝[ね]て いました！",
+   "tr": {
+    "es": "¡Mentira! ¡Hace un momento estabas durmiendo!",
+    "en": "Liar! You were sleeping a moment ago!"
+   },
+   "voz": "h7",
+   "cara": "enfado"
+  },
+  {
+   "t": "regla",
+   "regla": "teiru_estado"
+  },
+  {
+   "t": "dice",
+   "habla": "sensei",
+   "jp": "ニャンさん、 疲[つか]れて いますか。",
+   "tr": {
+    "es": "Nyan, ¿estás cansado?",
+    "en": "Nyan, are you tired?"
+   },
+   "voz": "h8",
+   "por": "telefono"
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "Sé sincero: «Sí, estoy cansado».",
+    "en": "Be honest: «Yes, I'm tired»."
+   },
+   "opciones": [
+    {
+     "jp": "はい、 疲[つか]れて います。",
+     "bien": true,
+     "tr": {
+      "es": "Sí, estoy cansado.",
+      "en": "Yes, I'm tired."
+     },
+     "voz": "h9",
+     "porque": {
+      "es": "疲れる es «cansarse»; el estado que queda (estar cansado) se dice 疲れています.",
+      "en": "疲れる is «get tired»; the resulting state (being tired) is 疲れています."
+     }
+    },
+    {
+     "jp": "はい、 疲[つか]れます。",
+     "bien": false,
+     "porque": {
+      "es": "疲れます es «me canso» (en general) o «me cansaré». Para cómo estás ahora: 疲れています.",
+      "en": "疲れます is «I get tired» (generally) or «I'll get tired». For how you are now: 疲れています."
+     }
+    },
+    {
+     "jp": "はい、 疲[つか]れです。",
+     "bien": false,
+     "porque": {
+      "es": "疲れる es un verbo, no un nombre: no se le pone です. El estado: 疲れています.",
+      "en": "疲れる is a verb, not a noun: it doesn't take です. The state: 疲れています."
+     }
+    }
+   ],
+   "cara": "sueno"
+  },
+  {
+   "t": "toca",
+   "pide": {
+    "es": "¿Qué está haciendo Tama ahora? Escucha y toca lo que usa.",
+    "en": "What's Tama doing now? Listen and tap what she's using."
+   },
+   "bien": "carta",
+   "quien": "tama",
+   "escena": {
+    "fondo": "parque",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 65
+     },
+     {
+      "que": "carta",
+      "x": 165,
+      "id": "carta",
+      "s": 1.1
+     },
+     {
+      "que": "libro",
+      "x": 225,
+      "id": "libro",
+      "s": 1.3
+     },
+     {
+      "que": "onigiri",
+      "x": 282,
+      "id": "onigiri",
+      "s": 1.3
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 345
+     }
+    ]
+   },
+   "jp": "タマは 手紙[てがみ]を 書[か]いて います。",
+   "voz": "h10",
+   "bien_msg": {
+    "es": "¡Eso! 手紙 es una carta: la está escribiendo (書いています).",
+    "en": "Right! 手紙 is a letter: she's writing it (書いています)."
+   },
+   "mal_msg": {
+    "es": "Ha dicho 手紙, una carta: lo que se escribe y se mete en un sobre.",
+    "en": "She said 手紙, a letter: what you write and put in an envelope."
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "sensei",
+   "jp": "みんな、 がんばって いますね。",
+   "tr": {
+    "es": "Todos os estáis esforzando mucho, ¿eh?",
+    "en": "You're all working hard, huh?"
+   },
+   "voz": "h11",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "parque",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 90
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 210
+     },
+     {
+      "que": "sensei",
+      "id": "sensei",
+      "x": 320
+     }
+    ]
+   }
+  }
+ ],
+ "epilogo": [
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "今[いま]は ちゃんと 働[はたら]いて います！",
+   "tr": {
+    "es": "¡Ahora sí que estoy trabajando!",
+    "en": "Now I'm really working!"
+   },
+   "voz": "x1",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "parque",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "brazo": "arriba"
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 300
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "本当[ほんとう]ですね！",
+   "tr": {
+    "es": "¡Es verdad!",
+    "en": "It's true!"
+   },
+   "voz": "x2",
+   "cara": "feliz"
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta la frase: la escena hará lo que digas.",
+   "en": "Build the sentence: the scene will do what you say."
+  },
+  "piezas": [
+   {
+    "id": "kotaro",
+    "jp": "コタロー",
+    "tipo": "palabra"
+   },
+   {
+    "id": "onigiri",
+    "jp": "おにぎり",
+    "tipo": "palabra"
+   },
+   {
+    "id": "wa",
+    "jp": "は",
+    "tipo": "particula"
+   },
+   {
+    "id": "wo",
+    "jp": "を",
+    "tipo": "particula"
+   },
+   {
+    "id": "tabeteimasu",
+    "jp": "食[た]べて います",
+    "tipo": "verbo"
+   },
+   {
+    "id": "tabemasu",
+    "jp": "食[た]べます",
+    "tipo": "verbo"
+   },
+   {
+    "id": "nondeimasu",
+    "jp": "飲[の]んで います",
+    "tipo": "verbo"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "¿Y Kotarō? Está comiendo onigiri (¡otra vez!). Díselo a Fukuro.",
+     "en": "And Kotarō? He's eating onigiri (again!). Tell Fukuro."
+    },
+    "escena": {
+     "fondo": "parque",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 95
+      },
+      {
+       "que": "perro",
+       "id": "kotaro",
+       "x": 295,
+       "onigiri": true
+      }
+     ]
+    },
+    "piezas": [
+     "kotaro",
+     "wa",
+     "onigiri",
+     "wo",
+     "tabeteimasu",
+     "tabemasu",
+     "nondeimasu"
+    ],
+    "bien": [
+     [
+      "kotaro",
+      "wa",
+      "onigiri",
+      "wo",
+      "tabeteimasu"
+     ]
+    ],
+    "tr": {
+     "es": "Kotarō está comiendo onigiri.",
+     "en": "Kotarō is eating onigiri."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "texto",
+      "texto": "もぐもぐ",
+      "x": 300,
+      "y": 95
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "tabemasu"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "食べます es «come (normalmente)» o «comerá». Lo que está haciendo ahora mismo: 食べています.",
+       "en": "食べます is «eats (usually)» or «will eat». What he's doing right now: 食べています."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "nondeimasu"
+       ]
+      },
+      "efecto": {
+       "tipo": "manpu",
+       "objeto": "kotaro",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "¿BEBIENDO onigiri? 飲む es para líquidos. Los onigiri se comen: 食べています.",
+       "en": "DRINKING onigiri? 飲む is for liquids. Onigiri are eaten: 食べています."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "reto": {
+  "intro": {
+   "jp": "ふん。 お前[まえ]は いつも 寝[ね]て いるな。 勝負[しょうぶ]だ！",
+   "tr": {
+    "es": "Hmpf. Tú siempre estás durmiendo. ¡Duelo!",
+    "en": "Hmph. You're always sleeping. Duel!"
+   },
+   "voz": "k0"
+  },
+  "gana": {
+   "jp": "…ふん。 今日[きょう]は 起[お]きて いるな。",
+   "tr": {
+    "es": "…Hmpf. Hoy sí que estás despierto.",
+    "en": "…Hmph. You're actually awake today."
+   },
+   "voz": "kw"
+  },
+  "pierde": {
+   "jp": "ふん。 また 寝[ね]て いたのか？",
+   "tr": {
+    "es": "Hmpf. ¿Otra vez dormido?",
+    "en": "Hmph. Asleep again?"
+   },
+   "voz": "kl"
+  },
+  "pica": {
+   "jp": "…やるな。",
+   "tr": {
+    "es": "…No está mal.",
+    "en": "…Not bad."
+   },
+   "voz": "kp"
+  },
+  "burla": {
+   "jp": "ふん！",
+   "tr": {
+    "es": "¡Ja!",
+    "en": "Hah!"
+   },
+   "voz": "kb"
+  },
+  "preguntas": [
+   {
+    "tipo": "elige",
+    "jp": "タマは 本[ほん]を 読[よ]んで ＿。",
+    "opciones": [
+     "います",
+     "ます",
+     "です"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Tama está leyendo un libro.",
+     "en": "Tama is reading a book."
+    },
+    "porque": {
+     "es": "Acción en curso: verbo en て + います.",
+     "en": "Ongoing action: て verb + います."
+    },
+    "voz": "q1"
+   },
+   {
+    "tipo": "elige",
+    "jp": "今[いま]、 何[なに]を して ＿か。",
+    "opciones": [
+     "います",
+     "ます",
+     "した"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "¿Qué estás haciendo ahora?",
+     "en": "What are you doing now?"
+    },
+    "porque": {
+     "es": "Con 今 (ahora) preguntas por lo que está en marcha: しています.",
+     "en": "With 今 (now) you ask about what's in progress: しています."
+    },
+    "voz": "q2"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "コタローは 今[いま] 寝[ね]て います。",
+    "correcta": true,
+    "tr": {
+     "es": "Kotarō está durmiendo ahora.",
+     "en": "Kotarō is sleeping now."
+    },
+    "porque": {
+     "es": "Bien: lo que pasa en este momento, con ている.",
+     "en": "Right: what's happening at this moment, with ている."
+    },
+    "voz": "q3"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "わたしは 今[いま] 食[た]べます。",
+    "correcta": false,
+    "tr": {
+     "es": "(Ahora estoy comiendo.)",
+     "en": "(I'm eating now.)"
+    },
+    "porque": {
+     "es": "Con 今 y algo que está pasando, ている: 食べています. 食べます sonaría a «comeré ahora».",
+     "en": "With 今 and something happening, ている: 食べています. 食べます would sound like «I'll eat now»."
+    },
+    "voz": "q4"
+   },
+   {
+    "tipo": "oye",
+    "jp": "ニャンは 疲[つか]れて います。",
+    "habla": "tama",
+    "opciones": [
+     {
+      "es": "Nyan está cansado.",
+      "en": "Nyan is tired."
+     },
+     {
+      "es": "Nyan se cansará.",
+      "en": "Nyan will get tired."
+     },
+     {
+      "es": "Nyan no está cansado.",
+      "en": "Nyan isn't tired."
+     }
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "疲れています: el estado que queda después de cansarse.",
+     "en": "疲れています: the state left after getting tired."
+    },
+    "voz": "q5"
+   },
+   {
+    "tipo": "imagen",
+    "jp": "コタローは おにぎりを 食[た]べて います。",
+    "opciones": [
+     "onigiri",
+     "libro",
+     "telefono"
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "おにぎりを食べています: lo que come ahora mismo.",
+     "en": "おにぎりを食べています: what he's eating right now."
+    },
+    "pide": {
+     "es": "¿Qué está comiendo?",
+     "en": "What is he eating?"
+    }
+   }
+  ]
+ },
+ "siguiente": {
+  "es": "Mañana, de compras en la tienda de Pon: ¿qué queréis vender en el festival? ¿Y qué quiere Tama?",
+  "en": "Tomorrow, shopping at Pon's: what do you want to sell at the festival? And what does Tama want?"
+ },
+ "chuleta": {
+  "patron": {
+   "es": "〔verbo en て〕います",
+   "en": "〔て verb〕います"
+  },
+  "patron_tr": {
+   "es": "estar haciendo… / estar (así)",
+   "en": "be doing… / be (in a state)"
+  },
+  "filas": [
+   {
+    "jp": "本[ほん]を 読[よ]んで います。",
+    "es": "Estoy leyendo un libro.",
+    "en": "I'm reading a book.",
+    "registro": "educado"
+   },
+   {
+    "jp": "何[なに] してる？",
+    "es": "¿Qué haces? (a un amigo)",
+    "en": "What are you doing? (to a friend)",
+    "registro": "amigos"
+   },
+   {
+    "jp": "疲[つか]れて います。",
+    "es": "Estoy cansado.",
+    "en": "I'm tired."
+   }
+  ],
+  "consejo": {
+   "es": "Hablando rápido, ている pierde la い: 読んでる, 何してる？ Es lo que oirás entre amigos.",
+   "en": "In fast speech ている drops its い: 読んでる, 何してる？ That's what you'll hear among friends."
+  }
+ }
+}

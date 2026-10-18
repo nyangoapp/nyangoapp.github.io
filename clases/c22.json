@@ -1,0 +1,756 @@
+{
+ "id": "c22",
+ "clase": 22,
+ "desde": 380,
+ "titulo": {
+  "es": "¡Nieve!: 〜たら y 〜と",
+  "en": "Snow!: 〜たら and 〜と"
+ },
+ "resumen": {
+  "es": "〜たら = si/cuando pasa esto (esta vez), pasa lo otro; puede ir con peticiones y consejos. 〜と = siempre que pasa esto, pasa lo otro (automático); nunca va con peticiones.",
+  "en": "〜たら = if/when this happens (this time), then that; it can be followed by requests and advice. 〜と = whenever this happens, that always follows (automatic); it's never followed by a request."
+ },
+ "formato": 2,
+ "lugar": "nieve",
+ "mision": {
+  "texto": {
+   "es": "El parte dice que quizá nieve esta noche. ¿Qué haréis si nieva? Y a la mañana siguiente, en los campos de Furano… Cuenta lo que pasa cuando algo ocurre, y lo que pasa SIEMPRE que algo ocurre.",
+   "en": "The forecast says it may snow tonight. What will you do if it snows? And the next morning, in the fields of Furano… Say what happens when something occurs, and what ALWAYS happens when it does."
+  },
+  "escena": {
+   "fondo": "nieve",
+   "cosas": [
+    {
+     "que": "nyan",
+     "x": 80
+    },
+    {
+     "que": "yukidaruma",
+     "x": 200,
+     "s": 1.3
+    },
+    {
+     "que": "gato",
+     "id": "tama",
+     "x": 320
+    }
+   ]
+  },
+  "cara": "feliz",
+  "jp": "雪[ゆき]だ！",
+  "voz": "m0"
+ },
+ "reglas": [
+  {
+   "id": "tara",
+   "nombre": {
+    "es": "〜たら: si… / cuando…",
+    "en": "〜たら: if… / when…"
+   },
+   "patron": {
+    "es": "〔pasado〕ら、〔lo que pasa〕",
+    "en": "〔past〕ら、〔what happens〕"
+   },
+   "explica": {
+    "es": "Pon el verbo en pasado y añade ら: 降った → 降ったら, «si nieva» o «cuando nieve». Es el «si» más versátil: detrás puedes poner planes, deseos, invitaciones o peticiones (降ったら、雪だるまを作ろう). Como sale del pasado, imagina la condición ya cumplida y te coloca justo después. También sirve para contar un descubrimiento: 起きたら、真っ白だった, «al levantarme, ¡estaba todo blanco!».",
+    "en": "Put the verb in the past and add ら: 降った → 降ったら, «if it snows» or «when it snows». It's the most versatile «if»: plans, wishes, invitations or requests can follow (降ったら、雪だるまを作ろう). Since it comes from the past, it pictures the condition already met and puts you right after. It also tells of a discovery: 起きたら、真っ白だった, «when I got up, everything was white!»."
+   },
+   "ejemplos": [
+    {
+     "jp": "雪[ゆき]が 降[ふ]ったら、 雪[ゆき]だるまを 作[つく]りましょう！",
+     "es": "Si nieva, ¡hagamos un muñeco de nieve!",
+     "en": "If it snows, let's build a snowman!",
+     "voz": "r1-1"
+    },
+    {
+     "jp": "朝[あさ] 起[お]きたら、 真[ま]っ白[しろ]でした。",
+     "es": "Al levantarme, estaba todo blanco.",
+     "en": "When I got up, everything was white.",
+     "voz": "r1-2"
+    }
+   ],
+   "ojo": {
+    "es": "Con adjetivos también funciona: 寒かったら (si hace frío); y con nombres, だったら: 雨だったら (si llueve).",
+    "en": "It works with adjectives too: 寒かったら (if it's cold); and with nouns, だったら: 雨だったら (if it rains)."
+   }
+  },
+  {
+   "id": "to_cond",
+   "nombre": {
+    "es": "〜と: siempre que…",
+    "en": "〜と: whenever…"
+   },
+   "patron": {
+    "es": "〔forma de diccionario〕と、〔consecuencia〕",
+    "en": "〔dictionary form〕と、〔result〕"
+   },
+   "explica": {
+    "es": "と detrás de la forma de diccionario dice que una cosa trae la otra de forma automática, siempre: 十一月になると、雪が降る, «en cuanto llega noviembre, nieva»; 押すと、開く, «si lo pulsas, se abre». Es el «si» de las leyes de la naturaleza, las máquinas y las costumbres. Por eso detrás NO pueden ir deseos, planes ni peticiones: no son cosas que pasen solas.",
+    "en": "と after the dictionary form says one thing brings the other automatically, always: 十一月になると、雪が降る, «once November comes, it snows»; 押すと、開く, «press it and it opens». It's the «if» of natural laws, machines and habits. That's why wishes, plans or requests CAN'T follow it: they don't happen by themselves."
+   },
+   "ejemplos": [
+    {
+     "jp": "十一月[じゅういちがつ]に なると、 雪[ゆき]が 降[ふ]ります。",
+     "es": "En cuanto llega noviembre, nieva.",
+     "en": "Once November comes, it snows.",
+     "voz": "r2-1"
+    },
+    {
+     "jp": "雪[ゆき]の 上[うえ]を 走[はし]ると、 転[ころ]びますよ。",
+     "es": "Si corres sobre la nieve, te caes.",
+     "en": "If you run on snow, you'll fall.",
+     "voz": "r2-2"
+    }
+   ],
+   "ojo": {
+    "es": "Si lo que viene detrás es algo que QUIERES hacer («vamos a», «quiero», «por favor»), usa たら: 降ったら、遊ぼう.",
+    "en": "If what follows is something you WANT to do («let's», «I want», «please»), use たら: 降ったら、遊ぼう."
+   }
+  }
+ ],
+ "historia": [
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "雪[ゆき]が 降[ふ]ったら、 雪[ゆき]だるまを 作[つく]りましょう！",
+   "tr": {
+    "es": "Si nieva, ¡hagamos un muñeco de nieve!",
+    "en": "If it snows, let's build a snowman!"
+   },
+   "voz": "h1",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "salon",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 310
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "tara"
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "Nyan también tiene su plan para si nieva:",
+    "en": "Nyan has his own plan for if it snows:"
+   },
+   "opciones": [
+    {
+     "jp": "雪[ゆき]が 降[ふ]ったら、 雪合戦[ゆきがっせん]を したいです！",
+     "bien": true,
+     "tr": {
+      "es": "¡Si nieva, quiero una guerra de bolas!",
+      "en": "If it snows, I want a snowball fight!"
+     },
+     "voz": "h2",
+     "porque": {
+      "es": "Pasado + ら: «si llega a pasar esto…». Detrás puedes poner deseos, planes o invitaciones.",
+      "en": "Past + ら: «if this happens…». After it you can put wishes, plans or invitations."
+     }
+    },
+    {
+     "jp": "雪[ゆき]が 降[ふ]るたら、 雪合戦[ゆきがっせん]を したいです！",
+     "bien": false,
+     "porque": {
+      "es": "たら se forma desde el pasado: 降った + ら = 降ったら.",
+      "en": "たら is built from the past: 降った + ら = 降ったら."
+     }
+    },
+    {
+     "jp": "雪[ゆき]が 降[ふ]ると、 雪合戦[ゆきがっせん]を したいです！",
+     "bien": false,
+     "porque": {
+      "es": "Detrás de と no caben deseos ni planes: と es para lo que pasa solo, siempre. Para «si nieva, quiero…», たら.",
+      "en": "No wishes or plans can follow と: と is for what happens by itself, always. For «if it snows, I want…», たら."
+     }
+    }
+   ],
+   "cara": "feliz",
+   "escena": {
+    "fondo": "salon",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 310
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "sensei",
+   "jp": "北海道[ほっかいどう]は、 十一月[じゅういちがつ]に なると、 雪[ゆき]が 降[ふ]ります。",
+   "tr": {
+    "es": "En Hokkaido, en cuanto llega noviembre, nieva.",
+    "en": "In Hokkaido, once November comes, it snows."
+   },
+   "voz": "h3",
+   "escena": {
+    "fondo": "salon",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 190
+     },
+     {
+      "que": "sensei",
+      "id": "sensei",
+      "x": 330
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "to_cond"
+  },
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "朝[あさ] 起[お]きたら、 真[ま]っ白[しろ]でした！",
+   "tr": {
+    "es": "¡Al levantarme, estaba todo blanco!",
+    "en": "When I got up, everything was white!"
+   },
+   "voz": "h4",
+   "cara": "sorpresa",
+   "brazo": "arriba",
+   "reacciona": {
+    "tama": "feliz"
+   },
+   "escena": {
+    "fondo": "nieve",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 310
+     }
+    ]
+   }
+  },
+  {
+   "t": "elige",
+   "habla": "tama",
+   "pide": {
+    "es": "Kage sale corriendo… y resbala. ¿Qué le dice Tama?",
+    "en": "Kage runs out… and slips. What does Tama tell him?"
+   },
+   "opciones": [
+    {
+     "jp": "雪[ゆき]の 上[うえ]を 走[はし]ると、 転[ころ]びますよ！",
+     "bien": true,
+     "tr": {
+      "es": "¡Si corres sobre la nieve, te caes!",
+      "en": "If you run on snow, you'll fall!"
+     },
+     "voz": "h5",
+     "porque": {
+      "es": "と: consecuencia automática, que pasa siempre (correr en la nieve → caerse).",
+      "en": "と: an automatic result that always happens (running on snow → falling)."
+     }
+    },
+    {
+     "jp": "雪[ゆき]の 上[うえ]を 走[はし]ると、 転[ころ]んで ください！",
+     "bien": false,
+     "porque": {
+      "es": "と no admite peticiones detrás: sonaría a «si corres, cáete, por favor».",
+      "en": "と can't take a request after it: it'd sound like «if you run, please fall over»."
+     }
+    },
+    {
+     "jp": "雪[ゆき]の 上[うえ]を 走[はし]ったと、 転[ころ]びますよ！",
+     "bien": false,
+     "porque": {
+      "es": "と va con la forma de diccionario: 走ると.",
+      "en": "と takes the dictionary form: 走ると."
+     }
+    }
+   ],
+   "cara": "sorpresa",
+   "escena": {
+    "fondo": "nieve",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 180
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 320
+     }
+    ]
+   }
+  },
+  {
+   "t": "monta",
+   "encargo": 0
+  },
+  {
+   "t": "toca",
+   "pide": {
+    "es": "¡El muñeco de nieve está casi listo! Tama dice qué le falta. Escucha y tócalo.",
+    "en": "The snowman is nearly done! Tama says what's missing. Listen and tap it."
+   },
+   "bien": "bufanda",
+   "quien": "tama",
+   "escena": {
+    "fondo": "nieve",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 65
+     },
+     {
+      "que": "yukidaruma",
+      "x": 165,
+      "id": "yukidaruma",
+      "s": 1.1
+     },
+     {
+      "que": "bufanda",
+      "x": 225,
+      "id": "bufanda",
+      "s": 0.9
+     },
+     {
+      "que": "linterna",
+      "x": 275,
+      "id": "linterna",
+      "s": 0.9
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 345
+     }
+    ]
+   },
+   "jp": "マフラーを つけたら、 完成[かんせい]です！",
+   "voz": "h6",
+   "bien_msg": {
+    "es": "¡Eso! La マフラー: con ella puesta, el muñeco está completo (つけたら、完成).",
+    "en": "Right! The マフラー: once it's on, the snowman's finished (つけたら、完成)."
+   },
+   "mal_msg": {
+    "es": "Ha dicho マフラー: la bufanda, para el cuello del muñeco.",
+    "en": "She said マフラー: the scarf, for the snowman's neck."
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "できました！ 雪[ゆき]だるまです！",
+   "tr": {
+    "es": "¡Listo! ¡Un muñeco de nieve!",
+    "en": "Done! A snowman!"
+   },
+   "voz": "h7",
+   "cara": "feliz",
+   "reacciona": {
+    "nyan": "feliz"
+   },
+   "escena": {
+    "fondo": "nieve",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "yukidaruma",
+      "x": 200,
+      "s": 1.3
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 320
+     }
+    ]
+   }
+  }
+ ],
+ "epilogo": [
+  {
+   "t": "dice",
+   "habla": "kage",
+   "jp": "雪合戦[ゆきがっせん]だ！",
+   "tr": {
+    "es": "¡Guerra de bolas!",
+    "en": "Snowball fight!"
+   },
+   "voz": "x1",
+   "cara": "decidido",
+   "escena": {
+    "fondo": "nieve",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "yukidaruma",
+      "x": 200,
+      "s": 1.3
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 320
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "冷[つめ]たい！",
+   "tr": {
+    "es": "¡Qué frío!",
+    "en": "It's freezing!"
+   },
+   "voz": "x2",
+   "cara": "sorpresa"
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta la frase: la escena hará lo que digas.",
+   "en": "Build the sentence: the scene will do what you say."
+  },
+  "piezas": [
+   {
+    "id": "sawaru",
+    "jp": "触[さわ]る",
+    "tipo": "palabra"
+   },
+   {
+    "id": "sawatta",
+    "jp": "触[さわ]った",
+    "tipo": "palabra"
+   },
+   {
+    "id": "to",
+    "jp": "と",
+    "tipo": "particula"
+   },
+   {
+    "id": "tokemasu",
+    "jp": "溶[と]けます",
+    "tipo": "verbo"
+   },
+   {
+    "id": "tokete",
+    "jp": "溶[と]けて ください",
+    "tipo": "verbo"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Kotarō toca la nieve con la pata y se asusta. Explícale: «Si la tocas, se derrite».",
+     "en": "Kotarō touches the snow with his paw and gets scared. Explain: «If you touch it, it melts»."
+    },
+    "escena": {
+     "fondo": "nieve",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 80
+      },
+      {
+       "que": "perro",
+       "id": "kotaro",
+       "x": 300
+      }
+     ]
+    },
+    "piezas": [
+     "sawaru",
+     "sawatta",
+     "to",
+     "tokemasu",
+     "tokete"
+    ],
+    "bien": [
+     [
+      "sawaru",
+      "to",
+      "tokemasu"
+     ]
+    ],
+    "tr": {
+     "es": "Si la tocas, se derrite.",
+     "en": "If you touch it, it melts."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "manpu",
+      "objeto": "kotaro",
+      "manpu": "excl"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "tokete"
+       ]
+      },
+      "efecto": {
+       "tipo": "manpu",
+       "objeto": "kotaro",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "と no puede llevar una petición detrás: と es para lo que pasa solo, siempre. La nieve se derrite: 溶けます.",
+       "en": "と can't take a request after it: it's for what happens by itself, always. Snow melts: 溶けます."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "sawatta"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "と va detrás de la forma de diccionario (触る), no del pasado: 触ると.",
+       "en": "と follows the dictionary form (触る), not the past: 触ると."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "reto": {
+  "intro": {
+   "jp": "ふん。 雪合戦[ゆきがっせん]で 負[ま]けたら、 お前[まえ]の 雪[ゆき]だるまを 作[つく]って やる。",
+   "tr": {
+    "es": "Hmpf. Si pierdo la guerra de bolas, te hago tu muñeco.",
+    "en": "Hmph. If I lose the snowball fight, I'll build your snowman."
+   },
+   "voz": "k0"
+  },
+  "gana": {
+   "jp": "…くっ。 約束[やくそく]だ。 作[つく]る。",
+   "tr": {
+    "es": "…Tsk. Lo prometí. Lo hago.",
+    "en": "…Tch. I promised. I'll build it."
+   },
+   "voz": "kw"
+  },
+  "pierde": {
+   "jp": "ふん。 雪[ゆき]の 上[うえ]を 走[はし]ると 転[ころ]ぶぞ。",
+   "tr": {
+    "es": "Hmpf. Si corres sobre la nieve, te caes.",
+    "en": "Hmph. Run on snow and you'll fall."
+   },
+   "voz": "kl"
+  },
+  "pica": {
+   "jp": "…やるな。",
+   "tr": {
+    "es": "…No está mal.",
+    "en": "…Not bad."
+   },
+   "voz": "kp"
+  },
+  "burla": {
+   "jp": "ふん！",
+   "tr": {
+    "es": "¡Ja!",
+    "en": "Hah!"
+   },
+   "voz": "kb"
+  },
+  "preguntas": [
+   {
+    "tipo": "elige",
+    "jp": "春[はる]に なる＿、 雪[ゆき]が 溶[と]けます。",
+    "opciones": [
+     "と",
+     "たら",
+     "ながら"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Cuando llega la primavera, la nieve se derrite.",
+     "en": "When spring comes, the snow melts."
+    },
+    "porque": {
+     "es": "Detrás de la forma de diccionario (なる) y con una consecuencia natural: と.",
+     "en": "After the dictionary form (なる), with a natural result: と."
+    },
+    "voz": "q1"
+   },
+   {
+    "tipo": "elige",
+    "jp": "駅[えき]に 着[つ]い＿ら、 電話[でんわ]して ください。",
+    "opciones": [
+     "た",
+     "て",
+     "と"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Cuando llegues a la estación, llámame, por favor.",
+     "en": "When you get to the station, please call me."
+    },
+    "porque": {
+     "es": "着いた + ら = 着いたら: «cuando llegues», y detrás puede ir una petición.",
+     "en": "着いた + ら = 着いたら: «when you arrive», and a request can follow."
+    },
+    "voz": "q2"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "この ボタンを 押[お]すと、 ドアが 開[あ]きます。",
+    "correcta": true,
+    "tr": {
+     "es": "Si pulsas este botón, se abre la puerta.",
+     "en": "If you press this button, the door opens."
+    },
+    "porque": {
+     "es": "Bien: と, siempre que se pulsa, pasa lo mismo. (En muchos trenes de Hokkaido la puerta se abre con un botón, para que no entre el frío.)",
+     "en": "Right: と, whenever you press it, the same happens. (On many Hokkaido trains the door opens with a button, to keep the cold out.)"
+    },
+    "voz": "q3"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "雪[ゆき]が 降[ふ]ると、 雪[ゆき]だるまを 作[つく]りましょう。",
+    "correcta": false,
+    "tr": {
+     "es": "(Si nieva, hagamos un muñeco.)",
+     "en": "(If it snows, let's build a snowman.)"
+    },
+    "porque": {
+     "es": "Detrás de と no va una invitación: 降ったら、作りましょう.",
+     "en": "An invitation can't follow と: 降ったら、作りましょう."
+    },
+    "voz": "q4"
+   },
+   {
+    "tipo": "oye",
+    "jp": "朝[あさ] 起[お]きたら、 雪[ゆき]が 降[ふ]って いました。",
+    "habla": "tama",
+    "opciones": [
+     {
+      "es": "Al levantarme, estaba nevando.",
+      "en": "When I got up, it was snowing."
+     },
+     {
+      "es": "Si me levanto, nevará.",
+      "en": "If I get up, it'll snow."
+     },
+     {
+      "es": "Me levanto cuando nieva.",
+      "en": "I get up when it snows."
+     }
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "たら de descubrimiento: «al levantarme, me encontré con que…».",
+     "en": "Discovery たら: «when I got up, I found that…»."
+    },
+    "voz": "q5"
+   },
+   {
+    "tipo": "imagen",
+    "jp": "雪[ゆき]が 降[ふ]ったら、 これを 作[つく]りましょう！",
+    "opciones": [
+     "yukidaruma",
+     "onigiri",
+     "regalo"
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "雪だるま: el muñeco de nieve.",
+     "en": "雪だるま: the snowman."
+    },
+    "pide": {
+     "es": "¿Qué vais a hacer?",
+     "en": "What are you going to make?"
+    }
+   }
+  ]
+ },
+ "siguiente": {
+  "es": "Último día libre: a por recuerdos al pueblo. Nieva muchísimo… pero Nyan no piensa rendirse.",
+  "en": "Last free day: off to town for souvenirs. It's snowing hard… but Nyan won't give up."
+ },
+ "chuleta": {
+  "patron": {
+   "es": "〔pasado〕ら ・ 〔diccionario〕と",
+   "en": "〔past〕ら ・ 〔dictionary〕と"
+  },
+  "patron_tr": {
+   "es": "si / cuando (y luego lo que quieras) ・ siempre que (pasa solo)",
+   "en": "if / when (then anything) ・ whenever (happens by itself)"
+  },
+  "filas": [
+   {
+    "jp": "駅[えき]に 着[つ]いたら、 電話[でんわ]して ください。",
+    "es": "Cuando llegues a la estación, llámame.",
+    "en": "When you get to the station, call me.",
+    "registro": "educado"
+   },
+   {
+    "jp": "雪[ゆき]が 降[ふ]ったら、 遊[あそ]ぼう！",
+    "es": "¡Si nieva, a jugar! (a un amigo)",
+    "en": "If it snows, let's play! (to a friend)",
+    "registro": "amigos"
+   },
+   {
+    "jp": "この ボタンを 押[お]すと、 ドアが 開[あ]きます。",
+    "es": "Si pulsas este botón, se abre la puerta.",
+    "en": "Press this button and the door opens."
+   }
+  ],
+  "consejo": {
+   "es": "En los trenes de Hokkaido verás un botón junto a la puerta: 押すと開く. Así el frío no entra en cada estación.",
+   "en": "On Hokkaido trains you'll see a button by the door: 押すと開く. That way the cold doesn't get in at every station."
+  }
+ }
+}

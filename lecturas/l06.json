@@ -1,0 +1,51 @@
+{
+  "id": "l06", "desde": 525,
+  "titulo": {"jp": "二[ふた]つ の 弁当[べんとう]", "es": "Los dos bentos", "en": "The two bentos"},
+  "resumen": {"es": "Nyan se olvida de hacerse la comida, pero Tama siempre está un paso por delante.",
+              "en": "Nyan forgets to make his lunch, but Tama is always one step ahead."},
+  "portada": {"fondo": "escuela", "cosas": [{"que": "nyan", "x": 110, "cara": "sorpresa"}, {"que": "gato", "x": 240}, {"que": "caja", "x": 320}]},
+  "texto": [
+    {"voz": "t1", "quien": "narrador", "jp": "朝[あさ]、 ニャンは 弁当[べんとう]を 忘[わす]れた。",
+     "es": "Por la mañana, Nyan se olvidó del bento.", "en": "In the morning, Nyan forgot his bento."},
+    {"voz": "t2", "quien": "nyan", "jp": "あ、 弁当[べんとう]を 作[つく]るの を 忘[わす]れた！",
+     "es": "¡Ah, se me olvidó hacerme el bento!", "en": "Ah, I forgot to make my bento!"},
+    {"voz": "t3", "quien": "narrador", "jp": "タマは、 いつも 二[ふた]つ 弁当[べんとう]を 作[つく]って おく。",
+     "es": "Tama siempre hace dos bentos, por si acaso.", "en": "Tama always makes two bentos, just in case."},
+    {"voz": "t4", "quien": "tama", "jp": "はい、 これ。 ニャンの ために 作[つく]って おいた。",
+     "es": "Toma, esto. Lo hice para ti.", "en": "Here, this. I made it for you."},
+    {"voz": "t5", "quien": "nyan", "jp": "ありがとう、 タマ！ うれしい！",
+     "es": "¡Gracias, Tama! ¡Qué contento estoy!", "en": "Thanks, Tama! I'm so happy!"},
+    {"voz": "t6", "quien": "narrador", "jp": "二人[ふたり]は 弁当[べんとう]を 持[も]って、 学校[がっこう]へ 歩[ある]いて いった。",
+     "es": "Los dos se fueron andando a la escuela con los bentos.", "en": "The two of them walked off to school carrying their bentos."},
+    {"voz": "t7", "quien": "narrador", "jp": "学校[がっこう]で、 ニャンは とても うれし そう だった。",
+     "es": "En la escuela, Nyan se veía muy contento.", "en": "At school, Nyan looked very happy."},
+    {"voz": "t8", "quien": "narrador", "jp": "でも、 お昼[ひる]に 弁当[べんとう]を 開[あ]ける と、 タマの と 同[おな]じ だった。",
+     "es": "Pero al mediodía, cuando abrió el bento, era igual que el de Tama.", "en": "But at noon, when he opened the bento, it was the same as Tama's."},
+    {"voz": "t9", "quien": "nyan", "jp": "え、 同[おな]じ 弁当[べんとう]？",
+     "es": "¿Eh? ¿El mismo bento?", "en": "Huh? The same bento?"},
+    {"voz": "t10", "quien": "tama", "jp": "そう。 二[ふた]つ 作[つく]った から。",
+     "es": "Sí. Porque hice dos.", "en": "Yeah. Because I made two."},
+    {"voz": "t11", "quien": "narrador", "jp": "二人[ふたり]は 同[おな]じ 弁当[べんとう]を 食[た]べながら、 笑[わら]った。",
+     "es": "Los dos se rieron mientras comían el mismo bento.", "en": "The two of them laughed as they ate the same bento."}
+  ],
+  "preguntas": [
+    {"jp": "ニャンは 何[なに]を 忘[わす]れました か。", "es": "¿Qué se le olvidó a Nyan?", "en": "What did Nyan forget?",
+     "opciones": [{"jp": "弁当[べんとう]", "es": "El bento", "en": "The bento"}, {"jp": "宿題[しゅくだい]", "es": "Los deberes", "en": "The homework"}, {"jp": "本[ほん]", "es": "El libro", "en": "The book"}],
+     "bien": 0, "porque": {"es": "「ニャンは弁当を忘れた」とあります。", "en": "\"Nyan forgot his bento\" the story says."}},
+    {"jp": "タマは ニャンに 何[なに]を あげました か。", "es": "¿Qué le dio Tama a Nyan?", "en": "What did Tama give Nyan?",
+     "opciones": [{"jp": "弁当[べんとう]", "es": "Un bento", "en": "A bento"}, {"jp": "お金[かね]", "es": "Dinero", "en": "Money"}, {"jp": "本[ほん]", "es": "Un libro", "en": "A book"}],
+     "bien": 0, "porque": {"es": "「ニャンのために作っておいた」とあります。", "en": "\"I made it for you\" Tama says."}},
+    {"jp": "お昼[ひる]に 弁当[べんとう]を 開[あ]ける と、 どう でした か。", "es": "Al abrir el bento a mediodía, ¿cómo era?", "en": "When he opened the bento at noon, how was it?",
+     "opciones": [{"jp": "タマの と 同[おな]じ だった", "es": "Era igual que el de Tama", "en": "It was the same as Tama's"}, {"jp": "何[なに]も なかった", "es": "No había nada", "en": "There was nothing in it"}, {"jp": "とても 大[おお]きかった", "es": "Era enorme", "en": "It was huge"}],
+     "bien": 0, "porque": {"es": "「タマのと同じだった」とあります。", "en": "\"It was the same as Tama's\" the story says."}},
+    {"tipo": "opinion", "jp": "あなたは 友達[ともだち]の ために 何[なに]か 作[つく]りたい です か。", "es": "¿Te gustaría hacer algo para un amigo?", "en": "Would you like to make something for a friend?",
+     "opciones": [
+       {"jp": "はい、 お弁当[べんとう]を 作[つく]りたい です。", "es": "Sí, me gustaría hacer un bento.", "en": "Yes, I'd like to make a bento.",
+        "nyan": {"jp": "いい ね！ ニャンに も 作[つく]って！", "es": "¡Qué bien! ¡Hazle uno a Nyan también!", "en": "Nice! Make one for Nyan too!"}},
+       {"jp": "いいえ、 料理[りょうり]が できない です。", "es": "No, no sé cocinar.", "en": "No, I can't cook.",
+        "nyan": {"jp": "大丈夫[だいじょうぶ]。 ニャンは おにぎり だけで いい。", "es": "Tranquilo. A Nyan le basta con un onigiri.", "en": "It's fine. Nyan is happy with just an onigiri."}},
+       {"jp": "何[なに]か より、 一緒[いっしょ]に 食[た]べたい です。", "es": "Más que hacer algo, prefiero comer juntos.", "en": "More than making something, I'd like to just eat together.",
+        "nyan": {"jp": "それ、 いい ね！ 一緒[いっしょ]に 食[た]べよう！", "es": "¡Eso, genial! ¡Comamos juntos!", "en": "That's great! Let's eat together!"}}
+     ]}
+  ]
+}

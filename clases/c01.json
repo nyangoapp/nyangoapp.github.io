@@ -1,0 +1,962 @@
+{
+ "id": "c01",
+ "clase": 1,
+ "desde": 1,
+ "titulo": {
+  "es": "¿Qué es esto?: です, は y か",
+  "en": "What's this?: です, は and か"
+ },
+ "resumen": {
+  "es": "La frase más básica del japonés: «X は Y です» (X es Y). Y con か al final, se convierte en pregunta.",
+  "en": "The most basic Japanese sentence: «X は Y です» (X is Y). Add か at the end and it becomes a question."
+ },
+ "formato": 2,
+ "registro": true,
+ "lugar": "washitsu",
+ "mision": {
+  "texto": {
+   "es": "Primer día en casa de Tama. Tiene una caja llena de cosas y un juego: si le dices qué es cada una, ¡te da un onigiri!",
+   "en": "First day at Tama's house. She has a box full of things and a game: tell her what each one is and she'll give you an onigiri!"
+  },
+  "escena": {
+   "fondo": "washitsu",
+   "cosas": [
+    {
+     "que": "nyan",
+     "x": 110
+    },
+    {
+     "que": "gato",
+     "id": "tama",
+     "x": 290
+    },
+    {
+     "que": "caja",
+     "x": 205,
+     "s": 1.1
+    }
+   ]
+  },
+  "cara": "feliz",
+  "jp": "おにぎり…！",
+  "voz": "m0"
+ },
+ "reglas": [
+  {
+   "id": "desu",
+   "nombre": {
+    "es": "X は Y です: «X es Y»",
+    "en": "X は Y です: «X is Y»"
+   },
+   "patron": {
+    "es": "〔de qué hablas〕は〔lo que es〕です",
+    "en": "〔what you talk about〕は〔what it is〕です"
+   },
+   "explica": {
+    "es": "Para decir qué es algo, primero dices DE QUÉ hablas y le pones は detrás (se lee «wa»): es como una etiqueta que avisa «hablando de esto…». Después va lo que es y, al final, です, que es el «es» educado. En japonés el verbo va SIEMPRE al final de la frase.",
+    "en": "To say what something is, first say WHAT you're talking about and put は after it (read «wa»): it's a label that says «talking about this…». Then comes what it is and, at the end, です, the polite «is». In Japanese the verb ALWAYS goes at the end."
+   },
+   "ejemplos": [
+    {
+     "jp": "わたしは タマです。",
+     "es": "Yo soy Tama.",
+     "en": "I'm Tama.",
+     "voz": "r1-1"
+    },
+    {
+     "jp": "これは 本[ほん]です。",
+     "es": "Esto es un libro.",
+     "en": "This is a book.",
+     "voz": "r1-2"
+    }
+   ],
+   "ojo": {
+    "es": "は, cuando es partícula, se lee «wa»: es una costumbre antigua de la escritura que se ha quedado. Y これ es «esto», lo que está junto a ti; それ, «eso», lo que está junto al otro.",
+    "en": "As a particle, は is read «wa»: an old spelling habit that stuck. And これ is «this», near you; それ, «that», near the other person."
+   }
+  },
+  {
+   "id": "ka",
+   "nombre": {
+    "es": "…か: la pregunta",
+    "en": "…か: the question"
+   },
+   "patron": {
+    "es": "〔la frase〕ですか",
+    "en": "〔the sentence〕ですか"
+   },
+   "explica": {
+    "es": "Para preguntar no se cambia el orden ni hacen falta «¿?»: basta con añadir か al final y subir un poco la voz. これは 本です (esto es un libro) → これは 本ですか (¿esto es un libro?). Para «¿qué?» se pone 何[なん] justo donde iría la respuesta: これは 何ですか.",
+    "en": "To ask, you don't change the word order or need «?»: just add か at the end and raise your voice a little. これは 本です (this is a book) → これは 本ですか (is this a book?). For «what?», put 何[なん] right where the answer would go: これは 何ですか."
+   },
+   "ejemplos": [
+    {
+     "jp": "これは 何[なん]ですか。",
+     "es": "¿Qué es esto?",
+     "en": "What is this?",
+     "voz": "r2-1"
+    },
+    {
+     "jp": "先生[せんせい]ですか。",
+     "es": "¿Es usted la profesora?",
+     "en": "Are you the teacher?",
+     "voz": "r2-2"
+    }
+   ],
+   "ojo": {
+    "es": "Sin か no es pregunta: 本です afirma «es un libro». Y con alguien mayor que tú no te saltes el です: sin él sonarías brusco, casi maleducado.",
+    "en": "Without か it's not a question: 本です states «it's a book». And with someone older, don't drop です: without it you'd sound blunt, almost rude."
+   }
+  }
+ ],
+ "historia": [
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "こんにちは！ わたしは タマです。",
+   "tr": {
+    "es": "¡Hola! Yo soy Tama.",
+    "en": "Hi! I'm Tama."
+   },
+   "voz": "h1",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "washitsu",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 290
+     },
+     {
+      "que": "caja",
+      "x": 205,
+      "s": 1.1
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "desu"
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "Preséntate a Tama: ¿qué dice Nyan?",
+    "en": "Introduce yourself to Tama: what does Nyan say?"
+   },
+   "opciones": [
+    {
+     "jp": "わたしは ニャンです。",
+     "bien": true,
+     "tr": {
+      "es": "Yo soy Nyan.",
+      "en": "I'm Nyan."
+     },
+     "voz": "h2",
+     "porque": {
+      "es": "わたし (yo) + は + ニャン + です: de quién hablas, は, lo que eres y です.",
+      "en": "わたし (I) + は + ニャン + です: who you talk about, は, what you are, です."
+     }
+    },
+    {
+     "jp": "ニャンは わたしです。",
+     "bien": false,
+     "porque": {
+      "es": "Así dices «Nyan es yo»: el orden va al revés. En japonés primero se dice DE QUIÉN hablas (わたしは) y después qué es: わたしは ニャンです.",
+      "en": "That says «Nyan is me»: the order is backwards. Japanese first says WHO you're talking about (わたしは) and then what they are: わたしは ニャンです."
+     }
+    },
+    {
+     "jp": "わたし ニャンです。",
+     "bien": false,
+     "porque": {
+      "es": "Falta は. Sin esa etiqueta, Tama no sabe de quién hablas: は es lo que avisa «hablando de mí…».",
+      "en": "は is missing. Without that label Tama doesn't know who you mean: は is what signals «talking about me…»."
+     }
+    }
+   ],
+   "cara": "feliz"
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "ニャン、 それは 何[なん]ですか。",
+   "tr": {
+    "es": "Nyan, ¿qué es eso (que tienes ahí)?",
+    "en": "Nyan, what's that (next to you)?"
+   },
+   "voz": "h3",
+   "plano": "medio",
+   "escena": {
+    "fondo": "washitsu",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 290
+     },
+     {
+      "que": "caja",
+      "x": 240,
+      "s": 1.1
+     },
+     {
+      "que": "libro",
+      "x": 172,
+      "id": "libro",
+      "s": 1.5
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "ka"
+  },
+  {
+   "t": "monta",
+   "encargo": 0
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "はい！ 本[ほん]です！",
+   "tr": {
+    "es": "¡Sí! ¡Es un libro!",
+    "en": "Yes! It's a book!"
+   },
+   "voz": "h4",
+   "cara": "feliz"
+  },
+  {
+   "t": "toca",
+   "pide": {
+    "es": "Tama esconde el onigiri entre sus cosas. ¡Encuéntralo! Toca la おにぎり.",
+    "en": "Tama hides the onigiri among her things. Find it! Tap the おにぎり."
+   },
+   "bien": "onigiri",
+   "quien": "tama",
+   "escena": {
+    "fondo": "washitsu",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 335
+     },
+     {
+      "que": "caja",
+      "x": 175,
+      "id": "caja",
+      "s": 1.1
+     },
+     {
+      "que": "libro",
+      "x": 225,
+      "id": "libro",
+      "s": 1.5
+     },
+     {
+      "que": "onigiri",
+      "x": 262,
+      "id": "onigiri",
+      "s": 1.6
+     }
+    ]
+   },
+   "jp": "おにぎりは どこですか。",
+   "voz": "h5",
+   "bien_msg": {
+    "es": "¡Ahí está! おにぎり es la bola de arroz envuelta en alga: la comida favorita de Nyan.",
+    "en": "There it is! おにぎり is the rice ball wrapped in seaweed: Nyan's favourite food."
+   },
+   "mal_msg": {
+    "es": "Eso no es. La おにぎり es la bola de arroz con alga negra.",
+    "en": "Not that. The おにぎり is the rice ball with black seaweed."
+   }
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "Nyan no se lo cree. Pregúntale a Tama: «¿Esto es un onigiri?»",
+    "en": "Nyan can't believe it. Ask Tama: «Is this an onigiri?»"
+   },
+   "opciones": [
+    {
+     "jp": "これは おにぎりですか。",
+     "bien": true,
+     "tr": {
+      "es": "¿Esto es un onigiri?",
+      "en": "Is this an onigiri?"
+     },
+     "voz": "h6",
+     "porque": {
+      "es": "か al final y ya es pregunta.",
+      "en": "か at the end and it's a question."
+     }
+    },
+    {
+     "jp": "これは おにぎりです。",
+     "bien": false,
+     "porque": {
+      "es": "Eso afirma «esto es un onigiri», como si ya lo supieras. Para preguntarlo hay que poner か al final: es lo que convierte la frase en pregunta.",
+      "en": "That states «this is an onigiri», as if you already knew. To ask, add か at the end: that's what turns it into a question."
+     }
+    },
+    {
+     "jp": "おにぎりは これですか。",
+     "bien": false,
+     "porque": {
+      "es": "Así preguntas «¿el onigiri es esto?», que suena raro porque el tema pasa a ser el onigiri. Lo natural es empezar por lo que señalas: これは…",
+      "en": "That asks «is the onigiri this?», which sounds odd because the onigiri becomes the topic. It's natural to start with what you point at: これは…"
+     }
+    }
+   ],
+   "cara": "sorpresa",
+   "escena": {
+    "fondo": "washitsu",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 290
+     },
+     {
+      "que": "onigiri",
+      "x": 175,
+      "id": "onigiri",
+      "s": 1.6
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "はい、 おにぎりです！",
+   "tr": {
+    "es": "¡Sí, es un onigiri!",
+    "en": "Yes, it's an onigiri!"
+   },
+   "voz": "h7",
+   "cara": "feliz"
+  },
+  {
+   "t": "dice",
+   "habla": "sensei",
+   "jp": "こんにちは。",
+   "tr": {
+    "es": "Hola.",
+    "en": "Hello."
+   },
+   "voz": "h8",
+   "reacciona": {
+    "nyan": "sorpresa"
+   },
+   "escena": {
+    "fondo": "washitsu",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 90
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 205
+     },
+     {
+      "que": "sensei",
+      "id": "sensei",
+      "x": 325
+     }
+    ]
+   }
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "Tama dice que es su profesora. Pregúntale con educación: «¿Es usted la profesora?»",
+    "en": "Tama says she's her teacher. Ask politely: «Are you the teacher?»"
+   },
+   "opciones": [
+    {
+     "jp": "先生[せんせい]ですか。",
+     "bien": true,
+     "tr": {
+      "es": "¿Es usted la profesora?",
+      "en": "Are you the teacher?"
+     },
+     "voz": "h9",
+     "porque": {
+      "es": "です + か: pregunta y educada.",
+      "en": "です + か: a polite question."
+     }
+    },
+    {
+     "jp": "先生[せんせい]です。",
+     "bien": false,
+     "porque": {
+      "es": "Sin か no preguntas: le estarías diciendo «(usted) es profesora», como si se lo explicaras tú a ella.",
+      "en": "Without か you're not asking: you'd be telling her «(you) are a teacher», as if you were informing him."
+     }
+    },
+    {
+     "jp": "先生[せんせい]か。",
+     "bien": false,
+     "porque": {
+      "es": "Sin です la frase suena brusca, casi como una orden. Con un profesor (o alguien mayor) se usa です por respeto.",
+      "en": "Without です it sounds blunt, almost like an order. With a teacher (or anyone older) you use です out of respect."
+     }
+    }
+   ],
+   "cara": "pensando"
+  },
+  {
+   "t": "dice",
+   "habla": "sensei",
+   "jp": "はい、 先生[せんせい]です。 フクロです。",
+   "tr": {
+    "es": "Sí, soy la profesora. Me llamo Fukuro.",
+    "en": "Yes, I'm the teacher. I'm Fukuro."
+   },
+   "voz": "h10",
+   "cara": "feliz",
+   "plano": "medio"
+  },
+  {
+   "t": "monta",
+   "encargo": 1
+  }
+ ],
+ "epilogo": [
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "はい、 おにぎり！",
+   "tr": {
+    "es": "¡Toma, tu onigiri!",
+    "en": "Here's your onigiri!"
+   },
+   "voz": "x1",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "washitsu",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 120,
+      "onigiri": true
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 290
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "ありがとう！ おいしいです！",
+   "tr": {
+    "es": "¡Gracias! ¡Está buenísimo!",
+    "en": "Thank you! It's delicious!"
+   },
+   "voz": "x2",
+   "cara": "feliz",
+   "brazo": "arriba"
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta la frase: la escena hará lo que digas.",
+   "en": "Build the sentence: the scene will do what you say."
+  },
+  "piezas": [
+   {
+    "id": "kore",
+    "jp": "これ",
+    "tipo": "palabra"
+   },
+   {
+    "id": "sore",
+    "jp": "それ",
+    "tipo": "palabra"
+   },
+   {
+    "id": "wa",
+    "jp": "は",
+    "tipo": "particula"
+   },
+   {
+    "id": "hon",
+    "jp": "本[ほん]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "onigiri",
+    "jp": "おにぎり",
+    "tipo": "palabra"
+   },
+   {
+    "id": "neko",
+    "jp": "猫[ねこ]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "desu",
+    "jp": "です",
+    "tipo": "verbo"
+   },
+   {
+    "id": "ka",
+    "jp": "か",
+    "tipo": "particula"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Contesta a Tama: «Esto es un libro». El libro está a TU lado, así que para ti es これ.",
+     "en": "Answer Tama: «This is a book». The book is next to YOU, so for you it's これ."
+    },
+    "escena": {
+     "fondo": "washitsu",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110
+      },
+      {
+       "que": "gato",
+       "id": "tama",
+       "x": 290
+      },
+      {
+       "que": "libro",
+       "x": 172,
+       "id": "libro",
+       "s": 1.5
+      }
+     ]
+    },
+    "piezas": [
+     "kore",
+     "sore",
+     "wa",
+     "hon",
+     "neko",
+     "desu",
+     "ka"
+    ],
+    "bien": [
+     [
+      "kore",
+      "wa",
+      "hon",
+      "desu"
+     ]
+    ],
+    "tr": {
+     "es": "Esto es un libro.",
+     "en": "This is a book."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "brilla",
+      "objeto": "libro"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "neko"
+       ]
+      },
+      "efecto": [
+       {
+        "tipo": "disfraz",
+        "objeto": "libro",
+        "como": "gato"
+       },
+       {
+        "tipo": "nyan",
+        "cara": "sorpresa",
+        "manpu": "excl"
+       }
+      ],
+      "msg": {
+       "es": "¡Has dicho que es un GATO… y el libro se ha convertido en otra Tama! Libro es 本[ほん].",
+       "en": "You said it's a CAT… and the book turned into another Tama! Book is 本[ほん]."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "ka"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Con か le devuelves la pregunta. Tama te ha preguntado a ti: contesta sin か.",
+       "en": "With か you're asking back. Tama asked YOU: answer without か."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "sore"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "それ es «eso», lo que está junto a la OTRA persona. El libro está a tu lado, así que para ti es これ (esto).",
+       "en": "それ is «that», near the OTHER person. The book is next to you, so for you it's これ (this)."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Fukuro señala el onigiri que tienes y te pregunta «¿qué es eso?». Contéstale.",
+     "en": "Fukuro points at the onigiri you're holding: «what's that?». Answer her."
+    },
+    "escena": {
+     "fondo": "washitsu",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "onigiri": true
+      },
+      {
+       "que": "sensei",
+       "id": "sensei",
+       "x": 300
+      }
+     ]
+    },
+    "piezas": [
+     "kore",
+     "sore",
+     "wa",
+     "onigiri",
+     "hon",
+     "desu",
+     "ka"
+    ],
+    "bien": [
+     [
+      "kore",
+      "wa",
+      "onigiri",
+      "desu"
+     ]
+    ],
+    "tr": {
+     "es": "Esto es un onigiri.",
+     "en": "This is an onigiri."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "feliz",
+      "onigiri": true
+     },
+     {
+      "tipo": "manpu",
+      "objeto": "sensei",
+      "manpu": "brillo"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "hon"
+       ]
+      },
+      "efecto": [
+       {
+        "tipo": "manpu",
+        "objeto": "sensei",
+        "manpu": "pregunta"
+       },
+       {
+        "tipo": "nyan",
+        "cara": "sorpresa",
+        "onigiri": true
+       }
+      ],
+      "msg": {
+       "es": "¿Un libro? Fukuro mira tu onigiri sin entender nada: has dicho 本 (libro). La bola de arroz es おにぎり.",
+       "en": "A book? Fukuro stares at your onigiri, puzzled: you said 本 (book). The rice ball is おにぎり."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "ka"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "onigiri": true
+      },
+      "msg": {
+       "es": "Te ha preguntado él a ti. Si añades か, le devuelves la pregunta en vez de contestar.",
+       "en": "He asked YOU. If you add か, you're asking back instead of answering."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "sore"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "onigiri": true
+      },
+      "msg": {
+       "es": "El onigiri lo tienes tú en la mano: lo que está junto a ti es これ (esto); それ sería lo que tiene él.",
+       "en": "You're holding the onigiri: what's next to you is これ (this); それ would be what he has."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "reto": {
+  "intro": {
+   "jp": "ふん。 お前[まえ]が ニャンか。 問題[もんだい]だ。",
+   "tr": {
+    "es": "Hmpf. ¿Así que tú eres Nyan? A ver, un examen.",
+    "en": "Hmph. So you're Nyan? Here's a test."
+   },
+   "voz": "k0"
+  },
+  "gana": {
+   "jp": "…くっ。 まあまあだな。",
+   "tr": {
+    "es": "…Tsk. No ha estado mal.",
+    "en": "…Tch. Not bad."
+   },
+   "voz": "kw"
+  },
+  "pierde": {
+   "jp": "ふん。 まだまだだな。",
+   "tr": {
+    "es": "Hmpf. Te queda mucho.",
+    "en": "Hmph. You've got a long way to go."
+   },
+   "voz": "kl"
+  },
+  "pica": {
+   "jp": "…やるな。",
+   "tr": {
+    "es": "…No está mal.",
+    "en": "…Not bad."
+   },
+   "voz": "kp"
+  },
+  "burla": {
+   "jp": "ふん！",
+   "tr": {
+    "es": "¡Ja!",
+    "en": "Hah!"
+   },
+   "voz": "kb"
+  },
+  "preguntas": [
+   {
+    "tipo": "elige",
+    "jp": "わたし＿ ニャンです。",
+    "opciones": [
+     "は",
+     "か",
+     "です"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Yo soy Nyan.",
+     "en": "I'm Nyan."
+    },
+    "porque": {
+     "es": "は marca de quién hablas: わたしは… = «en cuanto a mí…». Sin él, la frase no tiene tema.",
+     "en": "は marks who you're talking about: わたしは… = «as for me…». Without it, the sentence has no topic."
+    },
+    "voz": "q1"
+   },
+   {
+    "tipo": "elige",
+    "jp": "これは 何[なん]です＿。",
+    "opciones": [
+     "か",
+     "は"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "¿Qué es esto?",
+     "en": "What is this?"
+    },
+    "porque": {
+     "es": "か al final convierte la frase en pregunta; en japonés no hace falta cambiar el orden.",
+     "en": "か at the end turns it into a question; Japanese doesn't change the word order."
+    },
+    "voz": "q2"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "これ 本[ほん]です は。",
+    "correcta": false,
+    "tr": {
+     "es": "(Esto es un libro.)",
+     "en": "(This is a book.)"
+    },
+    "porque": {
+     "es": "は va pegado justo detrás del tema (これは), y el verbo です, al final de todo: これは 本です.",
+     "en": "は sticks right after the topic (これは), and です goes at the very end: これは 本です."
+    },
+    "voz": "q3"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "わたしは カゲです。",
+    "correcta": true,
+    "tr": {
+     "es": "Yo soy Kage.",
+     "en": "I'm Kage."
+    },
+    "porque": {
+     "es": "Perfecto: わたし + は + カゲ + です.",
+     "en": "Perfect: わたし + は + カゲ + です."
+    },
+    "voz": "q4"
+   },
+   {
+    "tipo": "oye",
+    "jp": "それは 何[なん]ですか。",
+    "habla": "tama",
+    "opciones": [
+     {
+      "es": "¿Qué es eso?",
+      "en": "What's that?"
+     },
+     {
+      "es": "Eso es un libro.",
+      "en": "That's a book."
+     },
+     {
+      "es": "¿Quién es?",
+      "en": "Who is it?"
+     }
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "何 es «qué» y か lo hace pregunta; それ es «eso», lo que está junto a quien escucha.",
+     "en": "何 is «what» and か makes it a question; それ is «that», near the listener."
+    },
+    "voz": "q5"
+   },
+   {
+    "tipo": "imagen",
+    "jp": "おにぎりです。",
+    "opciones": [
+     "libro",
+     "onigiri",
+     "caja"
+    ],
+    "bien": 1,
+    "porque": {
+     "es": "おにぎり es la bola de arroz envuelta en alga: la comida favorita de Nyan.",
+     "en": "おにぎり is the rice ball wrapped in seaweed: Nyan's favourite food."
+    },
+    "pide": {
+     "es": "Kage señala una cosa. ¿Cuál es?",
+     "en": "Kage points at something. Which one?"
+    }
+   }
+  ]
+ },
+ "siguiente": {
+  "es": "Mañana Tama le presenta a sus amigos… y Nyan descubre que Kage vive en el pueblo.",
+  "en": "Tomorrow Tama introduces her friends… and Nyan finds out Kage lives in the village."
+ },
+ "chuleta": {
+  "patron": {
+   "es": "〔algo〕は〔algo〕です ・ 〔…〕ですか",
+   "en": "〔thing〕は〔thing〕です ・ 〔…〕ですか"
+  },
+  "patron_tr": {
+   "es": "〔algo〕 es 〔algo〕 ・ ¿es 〔…〕?",
+   "en": "〔thing〕 is 〔thing〕 ・ is it 〔…〕?"
+  },
+  "filas": [
+   {
+    "jp": "わたしは ニャンです。",
+    "es": "Yo soy Nyan.",
+    "en": "I'm Nyan.",
+    "registro": "educado"
+   },
+   {
+    "jp": "これは 本[ほん]です。",
+    "es": "Esto es un libro.",
+    "en": "This is a book."
+   },
+   {
+    "jp": "それは 何[なん]ですか。",
+    "es": "¿Qué es eso?",
+    "en": "What's that?"
+   },
+   {
+    "jp": "これ、 猫[ねこ]だ！",
+    "es": "¡Esto es un gato! (a un amigo)",
+    "en": "This is a cat! (to a friend)",
+    "registro": "amigos"
+   }
+  ],
+  "consejo": {
+   "es": "Hoy Nyan habla educado (です) porque acaba de conocer a Tama. Con los amigos de confianza, です se cambia por だ o se quita: これ、猫だ！",
+   "en": "Today Nyan speaks politely (です) because he just met Tama. With close friends, です becomes だ or is dropped: これ、猫だ！"
+  }
+ }
+}

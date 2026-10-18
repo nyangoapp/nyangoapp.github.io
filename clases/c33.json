@@ -1,0 +1,161 @@
+{
+ "id": "c33",
+ "clase": 33,
+ "desde": 1100,
+ "titulo": {"es": "Nyan me hace estudiar: la causativa", "en": "Nyan makes me study: the causative"},
+ "resumen": {"es": "La causativa (〜させる) dice que haces que alguien haga algo. Si el verbo no tiene objeto, quien actúa lleva を; si ya tiene objeto, lleva に.",
+  "en": "The causative (〜させる) says you make someone do something. If the verb has no object, the doer takes を; if it already has an object, it takes に."},
+ "intro": [
+  {"escena": {"fondo": "cuarto", "cosas": [{"que": "nyan", "x": 110, "brazo": "arriba"}, {"que": "persona", "x": 270}]},
+   "cara": "normal", "jp": "友達[ともだち]に 勉強[べんきょう]させる！", "voz": "i1",
+   "tr": {"es": "¡Voy a hacer que mi amigo estudie!", "en": "I'm going to make my friend study!"},
+   "cartela": {"es": "させる: hacer que alguien haga algo. する → させる.", "en": "させる: making someone do something. する → させる."}},
+  {"escena": {"fondo": "parque", "cosas": [{"que": "nyan", "x": 110, "cara": "pensando"}, {"que": "persona", "x": 270}, {"que": "manpu", "tipo": "pregunta", "x": 155, "y": 105}]},
+   "cara": "pensando", "jp": "友達[ともだち]に 走[はし]らせる…あれ？", "voz": "i2",
+   "tr": {"es": "Voy a hacer que mi amigo corra… ¿eh?", "en": "I'll make my friend run… huh?"},
+   "cartela": {"es": "Espera: 走[はし]る no tiene objeto directo. Con estos verbos, quien actúa lleva を, no に.", "en": "Wait: 走る has no direct object. With these verbs, the doer takes を, not に."}},
+  {"escena": {"fondo": "parque", "cosas": [{"que": "nyan", "x": 110, "cara": "feliz", "brazo": "arriba"}, {"que": "persona", "x": 280}]},
+   "cara": "feliz", "jp": "友達[ともだち]を 走[はし]らせる！", "voz": "i3",
+   "tr": {"es": "¡Haré que mi amigo corra!", "en": "I'll make my friend run!"},
+   "cartela": {"es": "友達[ともだち]を 走[はし]らせる: を para los verbos que no llevan objeto.", "en": "友達を走らせる: を for verbs without an object."},
+   "nota": {"es": "Primo: la causativa, tú decides que actúe (友達[ともだち]を 走[はし]らせる) frente a 〜てもらう, lo consigues pidiéndolo (手伝[てつだ]ってもらう): cambia de quién parte la iniciativa.", "en": "Cousin: the causative, you decide someone acts (友達を走らせる) vs 〜てもらう, you get them to by asking (手伝ってもらう): the initiative comes from a different person."}},
+  {"escena": {"fondo": "cuarto", "cosas": [{"que": "nyan", "x": 120, "cara": "feliz", "s": 1.1}, {"que": "cama", "x": 120, "s": 1.3}, {"que": "gato", "x": 280}]},
+   "cara": "enfado", "habla": "tama", "jp": "ちょっと、まだ 勉強[べんきょう]してるよ…！", "voz": "i4",
+   "tr": {"es": "Oye, ¡yo todavía estoy estudiando…!", "en": "Hey, I'm still studying…!"},
+   "cartela": {"es": "Tama sigue estudiando (してる, la forma corta) mientras Nyan ya se echa la siesta. Fin de la intro: ¡a practicar!", "en": "Tama's still studying (してる, the short form) while Nyan's already taking a nap. End of the intro: let's practice!"}}
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {"es": "Monta cada frase. Sin objeto: を. Con objeto: に.",
+   "en": "Build each sentence. No object: を. With an object: に."},
+  "piezas": [
+   {"id": "imouto", "jp": "妹[いもうと]", "tipo": "palabra"}, {"id": "ni", "jp": "に", "tipo": "particula"}, {"id": "yasai", "jp": "野菜[やさい]", "tipo": "palabra"}, {"id": "wo", "jp": "を", "tipo": "particula"},
+   {"id": "tabe", "jp": "食[た]べ", "tipo": "palabra"}, {"id": "sasemasu", "jp": "させます", "tipo": "particula"},
+   {"id": "taberu", "jp": "食[た]べる", "tipo": "verbo"}, {"id": "tabemasu", "jp": "食[た]べます", "tipo": "verbo"}, {"id": "imoutowo", "jp": "妹[いもうと]を", "tipo": "palabra"},
+   {"id": "tomodachi", "jp": "友達[ともだち]", "tipo": "palabra"}, {"id": "hashira", "jp": "走[はし]ら", "tipo": "palabra"}, {"id": "semasu", "jp": "せます", "tipo": "particula"},
+   {"id": "hashiru", "jp": "走[はし]る", "tipo": "verbo"}, {"id": "tomodachini", "jp": "友達[ともだち]に", "tipo": "palabra"},
+   {"id": "naka", "jp": "泣[な]か", "tipo": "palabra"}, {"id": "semashita", "jp": "せました", "tipo": "particula"},
+   {"id": "naku", "jp": "泣[な]く", "tipo": "verbo"},
+   {"id": "hon", "jp": "本[ほん]", "tipo": "palabra"}, {"id": "eraba", "jp": "選[えら]ば", "tipo": "palabra"}, {"id": "sasemashita", "jp": "させました", "tipo": "particula"},
+   {"id": "erabu", "jp": "選[えら]ぶ", "tipo": "verbo"},
+   {"id": "minna", "jp": "みんな", "tipo": "palabra"}, {"id": "benkyou", "jp": "勉強[べんきょう]", "tipo": "palabra"},
+   {"id": "benkyousuru", "jp": "勉強[べんきょう]する", "tipo": "verbo"}, {"id": "minnani", "jp": "みんなに", "tipo": "palabra"}
+  ],
+  "encargos": [
+   {"pide": {"es": "Di: «Hago que mi hermana coma verduras».", "en": "Say: «I make my sister eat vegetables»."},
+    "escena": {"fondo": "cocina", "cosas": [{"que": "nyan", "x": 110, "brazo": "arriba"}, {"que": "persona", "x": 270}]},
+    "piezas": ["imouto", "ni", "yasai", "wo", "tabe", "sasemasu", "taberu", "tabemasu", "imoutowo"],
+    "bien": [["imouto", "ni", "yasai", "wo", "tabe", "sasemasu"]], "tr": {"es": "Hago que mi hermana coma verduras.", "en": "I make my sister eat vegetables."},
+    "efecto_bien": [{"tipo": "nyan", "cara": "feliz", "brazo": "arriba"}, {"tipo": "manpu", "objeto": "persona", "manpu": "sudor"}],
+    "fallos": [
+     {"si": {"contiene": ["imoutowo"]}, "efecto": {"tipo": "nyan", "cara": "pensando", "manpu": "pregunta"},
+      "msg": {"es": "食[た]べる ya tiene objeto (野菜[やさい]を): quien come lleva に, no を: 妹[いもうと]に.", "en": "食べる already has an object (野菜を): who eats it takes に, not を: 妹に."}},
+     {"si": {"contiene": ["taberu"]}, "efecto": {"tipo": "nyan", "cara": "pensando", "manpu": "pregunta"},
+      "msg": {"es": "食[た]べる no cambia: para la causativa hace falta 食[た]べさせます.", "en": "食べる doesn't change: for the causative you need 食べさせます."}},
+     {"si": {"contiene": ["tabemasu"]}, "efecto": {"tipo": "nyan", "cara": "normal"},
+      "msg": {"es": "食[た]べます no obliga a nadie. Para «hacer que coma»: 食[た]べさせます.", "en": "食べます doesn't force anyone. For “make her eat”: 食べさせます."}}
+    ]},
+   {"pide": {"es": "Di: «Haré que mi amigo corra».", "en": "Say: «I'll make my friend run»."},
+    "escena": {"fondo": "parque", "cosas": [{"que": "nyan", "x": 110, "brazo": "arriba"}, {"que": "persona", "x": 270}]},
+    "piezas": ["tomodachi", "wo", "hashira", "semasu", "hashiru", "tomodachini"],
+    "bien": [["tomodachi", "wo", "hashira", "semasu"]], "tr": {"es": "Haré que mi amigo corra.", "en": "I'll make my friend run."},
+    "efecto_bien": [{"tipo": "huye", "objeto": "persona", "hacia": "der"}, {"tipo": "nyan", "cara": "feliz"}],
+    "fallos": [
+     {"si": {"contiene": ["tomodachini"]}, "efecto": {"tipo": "nyan", "cara": "pensando", "manpu": "pregunta"},
+      "msg": {"es": "走[はし]る no lleva objeto directo: quien corre lleva を, no に.", "en": "走る has no direct object: whoever runs takes を, not に."}},
+     {"si": {"contiene": ["hashiru"]}, "efecto": {"tipo": "nyan", "cara": "pensando", "manpu": "pregunta"},
+      "msg": {"es": "走[はし]る no cambia: hace falta 走[はし]らせます.", "en": "走る doesn't change: you need 走らせます."}},
+     {"si": {"falta": ["semasu"]}, "efecto": {"tipo": "nyan", "cara": "normal"},
+      "msg": {"es": "走[はし]ら solo no dice nada: hace falta せます detrás.", "en": "走ら alone doesn't say anything: it needs せます after it."}}
+    ]},
+   {"pide": {"es": "Di, algo culpable: «Hice llorar a mi hermana».", "en": "Say, guiltily: «I made my sister cry»."},
+    "escena": {"fondo": "cuarto", "cosas": [{"que": "nyan", "x": 110, "cara": "pensando"}, {"que": "persona", "x": 270, "cara": "triste"}]},
+    "piezas": ["imouto", "wo", "naka", "semashita", "naku"],
+    "bien": [["imouto", "wo", "naka", "semashita"]], "tr": {"es": "Hice llorar a mi hermana.", "en": "I made my sister cry."},
+    "efecto_bien": [{"tipo": "nyan", "cara": "pensando", "manpu": "sudor"}],
+    "fallos": [
+     {"si": {"contiene": ["naku"]}, "efecto": {"tipo": "nyan", "cara": "pensando", "manpu": "pregunta"},
+      "msg": {"es": "泣[な]く no cambia: hace falta 泣[な]かせました.", "en": "泣く doesn't change: you need 泣かせました."}},
+     {"si": {"falta": ["semashita"]}, "efecto": {"tipo": "nyan", "cara": "normal"},
+      "msg": {"es": "泣[な]か solo no dice nada: hace falta せました detrás.", "en": "泣か alone doesn't say anything: it needs せました after it."}},
+     {"si": {"falta": ["wo"]}, "efecto": {"tipo": "nyan", "cara": "pensando", "manpu": "pregunta"},
+      "msg": {"es": "泣[な]く no tiene objeto: quien llora lleva を.", "en": "泣く has no object: whoever cries takes を."}}
+    ]},
+   {"pide": {"es": "Di: «Hice que mi amigo eligiera un libro».", "en": "Say: «I made my friend choose a book»."},
+    "escena": {"fondo": "cuarto", "cosas": [{"que": "nyan", "x": 110}, {"que": "persona", "x": 260}, {"que": "libro", "x": 320, "s": 1.2}]},
+    "piezas": ["tomodachi", "ni", "hon", "wo", "eraba", "sasemashita", "erabu"],
+    "bien": [["tomodachi", "ni", "hon", "wo", "eraba", "sasemashita"]], "tr": {"es": "Hice que mi amigo eligiera un libro.", "en": "I made my friend choose a book."},
+    "efecto_bien": [{"tipo": "brilla", "objeto": "libro"}, {"tipo": "nyan", "cara": "feliz"}],
+    "fallos": [
+     {"si": {"contiene": ["erabu"]}, "efecto": {"tipo": "nyan", "cara": "pensando", "manpu": "pregunta"},
+      "msg": {"es": "選[えら]ぶ no cambia: hace falta 選[えら]ばせました.", "en": "選ぶ doesn't change: you need 選ばせました."}},
+     {"si": {"falta": ["sasemashita"]}, "efecto": {"tipo": "nyan", "cara": "normal"},
+      "msg": {"es": "選[えら]ば solo no dice nada: hace falta せました detrás.", "en": "選ば alone doesn't say anything: it needs せました after it."}},
+     {"si": {"falta": ["ni"]}, "efecto": {"tipo": "nyan", "cara": "pensando", "manpu": "pregunta"},
+      "msg": {"es": "選[えら]ぶ ya tiene objeto (本[ほん]を): quien elige lleva に.", "en": "選ぶ already has an object (本を): whoever chooses takes に."}}
+    ]},
+   {"pide": {"es": "Reto: di «Hago que todos estudien».", "en": "Challenge: say «I make everyone study»."},
+    "escena": {"fondo": "cuarto", "cosas": [{"que": "nyan", "x": 130, "cara": "feliz"}, {"que": "persona", "x": 280}, {"que": "cama", "x": 340, "s": 0.9}]},
+    "piezas": ["minna", "wo", "benkyou", "sasemasu", "benkyousuru", "minnani"],
+    "bien": [["minna", "wo", "benkyou", "sasemasu"]], "tr": {"es": "Hago que todos estudien.", "en": "I make everyone study."},
+    "efecto_bien": [{"tipo": "texto", "texto": "カリカリ", "x": 260, "y": 150}, {"tipo": "nyan", "cara": "feliz", "brazo": "arriba"}],
+    "fallos": [
+     {"si": {"contiene": ["minnani"]}, "efecto": {"tipo": "nyan", "cara": "pensando", "manpu": "pregunta"},
+      "msg": {"es": "勉強[べんきょう]する no tiene objeto aquí: quien estudia lleva を, no に.", "en": "勉強する has no object here: whoever studies takes を, not に."}},
+     {"si": {"contiene": ["benkyousuru"]}, "efecto": {"tipo": "nyan", "cara": "pensando", "manpu": "pregunta"},
+      "msg": {"es": "する se convierte en させます: 勉強[べんきょう]させます, no 勉強[べんきょう]する.", "en": "する becomes させます: 勉強させます, not 勉強する."}},
+     {"si": {"falta": ["sasemasu"]}, "efecto": {"tipo": "nyan", "cara": "normal"},
+      "msg": {"es": "勉強[べんきょう] solo no dice nada: hace falta させます detrás.", "en": "勉強 alone doesn't say anything: it needs させます after it."}}
+    ]}
+  ]
+ },
+ "juego": {
+  "intro": {"es": "¿を (sin objeto) o に (con objeto)?", "en": "を (no object) or に (with an object)?"},
+  "nyan": {"es": "Yo prefiero no hacer que nadie haga nada. Ni que me hagan a mí.", "en": "I'd rather not make anyone do anything. Or have it done to me."},
+  "cestas": [
+   {"id": "wo", "jp": "を", "sub": {"es": "el verbo no tiene objeto", "en": "the verb has no object"}},
+   {"id": "ni", "jp": "に", "sub": {"es": "el verbo ya tiene objeto", "en": "the verb already has an object"}}
+  ],
+  "cartas": [
+   {"id": "j1", "jp": "友達[ともだち]＿ 走[はし]らせました。", "cesta": "wo", "es": "Hice que mi amigo corriera.", "en": "I made my friend run."},
+   {"id": "j2", "jp": "妹[いもうと]＿ 泣[な]かせました。", "cesta": "wo", "es": "Hice llorar a mi hermana.", "en": "I made my sister cry."},
+   {"id": "j3", "dibujo": "nyan", "jp": "ニャン＿ 待[ま]たせました。", "cesta": "wo", "es": "Hice esperar a Nyan.", "en": "I made Nyan wait."},
+   {"id": "j4", "jp": "みんな＿ 勉強[べんきょう]させました。", "cesta": "wo", "es": "Hice que todos estudiaran.", "en": "I made everyone study."},
+   {"id": "j5", "jp": "妹[いもうと]＿ 野菜[やさい]を 食[た]べさせました。", "cesta": "ni", "es": "Hice que mi hermana comiera verduras.", "en": "I made my sister eat vegetables."},
+   {"id": "j6", "dibujo": "libro", "jp": "友達[ともだち]＿ 本[ほん]を 選[えら]ばせました。", "cesta": "ni", "es": "Hice que mi amigo eligiera un libro.", "en": "I made my friend choose a book."},
+   {"id": "j7", "jp": "妹[いもうと]＿ 部屋[へや]を 掃除[そうじ]させました。", "cesta": "ni", "es": "Hice que mi hermana limpiara la habitación.", "en": "I made my sister clean the room."},
+   {"id": "j8", "jp": "友達[ともだち]＿ 宿題[しゅくだい]を 手伝[てつだ]わせました。", "cesta": "ni", "es": "Hice que mi amigo ayudara con los deberes.", "en": "I made my friend help with homework."}
+  ]
+ },
+ "outro": [
+  {"escena": {"fondo": "parque", "cosas": [{"que": "nyan", "x": 110, "brazo": "arriba"}, {"que": "persona", "x": 270}]},
+   "cara": "feliz", "jp": "友達[ともだち]を 走[はし]らせます。", "voz": "o1",
+   "tr": {"es": "Haré que mi amigo corra.", "en": "I'll make my friend run."},
+   "cartela": {"es": "Sin objeto: を. 走[はし]る no tiene nada que llevarse por delante.", "en": "No object: を. 走る has nothing to take along."}},
+  {"escena": {"fondo": "cocina", "cosas": [{"que": "nyan", "x": 110}, {"que": "persona", "x": 270}]},
+   "cara": "normal", "jp": "妹[いもうと]に 野菜[やさい]を 食[た]べさせます。", "voz": "o2",
+   "tr": {"es": "Hago que mi hermana coma verduras.", "en": "I make my sister eat vegetables."},
+   "cartela": {"es": "Con objeto: に. 野菜[やさい]を ya ocupa el を.", "en": "With an object: に. 野菜を already takes the を."}},
+  {"escena": {"fondo": "cuarto", "cosas": [{"que": "nyan", "x": 200, "cara": "feliz", "s": 1.1}, {"que": "cama", "x": 200, "s": 1.3}]},
+   "cara": "feliz", "jp": "みんなを 勉強[べんきょう]させて…ニャンは 寝[ね]る。", "voz": "o3",
+   "tr": {"es": "Hago que todos estudien… y Nyan duerme.", "en": "I make everyone study… and Nyan sleeps."},
+   "cartela": {"es": "Fin. を sin objeto, に con objeto. Y Nyan, como siempre, se libra.", "en": "The end. を with no object, に with an object. And Nyan, as always, gets out of it."}}
+ ],
+ "chuleta": {
+  "patron": {"es": "〔quién〕を／に 〔verbo〕させる", "en": "〔who〕を／に 〔verb〕させる"},
+  "patron_tr": {"es": "hacer que alguien haga algo", "en": "make someone do something"},
+  "columnas": [
+   {"jp": "を", "texto": {"es": "el verbo no tiene objeto (走[はし]る, 泣[な]く)", "en": "the verb has no object (走る, 泣く)"}, "dibujos": ["persona"]},
+   {"jp": "に", "texto": {"es": "el verbo ya tiene objeto (食[た]べる, 選[えら]ぶ)", "en": "the verb already has an object (食べる, 選ぶ)"}, "dibujos": ["libro"]}
+  ],
+  "filas": [
+   {"jp": "友達[ともだち]を 走[はし]らせる。", "es": "Haré que mi amigo corra.", "en": "I'll make my friend run.", "registro": "amigos"},
+   {"jp": "友達[ともだち]を 走[はし]らせます。", "es": "Haré que mi amigo corra.", "en": "I'll make my friend run.", "registro": "educado"},
+   {"jp": "妹[いもうと]に 野菜[やさい]を 食[た]べさせる。", "es": "Hago que mi hermana coma verduras.", "en": "I make my sister eat vegetables.", "registro": "amigos"},
+   {"jp": "妹[いもうと]に 野菜[やさい]を 食[た]べさせます。", "es": "Hago que mi hermana coma verduras.", "en": "I make my sister eat vegetables.", "registro": "educado"},
+   {"jp": "みんなを 勉強[べんきょう]させる。", "es": "Hago que todos estudien.", "en": "I make everyone study.", "registro": "amigos"},
+   {"jp": "みんなを 勉強[べんきょう]させます。", "es": "Hago que todos estudien.", "en": "I make everyone study.", "registro": "educado"}
+  ],
+  "consejo": {"es": "godan: última sílaba a あ + せる (走[はし]る→走[はし]らせる). ichidan・する・来る: 食[た]べさせる, させる, 来[こ]させる.", "en": "godan: last syllable to あ + せる (走る→走らせる). ichidan・する・来る: 食べさせる, させる, 来させる."}
+ }
+}

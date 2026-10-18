@@ -1,0 +1,395 @@
+/* Guía de gramática (pantalla del rediseño). Todo cuelga de .gu: usa los tokens del tema y las piezas de la app (.t, .carta, .anilla, .kbd, .b-tinta, .b-claro, .opcion…). */
+
+.gu { height: 100%; display: flex; flex-direction: column; min-height: 0; }
+.gu *, .gu *::before, .gu *::after { box-sizing: border-box; }
+.gu ruby rt { font-size: .5em; font-weight: 500; letter-spacing: 0; color: var(--tinta-2); }
+.gu :is(.opcion, .g-hueco.lleno, .gu-hanko, .gu-peg, .gu-chip.si, .b-tinta) ruby rt { color: inherit; opacity: .82; }
+
+/* ── cabecera ── */
+.gu-arriba { flex: none; width: 100%; padding: 14px 28px 0; gap: 16px; align-items: center; }
+.gu-arriba .p-tit h1 { font-size: 32px; }
+.gu-teclas { display: flex; align-items: center; flex-wrap: wrap; gap: 4px; margin: 0 0 0 auto; font: 700 12.5px var(--f-txt); color: var(--tinta-2); }
+.gu-teclas i { margin: 0 6px; font-style: normal; opacity: .5; }
+.gu-teclas .kbd { height: 22px; min-width: 22px; font-size: 11px; }
+.gu-chips { display: flex; align-items: center; gap: 10px; }
+.gu .gu-hechas .ic { font: 900 16px var(--f-txt); }
+.gu-hechas b { font-variant-numeric: tabular-nums; }
+.gu .gu-ver, .gu .gu-fichas-btn { display: none; height: 46px; padding: 0 14px 0 12px; }
+@media (max-width: 1560px) { .gu-teclas { display: none; } .gu-chips { margin-left: auto; } }
+
+.gu-libro { flex: 1; min-height: 0; width: 100%; max-width: 1240px; margin: 0 auto; padding: 14px 28px 20px; display: grid; grid-template-columns: 308px minmax(0, 1fr); gap: 22px; }
+
+/* ── el índice: seis capítulos con su foto, lo hecho y una barra ── */
+.gu-indice { min-height: 0; overflow-y: auto; overscroll-behavior: contain; display: flex; flex-direction: column; gap: 12px; padding: 2px 8px 14px 2px; scrollbar-width: thin; scrollbar-color: var(--linea) transparent; }
+.gu-cap { flex: none; border-radius: var(--radio-s); background: var(--tile); border: var(--borde); box-shadow: var(--sombra); }
+.gu-cap-cab { display: grid; grid-template-columns: 46px minmax(0, 1fr) auto; grid-template-areas: "f t n" "b b b"; gap: 7px 12px; align-items: center; width: 100%; padding: 10px 14px 12px 10px; border: 0; background: none; text-align: left; color: inherit; cursor: pointer; border-radius: inherit; }
+.gu-cap-cab:hover .gu-cap-foto { rotate: 3deg; scale: 1.06; }
+.gu-cap-foto { grid-area: f; width: 46px; height: 46px; border-radius: 14px; background-size: auto 150%; background-repeat: no-repeat; rotate: -4deg; box-shadow: 0 0 0 3px var(--tile-c), 0 0 0 5px var(--linea), 0 5px 10px -4px rgba(0, 0, 0, .3); transition: rotate .3s var(--muelle), scale .3s var(--muelle); }
+.gu-cap-txt { grid-area: t; display: grid; gap: 1px; min-width: 0; }
+.gu-cap-txt b { font: 800 15px/1.2 var(--f-txt); }
+.gu-cap-txt small { font: 700 11.5px var(--f-txt); letter-spacing: .06em; color: var(--tinta-2); }
+.gu-cap-n { grid-area: n; font: 700 12.5px var(--f-num); color: var(--tinta-2); font-variant-numeric: tabular-nums; }
+.gu-cap-n b { font-size: 17px; color: var(--tinta); }
+.gu-cap-barra { grid-area: b; display: block; height: 7px; border-radius: 99px; background: var(--linea); overflow: hidden; }
+.gu-cap-barra i { display: block; height: 100%; border-radius: inherit; background: var(--ok); transform-origin: 0 50%; }
+.gu-cap-lista { display: grid; grid-template-rows: 0fr; transition: grid-template-rows .45s var(--muelle); }
+.gu-cap.abierto .gu-cap-lista { grid-template-rows: 1fr; }
+.gu-cap-in { min-height: 0; overflow: hidden; }
+.gu-cap-in::after { content: ""; display: block; height: 8px; }
+.gu-i { display: grid; grid-template-columns: 26px minmax(0, 1fr) auto; align-items: center; gap: 10px; width: calc(100% - 16px); margin: 0 8px 2px; padding: 7px 10px 7px 8px; border: 0; border-radius: 14px; background: none; color: var(--tinta); text-align: left; cursor: pointer;
+  font: 700 13.5px/1.25 var(--f-txt); transition: background-color .2s, translate .2s var(--muelle); }
+.gu-i:hover { background: var(--suave); translate: 3px 0; }
+.gu-i .gu-n { display: grid; place-items: center; width: 26px; height: 26px; border-radius: 9px; background: var(--linea); color: var(--tinta-2); font: 700 12px var(--f-num); font-style: normal; font-variant-numeric: tabular-nums; }
+.gu-i.aqui { background: var(--suave); box-shadow: inset 0 0 0 2px color-mix(in srgb, var(--acento) 55%, transparent); }
+.gu-i.aqui .gu-n { background: var(--boton); color: var(--sobre); }
+.gu-i .gu-tt { word-break: keep-all; overflow-wrap: break-word; }
+.gu-est { display: inline-flex; align-items: center; justify-content: center; gap: 5px; min-width: 28px; height: 26px; padding: 0 8px; border-radius: 99px; font: 700 11.5px var(--f-num); color: var(--tinta-2); box-shadow: inset 0 0 0 2px var(--linea); font-variant-numeric: tabular-nums; }
+.gu-est:empty { width: 26px; min-width: 26px; padding: 0; }
+.gu-est small { font-size: 9px; margin-left: -2px; opacity: .85; }
+.gu-est.e-leida { background: color-mix(in srgb, var(--gram) 14%, var(--tile-c)); color: color-mix(in srgb, var(--tinta) 40%, var(--gram)); box-shadow: inset 0 0 0 2px color-mix(in srgb, var(--gram) 50%, transparent); font: 900 13px var(--f-txt); }
+.gu-est.e-hecha { background: color-mix(in srgb, var(--ok) 14%, var(--tile-c)); color: color-mix(in srgb, var(--tinta) 45%, var(--ok)); box-shadow: inset 0 0 0 2px var(--ok); }
+.gu-est.e-repaso { --rc: var(--r0); background: var(--tile-c); color: var(--tinta); box-shadow: inset 0 0 0 2px var(--rc); }
+.gu-est.e-repaso::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--rc); }
+.gu-i.aqui .gu-est:empty { background: var(--tile-c); }
+
+/* ── la página ── */
+.gu-pagina { min-height: 0; overflow-y: auto; overscroll-behavior: contain; padding: 0 8px 44px 2px; scrollbar-width: thin; scrollbar-color: var(--linea) transparent; }
+.gu-hoja { max-width: 880px; margin: 0 auto; }
+.gu-carga, .gu-vacia { padding: 60px 20px; text-align: center; color: var(--tinta-2); }
+.gu-vacia.carta { width: min(520px, 100%); margin: 40px auto; padding: 50px 30px 40px; display: grid; justify-items: center; gap: 6px; text-align: center; }
+.gu-vacia b { font: 900 72px/1 var(--f-txt); color: var(--gram); } .gu-vacia h2 { margin: 6px 0 0; font: var(--peso-tit) 26px/1.2 var(--f-tit); } .gu-vacia p { margin: 0; color: var(--tinta-2); }
+
+/* la ficha de cabecera: una carta de estudio con la foto del capítulo; el metal de la anilla y la banda dicen el rango */
+.gu-ficha.carta { width: 100%; margin-top: 26px; text-align: left; overflow: visible; }
+.gu-ficha:not([class*="mat-"]) { --rk: var(--gram); }
+.gu-ficha:not([class*="mat-"])::before { background: var(--gram); }
+.gu-foto { position: relative; margin: 0; height: 128px; border-radius: calc(var(--radio) - 6px) calc(var(--radio) - 6px) 0 0; overflow: hidden; }
+.gu-foto > i { position: absolute; inset: -6px 0; background-size: cover; background-position: 50% 32%; }
+.gu-foto::after { content: ""; position: absolute; inset: auto 0 0; height: 52%; background: linear-gradient(180deg, transparent, color-mix(in srgb, var(--tile-c) 94%, transparent)); }
+.gu-foto figcaption { position: absolute; left: 70px; bottom: 10px; z-index: 2; }
+.gu-peg { --pc: var(--acento); position: absolute; top: 92px; right: 26px; z-index: 6; display: grid; justify-items: center; gap: 2px; min-width: 104px; padding: 10px 16px 9px; border-radius: 16px; rotate: 5deg;
+  background: color-mix(in srgb, var(--pc) 16%, var(--tile-c)); color: color-mix(in srgb, var(--tinta) 38%, var(--pc)); box-shadow: inset 0 0 0 3px var(--pc), 0 6px 0 color-mix(in srgb, var(--pc) 32%, transparent), 0 16px 20px -10px rgba(0, 0, 0, .5); }
+.gu-peg b { font: var(--peso-tit) 32px/1 var(--f-tit); letter-spacing: var(--espacio-tit); font-variant-numeric: tabular-nums; }
+.gu-peg b small { font-size: .5em; margin-left: 1px; }
+.gu-peg span { font: 800 11px var(--f-txt); letter-spacing: .14em; text-transform: uppercase; }
+.gu-peg.e-nueva { --pc: var(--acento); } .gu-peg.e-leida { --pc: var(--gram); } .gu-peg.e-hecha { --pc: var(--ok); } .gu-peg.e-repaso { --pc: var(--r0); }
+.gu-ficha-c { padding: 14px 30px 28px; }
+.gu-tit { margin: 0; padding-right: 128px; font: var(--peso-tit) 34px/1.28 var(--f-tit); letter-spacing: var(--espacio-tit); text-wrap: balance; }
+.gu-tit rt { font-size: .36em; }
+.gu-resumen { margin: 10px 0 0; padding-right: 20px; font: 500 16px/1.65 var(--f-txt); color: var(--tinta-2); text-wrap: pretty; }
+.gu-resumen b { color: var(--acento); }
+.gu-stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin-top: 20px; }
+.gu-stat { display: grid; grid-template-columns: 36px minmax(0, 1fr); gap: 11px; align-items: center; padding: 11px 12px; border-radius: 16px; background: color-mix(in srgb, var(--tinta) 4%, var(--tile-c)); box-shadow: inset 0 0 0 2px var(--linea); }
+.gu-stat-ic { display: grid; place-items: center; width: 36px; height: 36px; border-radius: 11px; background: var(--gram); color: #fff; font: 900 17px var(--f-txt); rotate: -6deg; box-shadow: 0 3px 0 color-mix(in srgb, var(--gram) 55%, #000); }
+.gu-stat.off .gu-stat-ic { background: var(--linea); color: var(--tinta-2); box-shadow: none; }
+.gu-stat small { display: block; font: 800 10.5px var(--f-txt); letter-spacing: .12em; text-transform: uppercase; color: var(--tinta-2); }
+.gu-stat b { display: block; margin-top: 2px; font: 700 18px/1.15 var(--f-txt); }
+.gu-stat em { display: block; margin-top: 1px; font: 500 12.5px/1.3 var(--f-txt); font-style: normal; color: var(--tinta-2); }
+.gu-stat.off b { color: var(--tinta-2); }
+.gu-dot { display: inline-block; width: 11px; height: 11px; margin-right: 6px; border-radius: 50%; background: var(--rc, var(--r0)); vertical-align: 1px; }
+.gu-acciones { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 22px; }
+.gu-acciones button[disabled] { opacity: .6; cursor: default; translate: none; }
+
+/* las secciones de la lección, para saltar de una a otra */
+.gu-secs { position: sticky; top: 8px; z-index: 9; margin: 14px 0 0; padding: 7px; border-radius: 99px; background: color-mix(in srgb, var(--tile) 94%, transparent); border: var(--borde); box-shadow: var(--sombra); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); }
+.gu-secs-in { display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none; -webkit-mask-image: linear-gradient(90deg, #000 93%, transparent); mask-image: linear-gradient(90deg, #000 93%, transparent); }
+.gu-secs-in::-webkit-scrollbar { display: none; }
+.gu-sec-chip { flex: none; display: inline-flex; align-items: center; gap: 8px; max-width: 250px; height: 38px; padding: 0 14px 0 6px; border: 2px solid var(--linea); border-radius: 99px; background: var(--tile-c); color: var(--tinta-2); cursor: pointer;
+  font: 700 13px var(--f-txt); box-shadow: 0 3px 0 var(--linea); transition: translate .18s var(--muelle), background-color .2s, color .2s, box-shadow .12s; }
+.gu-sec-chip b { flex: none; display: grid; place-items: center; width: 26px; height: 26px; border-radius: 50%; background: var(--linea); color: var(--tinta); font: 700 12px var(--f-num); }
+.gu-sec-chip span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.gu-sec-chip:hover { translate: 0 -2px; } .gu-sec-chip:active { translate: 0 2px; box-shadow: 0 1px 0 var(--linea); }
+.gu-sec-chip[aria-current="true"] { background: var(--gram); border-color: var(--gram); color: #fff; box-shadow: 0 3px 0 color-mix(in srgb, var(--gram) 55%, #000); }
+.gu-sec-chip[aria-current="true"] b { background: rgba(255, 255, 255, .26); color: #fff; }
+.gu-sec-chip.prac b { background: var(--boton); color: var(--sobre); font: 900 13px var(--f-txt); }
+.gu-sec-chip.prac[aria-current="true"] b { background: rgba(255, 255, 255, .26); }
+
+.gu-sec { position: relative; margin-top: 18px; padding: 26px 30px 28px; border-radius: var(--radio); background: var(--tile); border: var(--borde); box-shadow: var(--sombra); scroll-margin-top: 78px; }
+.gu-sec h2 { display: flex; align-items: center; gap: 13px; margin: 0 0 16px; font: var(--peso-tit) 25px/1.3 var(--f-tit); letter-spacing: var(--espacio-tit); text-wrap: balance; }
+.gu-sec-n { flex: none; display: grid; place-items: center; width: 40px; height: 40px; border-radius: 12px; background: var(--gram); color: #fff; font: 700 18px var(--f-num); font-style: normal; letter-spacing: 0; rotate: -6deg; box-shadow: 0 4px 0 color-mix(in srgb, var(--gram) 55%, #000); }
+.gu-sec-n[lang="ja"] { font: 900 19px var(--f-txt); }
+.gu-sec h2 rt { font-size: .36em; }
+.gu-sub { margin: -6px 0 14px 53px; color: var(--tinta-2); font: 500 14px var(--f-txt); }
+
+/* texto, listas y énfasis */
+.gu-texto { margin: 0 0 14px; font: 500 16px/1.78 var(--f-txt); }
+.gu-texto p, .gu-regla-md p, .gu-ojo p { margin: 0 0 .7em; } .gu-texto p:last-child, .gu-regla-md p:last-child, .gu-ojo p:last-child { margin-bottom: 0; }
+.gu-sec b { color: var(--acento); font-weight: 800; }
+:root[data-tema="sumi"] .gu-sec b, :root[data-tema="pop"] .gu-sec b { color: var(--tinta); }
+.gu-lista { list-style: none; margin: .3em 0 .9em; padding: 0; display: grid; gap: 9px; counter-reset: gl; }
+.gu-lista li { position: relative; padding-left: 28px; }
+ul.gu-lista li::before { content: ""; position: absolute; left: 4px; top: .62em; width: 10px; height: 10px; border-radius: 50%; background: var(--acento); box-shadow: 0 0 0 3.5px var(--suave); }
+ol.gu-lista li::before { counter-increment: gl; content: counter(gl); position: absolute; left: 0; top: .22em; display: grid; place-items: center; width: 22px; height: 22px; border-radius: 7px; background: var(--gram); color: #fff; font: 700 12px/1 var(--f-num); }
+
+/* «La idea clave» */
+.gu-regla { position: relative; margin: 4px 0 18px; padding: 16px 22px 16px 78px; border-radius: 18px; background: color-mix(in srgb, var(--gram) 9%, var(--tile-c)); box-shadow: inset 0 0 0 2px color-mix(in srgb, var(--gram) 30%, transparent), 0 4px 0 color-mix(in srgb, var(--gram) 14%, transparent); }
+.gu-regla-sello { position: absolute; left: 18px; top: 16px; display: grid; place-items: center; width: 46px; height: 46px; border: 3px solid var(--gram); border-radius: 12px; background: var(--tile-c); color: var(--gram); font: 900 23px/1 var(--f-txt); rotate: -8deg;
+  box-shadow: inset 0 0 0 2px var(--tile-c), inset 0 0 0 4px color-mix(in srgb, var(--gram) 45%, transparent); }
+.gu-regla-tit { display: block; margin-bottom: 5px; font: 800 11.5px var(--f-txt); letter-spacing: .14em; text-transform: uppercase; color: var(--gram); }
+.gu-sec .gu-regla-tit { color: var(--gram); }
+.gu-regla-md { font: 700 17px/1.9 var(--f-txt); }
+.gu-regla-md b { color: var(--gram); }
+:root[data-tema="sumi"] .gu-sec .gu-regla b { color: var(--sello); }
+
+/* «Ojo» */
+.gu-ojo { display: grid; grid-template-columns: 34px minmax(0, 1fr); gap: 13px; margin: 4px 0 18px; padding: 15px 20px 16px 16px; border-radius: 18px; background: color-mix(in srgb, var(--oro) 15%, var(--tile-c)); box-shadow: inset 0 0 0 2px color-mix(in srgb, var(--oro) 38%, transparent); }
+.gu-ojo-ic { display: grid; place-items: center; width: 32px; height: 32px; border-radius: 50%; background: var(--oro); color: #3a2405; font: 900 19px/1 var(--f-num); rotate: -6deg; box-shadow: 0 3px 0 color-mix(in srgb, var(--oro) 50%, #000); }
+.gu-sec .gu-ojo .gu-ojo-tit { display: block; margin-bottom: 3px; font: 800 11.5px var(--f-txt); letter-spacing: .14em; text-transform: uppercase; color: color-mix(in srgb, var(--oro) 50%, var(--tinta)); }
+.gu-ojo p { font: 500 15px/1.7 var(--f-txt); }
+.gu-ojo p b { display: inline; margin: 0; font: 800 15px var(--f-txt); letter-spacing: 0; text-transform: none; color: var(--acento); }
+
+/* ejemplos */
+.gu-ejs { list-style: none; margin: 4px 0 18px; padding: 0; display: grid; gap: 9px; }
+.gu-ejs li { display: grid; grid-template-columns: 30px minmax(0, 1fr); gap: 14px; align-items: start; padding: 12px 18px 12px 14px; border-radius: 16px; background: color-mix(in srgb, var(--tinta) 3%, var(--tile-c)); box-shadow: inset 0 0 0 2px var(--linea); }
+.gu-ej-n { display: grid; place-items: center; width: 28px; height: 28px; margin-top: 8px; border-radius: 9px; background: var(--acento); color: var(--sobre); font: 700 13px var(--f-num); rotate: -5deg; }
+.gu-jp { font: 700 21px/1.95 var(--f-txt); letter-spacing: .01em; }
+.gu-sec .gu-jp b { color: var(--acento); }
+.gu-es { font: 600 14.5px/1.45 var(--f-txt); color: var(--tinta-2); }
+.gu-nota { margin-top: 5px; padding-left: 11px; border-left: 3px solid color-mix(in srgb, var(--acento) 45%, transparent); font: 500 13.5px/1.55 var(--f-txt); color: var(--tinta-2); }
+
+/* tablas */
+.gu-tabla-caja { margin: 4px 0 18px; overflow-x: auto; border-radius: 16px; box-shadow: inset 0 0 0 2px var(--linea); }
+.gu-tabla { width: 100%; border-collapse: collapse; font: 600 15px/1.6 var(--f-txt); }
+.gu-tabla thead th { padding: 10px 16px; background: color-mix(in srgb, var(--gram) 14%, var(--tile-c)); color: color-mix(in srgb, var(--tinta) 40%, var(--gram)); text-align: left; white-space: nowrap; font: 800 11.5px var(--f-txt); letter-spacing: .1em; text-transform: uppercase; }
+.gu-tabla tbody th { text-align: left; font: 700 16px/1.6 var(--f-txt); }
+.gu-tabla :is(td, tbody th) { padding: 8px 16px; border-top: 2px solid var(--linea); }
+.gu-tabla tbody tr:nth-child(even) :is(td, th) { background: color-mix(in srgb, var(--tinta) 3.2%, transparent); }
+.gu-tabla b { color: var(--acento); }
+
+/* diálogos con el reparto */
+.gu-dialogo { display: grid; gap: 14px; margin: 8px 0 18px; padding: 20px 18px 10px; border-radius: 22px; background: color-mix(in srgb, var(--tinta) 3.5%, var(--tile-c)); box-shadow: inset 0 0 0 2px var(--linea); }
+.gu-linea { display: flex; align-items: flex-end; gap: 12px; max-width: 88%; }
+.gu-linea.der { flex-direction: row-reverse; margin-left: auto; }
+.gu-avatar { flex: none; width: 60px; height: 60px; padding: 3px; border-radius: 50%; background: var(--hc, var(--acento)); box-shadow: 0 4px 0 color-mix(in srgb, var(--hc, var(--acento)) 45%, #000); }
+.gu-avatar i { display: block; width: 100%; height: 100%; border-radius: 50%; background-color: var(--tile-c); background-repeat: no-repeat; }
+.gu-burbuja { position: relative; min-width: 0; padding: 10px 18px 12px; border-radius: 22px 22px 22px 6px; background: var(--tile-c); box-shadow: inset 0 0 0 2.5px color-mix(in srgb, var(--hc, var(--acento)) 55%, transparent), 0 3px 0 var(--linea); }
+.gu-linea.der .gu-burbuja { border-radius: 22px 22px 6px 22px; }
+.gu-burbuja small { display: block; font: 800 11px var(--f-txt); letter-spacing: .12em; color: color-mix(in srgb, var(--hc, var(--acento)) 75%, var(--tinta)); }
+.gu-burbuja .gu-jp { font-size: 20px; line-height: 1.85; }
+
+/* el tarjetero: añadir las tarjetas de esta parte a tu repaso */
+.gu-tarj { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 16px; margin: 24px 0 2px; padding: 16px 18px; border-radius: 20px; border: 2.5px dashed color-mix(in srgb, var(--tinta-2) 38%, transparent);
+  background: var(--fibra), color-mix(in srgb, var(--oro) 8%, var(--tile-c)); }
+.gu-mazo { position: relative; flex: none; width: 42px; height: 54px; margin: 0 10px 0 8px; }
+.gu-mazo i { position: absolute; inset: 0; border-radius: 8px; background: var(--fibra), var(--tile-c); border: var(--borde-carta); box-shadow: 0 3px 0 var(--canto-c); overflow: hidden; }
+.gu-mazo i::before { content: ""; position: absolute; inset: 0 0 auto; height: 8px; background: var(--r2); }
+.gu-mazo i:nth-child(1) { rotate: -11deg; translate: -6px 2px; } .gu-mazo i:nth-child(1)::before { background: var(--r0); }
+.gu-mazo i:nth-child(2) { rotate: 6deg; translate: 5px 1px; } .gu-mazo i:nth-child(2)::before { background: var(--r1); }
+.gu-mazo b { position: absolute; right: -14px; top: -10px; z-index: 3; min-width: 26px; height: 26px; padding: 0 7px; border-radius: 99px; background: var(--tinta); color: var(--fondo); font: 700 13px/26px var(--f-num); text-align: center; box-shadow: 0 3px 8px rgba(0, 0, 0, .25); }
+.gu-tarj.todas .gu-mazo b { background: var(--ok); color: #fff; }
+.gu-tarj-txt { flex: 1; min-width: 200px; }
+.gu-tarj-txt b { display: block; font: 800 15px/1.3 var(--f-txt); color: var(--tinta); }
+.gu-sec .gu-tarj-txt b { color: var(--tinta); }
+.gu-tarj-txt small { display: block; margin-top: 2px; font: 500 13px/1.45 var(--f-txt); color: var(--tinta-2); }
+.gu .gu-tarj-btn { height: 42px; padding: 0 18px; font-size: 14px; }
+.gu-tarj-chips { flex-basis: 100%; display: flex; flex-wrap: wrap; gap: 9px; }
+.gu-chip { display: inline-flex; align-items: center; gap: 8px; min-height: 38px; padding: 0 14px 0 8px; border: 2px solid var(--linea); border-radius: 13px; background: var(--tile-c); color: var(--tinta-2); cursor: pointer; text-align: left;
+  font: 700 13px/1.25 var(--f-txt); box-shadow: 0 3px 0 var(--linea); transition: translate .18s var(--muelle), box-shadow .12s, background-color .2s, border-color .2s; }
+.gu-chip:hover { translate: 0 -2px; box-shadow: 0 5px 0 var(--linea); color: var(--tinta); } .gu-chip:active { translate: 0 2px; box-shadow: 0 1px 0 var(--linea); }
+.gu-chip-m { flex: none; display: grid; place-items: center; width: 20px; height: 20px; border-radius: 7px; border: 2px dashed color-mix(in srgb, var(--tinta-2) 60%, transparent); }
+.gu-chip.si { background: color-mix(in srgb, var(--ok) 13%, var(--tile-c)); border-color: var(--ok); color: color-mix(in srgb, var(--tinta) 55%, var(--ok)); box-shadow: 0 3px 0 color-mix(in srgb, var(--ok) 35%, transparent); }
+.gu-chip.si .gu-chip-m { border: 0; background: var(--ok); } .gu-chip.si .gu-chip-m::after { content: "✓"; color: #fff; font: 900 12px/1 var(--f-txt); }
+.gu-chip.espera { background: color-mix(in srgb, var(--gram) 11%, var(--tile-c)); border-color: color-mix(in srgb, var(--gram) 55%, transparent); color: color-mix(in srgb, var(--tinta) 45%, var(--gram)); box-shadow: 0 3px 0 color-mix(in srgb, var(--gram) 26%, transparent); }
+.gu-chip.espera .gu-chip-m { background: var(--gram); border: 0; } .gu-chip.espera .gu-chip-m::after { content: "◷"; color: #fff; font: 900 13px/1 var(--f-txt); }
+.gu-chip small { margin-left: 2px; padding: 2px 7px; border-radius: 99px; background: color-mix(in srgb, var(--gram) 16%, var(--tile-c)); font: 800 10.5px var(--f-txt); }
+.gu-vuela { position: fixed; z-index: 95; width: 30px; height: 40px; border-radius: 7px; pointer-events: none; background: var(--fibra), var(--tile-c); border: var(--borde-carta); box-shadow: 0 3px 0 var(--canto-c), 0 8px 12px -4px rgba(0, 0, 0, .35); overflow: hidden; }
+.gu-vuela::before { content: ""; position: absolute; inset: 0 0 auto; height: 7px; background: var(--gram); }
+
+/* en tus palabras */
+.gu-pals li { grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; }
+.gu-pal { justify-self: start; padding: 6px 13px; border-radius: 12px; background: var(--tile-c); box-shadow: inset 0 0 0 2px var(--linea), 0 3px 0 var(--linea); font: 900 22px/1.25 var(--f-txt); }
+.gu-conoces { align-self: start; padding: 4px 11px; border-radius: 99px; background: var(--linea); color: var(--tinta-2); font: 800 11px var(--f-txt); letter-spacing: .06em; white-space: nowrap; }
+.gu-pals li.conocida .gu-conoces { background: color-mix(in srgb, var(--ok) 15%, var(--tile-c)); color: color-mix(in srgb, var(--tinta) 45%, var(--ok)); box-shadow: inset 0 0 0 2px var(--ok); }
+
+/* ── la práctica: un ejercicio a la vez, como una carta ── */
+.gu-prac { position: relative; margin-top: 22px; padding: 26px 28px 28px; overflow: hidden; isolation: isolate; scroll-margin-top: 62px; }
+.gu-prac-cab { position: relative; z-index: 2; display: flex; flex-wrap: wrap; align-items: center; gap: 12px 18px; }
+.gu-prac h2 { display: flex; align-items: center; gap: 13px; margin: 0; font: var(--peso-tit) 25px/1.3 var(--f-tit); letter-spacing: var(--espacio-tit); }
+.gu-prac-sub { margin: 5px 0 0 53px; color: var(--tinta-2); font: 500 14px/1.4 var(--f-txt); }
+.gu-prac-sub .kbd { height: 22px; min-width: 22px; font-size: 11px; vertical-align: 1px; }
+.gu-prac-der { margin-left: auto; display: flex; align-items: center; gap: 10px; }
+.gu-prac-der .s-combo { margin: 0; align-self: center; }
+.gu-intento { padding: 7px 13px; border-radius: 99px; background: color-mix(in srgb, var(--oro) 20%, var(--tile-c)); color: color-mix(in srgb, var(--tinta) 45%, var(--oro)); font: 700 12px var(--f-txt); letter-spacing: .04em; box-shadow: inset 0 0 0 2px color-mix(in srgb, var(--oro) 40%, transparent); }
+.gu-barra { position: relative; z-index: 2; display: flex; align-items: center; gap: 14px; margin-top: 16px; padding: 11px 16px; border-radius: 16px; background: color-mix(in srgb, var(--tinta) 4%, var(--tile-c)); box-shadow: inset 0 0 0 2px var(--linea); }
+.gu-pips { flex: 1; display: flex; gap: 5px; }
+.gu-pip { flex: 1; height: 14px; border-radius: 99px; background: var(--linea); transform-origin: 50% 100%; transition: background-color .25s; }
+.gu-pip.ok { background: var(--ok); } .gu-pip.ko { background: var(--mal); }
+.gu-pip.aqui { background: color-mix(in srgb, var(--acento) 35%, var(--linea)); box-shadow: 0 0 0 3px color-mix(in srgb, var(--acento) 40%, transparent); }
+.gu-cuenta { min-width: 56px; text-align: right; font: 700 15px var(--f-num); color: var(--tinta-2); font-variant-numeric: tabular-nums; }
+.gu-cuenta b { font-size: 19px; color: var(--tinta); }
+.gu-escena { position: relative; z-index: 1; display: grid; justify-items: center; margin-top: 16px; padding: 40px 22px 28px 150px; min-height: 440px; border-radius: 22px; background: color-mix(in srgb, var(--tinta) 4%, transparent); box-shadow: inset 0 0 0 2px var(--linea); }
+.gu-hueco { position: relative; isolation: isolate; width: 100%; max-width: 680px; }
+.gu-hueco::before { content: ""; position: absolute; inset: 4% 6%; z-index: -1; border-radius: 60px; background: radial-gradient(closest-side, color-mix(in srgb, var(--acento) 60%, transparent), transparent); filter: blur(26px); opacity: 0; transition: opacity .8s; pointer-events: none; }
+.gu-prac[data-racha="2"] .gu-hueco::before { opacity: .3; } .gu-prac[data-racha="3"] .gu-hueco::before { opacity: .5; } .gu-prac[data-racha="4"] .gu-hueco::before { opacity: .7; }
+.gu-prac:is([data-racha="5"], [data-racha="6"]) .gu-hueco::before { opacity: .9; background: radial-gradient(closest-side, color-mix(in srgb, var(--oro) 70%, transparent), transparent); animation: aura 1.1s ease-in-out infinite alternate; }
+.gu-prac[data-racha="2"] .s-calor { opacity: .4; } .gu-prac[data-racha="3"] .s-calor { opacity: .6; } .gu-prac[data-racha="4"] .s-calor { opacity: .8; }
+.gu-prac:is([data-racha="5"], [data-racha="6"]) .s-calor { opacity: 1; animation: calor 1.4s ease-in-out infinite alternate; }
+.gu-prac:is([data-racha="3"], [data-racha="4"], [data-racha="5"], [data-racha="6"]) .s-ascuas { opacity: 1; }
+.gu-prac:is([data-racha="5"], [data-racha="6"]) .s-ascuas i { width: 8px; height: 8px; animation-duration: calc(var(--d) * .7); }
+.gu-prac .reaccion { left: 8px; bottom: 4px; z-index: 3; width: 128px; }
+.gu-prac .reaccion .dice { left: 6px; top: -46px; width: max-content; max-width: 150px; white-space: normal; text-align: center; font-size: 14.5px; line-height: 1.25; padding: 8px 12px; }
+.gu-fin:not([hidden]) ~ .reaccion { left: auto; right: 22px; bottom: 26px; }
+.gu-fin:not([hidden]) ~ .reaccion .dice { left: auto; right: 10px; border-radius: 18px 18px 4px 18px; }
+
+/* la carta de un ejercicio */
+.gu-ej.carta { width: 100%; text-align: left; --rk: var(--gram); }
+.gu-ej::before { background: var(--gram); }
+.gu-ej .c-arriba { padding: 24px 22px 0 70px; }
+.gu-modo { display: inline-flex; align-items: center; gap: 8px; font: 800 12.5px var(--f-txt); color: var(--tinta-2); }
+.gu-modo b { display: grid; place-items: center; width: 28px; height: 28px; border-radius: 9px; background: var(--gram); color: #fff; font: 900 14px var(--f-txt); rotate: -5deg; box-shadow: 0 3px 0 color-mix(in srgb, var(--gram) 55%, #000); }
+.gu-ej-cuerpo { display: grid; gap: 13px; padding: 12px 28px 28px; }
+.gu-enun { margin: 0; font: 800 11px var(--f-txt); letter-spacing: .14em; text-transform: uppercase; color: var(--tinta-2); }
+.gu-preg { margin: 0; font: 800 19px/1.5 var(--f-txt); text-wrap: pretty; }
+.gu-preg b { color: var(--acento); }
+.gu-nueva { margin-left: 10px; padding: 3px 10px; border-radius: 99px; background: color-mix(in srgb, var(--oro) 22%, var(--tile-c)); box-shadow: inset 0 0 0 1.5px color-mix(in srgb, var(--oro) 45%, transparent); color: color-mix(in srgb, var(--tinta) 45%, var(--oro)); font: 800 10.5px var(--f-txt); letter-spacing: .08em; text-transform: uppercase; vertical-align: 2px; white-space: nowrap; }
+.gu-frase { padding: 2px 0; text-align: center; font: 600 clamp(28px, 4.6vh, 38px)/1.95 var(--f-jp); letter-spacing: .02em; }
+.gu-frase.larga { font-size: clamp(23px, 3.8vh, 31px); } .gu-frase.muy-larga { font-size: clamp(19px, 3.1vh, 25px); }
+.gu-ops.opciones { width: 100%; margin-top: 2px; }
+.gu-ops .opcion { font-size: 18px; }
+.gu-busca-mal { justify-self: start; display: inline-flex; align-items: center; gap: 8px; margin: 0; padding: 6px 14px; border-radius: 12px; background: color-mix(in srgb, var(--mal) 12%, var(--tile-c)); box-shadow: inset 0 0 0 2px color-mix(in srgb, var(--mal) 45%, transparent); color: color-mix(in srgb, var(--tinta) 50%, var(--mal)); font: 700 13px var(--f-txt); }
+.gu-busca-mal b { color: var(--mal); } .gu-busca-mal u { text-decoration: none; font-weight: 900; }
+.gu .opcion.pillada, .gu .opcion.bien-dicha { opacity: 1 !important; color: var(--tinta); }
+.gu .opcion.pillada { background: color-mix(in srgb, var(--mal) 12%, var(--tile-c)); border-color: var(--mal); }
+.gu .opcion.pillada .o-txt { text-decoration: line-through wavy var(--mal) 2px; text-decoration-skip-ink: none; }
+.gu .opcion.bien-dicha { border-color: var(--ok); } .gu .opcion.elegida { border-color: var(--oro); }
+.gu-tag { position: absolute; left: 14px; top: -13px; z-index: 2; padding: 3px 10px; border-radius: 10px; font: 800 11px var(--f-txt); color: var(--tinta); white-space: nowrap; rotate: -2deg; }
+.gu-tag.mal { background: color-mix(in srgb, var(--mal) 24%, var(--tile-c)); box-shadow: inset 0 0 0 1.5px var(--mal); }
+.gu-tag.bien { background: color-mix(in srgb, var(--ok) 22%, var(--tile-c)); box-shadow: inset 0 0 0 1.5px var(--ok); }
+.gu-corregida { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; padding: 10px 14px; border-radius: 14px; background: var(--tile-c); box-shadow: inset 0 0 0 2px var(--linea); }
+.gu-corregida small { display: block; font: 800 10.5px var(--f-txt); letter-spacing: .12em; text-transform: uppercase; color: var(--tinta-2); }
+.gu-corregida .mal { font: 700 20px/1.8 var(--f-txt); color: color-mix(in srgb, var(--tinta) 55%, var(--mal)); text-decoration: line-through wavy var(--mal) 2px; text-decoration-skip-ink: none; }
+.gu-corregida .bien { font: 800 21px/1.8 var(--f-txt); color: color-mix(in srgb, var(--tinta) 50%, var(--ok)); }
+.gu-corregida i { font-style: normal; font-weight: 900; color: var(--tinta-2); }
+
+/* ordenar piezas */
+.gu-destino { display: flex; flex-wrap: wrap; align-content: flex-start; gap: 8px; min-height: 70px; padding: 8px; border: 3px dashed color-mix(in srgb, var(--acento) 45%, transparent); border-radius: 18px; background: var(--suave); transition: border-color .25s, background-color .25s; }
+.gu-destino:empty::before { content: "Toca las piezas en orden"; margin: auto; color: var(--tinta-2); font: 600 14px var(--f-txt); }
+.gu-destino.lleno { border-style: solid; }
+.gu-destino.bien { border-color: var(--ok); background: color-mix(in srgb, var(--ok) 10%, var(--tile-c)); } .gu-destino.mal { border-color: var(--mal); background: color-mix(in srgb, var(--mal) 9%, var(--tile-c)); }
+.gu-origen { display: flex; flex-wrap: wrap; gap: 9px; min-height: 58px; padding: 2px; }
+.gu-pieza { display: inline-flex; align-items: center; gap: 10px; min-height: 52px; padding: 6px 18px 6px 8px; border: 2px solid var(--linea); border-bottom-width: 5px; border-radius: 16px; background: var(--tile-c); color: var(--tinta); cursor: pointer; font: 800 19px/1.3 var(--f-txt);
+  transition: translate .16s var(--muelle), border-bottom-width .1s, background-color .2s; }
+:root[data-tema="pop"] .gu-pieza { border-color: #1a1033; }
+.gu-pieza .kbd { min-width: 28px; height: 28px; border-radius: 9px; background: var(--linea); font-size: 13px; }
+.gu-pieza:not(:disabled):hover { translate: 0 -3px; background: var(--suave); } .gu-pieza:not(:disabled):active { translate: 0 3px; border-bottom-width: 2px; }
+.gu-destino .gu-pieza { padding-left: 16px; } .gu-destino .gu-pieza .kbd { display: none; }
+.gu-pieza:disabled { cursor: default; }
+.gu-ayuda { margin: 0; text-align: center; font: 600 12.5px var(--f-txt); color: var(--tinta-2); }
+.gu-ayuda .kbd { height: 22px; min-width: 22px; font-size: 11px; }
+
+/* conjugar */
+.gu-conj-fila { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 8px 18px; padding: 2px 0; }
+.gu-conj-base { font: 900 clamp(34px, 5.4vh, 48px)/1.75 var(--f-txt); }
+.gu-conj-fila i { font: 900 28px var(--f-num); font-style: normal; color: var(--acento); }
+.gu-conj-forma { padding: 7px 18px; border-radius: 99px; background: var(--boton); color: var(--sobre); font: 800 16px var(--f-txt); box-shadow: 0 4px 0 var(--labio); }
+.gu-conj { display: none; }
+.gu-form.respuesta { width: min(520px, 100%); margin: 4px auto 0; }
+.gu-form.respuesta input { height: 64px; font-size: 24px; }
+.gu-form .enviar { top: 8px; }
+
+/* lo que pasa al responder */
+.gu-res { display: grid; gap: 11px; padding: 15px 18px 16px; border-radius: 18px; background: color-mix(in srgb, var(--ok) 11%, var(--tile-c)); box-shadow: inset 0 0 0 2.5px color-mix(in srgb, var(--ok) 55%, transparent); }
+.gu-res.ko { background: color-mix(in srgb, var(--mal) 9%, var(--tile-c)); box-shadow: inset 0 0 0 2.5px color-mix(in srgb, var(--mal) 50%, transparent); }
+.gu-res-txt { font: 500 15px/1.65 var(--f-txt); }
+.gu-res-txt > b { margin-right: 4px; font: 900 16px var(--f-txt); color: color-mix(in srgb, var(--tinta) 40%, var(--ok)); }
+.gu-res.ko .gu-res-txt > b { color: color-mix(in srgb, var(--tinta) 40%, var(--mal)); }
+.gu-res-txt b { color: var(--acento); }
+.gu-orden { margin: 0; font: 600 14.5px/1.6 var(--f-txt); color: var(--tinta-2); }
+.gu-orden b { font: 800 17px var(--f-txt); color: var(--tinta); }
+.gu-sig { justify-self: end; }
+.gu-ej .sello-c { top: -22px; right: -18px; }
+.gu-ej .sello-c.suave { color: var(--tinta-2); border-color: color-mix(in srgb, var(--tinta-2) 75%, transparent); box-shadow: inset 0 0 0 3px var(--tile-c), inset 0 0 0 6px color-mix(in srgb, var(--tinta-2) 55%, transparent); }
+
+/* el final: el hanko con la nota */
+.gu-fin { position: relative; z-index: 2; display: grid; grid-template-columns: auto minmax(0, 1fr); align-items: center; gap: 16px 34px; margin-top: 18px; padding: 30px 170px 30px 40px; border-radius: 22px; background: color-mix(in srgb, var(--tinta) 3%, var(--tile-c)); box-shadow: inset 0 0 0 2px var(--linea); }
+.gu-fin[hidden] { display: none; }
+.gu-hanko { position: relative; display: grid; place-items: center; width: 196px; height: 196px; border-radius: 50%; border: 9px solid var(--sello); color: var(--sello); rotate: -10deg; background: color-mix(in srgb, var(--tile-c) 92%, transparent);
+  box-shadow: inset 0 0 0 6px var(--tile-c), inset 0 0 0 11px var(--sello), 0 20px 30px -16px rgba(0, 0, 0, .45);
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='210' height='210'%3E%3Cfilter id='t'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='2' seed='3'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3.2 3.05'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23t)'/%3E%3C/svg%3E") center / cover;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='210' height='210'%3E%3Cfilter id='t'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='2' seed='3'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3.2 3.05'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23t)'/%3E%3C/svg%3E") center / cover; }
+.gu-hanko b { font: 400 120px/1 var(--f-tit); letter-spacing: 0; }
+:root[data-tema="washi"] .gu-hanko b, :root[data-tema="noche"] .gu-hanko b, :root[data-tema="pop"] .gu-hanko b, :root[data-tema="heisei"] .gu-hanko b { font-family: "Zen Maru Gothic", "Hiragino Maru Gothic ProN", sans-serif; font-weight: 900; }
+.gu-hanko.oro { color: #b8860b; border-color: #d9a93a; box-shadow: inset 0 0 0 6px var(--tile-c), inset 0 0 0 11px #d9a93a, 0 0 56px rgba(242, 190, 70, .6), 0 20px 30px -16px rgba(0, 0, 0, .45); }
+.gu-hanko.tenue { color: var(--tinta-2); border-color: var(--tinta-2); box-shadow: inset 0 0 0 6px var(--tile-c), inset 0 0 0 11px var(--tinta-2), 0 20px 30px -16px rgba(0, 0, 0, .35); }
+.gu-fin-c { min-width: 0; }
+.gu-fin h3 { margin: 0; font: var(--peso-tit) 36px/1.15 var(--f-tit); letter-spacing: var(--espacio-tit); text-wrap: balance; }
+.gu-fin h3 b { color: var(--acento); font-variant-numeric: tabular-nums; }
+.gu-logros { display: flex; flex-wrap: wrap; gap: 9px; margin: 14px 0 18px; }
+.gu-logro { padding: 7px 14px; border-radius: 99px; background: var(--tile-c); box-shadow: inset 0 0 0 2px var(--linea); font: 700 13.5px var(--f-txt); }
+.gu-logro.te { background: color-mix(in srgb, var(--ok) 14%, var(--tile-c)); color: color-mix(in srgb, var(--tinta) 45%, var(--ok)); box-shadow: inset 0 0 0 2px var(--ok); }
+.gu-logro.oro { background: color-mix(in srgb, var(--oro) 20%, var(--tile-c)); color: color-mix(in srgb, var(--tinta) 45%, var(--oro)); box-shadow: inset 0 0 0 2px var(--oro); font-variant-numeric: tabular-nums; }
+.gu-fin-acc { display: flex; flex-wrap: wrap; gap: 12px; }
+
+/* ← Anterior / Siguiente → */
+.gu-pie { display: flex; gap: 14px; margin-top: 22px; }
+.gu-pie > span { flex: 1; }
+.gu-pie-b { flex: 1; display: flex; align-items: center; gap: 14px; min-width: 0; padding: 14px 18px; border: var(--borde); border-radius: 18px; background: var(--tile); box-shadow: var(--sombra); color: var(--tinta); text-align: left; cursor: pointer; font: 800 15px/1.3 var(--f-txt); transition: translate .2s var(--muelle); }
+.gu-pie-b.sig { justify-content: flex-end; text-align: right; }
+.gu-pie-b:hover { translate: 0 -3px; } .gu-pie-b:active { translate: 0 2px; }
+.gu-pie-b small { display: block; font: 700 11px var(--f-txt); letter-spacing: .12em; text-transform: uppercase; color: var(--tinta-2); }
+
+/* el aviso de «¿Empezar de nuevo?» */
+.gu-velo { position: absolute; inset: 0; z-index: 30; display: grid; place-items: center; padding: 20px; background: color-mix(in srgb, var(--fondo) 62%, transparent); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); }
+.gu-confirma.carta { width: min(420px, 100%); padding: 42px 30px 26px; text-align: center; display: grid; justify-items: center; gap: 10px; }
+.gu-confirma h3 { margin: 0; font: var(--peso-tit) 26px/1.2 var(--f-tit); }
+.gu-confirma p { margin: 0 0 6px; color: var(--tinta-2); font: 500 15px/1.5 var(--f-txt); }
+.gu-conf-sello { display: grid; place-items: center; width: 84px; height: 84px; border: 5px solid var(--sello); border-radius: 50%; color: var(--sello); rotate: -10deg; font: 900 44px/1 var(--f-txt); box-shadow: inset 0 0 0 4px var(--tile-c), inset 0 0 0 7px var(--sello); }
+.gu-conf-acc { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin-top: 6px; }
+
+/* la hoja de tarjetas del móvil: sube desde abajo */
+.gu-velo.gu-abajo { align-items: end; padding: 0; }
+.gu-hoja-f.carta { width: 100%; max-height: 88%; overflow-y: auto; padding: 46px 18px 22px; text-align: left; border-radius: 28px 28px 0 0; }
+.gu-hoja-f .s-cerrar { position: absolute; right: 14px; top: 22px; width: 40px; height: 40px; }
+.gu-hoja-f h3 { margin: 0; font: var(--peso-tit) 22px/1.2 var(--f-tit); } .gu-hoja-f > p { margin: 6px 0 12px; color: var(--tinta-2); font: 500 14px/1.5 var(--f-txt); }
+.gu-hoja-f h4 { margin: 16px 0 -8px; font: 800 12px var(--f-txt); letter-spacing: .1em; text-transform: uppercase; color: var(--tinta-2); }
+.gu-hoja-f .gu-todas { width: 100%; justify-content: center; }
+.gu-hoja-f .gu-tarj { margin-top: 12px; }
+
+/* Heisei: lo que va suelto sobre el fondo oscuro, en claro */
+:root[data-tema="heisei"] .gu .p-tit h1 { color: #fff; text-shadow: 0 0 22px rgba(127, 243, 255, .45); }
+:root[data-tema="heisei"] .gu .p-tit small { color: #7ff3ff; }
+:root[data-tema="heisei"] .gu-teclas { color: rgba(222, 232, 255, .78); }
+:root[data-tema="heisei"] .gu-teclas .kbd { background: rgba(255, 255, 255, .16); }
+
+/* ── móvil: o el índice o la lección (el botón de arriba cambia de una a otra) ── */
+@media (max-width: 760px) {
+  .gu-arriba { padding: 10px 12px 0; gap: 10px; }
+  .gu-arriba .p-tit h1 { font-size: 22px; } .gu-arriba .p-tit small { font-size: 11px; }
+  .gu-chips { gap: 8px; } .gu-chips .s-xp { display: none; } .gu-hechas { padding: 5px 12px 5px 5px; } .gu-hechas .ic { width: 30px; height: 30px; } .gu-hechas small { display: none; }
+  .gu .gu-ver { display: inline-flex; height: 42px; padding: 0 12px; font-size: 0; gap: 0; } .gu .gu-ver .b-ic { font-size: 18px; }
+  .gu[data-vista="leccion"] .gu-fichas-btn { display: inline-flex; height: 42px; padding: 0 12px; font-size: 0; gap: 0; } .gu .gu-fichas-btn .b-ic { font: 900 18px/1 var(--f-txt); }
+  .gu-libro { display: block; position: relative; padding: 10px 12px 10px; }
+  .gu[data-vista="leccion"] .gu-indice, .gu[data-vista="indice"] .gu-pagina { display: none; }
+  .gu-indice, .gu-pagina { height: 100%; padding-right: 2px; }
+  .gu-pagina { padding-bottom: 30px; }
+  .gu-ficha.carta { margin-top: 22px; }
+  .gu-foto { height: 104px; } .gu-foto figcaption { left: 64px; bottom: 8px; }
+  .gu-peg { top: 70px; right: 12px; min-width: 82px; padding: 8px 12px 7px; } .gu-peg b { font-size: 25px; } .gu-peg span { font-size: 9.5px; }
+  .gu-ficha-c { padding: 12px 18px 22px; }
+  .gu-tit { font-size: 23px; padding-right: 84px; } .gu-resumen { font-size: 15px; padding-right: 0; }
+  .gu-stats { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; margin-top: 16px; }
+  .gu-stat { grid-template-columns: 1fr; justify-items: start; gap: 6px; padding: 10px 10px 11px; } .gu-stat-ic { width: 30px; height: 30px; font-size: 15px; } .gu-stat b { font-size: 15.5px; } .gu-stat em { display: none; } .gu-stat small { font-size: 9.5px; letter-spacing: .08em; }
+  .gu-cap-nom { display: none; }
+  .gu-acciones { gap: 9px; } .gu-acciones .b-tinta, .gu-acciones .b-claro { flex: 1 1 100%; justify-content: center; }
+  .gu-secs { padding: 12px 2px 10px; } .gu-sec-chip { height: 36px; max-width: 200px; }
+  .gu-sec { padding: 20px 16px 22px; margin-top: 14px; border-radius: 24px; } .gu-sec h2 { font-size: 21px; gap: 10px; } .gu-sec-n { width: 34px; height: 34px; font-size: 16px; } .gu-sub { margin-left: 44px; }
+  .gu-texto { font-size: 15.5px; } .gu-regla { padding: 14px 16px 14px 16px; } .gu-regla-sello { position: static; margin-bottom: 8px; width: 38px; height: 38px; font-size: 19px; } .gu-regla-md { font-size: 16px; }
+  .gu-ejs li { grid-template-columns: 26px minmax(0, 1fr); gap: 10px; padding: 10px 12px; } .gu-jp { font-size: 19px; }
+  .gu-pals li { grid-template-columns: minmax(0, 1fr); } .gu-pal { justify-self: start; } .gu-conoces { justify-self: start; }
+  .gu-linea { max-width: 100%; gap: 8px; } .gu-avatar { width: 44px; height: 44px; } .gu-burbuja { padding: 8px 14px 10px; } .gu-burbuja .gu-jp { font-size: 18px; }
+  .gu-dialogo { padding: 14px 10px 6px; }
+  .gu-tarj { padding: 14px; } .gu .gu-tarj-btn { width: 100%; justify-content: center; }
+  .gu-prac { padding: 20px 14px 18px; } .gu-prac-sub { margin-left: 0; } .gu-prac-der { margin-left: 0; width: 100%; justify-content: space-between; }
+  .gu-escena { padding: 30px 8px 18px; min-height: 0; }
+  .gu-ej .c-arriba { padding: 22px 14px 0 62px; } .gu-modo { font-size: 0; gap: 0; } .gu-ej-cuerpo { padding: 8px 14px 18px; }
+  .gu-preg { font-size: 17px; } .gu-ops.opciones { grid-template-columns: 1fr; gap: 8px; } .gu-ops .opcion { min-height: 54px; font-size: 17px; }
+  .gu-frase { font-size: 27px; } .gu-frase.larga { font-size: 23px; } .gu-frase.muy-larga { font-size: 19px; }
+  .gu-sig { justify-self: stretch; justify-content: center; }
+  .gu-prac .reaccion { display: none; }
+  .gu-fin { grid-template-columns: 1fr; justify-items: center; text-align: center; padding: 24px 16px 22px; } .gu-hanko { width: 160px; height: 160px; } .gu-hanko b { font-size: 94px; } .gu-fin h3 { font-size: 27px; } .gu-logros, .gu-fin-acc { justify-content: center; }
+  .gu-fin-acc .b-tinta, .gu-fin-acc .b-claro { flex: 1 1 100%; justify-content: center; }
+  .gu-pie { flex-direction: column; }
+}
+@media (max-width: 1100px) and (min-width: 761px) { .gu-libro { grid-template-columns: 260px minmax(0, 1fr); gap: 16px; padding-inline: 18px; } .gu-arriba { padding-inline: 18px; } .gu-escena { padding-left: 120px; } .gu-prac .reaccion { width: 104px; } }
+@media (max-height: 760px) and (min-width: 761px) { .gu-escena { min-height: 400px; padding-top: 34px; } .gu-foto { height: 108px; } .gu-peg { top: 74px; } .gu-ficha.carta { margin-top: 22px; } .gu-ej-cuerpo { gap: 10px; padding-bottom: 22px; } }
+@media (prefers-reduced-motion: reduce) { .gu-cap-lista, .gu-i, .gu-chip, .gu-sec-chip, .gu-pieza, .gu-pip { transition: none; } }

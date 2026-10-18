@@ -1,0 +1,836 @@
+{
+ "id": "c39",
+ "clase": 25,
+ "desde": 338,
+ "titulo": {
+  "es": "¡Despierta, Nyan!: las órdenes y 〜な",
+  "en": "Wake up, Nyan!: orders and 〜な"
+ },
+ "resumen": {
+  "es": "La orden directa (寝ろ, 起きろ, 行け, 来い, しろ) es fuerte: solo entre amigos muy cercanos, con animales o en carteles. 〜な después del verbo prohíbe: «¡no…!».",
+  "en": "The direct command (寝ろ, 起きろ, 行け, 来い, しろ) is strong: only between very close friends, with animals, or on signs. 〜な after the verb forbids: «don't…!»."
+ },
+ "formato": 2,
+ "lugar": "salon",
+ "registro": true,
+ "mision": {
+  "texto": {
+   "es": "¡Es tarde! Nyan no se despierta y el autobús sale en diez minutos. Kage se encarga de despertarlo… a su manera. Aprende las órdenes directas: fuertes, rápidas y solo para quien tienes mucha confianza (o para las señales de la calle).",
+   "en": "It's late! Nyan won't wake up and the bus leaves in ten minutes. Kage takes care of waking him… his way. Learn direct orders: strong, quick, and only for people you're very close to (or for street signs)."
+  },
+  "escena": {
+   "fondo": "salon",
+   "cosas": [
+    {
+     "que": "nyan",
+     "x": 110,
+     "cara": "sueno"
+    },
+    {
+     "que": "manpu",
+     "tipo": "z",
+     "x": 150,
+     "y": 118
+    },
+    {
+     "que": "kage",
+     "id": "kage",
+     "x": 300
+    }
+   ]
+  },
+  "cara": "sueno",
+  "jp": "Zzz…",
+  "voz": "m0"
+ },
+ "reglas": [
+  {
+   "id": "meirei",
+   "nombre": {
+    "es": "La orden directa: 〜ろ／〜え",
+    "en": "The direct order: 〜ろ／〜え"
+   },
+   "patron": {
+    "es": "verbo en る: る → ろ ・ verbo en u: u → e",
+    "en": "る verb: る → ろ ・ u verb: u → e"
+   },
+   "explica": {
+    "es": "La orden a secas, sin ください, es la forma más fuerte de pedir algo: 起きろ, «¡levántate!»; 走れ, «¡corre!». Los verbos en る cambian る por ろ (起きる → 起きろ); los demás cambian la u final por e (走る → 走れ, 行く → 行け, 待つ → 待て). Los rebeldes: する → しろ, 来る → こい. Suena brusca porque no deja opción: se oye entre amigos de mucha confianza (sobre todo chicos), a entrenadores, en el manga y el anime… y en las señales de tráfico.",
+    "en": "The bare order, without ください, is the strongest way to ask for something: 起きろ, «get up!»; 走れ, «run!». る verbs swap る for ろ (起きる → 起きろ); the rest change their final u to e (走る → 走れ, 行く → 行け, 待つ → 待て). The rebels: する → しろ, 来る → こい. It sounds harsh because it leaves no choice: you'll hear it between very close friends (mostly boys), from coaches, in manga and anime… and on road signs."
+   },
+   "ejemplos": [
+    {
+     "jp": "起[お]きろ！",
+     "es": "¡Levántate!",
+     "en": "Get up!",
+     "voz": "r1-1"
+    },
+    {
+     "jp": "走[はし]れ！",
+     "es": "¡Corre!",
+     "en": "Run!",
+     "voz": "r1-2"
+    }
+   ],
+   "ojo": {
+    "es": "Con la profe, con desconocidos o con gente mayor no la uses a secas, porque sonaría a pelea: てください pide lo mismo con respeto (起きてください).",
+    "en": "Don't use it bare with teachers, strangers or older people, because it would sound like picking a fight: てください asks the same with respect (起きてください)."
+   }
+  },
+  {
+   "id": "na_kinshi",
+   "nombre": {
+    "es": "〜な: ¡no…!",
+    "en": "〜な: don't…!"
+   },
+   "patron": {
+    "es": "〔forma de diccionario〕な",
+    "en": "〔dictionary form〕な"
+   },
+   "explica": {
+    "es": "Pon な detrás de la forma de diccionario y tienes una prohibición directa: 走るな, «¡no corras!»; 入るな, «¡no entres!». Es tan fuerte como la orden: vale para avisar de un peligro, entre amigos muy cercanos o en carteles. Fíjate en que va detrás de la forma de diccionario, no de la orden: 走るな, no 走れな.",
+    "en": "Put な after the dictionary form and you have a direct prohibition: 走るな, «don't run!»; 入るな, «don't go in!». It's as strong as the order: fine for warning of danger, between very close friends or on signs. Note it follows the dictionary form, not the order: 走るな, not 走れな."
+   },
+   "ejemplos": [
+    {
+     "jp": "走[はし]るな！",
+     "es": "¡No corras!",
+     "en": "Don't run!",
+     "voz": "r2-1"
+    },
+    {
+     "jp": "ここに 入[はい]るな。",
+     "es": "No entres aquí.",
+     "en": "Don't come in here.",
+     "voz": "r2-2"
+    }
+   ],
+   "ojo": {
+    "es": "La versión amable es ないでください: 走らないでください, «no corras, por favor». Es la que se usa con cualquiera que no sea de mucha confianza.",
+    "en": "The kind version is ないでください: 走らないでください, «please don't run». That's what you use with anyone you're not very close to."
+   }
+  }
+ ],
+ "historia": [
+  {
+   "t": "dice",
+   "habla": "kage",
+   "jp": "起[お]きろ！",
+   "tr": {
+    "es": "¡Levántate!",
+    "en": "Get up!"
+   },
+   "voz": "h1",
+   "cara": "decidido",
+   "escena": {
+    "fondo": "salon",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "sueno"
+     },
+     {
+      "que": "manpu",
+      "tipo": "z",
+      "x": 150,
+      "y": 118
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 300
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "あと 五分[ごふん]…",
+   "tr": {
+    "es": "Cinco minutitos más…",
+    "en": "Five more minutes…"
+   },
+   "voz": "h2",
+   "cara": "sueno",
+   "escena": {
+    "fondo": "salon",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "sueno"
+     },
+     {
+      "que": "manpu",
+      "tipo": "z",
+      "x": 150,
+      "y": 118
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 300
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "meirei"
+  },
+  {
+   "t": "elige",
+   "habla": "kage",
+   "pide": {
+    "es": "Kage insiste, más fuerte: «¡Levántate ya!». ¿Qué grita?",
+    "en": "Kage insists, louder: «Get up now!». What does he shout?"
+   },
+   "opciones": [
+    {
+     "jp": "早[はや]く 起[お]きろ！",
+     "bien": true,
+     "tr": {
+      "es": "¡Levántate ya!",
+      "en": "Get up already!"
+     },
+     "voz": "h3",
+     "porque": {
+      "es": "起きる es en る: る → ろ. Una orden directa, solo para amigos de mucha confianza.",
+      "en": "起きる is a る verb: る → ろ. A direct order, only for very close friends."
+     }
+    },
+    {
+     "jp": "早[はや]く 起[お]きれ！",
+     "bien": false,
+     "porque": {
+      "es": "Los verbos en る hacen la orden con ろ: 起きろ. La e es para los verbos en u: 行け, 走れ.",
+      "en": "る verbs make the order with ろ: 起きろ. The e is for u verbs: 行け, 走れ."
+     }
+    },
+    {
+     "jp": "早[はや]く 起[お]きるな！",
+     "bien": false,
+     "porque": {
+      "es": "な detrás de la forma de diccionario PROHÍBE: 起きるな, «¡no te levantes!». Justo lo contrario de lo que quiere Kage.",
+      "en": "な after the dictionary form FORBIDS: 起きるな, «don't get up!». The exact opposite of what Kage wants."
+     }
+    }
+   ],
+   "cara": "pensando",
+   "escena": {
+    "fondo": "salon",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "sueno"
+     },
+     {
+      "que": "manpu",
+      "tipo": "z",
+      "x": 150,
+      "y": 118
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 300
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "カゲ、 それは ちょっと 失礼[しつれい]ですよ。",
+   "tr": {
+    "es": "Kage, eso es un poco maleducado.",
+    "en": "Kage, that's a bit rude."
+   },
+   "voz": "h4",
+   "cara": "pensando",
+   "reacciona": {
+    "kage": "aburrido"
+   },
+   "escena": {
+    "fondo": "salon",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 90
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 210
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 320
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "sensei",
+   "jp": "みなさん、 バスが 来[き]ますよ！",
+   "tr": {
+    "es": "¡Chicos, que llega el autobús!",
+    "en": "Everyone, the bus is coming!"
+   },
+   "voz": "h5",
+   "reacciona": {
+    "nyan": "sorpresa"
+   },
+   "escena": {
+    "fondo": "salon",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 190
+     },
+     {
+      "que": "sensei",
+      "id": "sensei",
+      "x": 330
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "kotaro",
+   "jp": "走[はし]れ！ 走[はし]れ！",
+   "tr": {
+    "es": "¡Corred, corred!",
+    "en": "Run! Run!"
+   },
+   "voz": "h6",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "camino",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "perro",
+      "id": "kotaro",
+      "x": 300
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "na_kinshi"
+  },
+  {
+   "t": "toca",
+   "pide": {
+    "es": "Hay señales junto al camino. Escucha a Fukuro y toca la que dice «¡para!».",
+    "en": "There are signs by the path. Listen to Fukuro and tap the one saying «stop!»."
+   },
+   "bien": "tomare",
+   "quien": "sensei",
+   "escena": {
+    "fondo": "camino",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 65
+     },
+     {
+      "que": "tomare",
+      "x": 170,
+      "id": "tomare",
+      "s": 1.0
+     },
+     {
+      "que": "mapa",
+      "x": 232,
+      "id": "mapa",
+      "s": 1.0
+     },
+     {
+      "que": "paraguas",
+      "x": 285,
+      "id": "paraguas",
+      "s": 0.9
+     },
+     {
+      "que": "sensei",
+      "id": "sensei",
+      "x": 350
+     }
+    ]
+   },
+   "jp": "あれは 「止[と]まれ」 です。",
+   "voz": "h7",
+   "bien_msg": {
+    "es": "¡Eso! 止まれ es «¡para!»: la orden directa, en las señales de tráfico.",
+    "en": "Right! 止まれ is «stop!»: the direct order, on road signs."
+   },
+   "mal_msg": {
+    "es": "La señal de 止まれ es el triángulo rojo al revés.",
+    "en": "The 止まれ sign is the upside-down red triangle."
+   }
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "Kotarō sale disparado hacia la carretera. ¡Grítale que NO corra!",
+    "en": "Kotarō dashes toward the road. Shout at him NOT to run!"
+   },
+   "opciones": [
+    {
+     "jp": "走[はし]るな！",
+     "bien": true,
+     "tr": {
+      "es": "¡No corras!",
+      "en": "Don't run!"
+     },
+     "voz": "h8",
+     "porque": {
+      "es": "Forma de diccionario + な: una prohibición directa y urgente.",
+      "en": "Dictionary form + な: a direct, urgent prohibition."
+     }
+    },
+    {
+     "jp": "走[はし]れな！",
+     "bien": false,
+     "porque": {
+      "es": "な va detrás de la forma de diccionario (走る), no de la orden: 走るな.",
+      "en": "な goes after the dictionary form (走る), not the order: 走るな."
+     }
+    },
+    {
+     "jp": "走[はし]ろう！",
+     "bien": false,
+     "porque": {
+      "es": "走ろう es «¡corramos!»: le animas a correr todavía más.",
+      "en": "走ろう is «let's run!»: you're egging him on."
+     }
+    }
+   ],
+   "cara": "sorpresa",
+   "escena": {
+    "fondo": "camino",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "tomare",
+      "x": 200,
+      "s": 1.0
+     },
+     {
+      "que": "perro",
+      "id": "kotaro",
+      "x": 310
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "kotaro",
+   "jp": "…はい。",
+   "tr": {
+    "es": "…Vale.",
+    "en": "…OK."
+   },
+   "voz": "h9",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "camino",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "tomare",
+      "x": 200,
+      "s": 1.0
+     },
+     {
+      "que": "perro",
+      "id": "kotaro",
+      "x": 310
+     }
+    ]
+   }
+  },
+  {
+   "t": "monta",
+   "encargo": 0
+  }
+ ],
+ "epilogo": [
+  {
+   "t": "dice",
+   "habla": "sensei",
+   "jp": "間[ま]に 合[あ]いましたね。",
+   "tr": {
+    "es": "Hemos llegado a tiempo.",
+    "en": "We made it in time."
+   },
+   "voz": "x1",
+   "escena": {
+    "fondo": "camino",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 210
+     },
+     {
+      "que": "sensei",
+      "id": "sensei",
+      "x": 330
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "kage",
+   "jp": "…ふん。 俺[おれ]の おかげだ。",
+   "tr": {
+    "es": "…Hmpf. Gracias a mí.",
+    "en": "…Hmph. Thanks to me."
+   },
+   "voz": "x2",
+   "cara": "presumido"
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta la frase: la escena hará lo que digas.",
+   "en": "Build the sentence: the scene will do what you say."
+  },
+  "piezas": [
+   {
+    "id": "hayaku",
+    "jp": "早[はや]く",
+    "tipo": "palabra"
+   },
+   {
+    "id": "hashire",
+    "jp": "走[はし]れ",
+    "tipo": "verbo"
+   },
+   {
+    "id": "hashiro",
+    "jp": "走[はし]ろ",
+    "tipo": "verbo"
+   },
+   {
+    "id": "hashiruna",
+    "jp": "走[はし]るな",
+    "tipo": "verbo"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "¡El autobús ya se ve! Nyan, espabilado por fin, grita a todos: «¡Corred, rápido!»",
+     "en": "The bus is in sight! Nyan, finally awake, shouts to everyone: «Run, quick!»"
+    },
+    "escena": {
+     "fondo": "camino",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 80
+      },
+      {
+       "que": "gato",
+       "id": "tama",
+       "x": 200
+      },
+      {
+       "que": "perro",
+       "id": "kotaro",
+       "x": 310
+      }
+     ]
+    },
+    "piezas": [
+     "hayaku",
+     "hashire",
+     "hashiro",
+     "hashiruna"
+    ],
+    "bien": [
+     [
+      "hayaku",
+      "hashire"
+     ]
+    ],
+    "tr": {
+     "es": "¡Corred, rápido!",
+     "en": "Run, quick!"
+    },
+    "efecto_bien": [
+     {
+      "tipo": "texto",
+      "texto": "ダッシュ！",
+      "x": 250,
+      "y": 90
+     },
+     {
+      "tipo": "salta",
+      "objeto": "tama"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "hashiruna"
+       ]
+      },
+      "efecto": {
+       "tipo": "manpu",
+       "objeto": "tama",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "¡Les has dicho que NO corran! 走るな prohíbe. Para la orden, 走れ.",
+       "en": "You told them NOT to run! 走るな forbids. For the order, 走れ."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "hashiro"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "走る es un verbo en u, aunque acabe en る: su orden es 走れ, con e. ろ es para los verbos en る como 起きる.",
+       "en": "走る is a u verb, though it ends in る: its order is 走れ, with e. ろ is for る verbs like 起きる."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "reto": {
+  "intro": {
+   "jp": "ふん。 まだ 寝[ね]ぼけて いるな？ かかって こい！",
+   "tr": {
+    "es": "Hmpf. ¿Sigues medio dormido? ¡Ven a por mí!",
+    "en": "Hmph. Still half asleep? Come at me!"
+   },
+   "voz": "k0"
+  },
+  "gana": {
+   "jp": "…くっ。 起[お]きたら 強[つよ]いな。",
+   "tr": {
+    "es": "…Tsk. Despierto eres fuerte.",
+    "en": "…Tch. Awake, you're strong."
+   },
+   "voz": "kw"
+  },
+  "pierde": {
+   "jp": "ふん。 顔[かお]を 洗[あら]って 出直[でなお]せ！",
+   "tr": {
+    "es": "Hmpf. ¡Lávate la cara y vuelve!",
+    "en": "Hmph. Wash your face and come back!"
+   },
+   "voz": "kl"
+  },
+  "pica": {
+   "jp": "…やるな。",
+   "tr": {
+    "es": "…No está mal.",
+    "en": "…Not bad."
+   },
+   "voz": "kp"
+  },
+  "burla": {
+   "jp": "ふん！",
+   "tr": {
+    "es": "¡Ja!",
+    "en": "Hah!"
+   },
+   "voz": "kb"
+  },
+  "preguntas": [
+   {
+    "tipo": "elige",
+    "jp": "早[はや]く 寝[ね]＿！",
+    "opciones": [
+     "ろ",
+     "れ",
+     "り"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "¡A dormir ya!",
+     "en": "Go to sleep already!"
+    },
+    "porque": {
+     "es": "寝る es en る: 寝ろ.",
+     "en": "寝る is a る verb: 寝ろ."
+    },
+    "voz": "q1"
+   },
+   {
+    "tipo": "elige",
+    "jp": "ここで たばこを 吸[す]う＿。",
+    "opciones": [
+     "な",
+     "ろ",
+     "れ"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "¡Aquí no se fuma!",
+     "en": "No smoking here!"
+    },
+    "porque": {
+     "es": "Forma de diccionario + な: prohibición.",
+     "en": "Dictionary form + な: prohibition."
+    },
+    "voz": "q2"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "止[と]まれ！",
+    "correcta": true,
+    "tr": {
+     "es": "¡Para!",
+     "en": "Stop!"
+    },
+    "porque": {
+     "es": "Bien: 止まる (verbo en u) → 止まれ.",
+     "en": "Right: 止まる (u verb) → 止まれ."
+    },
+    "voz": "q3"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "行[い]けな！",
+    "correcta": false,
+    "tr": {
+     "es": "(¡No vayas!)",
+     "en": "(Don't go!)"
+    },
+    "porque": {
+     "es": "な va detrás de la forma de diccionario: 行くな.",
+     "en": "な goes after the dictionary form: 行くな."
+    },
+    "voz": "q4"
+   },
+   {
+    "tipo": "oye",
+    "jp": "ここに 入[はい]るな。",
+    "habla": "kage",
+    "opciones": [
+     {
+      "es": "No entres aquí.",
+      "en": "Don't come in here."
+     },
+     {
+      "es": "Entra aquí.",
+      "en": "Come in here."
+     },
+     {
+      "es": "¿Entramos aquí?",
+      "en": "Shall we go in here?"
+     }
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "入る + な: prohibición directa.",
+     "en": "入る + な: a direct prohibition."
+    },
+    "voz": "q5"
+   },
+   {
+    "tipo": "imagen",
+    "jp": "この 赤[あか]い 看板[かんばん]は 「止[と]まれ」です。",
+    "opciones": [
+     "tomare",
+     "mapa",
+     "linterna"
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "止まれ: la señal roja de STOP japonesa.",
+     "en": "止まれ: Japan's red STOP sign."
+    },
+    "pide": {
+     "es": "¿Qué señal es?",
+     "en": "Which sign is it?"
+    }
+   }
+  ]
+ },
+ "siguiente": {
+  "es": "Tarde libre en un bosque de otoño precioso… pero hay cosas que HAY que hacer. Y Kage dice que conoce un atajo.",
+  "en": "A free afternoon in a gorgeous autumn forest… but there are things you HAVE to do. And Kage says he knows a shortcut."
+ },
+ "chuleta": {
+  "patron": {
+   "es": "〔る → ろ／u → e〕 ・ 〔diccionario〕な",
+   "en": "〔る → ろ／u → e〕 ・ 〔dictionary〕な"
+  },
+  "patron_tr": {
+   "es": "¡haz! ・ ¡no hagas!",
+   "en": "do it! ・ don't!"
+  },
+  "filas": [
+   {
+    "jp": "起[お]きて ください。",
+    "es": "Levántate, por favor. (educado)",
+    "en": "Please get up. (polite)",
+    "registro": "educado"
+   },
+   {
+    "jp": "早[はや]く 起[お]きろ！",
+    "es": "¡Levántate ya! (mucha confianza)",
+    "en": "Get up already! (very close)",
+    "registro": "amigos"
+   },
+   {
+    "jp": "止[と]まれ",
+    "es": "PARE (señal de tráfico)",
+    "en": "STOP (road sign)"
+   }
+  ],
+  "consejo": {
+   "es": "En Japón, la señal de STOP es un triángulo rojo al revés con 止まれ, no un octógono. Es de las primeras órdenes que aprenderás a leer.",
+   "en": "In Japan the STOP sign is an upside-down red triangle reading 止まれ, not an octagon. It's one of the first orders you'll learn to read."
+  }
+ }
+}

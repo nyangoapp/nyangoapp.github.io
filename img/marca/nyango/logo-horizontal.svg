@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 280" width="880" height="280" role="img" aria-label="Nyango · ニャン語">
+<title>Nyango · ニャン語</title>
+<style>@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=Mochiy+Pop+One&display=block');</style>
+<g transform="translate(6 10)"><g class="cara">
+  <defs>
+    <clipPath id="h-cab"><path d="M46 94 C72 84 184 84 210 94 C230 102 238 146 236 176 C233 214 190 230 128 230 C66 230 23 214 20 176 C18 146 26 102 46 94 Z"/></clipPath>
+    <clipPath id="h-od"><path d="M232 150 C230 108 216 64 198 36 C194 29 186 28 181 33 C161 54 144 74 128 98 Z"/></clipPath>
+    <radialGradient id="h-vol" cx=".42" cy=".3" r=".8"><stop offset=".55" stop-color="#7a4a1c" stop-opacity="0"/><stop offset="1" stop-color="#7a4a1c" stop-opacity=".2"/></radialGradient>
+  </defs>
+  <g transform="translate(0 7)" fill="#d9c29a" stroke="#d9c29a" stroke-width="34" stroke-linejoin="round"><path d="M24 150 C26 108 40 64 58 36 C62 29 70 28 75 33 C95 54 112 74 128 98 Z"/><path d="M232 150 C230 108 216 64 198 36 C194 29 186 28 181 33 C161 54 144 74 128 98 Z"/><path d="M46 94 C72 84 184 84 210 94 C230 102 238 146 236 176 C233 214 190 230 128 230 C66 230 23 214 20 176 C18 146 26 102 46 94 Z"/></g>
+  <g fill="#fff7e8" stroke="#fff7e8" stroke-width="34" stroke-linejoin="round"><path d="M24 150 C26 108 40 64 58 36 C62 29 70 28 75 33 C95 54 112 74 128 98 Z"/><path d="M232 150 C230 108 216 64 198 36 C194 29 186 28 181 33 C161 54 144 74 128 98 Z"/><path d="M46 94 C72 84 184 84 210 94 C230 102 238 146 236 176 C233 214 190 230 128 230 C66 230 23 214 20 176 C18 146 26 102 46 94 Z"/></g>
+  <g fill="#231811" stroke="#231811" stroke-width="10" stroke-linejoin="round"><path d="M24 150 C26 108 40 64 58 36 C62 29 70 28 75 33 C95 54 112 74 128 98 Z"/><path d="M232 150 C230 108 216 64 198 36 C194 29 186 28 181 33 C161 54 144 74 128 98 Z"/><path d="M46 94 C72 84 184 84 210 94 C230 102 238 146 236 176 C233 214 190 230 128 230 C66 230 23 214 20 176 C18 146 26 102 46 94 Z"/></g>
+  <path d="M24 150 C26 108 40 64 58 36 C62 29 70 28 75 33 C95 54 112 74 128 98 Z" fill="#f39a3a"/><path d="M44 118 C47 94 55 70 64 56 C78 71 92 86 104 102 C86 106 62 111 44 118 Z" fill="#f7c79a"/>
+  <path d="M232 150 C230 108 216 64 198 36 C194 29 186 28 181 33 C161 54 144 74 128 98 Z" fill="#fffaf2"/><path d="M212 118 C209 94 201 70 192 56 C178 71 164 86 152 102 C170 106 194 111 212 118 Z" fill="#fcd6a6"/>
+  <path d="M46 94 C72 84 184 84 210 94 C230 102 238 146 236 176 C233 214 190 230 128 230 C66 230 23 214 20 176 C18 146 26 102 46 94 Z" fill="#fffaf2"/>
+  <g clip-path="url(#h-cab)"><path d="M46 94 C72 84 184 84 210 94 C230 102 238 146 236 176 C233 214 190 230 128 230 C66 230 23 214 20 176 C18 146 26 102 46 94 Z" fill="url(#h-vol)"/></g>
+  <path d="M58 110 C72 92 94 82 116 79" fill="none" stroke="#fff" stroke-opacity=".75" stroke-width="7" stroke-linecap="round"/>
+  <ellipse cx="92" cy="150" rx="12.5" ry="16.5" fill="#231811"/><ellipse cx="164" cy="150" rx="12.5" ry="16.5" fill="#231811"/>
+  <circle cx="87.5" cy="143" r="5.5" fill="#fff"/><circle cx="159.5" cy="143" r="5.5" fill="#fff"/>
+  <circle cx="96.5" cy="158" r="2.4" fill="#fff"/><circle cx="168.5" cy="158" r="2.4" fill="#fff"/>
+  <ellipse cx="60" cy="178" rx="18" ry="10.5" fill="#f59a9a"/><ellipse cx="196" cy="178" rx="18" ry="10.5" fill="#f59a9a"/>
+  <g stroke="#fff" stroke-opacity=".85" stroke-width="3" stroke-linecap="round"><path d="M53 173 l-4 8 M61 173 l-4 8 M69 173 l-4 8 M189 173 l-4 8 M197 173 l-4 8 M205 173 l-4 8"/></g>
+  <path d="M113 171 Q120.5 183 128 172 Q135.5 183 143 171" fill="none" stroke="#231811" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g></g>
+<text x="272" y="196" font-family="'Mochiy Pop One', 'Zen Maru Gothic', sans-serif" font-size="132" text-anchor="start" stroke-linejoin="round" paint-order="stroke fill" transform="translate(0 9.24)" fill="#5b3818" stroke="#5b3818" stroke-width="26.400000000000002">Nyango</text>
+<text x="272" y="196" font-family="'Mochiy Pop One', 'Zen Maru Gothic', sans-serif" font-size="132" text-anchor="start" stroke-linejoin="round" paint-order="stroke fill" fill="#f2661b" stroke="#fff7e8" stroke-width="26.400000000000002">Nyango</text>
+<g transform="translate(760 58) rotate(7)">
+  <rect x="-70.5" y="-19.200000000000003" width="141" height="46.800000000000004" rx="15" fill="#b8470f"/>
+  <rect x="-70.5" y="-23.400000000000002" width="141" height="46.800000000000004" rx="15" fill="#f2661b" stroke="#fff7e8" stroke-width="6"/>
+  <text x="0" y="10.799999999999999" text-anchor="middle" font-family="'Mochiy Pop One', sans-serif" font-size="30" fill="#fff7e8">ニャン語</text>
+</g>
+</svg>

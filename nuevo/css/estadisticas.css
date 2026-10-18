@@ -1,0 +1,205 @@
+/* Tu japonés (pantalla del rediseño): un mosaico como el de «Hoy», con los números de siempre y mucho que tocar.
+   Todo con los tokens del tema; solo el oro de los hitos y el blanco de los brillos son fijos. */
+.es-raiz { position: relative; height: 100%; display: flex; flex-direction: column; min-height: 0; }
+.es-raiz .p-arriba { flex: none; width: 100%; }
+.es-raiz .es-cuerpo { flex: 1; min-height: 0; width: 100%; display: flex; padding-top: 14px; padding-bottom: 18px; }
+.es-rejilla { flex: 1; min-width: 0; display: grid; gap: 14px; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); grid-template-rows: minmax(min-content, 1fr) auto; }
+.es-col { display: flex; flex-direction: column; gap: 14px; min-width: 0; }
+.es-izq > .es-racha { flex: 1.25 1 auto; } .es-izq > .es-par { flex: .6 1 auto; } .es-izq > .es-semana { flex: 1 1 auto; }
+.es-der > .es-paso { flex: 1.7 1 auto; } .es-der > .es-fila { flex: 1 1 auto; }
+.es-par { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.es-fila { display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 4fr); gap: 14px; }
+.es-anillos { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; }
+.es-t { display: flex; flex-direction: column; gap: 6px; min-height: min-content; }
+.es-t > h2 { flex: none; }
+.es-num { font-family: var(--f-num); font-weight: 700; font-variant-numeric: tabular-nums; }
+.es-t [lang="ja"] { font-family: var(--f-txt); }
+
+/* ── la racha: la llama, el número, el hito y la tira de siete días ── */
+.es-racha { gap: 6px; }
+.es-r-cab { display: flex; align-items: center; gap: 12px; flex: 1 0 auto; }
+.es-llama { position: relative; flex: none; width: 76px; height: 76px; border: 0; padding: 0; background: none; cursor: pointer; }
+.es-llama:focus-visible { outline: 3px solid var(--acento); outline-offset: 4px; border-radius: 50%; }
+.es-llama-ic { position: absolute; inset: 0; display: block; transform-origin: 50% 90%; animation: es-arde 1.5s ease-in-out infinite alternate; filter: drop-shadow(0 6px 9px color-mix(in srgb, var(--acento) 38%, transparent)); }
+.es-llama::before { content: ""; position: absolute; inset: -14px; border-radius: 50%; background: radial-gradient(closest-side, color-mix(in srgb, var(--oro) 70%, transparent), transparent); opacity: 0; pointer-events: none; }
+.es-racha:is([data-tramo="2"], [data-tramo="3"], [data-tramo="4"], [data-tramo="5"], [data-tramo="6"]) .es-llama::before { opacity: .35; animation: es-halo 1.6s ease-in-out infinite alternate; }
+.es-racha:is([data-tramo="4"], [data-tramo="5"], [data-tramo="6"]) .es-llama::before { opacity: .6; }
+@keyframes es-arde { to { transform: scale(1.09) rotate(-4deg); } }
+@keyframes es-halo { to { transform: scale(1.12); opacity: .7; } }
+.es-brasa { position: absolute; left: calc(var(--x, 50) * 1%); bottom: 30%; width: 5px; height: 5px; border-radius: 50%; background: var(--oro); box-shadow: 0 0 7px 2px color-mix(in srgb, var(--acento) 70%, transparent); opacity: 0; display: none; pointer-events: none;
+  animation: es-ascua var(--d, 3.4s) linear infinite; animation-delay: var(--r, 0s); }
+.es-racha:is([data-tramo="3"], [data-tramo="4"], [data-tramo="5"], [data-tramo="6"]) .es-brasa { display: block; }
+.es-brasa:nth-child(1) { --x: 18; --d: 3.1s; --r: -.3s; } .es-brasa:nth-child(2) { --x: 38; --d: 3.9s; --r: -1.6s; } .es-brasa:nth-child(3) { --x: 58; --d: 3.3s; --r: -2.2s; }
+.es-brasa:nth-child(4) { --x: 76; --d: 4.1s; --r: -.9s; } .es-brasa:nth-child(5) { --x: 28; --d: 3.7s; --r: -2.9s; } .es-brasa:nth-child(6) { --x: 66; --d: 3.5s; --r: -1.1s; } .es-brasa:nth-child(7) { --x: 48; --d: 4.4s; --r: -3.4s; }
+@keyframes es-ascua { 0% { translate: 0 0; opacity: 0; } 14% { opacity: 1; } 55% { translate: 9px -40px; } 100% { translate: -6px -80px; opacity: 0; } }
+.es-r-num { display: grid; align-content: center; min-width: 0; }
+.es-r-num b { font-size: clamp(56px, 8.4vh, 76px); line-height: .9; color: var(--acento); }
+.es-r-num span { font: var(--peso-tit) 21px/1.15 var(--f-tit); letter-spacing: var(--espacio-tit); margin-top: 4px; white-space: nowrap; }
+.es-hito { margin-left: auto; align-self: flex-start; display: flex; align-items: center; gap: 9px; padding: 5px 14px 5px 5px; border: 0; border-radius: 99px; background: var(--suave); text-align: left; cursor: pointer;
+  font: 700 12.5px/1.25 var(--f-txt); color: var(--tinta); transition: translate .25s var(--muelle); }
+.es-hito:hover { translate: 0 -2px; } .es-hito:active { translate: 0 2px; }
+.es-h-anillo { position: relative; width: 44px; height: 44px; flex: none; }
+.es-h-anillo svg { position: absolute; inset: 0; width: 100%; height: 100%; rotate: -90deg; overflow: visible; }
+.es-hito circle { fill: none; stroke-width: 5; stroke-linecap: round; } .es-hito .f { stroke: var(--linea); } .es-hito .v { stroke: var(--oro); }
+:root[data-tema="sumi"] .es-hito .v { stroke: var(--sello); }
+.es-h-anillo b { position: absolute; inset: 0; display: grid; place-items: center; font: 700 15px var(--f-num); }
+.es-hito small { display: block; font: 700 10.5px var(--f-txt); letter-spacing: .1em; text-transform: uppercase; color: var(--tinta-2); }
+.es-r-sub { margin: 0; font: 600 13.5px/1.35 var(--f-txt); color: var(--tinta-2); }
+.es-tira { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 8px; margin-top: 4px; }
+.es-dia { border: 0; padding: 0; background: none; cursor: pointer; display: grid; gap: 4px; justify-items: stretch; text-align: center; color: var(--tinta-2); }
+.es-dia small { font: 800 11px var(--f-txt); letter-spacing: .08em; }
+.es-casilla { display: grid; place-items: center; height: 42px; border-radius: 14px; background: var(--linea); transition: translate .2s var(--muelle), box-shadow .2s; }
+.es-dia.si .es-casilla { background: color-mix(in srgb, var(--acento) 13%, var(--tile-c)); box-shadow: inset 0 0 0 2px color-mix(in srgb, var(--acento) 36%, transparent), 0 3px 0 color-mix(in srgb, var(--acento) 24%, transparent); }
+.es-dia:hover .es-casilla { translate: 0 -3px; } .es-dia:active .es-casilla { translate: 0 2px; }
+.es-flama { display: block; width: 38px; height: 38px; }
+.es-dia:not(.si) .es-flama { display: none; }
+.es-dia.hoy small { color: var(--acento); font-weight: 900; }
+.es-dia.hoy:not(.si) .es-casilla { background: transparent; box-shadow: none; outline: 2.5px dashed var(--acento); outline-offset: -2.5px; }
+.es-dia.hoy:not(.si) .es-flama { display: block; filter: grayscale(1); opacity: .3; animation: es-late 1.7s ease-in-out infinite; }
+@keyframes es-late { 50% { opacity: .65; scale: 1.12; } }
+
+/* ── tu siguiente paso: Nyan y la lista, el primero con su botón ── */
+.es-paso { gap: 8px; padding-bottom: 12px; }
+.es-p-cab { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
+.es-p-tit p { margin: 4px 0 0; font: var(--peso-tit) clamp(26px, 3.6vh, 32px)/1.05 var(--f-tit); letter-spacing: var(--espacio-tit); }
+.es-nyan { position: relative; flex: none; display: flex; align-items: flex-end; margin: -8px -8px -16px 0; z-index: 2; }
+.es-nyan-img { display: block; width: 92px; flex: none; margin-left: -8px; pointer-events: none; }
+.es-nyan-img img { display: block; width: 100%; filter: drop-shadow(0 8px 10px rgba(0, 0, 0, .16)); }
+.es-nyan .dice { position: relative; align-self: center; max-width: 248px; margin-bottom: 10px; padding: 9px 14px 10px; border-radius: 18px 18px 4px 18px; background: var(--tile); border: var(--borde); box-shadow: var(--sombra); font: 700 13px/1.35 var(--f-txt); color: var(--tinta); }
+.es-nyan .dice::after { content: ""; position: absolute; right: -5px; bottom: 7px; width: 12px; height: 12px; background: inherit; border-radius: 0 4px 0 0; rotate: 45deg; box-shadow: 2px -2px 0 -1px color-mix(in srgb, var(--tinta) 6%, transparent); }
+.es-nyan .dice .jp { display: block; font: 900 16px/1.2 var(--f-txt); color: var(--acento); }
+:root:is([data-tema="pop"], [data-tema="sumi"]) .es-nyan .dice .jp { color: var(--tinta); }
+.es-pasos { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; flex: 1 0 auto; align-content: space-evenly; }
+.es-pa { width: 100%; border: 0; background: none; display: grid; grid-template-columns: 46px minmax(0, 1fr) auto; gap: 14px; align-items: center; text-align: left; padding: 6px 12px 6px 8px; border-radius: var(--radio-s); cursor: pointer; color: var(--tinta);
+  transition: background-color .2s, translate .4s var(--muelle); }
+.es-pa:hover { background: var(--suave); translate: 5px 0; }
+.es-pa.ahora { background: var(--suave); box-shadow: inset 0 0 0 2px color-mix(in srgb, var(--acento) 30%, transparent); }
+.es-pa .pic { position: relative; width: 44px; height: 44px; display: block; }
+.es-pa .pic .num { position: absolute; right: -6px; bottom: -4px; min-width: 20px; height: 20px; padding: 0 5px; border-radius: 99px; background: var(--tinta); color: var(--fondo); font: 700 11px/20px var(--f-num); text-align: center; }
+.es-pa .tx { min-width: 0; }
+.es-pa .tx b { display: block; font: 800 15.5px/1.25 var(--f-txt); } .es-pa .tx b [lang="ja"] { font-weight: 900; display: inline-block; white-space: nowrap; }
+.es-pa .tx small { display: block; margin-top: 1px; font: 600 12.5px/1.35 var(--f-txt); color: var(--tinta-2); }
+.es-empezar.b-tinta { height: 42px; padding: 0 9px 0 18px; font-size: 14.5px; border-radius: 14px; pointer-events: none; animation: es-pulsa 2.4s ease-in-out infinite; }
+@keyframes es-pulsa { 50% { box-shadow: 0 5px 0 var(--labio), 0 0 0 7px color-mix(in srgb, var(--acento) 22%, transparent); } }
+.es-flecha { width: 38px; height: 38px; border-radius: 50%; display: grid; place-items: center; background: var(--linea); color: var(--tinta-2); font: 700 18px var(--f-num); transition: background-color .2s, color .2s, rotate .35s var(--muelle); }
+.es-pa:hover .es-flecha { background: var(--boton); color: var(--sobre); rotate: -8deg; }
+.es-ayuda { margin: 0; padding-left: 8px; font: 600 12.5px var(--f-txt); color: var(--tinta-2); }
+.es-ayuda .kbd { height: 22px; min-width: 22px; font-size: 11px; }
+.es-paso.vacio { align-items: center; justify-content: center; }
+.es-p-nada { display: grid; justify-items: center; gap: 6px; font: var(--peso-tit) 24px var(--f-tit); } .es-p-nada img { width: 150px; }
+
+/* ── tiempo y nivel ── */
+.es-tiempo, .es-nivel { justify-content: space-between; gap: 4px; }
+.es-t-num { font-size: 36px; line-height: 1; white-space: nowrap; } .es-t-num u { text-decoration: none; font: 700 15px var(--f-txt); color: var(--tinta-2); margin: 0 6px 0 3px; }
+.es-tiempo > small { font: 600 12.5px/1.35 var(--f-txt); color: var(--tinta-2); }
+.es-n-cuerpo { display: flex; align-items: center; gap: 12px; flex: 1; }
+.es-medalla { position: relative; flex: none; width: 66px; height: 66px; }
+.es-medalla svg { position: absolute; inset: 0; width: 100%; height: 100%; rotate: -90deg; }
+.es-medalla circle { fill: none; stroke-width: 7; stroke-linecap: round; } .es-medalla .f { stroke: var(--linea); } .es-medalla .v { stroke: var(--acento); }
+.es-medalla b { position: absolute; inset: 0; display: grid; place-items: center; font-size: 26px; }
+.es-n-tx b { display: block; font: 800 14px/1.25 var(--f-txt); } .es-n-tx small { font: 600 12.5px/1.35 var(--f-txt); color: var(--tinta-2); }
+
+/* ── tarjetas de la semana ── */
+.es-s-cab { display: flex; align-items: center; justify-content: space-between; gap: 8px; flex: none; }
+.es-acierto { display: inline-flex; align-items: baseline; gap: 4px; padding: 3px 12px 3px 10px; border-radius: 99px; font: 700 12.5px var(--f-txt); white-space: nowrap; color: color-mix(in srgb, var(--ok) 55%, var(--tinta));
+  background: color-mix(in srgb, var(--ok) 13%, var(--tile-c)); box-shadow: inset 0 0 0 2px color-mix(in srgb, var(--ok) 30%, transparent); }
+.es-acierto b { font: 700 17px var(--f-num); } .es-acierto.sin { color: var(--tinta-2); background: var(--linea); box-shadow: none; }
+.es-barras { flex: 1 0 118px; display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 8px; }
+.es-barra { border: 0; padding: 0; background: none; cursor: pointer; display: grid; grid-template-rows: auto minmax(0, 1fr) auto; justify-items: center; gap: 3px; min-height: 0; color: var(--tinta-2); }
+.es-bv { font: 700 11.5px var(--f-num); color: var(--tinta-2); transition: color .2s, scale .3s var(--muelle); }
+.es-bt { position: relative; width: 100%; max-width: 44px; min-height: 30px; border-radius: 10px; background: var(--linea); overflow: hidden; display: flex; align-items: flex-end; transition: translate .25s var(--muelle); }
+.es-bt i { display: block; width: 100%; min-height: 7px; border-radius: 10px; background: var(--acento); box-shadow: inset 0 3px 0 rgba(255, 255, 255, .28); transform-origin: 50% 100%; }
+.es-barra small { font: 800 11px var(--f-txt); letter-spacing: .06em; }
+.es-barra:hover .es-bt { translate: 0 -3px; } .es-barra:hover .es-bv { color: var(--acento); scale: 1.2; }
+.es-barra.hoy small { color: var(--acento); font-weight: 900; } .es-barra.hoy.vacio .es-bt { background: transparent; outline: 2.5px dashed var(--acento); outline-offset: -2.5px; } .es-barra.hoy.vacio .es-bt i { min-height: 0; background: transparent; box-shadow: none; }
+
+/* ── el tubo hacia el N5, el N4 y el N3 ── */
+.es-m-cab { display: flex; align-items: center; gap: 8px; flex: none; }
+.es-t .es-m-cab .mini { width: 30px; height: 30px; margin: 0; }
+.es-t .es-m-cab h2 { margin: 0; display: block; font: var(--peso-tit) 19px/1.15 var(--f-tit); letter-spacing: var(--espacio-tit); text-transform: none; color: var(--tinta); }
+.es-meta-sub { margin: 0; font: 600 13px/1.3 var(--f-txt); color: var(--tinta-2); flex: none; }
+.es-bambu { position: relative; flex: none; height: 18px; margin: 22px 8px 24px 6px; border-radius: 99px; background: var(--linea); box-shadow: inset 0 2px 0 rgba(0, 0, 0, .08); }
+.es-relleno { position: absolute; left: 0; top: 0; bottom: 0; width: 0; min-width: 18px; border-radius: 99px; background: var(--acento); }
+.es-relleno::after { content: ""; position: absolute; left: 7px; right: 7px; top: 4px; height: 3.5px; border-radius: 99px; background: rgba(255, 255, 255, .45); }
+.es-marca { position: absolute; top: -7px; bottom: -7px; width: 18px; margin-left: -9px; border: 0; padding: 0; background: none; cursor: pointer; }
+.es-marca::before { content: ""; position: absolute; left: 50%; top: 0; bottom: 0; width: 3px; margin-left: -1.5px; border-radius: 2px; background: var(--tinta); opacity: .5; transition: opacity .2s, scale .3s var(--muelle); }
+.es-marca:hover::before { opacity: 1; scale: 1.6 1; }
+.es-marca span { position: absolute; top: calc(100% + 3px); left: 50%; translate: -50% 0; padding: 1px 7px; border-radius: 8px; background: var(--tile-c); box-shadow: inset 0 0 0 2px var(--linea); font: 800 11.5px/1.5 var(--f-txt); color: var(--tinta); transition: translate .3s var(--muelle), background-color .2s; }
+.es-marca:hover span { translate: -50% 3px; background: var(--suave); }
+.es-marca.meta::before { background: var(--acento); opacity: 1; } .es-marca.meta span { background: var(--boton); color: var(--sobre); box-shadow: 0 2px 0 var(--labio); }
+.es-yo { position: absolute; left: 0; top: 50%; width: 38px; height: 38px; translate: -50% -50%; pointer-events: none; z-index: 2; }
+.es-yo-ic { position: absolute; inset: 0; display: block; filter: drop-shadow(0 3px 4px rgba(0, 0, 0, .2)); }
+.es-yo-n { position: absolute; left: calc(100% - 2px); top: -12px; padding: 0 8px; border-radius: 99px; background: var(--tinta); color: var(--fondo); font: 700 12px/20px var(--f-num); white-space: nowrap; }
+.es-aviso { margin-top: auto; font: 600 11.5px/1.35 var(--f-txt); color: var(--tinta-2); flex: none; }
+
+/* ── el japonés de Nyan: el sello del grado y la escalera de ocho peldaños ── */
+.es-grado { display: grid; grid-template-columns: auto minmax(0, 1fr); align-content: center; gap: 8px 14px; }
+.es-sello { position: relative; grid-row: 1; width: 62px; height: 62px; border-radius: 15px; border: 3px solid var(--sello); color: var(--sello); display: grid; place-items: center; rotate: -8deg; cursor: pointer; padding: 0;
+  background: color-mix(in srgb, var(--tile-c) 72%, transparent); box-shadow: inset 0 0 0 3px var(--tile-c), inset 0 0 0 5.5px var(--sello), 0 4px 0 color-mix(in srgb, var(--sello) 26%, transparent); font: 900 33px var(--f-txt); }
+.es-sello:hover { scale: 1.06; } .es-sello:active { scale: .94; }
+:root[data-tema="sumi"] .es-sello span { font-family: "Yuji Syuku", serif; font-weight: 400; }
+.es-g-tx { min-width: 0; }
+.es-g-tx small { display: block; font: 800 10.5px/1.3 var(--f-txt); letter-spacing: .1em; text-transform: uppercase; color: var(--tinta-2); }
+.es-g-tx b { display: block; margin: 2px 0 2px; font: var(--peso-tit) 17px/1.2 var(--f-tit); letter-spacing: var(--espacio-tit); }
+.es-g-tx b.lejos { color: var(--tinta-2); }
+.es-g-tx > span { display: block; font: 600 12px/1.35 var(--f-txt); color: var(--tinta-2); }
+.es-escalera { grid-column: 1 / -1; display: flex; align-items: center; }
+.es-pip { flex: none; width: 20px; height: 20px; border-radius: 50%; border: 0; padding: 0; cursor: pointer; display: grid; place-items: center; font: 900 0/1 var(--f-txt); background: var(--linea); transition: scale .25s var(--muelle); }
+.es-pip:hover { scale: 1.25; }
+.es-pip.hecho { background: var(--sello); } .es-pip.hecho::after { content: ""; width: 7px; height: 4px; border: solid #fff; border-width: 0 0 2px 2px; rotate: -45deg; translate: 0 -1px; }
+.es-pip.ahora { width: 28px; height: 28px; background: var(--tile-c); box-shadow: 0 0 0 3px var(--sello); color: var(--sello); font-size: 15px; animation: es-late 1.8s ease-in-out infinite; }
+.es-pip.falta { background: transparent; box-shadow: inset 0 0 0 2px var(--linea); }
+.es-hilo { flex: 1; min-width: 4px; height: 4px; border-radius: 2px; background: var(--linea); position: relative; overflow: hidden; }
+.es-hilo.lleno { background: var(--sello); } .es-hilo.va::before { content: ""; position: absolute; inset: 0; width: calc(var(--p) * 100%); border-radius: 2px; background: var(--sello); }
+
+/* ── los cuatro anillos ── */
+.es-anillo { flex-direction: row; align-items: center; gap: 16px; padding-top: 14px; padding-bottom: 14px; cursor: pointer; }
+.es-an { position: relative; flex: none; width: 84px; height: 84px; }
+.es-an svg { position: absolute; inset: 0; width: 100%; height: 100%; rotate: -90deg; }
+.es-an circle { fill: none; stroke-width: 11; stroke-linecap: round; } .es-an .f { stroke: var(--linea); } .es-an .v { stroke: var(--c); }
+.es-an b { position: absolute; inset: 0; display: grid; place-items: center; font-size: 23px; }
+.es-an-tx { min-width: 0; display: grid; gap: 3px; justify-items: start; }
+.es-an-tx h3 { margin: 0; display: flex; align-items: center; gap: 8px; font: 700 12px var(--f-txt); letter-spacing: .14em; text-transform: uppercase; color: var(--tinta-2); }
+.es-an-tx .mini { width: 30px; height: 30px; }
+.es-an-tx small { font: 700 15px/1.3 var(--f-txt); color: var(--tinta); }
+.es-nueva { margin-top: 2px; padding: 3px 11px; border: 0; border-radius: 99px; background: var(--boton); color: var(--sobre); box-shadow: 0 2px 0 var(--labio); font: 800 10.5px var(--f-txt); letter-spacing: .1em; text-transform: uppercase; cursor: pointer; animation: es-pulsa 2.4s ease-in-out infinite; }
+
+/* ── cuando falta altura: menos aire, el mismo mosaico ── */
+@media (max-height: 820px) and (min-width: 761px) {
+  .es-raiz .p-arriba { padding-top: 12px; gap: 14px; } .es-raiz .s-cerrar { width: 42px; height: 42px; } .es-raiz .p-tit h1 { font-size: 30px; }
+  .es-raiz .es-cuerpo { padding-top: 10px; padding-bottom: 14px; } .es-rejilla, .es-col, .es-par, .es-fila, .es-anillos { gap: 10px; }
+  .es-t { padding: 11px 18px; gap: 4px; } .es-t > h2 { font-size: 11px; }
+  .es-llama { width: 58px; height: 58px; } .es-r-num b { font-size: 54px; } .es-r-num span { font-size: 17px; margin-top: 2px; }
+  .es-casilla { height: 34px; } .es-flama { width: 31px; height: 31px; } .es-hito { padding: 4px 12px 4px 4px; } .es-h-anillo { width: 38px; height: 38px; } .es-r-sub { font-size: 12.5px; }
+  .es-p-tit p { font-size: 24px; } .es-nyan-img { width: 76px; } .es-nyan { margin-bottom: -26px; margin-top: -6px; } .es-nyan .dice { margin-bottom: 6px; padding: 7px 12px 8px; font-size: 12.5px; } .es-nyan .dice .jp { font-size: 14.5px; }
+  .es-pa { padding: 2px 10px 2px 8px; grid-template-columns: 38px minmax(0, 1fr) auto; gap: 12px; } .es-pa .pic { width: 36px; height: 36px; } .es-pa .pic .num { min-width: 18px; height: 18px; line-height: 18px; }
+  .es-pa .tx b { font-size: 14.5px; } .es-pa .tx small { font-size: 12px; } .es-empezar.b-tinta { height: 36px; font-size: 14px; } .es-flecha { width: 32px; height: 32px; }
+  .es-paso { gap: 4px; padding-bottom: 6px; } .es-ayuda { font-size: 11.5px; }
+  .es-t-num { font-size: 26px; } .es-medalla { width: 52px; height: 52px; } .es-medalla b { font-size: 21px; } .es-n-tx b { font-size: 13px; }
+  .es-barras { flex-basis: 84px; }
+  .es-m-cab .mini { width: 26px; height: 26px; } .es-t .es-m-cab h2 { font-size: 17px; } .es-bambu { margin-top: 20px; margin-bottom: 22px; } .es-yo { width: 34px; height: 34px; } .es-aviso { font-size: 11px; line-height: 1.3; }
+  .es-sello { width: 52px; height: 52px; font-size: 28px; } .es-g-tx b { font-size: 15.5px; } .es-pip { width: 18px; height: 18px; } .es-pip.ahora { width: 25px; height: 25px; }
+  .es-anillo { padding-top: 8px; padding-bottom: 8px; gap: 14px; } .es-an { width: 66px; height: 66px; } .es-an b { font-size: 19px; } .es-an circle { stroke-width: 12.5; } .es-an-tx small { font-size: 14px; }
+}
+
+/* ── Heisei: la página es de noche; lo que va suelto sobre ella, en claro ── */
+:root[data-tema="heisei"] .es-raiz .p-tit h1 { color: #fff; text-shadow: 0 0 22px rgba(127, 243, 255, .45); }
+:root[data-tema="heisei"] .es-raiz .p-tit small { color: #7ff3ff; }
+:root[data-tema="heisei"] :is(.es-pa .pic .num, .es-yo-n) { background: #0b1030; color: #fff; }
+
+/* ── móvil: una columna ── */
+@media (max-width: 760px) {
+  .es-raiz { height: auto; min-height: 100%; }
+  .es-raiz .es-cuerpo { display: block; flex: none; padding-top: 12px; }
+  .es-rejilla { display: flex; flex-direction: column; gap: 12px; }
+  .es-col { gap: 12px; } .es-izq > *, .es-der > * { flex: none !important; }
+  .es-fila { grid-template-columns: 1fr; gap: 12px; }
+  .es-anillos { grid-template-columns: 1fr 1fr; gap: 10px; }
+  .es-t { padding: 16px 16px; }
+  .es-r-cab { flex-wrap: wrap; } .es-hito { margin-left: 0; } .es-llama { width: 66px; height: 66px; } .es-r-num b { font-size: 62px; }
+  .es-nyan .dice { display: none; } .es-nyan { margin: -6px -2px -10px 0; } .es-nyan-img { width: 70px; } .es-paso .es-ayuda { display: none; } .es-pa { grid-template-columns: 40px minmax(0, 1fr) auto; gap: 10px; } .es-pa .pic { width: 38px; height: 38px; }
+  .es-t-num { font-size: 26px; } .es-n-cuerpo { flex-wrap: wrap; gap: 8px; } .es-medalla { width: 56px; height: 56px; }
+  .es-barras { flex-basis: 130px; }
+  .es-anillo { flex-direction: column; align-items: center; text-align: center; padding: 12px 8px; gap: 6px; } .es-an-tx { justify-items: center; } .es-an-tx h3 { font-size: 11px; letter-spacing: .1em; } .es-an { width: 68px; height: 68px; } .es-an b { font-size: 19px; } .es-an circle { stroke-width: 12.5; } .es-an-tx small { font-size: 13.5px; }
+}
+@media (prefers-reduced-motion: reduce) { .es-brasa { display: none !important; } }

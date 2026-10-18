@@ -1,0 +1,840 @@
+{
+ "id": "c10",
+ "clase": 10,
+ "desde": 90,
+ "titulo": {
+  "es": "La escuela de noche: algo, alguien, nadie y さん",
+  "en": "The school at night: something, someone, nobody and さん"
+ },
+ "resumen": {
+  "es": "か: algo, alguien (no sabes qué). も + negativo: nada, nadie. さん va con el nombre de otros; あなた, con cuidado.",
+  "en": "か: something, someone (not sure what). も + negative: nothing, no one. さん goes with someone else's name; あなた, carefully."
+ },
+ "formato": 2,
+ "lugar": "noche",
+ "mision": {
+  "texto": {
+   "es": "Nyan se dejó el libro en la escuela y vuelve con Tama… de noche. Se oye algo. ¿Hay alguien? ¡Averígualo sin morirte de miedo!",
+   "en": "Nyan left his book at school and goes back with Tama… at night. Something makes a noise. Is anyone there? Find out without dying of fright!"
+  },
+  "escena": {
+   "fondo": "noche",
+   "cosas": [
+    {
+     "que": "nyan",
+     "x": 110
+    },
+    {
+     "que": "gato",
+     "id": "tama",
+     "x": 290
+    }
+   ]
+  },
+  "cara": "sorpresa",
+  "jp": "だ、 誰[だれ]か いますか…？",
+  "voz": "m0"
+ },
+ "reglas": [
+  {
+   "id": "ka",
+   "nombre": {
+    "es": "何か y 誰か: «algo» y «alguien»",
+    "en": "何か and 誰か: «something» and «someone»"
+   },
+   "patron": {
+    "es": "何[なに]か ・ 誰[だれ]か",
+    "en": "何[なに]か ・ 誰[だれ]か"
+   },
+   "explica": {
+    "es": "Si a las palabras de pregunta les pegas か, dejan de preguntar: 何 (qué) → 何か (algo); 誰 (quién) → 誰か (alguien). 誰かいますか, «¿hay alguien?». 何かありますか, «¿hay algo?». No sabes qué o quién: por eso か, la partícula de la duda.",
+    "en": "Add か to question words and they stop asking: 何 (what) → 何か (something); 誰 (who) → 誰か (someone). 誰かいますか, «is anyone there?». 何かありますか, «is there anything?». You don't know what or who: hence か, the particle of doubt."
+   },
+   "ejemplos": [
+    {
+     "jp": "誰[だれ]か いますか。",
+     "es": "¿Hay alguien?",
+     "en": "Is anyone there?",
+     "voz": "r1-1"
+    },
+    {
+     "jp": "何[なに]か 食[た]べますか。",
+     "es": "¿Comes algo?",
+     "en": "Will you eat something?",
+     "voz": "r1-2"
+    }
+   ],
+   "ojo": {
+    "es": "何か no es «qué»: 何を食べますか es «¿qué comes?»; 何か食べますか, «¿comes algo?».",
+    "en": "何か isn't «what»: 何を食べますか is «what do you eat?»; 何か食べますか, «will you eat something?»."
+   }
+  },
+  {
+   "id": "mo",
+   "nombre": {
+    "es": "何も y 誰も: «nada» y «nadie»",
+    "en": "何も and 誰も: «nothing» and «nobody»"
+   },
+   "patron": {
+    "es": "何[なに]も／誰[だれ]も 〔verbo en negativo〕",
+    "en": "何[なに]も／誰[だれ]も 〔negative verb〕"
+   },
+   "explica": {
+    "es": "Con も en vez de か, y el verbo en NEGATIVO, sale «nada» y «nadie»: 何もありません, «no hay nada»; 誰もいません, «no hay nadie». Sin el negativo no funciona: 何もあります no significa nada en japonés.",
+    "en": "With も instead of か, and the verb in the NEGATIVE, you get «nothing» and «nobody»: 何もありません, «there's nothing»; 誰もいません, «there's nobody». Without the negative it doesn't work: 何もあります means nothing in Japanese."
+   },
+   "ejemplos": [
+    {
+     "jp": "誰[だれ]も いません。",
+     "es": "No hay nadie.",
+     "en": "There's nobody.",
+     "voz": "r2-1"
+    },
+    {
+     "jp": "何[なに]も ありません。",
+     "es": "No hay nada.",
+     "en": "There's nothing.",
+     "voz": "r2-2"
+    }
+   ],
+   "ojo": {
+    "es": "La regla de いる/ある sigue valiendo: nadie (personas) va con いません y nada (cosas) con ありません.",
+    "en": "The いる/ある rule still applies: nobody (people) takes いません and nothing (things) takes ありません."
+   }
+  },
+  {
+   "id": "san",
+   "nombre": {
+    "es": "さん, 先生 y あなた: cómo llamar a la gente",
+    "en": "さん, 先生 and あなた: how to address people"
+   },
+   "patron": {
+    "es": "〔nombre〕さん ・ 〔nombre〕先生[せんせい]",
+    "en": "〔name〕さん ・ 〔name〕先生[せんせい]"
+   },
+   "explica": {
+    "es": "En japonés casi nunca se dice «tú»: se llama a la gente por su nombre. Detrás del nombre de otros va さん (Tama-san, Pon-san), una especie de «señor/a» que vale para casi todo el mundo; a los profesores, 先生. Nunca te pones さん a ti mismo. あなた existe, pero suena distante o, dicho a alguien mayor, maleducado.",
+    "en": "Japanese almost never says «you»: people are called by name. After other people's names goes さん (Tama-san, Pon-san), a kind of «Mr/Ms» that fits almost everyone; teachers get 先生. Never put さん on yourself. あなた exists, but sounds distant or, to someone older, rude."
+   },
+   "ejemplos": [
+    {
+     "jp": "フクロ先生[せんせい]、 こんばんは。",
+     "es": "Buenas noches, profesor Fukuro.",
+     "en": "Good evening, Professor Fukuro.",
+     "voz": "r3-1"
+    },
+    {
+     "jp": "ニャンさん、 何[なに]か 忘[わす]れましたか。",
+     "es": "Nyan, ¿olvidaste algo?",
+     "en": "Nyan, did you forget something?",
+     "voz": "r3-2"
+    }
+   ],
+   "ojo": {
+    "es": "Con los amigos de confianza se quita さん y se usa el nombre solo (タマ, ニャン): sonaría frío ponerlo.",
+    "en": "With close friends you drop さん and use just the name (タマ, ニャン): keeping it would sound cold."
+   }
+  }
+ ],
+ "historia": [
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "こわいですね…",
+   "tr": {
+    "es": "Da un poco de miedo, ¿eh…?",
+    "en": "It's a bit scary, huh…?"
+   },
+   "voz": "h1",
+   "cara": "sorpresa",
+   "escena": {
+    "fondo": "noche",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 290
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "あっ！ 何[なに]か 聞[き]こえた！",
+   "tr": {
+    "es": "¡Eh! ¡He oído algo!",
+    "en": "Hey! I heard something!"
+   },
+   "voz": "h2",
+   "cara": "sorpresa",
+   "escena": {
+    "fondo": "noche",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 290
+     },
+     {
+      "que": "manpu",
+      "tipo": "excl",
+      "x": 205,
+      "y": 100
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "ka"
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "Pregunta en voz alta: «¿Hay alguien?»",
+    "en": "Call out: «Is anyone there?»"
+   },
+   "opciones": [
+    {
+     "jp": "誰[だれ]か いますか。",
+     "bien": true,
+     "tr": {
+      "es": "¿Hay alguien?",
+      "en": "Is anyone there?"
+     },
+     "voz": "h3",
+     "porque": {
+      "es": "誰か = alguien; y las personas, con います.",
+      "en": "誰か = someone; and people take います."
+     }
+    },
+    {
+     "jp": "誰[だれ]か ありますか。",
+     "bien": false,
+     "porque": {
+      "es": "Alguien siempre es una persona (o un ser vivo), así que va con います, no con あります.",
+      "en": "Someone is always a person (or living being), so it takes います, not あります."
+     }
+    },
+    {
+     "jp": "誰[だれ]も いますか。",
+     "bien": false,
+     "porque": {
+      "es": "誰も solo funciona con un verbo negativo y significa «nadie». Para preguntar por «alguien», 誰か.",
+      "en": "誰も only works with a negative verb and means «nobody». To ask about «someone», 誰か."
+     }
+    }
+   ],
+   "cara": "sorpresa"
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "…誰[だれ]も いません。",
+   "tr": {
+    "es": "…No hay nadie.",
+    "en": "…There's nobody."
+   },
+   "voz": "h4",
+   "cara": "normal"
+  },
+  {
+   "t": "regla",
+   "regla": "mo"
+  },
+  {
+   "t": "monta",
+   "encargo": 0
+  },
+  {
+   "t": "dice",
+   "habla": "sensei",
+   "jp": "ホー。 こんばんは。",
+   "tr": {
+    "es": "Uuuh. Buenas noches.",
+    "en": "Hooo. Good evening."
+   },
+   "voz": "h5",
+   "reacciona": {
+    "nyan": "sorpresa",
+    "tama": "sorpresa"
+   },
+   "escena": {
+    "fondo": "noche",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 90
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 205
+     },
+     {
+      "que": "sensei",
+      "id": "sensei",
+      "x": 320
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "san"
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "¡Es Fukuro-sensei! Salúdala con respeto. ¿Cómo la llamas?",
+    "en": "It's Fukuro-sensei! Greet her respectfully. What do you call her?"
+   },
+   "opciones": [
+    {
+     "jp": "フクロ先生[せんせい]、 こんばんは！",
+     "bien": true,
+     "tr": {
+      "es": "¡Buenas noches, profesor Fukuro!",
+      "en": "Good evening, Professor Fukuro!"
+     },
+     "voz": "h6",
+     "porque": {
+      "es": "A un profesor, por su título: 先生.",
+      "en": "A teacher, by title: 先生."
+     }
+    },
+    {
+     "jp": "あなた、 こんばんは！",
+     "bien": false,
+     "porque": {
+      "es": "あなた a un profesor suena frío y hasta maleducado, porque marca distancia. En Japón se le llama por su título: 先生.",
+      "en": "あなた to a teacher sounds cold, even rude, because it creates distance. In Japan you call him by his title: 先生."
+     }
+    },
+    {
+     "jp": "フクロさん、 こんばんは！",
+     "bien": false,
+     "porque": {
+      "es": "さん es respetuoso con casi todo el mundo, pero 先生 ya es un título de respeto, y con un profesor se usa ese.",
+      "en": "さん is respectful with almost everyone, but 先生 is already a title of respect, and that's what you use for a teacher."
+     }
+    }
+   ],
+   "cara": "feliz"
+  },
+  {
+   "t": "dice",
+   "habla": "sensei",
+   "jp": "ニャンさん、 何[なに]か 忘[わす]れましたか。",
+   "tr": {
+    "es": "Nyan, ¿te olvidaste algo?",
+    "en": "Nyan, did you forget something?"
+   },
+   "voz": "h7",
+   "cara": "feliz",
+   "plano": "medio"
+  },
+  {
+   "t": "monta",
+   "encargo": 1
+  },
+  {
+   "t": "dice",
+   "habla": "sensei",
+   "jp": "はい、 どうぞ。 わたしは 夜[よる]も ここに いますよ。",
+   "tr": {
+    "es": "Toma. Yo también estoy aquí de noche, ¿sabes?",
+    "en": "Here you go. I'm here at night too, you know."
+   },
+   "voz": "h8",
+   "cara": "feliz"
+  }
+ ],
+ "epilogo": [
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "本[ほん]が ありました！",
+   "tr": {
+    "es": "¡He recuperado el libro!",
+    "en": "I got my book back!"
+   },
+   "voz": "x1",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "noche",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "brazo": "arriba"
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 290
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "フクロ先生[せんせい]は 夜[よる]も 学校[がっこう]に いますね。",
+   "tr": {
+    "es": "La profe Fukuro también está en la escuela de noche, ¿eh?",
+    "en": "Fukuro-sensei is at school at night too, huh?"
+   },
+   "voz": "x2",
+   "cara": "feliz"
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta la frase: la escena hará lo que digas.",
+   "en": "Build the sentence: the scene will do what you say."
+  },
+  "piezas": [
+   {
+    "id": "hai",
+    "jp": "はい",
+    "tipo": "palabra"
+   },
+   {
+    "id": "hon",
+    "jp": "本[ほん]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "nanimo",
+    "jp": "何[なに]も",
+    "tipo": "palabra"
+   },
+   {
+    "id": "nanika",
+    "jp": "何[なに]か",
+    "tipo": "palabra"
+   },
+   {
+    "id": "wo",
+    "jp": "を",
+    "tipo": "particula"
+   },
+   {
+    "id": "arimasen",
+    "jp": "ありません",
+    "tipo": "verbo"
+   },
+   {
+    "id": "arimasu",
+    "jp": "あります",
+    "tipo": "verbo"
+   },
+   {
+    "id": "imasen",
+    "jp": "いません",
+    "tipo": "verbo"
+   },
+   {
+    "id": "wasuremashita",
+    "jp": "忘[わす]れました",
+    "tipo": "verbo"
+   },
+   {
+    "id": "wasuremasu",
+    "jp": "忘[わす]れます",
+    "tipo": "verbo"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Nyan mira por la ventana de la escuela: «No hay nada».",
+     "en": "Nyan looks through the school window: «There's nothing»."
+    },
+    "escena": {
+     "fondo": "noche",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110
+      },
+      {
+       "que": "gato",
+       "id": "tama",
+       "x": 290
+      }
+     ]
+    },
+    "piezas": [
+     "nanimo",
+     "nanika",
+     "arimasen",
+     "arimasu",
+     "imasen"
+    ],
+    "bien": [
+     [
+      "nanimo",
+      "arimasen"
+     ]
+    ],
+    "tr": {
+     "es": "No hay nada.",
+     "en": "There's nothing."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "normal"
+     },
+     {
+      "tipo": "manpu",
+      "objeto": "tama",
+      "manpu": "sudor"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "arimasu"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "何も solo tiene sentido con un verbo negativo: 何もありません, «no hay nada».",
+       "en": "何も only makes sense with a negative verb: 何もありません, «there's nothing»."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "imasen"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "Para cosas, ある: 何もありません. (いません sería para personas: 誰もいません.)",
+       "en": "For things, ある: 何もありません. (いません is for people: 誰もいません.)"
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "nanika"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "何か es «algo»: no se puede decir que «no hay algo». Para «nada», 何も + negativo.",
+       "en": "何か is «something»: you can't say «there isn't something». For «nothing», 何も + negative."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Contesta: «Sí, olvidé el libro».",
+     "en": "Answer: «Yes, I forgot my book»."
+    },
+    "escena": {
+     "fondo": "noche",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110
+      },
+      {
+       "que": "sensei",
+       "id": "sensei",
+       "x": 300
+      }
+     ]
+    },
+    "piezas": [
+     "hai",
+     "hon",
+     "wo",
+     "wasuremashita",
+     "wasuremasu",
+     "nanimo"
+    ],
+    "bien": [
+     [
+      "hai",
+      "hon",
+      "wo",
+      "wasuremashita"
+     ]
+    ],
+    "tr": {
+     "es": "Sí, olvidé el libro.",
+     "en": "Yes, I forgot my book."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "aparece",
+      "que": "libro",
+      "x": 205,
+      "id": "libro",
+      "s": 1.5
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "wasuremasu"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "Lo olvidaste ayer, así que va en pasado: 忘れます → 忘れました (como en la clase 9).",
+       "en": "You forgot it yesterday, so it's past: 忘れます → 忘れました (like in class 9)."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "nanimo"
+       ]
+      },
+      "efecto": {
+       "tipo": "manpu",
+       "objeto": "sensei",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "何も + negativo sería «no olvidé nada»… pero sí te olvidaste el libro.",
+       "en": "何も + negative would be «I forgot nothing»… but you did forget your book."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "reto": {
+  "intro": {
+   "jp": "ふん。 お化[ば]けが こわいのか？ 勝負[しょうぶ]だ！",
+   "tr": {
+    "es": "Hmpf. ¿Te dan miedo los fantasmas? ¡Duelo!",
+    "en": "Hmph. Scared of ghosts? Duel!"
+   },
+   "voz": "k0"
+  },
+  "gana": {
+   "jp": "…ふん。 お前[まえ]、 こわくないのか。",
+   "tr": {
+    "es": "…Hmpf. ¿A ti no te da miedo nada?",
+    "en": "…Hmph. Aren't you scared of anything?"
+   },
+   "voz": "kw"
+  },
+  "pierde": {
+   "jp": "ふん。 こわがりめ。",
+   "tr": {
+    "es": "Hmpf. Miedica.",
+    "en": "Hmph. Scaredy-cat."
+   },
+   "voz": "kl"
+  },
+  "pica": {
+   "jp": "…やるな。",
+   "tr": {
+    "es": "…No está mal.",
+    "en": "…Not bad."
+   },
+   "voz": "kp"
+  },
+  "burla": {
+   "jp": "ふん！",
+   "tr": {
+    "es": "¡Ja!",
+    "en": "Hah!"
+   },
+   "voz": "kb"
+  },
+  "preguntas": [
+   {
+    "tipo": "elige",
+    "jp": "誰[だれ]＿ いますか。 (¿alguien?)",
+    "opciones": [
+     "か",
+     "も",
+     "は"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "¿Hay alguien?",
+     "en": "Is anyone there?"
+    },
+    "porque": {
+     "es": "誰 (quién) + か (duda) = 誰か, «alguien».",
+     "en": "誰 (who) + か (doubt) = 誰か, «someone»."
+    },
+    "voz": "q1"
+   },
+   {
+    "tipo": "elige",
+    "jp": "何[なに]＿ ありません。 (nada)",
+    "opciones": [
+     "も",
+     "か",
+     "を"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "No hay nada.",
+     "en": "There's nothing."
+    },
+    "porque": {
+     "es": "何 + も con un verbo negativo forma «nada»: 何もありません.",
+     "en": "何 + も with a negative verb makes «nothing»: 何もありません."
+    },
+    "voz": "q2"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "誰[だれ]も いません。",
+    "correcta": true,
+    "tr": {
+     "es": "No hay nadie.",
+     "en": "There's nobody."
+    },
+    "porque": {
+     "es": "Bien: 誰も con el verbo en negativo (いません, porque son personas) = «no hay nadie».",
+     "en": "Right: 誰も with the verb in negative (いません, since it's people) = «nobody's here»."
+    },
+    "voz": "q3"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "何[なに]も あります。",
+    "correcta": false,
+    "tr": {
+     "es": "(No hay nada.)",
+     "en": "(There's nothing.)"
+    },
+    "porque": {
+     "es": "何も necesita un verbo negativo: con あります no significa nada. 何もありません.",
+     "en": "何も needs a negative verb: with あります it means nothing. 何もありません."
+    },
+    "voz": "q4"
+   },
+   {
+    "tipo": "oye",
+    "jp": "ニャンさん、 何[なに]か 食[た]べますか。",
+    "habla": "sensei",
+    "opciones": [
+     {
+      "es": "Nyan, ¿comes algo?",
+      "en": "Nyan, will you eat something?"
+     },
+     {
+      "es": "Nyan, ¿no comes nada?",
+      "en": "Nyan, won't you eat anything?"
+     },
+     {
+      "es": "Nyan, ¿qué comes?",
+      "en": "Nyan, what are you eating?"
+     }
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "何か es «algo» (la か lo vuelve indefinido); 何 solo sería «¿qué?».",
+     "en": "何か is «something» (か makes it indefinite); 何 alone would be «what?»."
+    },
+    "voz": "q5"
+   },
+   {
+    "tipo": "imagen",
+    "jp": "何[なに]か あります。 本[ほん]です！",
+    "opciones": [
+     "libro",
+     "onigiri",
+     "vaso"
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "何かあります es «hay algo»… y ese algo es ¡un libro!",
+     "en": "何かあります is «there's something»… and it's a book!"
+    },
+    "pide": {
+     "es": "¿Qué hay?",
+     "en": "What's there?"
+    }
+   }
+  ]
+ },
+ "siguiente": {
+  "es": "Próxima clase: Nyan aprende a encadenar lo que hace, uno detrás de otro… y a pedir las cosas por favor.",
+  "en": "Next class: Nyan learns to chain actions, one after another… and to ask for things nicely."
+ },
+ "chuleta": {
+  "patron": {
+   "es": "誰[だれ]か／何[なに]か ・ 誰[だれ]も／何[なに]も 〔negativo〕",
+   "en": "誰[だれ]か／何[なに]か ・ 誰[だれ]も／何[なに]も 〔negative〕"
+  },
+  "patron_tr": {
+   "es": "alguien / algo ・ nadie / nada",
+   "en": "someone / something ・ nobody / nothing"
+  },
+  "filas": [
+   {
+    "jp": "誰[だれ]か いますか。",
+    "es": "¿Hay alguien?",
+    "en": "Is anyone there?",
+    "registro": "educado"
+   },
+   {
+    "jp": "誰[だれ]も いない。",
+    "es": "No hay nadie. (a un amigo)",
+    "en": "Nobody's here. (to a friend)",
+    "registro": "amigos"
+   },
+   {
+    "jp": "何[なに]も ありません。",
+    "es": "No hay nada.",
+    "en": "There's nothing."
+   },
+   {
+    "jp": "タマさん、 こんにちは。",
+    "es": "Hola, Tama. (con respeto)",
+    "en": "Hello, Tama. (respectfully)"
+   }
+  ],
+  "consejo": {
+   "es": "Llama a la gente por su nombre con さん (o 先生 si es profe) y olvídate de あなた: sonarás natural y amable.",
+   "en": "Call people by name with さん (or 先生 for teachers) and forget あなた: you'll sound natural and kind."
+  }
+ }
+}

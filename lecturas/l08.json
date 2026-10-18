@@ -1,0 +1,41 @@
+{
+  "id": "l08", "desde": 675,
+  "titulo": {"jp": "授業[じゅぎょう] 中[ちゅう]の ニャン", "es": "Nyan en plena clase", "en": "Nyan in the middle of class"},
+  "resumen": {"es": "El sensei intenta mantener despierto a Nyan durante la clase: misión casi imposible.", "en": "The teacher tries to keep Nyan awake during class: mission nearly impossible."},
+  "portada": {"fondo": "escuela", "cosas": [{"que": "nyan", "x": 110, "cara": "sueno"}, {"que": "sensei", "x": 300}, {"que": "pizarra", "x": 230}]},
+  "texto": [
+    {"voz": "t1", "quien": "narrador", "jp": "授業[じゅぎょう]で、 ニャンは また 眠[ねむ]く なった。", "es": "En clase, a Nyan le volvió a entrar sueño.", "en": "In class, Nyan got sleepy again."},
+    {"voz": "t2", "quien": "narrador", "jp": "フクロ先生[せんせい]は ニャンに 質問[しつもん]した。", "es": "La maestra Fukuro le hizo una pregunta a Nyan.", "en": "Ms. Fukuro asked Nyan a question."},
+    {"voz": "t3", "quien": "fukuro", "jp": "ほう。 ニャンさん、 答[こた]えられます か。", "es": "Veamos… Nyan, ¿puede responder?", "en": "Now then… Nyan, can you answer?"},
+    {"voz": "t4", "quien": "narrador", "jp": "でも、 ニャンは 寝[ね]て いた。", "es": "Pero Nyan estaba dormido.", "en": "But Nyan was asleep."},
+    {"voz": "t5", "quien": "fukuro", "jp": "ニャンさん、 起[お]きなさい！", "es": "¡Señor Nyan, despierte!", "en": "Mr. Nyan, wake up!"},
+    {"voz": "t6", "quien": "nyan", "jp": "あ、 すみません…", "es": "Ah, perdón…", "en": "Ah, sorry..."},
+    {"voz": "t7", "quien": "fukuro", "jp": "ほう…。 夜[よる]は もっと 早[はや]く 寝[ね]た ほう が いい です よ。", "es": "Hmm… Por la noche debería acostarse más temprano.", "en": "Hmm… You should go to bed earlier at night."},
+    {"voz": "t8", "quien": "nyan", "jp": "はい、 頑張[がんば]ります…", "es": "Sí, lo intentaré…", "en": "Yes, I'll try..."},
+    {"voz": "t9", "quien": "narrador", "jp": "でも、 その 後[あと]も、 ニャンは 授業[じゅぎょう] 中[ちゅう] 寝[ね] 続[つづ]けた。", "es": "Pero, incluso después, Nyan siguió durmiéndose en clase.", "en": "But even after that, Nyan kept dozing off in class."},
+    {"voz": "t10", "quien": "narrador", "jp": "寝[ね]れば 寝[ね]る ほど、 授業[じゅぎょう]が わからなく なった。", "es": "Cuanto más dormía, menos entendía la clase.", "en": "The more he slept, the less he understood the class."},
+    {"voz": "t11", "quien": "tama", "jp": "ニャン、 大丈夫[だいじょうぶ]？ ノート、 見[み]せて あげる よ。", "es": "Nyan, ¿estás bien? Te enseño mi cuaderno.", "en": "Nyan, are you okay? I'll show you my notebook."},
+    {"voz": "t12", "quien": "nyan", "jp": "ありがとう、 タマ！ タマが いない と、 ニャンは 何[なに]も できない。", "es": "¡Gracias, Tama! Sin ti, Nyan no puede hacer nada.", "en": "Thanks, Tama! Without you, Nyan can't do anything."},
+    {"voz": "t13", "quien": "narrador", "jp": "でも、 次[つぎ]の 授業[じゅぎょう]でも、 ニャンは また 眠[ねむ]く なった。", "es": "Pero, en la siguiente clase, a Nyan le volvió a entrar sueño.", "en": "But in the next class, Nyan got sleepy again."}
+  ],
+  "preguntas": [
+    {"jp": "先生[せんせい]は ニャンに 何[なに]を しました か。", "es": "¿Qué le hizo la maestra Fukuro a Nyan?", "en": "What did Ms. Fukuro do to Nyan?",
+     "opciones": [{"jp": "質問[しつもん]した", "es": "Le hizo una pregunta", "en": "Asked him a question"}, {"jp": "ノートを 見[み]せた", "es": "Le enseñó su cuaderno", "en": "Showed him a notebook"}, {"jp": "寝[ね]た", "es": "Se durmió", "en": "Fell asleep"}],
+     "bien": 0, "porque": {"es": "「先生はニャンに質問した」とあります。", "en": "\"Ms. Fukuro asked Nyan a question\" the story says."}},
+    {"jp": "先生[せんせい]は ニャンに 何[なに]と 言[い]いました か。", "es": "¿Qué le dijo la maestra Fukuro a Nyan?", "en": "What did Ms. Fukuro say to Nyan?",
+     "opciones": [{"jp": "「起[お]きなさい」", "es": "«¡Despierte!»", "en": "\"Wake up!\""}, {"jp": "「頑張[がんば]ります」", "es": "«Lo intentaré»", "en": "\"I'll try\""}, {"jp": "「ありがとう」", "es": "«Gracias»", "en": "\"Thank you\""}],
+     "bien": 0, "porque": {"es": "先生は「起きなさい」と言いました。", "en": "Ms. Fukuro said \"wake up!\""}},
+    {"jp": "「寝[ね]れば 寝[ね]る ほど」、 どう なりました か。", "es": "«Cuanto más dormía», ¿qué pasaba?", "en": "\"The more he slept\", what happened?",
+     "opciones": [{"jp": "授業[じゅぎょう]が わからなく なった", "es": "Entendía menos la clase", "en": "He understood the class less"}, {"jp": "もっと 元気[げんき]に なった", "es": "Tenía más energía", "en": "He got more energetic"}, {"jp": "質問[しつもん]に 答[こた]えられる ように なった", "es": "Pasó a poder responder preguntas", "en": "He became able to answer questions"}],
+     "bien": 0, "porque": {"es": "「寝れば寝るほど、授業がわからなくなった」とあります。", "en": "\"The more he slept, the less he understood the class\" the story says."}},
+    {"tipo": "opinion", "jp": "あなたは 授業[じゅぎょう] 中[ちゅう]に 眠[ねむ]く なります か。", "es": "¿Te entra sueño durante las clases?", "en": "Do you get sleepy during class?",
+     "opciones": [
+       {"jp": "はい、 よく 眠[ねむ]く なります。", "es": "Sí, a menudo me entra sueño.", "en": "Yes, I often get sleepy.",
+        "nyan": {"jp": "ニャンと 同[おな]じ！ でも、 先生[せんせい]は 怒[おこ]る から、 気[き]を つけて！", "es": "¡Igual que Nyan! Pero la maestra Fukuro se enfada, ¡ten cuidado!", "en": "Same as Nyan! But Ms. Fukuro gets angry, so watch out!"}},
+       {"jp": "いいえ、 あまり 眠[ねむ]く なりません。", "es": "No, no me suele entrar sueño.", "en": "No, I don't get sleepy much.",
+        "nyan": {"jp": "すごい！ ニャンには できない…", "es": "¡Increíble! Nyan no podría…", "en": "Amazing! Nyan couldn't do that..."}},
+       {"jp": "時々[ときどき] 眠[ねむ]く なります。", "es": "A veces me entra sueño.", "en": "Sometimes I get sleepy.",
+        "nyan": {"jp": "それ、 わかる よ。 ニャンは いつもだ けど。", "es": "Eso lo entiendo. Aunque Nyan es siempre así.", "en": "I get that. Though for Nyan it's always."}}
+     ]}
+  ]
+}

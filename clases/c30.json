@@ -1,0 +1,168 @@
+{
+ "id": "c30",
+ "clase": 30,
+ "desde": 800,
+ "titulo": {"es": "Fácil de leer: 〜やすい, 〜にくい y まま", "en": "Easy to read: 〜やすい, 〜にくい and まま"},
+ "resumen": {"es": "〜やすい y 〜にくい se pegan al radical de ます: fácil o difícil de hacer algo. まま dice que algo se queda tal cual, sin cambiar.",
+  "en": "〜やすい and 〜にくい attach to the ます stem: easy or hard to do something. まま says something stays as it is, unchanged."},
+ "intro": [
+  {"escena": {"fondo": "escuela", "cosas": [{"que": "nyan", "x": 130, "cara": "pensando"}]},
+   "cara": "pensando", "jp": "この 漢字[かんじ]、読[よ]みにくい…。", "voz": "i1",
+   "tr": {"es": "Este kanji es difícil de leer…", "en": "This kanji is hard to read…"},
+   "cartela": {"es": "〜にくい: pegado al radical de ます. Dice que algo es difícil de hacer.", "en": "〜にくい: attached to the ます stem. It says something is hard to do."}},
+  {"escena": {"fondo": "escuela", "cosas": [{"que": "nyan", "x": 130, "cara": "feliz"}]},
+   "cara": "feliz", "jp": "あ、これは 読[よ]みやすい！", "voz": "i2",
+   "tr": {"es": "¡Ah, esto es fácil de leer!", "en": "Oh, this one is easy to read!"},
+   "cartela": {"es": "〜やすい es lo contrario: fácil de hacer. El mismo radical, distinto final.", "en": "〜やすい is the opposite: easy to do. Same stem, different ending."}},
+  {"escena": {"fondo": "noche", "cosas": [{"que": "nyan", "x": 200, "cara": "sueno", "s": 1.1}]},
+   "cara": "sueno", "jp": "窓[まど]を 開[あ]けたまま、寝[ね]ちゃった。", "voz": "i3",
+   "tr": {"es": "Me quedé dormido con la ventana abierta.", "en": "I fell asleep with the window open."},
+   "cartela": {"es": "まま: tal cual, sin cambiar. La ventana sigue abierta mientras Nyan duerme.", "en": "まま: as is, unchanged. The window stays open while Nyan sleeps."}},
+  {"escena": {"fondo": "noche", "cosas": [{"que": "nyan", "x": 200, "cara": "triste", "s": 1.1}, {"que": "manpu", "tipo": "sudor", "x": 240, "y": 95}]},
+   "cara": "triste", "jp": "寒[さむ]い…！", "voz": "i4",
+   "tr": {"es": "¡Qué frío…!", "en": "It's so cold…!"},
+   "cartela": {"es": "Fin de la intro: dejar algo «tal cual» (まま) a veces trae consecuencias. ¡A practicar!", "en": "End of the intro: leaving something «as is» (まま) sometimes has consequences. Let's practice!"}}
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {"es": "Monta cada frase. やすい・にくい van con el radical de ます; まま no cambia nada.",
+   "en": "Build each sentence. やすい・にくい go with the ます stem; まま doesn't change anything."},
+  "piezas": [
+   {"id": "yomi", "jp": "読[よ]み", "tipo": "palabra"}, {"id": "yasui", "jp": "やすい", "tipo": "particula"}, {"id": "wa", "jp": "は", "tipo": "particula"},
+   {"id": "kono", "jp": "この", "tipo": "palabra"}, {"id": "hon", "jp": "本[ほん]", "tipo": "palabra"}, {"id": "desu1", "jp": "です", "tipo": "verbo"},
+   {"id": "yomu", "jp": "読[よ]む", "tipo": "verbo"}, {"id": "yominikui", "jp": "読[よ]みにくい", "tipo": "palabra"},
+   {"id": "kaki", "jp": "書[か]き", "tipo": "palabra"}, {"id": "nikui", "jp": "にくい", "tipo": "particula"},
+   {"id": "ji", "jp": "字[じ]", "tipo": "palabra"}, {"id": "desu2", "jp": "です", "tipo": "verbo"},
+   {"id": "kaku", "jp": "書[か]く", "tipo": "verbo"}, {"id": "kakiyasui", "jp": "書[か]きやすい", "tipo": "palabra"},
+   {"id": "mado", "jp": "窓[まど]", "tipo": "palabra"}, {"id": "wo1", "jp": "を", "tipo": "particula"}, {"id": "aketa", "jp": "開[あ]けた", "tipo": "palabra"},
+   {"id": "mama", "jp": "まま", "tipo": "particula"}, {"id": "nemasu", "jp": "寝[ね]ます", "tipo": "verbo"},
+   {"id": "akeru", "jp": "開[あ]ける", "tipo": "verbo"}, {"id": "akete", "jp": "開[あ]けて", "tipo": "verbo"},
+   {"id": "kutsu", "jp": "靴[くつ]", "tipo": "palabra"}, {"id": "no", "jp": "の", "tipo": "particula"},
+   {"id": "heya", "jp": "部屋[へや]", "tipo": "palabra"}, {"id": "ni", "jp": "に", "tipo": "particula"}, {"id": "hairimasu", "jp": "入[はい]ります", "tipo": "verbo"},
+   {"id": "kutsuwo", "jp": "靴[くつ]を", "tipo": "palabra"},
+   {"id": "nemui", "jp": "眠[ねむ]い", "tipo": "palabra"}, {"id": "benkyoushimashita", "jp": "勉強[べんきょう]しました", "tipo": "verbo"},
+   {"id": "nemukute", "jp": "眠[ねむ]くて", "tipo": "palabra"}, {"id": "nemukatta", "jp": "眠[ねむ]かった", "tipo": "palabra"}
+  ],
+  "encargos": [
+   {"pide": {"es": "Di: «Este libro es fácil de leer».", "en": "Say: «This book is easy to read»."},
+    "escena": {"fondo": "cuarto", "cosas": [{"que": "nyan", "x": 120}, {"que": "libro", "x": 270, "s": 1.5}]},
+    "piezas": ["kono", "hon", "wa", "yomi", "yasui", "desu1", "yomu", "yominikui"],
+    "bien": [["kono", "hon", "wa", "yomi", "yasui", "desu1"]],
+    "tr": {"es": "Este libro es fácil de leer.", "en": "This book is easy to read."},
+    "efecto_bien": [{"tipo": "brilla", "objeto": "libro"}, {"tipo": "nyan", "cara": "feliz"}],
+    "fallos": [
+     {"si": {"contiene": ["yomu"]}, "efecto": {"tipo": "nyan", "cara": "pensando", "manpu": "pregunta"},
+      "msg": {"es": "Para やすい hace falta el radical de ます: 読[よ]み, no 読[よ]む.", "en": "For やすい you need the ます stem: 読み, not 読む."}},
+     {"si": {"contiene": ["yominikui"]}, "efecto": [{"tipo": "tiembla", "objeto": "libro"}, {"tipo": "nyan", "cara": "triste"}],
+      "msg": {"es": "Eso dice «difícil de leer»… ¡lo contrario! Fácil es 読[よ]みやすい.", "en": "That says «hard to read»… the opposite! Easy is 読みやすい."}},
+     {"si": {"falta": ["yasui"]}, "efecto": {"tipo": "nyan", "cara": "pensando", "manpu": "pregunta"},
+      "msg": {"es": "読[よ]み solo no dice nada: hace falta やすい o にくい detrás.", "en": "読み alone doesn't say anything: it needs やすい or にくい after it."}}
+    ]},
+   {"pide": {"es": "Di: «Este carácter es difícil de escribir».", "en": "Say: «This character is hard to write»."},
+    "escena": {"fondo": "escuela", "cosas": [{"que": "nyan", "x": 130, "cara": "pensando"}]},
+    "piezas": ["kono", "ji", "wa", "kaki", "nikui", "desu2", "kaku", "kakiyasui"],
+    "bien": [["kono", "ji", "wa", "kaki", "nikui", "desu2"]], "tr": {"es": "Este carácter es difícil de escribir.", "en": "This character is hard to write."},
+    "efecto_bien": [{"tipo": "nyan", "cara": "triste", "manpu": "sudor"}, {"tipo": "tiembla", "objeto": "nyan"}],
+    "fallos": [
+     {"si": {"contiene": ["kaku"]}, "efecto": {"tipo": "nyan", "cara": "pensando", "manpu": "pregunta"},
+      "msg": {"es": "Para にくい hace falta el radical de ます: 書[か]き, no 書[か]く.", "en": "For にくい you need the ます stem: 書き, not 書く."}},
+     {"si": {"contiene": ["kakiyasui"]}, "efecto": {"tipo": "nyan", "cara": "feliz"},
+      "msg": {"es": "Eso dice «fácil de escribir»… ¡lo contrario! Difícil es 書[か]きにくい.", "en": "That says «easy to write»… the opposite! Hard is 書きにくい."}},
+     {"si": {"falta": ["nikui"]}, "efecto": {"tipo": "nyan", "cara": "pensando", "manpu": "pregunta"},
+      "msg": {"es": "書[か]き solo no dice nada: hace falta にくい o やすい detrás.", "en": "書き alone doesn't say anything: it needs にくい or やすい after it."}}
+    ]},
+   {"pide": {"es": "Di: «Duermo con la ventana abierta (tal cual)».", "en": "Say: «I sleep with the window left open»."},
+    "escena": {"fondo": "noche", "cosas": [{"que": "nyan", "x": 200, "cara": "sueno", "s": 1.1}]},
+    "piezas": ["mado", "wo1", "aketa", "mama", "nemasu", "akeru", "akete"],
+    "bien": [["mado", "wo1", "aketa", "mama", "nemasu"]], "tr": {"es": "Duermo con la ventana abierta.", "en": "I sleep with the window open."},
+    "efecto_bien": [{"tipo": "duerme", "objeto": "nyan"}, {"tipo": "nyan", "cara": "sueno"}],
+    "fallos": [
+     {"si": {"contiene": ["akeru"]}, "efecto": {"tipo": "nyan", "cara": "pensando", "manpu": "pregunta"},
+      "msg": {"es": "Hace falta la forma pasada antes de まま: 開[あ]けた, no 開[あ]ける.", "en": "You need the past form before まま: 開けた, not 開ける."}},
+     {"si": {"contiene": ["akete"]}, "efecto": {"tipo": "nyan", "cara": "pensando", "manpu": "pregunta"},
+      "msg": {"es": "開[あ]けて es la forma en て. まま necesita el pasado: 開[あ]けた.", "en": "開けて is the て form. まま needs the past form: 開けた."}},
+     {"si": {"falta": ["mama"]}, "efecto": {"tipo": "nyan", "cara": "normal"},
+      "msg": {"es": "Sin まま no queda claro que la ventana sigue abierta.", "en": "Without まま it's not clear the window stays open."}}
+    ]},
+   {"pide": {"es": "Di: «Entro con los zapatos puestos, tal cual».", "en": "Say: «I go in with my shoes still on»."},
+    "escena": {"fondo": "cuarto", "cosas": [{"que": "nyan", "x": 120}, {"que": "zapato", "x": 270}]},
+    "piezas": ["kutsu", "no", "mama", "heya", "ni", "hairimasu", "kutsuwo"],
+    "bien": [["kutsu", "no", "mama", "heya", "ni", "hairimasu"], ["heya", "ni", "kutsu", "no", "mama", "hairimasu"]], "tr": {"es": "Entro en la habitación con los zapatos puestos.", "en": "I go into the room with my shoes still on."},
+    "efecto_bien": [{"tipo": "brilla", "objeto": "zapato"}, {"tipo": "nyan", "cara": "feliz"}],
+    "fallos": [
+     {"si": {"contiene": ["kutsuwo"]}, "efecto": {"tipo": "nyan", "cara": "pensando", "manpu": "pregunta"},
+      "msg": {"es": "Para «tal cual» se usa の, no を: 靴[くつ]のまま, no 靴[くつ]をまま.", "en": "For “as is” you use の, not を: 靴のまま, not 靴をまま."}},
+     {"si": {"falta": ["mama"]}, "efecto": {"tipo": "nyan", "cara": "normal"},
+      "msg": {"es": "Sin まま no dice que los zapatos siguen puestos.", "en": "Without まま it doesn't say the shoes are still on."}},
+     {"si": {"falta": ["ni"]}, "efecto": {"tipo": "nyan", "cara": "pensando", "manpu": "pregunta"},
+      "msg": {"es": "Falta に: sin él no queda claro dónde entras.", "en": "You're missing に: without it, it's not clear where you're going in."}}
+    ]},
+   {"pide": {"es": "Reto: di «Estudié así, medio dormido».", "en": "Challenge: say «I studied just like this, half-asleep»."},
+    "escena": {"fondo": "escuela", "cosas": [{"que": "nyan", "x": 150, "cara": "sueno"}]},
+    "piezas": ["nemui", "mama", "benkyoushimashita", "nemukute", "nemukatta"],
+    "bien": [["nemui", "mama", "benkyoushimashita"]], "tr": {"es": "Estudié así, medio dormido.", "en": "I studied just like this, half-asleep."},
+    "efecto_bien": [{"tipo": "nyan", "cara": "sueno"}, {"tipo": "tiembla", "objeto": "nyan"}],
+    "fallos": [
+     {"si": {"contiene": ["nemukute"]}, "efecto": {"tipo": "nyan", "cara": "pensando", "manpu": "pregunta"},
+      "msg": {"es": "まま no usa la forma en て de los adjetivos: se queda tal cual, 眠[ねむ]い, no 眠[ねむ]くて.", "en": "まま doesn't use the て form of adjectives: it stays as is, 眠い, not 眠くて."}},
+     {"si": {"contiene": ["nemukatta"]}, "efecto": {"tipo": "nyan", "cara": "pensando", "manpu": "pregunta"},
+      "msg": {"es": "Aunque la frase sea pasado, el adjetivo se queda en presente con まま: 眠[ねむ]い, no 眠[ねむ]かった.", "en": "Even though the sentence is past tense, the adjective stays present with まま: 眠い, not 眠かった."}},
+     {"si": {"falta": ["mama"]}, "efecto": {"tipo": "nyan", "cara": "normal"},
+      "msg": {"es": "Sin まま no dice que seguía medio dormido mientras estudiaba.", "en": "Without まま it doesn't say he was still half-asleep while studying."}}
+    ]}
+  ]
+ },
+ "juego": {
+  "intro": {"es": "¿やすい, にくい o まま? Completa cada frase.", "en": "やすい, にくい, or まま? Complete each sentence."},
+  "nyan": {"es": "A mí todo me resulta un poco にくい, la verdad.", "en": "Honestly, everything is a bit にくい for me."},
+  "cestas": [
+   {"id": "yasui", "jp": "やすい", "sub": {"es": "fácil de…", "en": "easy to…"}},
+   {"id": "nikui", "jp": "にくい", "sub": {"es": "difícil de…", "en": "hard to…"}},
+   {"id": "mama", "jp": "まま", "sub": {"es": "tal cual, sin cambiar", "en": "as is, unchanged"}}
+  ],
+  "cartas": [
+   {"id": "j1", "dibujo": "lapiz", "jp": "この ペンは 書[か]き＿です。", "cesta": "yasui", "es": "Este boli es fácil de escribir con él.", "en": "This pen is easy to write with."},
+   {"id": "j2", "dibujo": "libro", "jp": "この 本[ほん]は 読[よ]み＿。", "cesta": "yasui", "es": "Este libro es fácil de leer.", "en": "This book is easy to read."},
+   {"id": "j3", "jp": "この 説明[せつめい]は 分[わ]かり＿。", "cesta": "yasui", "es": "Esta explicación es fácil de entender.", "en": "This explanation is easy to understand."},
+   {"id": "j4", "jp": "この 字[じ]は 書[か]き＿。", "cesta": "nikui", "es": "Este carácter es difícil de escribir.", "en": "This character is hard to write."},
+   {"id": "j5", "jp": "この 漢字[かんじ]は 読[よ]み＿。", "cesta": "nikui", "es": "Este kanji es difícil de leer.", "en": "This kanji is hard to read."},
+   {"id": "j6", "jp": "この 問題[もんだい]は 分[わ]かり＿。", "cesta": "nikui", "es": "Este problema es difícil de entender.", "en": "This problem is hard to understand."},
+   {"id": "j7", "dibujo": "zapato", "jp": "靴[くつ]の＿、入[はい]ります。", "cesta": "mama", "es": "Entro con los zapatos puestos, tal cual.", "en": "I go in with my shoes still on.",
+    "truco": {"es": "の + まま, no を: 靴[くつ]のまま.", "en": "の + まま, not を: 靴のまま."}},
+   {"id": "j8", "jp": "窓[まど]を 開[あ]けた＿、寝[ね]ます。", "cesta": "mama", "es": "Duermo con la ventana abierta.", "en": "I sleep with the window open."},
+   {"id": "j9", "jp": "眠[ねむ]い＿、勉強[べんきょう]します。", "cesta": "mama", "es": "Estudio así, medio dormido.", "en": "I study just like this, half-asleep.",
+    "truco": {"es": "Los adjetivos い se quedan en presente con まま.", "en": "い-adjectives stay in present tense with まま."}}
+  ]
+ },
+ "outro": [
+  {"escena": {"fondo": "escuela", "cosas": [{"que": "nyan", "x": 110, "cara": "feliz"}, {"que": "libro", "x": 210, "s": 1.3}, {"que": "profesor", "x": 300}]},
+   "habla": "sensei", "cara": "normal", "jp": "この 本[ほん]は 読[よ]みやすいです。", "voz": "o1",
+   "tr": {"es": "Este libro es fácil de leer.", "en": "This book is easy to read."},
+   "cartela": {"es": "〜やすい・〜にくい: el radical de ます + fácil o difícil. Con el sensei, siempre con educación.", "en": "〜やすい・〜にくい: the ます stem + easy or hard. With the teacher, always politely."}},
+  {"escena": {"fondo": "cuarto", "cosas": [{"que": "nyan", "x": 120}, {"que": "zapato", "x": 270}]},
+   "cara": "normal", "jp": "靴[くつ]のまま、入[はい]ります。", "voz": "o2",
+   "tr": {"es": "Entro con los zapatos puestos.", "en": "I go in with my shoes still on."},
+   "cartela": {"es": "まま: nada cambia. Se queda tal cual estaba.", "en": "まま: nothing changes. It stays just as it was."}},
+  {"escena": {"fondo": "noche", "cosas": [{"que": "nyan", "x": 200, "cara": "sueno", "s": 1.1}, {"que": "manpu", "tipo": "z", "x": 250, "y": 90}]},
+   "cara": "sueno", "jp": "窓[まど]を 開[あ]けたまま…zzz。", "voz": "o3",
+   "tr": {"es": "Con la ventana abierta… zzz.", "en": "With the window open… zzz."},
+   "cartela": {"es": "Fin. Fácil, difícil, o tal cual: ya sabes las tres. (La ventana, mejor ciérrala.)", "en": "The end. Easy, hard, or as is: now you know all three. (That window, better close it.)"}}
+ ],
+ "chuleta": {
+  "patron": {"es": "〔ます radical〕やすい・にくい ／ 〔pasado〕まま", "en": "〔ます stem〕やすい・にくい / 〔past form〕まま"},
+  "patron_tr": {"es": "fácil / difícil de hacer ／ tal cual, sin cambiar", "en": "easy / hard to do / as is, unchanged"},
+  "columnas": [
+   {"jp": "やすい", "texto": {"es": "fácil de hacer", "en": "easy to do"}, "dibujos": ["libro"]},
+   {"jp": "にくい", "texto": {"es": "difícil de hacer", "en": "hard to do"}, "dibujos": ["lapiz"]},
+   {"jp": "まま", "texto": {"es": "tal cual, sin cambiar", "en": "as is, unchanged"}, "dibujos": ["zapato"]}
+  ],
+  "filas": [
+   {"jp": "この 本[ほん]は 読[よ]みやすいです。", "es": "Este libro es fácil de leer.", "en": "This book is easy to read.", "registro": "educado"},
+   {"jp": "この 本[ほん]、読[よ]みやすい。", "es": "Este libro es fácil de leer.", "en": "This book is easy to read.", "registro": "amigos"},
+   {"jp": "この 字[じ]は 書[か]きにくいです。", "es": "Este carácter es difícil de escribir.", "en": "This character is hard to write.", "registro": "educado"},
+   {"jp": "靴[くつ]のまま、入[はい]ります。", "es": "Entro con los zapatos puestos.", "en": "I go in with my shoes still on.", "registro": "educado"},
+   {"jp": "靴[くつ]の まま、入[はい]る。", "es": "Entro con los zapatos puestos.", "en": "I go in with my shoes still on.", "registro": "amigos"}
+  ],
+  "consejo": {"es": "やすい・にくい también son adjetivos い: 読[よ]みやすかった (fue fácil de leer). Primo: まま dice que algo sigue tal cual, sin más; てある (ya vista) dice que alguien lo dejó así a propósito, listo para algo.", "en": "やすい・にくい are also い-adjectives: 読みやすかった (it was easy to read). Primo: まま just says something stays as it is; てある (already covered) says someone left it that way on purpose, ready for something."}
+ }
+}

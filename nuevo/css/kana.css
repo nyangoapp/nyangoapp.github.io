@@ -1,0 +1,183 @@
+/* ══ Kana: la tabla (con tu dominio), la ficha de cada kana (una carta con anilla cuyo metal dice lo que lo dominas) y la práctica de 12 preguntas ══ */
+#pantalla[data-p="kana"] { overflow: hidden; }
+.kn { position: relative; height: 100%; display: flex; flex-direction: column; }
+.kn-carga { align-items: center; justify-content: center; gap: 12px; text-align: center; font: 700 16px var(--f-txt); color: var(--tinta-2); }
+.kn-carga img { width: 150px; animation: kn-flota 2.4s ease-in-out infinite; } @keyframes kn-flota { 50% { translate: 0 -8px; } }
+
+/* ── la cabecera: salir, título, las dos escrituras y tu XP ── */
+.kn .kn-cab { flex: none; width: 100%; max-width: 1320px; padding: 16px 28px 0; gap: 18px; }
+.kn-escrituras { display: flex; gap: 10px; margin: 0 auto; }
+.kn-esc { display: flex; align-items: center; gap: 12px; padding: 7px 14px 7px 7px; border-radius: 18px; border: var(--borde); background: var(--tile); color: var(--tinta); cursor: pointer; box-shadow: 0 4px 0 var(--linea), var(--sombra);
+  text-align: left; font: 800 15px var(--f-txt); transition: translate .18s var(--muelle), box-shadow .12s, background-color .2s, color .2s; }
+.kn-esc b { flex: none; width: 46px; height: 46px; display: grid; place-items: center; border-radius: 13px; background: color-mix(in srgb, var(--tinta) 6%, var(--tile-c)); box-shadow: inset 0 0 0 2px var(--linea); font: 600 24px/1 var(--f-jp); }
+.kn-esc-t { display: grid; gap: 1px; } .kn-esc-t small { font: 700 12px var(--f-txt); color: var(--tinta-2); } .kn-dom-n { font: 700 13px var(--f-num); color: var(--tinta); }
+.kn-esc .kbd { margin-left: 4px; }
+.kn-esc:hover { translate: 0 -2px; } .kn-esc:active { translate: 0 3px; box-shadow: 0 1px 0 var(--linea); }
+.kn-esc.si { background: var(--boton); color: var(--sobre); box-shadow: 0 4px 0 var(--labio), var(--sombra); }
+.kn-esc.si b { background: rgba(255, 255, 255, .24); box-shadow: none; } .kn-esc.si .kn-esc-t small, .kn-esc.si .kn-dom-n { color: color-mix(in srgb, var(--sobre) 82%, transparent); } .kn-esc.si .kbd { background: rgba(255, 255, 255, .22); }
+.kn-xp { flex: none; }
+
+/* ── los grupos ── */
+.kn-cuerpo { flex: 1 1 0; min-height: 0; display: flex; flex-direction: column; gap: 12px; width: 100%; max-width: 1320px; margin: 0 auto; padding: 12px 28px 0; }
+.kn-grupos { display: flex; justify-content: center; flex-wrap: wrap; gap: 8px; }
+.kn-grupo { display: inline-flex; align-items: center; gap: 8px; height: 40px; padding: 0 8px 0 16px; border-radius: 14px; border: 2px solid var(--linea); border-bottom-width: 4px; background: var(--tile-c); color: var(--tinta-2); font: 800 14px var(--f-txt); cursor: pointer;
+  transition: translate .18s var(--muelle), background-color .2s, color .2s, border-color .2s; }
+.kn-grupo small { min-width: 26px; padding: 2px 7px; border-radius: 99px; background: var(--linea); color: var(--tinta-2); font: 700 11.5px var(--f-num); text-align: center; }
+.kn-grupo:hover { translate: 0 -2px; color: var(--tinta); } .kn-grupo:active { translate: 0 2px; border-bottom-width: 2px; }
+.kn-grupo.si { background: var(--boton); border-color: var(--labio); color: var(--sobre); } .kn-grupo.si small { background: rgba(255, 255, 255, .24); color: var(--sobre); }
+.kn-g-c { display: none; }
+.kn-ten { display: inline-block; font-size: 1.5em; line-height: 0; margin: 0 1px; transform: translateY(.32em); }
+
+/* ── la mesa: la tabla de papel y, a su lado, la ficha ── */
+.kn-mesa { flex: 1 1 0; min-height: 0; display: grid; grid-template-columns: minmax(0, 1fr) clamp(330px, 31vw, 430px); gap: 24px; width: 100%; padding-top: 22px; }
+.kn-tablero { position: relative; min-height: 0; display: grid; padding: 16px 20px 20px; border-radius: var(--radio); background: var(--tile); border: var(--borde); box-shadow: var(--sombra); }
+.kn-tabla { --h: clamp(5px, .7vw, 9px); min-height: 0; display: grid; gap: var(--h); grid-auto-flow: column; grid-template-rows: auto repeat(var(--filas), minmax(0, 1fr)); grid-template-columns: auto repeat(var(--cols), minmax(0, 104px)); justify-content: center; align-content: stretch; }
+.kn-tabla.vertical { grid-auto-flow: row; grid-template-columns: auto repeat(var(--filas), minmax(0, 1fr)); grid-template-rows: auto repeat(var(--cols), minmax(0, 1fr)); }
+.kn-eje, .kn-esquina { display: grid; place-items: center; font: 800 12px var(--f-num); color: var(--tinta-2); text-transform: uppercase; letter-spacing: .08em; }
+.kn-col { position: relative; display: inline-flex; align-items: center; justify-content: center; gap: 4px; min-width: 34px; height: 36px; align-self: center; justify-self: center; padding: 0 12px; border-radius: 12px; border: 2px solid var(--linea); border-bottom-width: 4px; background: var(--tile-c); color: var(--tinta-2);
+  font: 800 14px var(--f-num); cursor: pointer; transition: translate .18s var(--muelle), background-color .2s, color .2s, border-color .2s; }
+.kn-col::after { content: ""; position: absolute; inset: -4px -2px; }
+.kn-tic { display: none; font: 900 11px/1 var(--f-txt); font-style: normal; }
+.kn-col:hover { translate: 0 -2px; color: var(--tinta); } .kn-col:active { translate: 0 2px; border-bottom-width: 2px; }
+.kn-col.si { background: var(--boton); border-color: var(--labio); color: var(--sobre); } .kn-col.si .kn-tic { display: inline; }
+.kn-tabla.vertical .kn-col { justify-self: end; }
+.kn-celda { position: relative; min-width: 0; min-height: 0; display: grid; place-items: center; align-content: center; gap: 1px; padding: 4px 2px 10px; border-radius: 16px; border: 2px solid var(--linea); border-bottom-width: 5px; background: var(--fibra), var(--tile-c); color: var(--tinta); cursor: pointer; opacity: .55;
+  transition: opacity .25s, translate .18s var(--muelle), background-color .2s, border-color .2s, box-shadow .2s; }
+.kn-celda.en { opacity: 1; }
+.kn-celda b { font: 600 clamp(22px, min(5vh, 3.1vw), 42px)/1 var(--f-jp); white-space: nowrap; }
+.kn-celda.doble b { font-size: clamp(16px, min(3.6vh, 2.1vw), 30px); letter-spacing: -.05em; }
+.kn-celda small { font: 700 clamp(10px, 1.55vh, 13px) var(--f-num); color: var(--tinta-2); letter-spacing: .02em; }
+.kn-dom { position: absolute; left: 20%; right: 20%; bottom: 6px; height: 5px; display: flex; gap: 2px; }
+.kn-dom s { flex: 1; border-radius: 2px; background: var(--linea); text-decoration: none; }
+.kn-dom s.on { background: var(--acento); }
+.kn-celda:is(.d3, .d4) .kn-dom s.on { background: var(--ok); }
+.kn-celda.d3, .kn-celda.d4 { border-bottom-color: color-mix(in srgb, var(--ok) 45%, var(--linea)); }
+.kn-celda.d5 { border-color: #d9a93a; box-shadow: 0 0 0 1px rgba(217, 169, 58, .35), 0 0 14px -2px rgba(217, 169, 58, .5); } .kn-celda.d5 .kn-dom s.on { background: #d9a93a; }
+.kn-celda:hover { translate: 0 -3px; opacity: 1; background: var(--suave); } .kn-celda:active { translate: 0 2px; border-bottom-width: 3px; }
+.kn-celda.sel { opacity: 1; translate: 0 -3px; border-color: var(--acento); background: var(--suave); box-shadow: 0 0 0 4px color-mix(in srgb, var(--acento) 26%, transparent), 0 10px 18px -10px rgba(0, 0, 0, .35); }
+:is(.kn-esc, .kn-grupo, .kn-col, .kn-celda, .kn-chip, .kn-palabra, .kn-otra, .kn-cerrar, .kn-oir):focus-visible { outline: 3px solid var(--acento); outline-offset: 2px; }
+
+/* ── la ficha: una carta con anilla; el metal y la banda dicen lo que dominas ese kana ── */
+.kn .kn-ficha { position: relative; width: 100%; min-height: 0; display: flex; flex-direction: column; text-align: left; align-self: stretch; --tc: var(--r0); }
+.kn .kn-ficha .c-arriba { flex: none; padding: 26px 20px 0 66px; }
+.kn-ficha .sello-r { font-size: 11.5px; } .kn-ficha .sello-r::after { width: 48px; }
+.kn-ficha-cuerpo { flex: 1 1 auto; min-height: 0; display: flex; flex-direction: column; gap: 12px; padding: 12px 20px 20px; overflow: hidden; }
+.kn-cab-ficha { flex: none; display: flex; align-items: center; gap: 16px; }
+.kn-dibujo { position: relative; flex: none; width: clamp(128px, 24vh, 182px); }
+.kn-dibujo:has(svg[viewBox^="-4 -4 176"]) { width: clamp(168px, 32vh, 240px); max-width: 66%; }
+.kn-svg { display: block; width: 100%; height: auto; overflow: visible; }
+.kn-masu rect { fill: color-mix(in srgb, var(--tinta) 4%, var(--tile-c)); stroke: var(--linea); stroke-width: 2; } .kn-masu path { fill: none; stroke: var(--linea); stroke-width: 1; stroke-dasharray: 3 3; }
+.kn-sombra { fill: none; stroke: color-mix(in srgb, var(--tinta) 11%, transparent); stroke-width: 5.6; stroke-linecap: round; stroke-linejoin: round; }
+.kn-t { fill: none; stroke: var(--tinta); stroke-width: 5.2; stroke-linecap: round; stroke-linejoin: round; }
+.kn-num { font: 700 9.5px var(--f-num); fill: var(--acento); paint-order: stroke; stroke: var(--tile-c); stroke-width: 2.6px; stroke-linejoin: round; transform-box: fill-box; transform-origin: center; }
+.kn-ficha .b-trazos { right: -8px; bottom: -8px; }
+.kn-sonido { min-width: 0; display: grid; gap: 10px; justify-items: start; }
+.kn-romaji { font: var(--peso-tit) clamp(36px, 6.4vh, 58px)/1 var(--f-tit); letter-spacing: var(--espacio-tit); color: var(--acento); }
+.kn-ficha .b-play.kn-oir { height: 50px; padding: 0 12px 0 18px; border-radius: 15px; font-size: 18px; }
+.kn-mnemo { flex: none; }
+.kn-mnemo.peq { max-width: 540px; text-align: left; font-size: 13.5px; }
+.kn-ficha .kn-parece { flex: none; padding: 10px 14px 12px; border-radius: 14px; background: color-mix(in srgb, var(--mal) 7%, var(--tile-c)); box-shadow: inset 0 0 0 2px color-mix(in srgb, var(--mal) 24%, transparent); }
+:is(.kn-parece, .kn-repasa, .kn-ejemplos) > small { display: block; margin-bottom: 6px; font: 800 10.5px var(--f-txt); letter-spacing: .14em; text-transform: uppercase; color: var(--tinta-2); }
+.kn-parece > small { color: color-mix(in srgb, var(--mal) 70%, var(--tinta)); }
+.kn-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.kn-ejemplos { flex: 1 1 0; min-height: 0; display: flex; flex-direction: column; } .kn-ejemplos > small { flex: none; }
+.kn-ejemplos > small span { font-size: 1.25em; letter-spacing: 0; text-transform: none; color: var(--tinta); }
+.kn-lista { flex: 1 1 0; min-height: 0; overflow: hidden; display: grid; gap: 6px; align-content: start; }
+.kn-palabra { display: grid; grid-template-columns: minmax(0, 1fr) auto; column-gap: 10px; align-items: center; padding: 6px 8px 6px 14px; border: 0; border-radius: 14px; background: color-mix(in srgb, var(--tinta) 3%, var(--tile-c)); box-shadow: inset 0 0 0 2px var(--linea); color: var(--tinta); text-align: left; cursor: pointer; transition: box-shadow .2s, translate .18s var(--muelle); }
+.kn-palabra:hover { box-shadow: inset 0 0 0 2px color-mix(in srgb, var(--acento) 45%, transparent); translate: 0 -2px; }
+.kn-pj { font: 800 20px/1.3 var(--f-txt); } .kn-palabra small { grid-column: 1; font: 600 12.5px var(--f-txt); color: var(--tinta-2); }
+.kn-lect { margin-left: 8px; font: 600 13px var(--f-txt); color: var(--tinta-2); }
+.kn-palabra mark { background: linear-gradient(transparent 58%, color-mix(in srgb, var(--acento) 34%, transparent) 58%); color: inherit; border-radius: 3px; padding: 0 1px; }
+.kn-pp { grid-row: 1 / span 2; grid-column: 2; width: 32px; height: 32px; display: grid; place-items: center; border-radius: 10px; background: var(--boton); color: var(--sobre); box-shadow: 0 3px 0 var(--labio); font-size: 12px; font-style: normal; }
+.kn-nada { margin: 0; font: 600 13px var(--f-txt); color: var(--tinta-2); }
+.kn-cerrar { display: none; }
+.kn-ficha.vacia { --m1: #ffffff; --m2: #c4cbd3; --m3: #7b8591; }
+.kn-vacia-c { margin: auto; display: grid; justify-items: center; gap: 10px; padding: 34px 30px 30px; text-align: center; font: 600 15.5px/1.5 var(--f-txt); color: var(--tinta-2); text-wrap: balance; }
+.kn-vacia-c img { width: clamp(130px, 24vh, 200px); animation: kn-flota 3s ease-in-out infinite; } .kn-vacia-c p { margin: 0; }
+
+/* ── el pie: la pista y el botón de practicar ── */
+.kn-pie { flex: none; display: flex; align-items: center; justify-content: center; gap: 22px; padding: 14px 28px 22px; }
+.kn-pista { max-width: 440px; font: 600 13.5px/1.4 var(--f-txt); color: var(--tinta-2); text-align: right; }
+.kn .kn-practicar { height: 62px; padding: 0 26px 0 30px; font-size: 19px; background: var(--boton); color: var(--sobre); box-shadow: var(--sombra-cta); }
+.kn .kn-practicar .kbd { background: rgba(255, 255, 255, .22); } .kn .kn-practicar[disabled] { opacity: .5; box-shadow: none; }
+:root[data-tema="pop"] .kn .kn-practicar { box-shadow: 0 6px 0 #1a1033; } :root[data-tema="sumi"] .kn .kn-practicar { font-size: 22px; }
+:root[data-tema="heisei"] #pantalla[data-p="kana"] .kn-pista { color: rgba(222, 232, 255, .8); }
+:root[data-tema="heisei"] #pantalla[data-p="kana"] .p-tit h1 { color: #fff; text-shadow: 0 0 22px rgba(127, 243, 255, .45); } :root[data-tema="heisei"] #pantalla[data-p="kana"] .p-tit small { color: #7ff3ff; }
+
+/* ══ la práctica: el repaso en pequeño (carta con anilla, mazo, pila de hechas, racha que calienta la sala) ══ */
+#pantalla[data-p="kana"] .kn-sesion { z-index: 1; }
+.kn-ronda { flex: none; display: inline-flex; align-items: center; gap: 9px; padding: 5px 14px 5px 5px; border-radius: 99px; background: var(--tile); border: var(--borde); box-shadow: var(--sombra); font: 800 14px var(--f-txt); color: var(--tinta); }
+.kn-ronda b { width: 30px; height: 30px; display: grid; place-items: center; border-radius: 50%; background: var(--r0); color: #fff; font: 900 14px var(--f-txt); }
+.kn-sesion[data-escritura="katakana"] .kn-ronda b { background: var(--r1); }
+.kn-sesion .carta .pal-jp.kn-romaji { font-family: var(--f-tit); font-weight: var(--peso-tit); letter-spacing: var(--espacio-tit); color: var(--acento); }
+.cinta-p .kn-minus { text-transform: none; letter-spacing: 0; }
+.kn-ops .opcion .o-txt { display: block; }
+.kn-ops .opcion .o-txt.es { font: var(--peso-tit) 26px/1.1 var(--f-tit); letter-spacing: var(--espacio-tit); }
+.kn-ops .opcion .o-txt.jp { font: 600 32px/1.1 var(--f-jp); }
+.kn-sol { min-height: 0; display: grid; justify-items: center; margin-top: 4px; } .kn-sol:empty { display: none; }
+.kn-sesion .mazo i:nth-child(3)::after { content: "かな"; letter-spacing: .04em; }
+.kn-dorso { padding-top: 14px; }
+.kn-caja { height: 190px; } .kn-caja .kn-svg { position: relative; z-index: 1; width: auto; height: 86%; max-width: 92%; }
+.kn-dorso .d-sig b { font-family: var(--f-tit); font-weight: var(--peso-tit); font-size: 38px; letter-spacing: var(--espacio-tit); color: var(--acento); }
+.kn-dorso .d-pron .d-sig { flex: 1 1 auto; min-width: 150px; }
+.kn-mnemo-d { }
+.kn-sesion .ayuda[hidden] { display: none; }
+/* el final: la nota es el rango de la carta */
+#kn-hueco.fin { place-items: center; }
+.kn-final { width: min(560px, 100%); }
+.kn-fin-c { display: grid; justify-items: center; gap: 8px; padding: 6px 34px 28px; text-align: center; }
+.kn-final .estrellas { font-size: 48px; line-height: 1; display: flex; justify-content: center; gap: 8px; }
+.kn-final .estrellas i { font-style: normal; color: var(--linea); display: inline-block; } .kn-final .estrellas i.si { color: var(--oro); text-shadow: 0 4px 0 rgba(0, 0, 0, .15); }
+.kn-final h3 { margin: 2px 0 0; font: var(--peso-tit) 38px/1.05 var(--f-tit); letter-spacing: var(--espacio-tit); text-wrap: balance; }
+.kn-fin-num { font: 600 18px var(--f-txt); color: var(--tinta-2); font-variant-numeric: tabular-nums; } .kn-fin-num b { font: 700 64px/1 var(--f-num); color: var(--acento); }
+.kn-fin-xp { display: inline-block; padding: 6px 18px; border-radius: 99px; background: var(--oro); color: #3a2405; font: 700 20px var(--f-num); box-shadow: 0 6px 14px -6px rgba(0, 0, 0, .4); font-variant-numeric: tabular-nums; }
+.kn-repasa { margin-top: 6px; } .kn-repasa .kn-chips { justify-content: center; }
+.kn-final .acciones { margin-top: 12px; }
+
+/* ── pantallas bajas ── */
+@media (max-height: 800px) and (min-width: 761px) {
+  .kn .kn-cab { padding-top: 12px; } .kn-cuerpo { gap: 8px; padding-top: 8px; } .kn-grupo { height: 36px; } .kn-mesa { padding-top: 20px; } .kn-tablero { padding: 12px 16px 14px; }
+  .kn-pie { padding: 8px 28px 14px; } .kn .kn-practicar { height: 54px; font-size: 17px; } .kn .kn-ficha .c-arriba { padding-top: 22px; }
+  .kn-ficha-cuerpo { gap: 9px; padding: 10px 18px 14px; } .kn-dibujo { width: clamp(112px, 22vh, 150px); } .kn-romaji { font-size: clamp(32px, 5.6vh, 46px); }
+  .kn-final .estrellas { font-size: 40px; } .kn-final h3 { font-size: 32px; } .kn-fin-num b { font-size: 52px; } .kn-fin-c { padding-bottom: 20px; gap: 6px; }
+}
+@media (max-width: 1100px) and (min-width: 761px) { .kn-esc-t small { display: none; } .kn-esc .kbd { display: none; } .kn-mesa { grid-template-columns: minmax(0, 1fr) 320px; } }
+
+/* ══ móvil: la tabla girada (filas de consonante), la ficha como hoja que sube desde abajo y la práctica a pantalla completa ══ */
+@media (max-width: 760px) {
+  .kn .kn-cab { flex-wrap: wrap; padding: 10px 12px 0; gap: 8px 10px; }
+  .kn-cab .p-tit h1 { font-size: 24px; } .kn-cab .p-tit small { font-size: 11px; }
+  .kn-cab .s-cerrar { width: 42px; height: 42px; }
+  .kn-xp { margin-left: auto; padding: 5px 12px 5px 5px; } .kn-xp .barra { width: 60px; } .kn-xp b { font-size: 14px; }
+  .kn-escrituras { order: 3; width: 100%; margin: 0; gap: 8px; }
+  .kn-esc { flex: 1 1 0; min-width: 0; padding: 5px 10px 5px 5px; gap: 9px; border-radius: 16px; } .kn-esc b { width: 40px; height: 40px; font-size: 21px; border-radius: 11px; }
+  .kn-esc-t { font-size: 14px; } .kn-esc-t small { font-size: 11px; } .kn-esc .kbd { display: none; }
+  .kn-cuerpo { padding: 10px 10px 0; gap: 8px; }
+  .kn-grupos { gap: 6px; flex-wrap: nowrap; } .kn-grupo { flex: 1 1 auto; height: 38px; padding: 0 8px; justify-content: center; font-size: 12.5px; border-radius: 12px; } .kn-grupo small { display: none; }
+  .kn-g-l { display: none; } .kn-g-c { display: inline; }
+  .kn-mesa { grid-template-columns: minmax(0, 1fr); padding-top: 0; gap: 0; }
+  .kn-tablero { padding: 8px 8px 10px; border-radius: 22px; }
+  .kn-tabla { --h: 4px; grid-template-columns: auto repeat(var(--filas), minmax(0, 1fr)); }
+  .kn-tabla.vertical { grid-template-columns: auto repeat(var(--filas), minmax(0, 1fr)); }
+  .kn-col { height: 100%; max-height: 40px; min-width: 32px; padding: 0 7px; font-size: 12.5px; border-radius: 10px; }
+  .kn-celda { padding: 2px 1px 7px; border-radius: 11px; border-bottom-width: 3px; gap: 0; } .kn-celda b { font-size: clamp(17px, 3.3vh, 24px); } .kn-celda.doble b { font-size: clamp(13px, 2.4vh, 18px); } .kn-celda small { font-size: 8.5px; }
+  .kn-dom { bottom: 3px; height: 3px; left: 16%; right: 16%; gap: 1px; }
+  .kn-celda.sel, .kn-celda:hover { translate: 0 -1px; }
+  .kn-pie { padding: 8px 12px calc(12px + env(safe-area-inset-bottom, 0px)); } .kn-pista { display: none; } .kn .kn-practicar { width: 100%; height: 54px; justify-content: center; font-size: 17px; padding: 0 20px; } .kn .kn-practicar .kbd { display: none; }
+  /* la ficha sube como una hoja desde abajo */
+  .kn .kn-ficha { position: fixed; z-index: 30; left: 8px; right: 8px; bottom: 8px; width: auto; max-height: 76vh; translate: 0 118%; transition: translate .5s var(--muelle); }
+  .kn .kn-ficha.abierta { translate: 0 0; } .kn .kn-ficha.vacia { visibility: hidden; transition: none; }
+  .kn-cerrar { display: grid; place-items: center; top: 18px; right: 12px; width: 36px; height: 36px; z-index: 6; }
+  .kn .kn-ficha .c-arriba { padding: 22px 56px 0 60px; } .kn-ficha .sello-r { font-size: 0; } .kn-ficha .sello-r i { font-size: 13px; }
+  .kn-ficha-cuerpo { gap: 8px; padding: 8px 14px 14px; } .kn-dibujo { width: clamp(100px, 18vh, 140px); } .kn-dibujo:has(svg[viewBox^="-4 -4 176"]) { width: clamp(140px, 26vh, 190px); }
+  .kn-romaji { font-size: 38px; } .kn-ficha .b-play.kn-oir { height: 44px; } .kn-mnemo { font-size: 13px; padding: 8px 12px 9px; } .kn-ficha .kn-parece { padding: 8px 12px 10px; } .kn-ficha .kn-parece .chip-k { transform: scale(.92); transform-origin: left center; }
+  .kn-ficha .kn-parece > small, .kn-ejemplos > small { margin-bottom: 4px; }
+  .kn-pj { font-size: 18px; } .kn-palabra { padding: 4px 6px 4px 12px; }
+  /* la práctica: la de siempre, con la cuenta a la vista */
+  #pantalla[data-p="kana"] .kn-sesion .s-cuenta { display: inline; } .kn-ronda { display: none; }
+  .kn-sesion .zona { padding-top: 6px; } .kn-sesion .carta .c-cara { min-height: 130px; } .kn-sesion .carta .pal-jp.solo { font-size: 84px; } .kn-sesion .altavoz { width: 96px; height: 96px; }
+  .kn-ops .opcion .o-txt.es { font-size: 22px; } .kn-ops .opcion .o-txt.jp { font-size: 28px; } .kn-sesion .opciones { grid-template-columns: 1fr 1fr; }
+  .kn-sesion .opcion { min-height: 56px; padding: 6px 10px 6px 52px; } .kn-sesion .opcion .kbd { left: 8px; min-width: 32px; height: 32px; }
+  .kn-final { width: 100%; } .kn-fin-c { padding: 4px 18px 20px; } .kn-final h3 { font-size: 28px; } .kn-final .estrellas { font-size: 38px; } .kn-fin-num b { font-size: 50px; }
+}
+@media (prefers-reduced-motion: reduce) { .kn-carga img, .kn-vacia-c img { animation: none; } }

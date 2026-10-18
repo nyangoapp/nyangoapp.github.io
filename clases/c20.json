@@ -1,0 +1,792 @@
+{
+ "id": "c20",
+ "clase": 20,
+ "desde": 325,
+ "titulo": {
+  "es": "La granja de Pon: 〜てもいい y 〜てはいけない",
+  "en": "Pon's farm: 〜てもいい and 〜てはいけない"
+ },
+ "resumen": {
+  "es": "〜てもいい pide o da permiso: «se puede». 〜てはいけない prohíbe: «no se puede». Las dos van después de la forma en て.",
+  "en": "〜てもいい asks for or gives permission: «you may». 〜てはいけない forbids: «you must not». Both go after the て-form."
+ },
+ "formato": 2,
+ "lugar": "granja",
+ "mision": {
+  "texto": {
+   "es": "Excursión a una granja de patatas… ¡y es la de la familia de Pon! Aquí hay normas: en Hokkaido, los campos no se pisan. Pide permiso para todo y descubre lo que no se puede hacer.",
+   "en": "A trip to a potato farm… and it's Pon's family's! There are rules here: in Hokkaido, you don't walk into the fields. Ask permission for everything and find out what isn't allowed."
+  },
+  "escena": {
+   "fondo": "granja",
+   "cosas": [
+    {
+     "que": "nyan",
+     "x": 70
+    },
+    {
+     "que": "gato",
+     "id": "tama",
+     "x": 160
+    },
+    {
+     "que": "persona",
+     "id": "tendero",
+     "x": 330
+    }
+   ]
+  },
+  "cara": "sorpresa",
+  "jp": "ポンさん！？",
+  "voz": "m0"
+ },
+ "reglas": [
+  {
+   "id": "temoii",
+   "nombre": {
+    "es": "〜てもいい: ¿se puede?",
+    "en": "〜てもいい: may I?"
+   },
+   "patron": {
+    "es": "〔verbo en て〕も いいですか ・ 〜ても いいです",
+    "en": "〔て verb〕も いいですか ・ 〜ても いいです"
+   },
+   "explica": {
+    "es": "Para pedir permiso, pon el verbo en て, añade も y pregunta いいですか: 写真を撮ってもいいですか, literalmente «aunque haga una foto, ¿está bien?». Así no das nada por hecho y dejas que el otro decida: por eso es la forma educada de pedir permiso en Japón. Para darlo, いいですよ o 撮ってもいいです.",
+    "en": "To ask permission, put the verb in て, add も and ask いいですか: 写真を撮ってもいいですか, literally «even if I take a photo, is it OK?». That way you take nothing for granted and let the other person decide: that's why it's the polite way to ask in Japan. To grant it, いいですよ or 撮ってもいいです."
+   },
+   "ejemplos": [
+    {
+     "jp": "写真[しゃしん]を 撮[と]っても いいですか。",
+     "es": "¿Puedo hacer una foto?",
+     "en": "May I take a photo?",
+     "voz": "r1-1"
+    },
+    {
+     "jp": "じゃがいもを 掘[ほ]っても いいですよ。",
+     "es": "Podéis sacar patatas.",
+     "en": "You can dig up potatoes.",
+     "voz": "r1-2"
+    }
+   ],
+   "ojo": {
+    "es": "Entre amigos, más corto: 撮ってもいい？, y la respuesta, いいよ.",
+    "en": "Among friends, shorter: 撮ってもいい？, and the answer, いいよ."
+   }
+  },
+  {
+   "id": "tehaikenai",
+   "nombre": {
+    "es": "〜てはいけない: no se puede",
+    "en": "〜てはいけない: you mustn't"
+   },
+   "patron": {
+    "es": "〔verbo en て〕は いけません",
+    "en": "〔て verb〕は いけません"
+   },
+   "explica": {
+    "es": "Para prohibir, forma て + は + いけません: 畑に入ってはいけません, «no se puede entrar al campo». いけない viene a decir «no va», «no puede ser». Es una prohibición clara, de norma: la usan profes, carteles y padres. En Hokkaido la oirás mucho en el campo, porque pisar un campo ajeno puede estropear la cosecha y llevar enfermedades de una tierra a otra: por eso los agricultores piden a los turistas que no entren.",
+    "en": "To forbid, て form + は + いけません: 畑に入ってはいけません, «you mustn't go into the field». いけない means roughly «no good», «can't be». It's a clear, rule-like prohibition: teachers, signs and parents use it. In Hokkaido you'll hear it a lot in the countryside, because walking into someone's field can ruin the crop and carry plant diseases from one soil to another: that's why farmers ask tourists to stay out."
+   },
+   "ejemplos": [
+    {
+     "jp": "畑[はたけ]に 入[はい]っては いけません。",
+     "es": "No se puede entrar al campo.",
+     "en": "You mustn't go into the field.",
+     "voz": "r2-1"
+    },
+    {
+     "jp": "生[なま]で 食[た]べては いけません。",
+     "es": "No se pueden comer crudas.",
+     "en": "You mustn't eat them raw.",
+     "voz": "r2-2"
+    }
+   ],
+   "ojo": {
+    "es": "Entre amigos se acorta: 入っちゃだめ, 食べちゃだめ (ては → ちゃ, いけない → だめ). Suena igual de firme, pero más cercano.",
+    "en": "Among friends it's shortened: 入っちゃだめ, 食べちゃだめ (ては → ちゃ, いけない → だめ). Just as firm, but closer."
+   }
+  }
+ ],
+ "historia": [
+  {
+   "t": "dice",
+   "habla": "tendero",
+   "jp": "いらっしゃい！ ここは わたしの 家族[かぞく]の 畑[はたけ]です！",
+   "tr": {
+    "es": "¡Bienvenidos! ¡Este es el campo de mi familia!",
+    "en": "Welcome! This is my family's field!"
+   },
+   "voz": "h1",
+   "cara": "feliz",
+   "reacciona": {
+    "nyan": "sorpresa",
+    "tama": "sorpresa"
+   },
+   "escena": {
+    "fondo": "granja",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 160
+     },
+     {
+      "que": "persona",
+      "id": "tendero",
+      "x": 330
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "ポンさん！ 北海道[ほっかいどう]に いたんですか！",
+   "tr": {
+    "es": "¡Pon! ¿¡Estabas en Hokkaido!?",
+    "en": "Pon! You were in Hokkaido?!"
+   },
+   "voz": "h2",
+   "cara": "sorpresa"
+  },
+  {
+   "t": "dice",
+   "habla": "tendero",
+   "jp": "はい。 家族[かぞく]の 手伝[てつだ]いです。",
+   "tr": {
+    "es": "Sí. Ayudo a mi familia.",
+    "en": "Yes. I'm helping my family."
+   },
+   "voz": "h3",
+   "cara": "feliz"
+  },
+  {
+   "t": "regla",
+   "regla": "temoii"
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "Nyan quiere hacer una foto del campo. Pide permiso a Pon:",
+    "en": "Nyan wants to take a photo of the field. Ask Pon's permission:"
+   },
+   "opciones": [
+    {
+     "jp": "写真[しゃしん]を 撮[と]っても いいですか。",
+     "bien": true,
+     "tr": {
+      "es": "¿Puedo hacer una foto?",
+      "en": "May I take a photo?"
+     },
+     "voz": "h4",
+     "porque": {
+      "es": "Forma て + も + いいですか: «¿está bien si…?», la manera educada de pedir permiso.",
+      "en": "て form + も + いいですか: «is it OK if…?», the polite way to ask permission."
+     }
+    },
+    {
+     "jp": "写真[しゃしん]を 撮[と]っては いいですか。",
+     "bien": false,
+     "porque": {
+      "es": "は se usa para prohibir (てはいけない). Para pedir permiso, も: 撮ってもいいですか.",
+      "en": "は is used to forbid (てはいけない). To ask permission, も: 撮ってもいいですか."
+     }
+    },
+    {
+     "jp": "写真[しゃしん]を 撮[と]りても いいですか。",
+     "bien": false,
+     "porque": {
+      "es": "La て de 撮る es 撮って (como el pasado, 撮った).",
+      "en": "The て form of 撮る is 撮って (like the past, 撮った)."
+     }
+    }
+   ],
+   "cara": "feliz",
+   "escena": {
+    "fondo": "granja",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "persona",
+      "id": "tendero",
+      "x": 320
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "tendero",
+   "jp": "はい、 いいですよ。 でも、 畑[はたけ]に 入[はい]っては いけません。",
+   "tr": {
+    "es": "Sí, claro. Pero no se puede entrar al campo.",
+    "en": "Yes, of course. But you mustn't go into the field."
+   },
+   "voz": "h5",
+   "plano": "medio",
+   "escena": {
+    "fondo": "granja",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "persona",
+      "id": "tendero",
+      "x": 320
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "tehaikenai"
+  },
+  {
+   "t": "monta",
+   "encargo": 0
+  },
+  {
+   "t": "dice",
+   "habla": "tendero",
+   "jp": "じゃがいもを 掘[ほ]っても いいですよ！",
+   "tr": {
+    "es": "¡Podéis sacar patatas!",
+    "en": "You can dig up some potatoes!"
+   },
+   "voz": "h6",
+   "cara": "feliz",
+   "reacciona": {
+    "nyan": "feliz"
+   },
+   "escena": {
+    "fondo": "granja",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "jagaimo",
+      "x": 200,
+      "id": "jagaimo",
+      "s": 1.1
+     },
+     {
+      "que": "persona",
+      "id": "tendero",
+      "x": 320
+     }
+    ]
+   }
+  },
+  {
+   "t": "toca",
+   "pide": {
+    "es": "Pon os dice qué os podéis llevar. Escucha y tócalo.",
+    "en": "Pon tells you what you can take home. Listen and tap it."
+   },
+   "bien": "jagaimo",
+   "quien": "tendero",
+   "escena": {
+    "fondo": "granja",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 65
+     },
+     {
+      "que": "jagaimo",
+      "x": 160,
+      "id": "jagaimo",
+      "s": 1.0
+     },
+     {
+      "que": "bolsa",
+      "x": 218,
+      "id": "bolsa",
+      "s": 1.0
+     },
+     {
+      "que": "mikan",
+      "x": 272,
+      "id": "mikan",
+      "s": 1.0
+     },
+     {
+      "que": "persona",
+      "id": "tendero",
+      "x": 345
+     }
+    ]
+   },
+   "jp": "じゃがいもを 持[も]って 帰[かえ]っても いいです。",
+   "voz": "h7",
+   "bien_msg": {
+    "es": "¡Eso! じゃがいも: os las podéis llevar (持って帰ってもいいです).",
+    "en": "Right! じゃがいも: you can take them home (持って帰ってもいいです)."
+   },
+   "mal_msg": {
+    "es": "Ha dicho じゃがいも: las patatas recién sacadas.",
+    "en": "He said じゃがいも: the freshly dug potatoes."
+   }
+  },
+  {
+   "t": "elige",
+   "habla": "tendero",
+   "pide": {
+    "es": "Nyan va a morder una patata cruda. ¿Qué le grita Pon?",
+    "en": "Nyan is about to bite a raw potato. What does Pon shout?"
+   },
+   "opciones": [
+    {
+     "jp": "生[なま]で 食[た]べては いけません！",
+     "bien": true,
+     "tr": {
+      "es": "¡No se pueden comer crudas!",
+      "en": "You mustn't eat them raw!"
+     },
+     "voz": "h8",
+     "porque": {
+      "es": "て + は + いけません: una prohibición clara.",
+      "en": "て + は + いけません: a clear prohibition."
+     }
+    },
+    {
+     "jp": "生[なま]で 食[た]べても いけません！",
+     "bien": false,
+     "porque": {
+      "es": "ても va con いい (permiso). Para prohibir, は + いけません.",
+      "en": "ても goes with いい (permission). To forbid, は + いけません."
+     }
+    },
+    {
+     "jp": "生[なま]で 食[た]べないで いいです！",
+     "bien": false,
+     "porque": {
+      "es": "ないでいい no prohíbe nada. Para «no se puede», てはいけない (y para «no hace falta», なくてもいい).",
+      "en": "ないでいい doesn't forbid anything. For «you mustn't», てはいけない (and for «no need», なくてもいい)."
+     }
+    }
+   ],
+   "cara": "sorpresa",
+   "escena": {
+    "fondo": "granja",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "jagaimo",
+      "x": 200,
+      "s": 1.1
+     },
+     {
+      "que": "persona",
+      "id": "tendero",
+      "x": 320
+     }
+    ]
+   }
+  }
+ ],
+ "epilogo": [
+  {
+   "t": "dice",
+   "habla": "tendero",
+   "jp": "今夜[こんや]は じゃがバターですね！",
+   "tr": {
+    "es": "¡Esta noche, patatas con mantequilla!",
+    "en": "Tonight, potatoes with butter!"
+   },
+   "voz": "x1",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "granja",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "jagaimo",
+      "x": 200,
+      "s": 1.1
+     },
+     {
+      "que": "persona",
+      "id": "tendero",
+      "x": 320
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "今[いま] 食[た]べても いいですか！",
+   "tr": {
+    "es": "¿¡Puedo comerlas ya!?",
+    "en": "Can I eat them now?!"
+   },
+   "voz": "x2",
+   "cara": "feliz",
+   "brazo": "arriba"
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta la frase: la escena hará lo que digas.",
+   "en": "Build the sentence: the scene will do what you say."
+  },
+  "piezas": [
+   {
+    "id": "hatake",
+    "jp": "畑[はたけ]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "ni",
+    "jp": "に",
+    "tipo": "particula"
+   },
+   {
+    "id": "haittewa",
+    "jp": "入[はい]っては",
+    "tipo": "verbo"
+   },
+   {
+    "id": "haittemo",
+    "jp": "入[はい]っても",
+    "tipo": "verbo"
+   },
+   {
+    "id": "ikemasen",
+    "jp": "いけません",
+    "tipo": "verbo"
+   },
+   {
+    "id": "iidesu",
+    "jp": "いいです",
+    "tipo": "verbo"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "¡Kotarō corre hacia el campo! Frénale: «¡No se puede entrar al campo!»",
+     "en": "Kotarō runs toward the field! Stop him: «You mustn't go into the field!»"
+    },
+    "escena": {
+     "fondo": "granja",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 80
+      },
+      {
+       "que": "perro",
+       "id": "kotaro",
+       "x": 240
+      },
+      {
+       "que": "persona",
+       "id": "tendero",
+       "x": 340
+      }
+     ]
+    },
+    "piezas": [
+     "hatake",
+     "ni",
+     "haittewa",
+     "haittemo",
+     "ikemasen",
+     "iidesu"
+    ],
+    "bien": [
+     [
+      "hatake",
+      "ni",
+      "haittewa",
+      "ikemasen"
+     ]
+    ],
+    "tr": {
+     "es": "¡No se puede entrar al campo!",
+     "en": "You mustn't go into the field!"
+    },
+    "efecto_bien": [
+     {
+      "tipo": "manpu",
+      "objeto": "kotaro",
+      "manpu": "excl"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "haittemo",
+        "iidesu"
+       ]
+      },
+      "efecto": [
+       {
+        "tipo": "salta",
+        "objeto": "kotaro"
+       },
+       {
+        "tipo": "manpu",
+        "objeto": "tendero",
+        "manpu": "sudor"
+       }
+      ],
+      "msg": {
+       "es": "¡Le has dado permiso! 入ってもいいです es «puedes entrar», y Kotarō ya va de cabeza. Para prohibir: 入ってはいけません.",
+       "en": "You gave him permission! 入ってもいいです is «you may go in», and Kotarō's already off. To forbid: 入ってはいけません."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "haittemo",
+        "ikemasen"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "ても va con いい (permiso). Para prohibir, は + いけません: 入ってはいけません.",
+       "en": "ても goes with いい (permission). To forbid, は + いけません: 入ってはいけません."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "haittewa",
+        "iidesu"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "は y いい no casan: は prohíbe (con いけません) y も permite (con いい).",
+       "en": "は and いい don't match: は forbids (with いけません) and も permits (with いい)."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "reto": {
+  "intro": {
+   "jp": "ふん。 勝負[しょうぶ]しても いいか？ …いや、 するぞ！",
+   "tr": {
+    "es": "Hmpf. ¿Puedo retarte? …Bah, te reto igual.",
+    "en": "Hmph. May I challenge you? …Never mind, I'm doing it anyway."
+   },
+   "voz": "k0"
+  },
+  "gana": {
+   "jp": "…くっ。 じゃがいもを 食[た]べても いいぞ。",
+   "tr": {
+    "es": "…Tsk. Puedes comerte mis patatas.",
+    "en": "…Tch. You can eat my potatoes."
+   },
+   "voz": "kw"
+  },
+  "pierde": {
+   "jp": "ふん。 畑[はたけ]に 入[はい]っては いけないのに。",
+   "tr": {
+    "es": "Hmpf. Y eso que no se puede entrar al campo…",
+    "en": "Hmph. And you're not even allowed in the field…"
+   },
+   "voz": "kl"
+  },
+  "pica": {
+   "jp": "…やるな。",
+   "tr": {
+    "es": "…No está mal.",
+    "en": "…Not bad."
+   },
+   "voz": "kp"
+  },
+  "burla": {
+   "jp": "ふん！",
+   "tr": {
+    "es": "¡Ja!",
+    "en": "Hah!"
+   },
+   "voz": "kb"
+  },
+  "preguntas": [
+   {
+    "tipo": "elige",
+    "jp": "ここで 写真[しゃしん]を 撮[と]って＿ いいですか。",
+    "opciones": [
+     "も",
+     "は",
+     "が"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "¿Puedo hacer fotos aquí?",
+     "en": "May I take photos here?"
+    },
+    "porque": {
+     "es": "Permiso: て + も + いい.",
+     "en": "Permission: て + も + いい."
+    },
+    "voz": "q1"
+   },
+   {
+    "tipo": "elige",
+    "jp": "美術館[びじゅつかん]で 走[はし]って＿ いけません。",
+    "opciones": [
+     "は",
+     "も",
+     "を"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "En el museo no se corre.",
+     "en": "No running in the museum."
+    },
+    "porque": {
+     "es": "Prohibición: て + は + いけません.",
+     "en": "Prohibition: て + は + いけません."
+    },
+    "voz": "q2"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "トイレに 行[い]っても いいですか。",
+    "correcta": true,
+    "tr": {
+     "es": "¿Puedo ir al baño?",
+     "en": "May I go to the toilet?"
+    },
+    "porque": {
+     "es": "Bien: permiso con ても + いいですか.",
+     "en": "Right: permission with ても + いいですか."
+    },
+    "voz": "q3"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "ここで 食[た]べては いいです。",
+    "correcta": false,
+    "tr": {
+     "es": "(Aquí se puede comer.)",
+     "en": "(You can eat here.)"
+    },
+    "porque": {
+     "es": "Para permitir, も: 食べてもいいです. は se usa con いけません.",
+     "en": "To permit, も: 食べてもいいです. は goes with いけません."
+    },
+    "voz": "q4"
+   },
+   {
+    "tipo": "oye",
+    "jp": "畑[はたけ]に 入[はい]っては いけません。",
+    "habla": "tendero",
+    "opciones": [
+     {
+      "es": "No se puede entrar al campo.",
+      "en": "You mustn't go into the field."
+     },
+     {
+      "es": "Se puede entrar al campo.",
+      "en": "You may go into the field."
+     },
+     {
+      "es": "Quiero entrar al campo.",
+      "en": "I want to go into the field."
+     }
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "てはいけません: prohibición.",
+     "en": "てはいけません: prohibition."
+    },
+    "voz": "q5"
+   },
+   {
+    "tipo": "imagen",
+    "jp": "じゃがいもを 持[も]って 帰[かえ]っても いいです。",
+    "opciones": [
+     "jagaimo",
+     "mikan",
+     "pan"
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "じゃがいも: las patatas que os podéis llevar.",
+     "en": "じゃがいも: the potatoes you can take home."
+    },
+    "pide": {
+     "es": "¿Qué os podéis llevar?",
+     "en": "What can you take home?"
+    }
+   }
+  ]
+ },
+ "siguiente": {
+  "es": "A la mañana siguiente, Nyan no hay quien lo despierte… y el autobús sale en diez minutos. Kage se encarga, a su manera.",
+  "en": "Next morning, nobody can wake Nyan… and the bus leaves in ten minutes. Kage takes care of it, his way."
+ },
+ "chuleta": {
+  "patron": {
+   "es": "〔て〕もいいですか ・ 〔て〕はいけません",
+   "en": "〔て〕もいいですか ・ 〔て〕はいけません"
+  },
+  "patron_tr": {
+   "es": "¿puedo…? ・ no se puede…",
+   "en": "may I…? ・ you mustn't…"
+  },
+  "filas": [
+   {
+    "jp": "ここに 座[すわ]っても いいですか。",
+    "es": "¿Me puedo sentar aquí?",
+    "en": "May I sit here?",
+    "registro": "educado"
+   },
+   {
+    "jp": "これ、 食[た]べても いい？",
+    "es": "¿Me puedo comer esto? (a un amigo)",
+    "en": "Can I eat this? (to a friend)",
+    "registro": "amigos"
+   },
+   {
+    "jp": "ここで 写真[しゃしん]を 撮[と]っては いけません。",
+    "es": "Aquí no se pueden hacer fotos.",
+    "en": "No photos here."
+   }
+  ],
+  "consejo": {
+   "es": "En templos, museos y tiendas verás mucho 撮影禁止 (prohibido hacer fotos). Si dudas, pregunta: 写真を撮ってもいいですか.",
+   "en": "In temples, museums and shops you'll often see 撮影禁止 (no photos). When in doubt, ask: 写真を撮ってもいいですか."
+  }
+ }
+}

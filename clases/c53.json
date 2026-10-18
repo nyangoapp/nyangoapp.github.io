@@ -1,0 +1,1026 @@
+{
+ "id": "c53",
+ "clase": 53,
+ "desde": 1870,
+ "titulo": {
+  "es": "¡Ni siquiera eso!: 〜さえ y 〜こそ",
+  "en": "Not even that!: 〜さえ and 〜こそ"
+ },
+ "resumen": {
+  "es": "さえ dice «ni siquiera eso»: marca el caso más extremo. さえ〜ば dice que con eso solo ya basta. こそ señala «este, y no otro», con fuerza.",
+  "en": "さえ says «not even that»: it marks the most extreme case. さえ〜ば says that alone is already enough. こそ points at «this one, and no other», with emphasis."
+ },
+ "intro": [
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 130,
+      "cara": "sueno"
+     },
+     {
+      "que": "cama",
+      "x": 280,
+      "s": 1.2
+     },
+     {
+      "que": "manpu",
+      "tipo": "z",
+      "x": 250,
+      "y": 90
+     }
+    ]
+   },
+   "cara": "sueno",
+   "jp": "眠[ねむ]くて、 起[お]きることさえ できない…。",
+   "voz": "i1",
+   "tr": {
+    "es": "Tengo tanto sueño que ni siquiera puedo levantarme…",
+    "en": "I'm so sleepy I can't even get up…"
+   },
+   "cartela": {
+    "es": "さえ = ni siquiera. Marca el caso más extremo.",
+    "en": "さえ = not even. It marks the most extreme case."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "triste"
+     },
+     {
+      "que": "gato",
+      "x": 270
+     }
+    ]
+   },
+   "habla": "tama",
+   "cara": "normal",
+   "jp": "宿題[しゅくだい]さえ しないの？",
+   "voz": "i2",
+   "tr": {
+    "es": "¿Ni siquiera haces los deberes?",
+    "en": "You don't even do your homework?"
+   },
+   "cartela": {
+    "es": "Ni lo más básico: eso también es さえ.",
+    "en": "Not even the basics: that's さえ too."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cocina",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 130,
+      "cara": "feliz"
+     },
+     {
+      "que": "vaso",
+      "x": 270,
+      "s": 1.3
+     },
+     {
+      "que": "manpu",
+      "tipo": "brillo",
+      "x": 310,
+      "y": 110
+     }
+    ]
+   },
+   "cara": "feliz",
+   "jp": "水[みず]さえ あれば、 大丈夫[だいじょうぶ]。",
+   "voz": "i3",
+   "tr": {
+    "es": "Con que tenga agua, ya me vale.",
+    "en": "As long as I have water, I'm fine."
+   },
+   "cartela": {
+    "es": "さえ〜ば: con eso solo, basta.",
+    "en": "さえ〜ば: that alone is enough."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 130,
+      "cara": "feliz",
+      "brazo": "arriba"
+     },
+     {
+      "que": "onigiri",
+      "x": 280,
+      "s": 1.4
+     },
+     {
+      "que": "manpu",
+      "tipo": "corazon",
+      "x": 320,
+      "y": 110
+     }
+    ]
+   },
+   "cara": "feliz",
+   "jp": "これこそ 一番[いちばん] おいしい おにぎりだ！",
+   "voz": "i4",
+   "tr": {
+    "es": "¡Esta es, precisamente, la onigiri más rica!",
+    "en": "This one, precisely, is the tastiest onigiri!"
+   },
+   "cartela": {
+    "es": "こそ: señala «este, y no otro», con fuerza. ¡A practicar!",
+    "en": "こそ: points at «this one, not another», with force. Let's practice!"
+   }
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta cada frase. さえ resalta el caso extremo (ni siquiera); さえ〜ば dice que con eso basta; こそ señala con fuerza «este, y no otro».",
+   "en": "Build each sentence. さえ highlights the extreme case (not even); さえ〜ば says that's enough; こそ points with force at «this one, not another»."
+  },
+  "piezas": [
+   {
+    "id": "okiru_koto_sae",
+    "jp": "起[お]きることさえ",
+    "tipo": "verbo"
+   },
+   {
+    "id": "dekinai",
+    "jp": "できない",
+    "tipo": "verbo"
+   },
+   {
+    "id": "dekiru",
+    "jp": "できる",
+    "tipo": "verbo"
+   },
+   {
+    "id": "okiru_koto_mo",
+    "jp": "起[お]きることも",
+    "tipo": "verbo"
+   },
+   {
+    "id": "mizu_sae",
+    "jp": "水[みず]さえ",
+    "tipo": "palabra"
+   },
+   {
+    "id": "mizu_mo",
+    "jp": "水[みず]も",
+    "tipo": "palabra"
+   },
+   {
+    "id": "areba",
+    "jp": "あれば",
+    "tipo": "verbo"
+   },
+   {
+    "id": "nakutemo",
+    "jp": "なくても",
+    "tipo": "verbo"
+   },
+   {
+    "id": "daijoubu",
+    "jp": "大丈夫[だいじょうぶ]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "kore_koso",
+    "jp": "これこそ",
+    "tipo": "palabra"
+   },
+   {
+    "id": "sore_koso",
+    "jp": "それこそ",
+    "tipo": "palabra"
+   },
+   {
+    "id": "kore_mo",
+    "jp": "これも",
+    "tipo": "palabra"
+   },
+   {
+    "id": "ichiban_oishii_onigiri_da",
+    "jp": "一番[いちばん] おいしい おにぎりだ",
+    "tipo": "verbo"
+   },
+   {
+    "id": "kondo_koso",
+    "jp": "今度[こんど]こそ",
+    "tipo": "palabra"
+   },
+   {
+    "id": "kondo_mo",
+    "jp": "今度[こんど]も",
+    "tipo": "palabra"
+   },
+   {
+    "id": "ganbaru",
+    "jp": "頑張[がんば]る",
+    "tipo": "verbo"
+   },
+   {
+    "id": "ganbaranai",
+    "jp": "頑張[がんば]らない",
+    "tipo": "verbo"
+   },
+   {
+    "id": "tama_sae",
+    "jp": "タマさえ",
+    "tipo": "palabra"
+   },
+   {
+    "id": "tama_mo",
+    "jp": "タマも",
+    "tipo": "palabra"
+   },
+   {
+    "id": "shiranai",
+    "jp": "知[し]らない",
+    "tipo": "verbo"
+   },
+   {
+    "id": "shitteiru",
+    "jp": "知[し]っている",
+    "tipo": "verbo"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Nyan tiene tanto sueño que no puede ni levantarse. Di: «Ni siquiera puedo levantarme».",
+     "en": "Nyan is so sleepy he can't even get up. Say: «I can't even get up»."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 130,
+       "cara": "sueno"
+      },
+      {
+       "que": "cama",
+       "x": 270,
+       "s": 1.2
+      }
+     ]
+    },
+    "piezas": [
+     "okiru_koto_sae",
+     "dekinai",
+     "dekiru",
+     "okiru_koto_mo"
+    ],
+    "bien": [
+     [
+      "okiru_koto_sae",
+      "dekinai"
+     ]
+    ],
+    "tr": {
+     "es": "Ni siquiera puedo levantarme.",
+     "en": "I can't even get up."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "duerme",
+      "objeto": "nyan"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "sueno"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "dekiru"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "sorpresa",
+       "manpu": "excl"
+      },
+      "msg": {
+       "es": "できる es «poder», lo contrario. Aquí Nyan NO puede: できない。",
+       "en": "できる means «can», the opposite. Here Nyan CAN'T: できない。"
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "okiru_koto_mo"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "も es «también»; aquí queremos decir «ni siquiera»: さえ。",
+       "en": "も means «also»; here we want «not even»: さえ。"
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "dekinai"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin できない no queda claro que Nyan NO PUEDE.",
+       "en": "Without できない it's not clear Nyan CAN'T."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Nyan solo necesita agua para estar bien. Di: «Con que tenga agua, ya me vale».",
+     "en": "Nyan just needs water to be fine. Say: «As long as I have water, that's enough»."
+    },
+    "escena": {
+     "fondo": "cocina",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 130,
+       "cara": "feliz"
+      },
+      {
+       "que": "vaso",
+       "x": 270,
+       "s": 1.3
+      }
+     ]
+    },
+    "piezas": [
+     "mizu_sae",
+     "mizu_mo",
+     "areba",
+     "nakutemo",
+     "daijoubu"
+    ],
+    "bien": [
+     [
+      "mizu_sae",
+      "areba",
+      "daijoubu"
+     ]
+    ],
+    "tr": {
+     "es": "Con que tenga agua, ya me vale.",
+     "en": "As long as I have water, that's enough."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "brilla",
+      "objeto": "vaso"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz",
+      "brazo": "arriba"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "nakutemo"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "なくても sería «incluso sin». Nyan SÍ tiene agua, y con eso basta: あれば。",
+       "en": "なくても would be «even without». Nyan DOES have water, and that's enough: あれば。"
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "mizu_mo"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "水も añadiría el agua a una lista de cosas. Para decir que con SOLO el agua ya vale: 水さえ。",
+       "en": "水も would add water to a list of things. To say water ALONE is enough: 水さえ。"
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "daijoubu"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin 大丈夫 no dices que con eso ya vale, solo pones una condición.",
+       "en": "Without 大丈夫 you're not saying it's enough, just stating a condition."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Corrige a Tama: ESTA onigiri (y no otra) es la más rica. Di: «Esta es, precisamente, la más rica».",
+     "en": "Correct Tama: THIS onigiri (and no other) is the tastiest. Say: «This one, precisely, is the tastiest»."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 120,
+       "cara": "feliz",
+       "brazo": "arriba"
+      },
+      {
+       "que": "onigiri",
+       "x": 260,
+       "s": 1.2
+      },
+      {
+       "que": "gato",
+       "x": 340,
+       "cara": "pensando"
+      }
+     ]
+    },
+    "piezas": [
+     "kore_koso",
+     "sore_koso",
+     "kore_mo",
+     "ichiban_oishii_onigiri_da"
+    ],
+    "bien": [
+     [
+      "kore_koso",
+      "ichiban_oishii_onigiri_da"
+     ]
+    ],
+    "tr": {
+     "es": "Esta es, precisamente, la más rica.",
+     "en": "This one, precisely, is the tastiest."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "brilla",
+      "objeto": "onigiri"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "sore_koso"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "それ es lo que tiene el OTRO; esta la tienes tú: これ。",
+       "en": "それ is what the OTHER person has; you're holding this one: これ。"
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "kore_mo"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "も sería «esta también»; para señalar «esta y ninguna otra», hace falta こそ。",
+       "en": "も would be «this one too»; to point at «this one, and no other», you need こそ。"
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Reto: Nyan ha fallado el examen mil veces. Promete, con fuerza: «Esta vez sí que me esforzaré».",
+     "en": "Challenge: Nyan has failed the exam a thousand times. He promises, with force: «This time, for sure, I'll try hard»."
+    },
+    "escena": {
+     "fondo": "escuela",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 130,
+       "cara": "normal"
+      },
+      {
+       "que": "libro",
+       "x": 270,
+       "s": 1.2
+      }
+     ]
+    },
+    "piezas": [
+     "kondo_koso",
+     "kondo_mo",
+     "ganbaru",
+     "ganbaranai"
+    ],
+    "bien": [
+     [
+      "kondo_koso",
+      "ganbaru"
+     ]
+    ],
+    "tr": {
+     "es": "Esta vez sí que me esforzaré.",
+     "en": "This time, for sure, I'll try hard."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "brilla",
+      "objeto": "nyan"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz",
+      "brazo": "arriba"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "kondo_mo"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "今度も sería «esta vez también» (como las otras). Para decir «¡esta vez sí!», hace falta こそ。",
+       "en": "今度も would be «this time too» (like the others). To say «this time for sure!», you need こそ。"
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "ganbaranai"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "triste"
+      },
+      "msg": {
+       "es": "頑張らない es NO esforzarse: justo lo contrario de la promesa.",
+       "en": "頑張らない is NOT trying hard: the opposite of the promise."
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "kondo_koso"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin 今度こそ no queda claro cuándo, ni la fuerza de la promesa.",
+       "en": "Without 今度こそ it's not clear when, or how strong the promise is."
+      }
+     }
+    ],
+    "pista": {
+     "es": "Empieza diciendo CUÁNDO: 今度[こんど]こそ…",
+     "en": "Start by saying WHEN: 今度[こんど]こそ…"
+    }
+   },
+   {
+    "pide": {
+     "es": "Explica que ni siquiera Tama sabe la respuesta (nadie la sabe). Di: «Ni siquiera Tama lo sabe».",
+     "en": "Explain that not even Tama knows the answer (nobody does). Say: «Not even Tama knows»."
+    },
+    "escena": {
+     "fondo": "escuela",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "pensando"
+      },
+      {
+       "que": "gato",
+       "x": 280,
+       "cara": "pensando"
+      }
+     ]
+    },
+    "piezas": [
+     "tama_sae",
+     "tama_mo",
+     "shiranai",
+     "shitteiru"
+    ],
+    "bien": [
+     [
+      "tama_sae",
+      "shiranai"
+     ]
+    ],
+    "tr": {
+     "es": "Ni siquiera Tama lo sabe.",
+     "en": "Not even Tama knows."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "manpu",
+      "objeto": "gato",
+      "manpu": "sudor"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "pensando"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "tama_mo"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "タマも es «Tama también» (lo sabe, como otros). Para «ni siquiera Tama», hace falta さえ。",
+       "en": "タマも is «Tama too» (knows, like others). For «not even Tama», you need さえ。"
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "shitteiru"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "sorpresa",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "知っている es que SÍ lo sabe; justo lo contrario de lo que queremos.",
+       "en": "知っている means she DOES know; the opposite of what we want."
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "shiranai"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin 知らない no dices que NO lo sabe.",
+       "en": "Without 知らない you're not saying she DOESN'T know."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "juego": {
+  "intro": {
+   "es": "¿さえ (ni siquiera / con eso basta), こそ (este, con fuerza) o も (también, de siempre)? Completa cada frase.",
+   "en": "さえ (not even / that's enough), こそ (this one, emphatic), or も (also, as usual)? Complete each sentence."
+  },
+  "nyan": {
+   "es": "Yo con que me dejen dormir, さえ me vale.",
+   "en": "As long as they let me sleep, さえ is enough for me."
+  },
+  "cestas": [
+   {
+    "id": "sae",
+    "jp": "さえ",
+    "sub": {
+     "es": "ni siquiera / con eso basta",
+     "en": "not even / that alone is enough"
+    }
+   },
+   {
+    "id": "koso",
+    "jp": "こそ",
+    "sub": {
+     "es": "este, y no otro (con fuerza)",
+     "en": "this one, and no other (emphatic)"
+    }
+   },
+   {
+    "id": "mo",
+    "jp": "も",
+    "sub": {
+     "es": "también (ya lo sabías)",
+     "en": "also (you already knew this)"
+    }
+   }
+  ],
+  "cartas": [
+   {
+    "id": "j1",
+    "jp": "宿題[しゅくだい]＿ しないの？",
+    "cesta": "sae",
+    "es": "¿Ni siquiera haces los deberes?",
+    "en": "You don't even do your homework?"
+   },
+   {
+    "id": "j2",
+    "dibujo": "vaso",
+    "jp": "水[みず]＿ あれば 大丈夫[だいじょうぶ]。",
+    "cesta": "sae",
+    "es": "Con que tenga agua, ya vale.",
+    "en": "As long as I have water, I'm fine."
+   },
+   {
+    "id": "j3",
+    "dibujo": "onigiri",
+    "jp": "これ＿ 一番[いちばん] おいしい。",
+    "cesta": "koso",
+    "es": "Esta es, precisamente, la más rica.",
+    "en": "This one, precisely, is the tastiest."
+   },
+   {
+    "id": "j4",
+    "jp": "今度[こんど]＿ 頑張[がんば]る！",
+    "cesta": "koso",
+    "es": "¡Esta vez sí que me esforzaré!",
+    "en": "This time, for sure, I'll try hard!"
+   },
+   {
+    "id": "j5",
+    "jp": "タマ＿ 知[し]らない。",
+    "cesta": "sae",
+    "es": "Ni siquiera Tama lo sabe.",
+    "en": "Not even Tama knows.",
+    "truco": {
+     "es": "さえ, no も: aquí nadie más lo sabe tampoco.",
+     "en": "さえ, not も: here nobody else knows either."
+    }
+   },
+   {
+    "id": "j6",
+    "jp": "ニャン＿ 猫[ねこ]だ。",
+    "cesta": "mo",
+    "es": "Nyan también es un gato.",
+    "en": "Nyan is a cat too.",
+    "truco": {
+     "es": "Aquí no hay caso extremo: solo «también», como siempre.",
+     "en": "No extreme case here: just «also», as usual."
+    }
+   },
+   {
+    "id": "j7",
+    "dibujo": "onigiri",
+    "jp": "これ＿ 僕[ぼく]の おにぎりだ。",
+    "cesta": "koso",
+    "es": "Esta es, precisamente, mi onigiri.",
+    "en": "This one, precisely, is my onigiri.",
+    "truco": {
+     "es": "Nadie te la va a quitar: por eso こそ。",
+     "en": "Nobody's taking this one: hence こそ。"
+    }
+   },
+   {
+    "id": "j8",
+    "dibujo": "cama",
+    "jp": "眠[ねむ]くて 立[た]つこと＿ できない。",
+    "cesta": "sae",
+    "es": "Tengo tanto sueño que ni siquiera puedo levantarme.",
+    "en": "I'm so sleepy I can't even stand up."
+   },
+   {
+    "id": "j9",
+    "dibujo": "libro",
+    "jp": "本[ほん]＿ 好[す]きだ。",
+    "cesta": "mo",
+    "es": "También me gustan los libros.",
+    "en": "I like books too."
+   }
+  ]
+ },
+ "outro": [
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 130,
+      "cara": "sueno"
+     },
+     {
+      "que": "cama",
+      "x": 270,
+      "s": 1.2
+     }
+    ]
+   },
+   "cara": "sueno",
+   "jp": "眠[ねむ]くて、 起[お]きることさえ できない…。",
+   "voz": "o1",
+   "tr": {
+    "es": "Tengo tanto sueño que ni siquiera puedo levantarme…",
+    "en": "I'm so sleepy I can't even get up…"
+   },
+   "cartela": {
+    "es": "さえ: ni siquiera eso.",
+    "en": "さえ: not even that."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "normal"
+     },
+     {
+      "que": "gato",
+      "x": 270
+     }
+    ]
+   },
+   "habla": "tama",
+   "cara": "normal",
+   "jp": "でも 水[みず]さえ あれば、 大丈夫[だいじょうぶ]でしょ？",
+   "voz": "o2",
+   "tr": {
+    "es": "Pero con que tengas agua, ¿ya vale, no?",
+    "en": "But as long as you have water, that's fine, right?"
+   },
+   "cartela": {
+    "es": "さえ〜ば: con eso solo, basta.",
+    "en": "さえ〜ば: that alone is enough."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 130,
+      "cara": "feliz",
+      "brazo": "arriba"
+     },
+     {
+      "que": "onigiri",
+      "x": 280,
+      "s": 1.3
+     },
+     {
+      "que": "manpu",
+      "tipo": "corazon",
+      "x": 320,
+      "y": 110
+     }
+    ]
+   },
+   "cara": "feliz",
+   "jp": "これこそ、 一番[いちばん] 幸[しあわ]せな 時間[じかん]だ。",
+   "voz": "o3",
+   "tr": {
+    "es": "Este es, precisamente, el momento más feliz.",
+    "en": "This, precisely, is the happiest moment."
+   },
+   "cartela": {
+    "es": "Fin. こそ: este, y no otro. ¡Nyan lo tiene clarísimo!",
+    "en": "The end. こそ: this one, and no other. Nyan's got it crystal clear!"
+   }
+  }
+ ],
+ "chuleta": {
+  "patron": {
+   "es": "〔lo extremo〕さえ 〜（ない） ／ 〔esto〕こそ 〜",
+   "en": "〔extreme thing〕さえ 〜（not）／ 〔this〕こそ 〜"
+  },
+  "patron_tr": {
+   "es": "ni siquiera 〔lo extremo〕… ／ 〔esto〕, precisamente…",
+   "en": "not even 〔extreme thing〕… / 〔this〕, precisely…"
+  },
+  "columnas": [
+   {
+    "jp": "さえ",
+    "texto": {
+     "es": "ni siquiera (el caso extremo)",
+     "en": "not even (the extreme case)"
+    },
+    "dibujos": [
+     "cama"
+    ]
+   },
+   {
+    "jp": "さえ〜ば",
+    "texto": {
+     "es": "con eso solo, ya basta",
+     "en": "that alone is enough"
+    },
+    "dibujos": [
+     "vaso"
+    ]
+   },
+   {
+    "jp": "こそ",
+    "texto": {
+     "es": "este, y no otro (con fuerza)",
+     "en": "this one, and no other (emphatic)"
+    },
+    "dibujos": [
+     "onigiri"
+    ]
+   }
+  ],
+  "filas": [
+   {
+    "jp": "宿題[しゅくだい]さえ しないの？",
+    "es": "¿Ni siquiera haces los deberes?",
+    "en": "You don't even do your homework?",
+    "registro": "amigos"
+   },
+   {
+    "jp": "水[みず]さえ あれば 大丈夫[だいじょうぶ]です。",
+    "es": "Con que tenga agua, ya vale.",
+    "en": "As long as I have water, I'm fine.",
+    "registro": "educado"
+   },
+   {
+    "jp": "これこそ 一番[いちばん] おいしい。",
+    "es": "Esta es, precisamente, la más rica.",
+    "en": "This one, precisely, is the tastiest."
+   },
+   {
+    "jp": "今度[こんど]こそ 頑張[がんば]る。",
+    "es": "Esta vez sí que me esforzaré.",
+    "en": "This time, for sure, I'll try hard."
+   }
+  ],
+  "consejo": {
+   "es": "も ya lo conocías (también); さえ es más fuerte: ni siquiera eso. は marca de qué hablas; こそ, además, dice «precisamente este, y no otro».",
+   "en": "You already knew も (also); さえ is stronger: not even that. は marks the topic; こそ additionally says «precisely this one, and no other»."
+  }
+ }
+}

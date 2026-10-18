@@ -1,0 +1,578 @@
+{
+ "id": "c66",
+ "clase": 66,
+ "desde": 2650,
+ "titulo": {
+  "es": "No hay manera: 〜ようがない",
+  "en": "There's no way: 〜ようがない"
+ },
+ "resumen": {
+  "es": "〜ようがない: ni el método existe (連絡[れんらく]しようがない = no hay manera de contactar). Su primo 〜しかない dice que SÍ se puede, solo que no queda otra opción (歩[ある]くしかない). Y el potencial negativo (話[はな]せない) es aún más simple: solo dice que no puedes, sin explicar por qué.",
+  "en": "〜ようがない: the method itself doesn't even exist (連絡しようがない = there's no way to contact them). Its cousin 〜しかない says it CAN be done, there's just no other option (歩くしかない). And the negative potential (話せない) is even simpler: it just says you can't, without explaining why."
+ },
+ "intro": [
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     { "que": "nyan", "x": 110, "cara": "sorpresa" },
+     { "que": "telefono", "x": 270 },
+     { "que": "manpu", "tipo": "excl", "x": 160, "y": 105 }
+    ]
+   },
+   "cara": "sorpresa",
+   "jp": "電話[でんわ]が 壊[こわ]れた…",
+   "voz": "i1",
+   "tr": {
+    "es": "Se ha roto el teléfono…",
+    "en": "The phone broke…"
+   },
+   "cartela": {
+    "es": "Nyan necesita avisar a Tama. Pero…",
+    "en": "Nyan needs to let Tama know. But…"
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     { "que": "nyan", "x": 110, "cara": "triste" },
+     { "que": "telefono", "x": 270 },
+     { "que": "manpu", "tipo": "sudor", "x": 160, "y": 115 }
+    ]
+   },
+   "cara": "triste",
+   "jp": "タマに 連絡[れんらく]しようがない…",
+   "voz": "i2",
+   "tr": {
+    "es": "No hay manera de contactar con Tama…",
+    "en": "There's no way to reach Tama…"
+   },
+   "nota": {
+    "es": "連絡[れんらく]する → 連絡[れんらく]しようがない: ni el método existe.",
+    "en": "連絡する → 連絡しようがない: not even the method exists."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "calle",
+    "cosas": [
+     { "que": "nyan", "x": 110, "cara": "triste" },
+     { "que": "gato", "x": 270 }
+    ]
+   },
+   "habla": "tama",
+   "cara": "normal",
+   "jp": "電話[でんわ]が ないなら、 会[あ]いに 行[い]くしかないよ。",
+   "voz": "i3",
+   "tr": {
+    "es": "Si no tienes teléfono, no queda otra que ir a verme.",
+    "en": "If you don't have a phone, there's nothing for it but to come see me."
+   },
+   "cartela": {
+    "es": "しかない: eso SÍ se puede hacer, solo que no hay otra opción.",
+    "en": "しかない: that CAN be done, there's just no other option."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "calle",
+    "cosas": [
+     { "que": "nyan", "x": 110, "cara": "feliz" },
+     { "que": "gato", "x": 270, "cara": "feliz" }
+    ]
+   },
+   "cara": "feliz",
+   "jp": "会[あ]えて よかった。",
+   "voz": "i4",
+   "tr": {
+    "es": "Qué bien, te he encontrado.",
+    "en": "Glad I found you."
+   },
+   "cartela": {
+    "es": "話[はな]せない sería solo «no puedo hablar». ようがない dice que ni el método existe.",
+    "en": "話せない would just mean «I can't talk». ようがない says the method itself doesn't exist."
+   }
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta cada frase: ようがない cuando ni el método existe, しかない cuando no queda otra.",
+   "en": "Build each sentence: ようがない when not even the method exists, しかない when there's no other option."
+  },
+  "piezas": [
+   { "id": "tama", "jp": "タマ", "tipo": "palabra" },
+   { "id": "ni", "jp": "に", "tipo": "particula" },
+   { "id": "renraku", "jp": "連絡[れんらく]", "tipo": "palabra" },
+   { "id": "shi", "jp": "し", "tipo": "verbo" },
+   { "id": "youganai", "jp": "ようがない", "tipo": "particula" },
+   { "id": "shikanai", "jp": "しかない", "tipo": "particula" },
+   { "id": "shiranai", "jp": "知[し]らない", "tipo": "verbo" },
+   { "id": "kore", "jp": "これ", "tipo": "palabra" },
+   { "id": "wa", "jp": "は", "tipo": "particula" },
+   { "id": "naoshi", "jp": "直[なお]し", "tipo": "verbo" },
+   { "id": "naosenai", "jp": "直[なお]せない", "tipo": "verbo" },
+   { "id": "aruku", "jp": "歩[ある]く", "tipo": "verbo" },
+   { "id": "hashiru", "jp": "走[はし]る", "tipo": "verbo" },
+   { "id": "hon", "jp": "本[ほん]", "tipo": "palabra" },
+   { "id": "mitsukari", "jp": "見[み]つかり", "tipo": "verbo" },
+   { "id": "desu", "jp": "です", "tipo": "verbo" },
+   { "id": "nyanwo", "jp": "ニャンを", "tipo": "palabra" },
+   { "id": "okoshi", "jp": "起[お]こし", "tipo": "verbo" },
+   { "id": "okosenai", "jp": "起[お]こせない", "tipo": "verbo" }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Di: «No hay manera de contactar con Tama» (no tienes su número).",
+     "en": "Say: «There's no way to contact Tama» (you don't have his number)."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      { "que": "nyan", "x": 110, "cara": "triste" },
+      { "que": "telefono", "x": 270 },
+      { "que": "manpu", "tipo": "sudor", "x": 160, "y": 110 }
+     ]
+    },
+    "piezas": ["tama", "ni", "renraku", "shi", "youganai", "shikanai", "shiranai"],
+    "bien": [["tama", "ni", "renraku", "shi", "youganai"]],
+    "tr": {
+     "es": "No hay manera de contactar con Tama.",
+     "en": "There's no way to contact Tama."
+    },
+    "efecto_bien": [
+     { "tipo": "peluche", "objeto": "telefono" },
+     { "tipo": "nyan", "cara": "triste" }
+    ],
+    "fallos": [
+     {
+      "si": { "contiene": ["shikanai"] },
+      "efecto": { "tipo": "nyan", "cara": "pensando", "manpu": "pregunta" },
+      "msg": {
+       "es": "しかない diría que SÍ puedes, solo que no queda otra. Aquí no existe ni el método: ようがない.",
+       "en": "しかない would say you CAN, there's just no other option. Here the method itself doesn't exist: ようがない."
+      }
+     },
+     {
+      "si": { "contiene": ["shiranai"] },
+      "efecto": { "tipo": "nyan", "cara": "sorpresa" },
+      "msg": {
+       "es": "知[し]らない es «no lo sé». El problema aquí es que no hay MANERA de contactar: 連絡[れんらく]しようがない.",
+       "en": "知らない is «I don't know». The problem here is there's no WAY to contact him: 連絡しようがない."
+      }
+     },
+     {
+      "si": { "falta": ["youganai"] },
+      "efecto": { "tipo": "nyan", "cara": "normal" },
+      "msg": {
+       "es": "Sin ようがない no dice que sea imposible.",
+       "en": "Without ようがない it doesn't say it's impossible."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Di: «No hay manera de arreglar esto» (está roto del todo).",
+     "en": "Say: «There's no way to fix this» (it's completely broken)."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      { "que": "nyan", "x": 110, "cara": "triste" },
+      { "que": "telefono", "x": 270 }
+     ]
+    },
+    "piezas": ["kore", "wa", "naoshi", "youganai", "naosenai", "shikanai"],
+    "bien": [["kore", "wa", "naoshi", "youganai"]],
+    "tr": {
+     "es": "No hay manera de arreglar esto.",
+     "en": "There's no way to fix this."
+    },
+    "efecto_bien": [
+     { "tipo": "tiembla", "objeto": "telefono" },
+     { "tipo": "nyan", "cara": "triste" }
+    ],
+    "fallos": [
+     {
+      "si": { "contiene": ["naosenai"] },
+      "efecto": { "tipo": "nyan", "cara": "pensando", "manpu": "pregunta" },
+      "msg": {
+       "es": "直[なお]せない es «no puedo arreglarlo», a secas. ようがない dice más: ni el método existe.",
+       "en": "直せない is just «I can't fix it». ようがない says more: not even the method exists."
+      }
+     },
+     {
+      "si": { "contiene": ["shikanai"] },
+      "efecto": { "tipo": "nyan", "cara": "sorpresa" },
+      "msg": {
+       "es": "しかない diría que hay otra opción y esta es la única. Aquí no hay ninguna: ようがない.",
+       "en": "しかない would say another option exists and this is the only one. Here there's none: ようがない."
+      }
+     },
+     {
+      "si": { "falta": ["naoshi"] },
+      "efecto": { "tipo": "nyan", "cara": "normal" },
+      "msg": {
+       "es": "Sin 直[なお]し no dice qué es imposible.",
+       "en": "Without 直し it doesn't say what's impossible."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Dile a Tama (primo de ようがない): «No queda otra que ir andando» (el tren se fue, pero SÍ puedes andar).",
+     "en": "Tell Tama (cousin of ようがない): «There's no choice but to walk» (the train left, but you CAN still walk)."
+    },
+    "escena": {
+     "fondo": "calle",
+     "cosas": [
+      { "que": "nyan", "x": 110, "cara": "triste" },
+      { "que": "tren", "x": 290, "s": 0.8 }
+     ]
+    },
+    "piezas": ["aruku", "shikanai", "youganai", "hashiru"],
+    "bien": [["aruku", "shikanai"]],
+    "tr": {
+     "es": "No queda otra que ir andando.",
+     "en": "There's no choice but to walk."
+    },
+    "efecto_bien": [{ "tipo": "huye", "objeto": "nyan", "hacia": "der" }],
+    "fallos": [
+     {
+      "si": { "contiene": ["youganai"] },
+      "efecto": { "tipo": "nyan", "cara": "pensando", "manpu": "pregunta" },
+      "msg": {
+       "es": "Andar SÍ es posible, solo que no hay otra opción: eso es しかない. ようがない sería si ni andando pudieras llegar.",
+       "en": "Walking IS possible, there's just no other option: that's しかない. ようがない would be if even walking wouldn't get you there."
+      }
+     },
+     {
+      "si": { "contiene": ["hashiru"] },
+      "efecto": { "tipo": "nyan", "cara": "sorpresa" },
+      "msg": {
+       "es": "走[はし]る es correr, no andar tranquilamente. Aquí hace falta 歩[ある]く.",
+       "en": "走る is to run, not to calmly walk. Here you need 歩く."
+      }
+     },
+     {
+      "si": { "falta": ["shikanai"] },
+      "efecto": { "tipo": "nyan", "cara": "normal" },
+      "msg": {
+       "es": "Sin しかない no queda claro que era la única opción.",
+       "en": "Without しかない it's not clear it was the only option."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Dile al sensei (con educación): «No hay manera de encontrar el libro».",
+     "en": "Tell the teacher (politely): «There's no way to find the book»."
+    },
+    "escena": {
+     "fondo": "escuela",
+     "cosas": [
+      { "que": "nyan", "x": 110, "cara": "triste" },
+      { "que": "profesor", "x": 280 },
+      { "que": "libro", "x": 330, "s": 0.9 }
+     ]
+    },
+    "piezas": ["hon", "wa", "mitsukari", "youganai", "desu", "shikanai"],
+    "bien": [["hon", "wa", "mitsukari", "youganai", "desu"]],
+    "tr": {
+     "es": "No hay manera de encontrar el libro.",
+     "en": "There's no way to find the book."
+    },
+    "efecto_bien": [
+     { "tipo": "manpu", "objeto": "profesor", "manpu": "sudor" },
+     { "tipo": "nyan", "cara": "triste" }
+    ],
+    "fallos": [
+     {
+      "si": { "falta": ["desu"] },
+      "efecto": { "tipo": "nyan", "cara": "pensando", "manpu": "pregunta" },
+      "msg": {
+       "es": "Con el sensei, mejor cerrar con です: ようがないです.",
+       "en": "With the teacher, better to close with です: ようがないです."
+      }
+     },
+     {
+      "si": { "contiene": ["shikanai"] },
+      "efecto": { "tipo": "nyan", "cara": "sorpresa" },
+      "msg": {
+       "es": "しかない diría que sí se puede encontrar, solo que no hay otra opción. Aquí ni existe manera: ようがない.",
+       "en": "しかない would say it CAN be found, there's just no other option. Here there's no way at all: ようがない."
+      }
+     },
+     {
+      "si": { "falta": ["mitsukari"] },
+      "efecto": { "tipo": "nyan", "cara": "normal" },
+      "msg": {
+       "es": "Sin 見[み]つかり no dice qué es imposible.",
+       "en": "Without 見つかり it doesn't say what's impossible."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Reto: di «Ya no hay manera de despertar a Nyan» (duerme como un tronco).",
+     "en": "Challenge: say «There's no way to wake Nyan up anymore» (he's out cold)."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      { "que": "nyan", "x": 150, "cara": "sueno" },
+      { "que": "cama", "x": 150, "y": 236 },
+      { "que": "gato", "x": 280, "cara": "enfado" },
+      { "que": "manpu", "tipo": "z", "x": 190, "y": 110 }
+     ]
+    },
+    "piezas": ["nyanwo", "okoshi", "youganai", "okosenai", "shikanai"],
+    "bien": [["nyanwo", "okoshi", "youganai"]],
+    "tr": {
+     "es": "Ya no hay manera de despertar a Nyan.",
+     "en": "There's no way to wake Nyan up anymore."
+    },
+    "efecto_bien": [
+     { "tipo": "duerme", "objeto": "nyan" },
+     { "tipo": "tiembla", "objeto": "gato" }
+    ],
+    "fallos": [
+     {
+      "si": { "contiene": ["okosenai"] },
+      "efecto": { "tipo": "manpu", "objeto": "gato", "manpu": "pregunta" },
+      "msg": {
+       "es": "起[お]こせない es «no puedo despertarlo», sin más. ようがない dice que YA NADA funciona.",
+       "en": "起こせない is just «I can't wake him up». ようがない says NOTHING works anymore."
+      }
+     },
+     {
+      "si": { "contiene": ["shikanai"] },
+      "efecto": { "tipo": "manpu", "objeto": "gato", "manpu": "pregunta" },
+      "msg": {
+       "es": "しかない diría que hay una manera y es la única. Aquí ninguna funciona: ようがない.",
+       "en": "しかない would say one way exists and it's the only one. Here none work: ようがない."
+      }
+     },
+     {
+      "si": { "falta": ["okoshi"] },
+      "efecto": { "tipo": "manpu", "objeto": "gato", "manpu": "sudor" },
+      "msg": {
+       "es": "Sin 起[お]こし no dice qué acción es imposible.",
+       "en": "Without 起こし it doesn't say what action is impossible."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "juego": {
+  "intro": {
+   "es": "¿ようがない (ni el método existe) o しかない (no queda otra, pero se puede)?",
+   "en": "ようがない (no method exists) or しかない (no other choice, but it's possible)?"
+  },
+  "nyan": {
+   "es": "Con el teléfono roto, ninguna de las dos ayuda. Pero hay que saber cuál es cuál.",
+   "en": "With the phone broken, neither one helps. But you've got to know which is which."
+  },
+  "cestas": [
+   {
+    "id": "youganai",
+    "jp": "ようがない",
+    "sub": { "es": "no existe ni el método", "en": "there's no method at all" }
+   },
+   {
+    "id": "shikanai",
+    "jp": "しかない",
+    "sub": { "es": "no queda otra opción (pero se puede)", "en": "no other option (but it's possible)" }
+   }
+  ],
+  "cartas": [
+   {
+    "id": "j1",
+    "dibujo": "telefono",
+    "jp": "タマに 連絡[れんらく]し＿。",
+    "cesta": "youganai",
+    "es": "No hay manera de contactar con Tama.",
+    "en": "There's no way to reach Tama."
+   },
+   {
+    "id": "j2",
+    "dibujo": "tren",
+    "jp": "電車[でんしゃ]が ないから、 歩[ある]く＿。",
+    "cesta": "shikanai",
+    "es": "No hay tren, así que no queda otra que andar.",
+    "en": "No train, so there's nothing for it but to walk."
+   },
+   {
+    "id": "j3",
+    "jp": "これは 直[なお]し＿。",
+    "cesta": "youganai",
+    "es": "Esto no hay manera de arreglarlo.",
+    "en": "There's no way to fix this."
+   },
+   {
+    "id": "j4",
+    "jp": "宿題[しゅくだい]が 終[お]わらないから、 急[いそ]ぐ＿。",
+    "cesta": "shikanai",
+    "es": "Como no acabo los deberes, no queda otra que darme prisa.",
+    "en": "Since the homework isn't done, nothing for it but to hurry."
+   },
+   {
+    "id": "j5",
+    "dibujo": "bolsa",
+    "jp": "財布[さいふ]が 見[み]つかり＿。",
+    "cesta": "youganai",
+    "es": "No hay manera de que aparezca la cartera.",
+    "en": "There's no way the wallet will turn up."
+   },
+   {
+    "id": "j6",
+    "jp": "眠[ねむ]いけど、 勉強[べんきょう]する＿。",
+    "cesta": "shikanai",
+    "es": "Tengo sueño, pero no queda otra que estudiar.",
+    "en": "I'm sleepy, but there's nothing for it but to study."
+   },
+   {
+    "id": "j7",
+    "dibujo": "gato",
+    "jp": "ニャンを 起[お]こし＿。",
+    "cesta": "youganai",
+    "es": "No hay manera de despertar a Nyan.",
+    "en": "There's no way to wake Nyan up."
+   },
+   {
+    "id": "j8",
+    "jp": "道[みち]に 迷[まよ]ったから、 人[ひと]に 聞[き]く＿。",
+    "cesta": "shikanai",
+    "es": "Me perdí, así que no queda otra que preguntar a alguien.",
+    "en": "I got lost, so nothing for it but to ask someone."
+   }
+  ]
+ },
+ "outro": [
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     { "que": "nyan", "x": 110, "cara": "triste" },
+     { "que": "telefono", "x": 270 }
+    ]
+   },
+   "cara": "triste",
+   "jp": "連絡[れんらく]しようがない。",
+   "voz": "o1",
+   "tr": {
+    "es": "No hay manera de contactar.",
+    "en": "There's no way to get in touch."
+   },
+   "cartela": {
+    "es": "ようがない: ni el método existe.",
+    "en": "ようがない: not even the method exists."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "calle",
+    "cosas": [
+     { "que": "nyan", "x": 110, "cara": "normal" },
+     { "que": "tren", "x": 290, "s": 0.8 }
+    ]
+   },
+   "cara": "normal",
+   "jp": "歩[ある]くしかない。",
+   "voz": "o2",
+   "tr": {
+    "es": "No queda otra que andar.",
+    "en": "There's nothing for it but to walk."
+   },
+   "cartela": {
+    "es": "しかない: se puede, pero no hay otra opción.",
+    "en": "しかない: it can be done, there's just no other option."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "calle",
+    "cosas": [
+     { "que": "nyan", "x": 110, "cara": "feliz" },
+     { "que": "gato", "x": 270, "cara": "feliz" }
+    ]
+   },
+   "cara": "feliz",
+   "jp": "会[あ]えて よかった。 電話[でんわ]じゃ 話[はな]せなかったけど。",
+   "voz": "o3",
+   "tr": {
+    "es": "Qué bien, te he encontrado. Por teléfono no podía hablar contigo.",
+    "en": "Glad I found you. I couldn't talk to you by phone."
+   },
+   "cartela": {
+    "es": "話[はな]せない: simplemente no puedes, sin más explicación.",
+    "en": "話せない: you simply can't, no explanation needed."
+   }
+  }
+ ],
+ "chuleta": {
+  "patron": {
+   "es": "〔動詞のます形〕ようがない ／ 〔動詞の辞書形〕しかない",
+   "en": "〔verb masu-stem〕ようがない / 〔dictionary-form verb〕しかない"
+  },
+  "patron_tr": {
+   "es": "no hay manera de… ／ no queda otra que…",
+   "en": "there's no way to… / there's nothing for it but to…"
+  },
+  "columnas": [
+   {
+    "jp": "ようがない",
+    "texto": {
+     "es": "no existe ni el método (imposible)",
+     "en": "there's no method at all (impossible)"
+    },
+    "dibujos": ["telefono"]
+   },
+   {
+    "jp": "しかない",
+    "texto": {
+     "es": "no hay otra opción (pero se puede)",
+     "en": "no other option (but it can be done)"
+    },
+    "dibujos": ["bici"]
+   }
+  ],
+  "filas": [
+   {
+    "jp": "連絡[れんらく]しようがない。",
+    "es": "No hay manera de contactar.",
+    "en": "There's no way to get in touch.",
+    "registro": "amigos"
+   },
+   {
+    "jp": "直[なお]しようがないです。",
+    "es": "(al sensei) No hay manera de arreglarlo.",
+    "en": "(to the teacher) There's no way to fix it.",
+    "registro": "educado"
+   },
+   {
+    "jp": "歩[ある]くしかない。",
+    "es": "No queda otra que andar.",
+    "en": "Nothing for it but to walk.",
+    "registro": "amigos"
+   },
+   {
+    "jp": "話[はな]せない。",
+    "es": "(potencial negativo) Simplemente no puedo hablar.",
+    "en": "(negative potential) I simply can't talk.",
+    "registro": "amigos"
+   }
+  ],
+  "consejo": {
+   "es": "El primo es しかない: ようがない = ni el método existe (imposible); しかない = SÍ se puede, pero no hay otra opción. El potencial negativo (話[はな]せない, 行[い]けない) es aún más simple: solo dice que no puedes, sin explicar por qué.",
+   "en": "ようがない = the method itself doesn't exist (impossible). しかない = it CAN be done, there's just no other option. The negative potential (話せない, 行けない) is even simpler: it just says you can't, without explaining why."
+  }
+ }
+}

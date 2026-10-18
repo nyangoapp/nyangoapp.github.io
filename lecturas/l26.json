@@ -1,0 +1,50 @@
+{
+ "id": "l26", "desde": 2025,
+ "titulo": {"jp": "秘密[ひみつ]の スープ", "es": "La sopa secreta", "en": "The secret soup"},
+ "resumen": {"es": "Tama quiere enseñarle a Nyan la sopa secreta de su abuela, pero antes de que les salga bien tienen que estropearla una vez.", "en": "Tama wants to teach Nyan his grandma's secret soup, but before it comes out right they have to ruin it once."},
+ "portada": {"fondo": "cocina", "cosas": [{"que": "nyan", "x": 100, "cara": "normal"}, {"que": "gato", "x": 200}, {"que": "cuenco", "x": 300}]},
+ "texto": [
+  {"voz": "t1", "quien": "narrador", "jp": "タマの おばあさんは、 特別[とくべつ]な スープを 作[つく]る ことが できる。", "es": "La abuela de Tama sabe preparar una sopa especial.", "en": "Tama's grandma knows how to make a special soup."},
+  {"voz": "t2", "quien": "nyan", "jp": "その スープ、 一度[いちど] 食[た]べて みたいなあ。", "es": "Esa sopa, me gustaría probarla alguna vez.", "en": "That soup, I'd like to try it sometime."},
+  {"voz": "t3", "quien": "tama", "jp": "じゃあ、 今度[こんど] 一緒[いっしょ]に 作[つく]りに 行[い]こう。", "es": "Pues vamos a hacerla juntos la próxima vez.", "en": "Then let's go make it together next time."},
+  {"voz": "t4", "quien": "narrador", "jp": "二人[ふたり]は、 タマの おばあさんの 家[いえ]へ 行[い]った。", "es": "Los dos fueron a casa de la abuela de Tama.", "en": "The two of them went to Tama's grandma's house."},
+  {"voz": "t5", "quien": "narrador", "jp": "おばあさんは、 材料[ざいりょう]を 用意[ようい]して くれて いた。", "es": "La abuela les había preparado los ingredientes.", "en": "Grandma had prepared the ingredients for them."},
+  {"voz": "t6", "quien": "narrador", "jp": "二人[ふたり]は 手伝[てつだ]い 合[あ]いながら、 野菜[やさい]を 切[き]った。", "es": "Los dos cortaron las verduras ayudándose mutuamente.", "en": "The two of them cut the vegetables while helping each other."},
+  {"voz": "t7", "quien": "narrador", "jp": "しかし、 ニャンは 塩[しお]と 砂糖[さとう]を 間違[まちが]えて 入[い]れて しまった。", "es": "Pero Nyan confundió la sal con el azúcar y la echó por error.", "en": "But Nyan mistook the salt for the sugar and put it in by mistake."},
+  {"voz": "t8", "quien": "narrador", "jp": "スープの 味[あじ]は、 とても 変[へん]な 味[あじ]に なって しまった。", "es": "El sabor de la sopa acabó siendo muy raro.", "en": "The soup's flavor ended up being very strange."},
+  {"voz": "t9", "quien": "tama", "jp": "これは… ちょっと 失敗[しっぱい]したね。", "es": "Esto es... hemos fallado un poco.", "en": "This is... we messed up a bit."},
+  {"voz": "t10", "quien": "nyan", "jp": "ごめんなさい！ もう 一度[いちど]、 最初[さいしょ]から やろう！", "es": "¡Perdón! ¡Hagámoslo otra vez desde el principio!", "en": "Sorry! Let's do it again from the start!"},
+  {"voz": "t11", "quien": "narrador", "jp": "二人[ふたり]は 材料[ざいりょう]を 買[か]い 直[なお]して、 もう 一度[いちど] 挑戦[ちょうせん]した。", "es": "Los dos volvieron a comprar los ingredientes y lo intentaron de nuevo.", "en": "The two of them bought the ingredients again and gave it another try."},
+  {"voz": "t12", "quien": "narrador", "jp": "今度[こんど]は、 塩[しお]と 砂糖[さとう]を 間違[まちが]えないように 気[き]を つけた。", "es": "Esta vez, tuvieron cuidado de no confundir la sal con el azúcar.", "en": "This time, they were careful not to mix up the salt and sugar."},
+  {"voz": "t13", "quien": "narrador", "jp": "スープは とても おいしく できた。", "es": "La sopa salió muy rica.", "en": "The soup came out very delicious."},
+  {"voz": "t14", "quien": "tama", "jp": "わあ、 おばあさんの 味[あじ]に 近[ちか]づいたね！", "es": "¡Anda, se ha acercado al sabor de la abuela!", "en": "Wow, it's gotten close to grandma's flavor!"},
+  {"voz": "t15", "quien": "narrador", "jp": "二人[ふたり]は、 出来[でき]た スープを 全部[ぜんぶ] 食[た]べ 切[き]った。", "es": "Los dos se comieron entera toda la sopa que habían hecho.", "en": "The two of them completely finished eating all of the soup they'd made."},
+  {"voz": "t16", "quien": "nyan", "jp": "おいしかった！ お 腹[なか]いっぱいだよ。", "es": "¡Qué rica estaba! Estoy lleno.", "en": "That was delicious! I'm full."},
+  {"voz": "t17", "quien": "narrador", "jp": "おばあさんは、 二人[ふたり]が 頑張[がんば]った ことを 知[し]って、 とても 喜[よろこ]んだ。", "es": "Al saber lo mucho que se habían esforzado los dos, la abuela se alegró muchísimo.", "en": "Learning how hard the two of them had tried, grandma was very pleased."},
+  {"voz": "t18", "quien": "tama", "jp": "今度[こんど]は、 一人[ひとり]でも 作[つく]れる ように 練習[れんしゅう]しよう。", "es": "La próxima vez, practiquemos para poder hacerla aunque sea uno solo.", "en": "Next time, let's practice so we can make it even alone."},
+  {"voz": "t19", "quien": "nyan", "jp": "うん！ この 秘密[ひみつ]の 味[あじ]、 ずっと 覚[おぼ]えて おきたいな。", "es": "¡Sí! Quiero recordar para siempre este sabor secreto.", "en": "Yeah! I want to remember this secret flavor forever."}
+ ],
+ "preguntas": [
+  {"jp": "タマの おばあさんは、 何[なに]が 作[つく]れますか。", "es": "¿Qué sabe hacer la abuela de Tama?", "en": "What can Tama's grandma make?",
+   "opciones": [{"jp": "特別[とくべつ]な スープ", "es": "Una sopa especial", "en": "A special soup"}, {"jp": "大[おお]きな ケーキ", "es": "Un pastel grande", "en": "A big cake"}, {"jp": "新[あたら]しい 服[ふく]", "es": "Ropa nueva", "en": "New clothes"}],
+   "bien": 0, "porque": {"es": "「特別なスープを作ることができる」とある。", "en": "«特別なスープを作ることができる» (she can make a special soup)."}},
+  {"jp": "スープを 作[つく]って いる とき、 ニャンは 何[なに]を 間違[まちが]えましたか。", "es": "Mientras hacían la sopa, ¿qué confundió Nyan?", "en": "While making the soup, what did Nyan mix up?",
+   "opciones": [{"jp": "塩[しお]と 砂糖[さとう]", "es": "La sal y el azúcar", "en": "The salt and the sugar"}, {"jp": "野菜[やさい]の 種類[しゅるい]", "es": "El tipo de verdura", "en": "The type of vegetable"}, {"jp": "鍋[なべ]の 色[いろ]", "es": "El color de la olla", "en": "The color of the pot"}],
+   "bien": 0, "porque": {"es": "「塩と砂糖を間違えて入れてしまった」とある。", "en": "«塩と砂糖を間違えて入れてしまった» (he mistook the salt for the sugar and put it in)."}},
+  {"jp": "最初[さいしょ]の スープは どう なりましたか。", "es": "¿Cómo salió la primera sopa?", "en": "How did the first soup turn out?",
+   "opciones": [{"jp": "とても 変[へん]な 味[あじ]に なった", "es": "Le salió un sabor muy raro", "en": "It ended up with a very strange flavor"}, {"jp": "とても おいしく できた", "es": "Salió muy rica", "en": "It came out very delicious"}, {"jp": "冷[つめ]たく なって しまった", "es": "Se quedó fría", "en": "It got cold"}],
+   "bien": 0, "porque": {"es": "「とても変な味になってしまった」とある。", "en": "«とても変な味になってしまった» (it ended up with a very strange flavor)."}},
+  {"jp": "二回目[にかいめ]の スープが できた 後[あと]、 二人[ふたり]は 何[なに]を しましたか。", "es": "Después de terminar la segunda sopa, ¿qué hicieron los dos?", "en": "After the second soup was done, what did the two of them do?",
+   "opciones": [{"jp": "全部[ぜんぶ] 食[た]べ 切[き]った", "es": "Se la comieron entera", "en": "Finished eating all of it"}, {"jp": "半分[はんぶん] 残[のこ]した", "es": "Dejaron la mitad", "en": "Left half of it"}, {"jp": "おばあさんに あげて しまった", "es": "Se la dieron entera a la abuela", "en": "Gave it all to grandma"}],
+   "bien": 0, "porque": {"es": "「出来たスープを全部食べ切った」とある。", "en": "«出来たスープを全部食べ切った» (they completely finished eating all of the soup)."}},
+  {"tipo": "opinion", "jp": "料理[りょうり]で 失敗[しっぱい]したら、 あなたは どう しますか。", "es": "Si fallas cocinando, ¿qué haces tú?", "en": "If you mess up while cooking, what do you do?",
+   "opciones": [
+    {"jp": "材料[ざいりょう]を 買[か]い 直[なお]して、 もう 一度[いちど] 作[つく]る", "es": "Comprar los ingredientes de nuevo y hacerlo otra vez", "en": "Buy the ingredients again and make it once more",
+     "nyan": {"jp": "ニャンと タマも そう したよ！", "es": "¡Eso es justo lo que hicieron Nyan y Tama!", "en": "That's exactly what Nyan and Tama did!"}},
+    {"jp": "失敗[しっぱい]した ままで 食[た]べる", "es": "Comerlo tal como salió mal", "en": "Eat it as it turned out, mistake and all",
+     "nyan": {"jp": "それも 勇気[ゆうき]が いる ね。", "es": "Eso también requiere valentía.", "en": "That takes courage too."}},
+    {"jp": "誰[だれ]かに 手伝[てつだ]って もらう", "es": "Pedirle ayuda a alguien", "en": "Ask someone to help",
+     "nyan": {"jp": "いいね！ 一人[ひとり]より 二人[ふたり]の 方[ほう]が 楽[たの]しいよ。", "es": "¡Bien! Es más divertido entre dos que solo.", "en": "Nice! It's more fun with two than alone."}}
+   ]}
+ ]
+}

@@ -1,0 +1,771 @@
+{
+ "id": "c38",
+ "clase": 22,
+ "desde": 285,
+ "titulo": {
+  "es": "¡Vamos a verlo!: 〜よう y 〜ようと思う",
+  "en": "Let's go see it!: 〜よう and 〜ようと思う"
+ },
+ "resumen": {
+  "es": "よう es la forma llana de «¡vamos a…!» (el primo de confianza de ましょう). ようと思う añade «creo que…»; ようとする es «lo intento» (o «está a punto de pasar»).",
+  "en": "よう is the plain form of «let's…!» (the casual cousin of ましょう). ようと思う adds «I think I'll…»; ようとする means «I try to» (or «it's about to happen»)."
+ },
+ "formato": 2,
+ "lugar": "prado",
+ "registro": true,
+ "mision": {
+  "texto": {
+   "es": "Primera mañana en Hokkaido: delante, el monte Yōtei, el «Fuji de Hokkaido». Cada uno quiere hacer algo distinto: proponed planes entre amigos, en confianza (sin ましょう), y contad qué pensáis hacer.",
+   "en": "First morning in Hokkaido: ahead, Mount Yōtei, «Hokkaido's Fuji». Everyone wants to do something different: suggest plans among friends, casually (no ましょう), and say what you plan to do."
+  },
+  "escena": {
+   "fondo": "prado",
+   "cosas": [
+    {
+     "que": "nyan",
+     "x": 80
+    },
+    {
+     "que": "gato",
+     "id": "tama",
+     "x": 200
+    },
+    {
+     "que": "perro",
+     "id": "kotaro",
+     "x": 320
+    }
+   ]
+  },
+  "cara": "feliz",
+  "jp": "何[なに]を しよう？",
+  "voz": "m0"
+ },
+ "reglas": [
+  {
+   "id": "volitivo",
+   "nombre": {
+    "es": "〜よう／〜おう: ¡vamos a…! (entre amigos)",
+    "en": "〜よう／〜おう: let's…! (among friends)"
+   },
+   "patron": {
+    "es": "verbo en る: る → よう ・ verbo en u: u → o + う",
+    "en": "る verb: る → よう ・ u verb: u → o + う"
+   },
+   "explica": {
+    "es": "Es la versión de confianza de ましょう: con amigos y familia se dice 行こう en vez de 行きましょう. Cómo se forma: los verbos en る cambian る por よう (食べる → 食べよう, 見る → 見よう); los demás cambian su u final por o y la alargan con う (行く → 行こう, 登る → 登ろう, 遊ぶ → 遊ぼう). Los rebeldes: する → しよう, 来る → こよう. Con か al final (しようか) propones con suavidad: «¿y si…?».",
+    "en": "It's the casual version of ましょう: with friends and family you say 行こう instead of 行きましょう. How it's formed: る verbs swap る for よう (食べる → 食べよう, 見る → 見よう); the rest change their final u to o and lengthen it with う (行く → 行こう, 登る → 登ろう, 遊ぶ → 遊ぼう). The rebels: する → しよう, 来る → こよう. With か at the end (しようか) you suggest gently: «how about…?»."
+   },
+   "ejemplos": [
+    {
+     "jp": "よし、 登[のぼ]ろう！",
+     "es": "¡Venga, subamos!",
+     "en": "Right, let's climb!",
+     "voz": "r1-1"
+    },
+    {
+     "jp": "まず 朝[あさ]ご飯[はん]を 食[た]べよう！",
+     "es": "¡Primero desayunemos!",
+     "en": "Let's have breakfast first!",
+     "voz": "r1-2"
+    }
+   ],
+   "ojo": {
+    "es": "Con la profe o con desconocidos, mejor ましょう: el volitivo llano sonaría a que les hablas como a un colega.",
+    "en": "With the teacher or strangers, stick to ましょう: the plain volitional would sound like you're talking to a buddy."
+   }
+  },
+  {
+   "id": "youtoomou",
+   "nombre": {
+    "es": "〜ようと思う: pienso hacer…",
+    "en": "〜ようと思う: I'm going to…"
+   },
+   "patron": {
+    "es": "〔volitivo〕と思う／と思っている",
+    "en": "〔volitional〕と思う／と思っている"
+   },
+   "explica": {
+    "es": "Si pones el volitivo delante de と思う, ya no invitas a nadie: cuentas un plan que tienes en la cabeza. 登ろうと思う, «pienso subirlo». Con と思っています el plan viene de antes y sigue en pie: «llevo tiempo pensando en…». Es más suave que decir «lo haré» a secas, porque suena a intención, no a promesa.",
+    "en": "Put the volitional before と思う and you're no longer inviting anyone: you're sharing a plan in your head. 登ろうと思う, «I'm going to climb it». With と思っています the plan has been around for a while: «I've been thinking of…». It's softer than a flat «I will», because it sounds like an intention, not a promise."
+   },
+   "ejemplos": [
+    {
+     "jp": "いつか 登[のぼ]ろうと 思[おも]う。",
+     "es": "Algún día pienso subirlo.",
+     "en": "Someday I'm going to climb it.",
+     "voz": "r2-1"
+    },
+    {
+     "jp": "写真[しゃしん]を 送[おく]ろうと 思[おも]って います。",
+     "es": "Pienso mandar las fotos.",
+     "en": "I'm planning to send the photos.",
+     "voz": "r2-2"
+    }
+   ],
+   "ojo": {
+    "es": "Lo que piensas va citado con と: 登ろうと思う. Con を no encaja, porque と es la marca de «lo que se piensa o se dice».",
+    "en": "What you think is quoted with と: 登ろうと思う. を doesn't fit, because と marks «what is thought or said»."
+   }
+  }
+ ],
+ "historia": [
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "見[み]て！ 羊蹄山[ようていざん]です！",
+   "tr": {
+    "es": "¡Mira! ¡El monte Yōtei!",
+    "en": "Look! Mount Yōtei!"
+   },
+   "voz": "h1",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "prado",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 200
+     },
+     {
+      "que": "perro",
+      "id": "kotaro",
+      "x": 320
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "北海道[ほっかいどう]の 富士山[ふじさん]ですね！",
+   "tr": {
+    "es": "¡Es como el Fuji de Hokkaido!",
+    "en": "It's like Hokkaido's Mount Fuji!"
+   },
+   "voz": "h2",
+   "cara": "feliz",
+   "brazo": "arriba"
+  },
+  {
+   "t": "dice",
+   "habla": "kage",
+   "jp": "よし、 登[のぼ]ろう！",
+   "tr": {
+    "es": "¡Venga, subamos!",
+    "en": "Right, let's climb it!"
+   },
+   "voz": "h3",
+   "cara": "decidido",
+   "reacciona": {
+    "nyan": "sorpresa"
+   },
+   "escena": {
+    "fondo": "prado",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 170
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 320
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "volitivo"
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "A Nyan le apetece más desayunar. Propónselo a Tama, en confianza:",
+    "en": "Nyan would rather have breakfast. Suggest it to Tama, casually:"
+   },
+   "opciones": [
+    {
+     "jp": "まず 朝[あさ]ご飯[はん]を 食[た]べよう！",
+     "bien": true,
+     "tr": {
+      "es": "¡Primero desayunemos!",
+      "en": "Let's have breakfast first!"
+     },
+     "voz": "h4",
+     "porque": {
+      "es": "食べる es verbo en る: る → よう. Entre amigos, 食べよう.",
+      "en": "食べる is a る verb: る → よう. Among friends, 食べよう."
+     }
+    },
+    {
+     "jp": "まず 朝[あさ]ご飯[はん]を 食[た]べろう！",
+     "bien": false,
+     "porque": {
+      "es": "El volitivo de los verbos en る es る → よう: 食べよう. (食べろ, con ろ, sería una orden brusca.)",
+      "en": "The volitional of る verbs is る → よう: 食べよう. (食べろ, with ろ, would be a blunt order.)"
+     }
+    },
+    {
+     "jp": "まず 朝[あさ]ご飯[はん]を 食[た]べるよう！",
+     "bien": false,
+     "porque": {
+      "es": "よう no se pega a la forma de diccionario: se quita la る y se pone よう: 食べよう.",
+      "en": "よう doesn't attach to the dictionary form: drop the る and add よう: 食べよう."
+     }
+    }
+   ],
+   "cara": "feliz",
+   "escena": {
+    "fondo": "prado",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 300
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "kotaro",
+   "jp": "走[はし]ろう！ 走[はし]ろう！",
+   "tr": {
+    "es": "¡Corramos, corramos!",
+    "en": "Let's run! Let's run!"
+   },
+   "voz": "h5",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "prado",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "perro",
+      "id": "kotaro",
+      "x": 300
+     }
+    ]
+   }
+  },
+  {
+   "t": "monta",
+   "encargo": 0
+  },
+  {
+   "t": "dice",
+   "habla": "sensei",
+   "jp": "今日[きょう]は 登[のぼ]りません。 見[み]るだけです。",
+   "tr": {
+    "es": "Hoy no se sube. Solo lo miramos.",
+    "en": "No climbing today. We're just looking."
+   },
+   "voz": "h6",
+   "reacciona": {
+    "kage": "aburrido"
+   },
+   "escena": {
+    "fondo": "prado",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 210
+     },
+     {
+      "que": "sensei",
+      "id": "sensei",
+      "x": 330
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "youtoomou"
+  },
+  {
+   "t": "elige",
+   "habla": "kage",
+   "pide": {
+    "es": "Kage no se rinde. Dice que piensa subirlo algún día:",
+    "en": "Kage won't give up. He says he plans to climb it someday:"
+   },
+   "opciones": [
+    {
+     "jp": "いつか 登[のぼ]ろうと 思[おも]う。",
+     "bien": true,
+     "tr": {
+      "es": "Algún día pienso subirlo.",
+      "en": "Someday I'm going to climb it."
+     },
+     "voz": "h7",
+     "porque": {
+      "es": "Volitivo (登ろう) + と思う: un plan que tienes en la cabeza.",
+      "en": "Volitional (登ろう) + と思う: a plan in your head."
+     }
+    },
+    {
+     "jp": "いつか 登[のぼ]るうと 思[おも]う。",
+     "bien": false,
+     "porque": {
+      "es": "El volitivo de 登る (verbo en u) es 登ろう: la る pasa a ろ + う.",
+      "en": "The volitional of 登る (a u verb) is 登ろう: る becomes ろ + う."
+     }
+    },
+    {
+     "jp": "いつか 登[のぼ]ろうを 思[おも]う。",
+     "bien": false,
+     "porque": {
+      "es": "Lo que piensas va citado con と, no con を: 登ろうと思う.",
+      "en": "What you think is quoted with と, not を: 登ろうと思う."
+     }
+    }
+   ],
+   "cara": "pensando",
+   "escena": {
+    "fondo": "prado",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 210
+     },
+     {
+      "que": "sensei",
+      "id": "sensei",
+      "x": 330
+     }
+    ]
+   }
+  },
+  {
+   "t": "toca",
+   "pide": {
+    "es": "Tama piensa hacer algo con esto. Escucha y toca lo que va a usar.",
+    "en": "Tama plans to do something with this. Listen and tap what she'll use."
+   },
+   "bien": "telefono",
+   "quien": "tama",
+   "escena": {
+    "fondo": "prado",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 65
+     },
+     {
+      "que": "telefono",
+      "x": 165,
+      "id": "telefono",
+      "s": 1.1
+     },
+     {
+      "que": "mapa",
+      "x": 222,
+      "id": "mapa",
+      "s": 1.0
+     },
+     {
+      "que": "carta",
+      "x": 278,
+      "id": "carta",
+      "s": 1.0
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 345
+     }
+    ]
+   },
+   "jp": "この 写真[しゃしん]を おばあちゃんに 送[おく]ろうと 思[おも]います。",
+   "voz": "h8",
+   "bien_msg": {
+    "es": "¡Eso! Con el móvil: 写真を送ろうと思います, «pienso mandarle la foto».",
+    "en": "Right! The phone: 写真を送ろうと思います, «I'm going to send her the photo»."
+   },
+   "mal_msg": {
+    "es": "Ha dicho 写真を送ろう: mandar una foto. ¿Con qué se hace?",
+    "en": "She said 写真を送ろう: send a photo. What do you do that with?"
+   }
+  }
+ ],
+ "epilogo": [
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "みんなで 写真[しゃしん]を 撮[と]ろう！",
+   "tr": {
+    "es": "¡Hagámonos una foto todos!",
+    "en": "Let's all take a photo!"
+   },
+   "voz": "x1",
+   "cara": "feliz",
+   "brazo": "arriba",
+   "escena": {
+    "fondo": "prado",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 170
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 260
+     },
+     {
+      "que": "perro",
+      "id": "kotaro",
+      "x": 340
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "はい、 チーズ！",
+   "tr": {
+    "es": "¡Patata!",
+    "en": "Say cheese!"
+   },
+   "voz": "x2",
+   "cara": "feliz"
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta la frase: la escena hará lo que digas.",
+   "en": "Build the sentence: the scene will do what you say."
+  },
+  "piezas": [
+   {
+    "id": "issho",
+    "jp": "いっしょに",
+    "tipo": "palabra"
+   },
+   {
+    "id": "asobou",
+    "jp": "遊[あそ]ぼう",
+    "tipo": "verbo"
+   },
+   {
+    "id": "asobiyou",
+    "jp": "遊[あそ]びよう",
+    "tipo": "verbo"
+   },
+   {
+    "id": "asobimasu",
+    "jp": "遊[あそ]びます",
+    "tipo": "verbo"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Kotarō quiere correr por el prado. Anímate tú también: «¡Vamos a jugar juntos!»",
+     "en": "Kotarō wants to run around the meadow. Join in: «Let's play together!»"
+    },
+    "escena": {
+     "fondo": "prado",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 80
+      },
+      {
+       "que": "perro",
+       "id": "kotaro",
+       "x": 300
+      }
+     ]
+    },
+    "piezas": [
+     "issho",
+     "asobou",
+     "asobiyou",
+     "asobimasu"
+    ],
+    "bien": [
+     [
+      "issho",
+      "asobou"
+     ]
+    ],
+    "tr": {
+     "es": "¡Vamos a jugar juntos!",
+     "en": "Let's play together!"
+    },
+    "efecto_bien": [
+     {
+      "tipo": "salta",
+      "objeto": "kotaro"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "asobiyou"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "遊ぶ es un verbo en u: la u final pasa a o y se alarga con う: 遊ぼう. よう es para los verbos en る.",
+       "en": "遊ぶ is a u verb: the final u becomes o, lengthened with う: 遊ぼう. よう is for る verbs."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "asobimasu"
+       ]
+      },
+      "efecto": {
+       "tipo": "manpu",
+       "objeto": "kotaro",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "遊びます es «juego»: lo cuentas, no invitas. Para «¡vamos a jugar!» entre amigos, 遊ぼう.",
+       "en": "遊びます is «I play»: you're stating it, not inviting. For «let's play!» among friends, 遊ぼう."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "reto": {
+  "intro": {
+   "jp": "ふん。 登[のぼ]る 前[まえ]に、 勝負[しょうぶ]しよう。",
+   "tr": {
+    "es": "Hmpf. Antes de subir, un duelo.",
+    "en": "Hmph. Before climbing, let's duel."
+   },
+   "voz": "k0"
+  },
+  "gana": {
+   "jp": "…くっ。 次[つぎ]は 勝[か]とうと 思[おも]う。",
+   "tr": {
+    "es": "…Tsk. La próxima pienso ganar.",
+    "en": "…Tch. Next time I'm going to win."
+   },
+   "voz": "kw"
+  },
+  "pierde": {
+   "jp": "ふん。 もっと 練習[れんしゅう]しよう。",
+   "tr": {
+    "es": "Hmpf. Hay que practicar más.",
+    "en": "Hmph. Let's practise more."
+   },
+   "voz": "kl"
+  },
+  "pica": {
+   "jp": "…やるな。",
+   "tr": {
+    "es": "…No está mal.",
+    "en": "…Not bad."
+   },
+   "voz": "kp"
+  },
+  "burla": {
+   "jp": "ふん！",
+   "tr": {
+    "es": "¡Ja!",
+    "en": "Hah!"
+   },
+   "voz": "kb"
+  },
+  "preguntas": [
+   {
+    "tipo": "elige",
+    "jp": "いっしょに 帰[かえ]＿！",
+    "opciones": [
+     "ろう",
+     "よう",
+     "りよう"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "¡Volvamos juntos!",
+     "en": "Let's go back together!"
+    },
+    "porque": {
+     "es": "帰る es verbo en u aunque acabe en る: 帰ろう.",
+     "en": "帰る is a u verb even though it ends in る: 帰ろう."
+    },
+    "voz": "q1"
+   },
+   {
+    "tipo": "elige",
+    "jp": "明日[あした]は 早[はや]く 起[お]き＿と 思[おも]います。",
+    "opciones": [
+     "よう",
+     "ろう",
+     "ます"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Mañana pienso levantarme pronto.",
+     "en": "I plan to get up early tomorrow."
+    },
+    "porque": {
+     "es": "起きる es en る: 起きよう + と思う.",
+     "en": "起きる is a る verb: 起きよう + と思う."
+    },
+    "voz": "q2"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "週末[しゅうまつ]、 映画[えいが]を 見[み]よう。",
+    "correcta": true,
+    "tr": {
+     "es": "Este finde, veamos una peli.",
+     "en": "Let's watch a film this weekend."
+    },
+    "porque": {
+     "es": "Bien: 見る (en る) → 見よう.",
+     "en": "Right: 見る (る verb) → 見よう."
+    },
+    "voz": "q3"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "いっしょに 行[い]こよう。",
+    "correcta": false,
+    "tr": {
+     "es": "(Vamos juntos.)",
+     "en": "(Let's go together.)"
+    },
+    "porque": {
+     "es": "行く → 行こう (u → o + う). よう solo va con los verbos en る.",
+     "en": "行く → 行こう (u → o + う). よう only goes with る verbs."
+    },
+    "voz": "q4"
+   },
+   {
+    "tipo": "oye",
+    "jp": "何[なに]を しようか。",
+    "habla": "tama",
+    "opciones": [
+     {
+      "es": "¿Qué hacemos?",
+      "en": "What shall we do?"
+     },
+     {
+      "es": "¿Qué has hecho?",
+      "en": "What did you do?"
+     },
+     {
+      "es": "¿Qué quieres?",
+      "en": "What do you want?"
+     }
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "しよう (volitivo de する) + か: propone y pregunta a la vez.",
+     "en": "しよう (volitional of する) + か: suggesting and asking at once."
+    },
+    "voz": "q5"
+   },
+   {
+    "tipo": "imagen",
+    "jp": "みんなで 写真[しゃしん]を 撮[と]ろう！",
+    "opciones": [
+     "telefono",
+     "libro",
+     "reloj"
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "写真を撮ろう: la foto se hace con el móvil.",
+     "en": "写真を撮ろう: the photo is taken with the phone."
+    },
+    "pide": {
+     "es": "¿Con qué se hace?",
+     "en": "What is it done with?"
+    }
+   }
+  ]
+ },
+ "siguiente": {
+  "es": "Noche en casa de la abuela de Tama: ha dejado una carta preguntando qué habéis hecho hoy. Y Nyan… ¿ha salido sin bufanda?",
+  "en": "Night at Tama's grandma's: she left a letter asking what you did today. And Nyan… went out without a scarf?"
+ },
+ "chuleta": {
+  "patron": {
+   "es": "〔る → よう／u → おう〕 ・ 〔volitivo〕と思う",
+   "en": "〔る → よう／u → おう〕 ・ 〔volitional〕と思う"
+  },
+  "patron_tr": {
+   "es": "¡vamos a…! ・ pienso…",
+   "en": "let's…! ・ I'm going to…"
+  },
+  "filas": [
+   {
+    "jp": "いっしょに 行[い]こう！",
+    "es": "¡Vamos juntos! (a un amigo)",
+    "en": "Let's go together! (to a friend)",
+    "registro": "amigos"
+   },
+   {
+    "jp": "いっしょに 行[い]きましょう。",
+    "es": "Vamos juntos. (educado)",
+    "en": "Let's go together. (polite)",
+    "registro": "educado"
+   },
+   {
+    "jp": "来年[らいねん]も 来[こ]ようと 思[おも]います。",
+    "es": "Pienso volver el año que viene.",
+    "en": "I'm planning to come back next year."
+   }
+  ],
+  "consejo": {
+   "es": "そろそろ帰ろうか («¿nos vamos yendo?») es una de las frases más útiles del volitivo: la oirás al final de cualquier quedada.",
+   "en": "そろそろ帰ろうか («shall we get going?») is one of the handiest volitional phrases: you'll hear it at the end of any get-together."
+  }
+ }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "l01", "desde": 150,
+  "titulo": {"jp": "ニャン と おにぎり", "es": "Nyan y el onigiri", "en": "Nyan and the onigiri"},
+  "resumen": {"es": "A Nyan le apetece un onigiri, pero en casa no queda ninguno: ¿qué hará?",
+              "en": "Nyan craves an onigiri, but there isn't one at home: what will he do?"},
+  "portada": {"fondo": "cuarto", "cosas": [{"que": "nyan", "x": 110, "cara": "triste"}, {"que": "plato", "x": 270}]},
+  "texto": [
+    {"voz": "t1", "quien": "narrador", "jp": "今日[きょう]、 ニャン は おにぎり が 食[た]べたかった。",
+     "es": "Hoy, Nyan tenía ganas de comer un onigiri.", "en": "Today, Nyan wanted to eat an onigiri."},
+    {"voz": "t2", "quien": "narrador", "jp": "でも、 うち に おにぎり は なかった。 みず は あった。",
+     "es": "Pero en casa no había ningún onigiri. Había agua.", "en": "But there was no onigiri at home. There was water."},
+    {"voz": "t3", "quien": "nyan", "jp": "あ、 おにぎり が 食[た]べたい。",
+     "es": "Ah, quiero comer un onigiri.", "en": "Ah, I want to eat an onigiri."},
+    {"voz": "t4", "quien": "narrador", "jp": "ニャン は タマ の うち に 行[い]った。",
+     "es": "Nyan fue a casa de Tama.", "en": "Nyan went to Tama's house."},
+    {"voz": "t5", "quien": "narrador", "jp": "タマ は 本[ほん] を 読[よ]んで いた。",
+     "es": "Tama estaba leyendo un libro.", "en": "Tama was reading a book."},
+    {"voz": "t6", "quien": "tama", "jp": "ニャン、 どう した？",
+     "es": "Nyan, ¿qué te pasa?", "en": "Nyan, what's wrong?"},
+    {"voz": "t7", "quien": "nyan", "jp": "おにぎり が ない。",
+     "es": "No tengo onigiri.", "en": "There's no onigiri."},
+    {"voz": "t8", "quien": "narrador", "jp": "タマ は ニャン に おにぎり を あげた。",
+     "es": "Tama le dio un onigiri a Nyan.", "en": "Tama gave Nyan an onigiri."},
+    {"voz": "t9", "quien": "narrador", "jp": "ニャン は 「ありがとう」と 言[い]って、 おにぎり を 食[た]べた。 ニャン は また ねむかった。",
+     "es": "Nyan dijo «gracias» y se comió el onigiri. Nyan volvía a tener sueño.", "en": "Nyan said \"thank you\" and ate the onigiri. Nyan was sleepy again."}
+  ],
+  "preguntas": [
+    {"jp": "ニャン は 何[なに] が 食[た]べたかった です か。", "es": "¿Qué tenía ganas de comer Nyan?", "en": "What did Nyan want to eat?",
+     "opciones": [{"jp": "おにぎり", "es": "Onigiri", "en": "Onigiri"}, {"jp": "本[ほん]", "es": "Un libro", "en": "A book"}, {"jp": "みず", "es": "Agua", "en": "Water"}],
+     "bien": 0, "porque": {"es": "Nyan dice «おにぎりが食べたい»: quería comer un onigiri.", "en": "Nyan says \"I want to eat an onigiri.\""}},
+    {"jp": "うち に 何[なに] が ありました か。", "es": "¿Qué había en casa?", "en": "What was there at home?",
+     "opciones": [{"jp": "おにぎり", "es": "Onigiri", "en": "Onigiri"}, {"jp": "みず", "es": "Agua", "en": "Water"}, {"jp": "本[ほん]", "es": "Un libro", "en": "A book"}],
+     "bien": 1, "porque": {"es": "La historia dice: うちにおにぎりはなかった。水はあった。", "en": "The story says there was no onigiri at home, but there was water."}},
+    {"jp": "誰[だれ] が ニャン に おにぎり を あげました か。", "es": "¿Quién le dio un onigiri a Nyan?", "en": "Who gave Nyan an onigiri?",
+     "opciones": [{"jp": "タマ", "es": "Tama", "en": "Tama"}, {"jp": "ニャン", "es": "Nyan", "en": "Nyan"}],
+     "bien": 0, "porque": {"es": "タマがニャンにおにぎりをあげました。", "en": "Tama gave Nyan an onigiri."}},
+    {"tipo": "opinion", "jp": "あなた は おにぎり が 好[す]き です か。", "es": "¿A ti te gusta el onigiri?", "en": "Do you like onigiri?",
+     "opciones": [
+       {"jp": "好[す]き です。", "es": "Sí, me gusta.", "en": "Yes, I like it.",
+        "nyan": {"jp": "やった！ ニャン も 好[す]き です！", "es": "¡Bien! ¡A Nyan también le gusta!", "en": "Yay! Nyan likes it too!"}},
+       {"jp": "いいえ、 好[す]き じゃない です。", "es": "No, no me gusta.", "en": "No, I don't like it.",
+        "nyan": {"jp": "そう です か。 おにぎり は おいしい です よ！", "es": "Vaya. ¡El onigiri está muy rico, oye!", "en": "I see. Onigiri is tasty, you know!"}},
+       {"jp": "すこし 好[す]き です。", "es": "Me gusta un poco.", "en": "I like it a little.",
+        "nyan": {"jp": "ニャン は とても 好[す]き です！", "es": "¡A Nyan le encanta!", "en": "Nyan likes it a lot!"}}
+     ]}
+  ]
+}

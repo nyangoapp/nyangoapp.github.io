@@ -1,0 +1,801 @@
+{
+ "id": "c41",
+ "clase": 29,
+ "desde": 400,
+ "titulo": {
+  "es": "Aunque nieve: 〜ても y 〜のに",
+  "en": "Even if it snows: 〜ても and 〜のに"
+ },
+ "resumen": {
+  "es": "〜ても = pase lo que pase, no cambia nada («aunque llueva, salgo»). 〜のに = aunque…, y resulta que (con sorpresa o queja: «he estudiado mucho, y aun así no entiendo»). No los confundas con 〜てもいい (permiso).",
+  "en": "〜ても = no matter what, nothing changes («even if it rains, I'm going out»). 〜のに = although…, and yet (with surprise or a complaint: «I studied a lot, and I still don't get it»). Don't mix them up with 〜てもいい (permission)."
+ },
+ "formato": 2,
+ "lugar": "pueblo",
+ "mision": {
+  "texto": {
+   "es": "Último día libre: queréis ir al pueblo a comprar recuerdos para la familia. Nieva muchísimo, pero Nyan no piensa rendirse… Pase lo que pase, ¡a comprar! (Aunque a veces las cosas no salen como esperas.)",
+   "en": "Last free day: you want to go into town for souvenirs for the family. It's snowing hard, but Nyan won't give up… Whatever happens, shopping! (Though things don't always go as expected.)"
+  },
+  "escena": {
+   "fondo": "pueblo",
+   "cosas": [
+    {
+     "que": "nyan",
+     "x": 80
+    },
+    {
+     "que": "gato",
+     "id": "tama",
+     "x": 310
+    }
+   ]
+  },
+  "cara": "enfado",
+  "jp": "行[い]くぞ！",
+  "voz": "m0"
+ },
+ "reglas": [
+  {
+   "id": "temo",
+   "nombre": {
+    "es": "〜ても: aunque…",
+    "en": "〜ても: even if…"
+   },
+   "patron": {
+    "es": "〔verbo en て〕も ・ 〔adj. い〕くても ・ 〔nombre／adj. な〕でも",
+    "en": "〔て verb〕も ・ 〔い adj.〕くても ・ 〔noun／な adj.〕でも"
+   },
+   "explica": {
+    "es": "Pon la forma て y añade も: 降っても, «aunque nieve». Dice que la condición no cambia nada: pase lo que pase, lo de detrás sigue en pie. Con adjetivos en い, い → くても (寒くても); con nombres y adjetivos en な, でも (雨でも, 静かでも). Es el mismo も de «también»: «incluso nevando».",
+    "en": "Take the て form and add も: 降っても, «even if it snows». It says the condition changes nothing: whatever happens, what follows still stands. With い adjectives, い → くても (寒くても); with nouns and な adjectives, でも (雨でも, 静かでも). It's the same も as «also»: «even snowing»."
+   },
+   "ejemplos": [
+    {
+     "jp": "雪[ゆき]が 降[ふ]っても 行[い]きます！",
+     "es": "¡Aunque nieve, voy!",
+     "en": "Even if it snows, I'm going!",
+     "voz": "r1-1"
+    },
+    {
+     "jp": "寒[さむ]くても 大丈夫[だいじょうぶ]です。",
+     "es": "Aunque haga frío, no pasa nada.",
+     "en": "Even if it's cold, I'm fine.",
+     "voz": "r1-2"
+    }
+   ],
+   "ojo": {
+    "es": "No lo confundas con てもいい (clase 24): 行ってもいい es «puedes ir» (permiso); 行っても, sin いい, es «aunque vayas».",
+    "en": "Don't confuse it with てもいい (class 24): 行ってもいい is «you may go» (permission); 行っても, without いい, is «even if you go»."
+   }
+  },
+  {
+   "id": "noni",
+   "nombre": {
+    "es": "〜のに: y eso que… (¡qué rabia!)",
+    "en": "〜のに: even though… (how annoying!)"
+   },
+   "patron": {
+    "es": "〔forma corta〕のに、〔algo que choca〕",
+    "en": "〔short form〕のに、〔something that clashes〕"
+   },
+   "explica": {
+    "es": "のに une dos cosas reales que chocan, con un sentimiento: sorpresa, pena o queja. たくさん歩いたのに、閉まっている, «con lo que hemos andado, ¡y está cerrada!». A diferencia de けど (pero), のに añade el «¡qué rabia!» o el «¡qué raro!». Por eso detrás no van peticiones ni planes: のに cuenta cómo son las cosas, no lo que vas a hacer.",
+    "en": "のに joins two real things that clash, with a feeling: surprise, sadness or complaint. たくさん歩いたのに、閉まっている, «we walked all this way, and it's closed!». Unlike けど (but), のに adds «how annoying!» or «how odd!». That's why requests and plans can't follow it: のに tells how things are, not what you'll do."
+   },
+   "ejemplos": [
+    {
+     "jp": "たくさん 歩[ある]いたのに、 閉[し]まって います。",
+     "es": "Con lo que hemos andado, ¡y está cerrada!",
+     "en": "We walked so far, and it's closed!",
+     "voz": "r2-1"
+    },
+    {
+     "jp": "来[き]たくないと 言[い]ったのに、 たくさん 買[か]いましたね。",
+     "es": "Decías que no querías venir, y mira cuánto has comprado.",
+     "en": "You said you didn't want to come, and look how much you bought.",
+     "voz": "r2-2"
+    }
+   ],
+   "ojo": {
+    "es": "Con nombres y adjetivos en な, なのに: 日曜日なのに、仕事だ, «¡y eso que es domingo, tengo trabajo!».",
+    "en": "With nouns and な adjectives, なのに: 日曜日なのに、仕事だ, «it's Sunday, and I still have work!»."
+   }
+  }
+ ],
+ "historia": [
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "雪[ゆき]が たくさん 降[ふ]って います…。",
+   "tr": {
+    "es": "Está nevando muchísimo…",
+    "en": "It's snowing so hard…"
+   },
+   "voz": "h1",
+   "cara": "pensando",
+   "escena": {
+    "fondo": "pueblo",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 310
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "雪[ゆき]が 降[ふ]っても 行[い]きます！",
+   "tr": {
+    "es": "¡Aunque nieve, voy!",
+    "en": "Even if it snows, I'm going!"
+   },
+   "voz": "h2",
+   "cara": "enfado",
+   "brazo": "arriba",
+   "reacciona": {
+    "tama": "sorpresa"
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "temo"
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "Tama se preocupa por el frío. Nyan contesta muy valiente:",
+    "en": "Tama worries about the cold. Nyan answers bravely:"
+   },
+   "opciones": [
+    {
+     "jp": "寒[さむ]くても 大丈夫[だいじょうぶ]です！",
+     "bien": true,
+     "tr": {
+      "es": "¡Aunque haga frío, no pasa nada!",
+      "en": "Even if it's cold, I'm fine!"
+     },
+     "voz": "h3",
+     "porque": {
+      "es": "Adjetivo en い: la い pasa a くても: 寒くても.",
+      "en": "い adjective: い becomes くても: 寒くても."
+     }
+    },
+    {
+     "jp": "寒[さむ]いても 大丈夫[だいじょうぶ]です！",
+     "bien": false,
+     "porque": {
+      "es": "Con adjetivos en い, い → くても: 寒くても. 寒いても no existe.",
+      "en": "With い adjectives, い → くても: 寒くても. 寒いても doesn't exist."
+     }
+    },
+    {
+     "jp": "寒[さむ]いのに 大丈夫[だいじょうぶ]です！",
+     "bien": false,
+     "porque": {
+      "es": "のに cuenta un choque que ya es real y que fastidia. Para «aunque (pase lo que pase)», ても: 寒くても.",
+      "en": "のに tells of a real clash that annoys you. For «even if (whatever happens)», ても: 寒くても."
+     }
+    }
+   ],
+   "cara": "feliz",
+   "escena": {
+    "fondo": "pueblo",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 310
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "kage",
+   "jp": "店[みせ]は どこだ？ …あった！",
+   "tr": {
+    "es": "¿Dónde está la tienda? …¡Ahí!",
+    "en": "Where's the shop? …There!"
+   },
+   "voz": "h4",
+   "cara": "decidido",
+   "escena": {
+    "fondo": "pueblo",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 220
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 330
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "あれ？ 閉[し]まって います…。",
+   "tr": {
+    "es": "¿Eh? Está cerrada…",
+    "en": "Huh? It's closed…"
+   },
+   "voz": "h5",
+   "cara": "sorpresa",
+   "reacciona": {
+    "nyan": "sorpresa",
+    "kage": "aburrido"
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "noni"
+  },
+  {
+   "t": "monta",
+   "encargo": 0
+  },
+  {
+   "t": "dice",
+   "habla": "sensei",
+   "jp": "となりの 店[みせ]は 開[あ]いて いますよ。",
+   "tr": {
+    "es": "La tienda de al lado sí está abierta.",
+    "en": "The shop next door is open."
+   },
+   "voz": "h6",
+   "reacciona": {
+    "nyan": "feliz",
+    "tama": "feliz"
+   },
+   "escena": {
+    "fondo": "pueblo",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 180
+     },
+     {
+      "que": "sensei",
+      "id": "sensei",
+      "x": 330
+     }
+    ]
+   }
+  },
+  {
+   "t": "toca",
+   "pide": {
+    "es": "¿Qué recuerdo le compra Tama a su abuela? Escucha y tócalo.",
+    "en": "What souvenir does Tama buy for her grandma? Listen and tap it."
+   },
+   "bien": "daruma",
+   "quien": "tama",
+   "escena": {
+    "fondo": "pueblo",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 65
+     },
+     {
+      "que": "daruma",
+      "x": 160,
+      "id": "daruma",
+      "s": 1.0
+     },
+     {
+      "que": "senbei",
+      "x": 218,
+      "id": "senbei",
+      "s": 1.0
+     },
+     {
+      "que": "mikan",
+      "x": 272,
+      "id": "mikan",
+      "s": 1.0
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 345
+     }
+    ]
+   },
+   "jp": "おばあちゃんに この だるまを あげたいです。",
+   "voz": "h7",
+   "bien_msg": {
+    "es": "¡Eso! La だるま, el muñeco de la suerte: como la del puesto del festival.",
+    "en": "Right! The だるま, the lucky doll: like the one at the festival stall."
+   },
+   "mal_msg": {
+    "es": "Ha dicho だるま: el muñeco rojo de la suerte.",
+    "en": "She said だるま: the red lucky doll."
+   }
+  },
+  {
+   "t": "elige",
+   "habla": "tama",
+   "pide": {
+    "es": "Kage decía que no quería venir… y ha comprado más que nadie. Tama se lo suelta:",
+    "en": "Kage said he didn't want to come… and he's bought more than anyone. Tama teases him:"
+   },
+   "opciones": [
+    {
+     "jp": "来[き]たくないと 言[い]ったのに、 たくさん 買[か]いましたね。",
+     "bien": true,
+     "tr": {
+      "es": "Decías que no querías venir, y mira cuánto has comprado.",
+      "en": "You said you didn't want to come, and look how much you bought."
+     },
+     "voz": "h8",
+     "porque": {
+      "es": "のに: lo que pasó choca con lo que se esperaba, con un toque de reproche o de broma.",
+      "en": "のに: what happened clashes with what was expected, with a hint of reproach or teasing."
+     }
+    },
+    {
+     "jp": "来[き]たくないと 言[い]っても、 たくさん 買[か]いましたね。",
+     "bien": false,
+     "porque": {
+      "es": "ても es «aunque» en general o en hipótesis. Para un choque real que ya ha pasado, のに.",
+      "en": "ても is «even if» in general or hypothetically. For a real clash that already happened, のに."
+     }
+    },
+    {
+     "jp": "来[き]たくないと 言[い]ったのに、 たくさん 買[か]いましょう。",
+     "bien": false,
+     "porque": {
+      "es": "Detrás de のに no va una invitación: のに cuenta algo que ya es así (y sorprende).",
+      "en": "An invitation can't follow のに: のに tells of something that already is (and surprises)."
+     }
+    }
+   ],
+   "cara": "feliz",
+   "escena": {
+    "fondo": "pueblo",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "bolsa",
+      "x": 210,
+      "s": 1.1
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 260
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 345
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "kage",
+   "jp": "…ふん。 おみやげだ。",
+   "tr": {
+    "es": "…Hmpf. Son recuerdos.",
+    "en": "…Hmph. They're souvenirs."
+   },
+   "voz": "h9",
+   "cara": "aburrido",
+   "escena": {
+    "fondo": "pueblo",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "bolsa",
+      "x": 210,
+      "s": 1.1
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 260
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 345
+     }
+    ]
+   }
+  }
+ ],
+ "epilogo": [
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "寒[さむ]くても、 楽[たの]しかったです！",
+   "tr": {
+    "es": "¡Aunque hizo frío, fue divertido!",
+    "en": "Even though it was cold, it was fun!"
+   },
+   "voz": "x1",
+   "cara": "feliz",
+   "brazo": "arriba",
+   "escena": {
+    "fondo": "pueblo",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 310
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "はい！",
+   "tr": {
+    "es": "¡Sí!",
+    "en": "Yes!"
+   },
+   "voz": "x2",
+   "cara": "feliz"
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta la frase: la escena hará lo que digas.",
+   "en": "Build the sentence: the scene will do what you say."
+  },
+  "piezas": [
+   {
+    "id": "takusan",
+    "jp": "たくさん",
+    "tipo": "palabra"
+   },
+   {
+    "id": "aruita",
+    "jp": "歩[ある]いた",
+    "tipo": "verbo"
+   },
+   {
+    "id": "aruitemo",
+    "jp": "歩[ある]いても",
+    "tipo": "verbo"
+   },
+   {
+    "id": "noni",
+    "jp": "のに",
+    "tipo": "particula"
+   },
+   {
+    "id": "kara",
+    "jp": "から",
+    "tipo": "particula"
+   },
+   {
+    "id": "shimatteimasu",
+    "jp": "閉[し]まって います",
+    "tipo": "verbo"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Nyan, desolado: «Con lo que hemos andado, ¡y está cerrada!»",
+     "en": "Nyan, crushed: «We walked all this way, and it's closed!»"
+    },
+    "escena": {
+     "fondo": "pueblo",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 70
+      },
+      {
+       "que": "kage",
+       "id": "kage",
+       "x": 220
+      },
+      {
+       "que": "gato",
+       "id": "tama",
+       "x": 330
+      }
+     ]
+    },
+    "piezas": [
+     "takusan",
+     "aruita",
+     "aruitemo",
+     "noni",
+     "kara",
+     "shimatteimasu"
+    ],
+    "bien": [
+     [
+      "takusan",
+      "aruita",
+      "noni",
+      "shimatteimasu"
+     ]
+    ],
+    "tr": {
+     "es": "Con lo que hemos andado, ¡y está cerrada!",
+     "en": "We walked all this way, and it's closed!"
+    },
+    "efecto_bien": [
+     {
+      "tipo": "manpu",
+      "objeto": "tama",
+      "manpu": "sudor"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "triste"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "aruitemo"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "«Aunque andemos, está cerrada»: ても habla de lo que PODRÍA pasar. Aquí ya habéis andado y fastidia: 歩いたのに.",
+       "en": "«Even if we walk, it's closed»: ても talks about what COULD happen. You've already walked, and it stings: 歩いたのに."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "kara"
+       ]
+      },
+      "efecto": {
+       "tipo": "manpu",
+       "objeto": "tama",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "«Como hemos andado, está cerrada»: la causa no encaja. Las dos cosas CHOCAN, y eso es のに.",
+       "en": "«Because we walked, it's closed»: the cause doesn't fit. The two things CLASH, and that's のに."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "reto": {
+  "intro": {
+   "jp": "ふん。 雪[ゆき]が 降[ふ]っても、 勝負[しょうぶ]は 勝負[しょうぶ]だ。",
+   "tr": {
+    "es": "Hmpf. Aunque nieve, un duelo es un duelo.",
+    "en": "Hmph. Even in the snow, a duel is a duel."
+   },
+   "voz": "k0"
+  },
+  "gana": {
+   "jp": "…くっ。 練習[れんしゅう]したのに…",
+   "tr": {
+    "es": "…Tsk. Con lo que he practicado…",
+    "en": "…Tch. And I practised so much…"
+   },
+   "voz": "kw"
+  },
+  "pierde": {
+   "jp": "ふん。 がんばっても、 まだまだだな。",
+   "tr": {
+    "es": "Hmpf. Por mucho que te esfuerces, te queda mucho.",
+    "en": "Hmph. Try as you might, you've a long way to go."
+   },
+   "voz": "kl"
+  },
+  "pica": {
+   "jp": "…やるな。",
+   "tr": {
+    "es": "…No está mal.",
+    "en": "…Not bad."
+   },
+   "voz": "kp"
+  },
+  "burla": {
+   "jp": "ふん！",
+   "tr": {
+    "es": "¡Ja!",
+    "en": "Hah!"
+   },
+   "voz": "kb"
+  },
+  "preguntas": [
+   {
+    "tipo": "elige",
+    "jp": "雨[あめ]が 降[ふ]っ＿、 サッカーを します。",
+    "opciones": [
+     "ても",
+     "のに",
+     "ないで"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Aunque llueva, jugamos al fútbol.",
+     "en": "Even if it rains, we play football."
+    },
+    "porque": {
+     "es": "降って + も: «aunque llueva».",
+     "en": "降って + も: «even if it rains»."
+    },
+    "voz": "q1"
+   },
+   {
+    "tipo": "elige",
+    "jp": "たくさん 勉強[べんきょう]した＿、 テストは だめでした。",
+    "opciones": [
+     "のに",
+     "ても",
+     "たら"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Con lo que estudié, y el examen me salió fatal.",
+     "en": "I studied so much, and the test still went badly."
+    },
+    "porque": {
+     "es": "Choque real y con pena: のに.",
+     "en": "A real, painful clash: のに."
+    },
+    "voz": "q2"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "高[たか]くても 買[か]います。",
+    "correcta": true,
+    "tr": {
+     "es": "Aunque sea caro, lo compro.",
+     "en": "Even if it's expensive, I'll buy it."
+    },
+    "porque": {
+     "es": "Bien: 高い → 高くても.",
+     "en": "Right: 高い → 高くても."
+    },
+    "voz": "q3"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "静[しず]かくても 大丈夫[だいじょうぶ]です。",
+    "correcta": false,
+    "tr": {
+     "es": "(Aunque sea tranquilo, no pasa nada.)",
+     "en": "(It's fine even if it's quiet.)"
+    },
+    "porque": {
+     "es": "静か es en な: 静かでも.",
+     "en": "静か is a な adjective: 静かでも."
+    },
+    "voz": "q4"
+   },
+   {
+    "tipo": "oye",
+    "jp": "約束[やくそく]したのに、 来[き]ませんでした。",
+    "habla": "tama",
+    "opciones": [
+     {
+      "es": "Lo prometió, y no vino.",
+      "en": "He promised, and didn't come."
+     },
+     {
+      "es": "Aunque lo prometa, no vendrá.",
+      "en": "Even if he promises, he won't come."
+     },
+     {
+      "es": "Vino porque lo prometió.",
+      "en": "He came because he promised."
+     }
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "のに: prometió → no vino. Un choque real, con fastidio.",
+     "en": "のに: promised → didn't come. A real clash, with annoyance."
+    },
+    "voz": "q5"
+   },
+   {
+    "tipo": "imagen",
+    "jp": "寒[さむ]くても、 これを して 出[で]かけます。",
+    "opciones": [
+     "bufanda",
+     "paraguas",
+     "reloj"
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "マフラー: esta vez Nyan no se la deja.",
+     "en": "マフラー: this time Nyan won't forget it."
+    },
+    "pide": {
+     "es": "¿Qué se pone para salir?",
+     "en": "What does he put on to go out?"
+    }
+   }
+  ]
+ },
+ "siguiente": {
+  "es": "La última noche en Hokkaido: un santuario nevado, un deseo en un 絵馬… y la duda de si mañana saldrá el tren.",
+  "en": "The last night in Hokkaido: a snowy shrine, a wish on an 絵馬… and the question of whether the train will run tomorrow."
+ },
+ "chuleta": {
+  "patron": {
+   "es": "〔て〕も ・ 〔forma corta〕のに",
+   "en": "〔て〕も ・ 〔short form〕のに"
+  },
+  "patron_tr": {
+   "es": "aunque (pase lo que pase) ・ y eso que… (¡qué rabia!)",
+   "en": "even if (whatever happens) ・ even though… (how annoying!)"
+  },
+  "filas": [
+   {
+    "jp": "雨[あめ]が 降[ふ]っても 行[い]きます。",
+    "es": "Aunque llueva, voy.",
+    "en": "Even if it rains, I'll go.",
+    "registro": "educado"
+   },
+   {
+    "jp": "せっかく 来[き]たのに…",
+    "es": "Con lo que me ha costado venir… (a un amigo)",
+    "en": "After I came all this way… (to a friend)",
+    "registro": "amigos"
+   },
+   {
+    "jp": "何[なに]を 食[た]べても おいしい。",
+    "es": "Coma lo que coma, todo está rico.",
+    "en": "Whatever I eat, it's delicious."
+   }
+  ],
+  "consejo": {
+   "es": "せっかく…のに es una pareja de oro: せっかく来たのに、閉まっている, «¡con lo que me ha costado venir!». Resume la frustración en una frase.",
+   "en": "せっかく…のに is a golden pair: せっかく来たのに、閉まっている, «after all the trouble of coming!». It sums up frustration in one line."
+  }
+ }
+}

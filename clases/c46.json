@@ -1,0 +1,889 @@
+{
+ "id": "c46",
+ "clase": 45,
+ "desde": 1180,
+ "titulo": {
+  "es": "Me hicieron esperar: 〜させられる",
+  "en": "I was made to wait: 〜させられる"
+ },
+ "resumen": {
+  "es": "させられる: te obligan a algo que no querías. Para 食[た]べる, する y 来[く]る se queda entera. Para los verbos en う (como 待[ま]つ), lo normal es la forma corta: される.",
+  "en": "させられる: you're made to do something you didn't want to. For 食べる, する and 来る it stays whole. For う-verbs (like 待つ), the normal form is the short one: される."
+ },
+ "intro": [
+  {
+   "escena": {
+    "fondo": "tienda",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "enfado"
+     },
+     {
+      "que": "persona",
+      "x": 280
+     },
+     {
+      "que": "manpu",
+      "tipo": "sudor",
+      "x": 160,
+      "y": 105
+     }
+    ]
+   },
+   "cara": "enfado",
+   "jp": "友達[ともだち]に 待[ま]たせられました…。",
+   "voz": "i1",
+   "tr": {
+    "es": "Mi amigo me hizo esperar…",
+    "en": "My friend made me wait…"
+   },
+   "cartela": {
+    "es": "させられる: te obligan a algo (aquí, esperar) que no querías.",
+    "en": "させられる: you're made to do something (here, wait) that you didn't want."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "tienda",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "normal"
+     },
+     {
+      "que": "gato",
+      "x": 270
+     }
+    ]
+   },
+   "habla": "tama",
+   "cara": "normal",
+   "jp": "待[ま]たされました、でしょ？",
+   "voz": "i2",
+   "tr": {
+    "es": "Querrás decir «待たされました», ¿no?",
+    "en": "You mean “待たされました”, right?"
+   },
+   "cartela": {
+    "es": "Para verbos en う (como 待[ま]つ), lo normal es la forma CORTA: される.",
+    "en": "For う-verbs (like 待つ), the normal form is the SHORT one: される."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cocina",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "pensando"
+     },
+     {
+      "que": "persona",
+      "x": 280
+     }
+    ]
+   },
+   "cara": "pensando",
+   "jp": "じゃあ…野菜[やさい]を 食[た]べさせられました。",
+   "voz": "i3",
+   "tr": {
+    "es": "Entonces… me hicieron comer verduras.",
+    "en": "Then… I was made to eat vegetables."
+   },
+   "cartela": {
+    "es": "食[た]べる es de los que NO se acortan: se queda 食[た]べさせられる entera.",
+    "en": "食べる is one of the ones that DON'T shorten: it stays whole, 食べさせられる."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 130,
+      "cara": "triste"
+     },
+     {
+      "que": "manpu",
+      "tipo": "sudor",
+      "x": 170,
+      "y": 105
+     }
+    ]
+   },
+   "cara": "triste",
+   "jp": "掃除[そうじ]も させられたし、勉強[べんきょう]も させられたし…もう いやだ！",
+   "voz": "i4",
+   "tr": {
+    "es": "Me hicieron limpiar, me hicieron estudiar… ¡ya no puedo más!",
+    "en": "I was made to clean, I was made to study too… I've had enough!"
+   },
+   "cartela": {
+    "es": "Fin de la intro: させられる／される, cuando te OBLIGAN. ¡A practicar (aunque sea a la fuerza)!",
+    "en": "End of the intro: させられる／される, when you're FORCED. Let's practice (even if by force)!"
+   }
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta cada frase. Verbos en う: la forma corta, される. 食[た]べる y する: la forma entera, させられる.",
+   "en": "Build each sentence. う-verbs: the short form, される. 食べる and する: the whole form, させられる."
+  },
+  "piezas": [
+   {
+    "id": "tomodachini",
+    "jp": "友達[ともだち]に",
+    "tipo": "palabra"
+   },
+   {
+    "id": "matasare",
+    "jp": "待[ま]たされ",
+    "tipo": "palabra"
+   },
+   {
+    "id": "mataserare",
+    "jp": "待[ま]たせられ",
+    "tipo": "palabra"
+   },
+   {
+    "id": "matase",
+    "jp": "待[ま]たせ",
+    "tipo": "palabra"
+   },
+   {
+    "id": "mashita",
+    "jp": "ました",
+    "tipo": "particula"
+   },
+   {
+    "id": "yasaiwo",
+    "jp": "野菜[やさい]を",
+    "tipo": "palabra"
+   },
+   {
+    "id": "tabesaserare",
+    "jp": "食[た]べさせられ",
+    "tipo": "palabra"
+   },
+   {
+    "id": "tabesare",
+    "jp": "食[た]べされ",
+    "tipo": "palabra"
+   },
+   {
+    "id": "tabesase",
+    "jp": "食[た]べさせ",
+    "tipo": "palabra"
+   },
+   {
+    "id": "patide",
+    "jp": "パーティーで",
+    "tipo": "palabra"
+   },
+   {
+    "id": "utawo",
+    "jp": "歌[うた]を",
+    "tipo": "palabra"
+   },
+   {
+    "id": "utawasare",
+    "jp": "歌[うた]わされ",
+    "tipo": "palabra"
+   },
+   {
+    "id": "utawaserare",
+    "jp": "歌[うた]わせられ",
+    "tipo": "palabra"
+   },
+   {
+    "id": "utawase",
+    "jp": "歌[うた]わせ",
+    "tipo": "palabra"
+   },
+   {
+    "id": "byouinni",
+    "jp": "病院[びょういん]に",
+    "tipo": "palabra"
+   },
+   {
+    "id": "ikasare",
+    "jp": "行[い]かされ",
+    "tipo": "palabra"
+   },
+   {
+    "id": "ikaserare",
+    "jp": "行[い]かせられ",
+    "tipo": "palabra"
+   },
+   {
+    "id": "ikase",
+    "jp": "行[い]かせ",
+    "tipo": "palabra"
+   },
+   {
+    "id": "soujisaserareta",
+    "jp": "掃除[そうじ]させられた",
+    "tipo": "verbo"
+   },
+   {
+    "id": "soujisareta",
+    "jp": "掃除[そうじ]された",
+    "tipo": "verbo"
+   },
+   {
+    "id": "soujisaseta",
+    "jp": "掃除[そうじ]させた",
+    "tipo": "verbo"
+   },
+   {
+    "id": "yo",
+    "jp": "よ",
+    "tipo": "particula"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Di, de forma natural (la corta): «Mi amigo me hizo esperar».",
+     "en": "Say, in the natural way (the short one): «My friend made me wait»."
+    },
+    "escena": {
+     "fondo": "calle",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "enfado"
+      },
+      {
+       "que": "persona",
+       "x": 280
+      }
+     ]
+    },
+    "piezas": [
+     "tomodachini",
+     "matasare",
+     "mataserare",
+     "matase",
+     "mashita"
+    ],
+    "bien": [
+     [
+      "tomodachini",
+      "matasare",
+      "mashita"
+     ]
+    ],
+    "tr": {
+     "es": "Mi amigo me hizo esperar.",
+     "en": "My friend made me wait."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "enfado",
+      "manpu": "sudor"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "mataserare"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "待[ま]たせられました no está mal, pero para 待[ま]つ (un verbo en う) lo normal es la forma corta: 待[ま]たされました.",
+       "en": "待たせられました isn't wrong, but for 待つ (an う-verb) the normal form is the short one: 待たされました."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "matase"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "sorpresa",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "待[ま]たせました es que TÚ hiciste esperar a otro. Aquí es AL REVÉS: te hicieron esperar A TI: 待[ま]たされました.",
+       "en": "待たせました means YOU made someone else wait. Here it's the OPPOSITE: you were the one made to wait: 待たされました."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Di: «Me hicieron comer verduras».",
+     "en": "Say: «I was made to eat vegetables»."
+    },
+    "escena": {
+     "fondo": "cocina",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "triste"
+      },
+      {
+       "que": "persona",
+       "x": 280
+      }
+     ]
+    },
+    "piezas": [
+     "yasaiwo",
+     "tabesaserare",
+     "mashita",
+     "tabesare",
+     "tabesase"
+    ],
+    "bien": [
+     [
+      "yasaiwo",
+      "tabesaserare",
+      "mashita"
+     ]
+    ],
+    "tr": {
+     "es": "Me hicieron comer verduras.",
+     "en": "I was made to eat vegetables."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "triste",
+      "manpu": "sudor"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "tabesare"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "食[た]べる no se acorta: no existe 食[た]べされる. Solo los verbos en う (como 待[ま]つ) tienen forma corta. Aquí hace falta 食[た]べさせられる entera.",
+       "en": "食べる doesn't shorten: 食べされる doesn't exist. Only う-verbs (like 待つ) have a short form. Here you need the whole 食べさせられる."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "tabesase"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "sorpresa",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "食[た]べさせました es que TÚ obligaste a otro a comer. Aquí es AL REVÉS: te obligaron A TI: 食[た]べさせられました.",
+       "en": "食べさせました means YOU made someone else eat. Here it's the OPPOSITE: you were made to eat: 食べさせられました."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Nyan es tímido, pero en la fiesta no le dejaron elegir. Di: «Me hicieron cantar en la fiesta».",
+     "en": "Nyan is shy, but at the party he had no choice. Say: «I was made to sing at the party»."
+    },
+    "escena": {
+     "fondo": "noche",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "triste"
+      },
+      {
+       "que": "persona",
+       "x": 280
+      }
+     ]
+    },
+    "piezas": [
+     "patide",
+     "utawo",
+     "utawasare",
+     "mashita",
+     "utawaserare",
+     "utawase"
+    ],
+    "bien": [
+     [
+      "patide",
+      "utawo",
+      "utawasare",
+      "mashita"
+     ]
+    ],
+    "tr": {
+     "es": "Me hicieron cantar en la fiesta.",
+     "en": "I was made to sing at the party."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "triste",
+      "manpu": "sudor"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "utawaserare"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "歌[うた]わせられました no está mal, pero 歌[うた]う es un verbo en う: lo normal es la forma corta, 歌[うた]わされました.",
+       "en": "歌わせられました isn't wrong, but 歌う is an う-verb: the normal form is the short one, 歌わされました."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "utawase"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "sorpresa",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "歌[うた]わせました es que TÚ obligaste a otro a cantar. Aquí es AL REVÉS: 歌[うた]わされました.",
+       "en": "歌わせました means YOU made someone else sing. Here it's the OPPOSITE: 歌わされました."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Di: «Me hicieron ir al hospital».",
+     "en": "Say: «I was made to go to the hospital»."
+    },
+    "escena": {
+     "fondo": "noche",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "triste"
+      },
+      {
+       "que": "profesor",
+       "x": 280
+      }
+     ]
+    },
+    "piezas": [
+     "byouinni",
+     "ikasare",
+     "mashita",
+     "ikaserare",
+     "ikase"
+    ],
+    "bien": [
+     [
+      "byouinni",
+      "ikasare",
+      "mashita"
+     ]
+    ],
+    "tr": {
+     "es": "Me hicieron ir al hospital.",
+     "en": "I was made to go to the hospital."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "triste"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "ikaserare"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "行[い]かせられました no está mal, pero 行[い]く es un verbo en う: lo normal es la forma corta, 行[い]かされました.",
+       "en": "行かせられました isn't wrong, but 行く is an う-verb: the normal form is the short one, 行かされました."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "ikase"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "sorpresa",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "行[い]かせました es que TÚ obligaste a otro a ir. Aquí es AL REVÉS: 行[い]かされました.",
+       "en": "行かせました means YOU made someone else go. Here it's the OPPOSITE: 行かされました."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Reto: cuéntaselo a Tama, en plan casual (nada de です/ます): «Me han hecho limpiar».",
+     "en": "Challenge: tell Tama, casually (no です/ます): «I was made to clean»."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "triste"
+      },
+      {
+       "que": "gato",
+       "x": 270
+      }
+     ]
+    },
+    "piezas": [
+     "soujisaserareta",
+     "yo",
+     "soujisareta",
+     "soujisaseta"
+    ],
+    "bien": [
+     [
+      "soujisaserareta",
+      "yo"
+     ]
+    ],
+    "tr": {
+     "es": "Me han hecho limpiar.",
+     "en": "I was made to clean."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "triste",
+      "manpu": "sudor"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "soujisareta"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "掃除[そうじ]された sería que ALGUIEN limpió algo (la pasiva sola), no que TE obligaron a limpiar. Hace falta させられた.",
+       "en": "掃除された would mean something GOT cleaned (plain passive), not that YOU were made to clean. You need させられた."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "soujisaseta"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "sorpresa",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "掃除[そうじ]させた es que TÚ obligaste a otro a limpiar. Aquí es AL REVÉS: 掃除[そうじ]させられた.",
+       "en": "掃除させた means YOU made someone else clean. Here it's the OPPOSITE: 掃除させられた."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "juego": {
+  "intro": {
+   "es": "¿される (corta, verbos en う) o させられる (entera, 食べる／する)? Completa cada frase.",
+   "en": "される (short, う-verbs) or させられる (whole, 食べる／する)? Complete each sentence."
+  },
+  "nyan": {
+   "es": "A mí que no me obliguen a nada. Ni siquiera a elegir la cesta.",
+   "en": "Don't make me do anything. Not even pick the basket."
+  },
+  "cestas": [
+   {
+    "id": "corta",
+    "jp": "されました",
+    "sub": {
+     "es": "verbos en う: la forma corta (lo normal)",
+     "en": "う-verbs: the short form (the normal one)"
+    }
+   },
+   {
+    "id": "larga",
+    "jp": "させられました",
+    "sub": {
+     "es": "食[た]べる, する… no se acortan",
+     "en": "食べる, する… don't shorten"
+    }
+   }
+  ],
+  "cartas": [
+   {
+    "id": "j1",
+    "dibujo": "persona",
+    "jp": "友達[ともだち]に 待[ま]た＿。",
+    "cesta": "corta",
+    "es": "Mi amigo me hizo esperar.",
+    "en": "My friend made me wait."
+   },
+   {
+    "id": "j2",
+    "dibujo": "onigiri",
+    "jp": "野菜[やさい]を 食[た]べ＿。",
+    "cesta": "larga",
+    "es": "Me hicieron comer verduras.",
+    "en": "I was made to eat vegetables.",
+    "truco": {
+     "es": "食[た]べる no se acorta: nunca 食[た]べされる.",
+     "en": "食べる doesn't shorten: never 食べされる."
+    }
+   },
+   {
+    "id": "j3",
+    "jp": "パーティーで 歌[うた]を 歌[うた]わ＿。",
+    "cesta": "corta",
+    "es": "Me hicieron cantar en la fiesta.",
+    "en": "I was made to sing at the party."
+   },
+   {
+    "id": "j4",
+    "jp": "病院[びょういん]に 行[い]か＿。",
+    "cesta": "corta",
+    "es": "Me hicieron ir al hospital.",
+    "en": "I was made to go to the hospital."
+   },
+   {
+    "id": "j5",
+    "jp": "水[みず]を 飲[の]ま＿。",
+    "cesta": "corta",
+    "es": "Me hicieron beber agua.",
+    "en": "I was made to drink water."
+   },
+   {
+    "id": "j6",
+    "jp": "掃除[そうじ]＿。",
+    "cesta": "larga",
+    "es": "Me hicieron limpiar.",
+    "en": "I was made to clean.",
+    "truco": {
+     "es": "する es irregular: siempre させられる entera.",
+     "en": "する is irregular: always the whole させられる."
+    }
+   },
+   {
+    "id": "j7",
+    "dibujo": "profesor",
+    "jp": "先生[せんせい]に 漢字[かんじ]を 覚[おぼ]え＿。",
+    "cesta": "larga",
+    "es": "El sensei me hizo memorizar kanji.",
+    "en": "The teacher made me memorize kanji."
+   },
+   {
+    "id": "j8",
+    "jp": "妹[いもうと]に 野菜[やさい]を 洗[あら]わ＿。",
+    "cesta": "corta",
+    "es": "Mi hermana me hizo lavar las verduras.",
+    "en": "My sister made me wash the vegetables."
+   }
+  ]
+ },
+ "outro": [
+  {
+   "escena": {
+    "fondo": "calle",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "enfado"
+     },
+     {
+      "que": "persona",
+      "x": 280
+     }
+    ]
+   },
+   "cara": "enfado",
+   "jp": "友達[ともだち]に 待[ま]たされました。",
+   "voz": "o1",
+   "tr": {
+    "es": "Mi amigo me hizo esperar.",
+    "en": "My friend made me wait."
+   },
+   "cartela": {
+    "es": "される: la forma corta, para verbos en う. ¡Así habla la gente de verdad!",
+    "en": "される: the short form, for う-verbs. That's how people really talk!"
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cocina",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "triste"
+     },
+     {
+      "que": "persona",
+      "x": 280
+     }
+    ]
+   },
+   "cara": "triste",
+   "jp": "野菜[やさい]を 食[た]べさせられました。",
+   "voz": "o2",
+   "tr": {
+    "es": "Me hicieron comer verduras.",
+    "en": "I was made to eat vegetables."
+   },
+   "cartela": {
+    "es": "させられる: la forma completa, para 食[た]べる, する, 来[く]る… No se acortan.",
+    "en": "させられる: the whole form, for 食べる, する, 来る… They don't shorten."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 200,
+      "cara": "sueno",
+      "s": 1.1
+     },
+     {
+      "que": "cama",
+      "x": 200,
+      "s": 1.4
+     },
+     {
+      "que": "manpu",
+      "tipo": "z",
+      "x": 250,
+      "y": 90
+     }
+    ]
+   },
+   "cara": "sueno",
+   "jp": "もう…寝[ね]させて…。",
+   "voz": "o3",
+   "tr": {
+    "es": "Ya… dejadme dormir…",
+    "en": "Ugh… just let me sleep…"
+   },
+   "cartela": {
+    "es": "Fin. させられる cuando te OBLIGAN… y 寝[ね]させて cuando POR FIN te dejan hacer lo que querías.",
+    "en": "The end. させられる when you're FORCED… and 寝させて when they FINALLY let you do what you wanted."
+   }
+  }
+ ],
+ "chuleta": {
+  "patron": {
+   "es": "〔causativa〕＋られる → される（verbos en う, corta）",
+   "en": "〔causative〕＋られる → される（う-verbs, short）"
+  },
+  "patron_tr": {
+   "es": "te obligan a…",
+   "en": "you're made to…"
+  },
+  "columnas": [
+   {
+    "jp": "させられる",
+    "texto": {
+     "es": "la forma completa (食[た]べる, する, 来[く]る)",
+     "en": "the whole form (食べる, する, 来る)"
+    },
+    "dibujos": [
+     "persona"
+    ]
+   },
+   {
+    "jp": "される",
+    "texto": {
+     "es": "la forma corta, para verbos en う (lo normal)",
+     "en": "the short form, for う-verbs (the normal one)"
+    },
+    "dibujos": [
+     "gato"
+    ]
+   }
+  ],
+  "filas": [
+   {
+    "jp": "野菜[やさい]を 食[た]べさせられました。",
+    "es": "Me hicieron comer verduras.",
+    "en": "I was made to eat vegetables."
+   },
+   {
+    "jp": "友達[ともだち]に 待[ま]たされました。",
+    "es": "Mi amigo me hizo esperar.",
+    "en": "My friend made me wait."
+   },
+   {
+    "jp": "掃除[そうじ]させられた。",
+    "es": "Me hicieron limpiar.",
+    "en": "I was made to clean.",
+    "registro": "amigos"
+   }
+  ],
+  "consejo": {
+   "es": "させる (clase anterior) = TÚ obligas a otro. させられる／される = a TI te obligan. Y la pasiva られる sola, sin obligar, es que algo TE PASA (le robaron el onigiri).",
+   "en": "させる (previous class) = YOU make someone else act. させられる／される = YOU are the one being made to. And plain passive られる, with no forcing, is something just HAPPENING to you (his onigiri got stolen)."
+  }
+ }
+}

@@ -1,0 +1,306 @@
+/* El jefe (pantalla del rediseño): la ficha del yōkai, la intro, el combate de preguntas escritas, la victoria y la derrota.
+   Todo lleva el prefijo jf-. El escenario es una noche (foto, aura del color del yōkai, farolillos, suelo, brasas); sobre él, lo de la app:
+   papel con fibra, anillas, sellos y botones con canto, que se visten con los tokens del tema. --tono es el color del yōkai. */
+
+.pantalla > .jf-raiz { position: absolute; inset: 0; overflow: hidden; color: var(--tinta); isolation: isolate;
+  --tono: #8f5cc0; --tono-c: color-mix(in srgb, var(--tono) 55%, #ffffff); --tono-o: color-mix(in srgb, var(--tono) 62%, #000000); --hud: 146px; --carta: 356px; }
+.jf-raiz button, .jf-raiz input { font-family: var(--f-txt); }
+
+/* ═════════ el escenario en capas ═════════ */
+.jf-escena { position: absolute; inset: 0; }
+.jf-mundo { position: absolute; inset: 0; overflow: hidden; background: #0a0916; transition: filter 1s; }
+.jf-foto { position: absolute; inset: -4%; background: url("../jefes/noche-calle.webp") center 44% / cover; filter: saturate(.9) brightness(.62) blur(1.2px); }
+.jf-foto::after { content: ""; position: absolute; inset: 0;
+  background: linear-gradient(180deg, rgba(8, 6, 22, .78), rgba(8, 6, 22, .12) 38%, rgba(8, 6, 22, .1) 58%, rgba(8, 6, 22, .82)),
+    radial-gradient(64% 56% at 50% 40%, color-mix(in srgb, var(--tono) 38%, transparent), transparent 72%); }
+.jf-rayos { position: absolute; left: 50%; top: 34%; width: 170vmax; height: 170vmax; translate: -50% -50%; opacity: .5; mix-blend-mode: screen; pointer-events: none; animation: jf-gira 70s linear infinite;
+  background: repeating-conic-gradient(from 0deg, color-mix(in srgb, var(--tono) 34%, transparent) 0 4deg, transparent 4deg 13deg); -webkit-mask: radial-gradient(circle, #000 0, transparent 36%); mask: radial-gradient(circle, #000 0, transparent 36%); }
+@keyframes jf-gira { to { rotate: 360deg; } }
+.jf-aura { position: absolute; left: 50%; top: 40%; width: 86vmin; height: 86vmin; translate: -50% -50%; border-radius: 50%; mix-blend-mode: screen; pointer-events: none; animation: jf-late 3.4s ease-in-out infinite alternate;
+  background: radial-gradient(closest-side, color-mix(in srgb, var(--tono) 66%, transparent), color-mix(in srgb, var(--tono) 18%, transparent) 62%, transparent); filter: blur(6px); }
+@keyframes jf-late { from { opacity: .72; scale: .96; } to { opacity: 1; scale: 1.05; } }
+/* los farolillos del río */
+.jf-farolillos { position: absolute; left: 0; right: 0; top: 0; height: 46%; pointer-events: none; }
+.jf-farolillos i { position: absolute; left: calc(var(--x) * 1%); top: var(--y); width: calc(58px * var(--s)); transform-origin: 50% 0; animation: jf-balanceo var(--d) ease-in-out var(--r) infinite alternate; filter: drop-shadow(0 0 20px color-mix(in srgb, var(--tono) 58%, #ffb347)); }
+.jf-farolillos svg { width: 100%; display: block; overflow: visible; }
+.jf-farolillos .cu { stroke: #1b1714; stroke-width: 2; } .jf-farolillos .ta { fill: #1b1714; } .jf-farolillos .co { fill: none; stroke: rgba(27, 23, 20, .5); stroke-width: 1.8; } .jf-farolillos .bo { fill: none; stroke: #ffd27a; stroke-width: 2.6; stroke-linecap: round; }
+.jf-farolillos .cp { fill: color-mix(in srgb, var(--tono) 34%, #ff9a3c); stroke: #1b1714; stroke-width: 2.4; }
+@keyframes jf-balanceo { from { rotate: -3.5deg; } to { rotate: 3.5deg; } }
+/* el suelo (tatami en perspectiva) y las brasas que suben */
+.jf-suelo { position: absolute; left: -12%; right: -12%; bottom: 0; height: 30%; transform: perspective(520px) rotateX(58deg); transform-origin: 50% 100%;
+  background: repeating-linear-gradient(90deg, rgba(0, 0, 0, .34) 0 3px, transparent 3px 150px), repeating-linear-gradient(0deg, rgba(0, 0, 0, .3) 0 3px, transparent 3px 76px),
+    linear-gradient(180deg, rgba(46, 36, 24, .0), rgba(70, 56, 34, .55) 40%, rgba(30, 22, 14, .9)); }
+.jf-ascuas { position: absolute; inset: 0; pointer-events: none; }
+.jf-ascuas i { position: absolute; bottom: -14px; left: calc(var(--x) * 1%); width: var(--t); height: var(--t); border-radius: 50%; opacity: 0;
+  background: color-mix(in srgb, var(--tono) 36%, #ffd27a); box-shadow: 0 0 10px 2px color-mix(in srgb, var(--tono) 70%, #ffb347); animation: jf-asciende var(--d) linear var(--r) infinite; }
+@keyframes jf-asciende { 0% { translate: 0 0; opacity: 0; } 14% { opacity: .9; } 55% { translate: 16px -46vh; } 100% { translate: -12px -92vh; opacity: 0; } }
+
+/* ═════════ el yōkai ═════════ */
+.jf-jefe { --w: min(clamp(150px, calc(100vh - var(--hud) - var(--carta) + 56px), 460px), 74vw); position: absolute; left: calc(50% - var(--w) / 2); top: calc(var(--hud) - 8px); width: var(--w); height: var(--w); z-index: 2; pointer-events: none; }
+.jf-escala, .jf-golpe, .jf-tiemblo, .jf-flota { position: absolute; inset: 0; transform-origin: 50% 100%; }
+.jf-sombra { position: absolute; left: 12%; right: 12%; bottom: -2%; height: 7%; border-radius: 50%; background: rgba(0, 0, 0, .5); filter: blur(8px); }
+.jf-cuerpo { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; object-position: 50% 100%; filter: drop-shadow(0 16px 14px rgba(20, 10, 0, .38)); }
+.jf-jefe.carga .jf-cuerpo { animation: jf-carga .24s linear infinite; }
+@keyframes jf-carga { 25% { translate: -3px 0; filter: drop-shadow(0 0 18px #ff3b2a) brightness(1.08); } 75% { translate: 3px 0; filter: drop-shadow(0 0 18px #ff3b2a) brightness(1.08); } }
+.jf-tajos { position: absolute; inset: -8%; width: 116%; height: 116%; overflow: visible; }
+.jf-bocadillo { position: absolute; right: -16%; top: 4%; max-width: 15em; padding: 10px 16px; border-radius: 18px 18px 18px 4px; background: var(--tile-c); color: var(--tinta); border: var(--borde-carta); box-shadow: 0 4px 0 var(--canto-c), 0 14px 26px -12px rgba(0, 0, 0, .6); font: 800 16px/1.3 var(--f-txt); opacity: 0; z-index: 3; }
+
+/* ═════════ el HUD ═════════ */
+.jf-hud { position: absolute; left: 0; right: 0; top: 0; z-index: 6; display: grid; grid-template-columns: minmax(0, 1fr) minmax(340px, 560px) minmax(0, 1fr); align-items: start; gap: 14px; padding: 16px 24px 0; pointer-events: none; }
+.jf-hud > * { pointer-events: auto; }
+.jf-raiz .jf-huir { justify-self: start; height: 44px; padding: 0 12px 0 16px; font-size: 14.5px; }
+.jf-placa { position: relative; justify-self: stretch; display: grid; grid-template-columns: auto 1fr; gap: 6px 14px; align-items: center; padding: 18px 18px 14px 14px; border-radius: 20px;
+  background: var(--fibra), var(--tile-c); border: var(--borde-carta); box-shadow: 0 var(--grosor) 0 var(--canto-c), 0 22px 30px -18px rgba(0, 0, 0, .75); }
+.jf-placa::before { content: ""; position: absolute; inset: 0 0 auto; height: 9px; border-radius: 19px 19px 0 0; background: linear-gradient(180deg, color-mix(in srgb, var(--tono) 70%, #fff), var(--tono)); }
+.jf-sello-j { width: 58px; height: 58px; display: grid; place-items: center; border-radius: 15px; rotate: -5deg; font: 900 26px/1 var(--f-txt); color: var(--tinta);
+  background: color-mix(in srgb, var(--tono) 14%, var(--tile-c)); box-shadow: inset 0 0 0 3px var(--tono), 0 3px 0 color-mix(in srgb, var(--tono) 40%, transparent); }
+.jf-sello-j.largo { font-size: 23px; letter-spacing: -.04em; }
+:root[data-tema="sumi"] .jf-sello-j, :root[data-tema="sumi"] .jf-f-info h2 span { font-family: "Yuji Syuku", serif; font-weight: 400; }
+.jf-nombre { min-width: 0; display: grid; gap: 1px; }
+.jf-nombre b { font: var(--peso-tit) 22px/1.1 var(--f-tit); letter-spacing: var(--espacio-tit); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.jf-nombre small { font: 700 12.5px var(--f-txt); color: var(--tinta-2); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.jf-vida { grid-column: 1 / -1; position: relative; height: 24px; border-radius: 99px; overflow: hidden; background: var(--linea); box-shadow: inset 0 0 0 2px var(--linea); }
+.jf-vida i { position: absolute; left: 0; top: 0; bottom: 0; width: 0; border-radius: inherit; }
+.jf-vida .fantasma { background: color-mix(in srgb, var(--tono) 38%, #ffffff); }
+.jf-vida .llena { background: linear-gradient(180deg, color-mix(in srgb, var(--tono) 62%, #ffffff), var(--tono) 52%, var(--tono-o)); }
+.jf-vida .llena::after { content: ""; position: absolute; left: 10px; right: 10px; top: 4px; height: 4px; border-radius: 99px; background: rgba(255, 255, 255, .45); }
+.jf-vida .marcas { position: absolute; inset: 0; pointer-events: none; background: repeating-linear-gradient(90deg, transparent 0 calc(10% - 2px), rgba(0, 0, 0, .22) calc(10% - 2px) 10%); }
+.jf-vida b { position: absolute; right: 12px; top: 50%; translate: 0 -50%; z-index: 2; font: 700 13px var(--f-num); font-variant-numeric: tabular-nums; color: #fff; text-shadow: 0 1px 0 rgba(0, 0, 0, .55), 0 0 6px rgba(0, 0, 0, .35); }
+.jf-vida.critica .llena { background: linear-gradient(180deg, #ff9a8a, var(--mal)); animation: jf-late-v .45s ease-in-out infinite alternate; }
+@keyframes jf-late-v { to { filter: brightness(1.3); } }
+.jf-yo { justify-self: end; display: grid; gap: 8px; padding: 12px 16px 12px 14px; border-radius: 20px; background: var(--fibra), var(--tile-c); border: var(--borde-carta); box-shadow: 0 var(--grosor) 0 var(--canto-c), 0 22px 30px -18px rgba(0, 0, 0, .75); }
+.jf-fila { display: flex; align-items: center; gap: 10px; }
+.jf-etq { min-width: 3.2em; font: 800 11px var(--f-txt); letter-spacing: .14em; text-transform: uppercase; color: var(--tinta-2); }
+.jf-corazones { display: flex; gap: 5px; }
+.jf-corazon { position: relative; width: 30px; height: 28px; }
+.jf-corazon svg { width: 100%; height: 100%; display: block; overflow: visible; fill: var(--mal); stroke: var(--tinta); stroke-width: 2.4; stroke-linejoin: round; filter: drop-shadow(0 3px 0 rgba(0, 0, 0, .18)); }
+.jf-corazon.vacio svg { fill: var(--linea); stroke: color-mix(in srgb, var(--tinta) 35%, transparent); filter: none; }
+.jf-corazon .mitad { position: absolute; inset: 0; } .jf-corazon .mitad.i { clip-path: inset(0 50% 0 0); } .jf-corazon .mitad.d { clip-path: inset(0 0 0 50%); }
+.jf-ki-t { min-width: 3.2em; font: 900 15px var(--f-txt); color: var(--tinta); letter-spacing: .02em; }
+.jf-ki { display: flex; gap: 5px; }
+.jf-ki i { width: 17px; height: 17px; border-radius: 50%; background: var(--linea); box-shadow: inset 0 0 0 2px color-mix(in srgb, var(--tinta) 26%, transparent); transition: background-color .25s, box-shadow .25s; }
+.jf-ki i.on { background: radial-gradient(circle at 35% 30%, #fff3c4, var(--oro) 55%, #c98d14); box-shadow: 0 0 10px color-mix(in srgb, var(--oro) 70%, transparent), inset 0 0 0 2px rgba(120, 78, 6, .5); }
+.jf-ki.listo i.on { animation: jf-late-ki .5s ease-in-out infinite alternate; }
+@keyframes jf-late-ki { to { scale: 1.2; filter: brightness(1.2); } }
+
+/* el combo (la ficha de la racha del repaso) y Nyan */
+.s-combo.jf-combo { position: absolute; left: 3%; top: 34%; margin: 0; align-self: auto; z-index: 6; opacity: 0; }
+.jf-combo b { min-width: 28px; }
+.jf-combo.fuego { box-shadow: 0 4px 0 var(--linea), 0 0 0 3px color-mix(in srgb, var(--acento) 40%, transparent), 0 0 30px color-mix(in srgb, var(--acento) 55%, transparent); }
+.jf-combo.fuego .cf-ic { animation: arde .5s ease-in-out infinite alternate; } .jf-combo.fuego .cf-prog { filter: drop-shadow(0 0 4px var(--acento)); }
+.jf-combo.oro { background: linear-gradient(180deg, color-mix(in srgb, var(--oro) 24%, var(--tile-c)), var(--tile-c)); box-shadow: 0 4px 0 color-mix(in srgb, var(--oro) 40%, var(--linea)), 0 0 0 3px color-mix(in srgb, var(--oro) 55%, transparent), 0 0 38px color-mix(in srgb, var(--oro) 60%, transparent); }
+.jf-raiz .jf-combo .cf-x2 { display: inline-block; }
+.jf-combo .cf-txt { font-weight: 900; }
+.reaccion.jf-nyan { left: 2%; bottom: 0; z-index: 6; width: min(200px, 17vw); }
+.jf-raiz .jf-nyan .dice { left: 74%; top: -4%; }
+
+/* ═════════ la pregunta: una carta de estudio con su reloj, y debajo, la respuesta ═════════ */
+.jf-pregunta { position: absolute; left: 50%; bottom: 16px; translate: -50% 0; z-index: 7; width: min(590px, 94vw); display: flex; flex-direction: column; align-items: center; perspective: 1200px; }
+.jf-pregunta > * { max-width: 100%; }
+.jf-carta { width: 100%; }
+.jf-raiz .jf-carta .c-arriba { padding: 24px 20px 0 68px; }
+.jf-carta.mat-1 .tipo-c i { --tc: var(--r1); } .jf-carta.mat-2 .tipo-c i { --tc: var(--r2); }
+.jf-raiz .jf-carta .jf-cara { min-height: 0; padding: 0 26px 18px; }
+.jf-palabra { margin: 0; font-family: var(--f-jp); font-weight: 600; line-height: 1.15; text-align: center; font-size: var(--fs, 72px); }
+.jf-palabra.uno { --fs: clamp(60px, 11.5vh, 102px); } .jf-palabra.dos { --fs: clamp(54px, 10vh, 90px); } .jf-palabra.tres { --fs: clamp(44px, 8.2vh, 74px); } .jf-palabra.largo { --fs: clamp(34px, 6.2vh, 54px); }
+.jf-reloj { position: relative; flex: none; width: 66px; height: 66px; margin-top: -2px; }
+.jf-reloj svg { position: absolute; inset: 0; width: 100%; height: 100%; rotate: -90deg; overflow: visible; }
+.jf-reloj circle { fill: none; stroke-width: 8; } .jf-reloj .pista { stroke: var(--linea); }
+.jf-reloj .prog { stroke: var(--acento); stroke-linecap: round; stroke-dasharray: 100; stroke-dashoffset: 0; }
+.jf-reloj b { position: absolute; inset: 0; display: grid; place-items: center; font: 700 23px var(--f-num); font-variant-numeric: tabular-nums; color: var(--tinta); }
+.jf-reloj.prisa .prog { stroke: var(--mal); filter: drop-shadow(0 0 5px var(--mal)); } .jf-reloj.prisa b { color: var(--mal); animation: jf-late-ki .4s ease-in-out infinite alternate; }
+.jf-pregunta .cinta-p { margin-top: 18px; } .jf-pregunta .cinta-p small { white-space: nowrap; }
+.jf-resp.respuesta { width: 100%; margin-top: 12px; display: flex; gap: 10px; align-items: stretch; }
+.jf-raiz .jf-resp input { flex: 1; min-width: 0; width: auto; height: 62px; padding: 0 16px; border-radius: 20px; font-size: 24px; }
+.jf-raiz .jf-atacar { flex: none; height: 62px; padding: 0 14px 0 22px; border-radius: 18px; font-size: 18px; justify-content: center; }
+.jf-atacar span:first-child { font: 900 24px var(--f-txt); }
+.jf-solucion { width: 100%; height: 0; overflow: hidden; opacity: 0; border-radius: 18px; text-align: left; }
+.jf-solucion.si { margin-top: 10px; height: auto; opacity: 1; background: var(--tile-c); box-shadow: inset 0 0 0 2px color-mix(in srgb, var(--mal) 38%, transparent), 0 4px 0 var(--linea); }
+.jf-solucion .linea { padding: 10px 18px 4px; font: 700 15.5px/1.4 var(--f-txt); color: var(--tinta-2); }
+.jf-solucion .linea b { margin-left: .3em; font: 900 24px/1.2 var(--f-txt); color: var(--ok); } .jf-solucion .linea b.es { font-size: 23px; }
+.jf-solucion p { margin: 0; padding: 0 18px 12px; font: 500 14px/1.5 var(--f-txt); color: var(--tinta); } .jf-solucion p b { color: var(--acento); }
+.jf-solucion .ej small { display: block; font-size: 12.5px; color: var(--tinta-2); } .jf-solucion .ej span { font: 700 17px/1.9 var(--f-txt); } .jf-solucion rt { font-size: .5em; color: var(--tinta-2); }
+.jf-raiz .jf-ayuda { margin-top: 10px; color: rgba(255, 246, 228, .86); text-shadow: 0 1px 0 rgba(0, 0, 0, .55); }
+.jf-raiz .jf-ayuda .kbd { background: rgba(255, 255, 255, .2); color: #fff; }
+.jf-tiempo { position: absolute; right: 8%; top: -34px; z-index: 5; padding: 6px 16px; border-radius: 12px; background: var(--mal); color: #fff; font: 900 20px var(--f-txt); rotate: -6deg; opacity: 0; box-shadow: 0 5px 0 rgba(0, 0, 0, .25); pointer-events: none; }
+.jf-carta .sello-c { right: 70px; top: 70px; }
+
+/* ═════════ rótulos, daños, zarpazo y velos ═════════ */
+.jf-lienzo { position: absolute; inset: 0; width: 100%; height: 100%; z-index: 40; pointer-events: none; }
+.jf-fx { position: absolute; inset: 0; z-index: 12; pointer-events: none; }
+.jf-rotulo { position: absolute; z-index: 2; text-align: center; white-space: nowrap; line-height: 1; font-family: var(--f-tit); font-weight: var(--peso-tit); color: var(--c, #fff); -webkit-text-stroke: 2.5px rgba(20, 10, 0, .7); paint-order: stroke fill;
+  text-shadow: 0 5px 0 rgba(0, 0, 0, .5), 0 0 34px color-mix(in srgb, var(--tono) 75%, transparent); }
+.jf-rotulo small { display: block; margin-top: 6px; font: 800 .3em var(--f-txt); letter-spacing: .1em; -webkit-text-stroke: 0; }
+.jf-rotulo-p { position: absolute; z-index: 2; white-space: nowrap; font: 800 19px var(--f-txt); color: var(--c, #fff6d8); text-shadow: 0 2px 0 rgba(38, 31, 25, .75), 0 0 10px rgba(38, 31, 25, .5); }
+.jf-dano { position: absolute; z-index: 3; left: 0; top: 0; text-align: center; white-space: nowrap; line-height: 1; font: 700 58px var(--f-num); color: #fff6d8; -webkit-text-stroke: 3.5px #3a1f06; paint-order: stroke fill; text-shadow: 0 5px 0 rgba(0, 0, 0, .4); }
+.jf-dano small { display: block; margin-bottom: 4px; font: 900 .3em var(--f-txt); letter-spacing: .1em; }
+.jf-dano.crit { color: #ffd76a; font-size: 74px; } .jf-dano.esp { color: #ff8a3d; font-size: 92px; }
+.jf-zarpazo { position: absolute; inset: 0; width: 100%; height: 100%; z-index: 14; pointer-events: none; opacity: 0; overflow: visible; }
+.jf-velo { position: absolute; inset: 0; z-index: 16; pointer-events: none; opacity: 0; background: rgba(8, 6, 16, .9); }
+.jf-vineta { position: absolute; inset: 0; z-index: 15; pointer-events: none; opacity: 0; background: radial-gradient(ellipse at 50% 50%, transparent 38%, rgba(210, 24, 12, .62) 100%); }
+.jf-destello { position: absolute; inset: 0; z-index: 17; pointer-events: none; opacity: 0; }
+.jf-barras { position: absolute; inset: 0; z-index: 19; pointer-events: none; opacity: 0; }
+.jf-barras i { position: absolute; left: 0; right: 0; height: 11vh; background: #000; } .jf-barras i:first-child { top: 0; } .jf-barras i:last-child { bottom: 0; }
+.jf-capa { position: absolute; inset: 0; z-index: 20; pointer-events: none; } .jf-capa > * { pointer-events: auto; }
+.jf-raiz[data-fase="ficha"] :is(.jf-hud, .jf-nyan, .jf-combo, .jf-jefe, .jf-pregunta) { visibility: hidden; }
+.jf-raiz.derrota .jf-farolillos i { animation-play-state: paused; } .jf-raiz.derrota :is(.jf-rayos, .jf-aura, .jf-ascuas) { opacity: .25; }
+
+/* la intro: el nombre del yōkai a lo grande */
+.jf-presenta { position: absolute; left: 0; right: 0; top: 50%; z-index: 18; display: grid; justify-items: center; gap: 10px; padding: 0 20px; text-align: center; pointer-events: none; }
+.jf-presenta .jp { font-weight: 900; font-size: min(30vh, calc(86vw / var(--n)), 230px); line-height: 1; font-family: var(--f-txt); color: #fff; letter-spacing: .02em; -webkit-text-stroke: 4px rgba(20, 10, 0, .55); paint-order: stroke fill;
+  text-shadow: 0 0 46px var(--tono), 0 0 90px color-mix(in srgb, var(--tono) 70%, transparent), 0 8px 0 rgba(0, 0, 0, .45); }
+.jf-presenta .nombre { font: var(--peso-tit) clamp(26px, 4.6vh, 42px)/1.1 var(--f-tit); letter-spacing: var(--espacio-tit); color: #fff; text-shadow: 0 4px 0 rgba(0, 0, 0, .5); }
+.jf-presenta .desc { max-width: 38ch; font: 600 18px/1.5 var(--f-txt); color: rgba(255, 238, 220, .86); text-shadow: 0 2px 0 rgba(0, 0, 0, .5); }
+.jf-pegatina { display: inline-block; padding: 5px 15px; border-radius: 99px; background: var(--tinta); color: var(--tile-c); font: 800 12px var(--f-txt); letter-spacing: .12em; text-transform: uppercase; rotate: -2deg; white-space: nowrap; }
+.jf-presenta .jf-pegatina.reg { background: var(--sello); color: #fff; font-size: 14px; padding: 7px 18px; box-shadow: 0 5px 0 rgba(0, 0, 0, .3); }
+
+/* el golpe especial: una banda de tinta con «肉球斬り» */
+.jf-corte { position: absolute; inset: 0; z-index: 18; pointer-events: none; overflow: hidden; }
+.jf-corte .rayas { position: absolute; inset: -30%; opacity: 0; background: repeating-conic-gradient(from 0deg at 50% 50%, rgba(255, 238, 190, .6) 0 .8deg, transparent .8deg 4.8deg), repeating-conic-gradient(from 2deg at 50% 50%, rgba(255, 238, 190, .35) 0 .35deg, transparent .35deg 2.9deg);
+  -webkit-mask: radial-gradient(circle at 50% 50%, transparent 0 16%, #000 52%); mask: radial-gradient(circle at 50% 50%, transparent 0 16%, #000 52%); }
+.jf-corte .banda { position: absolute; left: -8%; right: -8%; top: 50%; height: 36vh; translate: 0 -50%; rotate: -7deg; display: flex; align-items: center; justify-content: center; gap: 3vw;
+  background: linear-gradient(180deg, #1b1714, #2c2219 50%, #1b1714); box-shadow: 0 -7px 0 #d9a93a, 0 7px 0 #d9a93a, 0 0 70px rgba(217, 169, 58, .6); }
+.jf-corte .pata svg { width: 14vh; fill: #d9a93a; rotate: -16deg; display: block; } .jf-corte .pata.der svg { rotate: 16deg; }
+.jf-corte .txt { text-align: center; }
+.jf-corte .txt b { display: block; font: var(--peso-tit) min(17vh, 14vw)/1 var(--f-tit); color: #ffe6a3; -webkit-text-stroke: 3px #3a1f06; paint-order: stroke fill; text-shadow: 0 6px 0 #7b3d0b, 0 0 34px rgba(255, 160, 40, .75); }
+.jf-corte .txt span { display: block; margin-top: 8px; font: 800 clamp(13px, 2.4vh, 20px) var(--f-txt); letter-spacing: .12em; color: #fff6d8; }
+
+/* ═════════ la ficha del jefe ═════════ */
+.jf-capa-ficha, .jf-capa-final { position: absolute; inset: 0; display: grid; place-items: center; padding: 18px; }
+.jf-capa-ficha { background: radial-gradient(70% 64% at 50% 46%, rgba(8, 6, 22, .25), rgba(8, 6, 22, .72)); }
+.ficha.jf-ficha { --tc: var(--tono); width: min(1000px, 100%); max-height: 100%; display: grid; grid-template-columns: minmax(280px, 370px) minmax(0, 1fr); gap: 0 36px; align-items: center; padding: 44px 38px 30px; overflow: hidden auto; }
+.jf-f-fig { position: relative; display: grid; place-items: center; }
+.jf-disco { position: relative; width: min(100%, 340px); aspect-ratio: 1; display: grid; place-items: center; border-radius: 50%;
+  background: radial-gradient(circle at 50% 42%, color-mix(in srgb, var(--tono) 28%, var(--tile-c)), color-mix(in srgb, var(--tono) 9%, var(--tile-c)) 72%);
+  box-shadow: 0 0 0 6px var(--tile-c), 0 0 0 10px color-mix(in srgb, var(--tono) 58%, transparent), 0 26px 50px -22px color-mix(in srgb, var(--tono) 80%, #000); }
+.jf-halo { position: absolute; inset: -14%; border-radius: 50%; z-index: -1; background: radial-gradient(closest-side, color-mix(in srgb, var(--tono) 46%, transparent), transparent); animation: jf-late 3s ease-in-out infinite alternate; }
+.jf-f-img { width: 88%; display: block; filter: drop-shadow(0 14px 12px rgba(30, 14, 0, .3)); }
+.jf-ficha.dormido .jf-f-img { filter: grayscale(1) brightness(.82); opacity: .55; } .jf-ficha.dormido .jf-disco { box-shadow: 0 0 0 6px var(--tile-c), 0 0 0 10px var(--linea), 0 20px 40px -24px rgba(0, 0, 0, .5); }
+.jf-despierto { position: absolute; left: 50%; bottom: -10px; translate: -50% 0; white-space: nowrap; padding: 5px 16px; border-radius: 99px; background: var(--sello); color: #fff; font: 800 13px var(--f-txt); letter-spacing: .04em; box-shadow: 0 4px 0 rgba(0, 0, 0, .2); }
+.jf-ficha .jf-hanko { right: 2%; bottom: 4%; width: 84px; height: 84px; border-width: 4px; border-radius: 14px; font-size: 25px; }
+.jf-ofuda { position: absolute; left: 50%; top: -22px; translate: -50% 0; width: 46px; height: 98px; display: grid; place-items: center; background: #fff7e4; border: 2px solid #c9a06a; color: var(--sello); font: 900 26px var(--f-txt); box-shadow: 0 6px 10px rgba(0, 0, 0, .25); transform-origin: 50% 0; animation: jf-ofuda 2.4s ease-in-out infinite alternate; }
+@keyframes jf-ofuda { from { rotate: -4deg; } to { rotate: 4deg; } }
+.jf-f-info { min-width: 0; }
+.jf-f-info h2 { margin: 12px 0 0; font: var(--peso-tit) clamp(22px, 3.2vh, 28px)/1.15 var(--f-tit); letter-spacing: var(--espacio-tit); }
+.jf-f-info h2 span { display: block; margin-bottom: 2px; font: 900 clamp(34px, 5.6vh, 54px)/1.1 var(--f-txt); color: var(--tinta); }
+.jf-desc { margin: 10px 0 0; max-width: 46ch; font: 600 16px/1.55 var(--f-txt); color: var(--tinta-2); }
+.jf-titulo { display: inline-block; margin: 12px 0 0; padding: 8px 14px; border-radius: 12px; background: color-mix(in srgb, var(--oro) 14%, var(--tile-c)); box-shadow: inset 0 0 0 2px color-mix(in srgb, var(--oro) 36%, transparent); font: 600 14px/1.4 var(--f-txt); }
+.jf-titulo b { color: var(--acento); }
+.jf-reglas { display: grid; grid-template-columns: 1fr 1fr 1.3fr; gap: 10px; margin-top: 16px; }
+.jf-reglas div { padding: 12px 8px 10px; border-radius: var(--radio-s); background: var(--suave); text-align: center; font: 600 12.5px/1.3 var(--f-txt); color: var(--tinta-2); }
+.jf-reglas b { display: block; margin-bottom: 2px; font: 700 26px/1.1 var(--f-num); color: var(--tinta); }
+.jf-reglas div:nth-child(3) b { font: 900 19px/1.25 var(--f-txt); }
+:root[data-tema="noche"] .jf-reglas div { background: rgba(255, 255, 255, .06); }
+.jf-acciones { display: flex; align-items: center; gap: 12px; margin-top: 20px; flex-wrap: wrap; }
+.jf-acciones .b-claro, .jf-acciones .b-tinta { height: 54px; }
+.jf-luchar.cta { margin-left: auto; height: 62px; padding: 0 26px 0 28px; font-size: 21px; background: var(--boton); color: var(--sobre); box-shadow: var(--sombra-cta); }
+.jf-luchar span:first-child { font: 900 26px var(--f-txt); }
+:root[data-tema="sumi"] .jf-luchar.cta { font-size: 24px; }
+/* el plan de un yōkai dormido */
+.jf-barra { position: relative; height: 12px; margin-top: 16px; border-radius: 99px; background: var(--linea); }
+.jf-barra i { display: block; height: 100%; border-radius: inherit; background: var(--acento); }
+.jf-barra .umbral { position: absolute; left: 80%; top: -4px; bottom: -4px; width: 3px; border-radius: 2px; background: var(--tinta); opacity: .55; }
+.jf-plan { margin-top: 12px; display: grid; gap: 10px; }
+.jf-plan-cab { display: flex; align-items: center; gap: 12px; }
+.jf-plan-cab b { display: block; font: 800 15px var(--f-txt); } .jf-plan-cab small { font: 600 13px var(--f-txt); color: var(--tinta-2); } .jf-plan-cab small b { display: inline; color: var(--acento); font-size: inherit; }
+.jf-sello-p { width: 46px; height: 46px; display: grid; place-items: center; flex: none; border-radius: 12px; border: 3px solid var(--sello); color: var(--sello); background: color-mix(in srgb, var(--tile-c) 70%, transparent); font: 900 16px/1.05 var(--f-txt); rotate: -8deg; writing-mode: vertical-rl; }
+.jf-plan-sig { display: flex; flex-wrap: wrap; gap: 6px; }
+.jf-plan-sig span { padding: 4px 12px; border-radius: 10px; background: var(--tile-c); box-shadow: inset 0 0 0 2px var(--linea); font: 700 17px var(--f-txt); } .jf-plan-sig .mas { box-shadow: none; color: var(--tinta-2); }
+.jf-plan-botones { display: flex; flex-wrap: wrap; gap: 10px; }
+.jf-plan-botones .b-tinta, .jf-plan-botones .b-claro, .jf-plan-gram .b-claro { height: 46px; font-size: 14px; padding: 0 10px 0 14px; }
+.jf-plan-botones button:disabled { opacity: .5; cursor: not-allowed; }
+.jf-plan-gram small { display: block; margin-bottom: 6px; font: 800 10.5px var(--f-txt); letter-spacing: .14em; text-transform: uppercase; color: var(--tinta-2); }
+.jf-plan-gram .fila { display: flex; flex-wrap: wrap; gap: 8px; }
+.jf-ficha.dormido .jf-acciones { margin-top: 14px; }
+
+/* ═════════ la victoria y la derrota ═════════ */
+.ficha.jf-final { --tc: var(--rar, var(--tinta-2)); width: min(980px, 100%); max-height: 100%; display: grid; grid-template-columns: minmax(240px, 310px) minmax(0, 1fr); gap: 0 34px; align-items: center; padding: 46px 38px 26px; overflow: hidden auto; }
+.ficha.jf-final.sin-premio { grid-template-columns: 1fr; width: min(680px, 100%); } .ficha.jf-final.sin-premio .jf-f-izq { display: none; }
+.ficha.jf-final.pierdes { --tc: var(--tinta-2); grid-template-columns: 1fr; width: min(620px, 100%); text-align: center; padding-top: 40px; }
+.jf-final .jf-f-izq { display: grid; justify-items: center; gap: 4px; }
+.jf-premio { position: relative; width: 196px; height: 252px; perspective: 900px; margin: 10px 0 16px; }
+.jf-rayos-p { position: absolute; inset: -62%; z-index: -1; pointer-events: none; animation: jf-gira 16s linear infinite; background: repeating-conic-gradient(from 0deg, color-mix(in srgb, var(--rar) 52%, transparent) 0 6deg, transparent 6deg 18deg); -webkit-mask: radial-gradient(circle, #000 14%, transparent 60%); mask: radial-gradient(circle, #000 14%, transparent 60%); }
+.jf-premio .gira { position: absolute; inset: 0; transform-style: preserve-3d; }
+.jf-premio .dorso, .jf-premio .cara { position: absolute; inset: 0; display: grid; place-items: center; border-radius: 20px; backface-visibility: hidden; -webkit-backface-visibility: hidden; }
+.jf-premio .dorso { color: #d9a93a; font: 900 92px var(--f-txt); border: 4px solid #d9a93a; background: repeating-linear-gradient(45deg, #2a2418 0 8px, #34301f 8px 16px); box-shadow: 0 10px 24px -10px rgba(0, 0, 0, .6), inset 0 0 0 3px #2a2418; }
+.jf-premio .cara { transform: rotateY(180deg); background: var(--fibra), var(--tile-c); border: 4px solid var(--rar); box-shadow: 0 0 40px color-mix(in srgb, var(--rar) 62%, transparent), inset 0 0 0 3px var(--tile-c); }
+.jf-premio .cara img { width: 80%; display: block; filter: drop-shadow(0 10px 10px rgba(0, 0, 0, .25)); }
+.jf-rareza { position: absolute; left: 50%; bottom: -14px; translate: -50% 0; z-index: 2; padding: 4px 18px; border-radius: 99px; background: var(--rar); color: #fff; font: 800 12.5px var(--f-txt); letter-spacing: .12em; text-transform: uppercase; white-space: nowrap; box-shadow: 0 4px 0 rgba(0, 0, 0, .22); }
+.jf-obj { text-align: center; margin-top: 6px; }
+.jf-obj b { display: block; font: var(--peso-tit) 22px/1.15 var(--f-tit); letter-spacing: var(--espacio-tit); } .jf-obj span { font: 800 13px var(--f-txt); color: var(--rar); }
+.jf-obj p { margin: 6px 0 0; font: 500 13.5px/1.45 var(--f-txt); color: var(--tinta-2); }
+.jf-f-der { min-width: 0; }
+.jf-titulo-g { display: inline-block; font-family: var(--f-tit); font-weight: var(--peso-tit); font-size: clamp(56px, 9.4vh, 88px); line-height: 1; letter-spacing: .02em; rotate: -3deg; color: var(--sello); text-shadow: 0 5px 0 color-mix(in srgb, var(--sello) 24%, transparent); }
+.jf-titulo-g.gris { color: var(--tinta-2); text-shadow: 0 5px 0 var(--linea); }
+.jf-sub { margin: 6px 0 0; font: 700 16px/1.4 var(--f-txt); color: var(--tinta-2); } .jf-nota { margin: 8px auto 0; max-width: 46ch; font: 500 14.5px/1.5 var(--f-txt); color: var(--tinta-2); }
+.jf-kage { display: flex; align-items: flex-end; gap: 12px; margin: 14px 0 0; text-align: left; }
+.jf-final.pierdes .jf-kage { justify-content: center; }
+.jf-kage img { width: 90px; height: 90px; flex: none; object-fit: contain; filter: drop-shadow(0 8px 8px rgba(0, 0, 0, .25)); }
+.jf-kage-dice { position: relative; max-width: 420px; padding: 14px 18px 10px; border-radius: 18px 18px 18px 4px; background: color-mix(in srgb, var(--tinta) 6%, var(--tile-c)); box-shadow: inset 0 0 0 2px var(--linea); }
+.jf-kage-dice b { position: absolute; top: -11px; left: 14px; padding: 1px 12px; border-radius: 99px; background: var(--tinta-2); color: var(--tile-c); font: 800 11.5px/20px var(--f-txt); }
+.jf-kage-dice span { display: block; font: 700 16px/1.85 var(--f-txt); } .jf-kage-dice rt { font-size: .5em; } .jf-kage-dice small { font: 600 12.5px var(--f-txt); color: var(--tinta-2); }
+.jf-botin { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; } .jf-final.pierdes .jf-botin { justify-content: center; }
+.jf-chip { display: inline-flex; align-items: center; gap: 8px; padding: 6px 16px 6px 8px; border-radius: 99px; background: var(--tile-c); border: 2px solid var(--linea); box-shadow: 0 3px 0 var(--linea); font: 800 14.5px var(--f-txt); rotate: -2deg; }
+.jf-chip .mini { width: 32px; height: 32px; } .jf-chip > span[lang="ja"] { display: grid; place-items: center; width: 28px; height: 28px; border-radius: 8px; background: var(--sello); color: #fff; font-size: 14px; }
+.jf-chip.oro { background: color-mix(in srgb, var(--oro) 22%, var(--tile-c)); border-color: color-mix(in srgb, var(--oro) 55%, transparent); }
+.jf-chip b { font: 700 18px var(--f-num); font-variant-numeric: tabular-nums; }
+.jf-cifras { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 14px; }
+.jf-cifras div { padding: 11px 6px 9px; border-radius: var(--radio-s); background: var(--suave); text-align: center; }
+.jf-cifras b { display: block; font: 700 28px/1.1 var(--f-num); font-variant-numeric: tabular-nums; } .jf-cifras small { font: 600 12px var(--f-txt); color: var(--tinta-2); }
+:root[data-tema="noche"] .jf-cifras div { background: rgba(255, 255, 255, .06); }
+.jf-final .jf-acciones { margin-top: 18px; justify-content: flex-end; } .jf-final.pierdes .jf-acciones { justify-content: center; }
+.jf-final .jf-acciones .b-claro, .jf-final .jf-acciones .b-tinta { height: 52px; }
+.jf-vida-m { max-width: 380px; margin: 16px auto 0; } .jf-vida-m .jf-vida { margin: 0; }
+.jf-perfecto { position: absolute; right: 24px; top: -26px; z-index: 6; width: 126px; height: 126px; rotate: 12deg; pointer-events: none; }
+.jf-perfecto div { width: 100%; height: 100%; display: grid; place-items: center; align-content: center; text-align: center; border-radius: 50%; border: 6px solid var(--sello); color: var(--sello); font: 800 13px/1.15 var(--f-txt);
+  background: color-mix(in srgb, var(--tile-c) 92%, transparent); box-shadow: inset 0 0 0 5px var(--tile-c), inset 0 0 0 8px var(--sello), 0 14px 30px -12px rgba(0, 0, 0, .55); }
+.jf-perfecto b { display: block; font: 900 32px/1 var(--f-txt); letter-spacing: .04em; }
+
+/* ═════════ pantallas bajas y móvil ═════════ */
+@media (max-height: 820px) and (min-width: 761px) {
+  .jf-hud { padding-top: 12px; } .jf-placa { padding: 16px 16px 12px 12px; } .jf-sello-j { width: 50px; height: 50px; font-size: 23px; } .jf-nombre b { font-size: 19px; } .jf-vida { height: 21px; } .jf-yo { padding: 9px 14px; gap: 6px; }
+  .pantalla > .jf-raiz { --hud: 128px; --carta: 330px; } .jf-pregunta { bottom: 10px; } .jf-raiz .jf-carta .c-arriba { padding-top: 20px; } .jf-raiz .jf-carta .jf-cara { padding-bottom: 12px; } .jf-reloj { width: 58px; height: 58px; } .jf-reloj b { font-size: 20px; }
+  .jf-pregunta .cinta-p { margin-top: 14px; } .jf-resp.respuesta { margin-top: 10px; } .jf-raiz .jf-resp input, .jf-raiz .jf-atacar { height: 56px; } .jf-raiz .jf-ayuda { margin-top: 8px; }
+  .ficha.jf-ficha { padding: 38px 34px 24px; } .jf-disco { width: min(100%, 300px); } .jf-reglas { margin-top: 12px; } .jf-acciones { margin-top: 16px; }
+  .ficha.jf-final { padding: 40px 34px 20px; } .jf-premio { width: 170px; height: 218px; margin: 6px 0 14px; } .jf-premio .dorso { font-size: 78px; } .jf-kage { margin-top: 10px; } .jf-kage img { width: 76px; height: 76px; } .jf-cifras, .jf-botin { margin-top: 10px; } .jf-final .jf-acciones { margin-top: 12px; }
+  .jf-presenta .desc { font-size: 16px; }
+}
+@media (max-width: 1100px) { .jf-hud { grid-template-columns: auto minmax(0, 1fr) auto; } .jf-combo { left: 2%; } .reaccion.jf-nyan { width: 150px; } }
+@media (max-width: 760px) {
+  .jf-hud { grid-template-columns: auto minmax(0, 1fr); grid-template-areas: "huir yo" "placa placa"; gap: 8px 10px; padding: 8px 10px 0; } .jf-raiz .jf-huir { grid-area: huir; height: 38px; padding: 0 10px; font-size: 13px; } .jf-huir .kbd { display: none; }
+  .jf-placa { grid-area: placa; padding: 14px 12px 10px 10px; gap: 4px 10px; } .jf-sello-j { width: 40px; height: 40px; font-size: 19px; border-radius: 11px; } .jf-nombre b { font-size: 16px; } .jf-nombre small { font-size: 11px; } .jf-vida { height: 18px; } .jf-vida b { font-size: 11px; right: 8px; }
+  .jf-yo { grid-area: yo; justify-self: end; padding: 6px 10px; gap: 4px; border-radius: 14px; } .jf-etq, .jf-ki-t { min-width: 0; font-size: 10px; } .jf-corazon { width: 22px; height: 21px; } .jf-ki i { width: 13px; height: 13px; } .jf-fila { gap: 6px; }
+  .pantalla > .jf-raiz { --hud: 128px; --carta: 340px; } .jf-jefe { --w: min(clamp(120px, calc(100vh - var(--hud) - var(--carta) + 40px), 330px), 66vw); } .jf-bocadillo { right: -24%; font-size: 13px; padding: 7px 11px; }
+  .jf-pregunta { bottom: 8px; width: calc(100vw - 20px); } .jf-raiz .jf-carta .c-arriba { padding: 18px 12px 0 54px; } .jf-raiz .jf-carta .jf-cara { padding: 0 14px 8px; } .jf-reloj { width: 50px; height: 50px; } .jf-reloj b { font-size: 17px; }
+  .jf-palabra.uno { --fs: clamp(48px, 8vh, 72px); } .jf-palabra.dos { --fs: clamp(44px, 7.4vh, 64px); } .jf-palabra.tres { --fs: clamp(36px, 6.2vh, 54px); } .jf-palabra.largo { --fs: clamp(28px, 5vh, 40px); }
+  .jf-pregunta .cinta-p { margin-top: 10px; padding-right: 12px; } .jf-pregunta .cinta-p small { white-space: normal; font-size: 11.5px; line-height: 1.2; } .jf-resp.respuesta { margin-top: 8px; gap: 8px; } .jf-raiz .jf-resp input { height: 52px; font-size: 20px; border-radius: 16px; } .jf-raiz .jf-atacar { height: 52px; padding: 0 12px 0 14px; font-size: 16px; } .jf-atacar .kbd { display: none; }
+  .jf-raiz .jf-ayuda { display: none; } .jf-solucion .linea b { font-size: 20px; } .jf-solucion p { font-size: 12.5px; } .jf-tiempo { top: -28px; }
+  .s-combo.jf-combo { left: 8px; top: 30vh; padding: 3px 12px 3px 3px; transform-origin: 0 50%; scale: .82; } .jf-combo .cf-col { display: none; }
+  .reaccion.jf-nyan { display: none; } .jf-rotulo { font-size: 38px !important; } .jf-dano { font-size: 44px; }
+  .jf-presenta .desc { font-size: 15px; } .jf-presenta .jp { -webkit-text-stroke: 3px rgba(20, 10, 0, .55); }
+  .jf-corte .pata { display: none; } .jf-corte .banda { height: 22vh; }
+  .jf-capa-ficha, .jf-capa-final { padding: 10px; }
+  .ficha.jf-ficha, .ficha.jf-final { grid-template-columns: 1fr; gap: 0; padding: 34px 18px 16px; border-radius: 26px; }
+  .ficha.jf-ficha > .f-cerrar { top: 22px; right: 12px; }
+  .jf-f-fig { grid-template-columns: auto 1fr; justify-items: start; } .jf-disco { width: 118px; box-shadow: 0 0 0 4px var(--tile-c), 0 0 0 7px color-mix(in srgb, var(--tono) 58%, transparent), 0 14px 26px -16px color-mix(in srgb, var(--tono) 80%, #000); }
+  /* la ficha, apilada y centrada: el yōkai arriba, grande; debajo, quién es y el botón */
+  .jf-ficha .jf-f-fig { display: grid; place-items: center; margin: 2px auto 16px; } .jf-ficha .jf-disco { width: min(46vw, 168px); }
+  .jf-despierto { bottom: -8px; font-size: 11px; padding: 3px 11px; } .jf-ficha .jf-hanko { width: 56px; height: 56px; font-size: 17px; right: -8px; bottom: -4px; } .jf-ofuda { width: 32px; height: 70px; font-size: 19px; top: -16px; }
+  .jf-ficha .jf-f-info { text-align: center; } .jf-pegatina { font-size: 10.5px; padding: 4px 11px; white-space: normal; } .jf-f-info h2 { margin-top: 8px; font-size: 16px; } .jf-f-info h2 span { font-size: 28px; }
+  .jf-desc { grid-column: 1 / -1; margin-top: 12px; font-size: 14px; max-width: none; } .jf-ficha .jf-desc { margin-inline: auto; } .jf-ficha .jf-reglas, .jf-ficha .jf-plan { text-align: left; } .jf-ficha .jf-acciones, .jf-ficha .jf-plan-botones, .jf-ficha .jf-plan-sig, .jf-ficha .jf-plan-gram .fila { justify-content: center; } .jf-ficha .jf-plan-cab { justify-content: center; text-align: left; }
+  .jf-titulo { font-size: 12.5px; padding: 6px 12px; margin-top: 8px; } .jf-reglas { gap: 8px; margin-top: 10px; } .jf-reglas div { padding: 8px 4px; font-size: 11px; } .jf-reglas b { font-size: 21px; } .jf-reglas div:nth-child(3) b { font-size: 15px; }
+  .jf-acciones { margin-top: 12px; gap: 8px; } .jf-acciones .b-claro { height: 48px; padding: 0 10px 0 14px; font-size: 13.5px; } .jf-luchar.cta { height: 54px; font-size: 18px; padding: 0 18px; flex: 1; justify-content: center; margin-left: 0; } .jf-acciones .kbd { display: none; }
+  .jf-plan { gap: 8px; } .jf-plan-sig span { font-size: 14px; padding: 3px 9px; } .jf-plan-botones .b-tinta, .jf-plan-botones .b-claro, .jf-plan-gram .b-claro { height: 40px; font-size: 12.5px; padding: 0 10px; } .jf-plan-botones .kbd, .jf-plan-gram .kbd { display: none; } .jf-plan-gram .b-claro:nth-child(n+3) { display: none; }
+  .ficha.jf-final { overflow: hidden auto; } .jf-final .jf-f-izq { grid-template-columns: auto 1fr; justify-items: start; align-items: center; gap: 0 14px; } .jf-premio { width: 100px; height: 128px; margin: 0; } .jf-premio .dorso { font-size: 46px; } .jf-rareza { font-size: 10px; padding: 2px 10px; bottom: -10px; }
+  .jf-obj { text-align: left; margin: 0; } .jf-obj b { font-size: 17px; } .jf-obj p { display: none; } .jf-titulo-g { font-size: 50px; } .jf-sub { font-size: 13.5px; } .jf-kage img { width: 64px; height: 64px; } .jf-kage-dice { padding: 10px 12px 8px; } .jf-kage-dice span { font-size: 13.5px; line-height: 1.7; } .jf-kage-dice small { font-size: 11px; }
+  .jf-botin { margin-top: 10px; } .jf-chip { font-size: 12.5px; padding: 4px 12px 4px 6px; } .jf-chip .mini { width: 26px; height: 26px; } .jf-chip b { font-size: 16px; } .jf-cifras { margin-top: 10px; gap: 8px; } .jf-cifras b { font-size: 21px; } .jf-cifras small { font-size: 10.5px; }
+  .jf-final .jf-acciones { margin-top: 12px; } .jf-final .jf-acciones .b-claro, .jf-final .jf-acciones .b-tinta { height: 46px; font-size: 13.5px; flex: 1; justify-content: center; } .jf-final .kbd { display: none; } .jf-perfecto { width: 86px; height: 86px; right: 8px; top: -24px; } .jf-perfecto div { border-width: 4px; font-size: 9px; } .jf-perfecto b { font-size: 21px; }
+  .jf-nota { font-size: 13px; } .jf-vida-m { margin-top: 10px; }
+}
+@media (max-width: 760px) and (max-height: 720px) { .pantalla > .jf-raiz { --carta: 330px; } }
+@media (prefers-reduced-motion: reduce) { .jf-rayos, .jf-aura, .jf-farolillos i, .jf-ascuas i { animation: none; } .jf-ascuas { display: none; } }
+
+/* mientras llega el yōkai (o si no llega): un aviso corto sobre papel */
+.jf-raiz.jf-carga .jf-vacio { position: absolute; inset: 0; display: grid; place-content: center; justify-items: center; gap: 10px; padding: 24px; text-align: center; color: var(--tinta); }
+.jf-raiz.jf-carga .jf-vacio img { width: 130px; height: auto; } .jf-raiz.jf-carga .jf-vacio h2 { margin: 0; font: var(--peso-tit) 26px/1.25 var(--f-tit); }
+.jf-raiz.jf-carga .jf-vacio p { margin: 0 0 6px; color: var(--tinta-2); font: 600 16px/1.4 var(--f-txt); }

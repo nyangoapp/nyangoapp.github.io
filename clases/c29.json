@@ -1,0 +1,785 @@
+{
+ "id": "c29",
+ "clase": 29,
+ "desde": 720,
+ "titulo": {
+  "es": "¿Dónde está el 鏡餅?: 〜ちゃう y el habla de casa",
+  "en": "Where's the 鏡餅?: 〜ちゃう and home talk"
+ },
+ "resumen": {
+  "es": "〜てしまう: hacer algo del todo, a veces sin querer. Entre amigos se acorta: 〜てしまう → 〜ちゃう (y 〜でしまう → 〜じゃう). Así habla la gente en casa: también じゃん, っけ y partículas que se caen.",
+  "en": "〜てしまう: doing something completely, sometimes by accident. Among friends it shortens: 〜てしまう → 〜ちゃう (and 〜でしまう → 〜じゃう). That's how people talk at home: also じゃん, っけ, and particles that drop out."
+ },
+ "formato": 2,
+ "lugar": "cuarto",
+ "mision": {
+  "texto": {
+   "es": "11 de enero: 鏡開き, el día de romper el 鏡餅 y comérselo en sopa dulce. Pero el 鏡餅 ha desaparecido… y Nyan tiene la boca llena. En casa se habla en confianza: aprende cómo se acorta todo.",
+   "en": "January 11th: 鏡開き, the day to break the 鏡餅 and eat it in sweet soup. But the 鏡餅 has vanished… and Nyan's mouth is full. At home people talk casually: learn how everything gets shortened."
+  },
+  "escena": {
+   "fondo": "cuarto",
+   "cosas": [
+    {
+     "que": "nyan",
+     "x": 80
+    },
+    {
+     "que": "gato",
+     "id": "tama",
+     "x": 310
+    }
+   ]
+  },
+  "cara": "triste",
+  "jp": "もぐもぐ…",
+  "voz": "m0"
+ },
+ "reglas": [
+  {
+   "id": "kke",
+   "nombre": {
+    "es": "El habla de casa: 〜っけ y じゃん",
+    "en": "Home talk: 〜っけ and じゃん"
+   },
+   "patron": {
+    "es": "〔forma corta〕っけ？ ・ 〔forma corta〕じゃん",
+    "en": "〔short form〕っけ？ ・ 〔short form〕じゃん"
+   },
+   "explica": {
+    "es": "En casa y entre amigos, el japonés se relaja y aparecen muletillas propias. っけ al final es «¿cómo era…?»: intentas recordar algo que ya sabías (どこだっけ？, «¿dónde estaba?»). じゃん es «¡pero si…!, ¿ves?»: señalas algo evidente (食べていたじゃん, «¡pero si se lo estaba comiendo!»). Viene de じゃない dicho deprisa y con tono de «¿no lo ves?».",
+    "en": "At home and among friends, Japanese relaxes and its own fillers appear. っけ at the end is «what was it…?»: you're trying to recall something you knew (どこだっけ？, «where was it again?»). じゃん is «but…!, see?»: you point out something obvious (食べていたじゃん, «but he was eating it!»). It comes from じゃない said fast, with a «can't you see?» tone."
+   },
+   "ejemplos": [
+    {
+     "jp": "鏡餅[かがみもち]、 どこだっけ？",
+     "es": "¿Dónde estaba el 鏡餅?",
+     "en": "Where was the 鏡餅 again?",
+     "voz": "r1-1"
+    },
+    {
+     "jp": "ニャンが 食[た]べて いたじゃん！",
+     "es": "¡Pero si Nyan se lo estaba comiendo!",
+     "en": "But Nyan was eating it!",
+     "voz": "r1-2"
+    }
+   ],
+   "ojo": {
+    "es": "Son muy de confianza: con la profe o con desconocidos sonarían a falta de respeto. Úsalas solo con amigos y familia.",
+    "en": "They're very casual: with a teacher or strangers they'd sound disrespectful. Use them only with friends and family."
+   }
+  },
+  {
+   "id": "shimau",
+   "nombre": {
+    "es": "〜てしまう／〜ちゃう: acabar haciéndolo (y ya no tiene arreglo)",
+    "en": "〜てしまう／〜ちゃう: end up doing it (no going back)"
+   },
+   "patron": {
+    "es": "〔て〕しまう ・ 〔て → ちゃう／で → じゃう〕",
+    "en": "〔て〕しまう ・ 〔て → ちゃう／で → じゃう〕"
+   },
+   "explica": {
+    "es": "てしまう añade que la acción se ha completado del todo, a menudo sin querer o con pena: 全部食べてしまった, «me lo he comido todo (y ahora qué)». En casa se acorta: てしまう → ちゃう (食べちゃう) y でしまう → じゃう (飲んじゃう). Es el mismo matiz, pero cercano: lo oirás a todas horas.",
+    "en": "てしまう adds that the action has been completed entirely, often by accident or with regret: 全部食べてしまった, «I ate the whole thing (now what)». At home it's shortened: てしまう → ちゃう (食べちゃう) and でしまう → じゃう (飲んじゃう). Same nuance, but casual: you'll hear it constantly."
+   },
+   "ejemplos": [
+    {
+     "jp": "全部[ぜんぶ] 食[た]べちゃった。",
+     "es": "Me lo he comido todo.",
+     "en": "I ate the whole thing.",
+     "voz": "r2-1"
+    },
+    {
+     "jp": "ジュースも 飲[の]んじゃった。",
+     "es": "También me he bebido el zumo.",
+     "en": "I drank the juice too.",
+     "voz": "r2-2"
+    }
+   ],
+   "ojo": {
+    "es": "ちゃう o じゃう depende de la forma て: si acaba en て, ちゃう; si acaba en で, じゃう.",
+    "en": "ちゃう or じゃう depends on the て form: if it ends in て, ちゃう; if in で, じゃう."
+   }
+  }
+ ],
+ "historia": [
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "あれ？ 鏡餅[かがみもち]、 どこだっけ？",
+   "tr": {
+    "es": "¿Eh? ¿Dónde estaba el 鏡餅?",
+    "en": "Huh? Where was the 鏡餅 again?"
+   },
+   "voz": "h1",
+   "cara": "pensando",
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 310
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "kke"
+  },
+  {
+   "t": "dice",
+   "habla": "kotaro",
+   "jp": "ニャンが 食[た]べて いたじゃん！",
+   "tr": {
+    "es": "¡Pero si Nyan se lo estaba comiendo!",
+    "en": "But Nyan was eating it!"
+   },
+   "voz": "h2",
+   "cara": "feliz",
+   "reacciona": {
+    "nyan": "sorpresa",
+    "tama": "sorpresa"
+   },
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "perro",
+      "id": "kotaro",
+      "x": 220
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 330
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "…全部[ぜんぶ] 食[た]べちゃった。",
+   "tr": {
+    "es": "…Me lo he comido todo.",
+    "en": "…I ate the whole thing."
+   },
+   "voz": "h3",
+   "cara": "triste",
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "perro",
+      "id": "kotaro",
+      "x": 220
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 330
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "shimau"
+  },
+  {
+   "t": "elige",
+   "habla": "tama",
+   "pide": {
+    "es": "Tama no se lo cree. ¿Qué dice, en confianza?",
+    "en": "Tama can't believe it. What does she say, casually?"
+   },
+   "opciones": [
+    {
+     "jp": "全部[ぜんぶ] 食[た]べちゃったの！？",
+     "bien": true,
+     "tr": {
+      "es": "¿¡Te lo has comido todo!?",
+      "en": "You ate the whole thing?!"
+     },
+     "voz": "h4",
+     "porque": {
+      "es": "食べてしまった → 食べちゃった: la forma de casa, con el matiz de «y ya no tiene remedio».",
+      "en": "食べてしまった → 食べちゃった: the casual form, with a sense of «and there's no undoing it»."
+     }
+    },
+    {
+     "jp": "全部[ぜんぶ] 食[た]べじゃったの！？",
+     "bien": false,
+     "porque": {
+      "es": "じゃう es para los verbos cuya forma て acaba en で (飲んで → 飲んじゃう). 食べて acaba en て: 食べちゃう.",
+      "en": "じゃう is for verbs whose て form ends in で (飲んで → 飲んじゃう). 食べて ends in て: 食べちゃう."
+     }
+    },
+    {
+     "jp": "全部[ぜんぶ] 食[た]べしまったの！？",
+     "bien": false,
+     "porque": {
+      "es": "しまう va detrás de la forma て: 食べてしまった (o, en casa, 食べちゃった).",
+      "en": "しまう goes after the て form: 食べてしまった (or, casually, 食べちゃった)."
+     }
+    }
+   ],
+   "cara": "sorpresa",
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 310
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "おいしくて、 つい…。",
+   "tr": {
+    "es": "Estaba tan rico que… sin querer.",
+    "en": "It was so tasty that… I just…"
+   },
+   "voz": "h5",
+   "cara": "triste"
+  },
+  {
+   "t": "monta",
+   "encargo": 0
+  },
+  {
+   "t": "dice",
+   "habla": "sensei",
+   "jp": "新[あたら]しい 鏡餅[かがみもち]を 持[も]って きましたよ。",
+   "tr": {
+    "es": "Os he traído un 鏡餅 nuevo.",
+    "en": "I've brought you a new 鏡餅."
+   },
+   "voz": "h6",
+   "reacciona": {
+    "nyan": "feliz"
+   },
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "kagamimochi",
+      "x": 205,
+      "y": 152,
+      "id": "kagamimochi",
+      "s": 0.95
+     },
+     {
+      "que": "sensei",
+      "id": "sensei",
+      "x": 330
+     }
+    ]
+   }
+  },
+  {
+   "t": "toca",
+   "pide": {
+    "es": "¡A romper el 鏡餅! Escucha a Tama y toca lo que vais a cocinar.",
+    "en": "Time to break the 鏡餅! Listen to Tama and tap what you'll cook."
+   },
+   "bien": "kagamimochi",
+   "quien": "tama",
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 65
+     },
+     {
+      "que": "mikan",
+      "x": 160,
+      "y": 152,
+      "id": "mikan",
+      "s": 0.9
+     },
+     {
+      "que": "kagamimochi",
+      "x": 205,
+      "y": 152,
+      "id": "kagamimochi",
+      "s": 0.9
+     },
+     {
+      "que": "taza",
+      "x": 250,
+      "y": 152,
+      "id": "taza",
+      "s": 0.85
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 345
+     }
+    ]
+   },
+   "jp": "鏡餅[かがみもち]で おしるこを 作[つく]るよ。",
+   "voz": "h7",
+   "bien_msg": {
+    "es": "¡Eso! Con el 鏡餅 se hace おしるこ, una sopa dulce de judías rojas con mochi.",
+    "en": "Right! The 鏡餅 becomes おしるこ, a sweet red bean soup with mochi."
+   },
+   "mal_msg": {
+    "es": "Ha dicho 鏡餅: los pasteles de arroz del soporte de madera.",
+    "en": "She said 鏡餅: the rice cakes on the wooden stand."
+   }
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "Nyan no se acuerda de cómo se llamaba esa sopa dulce. Pregunta:",
+    "en": "Nyan can't remember what the sweet soup was called. He asks:"
+   },
+   "opciones": [
+    {
+     "jp": "あれ、 何[なん]て いうんだっけ？",
+     "bien": true,
+     "tr": {
+      "es": "Eh, ¿cómo se llamaba eso?",
+      "en": "Hey, what was it called again?"
+     },
+     "voz": "h8",
+     "porque": {
+      "es": "っけ al final: intentas recordar algo que ya sabías o que te dijeron.",
+      "en": "っけ at the end: you're trying to recall something you knew or were told."
+     }
+    },
+    {
+     "jp": "あれ、 何[なん]て いうっけか？",
+     "bien": false,
+     "porque": {
+      "es": "っけ ya es la pregunta: no hace falta か detrás.",
+      "en": "っけ is already the question: no か needed after it."
+     }
+    },
+    {
+     "jp": "あれ、 何[なん]て いいますけ？",
+     "bien": false,
+     "porque": {
+      "es": "Es っけ, con la っ pequeña, y va con la forma corta o con だ/た: いうんだっけ.",
+      "en": "It's っけ, with the small っ, and goes with the short form or だ/た: いうんだっけ."
+     }
+    }
+   ],
+   "cara": "pensando",
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "kagamimochi",
+      "x": 205,
+      "y": 152,
+      "s": 0.9
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 310
+     }
+    ]
+   }
+  }
+ ],
+ "epilogo": [
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "おしるこ、 できたよ！",
+   "tr": {
+    "es": "¡La おしるこ ya está!",
+    "en": "The おしるこ's ready!"
+   },
+   "voz": "x1",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "cuenco",
+      "x": 205,
+      "y": 152,
+      "s": 0.9
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 310
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "今度[こんど]は みんなで 食[た]べよう！",
+   "tr": {
+    "es": "¡Esta vez, a comer todos juntos!",
+    "en": "This time, let's all eat together!"
+   },
+   "voz": "x2",
+   "cara": "feliz",
+   "brazo": "arriba"
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta la frase: la escena hará lo que digas.",
+   "en": "Build the sentence: the scene will do what you say."
+  },
+  "piezas": [
+   {
+    "id": "jusu",
+    "jp": "ジュース",
+    "tipo": "palabra"
+   },
+   {
+    "id": "mo",
+    "jp": "も",
+    "tipo": "particula"
+   },
+   {
+    "id": "nonjatta",
+    "jp": "飲[の]んじゃった",
+    "tipo": "verbo"
+   },
+   {
+    "id": "nonchatta",
+    "jp": "飲[の]んちゃった",
+    "tipo": "verbo"
+   },
+   {
+    "id": "nomichatta",
+    "jp": "飲[の]みちゃった",
+    "tipo": "verbo"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Y aún hay más: Nyan confiesa que también se ha bebido el zumo de Tama: «Y también me he bebido el zumo»",
+     "en": "There's more: Nyan confesses he drank Tama's juice too: «And I drank the juice too»"
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 80
+      },
+      {
+       "que": "vaso",
+       "x": 205,
+       "y": 152,
+       "id": "vaso",
+       "s": 0.9
+      },
+      {
+       "que": "gato",
+       "id": "tama",
+       "x": 310
+      }
+     ]
+    },
+    "piezas": [
+     "jusu",
+     "mo",
+     "nonjatta",
+     "nonchatta",
+     "nomichatta"
+    ],
+    "bien": [
+     [
+      "jusu",
+      "mo",
+      "nonjatta"
+     ]
+    ],
+    "tr": {
+     "es": "También me he bebido el zumo.",
+     "en": "I drank the juice too."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "desaparece",
+      "objeto": "vaso"
+     },
+     {
+      "tipo": "manpu",
+      "objeto": "tama",
+      "manpu": "excl"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "triste"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "nonchatta"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "La て de 飲む es 飲んで, con で: por eso va じゃう, 飲んじゃった.",
+       "en": "The て form of 飲む is 飲んで, with で: so it's じゃう, 飲んじゃった."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "nomichatta"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "ちゃう sale de la forma て, no de la raíz: 飲んで → 飲んじゃう.",
+       "en": "ちゃう comes from the て form, not the stem: 飲んで → 飲んじゃう."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "reto": {
+  "intro": {
+   "jp": "ふん。 また 全部[ぜんぶ] 食[た]べちゃったのか。 勝負[しょうぶ]だ！",
+   "tr": {
+    "es": "Hmpf. ¿Otra vez te lo has comido todo? ¡Duelo!",
+    "en": "Hmph. Ate it all again? Duel!"
+   },
+   "voz": "k0"
+  },
+  "gana": {
+   "jp": "…くっ。 負[ま]けちゃった。",
+   "tr": {
+    "es": "…Tsk. He perdido.",
+    "en": "…Tch. I lost."
+   },
+   "voz": "kw"
+  },
+  "pierde": {
+   "jp": "ふん。 また 勝[か]っちゃったな。",
+   "tr": {
+    "es": "Hmpf. Vaya, he vuelto a ganar.",
+    "en": "Hmph. Oops, I won again."
+   },
+   "voz": "kl"
+  },
+  "pica": {
+   "jp": "…やるな。",
+   "tr": {
+    "es": "…No está mal.",
+    "en": "…Not bad."
+   },
+   "voz": "kp"
+  },
+  "burla": {
+   "jp": "ふん！",
+   "tr": {
+    "es": "¡Ja!",
+    "en": "Hah!"
+   },
+   "voz": "kb"
+  },
+  "preguntas": [
+   {
+    "tipo": "elige",
+    "jp": "宿題[しゅくだい]を 忘[わす]れ＿った！",
+    "opciones": [
+     "ちゃ",
+     "じゃ",
+     "しま"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "¡Se me han olvidado los deberes!",
+     "en": "I forgot my homework!"
+    },
+    "porque": {
+     "es": "忘れて → 忘れちゃった.",
+     "en": "忘れて → 忘れちゃった."
+    },
+    "voz": "q1"
+   },
+   {
+    "tipo": "elige",
+    "jp": "ジュースを 全部[ぜんぶ] 飲[の]ん＿った。",
+    "opciones": [
+     "じゃ",
+     "ちゃ",
+     "しま"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Me he bebido todo el zumo.",
+     "en": "I drank all the juice."
+    },
+    "porque": {
+     "es": "飲んで → 飲んじゃった.",
+     "en": "飲んで → 飲んじゃった."
+    },
+    "voz": "q2"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "財布[さいふ]を 落[お]としちゃった。",
+    "correcta": true,
+    "tr": {
+     "es": "Se me ha caído la cartera.",
+     "en": "I dropped my wallet."
+    },
+    "porque": {
+     "es": "Bien: 落として → 落としちゃった.",
+     "en": "Right: 落として → 落としちゃった."
+    },
+    "voz": "q3"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "明日[あした]、 何時[なんじ]だっけか？",
+    "correcta": false,
+    "tr": {
+     "es": "(¿A qué hora era mañana?)",
+     "en": "(What time was it tomorrow?)"
+    },
+    "porque": {
+     "es": "っけ ya es pregunta: 何時だっけ？, sin か.",
+     "en": "っけ is already a question: 何時だっけ？, no か."
+    },
+    "voz": "q4"
+   },
+   {
+    "tipo": "oye",
+    "jp": "全部[ぜんぶ] 食[た]べちゃった。",
+    "habla": "tama",
+    "opciones": [
+     {
+      "es": "Me lo he comido todo (sin querer).",
+      "en": "I ate the whole thing (oops)."
+     },
+     {
+      "es": "Voy a comérmelo todo.",
+      "en": "I'm going to eat it all."
+     },
+     {
+      "es": "No me lo he comido.",
+      "en": "I didn't eat it."
+     }
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "食べちゃった: hecho del todo, y con pena.",
+     "en": "食べちゃった: done completely, with regret."
+    },
+    "voz": "q5"
+   },
+   {
+    "tipo": "imagen",
+    "jp": "鏡餅[かがみもち]を 全部[ぜんぶ] 食[た]べちゃった。",
+    "opciones": [
+     "kagamimochi",
+     "keki",
+     "soba"
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "鏡餅: el que se comió Nyan.",
+     "en": "鏡餅: the one Nyan ate."
+    },
+    "pide": {
+     "es": "¿Qué se comió Nyan?",
+     "en": "What did Nyan eat?"
+    }
+   }
+  ]
+ },
+ "siguiente": {
+  "es": "Fin de la temporada 4. Lo que viene: llega la primavera… y algo nuevo en la escuela.",
+  "en": "End of season 4. Coming up: spring arrives… and something new at school."
+ },
+ "chuleta": {
+  "patron": {
+   "es": "〔て〕しまう → ちゃう ・ 〜っけ ・ 〜じゃん",
+   "en": "〔て〕しまう → ちゃう ・ 〜っけ ・ 〜じゃん"
+  },
+  "patron_tr": {
+   "es": "acabar haciéndolo ・ ¿cómo era…? ・ ¡pero si…!",
+   "en": "end up doing ・ what was it…? ・ but…!"
+  },
+  "filas": [
+   {
+    "jp": "財布[さいふ]を 落[お]として しまいました。",
+    "es": "Se me ha caído la cartera.",
+    "en": "I've dropped my wallet.",
+    "registro": "educado"
+   },
+   {
+    "jp": "寝[ね]ちゃった！",
+    "es": "¡Me he quedado dormido! (a un amigo)",
+    "en": "I fell asleep! (to a friend)",
+    "registro": "amigos"
+   },
+   {
+    "jp": "明日[あした]、 何時[なんじ]だっけ？",
+    "es": "¿A qué hora era mañana?",
+    "en": "What time was it tomorrow again?"
+   }
+  ],
+  "consejo": {
+   "es": "El 鏡餅 no se corta con cuchillo: se rompe con un mazo, porque cortar da mala suerte. Por eso el día se llama 鏡開き, «abrir el espejo», y no «cortarlo».",
+   "en": "The 鏡餅 isn't cut with a knife: it's broken with a mallet, because cutting is unlucky. That's why the day is called 鏡開き, «opening the mirror», not «cutting» it."
+  }
+ }
+}

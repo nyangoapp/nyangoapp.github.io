@@ -1,0 +1,40 @@
+{
+  "id": "l04", "desde": 375,
+  "titulo": {"jp": "ニャン の 誕生日[たんじょうび]", "es": "El cumpleaños de Nyan", "en": "Nyan's birthday"},
+  "resumen": {"es": "Tama prepara algo en secreto para el cumpleaños de Nyan: ¿conseguirá que no se entere?", "en": "Tama is secretly preparing something for Nyan's birthday: will she manage to keep it a surprise?"},
+  "portada": {"fondo": "cuarto", "cosas": [{"que": "gato", "x": 110, "cara": "feliz"}, {"que": "nyan", "x": 260, "cara": "sorpresa"}, {"que": "regalo", "x": 330}]},
+  "texto": [
+    {"voz": "t1", "quien": "narrador", "jp": "日曜日[にちようび]は、 ニャンの 誕生日[たんじょうび]だった。", "es": "El domingo era el cumpleaños de Nyan.", "en": "Sunday was Nyan's birthday."},
+    {"voz": "t2", "quien": "narrador", "jp": "タマは ニャンに 何[なに]も 言[い]わないで、 何[なに]か したかった。", "es": "Tama quería hacer algo sin decirle nada a Nyan.", "en": "Tama wanted to do something without telling Nyan anything."},
+    {"voz": "t3", "quien": "tama", "jp": "ニャン、 まだ 部屋[へや]に 入[はい]っては いけない よ！", "es": "¡Nyan, todavía no puedes entrar en la habitación!", "en": "Nyan, you can't come into the room yet!"},
+    {"voz": "t4", "quien": "nyan", "jp": "えっ、 どうして？", "es": "¿Eh? ¿Por qué?", "en": "Huh? Why?"},
+    {"voz": "t5", "quien": "narrador", "jp": "タマは 答[こた]えないで、 店[みせ]へ 行[い]った。", "es": "Tama, sin responder, se fue a la tienda.", "en": "Tama, without answering, went to the store."},
+    {"voz": "t6", "quien": "narrador", "jp": "タマは、 その 本[ほん]が いい か どうか 考[かんが]えた。 そして、 買[か]った。", "es": "Tama se preguntó si aquel libro estaría bien. Y lo compró.", "en": "Tama wondered whether that book would be good. And she bought it."},
+    {"voz": "t7", "quien": "narrador", "jp": "タマは 友達[ともだち]に 「歌[うた]を 歌[うた]おう」と 言[い]った。", "es": "Tama les dijo a sus amigos: «vamos a cantar una canción».", "en": "Tama told her friends, \"let's sing a song.\""},
+    {"voz": "t8", "quien": "narrador", "jp": "友達[ともだち]たちは 歌[うた]ったり、 話[はな]したり した。", "es": "Los amigos cantaron, charlaron y demás.", "en": "The friends sang, chatted, and so on."},
+    {"voz": "t9", "quien": "narrador", "jp": "日曜日[にちようび]に、 みんなは ニャンの 家[いえ]へ 来[き]た。", "es": "El domingo, todos vinieron a casa de Nyan.", "en": "On Sunday, everyone came to Nyan's house."},
+    {"voz": "t10", "quien": "tama", "jp": "ニャン、 まだ 見[み]る な！", "es": "¡Nyan, no mires todavía!", "en": "Nyan, don't look yet!"},
+    {"voz": "t11", "quien": "narrador", "jp": "でも、 ニャンは 見[み]た。 そして、 「うわ！」と 言[い]った。", "es": "Pero Nyan miró. Y dijo «¡uy!».", "en": "But Nyan looked. And he said \"whoa!\""},
+    {"voz": "t12", "quien": "narrador", "jp": "みんなは 歌[うた]を 歌[うた]った。 ニャンは とても うれしかった。", "es": "Todos cantaron una canción. Nyan estaba muy contento.", "en": "Everyone sang a song. Nyan was very happy."}
+  ],
+  "preguntas": [
+    {"jp": "日曜日[にちようび]は 何[なに]でした か。", "es": "¿Qué era el domingo?", "en": "What was Sunday?",
+     "opciones": [{"jp": "ニャンの 誕生日[たんじょうび]", "es": "El cumpleaños de Nyan", "en": "Nyan's birthday"}, {"jp": "タマの 誕生日[たんじょうび]", "es": "El cumpleaños de Tama", "en": "Tama's birthday"}, {"jp": "学校[がっこう]の 日[ひ]", "es": "Un día de escuela", "en": "A school day"}],
+     "bien": 0, "porque": {"es": "«日曜日は、ニャンの誕生日だった» lo dice.", "en": "\"Sunday was Nyan's birthday\" the story says."}},
+    {"jp": "タマは 何[なに]を 買[か]いました か。", "es": "¿Qué compró Tama?", "en": "What did Tama buy?",
+     "opciones": [{"jp": "本[ほん]", "es": "Un libro", "en": "A book"}, {"jp": "歌[うた]", "es": "Una canción", "en": "A song"}],
+     "bien": 0, "porque": {"es": "タマは本がいいかどうか考えて、買いました。", "en": "Tama wondered if the book was good, and bought it."}},
+    {"jp": "みんなは 何[なに]を しました か。", "es": "¿Qué hizo todo el mundo?", "en": "What did everyone do?",
+     "opciones": [{"jp": "歌[うた]を 歌[うた]った", "es": "Cantaron una canción", "en": "They sang a song"}, {"jp": "本[ほん]を 読[よ]んだ", "es": "Leyeron un libro", "en": "They read a book"}, {"jp": "部屋[へや]に 入[はい]らなかった", "es": "No entraron en la habitación", "en": "They didn't go into the room"}],
+     "bien": 0, "porque": {"es": "「みんなは歌を歌った」とあります。", "en": "\"Everyone sang a song\" the story says."}},
+    {"tipo": "opinion", "jp": "あなたは 友達[ともだち]の 誕生日[たんじょうび]に 何[なに]を したい です か。", "es": "¿Qué te gustaría hacer por el cumpleaños de un amigo?", "en": "What would you like to do for a friend's birthday?",
+     "opciones": [
+       {"jp": "歌[うた]を 歌[うた]いたい。", "es": "Me gustaría cantar una canción.", "en": "I'd like to sing a song.",
+        "nyan": {"jp": "いい ね！ ニャンも 歌[うた]いたい！", "es": "¡Qué bien! ¡Nyan también quiere cantar!", "en": "Nice! Nyan wants to sing too!"}},
+       {"jp": "本[ほん]を あげたい。", "es": "Me gustaría regalarle un libro.", "en": "I'd like to give a book.",
+        "nyan": {"jp": "ニャンは 本[ほん]より おにぎり が いい。", "es": "Nyan prefiere un onigiri antes que un libro.", "en": "Nyan would rather have an onigiri than a book."}},
+       {"jp": "何[なに]も しないで、 一緒[いっしょ]に 寝[ね]たい。", "es": "No hacer nada y dormir juntos.", "en": "Not do anything, and just sleep together.",
+        "nyan": {"jp": "それ、 ニャンと 同[おな]じ！", "es": "¡Eso, igual que Nyan!", "en": "That's the same as Nyan!"}}
+     ]}
+  ]
+}

@@ -1,0 +1,52 @@
+{
+ "id": "l18", "desde": 1425,
+ "titulo": {"jp": "ニャンの スープ", "es": "La sopa de Nyan", "en": "Nyan's soup"},
+ "resumen": {"es": "Nyan confunde la sal con el azúcar, y la sopa sale fatal.", "en": "Nyan mixes up salt and sugar, and the soup turns out terribly."},
+ "portada": {"fondo": "cocina", "cosas": [{"que": "nyan", "x": 100, "cara": "triste"}, {"que": "gato", "x": 190}, {"que": "cuenco", "x": 300}]},
+ "texto": [
+  {"voz": "t1", "quien": "narrador", "jp": "ある 日[ひ]、 ニャンは タマの ために、 スープを 作[つく]る ことに した。", "es": "Un día, Nyan decidió hacerle una sopa a Tama.", "en": "One day, Nyan decided to make soup for Tama."},
+  {"voz": "t2", "quien": "nyan", "jp": "初[はじ]めて 作[つく]るから、 ちょっと 緊張[きんちょう]する…。", "es": "Como es la primera vez que la hago, estoy un poco nervioso…", "en": "Since it's my first time making it, I'm a bit nervous..."},
+  {"voz": "t3", "quien": "narrador", "jp": "ニャンは 材料[ざいりょう]を 台所[だいどころ]に 並[なら]べた。", "es": "Nyan puso los ingredientes en fila en la cocina.", "en": "Nyan lined up the ingredients in the kitchen."},
+  {"voz": "t4", "quien": "narrador", "jp": "野菜[やさい]を 切[き]って、 水[みず]と 一緒[いっしょ]に 入[い]れた。", "es": "Cortó las verduras y las metió junto con agua.", "en": "He cut the vegetables and put them in along with water."},
+  {"voz": "t5", "quien": "narrador", "jp": "ニャンは 塩[しお]だと 思[おも]って、 砂糖[さとう]を 入[い]れて しまった。", "es": "Pensando que era sal, Nyan metió azúcar sin querer.", "en": "Thinking it was salt, Nyan accidentally put in sugar."},
+  {"voz": "t6", "quien": "narrador", "jp": "それに 気[き]づかない まま、 スープを 作[つく]り 続[つづ]けた。", "es": "Sin darse cuenta, siguió preparando la sopa.", "en": "Without noticing, he kept making the soup."},
+  {"voz": "t7", "quien": "narrador", "jp": "しばらくして、 スープが できた。", "es": "Al cabo de un rato, la sopa estuvo lista.", "en": "After a while, the soup was ready."},
+  {"voz": "t8", "quien": "nyan", "jp": "よし、 できた！ タマ、 食[た]べて みて！", "es": "¡Listo! Tama, ¡pruébala!", "en": "Alright, it's done! Tama, try some!"},
+  {"voz": "t9", "quien": "narrador", "jp": "タマは 少[すこ]し 飲[の]んで、 変[へん]な 顔[かお]を した。", "es": "Tama bebió un poco, y puso una cara rara.", "en": "Tama drank a little, and made a strange face."},
+  {"voz": "t10", "quien": "tama", "jp": "これ… なんか 甘[あま]くない？", "es": "Esto… ¿no está un poco dulce?", "en": "This... isn't it kind of sweet?"},
+  {"voz": "t11", "quien": "narrador", "jp": "ニャンも 一[ひと]つ 飲[の]んで みた。", "es": "Nyan también probó un poco.", "en": "Nyan also tried a sip."},
+  {"voz": "t12", "quien": "nyan", "jp": "ええっ！？ 本当[ほんとう]だ！ 甘[あま]い！", "es": "¿¡Eh!? ¡Es verdad! ¡Está dulce!", "en": "Huh!? It's true! It's sweet!"},
+  {"voz": "t13", "quien": "narrador", "jp": "ニャンは やっと 気[き]づいた。 塩[しお]じゃなくて、 砂糖[さとう]を 入[い]れて しまったんだ。", "es": "Por fin Nyan se dio cuenta. Había metido azúcar en vez de sal.", "en": "Nyan finally realized. He'd put in sugar instead of salt."},
+  {"voz": "t14", "quien": "narrador", "jp": "タマは 笑[わら]い 出[だ]した。", "es": "Tama se echó a reír.", "en": "Tama burst out laughing."},
+  {"voz": "t15", "quien": "tama", "jp": "大丈夫[だいじょうぶ]！ もう 一度[いちど] 作[つく]ろう。 今度[こんど]は 一緒[いっしょ]に！", "es": "¡No pasa nada! Hagámosla otra vez. ¡Esta vez juntos!", "en": "It's okay! Let's make it again. This time together!"},
+  {"voz": "t16", "quien": "nyan", "jp": "うん…。 恥[は]ずかしいけど、 ありがとう。", "es": "Vale… Qué vergüenza, pero gracias.", "en": "Okay... It's embarrassing, but thanks."},
+  {"voz": "t17", "quien": "narrador", "jp": "二人[ふたり]は 材料[ざいりょう]を 買[か]いに 行[い]って、 もう 一度[いちど] スープを 作[つく]った。", "es": "Los dos fueron a comprar ingredientes, e hicieron la sopa otra vez.", "en": "The two of them went to buy ingredients, and made the soup again."},
+  {"voz": "t18", "quien": "narrador", "jp": "今度[こんど]は、 ちゃんと 塩[しお]を 入[い]れた。", "es": "Esta vez, metieron bien la sal.", "en": "This time, they properly put in the salt."},
+  {"voz": "t19", "quien": "narrador", "jp": "スープは とても おいしく できた。", "es": "La sopa quedó muy rica.", "en": "The soup turned out very tasty."},
+  {"voz": "t20", "quien": "nyan", "jp": "やった！ 今度[こんど]は 成功[せいこう]だ！", "es": "¡Bien! ¡Esta vez ha sido un éxito!", "en": "Yes! This time it's a success!"},
+  {"voz": "t21", "quien": "narrador", "jp": "二人[ふたり]は 一緒[いっしょ]に、 おいしい スープを 食[た]べた。", "es": "Los dos comieron juntos la deliciosa sopa.", "en": "The two of them ate the delicious soup together."}
+ ],
+ "preguntas": [
+  {"jp": "ニャンは 誰[だれ]の ために スープを 作[つく]りましたか。", "es": "¿Para quién hizo la sopa Nyan?", "en": "Who did Nyan make the soup for?",
+   "opciones": [{"jp": "タマ", "es": "Para Tama", "en": "For Tama"}, {"jp": "おばあさん", "es": "Para la abuela", "en": "For grandma"}, {"jp": "先生[せんせい]", "es": "Para el profesor", "en": "For the teacher"}],
+   "bien": 0, "porque": {"es": "«ニャンはタマのために、スープを作ることにした» とある。", "en": "«ニャンはタマのために、スープを作ることにした» (Nyan decided to make soup for Tama)."}},
+  {"jp": "ニャンは 何[なに]を 間違[まちが]えましたか。", "es": "¿Qué confundió Nyan?", "en": "What did Nyan mix up?",
+   "opciones": [{"jp": "塩[しお]と 砂糖[さとう]", "es": "La sal y el azúcar", "en": "Salt and sugar"}, {"jp": "塩[しお]と 味噌[みそ]", "es": "La sal y el miso", "en": "Salt and miso"}, {"jp": "水[みず]と 牛乳[ぎゅうにゅう]", "es": "El agua y la leche", "en": "Water and milk"}],
+   "bien": 0, "porque": {"es": "「塩じゃなくて、砂糖を入れてしまったんだ」とある。", "en": "«塩じゃなくて、砂糖を入れてしまったんだ» (he'd put in sugar instead of salt)."}},
+  {"jp": "タマは スープを 飲[の]んで、 どう しましたか。", "es": "¿Qué hizo Tama al beber la sopa?", "en": "What did Tama do after drinking the soup?",
+   "opciones": [{"jp": "変[へん]な 顔[かお]を した", "es": "Puso una cara rara", "en": "Made a strange face"}, {"jp": "すぐに 寝[ね]た", "es": "Se durmió enseguida", "en": "Fell asleep right away"}, {"jp": "大[おお]きな 声[こえ]で 泣[な]いた", "es": "Se puso a llorar fuerte", "en": "Cried loudly"}],
+   "bien": 0, "porque": {"es": "「タマは少し飲んで、変な顔をした」とある。", "en": "«タマは少し飲んで、変な顔をした» (Tama drank a little and made a strange face)."}},
+  {"jp": "二人[ふたり]は その 後[あと]、 何[なに]を しましたか。", "es": "¿Qué hicieron los dos después?", "en": "What did the two of them do afterward?",
+   "opciones": [{"jp": "もう 一度[いちど] 一緒[いっしょ]に スープを 作[つく]った", "es": "Hicieron la sopa otra vez juntos", "en": "Made the soup again together"}, {"jp": "スープを 全部[ぜんぶ] 捨[す]てた", "es": "Tiraron toda la sopa", "en": "Threw all the soup away"}, {"jp": "違[ちが]う 料理[りょうり]を 作[つく]った", "es": "Hicieron otro plato distinto", "en": "Made a different dish"}],
+   "bien": 0, "porque": {"es": "「もう一度作ろう。今度は一緒に！」とタマが言った。", "en": "Tama said «もう一度作ろう。今度は一緒に！» (let's make it again, together this time)."}},
+  {"tipo": "opinion", "jp": "料理[りょうり]で 失敗[しっぱい]したら、 あなたは どう しますか。", "es": "Si fracasaras cocinando, ¿qué harías?", "en": "If you failed at cooking, what would you do?",
+   "opciones": [
+    {"jp": "もう 一度[いちど] 作[つく]って みる", "es": "Intentar hacerlo otra vez", "en": "Try making it again",
+     "nyan": {"jp": "それ、 いいね！ ニャンも そう したよ！", "es": "¡Qué bien! ¡Nyan hizo justo eso!", "en": "That's great! That's just what Nyan did!"}},
+    {"jp": "笑[わら]って、 気[き]に しない", "es": "Reírse y no darle importancia", "en": "Laugh it off and not worry",
+     "nyan": {"jp": "うん、 それも いいね。 タマも 笑[わら]って くれたし。", "es": "Sí, eso también está bien. Tama también se rió.", "en": "Yeah, that's good too. Tama laughed about it too."}},
+    {"jp": "もう 料理[りょうり]は しない", "es": "No volver a cocinar", "en": "Never cook again",
+     "nyan": {"jp": "えー、 それは 寂[さび]しいよ…。 また 一緒[いっしょ]に 作[つく]ろう！", "es": "Ehh, eso es una pena… ¡Vamos a cocinar juntos otra vez!", "en": "Ehh, that's sad... Let's cook together again!"}}
+   ]}
+ ]
+}

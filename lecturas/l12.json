@@ -1,0 +1,48 @@
+{
+ "id": "l12", "desde": 975,
+ "titulo": {"jp": "動物園[どうぶつえん]への 電車[でんしゃ]", "es": "El tren al zoo", "en": "The train to the zoo"},
+ "resumen": {"es": "Nyan casi pierde el tren, y en el zoo confunde una hoja con un pájaro.", "en": "Nyan almost misses the train, and at the zoo mistakes a leaf for a bird."},
+ "portada": {"fondo": "parque", "cosas": [{"que": "nyan", "x": 100, "cara": "sorpresa"}, {"que": "gato", "x": 190}, {"que": "pajaro", "x": 300}]},
+ "texto": [
+  {"voz": "t1", "quien": "narrador", "jp": "土曜日[どようび]、 ニャンと タマは 電車[でんしゃ]で 動物園[どうぶつえん]へ 行[い]く ことに した。", "es": "El sábado, Nyan y Tama decidieron ir al zoo en tren.", "en": "On Saturday, Nyan and Tama decided to go to the zoo by train."},
+  {"voz": "t2", "quien": "narrador", "jp": "でも、 普段[ふだん] 朝[あさ] 早[はや]く 起[お]きない ニャンは、 その 日[ひ]も なかなか 起[お]きなかった。", "es": "Pero Nyan, que normalmente no se levanta temprano, tampoco se levantó fácilmente ese día.", "en": "But Nyan, who doesn't usually get up early, didn't get up easily that day either."},
+  {"voz": "t3", "quien": "tama", "jp": "ニャン、 早[はや]く！ 電車[でんしゃ]に 間[ま]に 合[あ]わないよ！", "es": "¡Nyan, rápido! ¡No vamos a llegar a tiempo para el tren!", "en": "Nyan, hurry! We're not going to make it to the train!"},
+  {"voz": "t4", "quien": "narrador", "jp": "二人[ふたり]は 駅[えき]まで 走[はし]った。 とても 危[あぶ]なかった。", "es": "Los dos corrieron hasta la estación. Fue muy peligroso.", "en": "The two of them ran to the station. It was very risky."},
+  {"voz": "t5", "quien": "narrador", "jp": "でも、 二人[ふたり]は 間[ま]に 合[あ]った。", "es": "Pero los dos llegaron a tiempo.", "en": "But the two of them made it in time."},
+  {"voz": "t6", "quien": "narrador", "jp": "電車[でんしゃ]の 中[なか]で、 ニャンは すぐに 眠[ねむ]って しまった。", "es": "Dentro del tren, Nyan se quedó dormido enseguida.", "en": "Inside the train, Nyan fell asleep right away."},
+  {"voz": "t7", "quien": "tama", "jp": "もう、 動物園[どうぶつえん]は まだ 遠[とお]いよ。 起[お]きて！", "es": "Anda, el zoo todavía está lejos. ¡Despierta!", "en": "Come on, the zoo is still far. Wake up!"},
+  {"voz": "t8", "quien": "narrador", "jp": "動物園[どうぶつえん]に 着[つ]くと、 入[い]り 口[ぐち]は とても にぎやかだった。", "es": "Al llegar al zoo, la entrada estaba muy animada.", "en": "When they arrived at the zoo, the entrance was very lively."},
+  {"voz": "t9", "quien": "narrador", "jp": "中[なか]に 入[はい]ると、 いろいろな 動物[どうぶつ]が いた。", "es": "Al entrar, había animales de todo tipo.", "en": "Once inside, there were all kinds of animals."},
+  {"voz": "t10", "quien": "nyan", "jp": "見[み]て、 タマ！ あの 鳥[とり]、 色[いろ]が 緑[みどり]だよ！", "es": "¡Mira, Tama! ¡Ese pájaro es de color verde!", "en": "Look, Tama! That bird is green!"},
+  {"voz": "t11", "quien": "tama", "jp": "あれは 鳥[とり]じゃ ないよ。 葉[は]だよ！", "es": "Eso no es un pájaro. ¡Es una hoja!", "en": "That's not a bird. It's a leaf!"},
+  {"voz": "t12", "quien": "narrador", "jp": "ニャンは 恥[は]ずかしくて、 顔[かお]が 赤[あか]く なった。", "es": "A Nyan le dio vergüenza, y se le puso la cara roja.", "en": "Nyan felt embarrassed, and his face turned red."},
+  {"voz": "t13", "quien": "narrador", "jp": "それでも、 二人[ふたり]は 一日[いちにち]、 ずっと 動物園[どうぶつえん]で 過[す]ごした。", "es": "Aun así, los dos pasaron todo el día en el zoo.", "en": "Even so, the two of them spent the whole day at the zoo."},
+  {"voz": "t14", "quien": "narrador", "jp": "帰[かえ]りの 電車[でんしゃ]で、 タマが 聞[き]いた。", "es": "En el tren de vuelta, Tama le preguntó.", "en": "On the train back, Tama asked."},
+  {"voz": "t15", "quien": "tama", "jp": "今日[きょう]は 楽[たの]しかった？", "es": "¿Te lo has pasado bien hoy?", "en": "Did you have fun today?"},
+  {"voz": "t16", "quien": "nyan", "jp": "うん、 すごく 幸[しあわ]せな 一日[いちにち]だった！", "es": "Sí, ¡ha sido un día muy feliz!", "en": "Yeah, it was a really happy day!"},
+  {"voz": "t17", "quien": "narrador", "jp": "ニャンは 疲[つか]れて いたが、 顔[かお]は 笑[わら]って いた。", "es": "Nyan estaba cansado, pero su cara sonreía.", "en": "Nyan was tired, but his face was smiling."}
+ ],
+ "preguntas": [
+  {"jp": "二人[ふたり]は 何[なに]で 動物園[どうぶつえん]へ 行[い]きましたか。", "es": "¿Cómo fueron los dos al zoo?", "en": "How did the two of them go to the zoo?",
+   "opciones": [{"jp": "電車[でんしゃ]で", "es": "En tren", "en": "By train"}, {"jp": "バスで", "es": "En autobús", "en": "By bus"}, {"jp": "歩[ある]いて", "es": "Andando", "en": "On foot"}],
+   "bien": 0, "porque": {"es": "«ニャンとタマは電車で動物園へ行くことにした» lo dice.", "en": "«ニャンとタマは電車で動物園へ行くことにした» says so (they decided to go by train)."}},
+  {"jp": "ニャンは 電車[でんしゃ]の 中[なか]で 何[なに]を しましたか。", "es": "¿Qué hizo Nyan dentro del tren?", "en": "What did Nyan do inside the train?",
+   "opciones": [{"jp": "眠[ねむ]って しまった", "es": "Se quedó dormido", "en": "He fell asleep"}, {"jp": "動物園[どうぶつえん]の 話[はなし]を した", "es": "Habló sobre el zoo", "en": "He talked about the zoo"}, {"jp": "タマと 遊[あそ]んだ", "es": "Jugó con Tama", "en": "He played with Tama"}],
+   "bien": 0, "porque": {"es": "«電車の中で、ニャンはすぐに眠ってしまった» とある。", "en": "«電車の中で、ニャンはすぐに眠ってしまった» (inside the train, Nyan fell asleep right away)."}},
+  {"jp": "ニャンは なぜ 恥[は]ずかしく なりましたか。", "es": "¿Por qué le dio vergüenza a Nyan?", "en": "Why did Nyan feel embarrassed?",
+   "opciones": [{"jp": "鳥[とり]だと 思[おも]った ものが 葉[は]だったから", "es": "Porque lo que creía un pájaro era una hoja", "en": "Because what he thought was a bird was a leaf"}, {"jp": "電車[でんしゃ]の 中[なか]で 眠[ねむ]って しまったから", "es": "Porque se quedó dormido en el tren", "en": "Because he fell asleep on the train"}, {"jp": "動物[どうぶつ]が 怖[こわ]かったから", "es": "Porque los animales le daban miedo", "en": "Because the animals scared him"}],
+   "bien": 0, "porque": {"es": "タマに「木の葉だよ」と言われて、顔が赤くなった。", "en": "Tama told him \"it's a leaf\", and his face turned red."}},
+  {"jp": "帰[かえ]りの 電車[でんしゃ]で、 タマは ニャンに 何[なに]を 聞[き]きましたか。", "es": "En el tren de vuelta, ¿qué le preguntó Tama a Nyan?", "en": "On the train back, what did Tama ask Nyan?",
+   "opciones": [{"jp": "今日[きょう]は 楽[たの]しかったか", "es": "Si se lo había pasado bien", "en": "Whether he had fun"}, {"jp": "明日[あした]も 行[い]きたいか", "es": "Si quería ir también mañana", "en": "Whether he wanted to go again tomorrow"}, {"jp": "動物園[どうぶつえん]が 好[す]きか", "es": "Si le gusta el zoo", "en": "Whether he likes the zoo"}],
+   "bien": 0, "porque": {"es": "«今日は楽しかった？» とタマが聞いた。", "en": "Tama asked «今日は楽しかった？» (Did you have fun today?)."}},
+  {"tipo": "opinion", "jp": "ニャンの 間違[まちが]いを どう 思[おも]いますか。", "es": "¿Qué opinas del error de Nyan?", "en": "What do you think about Nyan's mistake?",
+   "opciones": [
+    {"jp": "かわいい 間違[まちが]いだと 思[おも]う", "es": "Creo que es un error adorable", "en": "I think it's a cute mistake",
+     "nyan": {"jp": "よく 間違[まちが]えるんだ！", "es": "Cometo errores a menudo.", "en": "I make mistakes a lot!"}},
+    {"jp": "ニャンは もっと よく 見[み]る べきだ", "es": "Nyan debería mirar con más atención", "en": "Nyan should look more carefully",
+     "nyan": {"jp": "うん… 今度[こんど]から 気[き]を つけるよ。", "es": "Sí... a partir de ahora tendré cuidado.", "en": "Yeah... I'll be careful from now on."}},
+    {"jp": "眠[ねむ]かったから、 大丈夫[だいじょうぶ]だと 思[おも]う", "es": "Como tenía sueño, creo que no pasa nada", "en": "Since he was sleepy, I think it's fine",
+     "nyan": {"jp": "うん、 眠[ねむ]かったんだ！", "es": "Sí, ¡tenía mucho sueño!", "en": "Yeah, I was sleepy!"}}
+   ]}
+ ]
+}

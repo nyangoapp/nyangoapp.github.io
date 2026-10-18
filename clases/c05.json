@@ -1,0 +1,963 @@
+{
+ "id": "c05",
+ "clase": 5,
+ "desde": 33,
+ "titulo": {
+  "es": "El concurso del melonpan: adjetivos, 好[す]き, よ y ね",
+  "en": "The melon bread contest: adjectives, 好[す]き, よ and ね"
+ },
+ "resumen": {
+  "es": "Los adjetivos い van solos + です (大きいです). 好き lleva な y usa が: 何が好きですか. よ cuenta algo nuevo; ね pide que te den la razón.",
+  "en": "い-adjectives stand alone + です (大きいです). 好き takes な and uses が for what you like. よ shares new info; ね asks for agreement."
+ },
+ "formato": 2,
+ "lugar": "tienda",
+ "mision": {
+  "texto": {
+   "es": "En la tienda de Pon hay un concurso: quien mejor describa las cosas se lleva el melonpan más grande del pueblo. ¡Y Kage también lo quiere!",
+   "en": "Pon's shop is holding a contest: whoever describes things best wins the biggest melon bread in the village. And Kage wants it too!"
+  },
+  "escena": {
+   "fondo": "tienda",
+   "cosas": [
+    {
+     "que": "nyan",
+     "x": 110
+    },
+    {
+     "que": "pan",
+     "x": 205,
+     "s": 1.7
+    },
+    {
+     "que": "persona",
+     "id": "tendero",
+     "x": 305
+    }
+   ]
+  },
+  "cara": "feliz",
+  "jp": "大[おお]きい パン…！",
+  "voz": "m0"
+ },
+ "reglas": [
+  {
+   "id": "adj_i",
+   "nombre": {
+    "es": "Adjetivos い: grande, nuevo, rico…",
+    "en": "い-adjectives: big, new, tasty…"
+   },
+   "patron": {
+    "es": "〔algo〕は〔adjetivo い〕です",
+    "en": "〔thing〕は〔い-adjective〕です"
+   },
+   "explica": {
+    "es": "Muchos adjetivos japoneses acaban en い: 大きい (grande), 新しい (nuevo), おいしい (rico), 高い (caro, alto). Para decir cómo es algo, pones el adjetivo y です detrás: この本は新しいです. Y delante de una cosa van tal cual, sin nada en medio: 新しい本, «un libro nuevo».",
+    "en": "Many Japanese adjectives end in い: 大きい (big), 新しい (new), おいしい (tasty), 高い (expensive, tall). To say what something is like, put the adjective and です after it: この本は新しいです. Before a noun they go as they are, nothing in between: 新しい本, «a new book»."
+   },
+   "ejemplos": [
+    {
+     "jp": "この パンは 大[おお]きいです。",
+     "es": "Este pan es grande.",
+     "en": "This bread is big.",
+     "voz": "r1-1"
+    },
+    {
+     "jp": "新[あたら]しい テレビです。",
+     "es": "Es una tele nueva.",
+     "en": "It's a new TV.",
+     "voz": "r1-2"
+    }
+   ],
+   "ojo": {
+    "es": "La い es parte del adjetivo, como la «o» de «bonito»: si la quitas, la palabra deja de existir. 大きいです, nunca 大きです.",
+    "en": "The い is part of the adjective: drop it and the word stops existing. 大きいです, never 大きです."
+   }
+  },
+  {
+   "id": "suki",
+   "nombre": {
+    "es": "好き: «me gusta»",
+    "en": "好き: «I like»"
+   },
+   "patron": {
+    "es": "〔lo que te gusta〕が 好[す]きです",
+    "en": "〔what you like〕が 好[す]きです"
+   },
+   "explica": {
+    "es": "好き significa «que gusta». En japonés no dices «yo gusto la cosa», sino «la cosa es de mi gusto»: lo que te gusta lleva が, おにぎりが好きです. 好き es otro tipo de adjetivo (los adjetivos な): no acaba en い y, delante de una cosa, lleva な: 好きな本, «mi libro favorito».",
+    "en": "好き means «liked». Japanese doesn't say «I like the thing» but «the thing is liked»: what you like takes が, おにぎりが好きです. 好き is another kind of adjective (な-adjectives): it doesn't end in い and, before a noun, takes な: 好きな本, «my favourite book»."
+   },
+   "ejemplos": [
+    {
+     "jp": "おにぎりが 好[す]きです。",
+     "es": "Me gustan los onigiri.",
+     "en": "I like onigiri.",
+     "voz": "r2-1"
+    },
+    {
+     "jp": "何[なに]が 好[す]きですか。",
+     "es": "¿Qué te gusta?",
+     "en": "What do you like?",
+     "voz": "r2-2"
+    }
+   ],
+   "ojo": {
+    "es": "好き no es un verbo de acción (no «haces» gustar): es un adjetivo, así que lo que te gusta no lleva を, sino が.",
+    "en": "好き isn't an action verb (you don't «do» liking): it's an adjective, so what you like takes が, not を."
+   }
+  },
+  {
+   "id": "yo_ne",
+   "nombre": {
+    "es": "よ y ね: «te lo digo» y «¿verdad?»",
+    "en": "よ and ね: «I'm telling you» and «right?»"
+   },
+   "patron": {
+    "es": "〔frase〕よ ・ 〔frase〕ね",
+    "en": "〔sentence〕よ ・ 〔sentence〕ね"
+   },
+   "explica": {
+    "es": "Al final de la frase, よ y ね le ponen tono. よ cuenta algo que el otro NO sabe: おいしいですよ, «está buenísimo, te lo digo yo». ね busca que el otro esté de acuerdo, porque lo sabe o lo ve igual que tú: おいしいですね, «está bueno, ¿verdad?». Sin ellas la frase es correcta, pero suena seca.",
+    "en": "At the end of a sentence, よ and ね add tone. よ tells something the other person DOESN'T know: おいしいですよ, «it's delicious, I'm telling you». ね looks for agreement, because they know or see it too: おいしいですね, «it's good, isn't it?». Without them the sentence is fine, but sounds dry."
+   },
+   "ejemplos": [
+    {
+     "jp": "おいしいですよ。",
+     "es": "Está buenísimo, te lo digo yo.",
+     "en": "It's delicious, I'm telling you.",
+     "voz": "r3-1"
+    },
+    {
+     "jp": "大[おお]きいですね。",
+     "es": "Es grande, ¿verdad?",
+     "en": "It's big, isn't it?",
+     "voz": "r3-2"
+    }
+   ],
+   "ojo": {
+    "es": "Decir ね de algo que el otro no ha visto suena raro: le pides la razón en algo que no sabe.",
+    "en": "Using ね about something the other hasn't seen sounds odd: you ask them to agree on something they don't know."
+   }
+  }
+ ],
+ "historia": [
+  {
+   "t": "dice",
+   "habla": "tendero",
+   "jp": "いらっしゃいませ！",
+   "tr": {
+    "es": "¡Bienvenido!",
+    "en": "Welcome!"
+   },
+   "voz": "h1",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "tienda",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110
+     },
+     {
+      "que": "pan",
+      "x": 205,
+      "id": "pan",
+      "s": 1.7
+     },
+     {
+      "que": "persona",
+      "id": "tendero",
+      "x": 305
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "tendero",
+   "jp": "この パンは 大[おお]きいですよ。",
+   "tr": {
+    "es": "Este pan es enorme, ¿sabes?",
+    "en": "This bread is huge, you know."
+   },
+   "voz": "h2",
+   "cara": "feliz",
+   "plano": "medio"
+  },
+  {
+   "t": "regla",
+   "regla": "adj_i"
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "Nyan lo prueba. ¿Qué dice?",
+    "en": "Nyan tastes it. What does he say?"
+   },
+   "opciones": [
+    {
+     "jp": "おいしいです！",
+     "bien": true,
+     "tr": {
+      "es": "¡Está buenísimo!",
+      "en": "It's delicious!"
+     },
+     "voz": "h3",
+     "porque": {
+      "es": "El adjetivo い tal cual + です.",
+      "en": "The い-adjective as is + です."
+     }
+    },
+    {
+     "jp": "おいしです！",
+     "bien": false,
+     "porque": {
+      "es": "Se te ha escapado la い, y sin ella la palabra no existe: おいしい + です.",
+      "en": "You dropped the い, and without it the word doesn't exist: おいしい + です."
+     }
+    },
+    {
+     "jp": "おいしいじゃないです！",
+     "bien": false,
+     "porque": {
+      "es": "じゃない niega: has dicho «no está bueno»… ¡delante del que lo ha hecho! Pon se va a enfadar.",
+      "en": "じゃない negates: you said «it's not good»… to the person who made it! Pon will be upset."
+     }
+    }
+   ],
+   "cara": "feliz"
+  },
+  {
+   "t": "monta",
+   "encargo": 0
+  },
+  {
+   "t": "dice",
+   "habla": "tendero",
+   "jp": "ニャンさんは 何[なに]が 好[す]きですか。",
+   "tr": {
+    "es": "Nyan, ¿qué te gusta?",
+    "en": "Nyan, what do you like?"
+   },
+   "voz": "h4",
+   "escena": {
+    "fondo": "tienda",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110
+     },
+     {
+      "que": "pan",
+      "x": 205,
+      "id": "pan",
+      "s": 1.7
+     },
+     {
+      "que": "persona",
+      "id": "tendero",
+      "x": 305
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "suki"
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "¿Qué le gusta a Nyan? ¡Está clarísimo!",
+    "en": "What does Nyan like? It's obvious!"
+   },
+   "opciones": [
+    {
+     "jp": "おにぎりが 好[す]きです！",
+     "bien": true,
+     "tr": {
+      "es": "¡Me encantan los onigiri!",
+      "en": "I love onigiri!"
+     },
+     "voz": "h5",
+     "porque": {
+      "es": "Con 好き, lo que te gusta se marca con が: literalmente, «los onigiri son de mi gusto».",
+      "en": "With 好き, what you like is marked with が: literally, «onigiri are to my liking»."
+     }
+    },
+    {
+     "jp": "おにぎりを 好[す]きです！",
+     "bien": false,
+     "porque": {
+      "es": "を es para lo que recibe una acción (comer, ver). 好き no es una acción, es cómo es la cosa para ti: por eso が.",
+      "en": "を is for what receives an action (eat, watch). 好き isn't an action, it's how the thing is to you: hence が."
+     }
+    },
+    {
+     "jp": "おにぎりは 好[す]きいです！",
+     "bien": false,
+     "porque": {
+      "es": "好き no es un adjetivo い (no termina en い), así que no se le añade: 好きです, tal cual.",
+      "en": "好き isn't an い-adjective (it doesn't end in い), so don't add one: just 好きです."
+     }
+    }
+   ],
+   "cara": "feliz"
+  },
+  {
+   "t": "dice",
+   "habla": "kage",
+   "jp": "ふん。 その パンは 俺[おれ]が もらう。",
+   "tr": {
+    "es": "Hmpf. Ese pan me lo llevo yo.",
+    "en": "Hmph. I'm taking that bread."
+   },
+   "voz": "h6",
+   "reacciona": {
+    "nyan": "enfado"
+   },
+   "escena": {
+    "fondo": "tienda",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 95
+     },
+     {
+      "que": "pan",
+      "x": 200,
+      "id": "pan",
+      "s": 1.7
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 305
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "yo_ne"
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "Busca que Pon te dé la razón: «Este pan es grande, ¿verdad?»",
+    "en": "Get Pon on your side: «This bread is big, right?»"
+   },
+   "opciones": [
+    {
+     "jp": "この パンは 大[おお]きいですね。",
+     "bien": true,
+     "tr": {
+      "es": "Este pan es grande, ¿verdad?",
+      "en": "This bread is big, isn't it?"
+     },
+     "voz": "h7",
+     "porque": {
+      "es": "ね: buscas que el otro esté de acuerdo.",
+      "en": "ね: you look for the other's agreement."
+     }
+    },
+    {
+     "jp": "この パンは 大[おお]きいですよ。",
+     "bien": false,
+     "porque": {
+      "es": "よ se usa para contar algo que el otro NO sabe, pero Pon conoce su pan mejor que nadie. Para que te dé la razón, ね.",
+      "en": "よ is for telling something the other DOESN'T know, but Pon knows his bread best. To get him to agree, ね."
+     }
+    },
+    {
+     "jp": "この パンは 大[おお]きくです。",
+     "bien": false,
+     "porque": {
+      "es": "La い no cambia al añadir です: el adjetivo se queda entero, 大きいです. (大きく es otra forma, para otros usos.)",
+      "en": "The い stays when you add です: the adjective stays whole, 大きいです. (大きく is another form, for other uses.)"
+     }
+    }
+   ],
+   "cara": "pensando",
+   "escena": {
+    "fondo": "tienda",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110
+     },
+     {
+      "que": "pan",
+      "x": 205,
+      "id": "pan",
+      "s": 1.7
+     },
+     {
+      "que": "persona",
+      "id": "tendero",
+      "x": 305
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "tendero",
+   "jp": "はい、 大[おお]きいですね！",
+   "tr": {
+    "es": "¡Sí que es grande, sí!",
+    "en": "It sure is big!"
+   },
+   "voz": "h8",
+   "cara": "feliz"
+  },
+  {
+   "t": "monta",
+   "encargo": 1
+  }
+ ],
+ "epilogo": [
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "大[おお]きい パン！ おいしいです！",
+   "tr": {
+    "es": "¡Qué pan tan grande! ¡Está buenísimo!",
+    "en": "What a big bread! It's delicious!"
+   },
+   "voz": "x1",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "tienda",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "brazo": "arriba"
+     },
+     {
+      "que": "pan",
+      "x": 195,
+      "s": 1.8
+     },
+     {
+      "que": "persona",
+      "id": "tendero",
+      "x": 310
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "tendero",
+   "jp": "また 来[き]て くださいね！",
+   "tr": {
+    "es": "¡Vuelve pronto, ¿eh?!",
+    "en": "Come again, okay?"
+   },
+   "voz": "x2",
+   "cara": "feliz"
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta la frase: la escena hará lo que digas.",
+   "en": "Build the sentence: the scene will do what you say."
+  },
+  "piezas": [
+   {
+    "id": "kono",
+    "jp": "この",
+    "tipo": "palabra"
+   },
+   {
+    "id": "terebi",
+    "jp": "テレビ",
+    "tipo": "palabra"
+   },
+   {
+    "id": "pan",
+    "jp": "パン",
+    "tipo": "palabra"
+   },
+   {
+    "id": "hon",
+    "jp": "本[ほん]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "wa",
+    "jp": "は",
+    "tipo": "particula"
+   },
+   {
+    "id": "atarashii",
+    "jp": "新[あたら]しい",
+    "tipo": "palabra"
+   },
+   {
+    "id": "ookii",
+    "jp": "大[おお]きい",
+    "tipo": "palabra"
+   },
+   {
+    "id": "takai",
+    "jp": "高[たか]い",
+    "tipo": "palabra"
+   },
+   {
+    "id": "oishii",
+    "jp": "おいしい",
+    "tipo": "palabra"
+   },
+   {
+    "id": "nemui",
+    "jp": "眠[ねむ]い",
+    "tipo": "palabra"
+   },
+   {
+    "id": "desu",
+    "jp": "です",
+    "tipo": "verbo"
+   },
+   {
+    "id": "yo",
+    "jp": "よ",
+    "tipo": "particula"
+   },
+   {
+    "id": "ne",
+    "jp": "ね",
+    "tipo": "particula"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Describe la tele del escaparate: «Esta tele es nueva».",
+     "en": "Describe the TV in the window: «This TV is new»."
+    },
+    "escena": {
+     "fondo": "tienda",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110
+      },
+      {
+       "que": "tele",
+       "x": 205,
+       "id": "tele",
+       "s": 1.2
+      },
+      {
+       "que": "persona",
+       "id": "tendero",
+       "x": 305
+      }
+     ]
+    },
+    "piezas": [
+     "kono",
+     "terebi",
+     "hon",
+     "wa",
+     "atarashii",
+     "ookii",
+     "takai",
+     "desu"
+    ],
+    "bien": [
+     [
+      "kono",
+      "terebi",
+      "wa",
+      "atarashii",
+      "desu"
+     ]
+    ],
+    "tr": {
+     "es": "Esta tele es nueva.",
+     "en": "This TV is new."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "brilla",
+      "objeto": "tele"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "ookii"
+       ]
+      },
+      "efecto": [
+       {
+        "tipo": "gigante",
+        "objeto": "tele"
+       },
+       {
+        "tipo": "nyan",
+        "cara": "sorpresa",
+        "manpu": "excl"
+       }
+      ],
+      "msg": {
+       "es": "Has dicho 大きい, GRANDE… ¡y ha crecido! Para «nuevo», el adjetivo es 新しい.",
+       "en": "You said 大きい, BIG… and it grew! For «new», the adjective is 新しい."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "takai"
+       ]
+      },
+      "efecto": {
+       "tipo": "manpu",
+       "objeto": "tendero",
+       "manpu": "brillo"
+      },
+      "msg": {
+       "es": "高い es «caro» (y «alto»). Pon está encantado… pero querías decir nuevo: 新しい.",
+       "en": "高い means «expensive» (or «tall»). Pon is delighted… but you meant new: 新しい."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "hon"
+       ]
+      },
+      "efecto": [
+       {
+        "tipo": "disfraz",
+        "objeto": "tele",
+        "como": "libro"
+       },
+       {
+        "tipo": "nyan",
+        "cara": "sorpresa"
+       }
+      ],
+      "msg": {
+       "es": "Has llamado 本 (libro) a la tele… ¡y se ha convertido en uno! La tele es テレビ.",
+       "en": "You called the TV 本 (book)… and it became one! TV is テレビ."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Kage ni lo ha probado. Cuéntale algo que no sabe: «Este pan está buenísimo» (con よ).",
+     "en": "Kage hasn't even tried it. Tell him something he doesn't know: «This bread is delicious» (with よ)."
+    },
+    "escena": {
+     "fondo": "tienda",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 95
+      },
+      {
+       "que": "pan",
+       "x": 200,
+       "id": "pan",
+       "s": 1.7
+      },
+      {
+       "que": "kage",
+       "id": "kage",
+       "x": 305
+      }
+     ]
+    },
+    "piezas": [
+     "kono",
+     "pan",
+     "wa",
+     "oishii",
+     "nemui",
+     "desu",
+     "yo",
+     "ne"
+    ],
+    "bien": [
+     [
+      "kono",
+      "pan",
+      "wa",
+      "oishii",
+      "desu",
+      "yo"
+     ]
+    ],
+    "tr": {
+     "es": "Este pan está buenísimo, te lo digo yo.",
+     "en": "This bread is delicious, I'm telling you."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "brilla",
+      "objeto": "pan"
+     },
+     {
+      "tipo": "manpu",
+      "objeto": "kage",
+      "manpu": "sudor"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "ne"
+       ]
+      },
+      "efecto": {
+       "tipo": "manpu",
+       "objeto": "kage",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Con ね buscas que te dé la razón… pero Kage ni lo ha probado. Para contarle algo nuevo: よ.",
+       "en": "With ね you want him to agree… but Kage hasn't tried it. To tell him something new: よ."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "nemui"
+       ]
+      },
+      "efecto": [
+       {
+        "tipo": "duerme",
+        "objeto": "pan"
+       },
+       {
+        "tipo": "nyan",
+        "cara": "sorpresa"
+       }
+      ],
+      "msg": {
+       "es": "眠い es «tener sueño»… ¡y el pan se ha dormido! Para «rico», おいしい.",
+       "en": "眠い means «sleepy»… and the bread fell asleep! For «tasty», おいしい."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "reto": {
+  "intro": {
+   "jp": "ふん。 その パンは 俺[おれ]の ものだ。 勝負[しょうぶ]だ！",
+   "tr": {
+    "es": "Hmpf. Ese pan es mío. ¡Duelo!",
+    "en": "Hmph. That bread is mine. Duel!"
+   },
+   "voz": "k0"
+  },
+  "gana": {
+   "jp": "…くっ。 パンは お前[まえ]に やる。",
+   "tr": {
+    "es": "…Tsk. Quédate el pan.",
+    "en": "…Tch. Keep the bread."
+   },
+   "voz": "kw"
+  },
+  "pierde": {
+   "jp": "ふん。 パンは 俺[おれ]の ものだ。",
+   "tr": {
+    "es": "Hmpf. El pan es mío.",
+    "en": "Hmph. The bread is mine."
+   },
+   "voz": "kl"
+  },
+  "pica": {
+   "jp": "…やるな。",
+   "tr": {
+    "es": "…No está mal.",
+    "en": "…Not bad."
+   },
+   "voz": "kp"
+  },
+  "burla": {
+   "jp": "ふん！",
+   "tr": {
+    "es": "¡Ja!",
+    "en": "Hah!"
+   },
+   "voz": "kb"
+  },
+  "preguntas": [
+   {
+    "tipo": "elige",
+    "jp": "この 学校[がっこう]は 大[おお]きい＿。",
+    "opciones": [
+     "です",
+     "な",
+     "が"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Esta escuela es grande.",
+     "en": "This school is big."
+    },
+    "porque": {
+     "es": "Los adjetivos い se unen directamente a です: nada en medio, porque el adjetivo ya describe por sí solo.",
+     "en": "い-adjectives join です directly: nothing in between, because the adjective already describes on its own."
+    },
+    "voz": "q1"
+   },
+   {
+    "tipo": "elige",
+    "jp": "おにぎり＿ 好[す]きです。",
+    "opciones": [
+     "が",
+     "を",
+     "に"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Me gustan los onigiri.",
+     "en": "I like onigiri."
+    },
+    "porque": {
+     "es": "Con 好き, lo que te gusta se marca con が: literalmente, «los onigiri son de mi gusto».",
+     "en": "With 好き, what you like is marked with が: literally, «onigiri are to my liking»."
+    },
+    "voz": "q2"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "この 本[ほん]は 新[あたら]しいです。",
+    "correcta": true,
+    "tr": {
+     "es": "Este libro es nuevo.",
+     "en": "This book is new."
+    },
+    "porque": {
+     "es": "Perfecto: el adjetivo entero (新しい) y です detrás para sonar educado.",
+     "en": "Perfect: the whole adjective (新しい) and です after it to sound polite."
+    },
+    "voz": "q3"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "カゲは パンを 好[す]きです。",
+    "correcta": false,
+    "tr": {
+     "es": "(A Kage le gusta el pan.)",
+     "en": "(Kage likes bread.)"
+    },
+    "porque": {
+     "es": "好き no es un verbo de acción, así que no lleva を: lo que te gusta va con が, パンが好きです.",
+     "en": "好き isn't an action verb, so no を: what you like takes が, パンが好きです."
+    },
+    "voz": "q4"
+   },
+   {
+    "tipo": "oye",
+    "jp": "おいしいですね。",
+    "habla": "tendero",
+    "opciones": [
+     {
+      "es": "Está bueno, ¿verdad?",
+      "en": "It's good, isn't it?"
+     },
+     {
+      "es": "¡Está buenísimo, te lo digo yo!",
+      "en": "It's delicious, I'm telling you!"
+     },
+     {
+      "es": "No está bueno.",
+      "en": "It's not good."
+     }
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "ね al final busca complicidad: «¿a que sí?». Si fuera よ, te estaría informando.",
+     "en": "ね at the end seeks agreement: «isn't it?». With よ he'd be informing you."
+    },
+    "voz": "q5"
+   },
+   {
+    "tipo": "imagen",
+    "jp": "パンです。 大[おお]きいですよ。",
+    "opciones": [
+     "pan",
+     "onigiri",
+     "vaso"
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "パン es pan (viene del portugués «pão»), y este es enorme.",
+     "en": "パン is bread (from Portuguese «pão»), and this one's huge."
+    },
+    "pide": {
+     "es": "¿Cuál es?",
+     "en": "Which one is it?"
+    }
+   }
+  ]
+ },
+ "siguiente": {
+  "es": "Mañana, primer día en la escuela de Fukuro-sensei: ¿dónde, con quién y hasta cuándo?",
+  "en": "Tomorrow, first day at Fukuro-sensei's school: where, with whom and until when?"
+ },
+ "chuleta": {
+  "patron": {
+   "es": "〔algo〕は〔adjetivo〕です ・ 〔algo〕が 好[す]きです",
+   "en": "〔thing〕は〔adjective〕です ・ 〔thing〕が 好[す]きです"
+  },
+  "patron_tr": {
+   "es": "〔algo〕 es 〔adjetivo〕 ・ me gusta 〔algo〕",
+   "en": "〔thing〕 is 〔adjective〕 ・ I like 〔thing〕"
+  },
+  "filas": [
+   {
+    "jp": "この パンは 大[おお]きいですね。",
+    "es": "Este pan es grande, ¿verdad?",
+    "en": "This bread is big, isn't it?",
+    "registro": "educado"
+   },
+   {
+    "jp": "おにぎりが 好[す]きです。",
+    "es": "Me gustan los onigiri.",
+    "en": "I like onigiri."
+   },
+   {
+    "jp": "おいしいですよ。",
+    "es": "Está buenísimo, te lo digo yo.",
+    "en": "It's delicious, I'm telling you."
+   },
+   {
+    "jp": "おいしいね！",
+    "es": "¡Qué rico, eh! (a un amigo)",
+    "en": "Tasty, huh! (to a friend)",
+    "registro": "amigos"
+   }
+  ],
+  "consejo": {
+   "es": "Con amigos, el adjetivo solo, sin です: おいしいね！ 大きいよ！ Con Pon, que es el tendero, con です.",
+   "en": "With friends, the adjective alone, no です: おいしいね！ 大きいよ！ With Pon, the shopkeeper, use です."
+  }
+ }
+}

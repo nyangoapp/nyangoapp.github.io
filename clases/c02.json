@@ -1,0 +1,940 @@
+{
+ "id": "c02",
+ "clase": 2,
+ "desde": 9,
+ "titulo": {
+  "es": "¿De quién es el libro?: の, も y じゃない",
+  "en": "Whose book is it?: の, も and じゃない"
+ },
+ "resumen": {
+  "es": "の une dos cosas (el gato de Nyan); も dice «también»; じゃない niega です. Con esto ya presentas, comparas y dices que no.",
+  "en": "の links two things (Nyan's cat); も means «also»; じゃない negates です. Now you can introduce, compare, and say no."
+ },
+ "formato": 2,
+ "lugar": "parque",
+ "mision": {
+  "texto": {
+   "es": "Tama te presenta a sus amigos en el parque. Pero aparece Kage y dice que tu libro es suyo. ¡Demuestra de quién es cada cosa!",
+   "en": "Tama introduces you to her friends in the park. But Kage shows up and says your book is his. Prove whose things are whose!"
+  },
+  "escena": {
+   "fondo": "parque",
+   "cosas": [
+    {
+     "que": "nyan",
+     "x": 90
+    },
+    {
+     "que": "gato",
+     "id": "tama",
+     "x": 200
+    },
+    {
+     "que": "perro",
+     "id": "kotaro",
+     "x": 315
+    }
+   ]
+  },
+  "cara": "feliz",
+  "jp": "こんにちは！",
+  "voz": "m0"
+ },
+ "reglas": [
+  {
+   "id": "no",
+   "nombre": {
+    "es": "の: «de» (de quién es)",
+    "en": "の: «'s» (whose)"
+   },
+   "patron": {
+    "es": "〔dueño〕の〔cosa〕",
+    "en": "〔owner〕の〔thing〕"
+   },
+   "explica": {
+    "es": "の une dos palabras: la primera es el dueño y la segunda, la cosa. Es el «de» del español, pero al revés: ニャンの本 es «el libro de Nyan» (literalmente, «de-Nyan libro»). Sirve también para relaciones: タマの友達, «amigo de Tama»; タマの先生, «la profesora de Tama».",
+    "en": "の joins two words: the first is the owner and the second, the thing. It works like English 's: ニャンの本 is «Nyan's book». It also works for relationships: タマの友達, «Tama's friend»; タマの先生, «Tama's teacher»."
+   },
+   "ejemplos": [
+    {
+     "jp": "ニャンの 本[ほん]です。",
+     "es": "Es el libro de Nyan.",
+     "en": "It's Nyan's book.",
+     "voz": "r1-1"
+    },
+    {
+     "jp": "タマの 友達[ともだち]です。",
+     "es": "Es amigo de Tama.",
+     "en": "He's Tama's friend.",
+     "voz": "r1-2"
+    }
+   ],
+   "ojo": {
+    "es": "El orden es el contrario que en español: primero el dueño. 本のニャン sería «el Nyan del libro».",
+    "en": "The owner always comes first. 本のニャン would be «the book's Nyan»."
+   }
+  },
+  {
+   "id": "mo",
+   "nombre": {
+    "es": "も: «también»",
+    "en": "も: «too / also»"
+   },
+   "patron": {
+    "es": "〔quién〕も〔lo mismo〕です",
+    "en": "〔who〕も〔the same〕です"
+   },
+   "explica": {
+    "es": "Cuando algo es igual que lo que acaba de decir otro, cambias は por も: «yo TAMBIÉN». Kotarō dice コタローは タマの友達です y Nyan contesta わたしも タマの友達です. も ocupa el sitio de は: nunca van los dos juntos.",
+    "en": "When something is the same as what someone just said, swap は for も: «me TOO». Kotarō says コタローは タマの友達です and Nyan replies わたしも タマの友達です. も takes the place of は: never both together."
+   },
+   "ejemplos": [
+    {
+     "jp": "わたしも 友達[ともだち]です。",
+     "es": "Yo también soy amigo.",
+     "en": "I'm a friend too.",
+     "voz": "r2-1"
+    },
+    {
+     "jp": "それも 本[ほん]です。",
+     "es": "Eso también es un libro.",
+     "en": "That's a book too.",
+     "voz": "r2-2"
+    }
+   ],
+   "ojo": {
+    "es": "No se dice は も: も ya hace el trabajo de は (marca el tema) y además añade «también».",
+    "en": "You never say は も: も already does は's job (marking the topic) and adds «too»."
+   }
+  },
+  {
+   "id": "janai",
+   "nombre": {
+    "es": "じゃないです: «no es»",
+    "en": "じゃないです: «isn't»"
+   },
+   "patron": {
+    "es": "〔algo〕じゃないです",
+    "en": "〔thing〕じゃないです"
+   },
+   "explica": {
+    "es": "Para decir que algo NO es, です se convierte en じゃないです: 本です (es un libro) → 本じゃないです (no es un libro). En japonés el «no» va al final, pegado al verbo, así que hasta la última palabra no sabes si es sí o no: ¡escucha hasta el final!",
+    "en": "To say something is NOT, です becomes じゃないです: 本です (it's a book) → 本じゃないです (it's not a book). In Japanese the «not» goes at the end, attached to the verb, so you don't know if it's yes or no until the last word: listen to the end!"
+   },
+   "ejemplos": [
+    {
+     "jp": "カゲの 本[ほん]じゃないです。",
+     "es": "No es el libro de Kage.",
+     "en": "It's not Kage's book.",
+     "voz": "r3-1"
+    },
+    {
+     "jp": "猫[ねこ]じゃないです。",
+     "es": "No es un gato.",
+     "en": "It's not a cat.",
+     "voz": "r3-2"
+    }
+   ],
+   "ojo": {
+    "es": "En textos o con mucho respeto oirás ではありません: significa lo mismo, pero más formal.",
+    "en": "In writing or very polite speech you'll hear ではありません: same meaning, more formal."
+   }
+  }
+ ],
+ "historia": [
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "ニャン、 わたしの 友達[ともだち]です。",
+   "tr": {
+    "es": "Nyan, este es mi amigo.",
+    "en": "Nyan, this is my friend."
+   },
+   "voz": "h1",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "parque",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 90
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 200
+     },
+     {
+      "que": "perro",
+      "id": "kotaro",
+      "x": 315
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "no"
+  },
+  {
+   "t": "dice",
+   "habla": "kotaro",
+   "jp": "コタローです。 タマの 友達[ともだち]です。",
+   "tr": {
+    "es": "Soy Kotarō. Soy amigo de Tama.",
+    "en": "I'm Kotarō. I'm Tama's friend."
+   },
+   "voz": "h2",
+   "cara": "feliz",
+   "plano": "medio"
+  },
+  {
+   "t": "regla",
+   "regla": "mo"
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "Nyan también es amigo de Tama. ¿Qué dice?",
+    "en": "Nyan is Tama's friend too. What does he say?"
+   },
+   "opciones": [
+    {
+     "jp": "わたしも タマの 友達[ともだち]です。",
+     "bien": true,
+     "tr": {
+      "es": "Yo también soy amigo de Tama.",
+      "en": "I'm Tama's friend too."
+     },
+     "voz": "h3",
+     "porque": {
+      "es": "も en el sitio de は: «yo TAMBIÉN…».",
+      "en": "も in place of は: «me TOO…»."
+     }
+    },
+    {
+     "jp": "わたしは タマの 友達[ともだち]です。",
+     "bien": false,
+     "porque": {
+      "es": "No está mal, pero suena como si nadie lo hubiera dicho antes. Kotarō acaba de decirlo: para sumarte, «yo TAMBIÉN», se cambia は por も.",
+      "en": "Not wrong, but it sounds like nobody said it before. Kotarō just did: to join in, «me TOO», swap は for も."
+     }
+    },
+    {
+     "jp": "わたしも 友達[ともだち]の タマです。",
+     "bien": false,
+     "porque": {
+      "es": "Así dices «yo también soy la Tama de los amigos». Con の, primero va el dueño y después lo suyo: タマの友達, «amigo de Tama».",
+      "en": "That says «I'm also the friends' Tama». With の, the owner goes first and then what's theirs: タマの友達, «Tama's friend»."
+     }
+    }
+   ],
+   "cara": "feliz"
+  },
+  {
+   "t": "dice",
+   "habla": "kage",
+   "jp": "ふん。 それは 俺[おれ]の 本[ほん]だ。",
+   "tr": {
+    "es": "Hmpf. Ese libro es mío.",
+    "en": "Hmph. That book is mine."
+   },
+   "voz": "h4",
+   "reacciona": {
+    "nyan": "sorpresa"
+   },
+   "escena": {
+    "fondo": "parque",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110
+     },
+     {
+      "que": "libro",
+      "x": 205,
+      "id": "libro",
+      "s": 1.5
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 305
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "janai"
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "¡Es mentira! Díselo: «No es el libro de Kage».",
+    "en": "That's a lie! Tell him: «It's not Kage's book»."
+   },
+   "opciones": [
+    {
+     "jp": "カゲの 本[ほん]じゃないです。",
+     "bien": true,
+     "tr": {
+      "es": "No es el libro de Kage.",
+      "en": "It's not Kage's book."
+     },
+     "voz": "h5",
+     "porque": {
+      "es": "じゃないです niega です: «no es».",
+      "en": "じゃないです negates です: «isn't»."
+     }
+    },
+    {
+     "jp": "カゲの 本[ほん]です。",
+     "bien": false,
+     "porque": {
+      "es": "¡Así le das la razón a Kage! Para decir que NO es suyo hay que negar el final de la frase: じゃないです.",
+      "en": "That agrees with Kage! To say it's NOT his, negate the end of the sentence: じゃないです."
+     }
+    },
+    {
+     "jp": "カゲじゃないの 本[ほん]です。",
+     "bien": false,
+     "porque": {
+      "es": "じゃない no se pega al nombre: en japonés el «no» va al final, en el lugar de です. カゲの本じゃないです.",
+      "en": "じゃない doesn't attach to the name: in Japanese the «not» goes at the end, where です was. カゲの本じゃないです."
+     }
+    }
+   ],
+   "cara": "enfado"
+  },
+  {
+   "t": "monta",
+   "encargo": 0
+  },
+  {
+   "t": "dice",
+   "habla": "kage",
+   "jp": "…ふん。 じゃあ、 それは？",
+   "tr": {
+    "es": "…Hmpf. ¿Y ese de ahí?",
+    "en": "…Hmph. And that one?"
+   },
+   "voz": "h6",
+   "cara": "aburrido",
+   "escena": {
+    "fondo": "parque",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 95
+     },
+     {
+      "que": "libro",
+      "x": 170,
+      "id": "libro",
+      "s": 1.4
+     },
+     {
+      "que": "libro",
+      "x": 240,
+      "id": "libro2",
+      "s": 1.4
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 320
+     }
+    ]
+   }
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "Ese libro NO es de Nyan. Sé sincero:",
+    "en": "That book is NOT Nyan's. Be honest:"
+   },
+   "opciones": [
+    {
+     "jp": "わたしの 本[ほん]じゃないです。",
+     "bien": true,
+     "tr": {
+      "es": "No es mi libro.",
+      "en": "It's not my book."
+     },
+     "voz": "h7",
+     "porque": {
+      "es": "Sincero y bien dicho: わたしの本じゃないです.",
+      "en": "Honest and well said: わたしの本じゃないです."
+     }
+    },
+    {
+     "jp": "わたしの 本[ほん]です。",
+     "bien": false,
+     "porque": {
+      "es": "¡Eso sería mentir! Ese libro no es tuyo, así que toca negarlo: わたしの本じゃないです.",
+      "en": "That'd be lying! That book isn't yours, so deny it: わたしの本じゃないです."
+     }
+    },
+    {
+     "jp": "わたしも 本[ほん]です。",
+     "bien": false,
+     "porque": {
+      "es": "Has dicho «yo también soy un libro»: も se ha pegado a ti, no al libro. Aquí toca negar: じゃないです.",
+      "en": "You said «I'm a book too»: も stuck to you, not the book. Here you need to deny it: じゃないです."
+     }
+    }
+   ],
+   "cara": "normal"
+  },
+  {
+   "t": "dice",
+   "habla": "kage",
+   "jp": "じゃあ、 誰[だれ]の 本[ほん]だ。",
+   "tr": {
+    "es": "Entonces, ¿de quién es?",
+    "en": "Then whose book is it?"
+   },
+   "voz": "h8",
+   "cara": "decidido"
+  },
+  {
+   "t": "monta",
+   "encargo": 1
+  }
+ ],
+ "epilogo": [
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "わたしの 本[ほん]です！",
+   "tr": {
+    "es": "¡Es mi libro!",
+    "en": "It's my book!"
+   },
+   "voz": "x1",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "parque",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 100,
+      "brazo": "arriba"
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 210
+     },
+     {
+      "que": "perro",
+      "id": "kotaro",
+      "x": 320
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "ニャンも わたしの 友達[ともだち]です！",
+   "tr": {
+    "es": "¡Nyan también es mi amigo!",
+    "en": "Nyan is my friend too!"
+   },
+   "voz": "x2",
+   "cara": "feliz"
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta la frase: la escena hará lo que digas.",
+   "en": "Build the sentence: the scene will do what you say."
+  },
+  "piezas": [
+   {
+    "id": "nyan",
+    "jp": "ニャン",
+    "tipo": "palabra"
+   },
+   {
+    "id": "kage",
+    "jp": "カゲ",
+    "tipo": "palabra"
+   },
+   {
+    "id": "kotaro",
+    "jp": "コタロー",
+    "tipo": "palabra"
+   },
+   {
+    "id": "no",
+    "jp": "の",
+    "tipo": "particula"
+   },
+   {
+    "id": "hon",
+    "jp": "本[ほん]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "desu",
+    "jp": "です",
+    "tipo": "verbo"
+   },
+   {
+    "id": "janai",
+    "jp": "じゃないです",
+    "tipo": "verbo"
+   },
+   {
+    "id": "mo",
+    "jp": "も",
+    "tipo": "particula"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Dile de quién es de verdad: «Es el libro de Nyan».",
+     "en": "Tell him whose it really is: «It's Nyan's book»."
+    },
+    "escena": {
+     "fondo": "parque",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110
+      },
+      {
+       "que": "libro",
+       "x": 205,
+       "id": "libro",
+       "s": 1.5
+      },
+      {
+       "que": "kage",
+       "id": "kage",
+       "x": 305
+      }
+     ]
+    },
+    "piezas": [
+     "nyan",
+     "kage",
+     "no",
+     "hon",
+     "desu",
+     "janai",
+     "mo"
+    ],
+    "bien": [
+     [
+      "nyan",
+      "no",
+      "hon",
+      "desu"
+     ]
+    ],
+    "tr": {
+     "es": "Es el libro de Nyan.",
+     "en": "It's Nyan's book."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "brilla",
+      "objeto": "libro"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     },
+     {
+      "tipo": "manpu",
+      "objeto": "kage",
+      "manpu": "sudor"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "kage"
+       ]
+      },
+      "efecto": [
+       {
+        "tipo": "mueve",
+        "objeto": "libro",
+        "x": 270
+       },
+       {
+        "tipo": "manpu",
+        "objeto": "kage",
+        "manpu": "brillo"
+       },
+       {
+        "tipo": "nyan",
+        "cara": "sorpresa"
+       }
+      ],
+      "msg": {
+       "es": "¡Has dicho que es el libro de Kage… y se lo ha llevado! Di que es de Nyan: ニャンの本.",
+       "en": "You said it's Kage's book… and he took it! Say it's Nyan's: ニャンの本."
+      }
+     },
+     {
+      "si": {
+       "en": [
+        0,
+        "hon"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "本の… sería «el … del libro»: el que va delante de の es el dueño. Para «el libro de Nyan», Nyan va primero: ニャンの本.",
+       "en": "本の… would be «the book's …»: whatever goes before の is the owner. For «Nyan's book», Nyan goes first: ニャンの本."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "janai"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "sorpresa"
+      },
+      "msg": {
+       "es": "Con じゃない niegas: estarías diciendo que NO es el libro de Nyan, justo lo contrario de lo que quieres demostrar.",
+       "en": "With じゃない you deny it: you'd be saying it's NOT Nyan's book, the exact opposite of what you want to prove."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Es de Kotarō. Contesta: «Es el libro de Kotarō».",
+     "en": "It's Kotarō's. Answer: «It's Kotarō's book»."
+    },
+    "escena": {
+     "fondo": "parque",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 95
+      },
+      {
+       "que": "libro",
+       "x": 170,
+       "id": "libro",
+       "s": 1.4
+      },
+      {
+       "que": "libro",
+       "x": 240,
+       "id": "libro2",
+       "s": 1.4
+      },
+      {
+       "que": "kage",
+       "id": "kage",
+       "x": 320
+      }
+     ]
+    },
+    "piezas": [
+     "kotaro",
+     "kage",
+     "no",
+     "hon",
+     "desu",
+     "janai",
+     "mo"
+    ],
+    "bien": [
+     [
+      "kotaro",
+      "no",
+      "hon",
+      "desu"
+     ]
+    ],
+    "tr": {
+     "es": "Es el libro de Kotarō.",
+     "en": "It's Kotarō's book."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "salta",
+      "objeto": "libro2"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "kage"
+       ]
+      },
+      "efecto": [
+       {
+        "tipo": "mueve",
+        "objeto": "libro2",
+        "x": 290
+       },
+       {
+        "tipo": "manpu",
+        "objeto": "kage",
+        "manpu": "brillo"
+       }
+      ],
+      "msg": {
+       "es": "¡Has dicho que es de Kage y se lo ha quedado! El dueño es el que va delante de の: コタローの本.",
+       "en": "You said it's Kage's and he kept it! The owner is whoever goes before の: コタローの本."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "janai"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "Te pregunta de quién ES, así que la respuesta es afirmativa: sin じゃない.",
+       "en": "He's asking whose it IS, so the answer is affirmative: no じゃない."
+      }
+     },
+     {
+      "si": {
+       "en": [
+        0,
+        "hon"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "Primero el dueño y luego lo que tiene, unidos por の: コタローの本.",
+       "en": "Owner first, then what they own, joined by の: コタローの本."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "reto": {
+  "intro": {
+   "jp": "ふん。 本[ほん]の ことは もう いい。 問題[もんだい]だ！",
+   "tr": {
+    "es": "Hmpf. Olvida el libro. ¡Examen!",
+    "en": "Hmph. Forget the book. Test time!"
+   },
+   "voz": "k0"
+  },
+  "gana": {
+   "jp": "…くっ。 お前[まえ]の 勝[か]ちだ。",
+   "tr": {
+    "es": "…Tsk. Ganas tú.",
+    "en": "…Tch. You win."
+   },
+   "voz": "kw"
+  },
+  "pierde": {
+   "jp": "ふん。 俺[おれ]の 勝[か]ちだな。",
+   "tr": {
+    "es": "Hmpf. Gano yo.",
+    "en": "Hmph. I win."
+   },
+   "voz": "kl"
+  },
+  "pica": {
+   "jp": "…やるな。",
+   "tr": {
+    "es": "…No está mal.",
+    "en": "…Not bad."
+   },
+   "voz": "kp"
+  },
+  "burla": {
+   "jp": "ふん！",
+   "tr": {
+    "es": "¡Ja!",
+    "en": "Hah!"
+   },
+   "voz": "kb"
+  },
+  "preguntas": [
+   {
+    "tipo": "elige",
+    "jp": "ニャン＿ 本[ほん]です。",
+    "opciones": [
+     "の",
+     "は",
+     "も"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Es el libro de Nyan.",
+     "en": "It's Nyan's book."
+    },
+    "porque": {
+     "es": "の une al dueño con lo suyo; el dueño siempre va delante: ニャンの本, «el libro de Nyan».",
+     "en": "の joins the owner with what's theirs; the owner always goes first: ニャンの本, «Nyan's book»."
+    },
+    "voz": "q1"
+   },
+   {
+    "tipo": "elige",
+    "jp": "わたし＿ 友達[ともだち]です。",
+    "opciones": [
+     "も",
+     "の",
+     "か"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Yo también soy amigo.",
+     "en": "I'm a friend too."
+    },
+    "porque": {
+     "es": "も significa «también» y ocupa el sitio de は: わたしも… = «yo también…».",
+     "en": "も means «too» and takes は's place: わたしも… = «me too…»."
+    },
+    "voz": "q2"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "これは カゲの 本[ほん]じゃないです。",
+    "correcta": true,
+    "tr": {
+     "es": "Este no es el libro de Kage.",
+     "en": "This isn't Kage's book."
+    },
+    "porque": {
+     "es": "Bien: じゃないです es la forma negativa de です, así que la frase dice «NO es».",
+     "en": "Right: じゃないです is the negative of です, so the sentence says «is NOT»."
+    },
+    "voz": "q3"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "本[ほん]の タマです。",
+    "correcta": false,
+    "tr": {
+     "es": "(Es el libro de Tama.)",
+     "en": "(It's Tama's book.)"
+    },
+    "porque": {
+     "es": "Al revés: 本のタマ sería «la Tama del libro». El dueño va delante de の: タマの本です.",
+     "en": "Backwards: 本のタマ would be «the book's Tama». The owner goes before の: タマの本です."
+    },
+    "voz": "q4"
+   },
+   {
+    "tipo": "oye",
+    "jp": "コタローの 本[ほん]じゃないです。",
+    "habla": "kotaro",
+    "opciones": [
+     {
+      "es": "No es el libro de Kotarō.",
+      "en": "It's not Kotarō's book."
+     },
+     {
+      "es": "Es el libro de Kotarō.",
+      "en": "It's Kotarō's book."
+     },
+     {
+      "es": "Kotarō no es un libro.",
+      "en": "Kotarō isn't a book."
+     }
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "El «no» japonés va al final: la frase suena igual hasta じゃないです, que la vuelve negativa.",
+     "en": "The Japanese «not» comes last: the sentence sounds the same until じゃないです turns it negative."
+    },
+    "voz": "q5"
+   },
+   {
+    "tipo": "imagen",
+    "jp": "ニャンの おにぎりです。",
+    "opciones": [
+     "libro",
+     "onigiri",
+     "bolsa"
+    ],
+    "bien": 1,
+    "porque": {
+     "es": "おにぎり es la bola de arroz, y ニャンの dice de quién es: de Nyan.",
+     "en": "おにぎり is the rice ball, and ニャンの says whose it is: Nyan's."
+    },
+    "pide": {
+     "es": "¿Cuál es?",
+     "en": "Which one is it?"
+    }
+   }
+  ]
+ },
+ "siguiente": {
+  "es": "Mañana, picnic en casa de Tama con Fukuro-sensei: para comer, Nyan tendrá que hablar educado… con los verbos.",
+  "en": "Tomorrow, a picnic at Tama's with Fukuro-sensei: to eat, Nyan will have to speak politely… with verbs."
+ },
+ "chuleta": {
+  "patron": {
+   "es": "〔dueño〕の〔cosa〕 ・ 〔…〕も ・ 〔…〕じゃないです",
+   "en": "〔owner〕の〔thing〕 ・ 〔…〕も ・ 〔…〕じゃないです"
+  },
+  "patron_tr": {
+   "es": "la cosa de… ・ también ・ no es…",
+   "en": "…'s thing ・ also ・ isn't…"
+  },
+  "filas": [
+   {
+    "jp": "ニャンの 本[ほん]です。",
+    "es": "Es el libro de Nyan.",
+    "en": "It's Nyan's book.",
+    "registro": "educado"
+   },
+   {
+    "jp": "わたしも 友達[ともだち]です。",
+    "es": "Yo también soy amigo.",
+    "en": "I'm a friend too."
+   },
+   {
+    "jp": "カゲの 本[ほん]じゃないです。",
+    "es": "No es el libro de Kage.",
+    "en": "It's not Kage's book."
+   },
+   {
+    "jp": "俺[おれ]の 本[ほん]だ。",
+    "es": "Es mi libro. (brusco, como Kage)",
+    "en": "It's my book. (rough, like Kage)",
+    "registro": "amigos"
+   }
+  ],
+  "consejo": {
+   "es": "Kage habla brusco: 俺 (yo, de chulito) y だ en vez de です. Nyan y Tama, con わたし y です, suenan amables. No imites a Kage con quien no conoces.",
+   "en": "Kage talks rough: 俺 (a cocky «I») and だ instead of です. Nyan and Tama, with わたし and です, sound kind. Don't copy Kage with people you don't know."
+  }
+ }
+}

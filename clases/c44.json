@@ -1,0 +1,817 @@
+{
+ "id": "c44",
+ "clase": 37,
+ "desde": 630,
+ "titulo": {
+  "es": "Trineos en la nieve: ほど y 〜ば〜ほど",
+  "en": "Sledding in the snow: ほど and 〜ば〜ほど"
+ },
+ "resumen": {
+  "es": "ほど mide hasta qué punto. 〜ば〜ほど: cuanto más pasa una cosa, más pasa la otra. Nほど〜ない: ni de lejos tanto como N.",
+  "en": "ほど measures how far something goes. 〜ば〜ほど: the more one thing happens, the more the other does. Nほど〜ない: nowhere near as much as N."
+ },
+ "formato": 2,
+ "lugar": "ladera",
+ "mision": {
+  "texto": {
+   "es": "¡Ha nevado en el barrio! Día de trineos en la ladera: cuanto más alta la cuesta, más rápido se baja… y más miedo da. Mide hasta qué punto, compara por lo bajo y di «cuanto más…, más…».",
+   "en": "It's snowed in town! Sledding day on the slope: the higher the slope, the faster you go… and the scarier it gets. Measure how far, compare downwards and say «the more…, the more…»."
+  },
+  "escena": {
+   "fondo": "ladera",
+   "cosas": [
+    {
+     "que": "nyan",
+     "x": 80
+    },
+    {
+     "que": "sori",
+     "x": 200,
+     "id": "sori",
+     "s": 1.1
+    },
+    {
+     "que": "gato",
+     "id": "tama",
+     "x": 320
+    }
+   ]
+  },
+  "cara": "feliz",
+  "jp": "そりだ！",
+  "voz": "m0"
+ },
+ "reglas": [
+  {
+   "id": "bahodo",
+   "nombre": {
+    "es": "〜ば〜ほど: cuanto más…, más…",
+    "en": "〜ば〜ほど: the more…, the more…"
+   },
+   "patron": {
+    "es": "〔forma ば〕〔la misma, normal〕ほど",
+    "en": "〔ば form〕〔the same, plain〕ほど"
+   },
+   "explica": {
+    "es": "Para «cuanto más…, más…», repite la palabra: primero en forma ば y luego en forma normal con ほど: 高ければ高いほど速い, «cuanto más alto, más rápido»; 遊べば遊ぶほど楽しい, «cuanto más juegas, más divertido». Lo de detrás crece al mismo ritmo que lo de delante. Con adjetivos en な: 静かなら静かなほど.",
+    "en": "For «the more…, the more…», repeat the word: first in ば form, then plain with ほど: 高ければ高いほど速い, «the higher, the faster»; 遊べば遊ぶほど楽しい, «the more you play, the more fun». The second part grows at the same rate as the first. With な adjectives: 静かなら静かなほど."
+   },
+   "ejemplos": [
+    {
+     "jp": "坂[さか]が 高[たか]ければ 高[たか]いほど、 速[はや]い。",
+     "es": "Cuanto más alta la cuesta, más rápido.",
+     "en": "The higher the slope, the faster.",
+     "voz": "r1-1"
+    },
+    {
+     "jp": "遊[あそ]べば 遊[あそ]ぶほど、 楽[たの]しく なります。",
+     "es": "Cuanto más jugamos, más divertido.",
+     "en": "The more we play, the more fun it gets.",
+     "voz": "r1-2"
+    }
+   ],
+   "ojo": {
+    "es": "La primera parte se puede quitar: 高いほど速い significa lo mismo, un poco más corto.",
+    "en": "The first part can be dropped: 高いほど速い means the same, a bit shorter."
+   }
+  },
+  {
+   "id": "hodo",
+   "nombre": {
+    "es": "ほど: hasta el punto de… / no tan… como",
+    "en": "ほど: to the point of… / not as… as"
+   },
+   "patron": {
+    "es": "〔algo〕ほど 〔adj.〕 ・ Nほど 〜ない",
+    "en": "〔something〕ほど 〔adj.〕 ・ Nほど 〜ない"
+   },
+   "explica": {
+    "es": "ほど mide hasta dónde llega algo: 泣きたいほど怖かった, «daba tanto miedo que quería llorar». Y con un negativo detrás compara por lo bajo: カゲほど速くない, «no es tan rápido como Kage». Es la forma natural de decir «no tan… como»; con より y negativo sonaría forzado.",
+    "en": "ほど measures how far something goes: 泣きたいほど怖かった, «it was so scary I wanted to cry». And with a negative after it, it compares downwards: カゲほど速くない, «not as fast as Kage». It's the natural way to say «not as… as»; より with a negative would sound forced."
+   },
+   "ejemplos": [
+    {
+     "jp": "泣[な]きたい ほど 怖[こわ]かった！",
+     "es": "¡Daba tanto miedo que quería llorar!",
+     "en": "It was so scary I wanted to cry!",
+     "voz": "r2-1"
+    },
+    {
+     "jp": "コタローは カゲほど 速[はや]くない。",
+     "es": "Kotarō no es tan rápido como Kage.",
+     "en": "Kotarō isn't as fast as Kage.",
+     "voz": "r2-2"
+    }
+   ],
+   "ojo": {
+    "es": "ほど también sale en cantidades aproximadas: 十分ほど, «unos diez minutos». Es la misma idea: «hasta más o menos ahí».",
+    "en": "ほど also appears in rough amounts: 十分ほど, «about ten minutes». Same idea: «up to roughly there»."
+   }
+  }
+ ],
+ "historia": [
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "そりで 遊[あそ]びましょう！",
+   "tr": {
+    "es": "¡Vamos a tirarnos en trineo!",
+    "en": "Let's go sledding!"
+   },
+   "voz": "h1",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "ladera",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "sori",
+      "x": 200,
+      "id": "sori",
+      "s": 1.1
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 320
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "kage",
+   "jp": "坂[さか]が 高[たか]ければ 高[たか]いほど、 速[はや]い。",
+   "tr": {
+    "es": "Cuanto más alta la cuesta, más rápido.",
+    "en": "The higher the slope, the faster."
+   },
+   "voz": "h2",
+   "cara": "presumido",
+   "escena": {
+    "fondo": "ladera",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "sori",
+      "x": 200,
+      "id": "sori",
+      "s": 1.1
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 320
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "bahodo"
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "Nyan tiembla. ¿Qué dice?",
+    "en": "Nyan's shaking. What does he say?"
+   },
+   "opciones": [
+    {
+     "jp": "高[たか]ければ 高[たか]いほど、 こわいです…。",
+     "bien": true,
+     "tr": {
+      "es": "Cuanto más alta, más miedo…",
+      "en": "The higher it is, the scarier…"
+     },
+     "voz": "h3",
+     "porque": {
+      "es": "ば + la misma palabra + ほど: «cuanto más…, más…».",
+      "en": "ば + the same word + ほど: «the more…, the more…»."
+     }
+    },
+    {
+     "jp": "高[たか]いほど 高[たか]ければ、 こわいです…。",
+     "bien": false,
+     "porque": {
+      "es": "El orden es fijo: primero la forma ば y luego la normal con ほど: 高ければ高いほど.",
+      "en": "The order is fixed: ば form first, then the plain form with ほど: 高ければ高いほど."
+     }
+    },
+    {
+     "jp": "高[たか]ければ 高[たか]くほど、 こわいです…。",
+     "bien": false,
+     "porque": {
+      "es": "Delante de ほど va la forma normal del adjetivo (高い), no la く.",
+      "en": "The plain form of the adjective (高い) goes before ほど, not the く form."
+     }
+    }
+   ],
+   "cara": "sorpresa",
+   "escena": {
+    "fondo": "ladera",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "sori",
+      "x": 200,
+      "id": "sori",
+      "s": 1.1
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 320
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "泣[な]きたい ほど 怖[こわ]かった！",
+   "tr": {
+    "es": "¡Daba tanto miedo que quería llorar!",
+    "en": "It was so scary I wanted to cry!"
+   },
+   "voz": "h4",
+   "cara": "triste",
+   "reacciona": {
+    "tama": "feliz"
+   },
+   "escena": {
+    "fondo": "ladera",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 90
+     },
+     {
+      "que": "sori",
+      "x": 250,
+      "id": "sori",
+      "s": 1.1
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 330
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "hodo"
+  },
+  {
+   "t": "monta",
+   "encargo": 0
+  },
+  {
+   "t": "dice",
+   "habla": "kotaro",
+   "jp": "もう 一回[いっかい]！ もう 一回[いっかい]！",
+   "tr": {
+    "es": "¡Otra vez, otra vez!",
+    "en": "Again! Again!"
+   },
+   "voz": "h5",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "ladera",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "sori",
+      "x": 200,
+      "id": "sori",
+      "s": 1.1
+     },
+     {
+      "que": "perro",
+      "id": "kotaro",
+      "x": 300
+     }
+    ]
+   }
+  },
+  {
+   "t": "elige",
+   "habla": "tama",
+   "pide": {
+    "es": "Tama resume el día: «Cuanto más jugamos, más divertido»",
+    "en": "Tama sums up the day: «The more we play, the more fun it gets»"
+   },
+   "opciones": [
+    {
+     "jp": "遊[あそ]べば 遊[あそ]ぶほど、 楽[たの]しく なります。",
+     "bien": true,
+     "tr": {
+      "es": "Cuanto más jugamos, más divertido.",
+      "en": "The more we play, the more fun it gets."
+     },
+     "voz": "h6",
+     "porque": {
+      "es": "Verbo: forma ば (遊べば) + forma de diccionario (遊ぶ) + ほど.",
+      "en": "Verb: ば form (遊べば) + dictionary form (遊ぶ) + ほど."
+     }
+    },
+    {
+     "jp": "遊[あそ]ぶば 遊[あそ]ぶほど、 楽[たの]しく なります。",
+     "bien": false,
+     "porque": {
+      "es": "La forma ば de 遊ぶ es 遊べば: la u pasa a e y se añade ば.",
+      "en": "The ば form of 遊ぶ is 遊べば: u becomes e and ば is added."
+     }
+    },
+    {
+     "jp": "遊[あそ]べば 遊[あそ]んだほど、 楽[たの]しく なります。",
+     "bien": false,
+     "porque": {
+      "es": "Delante de ほど, forma de diccionario: 遊ぶほど.",
+      "en": "Before ほど, the dictionary form: 遊ぶほど."
+     }
+    }
+   ],
+   "cara": "feliz",
+   "escena": {
+    "fondo": "ladera",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "sori",
+      "x": 200,
+      "id": "sori",
+      "s": 1.1
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 320
+     }
+    ]
+   }
+  },
+  {
+   "t": "toca",
+   "pide": {
+    "es": "¿En qué vais a bajar los tres juntos? Escucha a Tama y tócalo.",
+    "en": "What will the three of you ride down on? Listen to Tama and tap it."
+   },
+   "bien": "sori",
+   "quien": "tama",
+   "escena": {
+    "fondo": "ladera",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 65
+     },
+     {
+      "que": "sori",
+      "x": 165,
+      "id": "sori",
+      "s": 1.0
+     },
+     {
+      "que": "bufanda",
+      "x": 225,
+      "id": "bufanda",
+      "s": 0.9
+     },
+     {
+      "que": "yukidaruma",
+      "x": 275,
+      "id": "yukidaruma",
+      "s": 0.9
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 345
+     }
+    ]
+   },
+   "jp": "この そりは 大[おお]きいから、 三人[さんにん]で 乗[の]れます。",
+   "voz": "h7",
+   "bien_msg": {
+    "es": "¡Eso! La そり, el trineo: grande, para los tres.",
+    "en": "Right! The そり, the sled: big enough for three."
+   },
+   "mal_msg": {
+    "es": "Ha dicho そり: el trineo rojo.",
+    "en": "She said そり: the red sled."
+   }
+  }
+ ],
+ "epilogo": [
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "手[て]が 冷[つめ]たく なりました…。",
+   "tr": {
+    "es": "Se me han quedado las manos heladas…",
+    "en": "My hands are frozen…"
+   },
+   "voz": "x1",
+   "cara": "pensando",
+   "escena": {
+    "fondo": "ladera",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "sori",
+      "x": 200,
+      "id": "sori",
+      "s": 1.1
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 320
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "帰[かえ]って、 こたつで みかんを 食[た]べよう！",
+   "tr": {
+    "es": "¡Volvamos y comamos mandarinas en la kotatsu!",
+    "en": "Let's go home and eat mandarins under the kotatsu!"
+   },
+   "voz": "x2",
+   "cara": "feliz",
+   "brazo": "arriba"
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta la frase: la escena hará lo que digas.",
+   "en": "Build the sentence: the scene will do what you say."
+  },
+  "piezas": [
+   {
+    "id": "kotaro",
+    "jp": "コタロー",
+    "tipo": "palabra"
+   },
+   {
+    "id": "wa",
+    "jp": "は",
+    "tipo": "particula"
+   },
+   {
+    "id": "kage",
+    "jp": "カゲ",
+    "tipo": "palabra"
+   },
+   {
+    "id": "hodo",
+    "jp": "ほど",
+    "tipo": "particula"
+   },
+   {
+    "id": "yori",
+    "jp": "より",
+    "tipo": "particula"
+   },
+   {
+    "id": "hayakunai",
+    "jp": "速[はや]くない",
+    "tipo": "verbo"
+   },
+   {
+    "id": "hayai",
+    "jp": "速[はや]い",
+    "tipo": "verbo"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Kotarō presume de rápido, pero Tama le recuerda: «Kotarō no es tan rápido como Kage»",
+     "en": "Kotarō brags about his speed, but Tama reminds him: «Kotarō isn't as fast as Kage»"
+    },
+    "escena": {
+     "fondo": "ladera",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 70
+      },
+      {
+       "que": "sori",
+       "x": 200,
+       "id": "sori",
+       "s": 1.1
+      },
+      {
+       "que": "perro",
+       "id": "kotaro",
+       "x": 240
+      },
+      {
+       "que": "gato",
+       "id": "tama",
+       "x": 340
+      }
+     ]
+    },
+    "piezas": [
+     "kotaro",
+     "wa",
+     "kage",
+     "hodo",
+     "yori",
+     "hayakunai",
+     "hayai"
+    ],
+    "bien": [
+     [
+      "kotaro",
+      "wa",
+      "kage",
+      "hodo",
+      "hayakunai"
+     ]
+    ],
+    "tr": {
+     "es": "Kotarō no es tan rápido como Kage.",
+     "en": "Kotarō isn't as fast as Kage."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "manpu",
+      "objeto": "kotaro",
+      "manpu": "sudor"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "yori",
+        "hayai"
+       ]
+      },
+      "efecto": {
+       "tipo": "salta",
+       "objeto": "kotaro"
+      },
+      "msg": {
+       "es": "¡Así dices que Kotarō es MÁS rápido que Kage! Está encantado… pero Tama quería decir lo contrario: カゲほど速くない.",
+       "en": "That says Kotarō is FASTER than Kage! He's thrilled… but Tama meant the opposite: カゲほど速くない."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "yori"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "より con negativo suena forzado. Para «no tan… como», ほど + negativo: カゲほど速くない.",
+       "en": "より with a negative sounds forced. For «not as… as», ほど + negative: カゲほど速くない."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "hayai"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "Comparando, ほど pide un negativo detrás: カゲほど速くない, «no tan rápido como Kage».",
+       "en": "When comparing, ほど needs a negative after it: カゲほど速くない, «not as fast as Kage»."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "reto": {
+  "intro": {
+   "jp": "ふん。 速[はや]ければ 速[はや]いほど、 俺[おれ]の 勝[か]ちだ。",
+   "tr": {
+    "es": "Hmpf. Cuanto más rápido, más gano yo.",
+    "en": "Hmph. The faster, the more I win."
+   },
+   "voz": "k0"
+  },
+  "gana": {
+   "jp": "…くっ。 お前[まえ]ほど 速[はや]くなかった。",
+   "tr": {
+    "es": "…Tsk. No he sido tan rápido como tú.",
+    "en": "…Tch. I wasn't as fast as you."
+   },
+   "voz": "kw"
+  },
+  "pierde": {
+   "jp": "ふん。 練習[れんしゅう]すれば するほど、 強[つよ]く なるぞ。",
+   "tr": {
+    "es": "Hmpf. Cuanto más practiques, más fuerte serás.",
+    "en": "Hmph. The more you practise, the stronger you'll get."
+   },
+   "voz": "kl"
+  },
+  "pica": {
+   "jp": "…やるな。",
+   "tr": {
+    "es": "…No está mal.",
+    "en": "…Not bad."
+   },
+   "voz": "kp"
+  },
+  "burla": {
+   "jp": "ふん！",
+   "tr": {
+    "es": "¡Ja!",
+    "en": "Hah!"
+   },
+   "voz": "kb"
+  },
+  "preguntas": [
+   {
+    "tipo": "elige",
+    "jp": "練習[れんしゅう]すれ＿ するほど、 上手[じょうず]に なります。",
+    "opciones": [
+     "ば",
+     "ど",
+     "と"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Cuanto más practicas, mejor lo haces.",
+     "en": "The more you practise, the better you get."
+    },
+    "porque": {
+     "es": "する → すれば + するほど.",
+     "en": "する → すれば + するほど."
+    },
+    "voz": "q1"
+   },
+   {
+    "tipo": "elige",
+    "jp": "今年[ことし]の 冬[ふゆ]は 去年[きょねん]＿ 寒[さむ]くない。",
+    "opciones": [
+     "ほど",
+     "が",
+     "に"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Este invierno no es tan frío como el del año pasado.",
+     "en": "This winter isn't as cold as last year's."
+    },
+    "porque": {
+     "es": "No tan… como: ほど + negativo.",
+     "en": "Not as… as: ほど + negative."
+    },
+    "voz": "q2"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "安[やす]ければ 安[やす]いほど、 うれしいです。",
+    "correcta": true,
+    "tr": {
+     "es": "Cuanto más barato, más contento.",
+     "en": "The cheaper, the happier."
+    },
+    "porque": {
+     "es": "Bien: 安ければ + 安い + ほど.",
+     "en": "Right: 安ければ + 安い + ほど."
+    },
+    "voz": "q3"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "食[た]べれば 食[た]べたほど、 お腹[なか]が すきます。",
+    "correcta": false,
+    "tr": {
+     "es": "(Cuanto más como, más hambre tengo.)",
+     "en": "(The more I eat, the hungrier I get.)"
+    },
+    "porque": {
+     "es": "Delante de ほど, forma de diccionario: 食べれば食べるほど.",
+     "en": "Before ほど, the dictionary form: 食べれば食べるほど."
+    },
+    "voz": "q4"
+   },
+   {
+    "tipo": "oye",
+    "jp": "泣[な]きたいほど 怖[こわ]かったです。",
+    "habla": "tama",
+    "opciones": [
+     {
+      "es": "Daba tanto miedo que quería llorar.",
+      "en": "It was so scary I wanted to cry."
+     },
+     {
+      "es": "No daba nada de miedo.",
+      "en": "It wasn't scary at all."
+     },
+     {
+      "es": "Lloré porque tenía frío.",
+      "en": "I cried because I was cold."
+     }
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "ほど: hasta el punto de querer llorar.",
+     "en": "ほど: to the point of wanting to cry."
+    },
+    "voz": "q5"
+   },
+   {
+    "tipo": "imagen",
+    "jp": "この そりで 坂[さか]を 下[くだ]ります。",
+    "opciones": [
+     "sori",
+     "maleta",
+     "bufanda"
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "そり: el trineo.",
+     "en": "そり: the sled."
+    },
+    "pide": {
+     "es": "¿Con qué bajan?",
+     "en": "What do they ride down on?"
+    }
+   }
+  ]
+ },
+ "siguiente": {
+  "es": "Tanta nieve tenía que pasar factura: Nyan se ha resfriado. Todos le dan consejos… cada uno a su manera.",
+  "en": "All that snow had to catch up with him: Nyan's got a cold. Everyone gives him advice… each in their own way."
+ },
+ "chuleta": {
+  "patron": {
+   "es": "〔ば〕〔normal〕ほど ・ Nほど〜ない",
+   "en": "〔ば〕〔plain〕ほど ・ Nほど〜ない"
+  },
+  "patron_tr": {
+   "es": "cuanto más…, más… ・ no tan… como N",
+   "en": "the more…, the more… ・ not as… as N"
+  },
+  "filas": [
+   {
+    "jp": "日本語[にほんご]は 勉強[べんきょう]すれば するほど 面白[おもしろ]いです。",
+    "es": "Cuanto más estudio japonés, más interesante es.",
+    "en": "The more I study Japanese, the more interesting it gets.",
+    "registro": "educado"
+   },
+   {
+    "jp": "思[おも]ったほど 寒[さむ]くないね。",
+    "es": "No hace tanto frío como pensaba. (a un amigo)",
+    "en": "It's not as cold as I thought. (to a friend)",
+    "registro": "amigos"
+   },
+   {
+    "jp": "駅[えき]まで 十分[じゅっぷん]ほど です。",
+    "es": "Hasta la estación son unos diez minutos.",
+    "en": "It's about ten minutes to the station."
+   }
+  ],
+  "consejo": {
+   "es": "思ったほど〜ない, «no tan… como pensaba», es una de las frases más útiles de ほど: para quitarle hierro a algo o sorprenderte para bien.",
+   "en": "思ったほど〜ない, «not as… as I thought», is one of the most useful ほど phrases: to play something down or be pleasantly surprised."
+  }
+ }
+}

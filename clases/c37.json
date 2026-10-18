@@ -1,0 +1,799 @@
+{
+ "id": "c37",
+ "clase": 20,
+ "desde": 258,
+ "titulo": {
+  "es": "¿Me ayudas?: 〜てほしい y cómo pedir favores",
+  "en": "Will you help me?: 〜てほしい and asking favours"
+ },
+ "resumen": {
+  "es": "てほしい: quieres que OTRO haga algo. Para pedirlo de verdad, sube de escalón según con quién hables: くれない？ (amigos) → くれませんか → もらえませんか／いただけませんか (educado, con el profesor o un desconocido).",
+  "en": "てほしい: you want someone ELSE to do something. To actually ask, climb the ladder depending on who you're talking to: くれない？ (friends) → くれませんか → もらえませんか／いただけませんか (polite, with the teacher or a stranger)."
+ },
+ "formato": 2,
+ "lugar": "escuela",
+ "registro": true,
+ "mision": {
+  "texto": {
+   "es": "Después del festival, Kage tiene que devolver el tambor a la escuela… y no puede solo. Para él, pedir ayuda es lo más difícil del mundo. Ayúdale a pedirlo bien: a los amigos de una manera y a Fukuro-sensei, de otra.",
+   "en": "After the festival, Kage has to take the drum back to school… and can't do it alone. For him, asking for help is the hardest thing in the world. Help him ask properly: one way to friends, another to Fukuro-sensei."
+  },
+  "escena": {
+   "fondo": "escuela",
+   "cosas": [
+    {
+     "que": "nyan",
+     "x": 75
+    },
+    {
+     "que": "taiko",
+     "x": 200,
+     "s": 1.3
+    },
+    {
+     "que": "kage",
+     "id": "kage",
+     "x": 320
+    }
+   ]
+  },
+  "cara": "pensando",
+  "jp": "…ふん。",
+  "voz": "m0"
+ },
+ "reglas": [
+  {
+   "id": "tehoshii",
+   "nombre": {
+    "es": "〜てほしい: quiero que TÚ hagas…",
+    "en": "〜てほしい: I want YOU to…"
+   },
+   "patron": {
+    "es": "〔verbo en て〕ほしい",
+    "en": "〔て verb〕ほしい"
+   },
+   "explica": {
+    "es": "Con たい dices lo que quieres hacer tú. Cuando quieres que lo haga OTRA persona, pon su verbo en て y añade ほしい (el mismo de «quiero una cosa»): 手伝ってほしい, «quiero que me ayudes». Si hace falta decir quién, va con に: ニャンに手伝ってほしい. Pero ojo: dice lo que deseas, no es una petición. Suena a confesión o a queja, y el otro todavía no sabe si se lo estás pidiendo. Para pedirlo de verdad, la siguiente carta.",
+    "en": "With たい you say what you want to do. When you want SOMEONE ELSE to do it, put their verb in て and add ほしい (the same one as «I want a thing»): 手伝ってほしい, «I want you to help me». If you need to say who, use に: ニャンに手伝ってほしい. But careful: it states your wish, it isn't a request. It sounds like a confession or a complaint, and the other person still doesn't know if you're asking. To really ask, see the next card."
+   },
+   "ejemplos": [
+    {
+     "jp": "手伝[てつだ]って ほしい。",
+     "es": "Quiero que me ayudes.",
+     "en": "I want you to help me.",
+     "voz": "r1-1"
+    },
+    {
+     "jp": "太鼓[たいこ]を 運[はこ]んで ほしい。",
+     "es": "Quiero que lleves el tambor.",
+     "en": "I want you to carry the drum.",
+     "voz": "r1-2"
+    }
+   ],
+   "ojo": {
+    "es": "En esta forma se escribe en hiragana (ほしい); con kanji, 欲しい, se reserva para querer cosas. Así se distingue de un vistazo.",
+    "en": "In this form it's written in hiragana (ほしい); the kanji 欲しい is kept for wanting things. That way you can tell them apart at a glance."
+   }
+  },
+  {
+   "id": "kurenai",
+   "nombre": {
+    "es": "Pedir un favor: la escalera de la cortesía",
+    "en": "Asking a favour: the politeness ladder"
+   },
+   "patron": {
+    "es": "〔て〕くれない？ → くれませんか → もらえませんか → いただけませんか",
+    "en": "〔て〕くれない？ → くれませんか → もらえませんか → いただけませんか"
+   },
+   "explica": {
+    "es": "Para pedir un favor, el japonés pregunta en vez de ordenar, y cuanto más respeto debes, más indirecta es la pregunta. Con amigos: 手伝ってくれない？, «¿no me ayudas?». Con compañeros o desconocidos, educado: 手伝ってくれませんか. Más educado aún: 手伝ってもらえませんか, literalmente «¿no podría recibir tu ayuda?»: ya no le pides que haga algo, sino que te deje recibir un favor. Y con un profesor o un jefe: 手伝っていただけませんか, la versión más humilde. ¿Por qué tantos escalones? Porque en japonés la distancia entre dos personas se oye en cada frase: el escalón de amigos con una profesora suena a falta de respeto, y el más alto con un amigo, a burla.",
+    "en": "To ask a favour, Japanese asks instead of ordering, and the more respect you owe, the more indirect the question. With friends: 手伝ってくれない？, «won't you help me?». With classmates or strangers, polite: 手伝ってくれませんか. Even more polite: 手伝ってもらえませんか, literally «couldn't I receive your help?»: you no longer ask them to do something, but to let you receive a favour. And with a teacher or a boss: 手伝っていただけませんか, the humblest version. Why so many steps? Because in Japanese the distance between two people shows in every sentence: the friends' step with a teacher sounds disrespectful, and the top step with a friend sounds like mockery."
+   },
+   "ejemplos": [
+    {
+     "jp": "手伝[てつだ]って くれない？",
+     "es": "¿Me ayudas? (a un amigo)",
+     "en": "Will you help me? (to a friend)",
+     "voz": "r2-1"
+    },
+    {
+     "jp": "倉庫[そうこ]を 開[あ]けて いただけませんか。",
+     "es": "¿Podría abrirnos el almacén, por favor?",
+     "en": "Could you please open the storeroom for us?",
+     "voz": "r2-2"
+    }
+   ],
+   "ojo": {
+    "es": "La forma negativa (くれない？, ませんか) suena más suave que la afirmativa (くれる？, ますか), porque deja al otro la puerta abierta a decir que no.",
+    "en": "The negative form (くれない？, ませんか) sounds softer than the affirmative (くれる？, ますか), because it leaves the other person free to say no."
+   }
+  }
+ ],
+ "historia": [
+  {
+   "t": "dice",
+   "habla": "kage",
+   "jp": "…この 太鼓[たいこ]、 重[おも]い。",
+   "tr": {
+    "es": "…Este tambor pesa.",
+    "en": "…This drum is heavy."
+   },
+   "voz": "h1",
+   "cara": "aburrido",
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 75
+     },
+     {
+      "que": "taiko",
+      "x": 200,
+      "id": "taiko",
+      "s": 1.3
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 320
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "カゲ、 どうしたの？",
+   "tr": {
+    "es": "Kage, ¿qué te pasa?",
+    "en": "Kage, what's up?"
+   },
+   "voz": "h2",
+   "cara": "pensando"
+  },
+  {
+   "t": "dice",
+   "habla": "kage",
+   "jp": "…手伝[てつだ]って ほしい。",
+   "tr": {
+    "es": "…Quiero que me ayudes.",
+    "en": "…I want you to help me."
+   },
+   "voz": "h3",
+   "cara": "aburrido",
+   "plano": "medio",
+   "reacciona": {
+    "nyan": "sorpresa"
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "tehoshii"
+  },
+  {
+   "t": "elige",
+   "habla": "kage",
+   "pide": {
+    "es": "Kage lo intenta decir entero. ¿Qué quiere exactamente?",
+    "en": "Kage tries to say it all. What exactly does he want?"
+   },
+   "opciones": [
+    {
+     "jp": "太鼓[たいこ]を 運[はこ]んで ほしい。",
+     "bien": true,
+     "tr": {
+      "es": "Quiero que lleves el tambor.",
+      "en": "I want you to carry the drum."
+     },
+     "voz": "h4",
+     "porque": {
+      "es": "Lo que quiere que haga OTRO, en forma て + ほしい.",
+      "en": "What he wants SOMEONE ELSE to do, in て form + ほしい."
+     }
+    },
+    {
+     "jp": "太鼓[たいこ]を 運[はこ]びたい。",
+     "bien": false,
+     "porque": {
+      "es": "運びたい es «quiero llevarlo YO». Kage quiere que lo lleves TÚ: 運んでほしい.",
+      "en": "運びたい is «I want to carry it MYSELF». Kage wants YOU to carry it: 運んでほしい."
+     }
+    },
+    {
+     "jp": "太鼓[たいこ]が 運[はこ]んで ほしい。",
+     "bien": false,
+     "porque": {
+      "es": "Lo que se lleva sigue siendo el objeto de la acción: 太鼓を. (Con が sería querer una cosa: 太鼓が欲しい, «quiero un tambor».)",
+      "en": "What gets carried is still the object of the action: 太鼓を. (With が it'd be wanting a thing: 太鼓が欲しい, «I want a drum».)"
+     }
+    }
+   ],
+   "cara": "pensando"
+  },
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "いいよ！ でも、 ちゃんと 頼[たの]んで！",
+   "tr": {
+    "es": "¡Vale! Pero pídemelo bien.",
+    "en": "Sure! But ask me properly."
+   },
+   "voz": "h5",
+   "cara": "feliz"
+  },
+  {
+   "t": "regla",
+   "regla": "kurenai"
+  },
+  {
+   "t": "monta",
+   "encargo": 0
+  },
+  {
+   "t": "dice",
+   "habla": "sensei",
+   "jp": "二人[ふたり]とも、 何[なに]を して いますか。",
+   "tr": {
+    "es": "¿Qué hacéis vosotros dos?",
+    "en": "What are you two doing?"
+   },
+   "voz": "h6",
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 65
+     },
+     {
+      "que": "taiko",
+      "x": 150,
+      "id": "taiko",
+      "s": 1.1
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 240
+     },
+     {
+      "que": "sensei",
+      "id": "sensei",
+      "x": 340
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "kage",
+   "jp": "太鼓[たいこ]を 倉庫[そうこ]に 戻[もど]したいんですが…",
+   "tr": {
+    "es": "Queríamos devolver el tambor al almacén, pero…",
+    "en": "We wanted to put the drum back in the storeroom, but…"
+   },
+   "voz": "h7",
+   "cara": "decidido"
+  },
+  {
+   "t": "elige",
+   "habla": "kage",
+   "pide": {
+    "es": "El almacén está cerrado con llave, y la llave la tiene la profe. ¿Qué le pide Kage?",
+    "en": "The storeroom is locked, and the teacher has the key. What does Kage ask her?"
+   },
+   "opciones": [
+    {
+     "jp": "倉庫[そうこ]を 開[あ]けて いただけませんか。",
+     "bien": true,
+     "tr": {
+      "es": "¿Podría abrirnos el almacén, por favor?",
+      "en": "Could you please open the storeroom for us?"
+     },
+     "voz": "h8",
+     "porque": {
+      "es": "Con una profesora, el escalón más respetuoso: て + いただけませんか.",
+      "en": "With a teacher, the most respectful step: て + いただけませんか."
+     }
+    },
+    {
+     "jp": "倉庫[そうこ]を 開[あ]けて くれない？",
+     "bien": false,
+     "porque": {
+      "es": "くれない？ es para amigos. A la profe le sonaría a que le hablas como a un compañero, y eso en Japón es una falta de respeto. Con ella, いただけませんか.",
+      "en": "くれない？ is for friends. To the teacher it would sound like talking to a classmate, which in Japan is disrespectful. With her, いただけませんか."
+     }
+    },
+    {
+     "jp": "倉庫[そうこ]を 開[あ]いて いただけませんか。",
+     "bien": false,
+     "porque": {
+      "es": "開く es «abrirse» solo; aquí alguien abre algo, así que 開けて (lo viste en la clase anterior).",
+      "en": "開く is «to open» by itself; here someone opens something, so 開けて (you saw it last class)."
+     }
+    }
+   ],
+   "cara": "pensando"
+  },
+  {
+   "t": "dice",
+   "habla": "sensei",
+   "jp": "いいですよ。 よく 頼[たの]めましたね。",
+   "tr": {
+    "es": "Claro que sí. Lo has pedido muy bien.",
+    "en": "Of course. You asked very nicely."
+   },
+   "voz": "h9",
+   "reacciona": {
+    "kage": "presumido"
+   },
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 65
+     },
+     {
+      "que": "taiko",
+      "x": 150,
+      "id": "taiko",
+      "s": 1.1
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 240
+     },
+     {
+      "que": "sensei",
+      "id": "sensei",
+      "x": 340
+     }
+    ]
+   }
+  },
+  {
+   "t": "toca",
+   "pide": {
+    "es": "La profe también os pide algo. Escucha y toca lo que quiere.",
+    "en": "The teacher asks you for something too. Listen and tap what she wants."
+   },
+   "bien": "libro",
+   "quien": "sensei",
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 65
+     },
+     {
+      "que": "libro",
+      "x": 165,
+      "id": "libro",
+      "s": 1.2
+     },
+     {
+      "que": "daruma",
+      "x": 220,
+      "id": "daruma",
+      "s": 1.1
+     },
+     {
+      "que": "reloj",
+      "x": 270,
+      "id": "reloj",
+      "s": 1.0
+     },
+     {
+      "que": "sensei",
+      "id": "sensei",
+      "x": 345
+     }
+    ]
+   },
+   "jp": "その 本[ほん]を 取[と]って もらえますか。",
+   "voz": "h10",
+   "bien_msg": {
+    "es": "¡Eso! 本 es el libro: 取ってもらえますか, «¿me lo podrías pasar?».",
+    "en": "Right! 本 is the book: 取ってもらえますか, «could you pass it to me?»."
+   },
+   "mal_msg": {
+    "es": "Ha dicho 本, el libro.",
+    "en": "She said 本, the book."
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "kage",
+   "jp": "…みんな、 ありがとう。",
+   "tr": {
+    "es": "…Gracias a todos.",
+    "en": "…Thanks, everyone."
+   },
+   "voz": "h11",
+   "cara": "decidido",
+   "reacciona": {
+    "nyan": "feliz",
+    "tama": "feliz"
+   },
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 55
+     },
+     {
+      "que": "taiko",
+      "x": 200,
+      "s": 1.2
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 300
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 120
+     }
+    ]
+   }
+  }
+ ],
+ "epilogo": [
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "カゲ、 来年[らいねん]は いっしょに お店[みせ]を やりましょう！",
+   "tr": {
+    "es": "Kage, ¡el año que viene hagamos el puesto juntos!",
+    "en": "Kage, next year let's run the stall together!"
+   },
+   "voz": "x1",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 300
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 190
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "kage",
+   "jp": "…ふん。 いいよ。",
+   "tr": {
+    "es": "…Hmpf. Vale.",
+    "en": "…Hmph. Fine."
+   },
+   "voz": "x2",
+   "cara": "presumido"
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta la frase: la escena hará lo que digas.",
+   "en": "Build the sentence: the scene will do what you say."
+  },
+  "piezas": [
+   {
+    "id": "tetsudatte",
+    "jp": "手伝[てつだ]って",
+    "tipo": "verbo"
+   },
+   {
+    "id": "kurenai",
+    "jp": "くれない？",
+    "tipo": "verbo"
+   },
+   {
+    "id": "itadakemasenka",
+    "jp": "いただけませんか",
+    "tipo": "verbo"
+   },
+   {
+    "id": "hoshii",
+    "jp": "ほしい",
+    "tipo": "verbo"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Kage se lo pide a Nyan, que es de su edad: «¿Me ayudas?» (entre amigos)",
+     "en": "Kage asks Nyan, who's his age: «Will you help me?» (between friends)"
+    },
+    "escena": {
+     "fondo": "escuela",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 75
+      },
+      {
+       "que": "taiko",
+       "x": 200,
+       "id": "taiko",
+       "s": 1.3
+      },
+      {
+       "que": "kage",
+       "id": "kage",
+       "x": 320
+      }
+     ]
+    },
+    "piezas": [
+     "tetsudatte",
+     "kurenai",
+     "itadakemasenka",
+     "hoshii"
+    ],
+    "bien": [
+     [
+      "tetsudatte",
+      "kurenai"
+     ]
+    ],
+    "tr": {
+     "es": "¿Me ayudas?",
+     "en": "Will you help me?"
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "feliz",
+      "manpu": "brillo"
+     },
+     {
+      "tipo": "salta",
+      "objeto": "taiko"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "itadakemasenka"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "sorpresa",
+       "manpu": "sudor"
+      },
+      "msg": {
+       "es": "Con Nyan, que es de su edad, いただけませんか suena tan ceremonioso que parece una broma. Entre amigos: 手伝ってくれない？",
+       "en": "With Nyan, who's his age, いただけませんか sounds so ceremonious it seems like a joke. Between friends: 手伝ってくれない？"
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "hoshii"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "手伝ってほしい dice lo que quieres, pero no lo PIDE. Para pedírselo, pregunta: 手伝ってくれない？",
+       "en": "手伝ってほしい says what you want, but doesn't ASK. To ask, make it a question: 手伝ってくれない？"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "reto": {
+  "intro": {
+   "jp": "…勝負[しょうぶ]して くれない？",
+   "tr": {
+    "es": "…¿Te batirías conmigo?",
+    "en": "…Will you duel me?"
+   },
+   "voz": "k0"
+  },
+  "gana": {
+   "jp": "…ありがとう。 いい 勝負[しょうぶ]だった。",
+   "tr": {
+    "es": "…Gracias. Ha sido un buen duelo.",
+    "en": "…Thanks. That was a good duel."
+   },
+   "voz": "kw"
+  },
+  "pierde": {
+   "jp": "ふん。 もう 一回[いっかい]、 やって くれない？",
+   "tr": {
+    "es": "Hmpf. ¿Lo intentas otra vez?",
+    "en": "Hmph. Will you try again?"
+   },
+   "voz": "kl"
+  },
+  "pica": {
+   "jp": "…やるな。",
+   "tr": {
+    "es": "…No está mal.",
+    "en": "…Not bad."
+   },
+   "voz": "kp"
+  },
+  "burla": {
+   "jp": "ふん！",
+   "tr": {
+    "es": "¡Ja!",
+    "en": "Hah!"
+   },
+   "voz": "kb"
+  },
+  "preguntas": [
+   {
+    "tipo": "elige",
+    "jp": "先生[せんせい]、 もう 一度[いちど] 言[い]って ＿。",
+    "opciones": [
+     "いただけませんか",
+     "くれない？",
+     "ほしい"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Profe, ¿podría repetirlo, por favor?",
+     "en": "Teacher, could you say it again, please?"
+    },
+    "porque": {
+     "es": "Con la profe, el escalón más alto: いただけませんか.",
+     "en": "With the teacher, the highest step: いただけませんか."
+    },
+    "voz": "q1"
+   },
+   {
+    "tipo": "elige",
+    "jp": "タマ、 ちょっと 待[ま]って ＿？",
+    "opciones": [
+     "くれない",
+     "いただけません",
+     "ほしい"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Tama, ¿me esperas un poco?",
+     "en": "Tama, can you wait a sec?"
+    },
+    "porque": {
+     "es": "Con una amiga, くれない？: cercano y amable.",
+     "en": "With a friend, くれない？: close and kind."
+    },
+    "voz": "q2"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "ニャンに 手伝[てつだ]って ほしいです。",
+    "correcta": true,
+    "tr": {
+     "es": "Quiero que Nyan me ayude.",
+     "en": "I want Nyan to help me."
+    },
+    "porque": {
+     "es": "Bien: quien tiene que hacerlo va con に, y la acción en て + ほしい.",
+     "en": "Right: the one who should do it takes に, and the action is て + ほしい."
+    },
+    "voz": "q3"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "先生[せんせい]、 ペンを 貸[か]して くれない？",
+    "correcta": false,
+    "tr": {
+     "es": "(Profe, ¿me dejas un boli?)",
+     "en": "(Teacher, lend me a pen?)"
+    },
+    "porque": {
+     "es": "くれない？ es para amigos: a la profe, 貸していただけませんか.",
+     "en": "くれない？ is for friends: to the teacher, 貸していただけませんか."
+    },
+    "voz": "q4"
+   },
+   {
+    "tipo": "oye",
+    "jp": "窓[まど]を 閉[し]めて もらえませんか。",
+    "habla": "sensei",
+    "opciones": [
+     {
+      "es": "¿Podrías cerrar la ventana?",
+      "en": "Could you close the window?"
+     },
+     {
+      "es": "Quiero cerrar la ventana.",
+      "en": "I want to close the window."
+     },
+     {
+      "es": "La ventana está cerrada.",
+      "en": "The window is closed."
+     }
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "もらえませんか: una petición educada («¿podría recibir el favor de…?»).",
+     "en": "もらえませんか: a polite request («could I receive the favour of…?»)."
+    },
+    "voz": "q5"
+   },
+   {
+    "tipo": "imagen",
+    "jp": "その 本[ほん]を 取[と]って もらえますか。",
+    "opciones": [
+     "libro",
+     "taiko",
+     "reloj"
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "本: el libro que te piden que pases.",
+     "en": "本: the book you're asked to pass."
+    },
+    "pide": {
+     "es": "¿Qué le piden?",
+     "en": "What is being asked for?"
+    }
+   }
+  ]
+ },
+ "siguiente": {
+  "es": "Fin de la temporada del festival. Lo que viene: ¡un viaje de estudios a Hokkaido, justo cuando llega el invierno!",
+  "en": "End of the festival season. Coming up: a school trip to Hokkaido, just as winter arrives!"
+ },
+ "chuleta": {
+  "patron": {
+   "es": "〔て〕ほしい ・ 〔て〕くれない？／もらえませんか／いただけませんか",
+   "en": "〔て〕ほしい ・ 〔て〕くれない？／もらえませんか／いただけませんか"
+  },
+  "patron_tr": {
+   "es": "quiero que hagas ・ ¿me haces el favor de…?",
+   "en": "I want you to ・ would you…?"
+  },
+  "filas": [
+   {
+    "jp": "ちょっと 待[ま]って くれない？",
+    "es": "¿Me esperas un poco? (a un amigo)",
+    "en": "Can you wait a bit? (to a friend)",
+    "registro": "amigos"
+   },
+   {
+    "jp": "写真[しゃしん]を 撮[と]って もらえませんか。",
+    "es": "¿Podría hacernos una foto?",
+    "en": "Could you take a photo of us?",
+    "registro": "educado"
+   },
+   {
+    "jp": "もう 一度[いちど] 言[い]って いただけませんか。",
+    "es": "¿Podría repetirlo, por favor?",
+    "en": "Could you please say that again?",
+    "registro": "educado"
+   }
+  ],
+  "consejo": {
+   "es": "De viaje, 写真を撮ってもらえませんか es la frase que más vas a usar para pedir una foto: educada sin pasarse, perfecta con desconocidos.",
+   "en": "When travelling, 写真を撮ってもらえませんか is the phrase you'll use most to ask for a photo: polite without overdoing it, perfect with strangers."
+  }
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "id": "l17", "desde": 1350,
+ "titulo": {"jp": "おばあさんへの 手紙[てがみ]", "es": "Una carta para la abuela", "en": "A letter for grandma"},
+ "resumen": {"es": "Nyan escribe una carta de agradecimiento, y de camino al buzón encuentra una postal perdida.", "en": "Nyan writes a thank-you letter, and on the way to the mailbox finds a lost postcard."},
+ "portada": {"fondo": "calle", "cosas": [{"que": "nyan", "x": 100}, {"que": "gato", "x": 190}, {"que": "carta", "x": 300}]},
+ "texto": [
+   {"voz": "t1", "quien": "narrador", "jp": "ニャンは おばあさんに 手紙[てがみ]を 書[か]く ことに した。", "es": "Nyan decidió escribirle una carta a la abuela.", "en": "Nyan decided to write grandma a letter."},
+   {"voz": "t2", "quien": "nyan", "jp": "帽子[ぼうし]を くれた お 礼[れい]を 言[い]いたいんだ。", "es": "Quiero darle las gracias por el sombrero que me dio.", "en": "I want to thank her for the hat she gave me."},
+   {"voz": "t3", "quien": "narrador", "jp": "ニャンは 時間[じかん]を かけて、 丁寧[ていねい]に 手紙[てがみ]を 書[か]いた。", "es": "Nyan se tomó su tiempo y escribió la carta con esmero.", "en": "Nyan took his time and wrote the letter carefully."},
+   {"voz": "t4", "quien": "narrador", "jp": "書[か]き 終[お]わると、 手紙[てがみ]を 封筒[ふうとう]に 入[い]れた。", "es": "Al terminar de escribir, metió la carta en un sobre.", "en": "When he finished writing, he put the letter in an envelope."},
+   {"voz": "t5", "quien": "tama", "jp": "住所[じゅうしょ]は ちゃんと 書[か]いた？", "es": "¿Has escrito bien la dirección?", "en": "Did you write the address properly?"},
+   {"voz": "t6", "quien": "nyan", "jp": "うん、 たぶん…。 ちょっと 心配[しんぱい]だけど。", "es": "Sí, probablemente… Aunque estoy un poco preocupado.", "en": "Yeah, probably... Though I'm a little worried."},
+   {"voz": "t7", "quien": "narrador", "jp": "二人[ふたり]は ポストまで 歩[ある]いた。", "es": "Los dos caminaron hasta el buzón.", "en": "The two of them walked to the mailbox."},
+   {"voz": "t8", "quien": "narrador", "jp": "途中[とちゅう]で、 ニャンは 道[みち]に 何[なに]か 落[お]ちて いるのに 気[き]づいた。", "es": "A mitad de camino, Nyan se dio cuenta de que algo había caído en la calle.", "en": "Along the way, Nyan noticed something had fallen on the street."},
+   {"voz": "t9", "quien": "narrador", "jp": "それは、 誰[だれ]かの はがきだった。", "es": "Era una postal de alguien.", "en": "It was somebody's postcard."},
+   {"voz": "t10", "quien": "nyan", "jp": "あ、 はがきが 落[お]ちてる！ 拾[ひろ]おう。", "es": "¡Ah, hay una postal caída! Vamos a recogerla.", "en": "Ah, there's a postcard on the ground! Let's pick it up."},
+   {"voz": "t11", "quien": "narrador", "jp": "ニャンは それを 拾[ひろ]った。", "es": "Nyan la recogió.", "en": "Nyan picked it up."},
+   {"voz": "t12", "quien": "tama", "jp": "住所[じゅうしょ]も 切手[きって]も ちゃんと ある ね。", "es": "Tiene bien la dirección y el sello.", "en": "It's got the address and the stamp on it properly."},
+   {"voz": "t13", "quien": "nyan", "jp": "じゃあ、 一緒[いっしょ]に 出[だ]して あげようか。", "es": "Entonces, ¿la mandamos junto con la mía?", "en": "Then shall we mail it along with mine?"},
+   {"voz": "t14", "quien": "narrador", "jp": "二人[ふたり]は、 自分[じぶん]の 手紙[てがみ]と、 拾[ひろ]った はがきを、 一緒[いっしょ]に ポストに 入[い]れた。", "es": "Los dos metieron en el buzón su propia carta junto con la postal que habían encontrado.", "en": "The two of them put their own letter and the postcard they'd found into the mailbox together."},
+   {"voz": "t15", "quien": "tama", "jp": "これで、 両方[りょうほう]とも ちゃんと 届[とど]くね。", "es": "Con esto, las dos llegarán bien.", "en": "With this, both of them will arrive properly."},
+   {"voz": "t16", "quien": "nyan", "jp": "うん！ おばあさんも、 この はがきの 人[ひと]も、 きっと 喜[よろこ]んで くれるよ。", "es": "¡Sí! Seguro que se alegran tanto la abuela como la persona de la postal.", "en": "Yeah! I bet both grandma and the postcard's owner will be happy."},
+   {"voz": "t17", "quien": "narrador", "jp": "ニャンは、 いい ことを した 気持[きも]ちで いっぱいだった。", "es": "Nyan estaba lleno de la sensación de haber hecho algo bueno.", "en": "Nyan was full of the feeling of having done something good."},
+   {"voz": "t18", "quien": "narrador", "jp": "しばらくして、 おばあさんから 返事[へんじ]の 手紙[てがみ]が 届[とど]いた。", "es": "Al cabo de un tiempo, llegó una carta de respuesta de la abuela.", "en": "After a while, a reply letter arrived from grandma."},
+   {"voz": "t19", "quien": "narrador", "jp": "手紙[てがみ]には、 優[やさ]しい 言葉[ことば]が たくさん 書[か]いて あった。", "es": "En la carta había escritas muchas palabras cariñosas.", "en": "In the letter, many kind words were written."},
+   {"voz": "t20", "quien": "nyan", "jp": "やった！ おばあさんも 喜[よろこ]んで くれた！", "es": "¡Bien! ¡La abuela también se alegró!", "en": "Yes! Grandma was happy too!"}
+ ],
+ "preguntas": [
+  {"jp": "ニャンは 誰[だれ]に 手紙[てがみ]を 書[か]きましたか。", "es": "¿A quién le escribió una carta Nyan?", "en": "Who did Nyan write a letter to?",
+   "opciones": [{"jp": "おばあさん", "es": "A la abuela", "en": "To grandma"}, {"jp": "タマ", "es": "A Tama", "en": "To Tama"}, {"jp": "ポン", "es": "A Pon", "en": "To Pon"}],
+   "bien": 0, "porque": {"es": "«ニャンはおばあさんに手紙を書くことにした» とある。", "en": "«ニャンはおばあさんに手紙を書くことにした» (Nyan decided to write grandma a letter)."}},
+  {"jp": "手紙[てがみ]を 書[か]いた 後[あと]、 ニャンは 何[なに]を しましたか。", "es": "Después de escribir la carta, ¿qué hizo Nyan?", "en": "After writing the letter, what did Nyan do?",
+   "opciones": [{"jp": "手紙[てがみ]を 封筒[ふうとう]に 入[い]れた", "es": "Metió la carta en un sobre", "en": "Put the letter in an envelope"}, {"jp": "すぐに 寝[ね]た", "es": "Se durmió enseguida", "en": "Went to sleep right away"}, {"jp": "手紙[てがみ]を 捨[す]てた", "es": "Tiró la carta", "en": "Threw the letter away"}],
+   "bien": 0, "porque": {"es": "«書き終わると、手紙を封筒に入れた» とある。", "en": "«書き終わると、手紙を封筒に入れた» (when he finished writing, he put the letter in an envelope)."}},
+  {"jp": "道[みち]で 何[なに]を 見[み]つけましたか。", "es": "¿Qué encontraron en la calle?", "en": "What did they find on the street?",
+   "opciones": [{"jp": "誰[だれ]かの はがき", "es": "La postal de alguien", "en": "Somebody's postcard"}, {"jp": "お 金[かね]", "es": "Dinero", "en": "Money"}, {"jp": "帽子[ぼうし]", "es": "Un sombrero", "en": "A hat"}],
+   "bien": 0, "porque": {"es": "「それは、誰かのはがきだった」とある。", "en": "«それは、誰かのはがきだった» (it was somebody's postcard)."}},
+  {"jp": "二人[ふたり]は 拾[ひろ]った はがきを どう しましたか。", "es": "¿Qué hicieron los dos con la postal que recogieron?", "en": "What did the two of them do with the postcard they picked up?",
+   "opciones": [{"jp": "自分[じぶん]の 手紙[てがみ]と 一緒[いっしょ]に ポストに 入[い]れた", "es": "La metieron en el buzón junto con su propia carta", "en": "Put it in the mailbox along with their own letter"}, {"jp": "家[いえ]に 持[も]って 帰[かえ]った", "es": "Se la llevaron a casa", "en": "Took it home"}, {"jp": "そのまま 道[みち]に 置[お]いた", "es": "La dejaron tal cual en la calle", "en": "Left it on the street as it was"}],
+   "bien": 0, "porque": {"es": "「一緒にポストに入れた」とある。", "en": "«一緒にポストに入れた» (they put it in the mailbox together)."}},
+  {"tipo": "opinion", "jp": "誰[だれ]かが 落[お]とした ものを 拾[ひろ]ったら、 あなたは どう しますか。", "es": "Si encontraras algo que se le ha caído a alguien, ¿qué harías?", "en": "If you found something someone had dropped, what would you do?",
+   "opciones": [
+    {"jp": "すぐに 出[だ]して あげる", "es": "Enviarlo enseguida por él", "en": "Mail it for them right away",
+     "nyan": {"jp": "いいね！ ニャンも そう したよ！", "es": "¡Qué bien! ¡Nyan hizo justo eso!", "en": "Nice! That's exactly what Nyan did!"}},
+    {"jp": "警官[けいかん]に 渡[わた]す", "es": "Entregárselo a un policía", "en": "Hand it to a police officer",
+     "nyan": {"jp": "それも いい 考[かんが]えだね。", "es": "Esa también es una buena idea.", "en": "That's also a good idea."}},
+    {"jp": "そのまま 置[お]いて おく", "es": "Dejarlo tal cual está", "en": "Just leave it as it is",
+     "nyan": {"jp": "それは ちょっと…。 やっぱり ちゃんと 出[だ]したいな。", "es": "Eso no sé… A Nyan le gustaría enviarlo como es debido.", "en": "That's a bit... Nyan would really rather send it off properly."}}
+   ]}
+ ]
+}

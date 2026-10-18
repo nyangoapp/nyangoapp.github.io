@@ -1,0 +1,773 @@
+{
+ "id": "c43",
+ "clase": 35,
+ "desde": 575,
+ "titulo": {
+  "es": "Propósitos de Año Nuevo: 〜ことにする／なる y 〜ようになる／する",
+  "en": "New Year's resolutions: 〜ことにする／なる and 〜ようになる／する"
+ },
+ "resumen": {
+  "es": "Cuatro formas para decisiones y cambios. こと + にする: decides TÚ. こと + になる: queda decidido (no lo decides tú). よう + になる: algo CAMBIA con el tiempo, solo. よう + にする: TÚ te esfuerzas para que pase.",
+  "en": "Four forms for decisions and changes. こと + にする: YOU decide. こと + になる: it gets decided (not by you). よう + になる: something CHANGES over time, on its own. よう + にする: YOU make an effort to bring it about."
+ },
+ "formato": 2,
+ "lugar": "hatsumode",
+ "mision": {
+  "texto": {
+   "es": "1 de enero: 初詣, la primera visita del año al santuario. Es el momento de los propósitos: lo que decides tú, lo que deciden por ti, lo que cambia con el tiempo y lo que te esfuerzas por conseguir.",
+   "en": "January 1st: 初詣, the first shrine visit of the year. Time for resolutions: what you decide, what's decided for you, what changes over time and what you work hard to achieve."
+  },
+  "escena": {
+   "fondo": "hatsumode",
+   "cosas": [
+    {
+     "que": "nyan",
+     "x": 80
+    },
+    {
+     "que": "gato",
+     "id": "tama",
+     "x": 310
+    }
+   ]
+  },
+  "cara": "feliz",
+  "jp": "今年[ことし]こそ！",
+  "voz": "m0"
+ },
+ "reglas": [
+  {
+   "id": "kotonisuru",
+   "nombre": {
+    "es": "〜ことにする／〜ことになる: decidir y quedar decidido",
+    "en": "〜ことにする／〜ことになる: deciding and being decided"
+   },
+   "patron": {
+    "es": "〔diccionario〕ことにする ・ 〔diccionario〕ことになる",
+    "en": "〔dictionary〕ことにする ・ 〔dictionary〕ことになる"
+   },
+   "explica": {
+    "es": "こと convierte la acción en «el hecho de…», y le añades する o なる. ことにする: lo decides TÚ: 毎日勉強することにした, «he decidido estudiar cada día». ことになる: queda decidido, pero no por ti (la escuela, el trabajo, las circunstancias): テストをすることになった, «ha quedado decidido que habrá examen». A veces se usa ことになる por modestia, aunque la decisión sea tuya, para no sonar a que impones nada.",
+    "en": "こと turns the action into «the fact of…», and you add する or なる. ことにする: YOU decide it: 毎日勉強することにした, «I've decided to study every day». ことになる: it's decided, but not by you (school, work, circumstances): テストをすることになった, «it's been decided there'll be a test». Sometimes ことになる is used out of modesty, even for your own decision, so as not to sound like you're imposing anything."
+   },
+   "ejemplos": [
+    {
+     "jp": "毎日[まいにち] 勉強[べんきょう]する ことに します！",
+     "es": "¡He decidido estudiar todos los días!",
+     "en": "I've decided to study every day!",
+     "voz": "r1-1"
+    },
+    {
+     "jp": "毎週[まいしゅう] テストを する ことに なりました。",
+     "es": "Ha quedado decidido que habrá examen cada semana.",
+     "en": "It's been decided there'll be a test every week.",
+     "voz": "r1-2"
+    }
+   ],
+   "ojo": {
+    "es": "ことにしている es una costumbre que te has impuesto: 毎朝走ることにしている, «tengo por norma correr cada mañana».",
+    "en": "ことにしている is a habit you've set yourself: 毎朝走ることにしている, «I make a point of running every morning»."
+   }
+  },
+  {
+   "id": "youninaru",
+   "nombre": {
+    "es": "〜ようになる／〜ようにする: llegar a… y procurar…",
+    "en": "〜ようになる／〜ようにする: come to… and make sure to…"
+   },
+   "patron": {
+    "es": "〔diccionario／potencial〕ようになる ・ 〔diccionario／ない〕ようにする",
+    "en": "〔dictionary／potential〕ようになる ・ 〔dictionary／ない〕ようにする"
+   },
+   "explica": {
+    "es": "ようになる cuenta un cambio que llega con el tiempo: 読めるようになった, «ya sé leer (antes no)». ようにする es un esfuerzo continuo para que algo pase o no pase: 早く起きるようにする, «procuraré levantarme temprano»; 食べすぎないようにする, «procuraré no comer demasiado». Es menos tajante que ことにする: no es una decisión de golpe, sino un hábito que intentas mantener.",
+    "en": "ようになる tells of a change that comes over time: 読めるようになった, «I can read now (I couldn't before)». ようにする is an ongoing effort so something happens or doesn't: 早く起きるようにする, «I'll try to get up early»; 食べすぎないようにする, «I'll make sure not to overeat». It's softer than ことにする: not a sudden decision, but a habit you try to keep."
+   },
+   "ejemplos": [
+    {
+     "jp": "平仮名[ひらがな]が 読[よ]めるように なりました！",
+     "es": "¡Ya sé leer hiragana!",
+     "en": "I can read hiragana now!",
+     "voz": "r2-1"
+    },
+    {
+     "jp": "早[はや]く 起[お]きるように します。",
+     "es": "Procuraré levantarme temprano.",
+     "en": "I'll try to get up early.",
+     "voz": "r2-2"
+    }
+   ],
+   "ojo": {
+    "es": "Con el potencial (読める, 話せる), ようになる es la forma natural de decir «ya soy capaz de…»: 日本語が話せるようになった.",
+    "en": "With the potential (読める, 話せる), ようになる is the natural way to say «I've become able to…»: 日本語が話せるようになった."
+   }
+  }
+ ],
+ "historia": [
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "初詣[はつもうで]です！ 今年[ことし]の 目標[もくひょう]を 決[き]めましょう。",
+   "tr": {
+    "es": "¡Es el 初詣! Decidamos los propósitos del año.",
+    "en": "It's 初詣! Let's decide this year's resolutions."
+   },
+   "voz": "h1",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "hatsumode",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 310
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "わたしは 毎日[まいにち] 勉強[べんきょう]する ことに します！",
+   "tr": {
+    "es": "¡He decidido estudiar todos los días!",
+    "en": "I've decided to study every day!"
+   },
+   "voz": "h2",
+   "cara": "feliz",
+   "brazo": "arriba"
+  },
+  {
+   "t": "regla",
+   "regla": "kotonisuru"
+  },
+  {
+   "t": "dice",
+   "habla": "sensei",
+   "jp": "三学期[さんがっき]から、 毎週[まいしゅう] テストを する ことに なりました。",
+   "tr": {
+    "es": "Se ha decidido que, a partir del tercer trimestre, habrá examen cada semana.",
+    "en": "It's been decided that from the third term, there'll be a test every week."
+   },
+   "voz": "h3",
+   "reacciona": {
+    "nyan": "sorpresa",
+    "tama": "sorpresa"
+   },
+   "escena": {
+    "fondo": "hatsumode",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 170
+     },
+     {
+      "que": "sensei",
+      "id": "sensei",
+      "x": 330
+     }
+    ]
+   }
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "Lo ha decidido la escuela, no Nyan. ¿Cómo se lo cuenta Nyan a Kotarō?",
+    "en": "The school decided it, not Nyan. How does Nyan tell Kotarō?"
+   },
+   "opciones": [
+    {
+     "jp": "毎週[まいしゅう] テストを する ことに なりました…。",
+     "bien": true,
+     "tr": {
+      "es": "Ha quedado decidido que habrá examen cada semana…",
+      "en": "It's been decided there'll be a test every week…"
+     },
+     "voz": "h4",
+     "porque": {
+      "es": "ことになる: queda decidido, pero no por ti.",
+      "en": "ことになる: it's been decided, but not by you."
+     }
+    },
+    {
+     "jp": "毎週[まいしゅう] テストを する ことに しました…。",
+     "bien": false,
+     "porque": {
+      "es": "ことにした sonaría a que lo has decidido TÚ… ¡y no ha sido así! Si decide otro (la escuela), ことになる.",
+      "en": "ことにした would sound like YOU decided it… and you didn't! If someone else decides (the school), ことになる."
+     }
+    },
+    {
+     "jp": "毎週[まいしゅう] テストを する ように なりました…。",
+     "bien": false,
+     "porque": {
+      "es": "ようになる es un cambio que llega poco a poco; una decisión de la escuela es ことになる.",
+      "en": "ようになる is a change that comes gradually; a school decision is ことになる."
+     }
+    }
+   ],
+   "cara": "triste",
+   "escena": {
+    "fondo": "hatsumode",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "perro",
+      "id": "kotaro",
+      "x": 310
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "youninaru"
+  },
+  {
+   "t": "dice",
+   "habla": "kotaro",
+   "jp": "ぼくは 平仮名[ひらがな]が 読[よ]めるように なりました！",
+   "tr": {
+    "es": "¡Yo ya sé leer hiragana!",
+    "en": "I can read hiragana now!"
+   },
+   "voz": "h5",
+   "cara": "feliz",
+   "reacciona": {
+    "nyan": "sorpresa"
+   },
+   "escena": {
+    "fondo": "hatsumode",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "perro",
+      "id": "kotaro",
+      "x": 310
+     }
+    ]
+   }
+  },
+  {
+   "t": "monta",
+   "encargo": 0
+  },
+  {
+   "t": "dice",
+   "habla": "kage",
+   "jp": "俺[おれ]は 太鼓[たいこ]が 上手[じょうず]に なるように、 毎日[まいにち] 練習[れんしゅう]する。",
+   "tr": {
+    "es": "Yo practicaré cada día para tocar mejor el tambor.",
+    "en": "I'll practise every day to get better at the drum."
+   },
+   "voz": "h6",
+   "cara": "decidido",
+   "escena": {
+    "fondo": "hatsumode",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 220
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 330
+     }
+    ]
+   }
+  },
+  {
+   "t": "toca",
+   "pide": {
+    "es": "¿Dónde escribe Tama su propósito? Escucha y tócalo.",
+    "en": "Where does Tama write her resolution? Listen and tap it."
+   },
+   "bien": "ema",
+   "quien": "tama",
+   "escena": {
+    "fondo": "hatsumode",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 65
+     },
+     {
+      "que": "ema",
+      "x": 160,
+      "id": "ema",
+      "s": 1.0
+     },
+     {
+      "que": "hagaki",
+      "x": 215,
+      "id": "hagaki",
+      "s": 0.9
+     },
+     {
+      "que": "otoshidama",
+      "x": 268,
+      "id": "otoshidama",
+      "s": 0.9
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 345
+     }
+    ]
+   },
+   "jp": "絵馬[えま]に 目標[もくひょう]を 書[か]く ことに しました。",
+   "voz": "h7",
+   "bien_msg": {
+    "es": "¡Eso! El 絵馬: la tablilla de los deseos, como en Hokkaido.",
+    "en": "Right! The 絵馬: the wish plaque, like in Hokkaido."
+   },
+   "mal_msg": {
+    "es": "Ha dicho 絵馬: la tablilla de madera de los deseos.",
+    "en": "She said 絵馬: the wooden wish plaque."
+   }
+  },
+  {
+   "t": "elige",
+   "habla": "tama",
+   "pide": {
+    "es": "Tama resume su propósito: no comer tantos dulces. ¿Qué dice?",
+    "en": "Tama sums up her resolution: not eating so many sweets. What does she say?"
+   },
+   "opciones": [
+    {
+     "jp": "お菓子[かし]を 食[た]べすぎないように します。",
+     "bien": true,
+     "tr": {
+      "es": "Procuraré no comer demasiados dulces.",
+      "en": "I'll try not to eat too many sweets."
+     },
+     "voz": "h8",
+     "porque": {
+      "es": "ようにする + negativo: esforzarte para que algo NO pase.",
+      "en": "ようにする + negative: making an effort so something DOESN'T happen."
+     }
+    },
+    {
+     "jp": "お菓子[かし]を 食[た]べすぎないように なります。",
+     "bien": false,
+     "porque": {
+      "es": "ようになる es un cambio que llega solo; para un propósito que te esfuerzas en cumplir, ようにする.",
+      "en": "ようになる is a change that comes by itself; for a resolution you work at, ようにする."
+     }
+    },
+    {
+     "jp": "お菓子[かし]を 食[た]べすぎない ことに なります。",
+     "bien": false,
+     "porque": {
+      "es": "ことになる: lo deciden otros. Un propósito tuyo es ようにする (o ことにする).",
+      "en": "ことになる: others decide it. Your own resolution is ようにする (or ことにする)."
+     }
+    }
+   ],
+   "cara": "pensando",
+   "escena": {
+    "fondo": "hatsumode",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 310
+     }
+    ]
+   }
+  }
+ ],
+ "epilogo": [
+  {
+   "t": "dice",
+   "habla": "sensei",
+   "jp": "みなさん、 今年[ことし]も がんばりましょう。",
+   "tr": {
+    "es": "Este año, ¡a esforzarse todos!",
+    "en": "Let's all do our best this year!"
+   },
+   "voz": "x1",
+   "escena": {
+    "fondo": "hatsumode",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 170
+     },
+     {
+      "que": "sensei",
+      "id": "sensei",
+      "x": 330
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "はい！",
+   "tr": {
+    "es": "¡Sí!",
+    "en": "Yes!"
+   },
+   "voz": "x2",
+   "cara": "feliz",
+   "brazo": "arriba"
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta la frase: la escena hará lo que digas.",
+   "en": "Build the sentence: the scene will do what you say."
+  },
+  "piezas": [
+   {
+    "id": "hayaku",
+    "jp": "早[はや]く",
+    "tipo": "palabra"
+   },
+   {
+    "id": "okiru",
+    "jp": "起[お]きる",
+    "tipo": "verbo"
+   },
+   {
+    "id": "youni",
+    "jp": "ように",
+    "tipo": "particula"
+   },
+   {
+    "id": "kotoni",
+    "jp": "ことに",
+    "tipo": "particula"
+   },
+   {
+    "id": "shimasu",
+    "jp": "します",
+    "tipo": "verbo"
+   },
+   {
+    "id": "narimasu",
+    "jp": "なります",
+    "tipo": "verbo"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Nyan también se propone algo: «Procuraré levantarme temprano»",
+     "en": "Nyan makes a resolution too: «I'll try to get up early»"
+    },
+    "escena": {
+     "fondo": "hatsumode",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 80
+      },
+      {
+       "que": "gato",
+       "id": "tama",
+       "x": 310
+      }
+     ]
+    },
+    "piezas": [
+     "hayaku",
+     "okiru",
+     "youni",
+     "kotoni",
+     "shimasu",
+     "narimasu"
+    ],
+    "bien": [
+     [
+      "hayaku",
+      "okiru",
+      "youni",
+      "shimasu"
+     ],
+     [
+      "hayaku",
+      "okiru",
+      "kotoni",
+      "shimasu"
+     ]
+    ],
+    "tr": {
+     "es": "Procuraré levantarme temprano.",
+     "en": "I'll try to get up early."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "manpu",
+      "objeto": "tama",
+      "manpu": "brillo"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "youni",
+        "narimasu"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "ようになります es «llegaré a madrugar», un cambio que viene solo. Nyan quiere ESFORZARSE: ようにします.",
+       "en": "ようになります is «I'll come to get up early», a change that just happens. Nyan wants to MAKE THE EFFORT: ようにします."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "kotoni",
+        "narimasu"
+       ]
+      },
+      "efecto": {
+       "tipo": "manpu",
+       "objeto": "tama",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "ことになります es «queda decidido (por otros)». Es tu propósito: ようにします (o ことにします).",
+       "en": "ことになります is «it's decided (by others)». It's your own resolution: ようにします (or ことにします)."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "reto": {
+  "intro": {
+   "jp": "ふん。 今年[ことし]は お前[まえ]に 負[ま]けない ことに した。",
+   "tr": {
+    "es": "Hmpf. Este año he decidido no perder contra ti.",
+    "en": "Hmph. This year I've decided not to lose to you."
+   },
+   "voz": "k0"
+  },
+  "gana": {
+   "jp": "…くっ。 もっと 強[つよ]く なるように する。",
+   "tr": {
+    "es": "…Tsk. Procuraré hacerme más fuerte.",
+    "en": "…Tch. I'll make sure to get stronger."
+   },
+   "voz": "kw"
+  },
+  "pierde": {
+   "jp": "ふん。 やっぱり 俺[おれ]の 勝[か]ちと いう ことに なるな。",
+   "tr": {
+    "es": "Hmpf. Pues queda decidido que gano yo.",
+    "en": "Hmph. So it's decided: I win."
+   },
+   "voz": "kl"
+  },
+  "pica": {
+   "jp": "…やるな。",
+   "tr": {
+    "es": "…No está mal.",
+    "en": "…Not bad."
+   },
+   "voz": "kp"
+  },
+  "burla": {
+   "jp": "ふん！",
+   "tr": {
+    "es": "¡Ja!",
+    "en": "Hah!"
+   },
+   "voz": "kb"
+  },
+  "preguntas": [
+   {
+    "tipo": "elige",
+    "jp": "来年[らいねん]、 日本[にほん]に 行[い]く ことに ＿ました。",
+    "opciones": [
+     "し",
+     "あり",
+     "い"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "He decidido ir a Japón el año que viene.",
+     "en": "I've decided to go to Japan next year."
+    },
+    "porque": {
+     "es": "Decisión tuya: ことにしました.",
+     "en": "Your own decision: ことにしました."
+    },
+    "voz": "q1"
+   },
+   {
+    "tipo": "elige",
+    "jp": "毎日[まいにち] 練習[れんしゅう]して、 泳[およ]げるように ＿ました。",
+    "opciones": [
+     "なり",
+     "あり",
+     "い"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Practicando cada día, he aprendido a nadar.",
+     "en": "Practising every day, I learned to swim."
+    },
+    "porque": {
+     "es": "Un cambio con el tiempo: ようになりました.",
+     "en": "A change over time: ようになりました."
+    },
+    "voz": "q2"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "野菜[やさい]を 食[た]べるように して います。",
+    "correcta": true,
+    "tr": {
+     "es": "Procuro comer verdura.",
+     "en": "I try to eat vegetables."
+    },
+    "porque": {
+     "es": "Bien: ようにする, un hábito que intentas mantener.",
+     "en": "Right: ようにする, a habit you try to keep."
+    },
+    "voz": "q3"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "日本語[にほんご]が 話[はな]せる ことに なりました。",
+    "correcta": false,
+    "tr": {
+     "es": "(Ya sé hablar japonés.)",
+     "en": "(I can speak Japanese now.)"
+    },
+    "porque": {
+     "es": "Para «ya sé…», ようになる: 話せるようになりました. ことになる es «quedó decidido».",
+     "en": "For «I can now…», ようになる: 話せるようになりました. ことになる is «it was decided»."
+    },
+    "voz": "q4"
+   },
+   {
+    "tipo": "oye",
+    "jp": "来月[らいげつ]、 引[ひ]っ越[こ]す ことに なりました。",
+    "habla": "sensei",
+    "opciones": [
+     {
+      "es": "Ha quedado decidido que me mudo el mes que viene.",
+      "en": "It's been decided I'm moving next month."
+     },
+     {
+      "es": "He decidido mudarme.",
+      "en": "I've decided to move."
+     },
+     {
+      "es": "Ya sé mudarme.",
+      "en": "I can move now."
+     }
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "ことになりました: lo han decidido las circunstancias (o por modestia).",
+     "en": "ことになりました: circumstances decided it (or it's said modestly)."
+    },
+    "voz": "q5"
+   },
+   {
+    "tipo": "imagen",
+    "jp": "絵馬[えま]に 目標[もくひょう]を 書[か]く ことに しました。",
+    "opciones": [
+     "ema",
+     "hagaki",
+     "otoshidama"
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "絵馬: la tablilla de los deseos.",
+     "en": "絵馬: the wish plaque."
+    },
+    "pide": {
+     "es": "¿Dónde lo escribe?",
+     "en": "Where does she write it?"
+    }
+   }
+  ]
+ },
+ "siguiente": {
+  "es": "¡Os han dado お年玉, el dinero de Año Nuevo! En la tiendecita de chucherías del barrio todo parece posible… si tuvierais más dinero.",
+  "en": "You got お年玉, New Year money! At the neighbourhood sweet shop anything seems possible… if only you had more money."
+ },
+ "chuleta": {
+  "patron": {
+   "es": "ことにする／ことになる ・ ようになる／ようにする",
+   "en": "ことにする／ことになる ・ ようになる／ようにする"
+  },
+  "patron_tr": {
+   "es": "decido / queda decidido ・ llego a / procuro",
+   "en": "I decide / it's decided ・ I come to / I make sure to"
+  },
+  "filas": [
+   {
+    "jp": "今年[ことし]から 日記[にっき]を 書[か]く ことに しました。",
+    "es": "Desde este año, he decidido escribir un diario.",
+    "en": "From this year, I've decided to keep a diary.",
+    "registro": "educado"
+   },
+   {
+    "jp": "最近[さいきん]、 漢字[かんじ]が 読[よ]めるように なった！",
+    "es": "¡Últimamente ya leo kanji! (a un amigo)",
+    "en": "I can read kanji now! (to a friend)",
+    "registro": "amigos"
+   },
+   {
+    "jp": "遅[おく]れないように します。",
+    "es": "Procuraré no llegar tarde.",
+    "en": "I'll make sure not to be late."
+   }
+  ],
+  "consejo": {
+   "es": "El 初詣 es la visita más concurrida del año: en los grandes santuarios de Tokio pasan millones de personas los tres primeros días de enero.",
+   "en": "初詣 is the busiest visit of the year: the big Tokyo shrines see millions of people in the first three days of January."
+  }
+ }
+}

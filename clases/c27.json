@@ -1,0 +1,772 @@
+{
+ "id": "c27",
+ "clase": 27,
+ "desde": 600,
+ "titulo": {
+  "es": "La お年玉: 〜ば y なら",
+  "en": "The お年玉: 〜ば and なら"
+ },
+ "resumen": {
+  "es": "Dos formas de decir «si». 〜ば cambia el final del verbo o adjetivo: una idea, sin más. なら deja la palabra igual y reacciona a algo que YA se ha dicho.",
+  "en": "Two ways to say “if”. 〜ば changes the end of the verb or adjective: just an idea, nothing more. なら leaves the word as it is and reacts to something ALREADY said."
+ },
+ "formato": 2,
+ "lugar": "dagashi",
+ "mision": {
+  "texto": {
+   "es": "¡Os han dado お年玉, el dinero que los mayores regalan a los niños en Año Nuevo! En la tiendecita de chucherías del barrio todo parece posible… si tuvierais más dinero. Imagina con ば y reacciona a lo que dicen los demás con なら.",
+   "en": "You got お年玉, the money grown-ups give children at New Year! At the neighbourhood sweet shop anything seems possible… if only you had more money. Imagine with ば and react to what others say with なら."
+  },
+  "escena": {
+   "fondo": "dagashi",
+   "cosas": [
+    {
+     "que": "nyan",
+     "x": 80
+    },
+    {
+     "que": "otoshidama",
+     "x": 200,
+     "id": "otoshidama",
+     "s": 1.0
+    },
+    {
+     "que": "gato",
+     "id": "tama",
+     "x": 320
+    }
+   ]
+  },
+  "cara": "feliz",
+  "jp": "お年玉[としだま]！",
+  "voz": "m0"
+ },
+ "reglas": [
+  {
+   "id": "ba",
+   "nombre": {
+    "es": "〜ば: si…",
+    "en": "〜ば: if…"
+   },
+   "patron": {
+    "es": "verbo: u → e + ば ・ adj. い: い → ければ",
+    "en": "verb: u → e + ば ・ い adj.: い → ければ"
+   },
+   "explica": {
+    "es": "ば plantea una condición y lo que pasaría si se cumple. Verbos: cambia la última u por e y añade ば (買う → 買えば, ある → あれば, 食べる → 食べれば; する → すれば, 来る → くれば). Adjetivos en い: い → ければ (安い → 安ければ; いい → よければ). Suena a razonamiento, «si tal, entonces cual». Con deseos que no se cumplen, a menudo acaba en のに: 安ければ買えるのに, «si fuera más barato, podría comprarlo (pero no)».",
+    "en": "ば sets a condition and what would happen if it's met. Verbs: change the final u to e and add ば (買う → 買えば, ある → あれば, 食べる → 食べれば; する → すれば, 来る → くれば). い adjectives: い → ければ (安い → 安ければ; いい → よければ). It sounds like reasoning, «if this, then that». With wishes that don't come true, it often ends in のに: 安ければ買えるのに, «if it were cheaper, I could buy it (but no)»."
+   },
+   "ejemplos": [
+    {
+     "jp": "お金[かね]が もっと あれば、 全部[ぜんぶ] 買[か]います！",
+     "es": "¡Si tuviera más dinero, lo compraría todo!",
+     "en": "If I had more money, I'd buy everything!",
+     "voz": "r1-1"
+    },
+    {
+     "jp": "もっと 安[やす]ければ、 買[か]えるのに。",
+     "es": "Si fuera más barato, podría comprarlo.",
+     "en": "If it were cheaper, I could buy it.",
+     "voz": "r1-2"
+    }
+   ],
+   "ojo": {
+    "es": "Con nombres y adjetivos en な, la forma de ば es なら(ば): 雨なら, 静かなら. Por eso なら tiene carta propia.",
+    "en": "With nouns and な adjectives, the ば form is なら(ば): 雨なら, 静かなら. That's why なら gets its own card."
+   }
+  },
+  {
+   "id": "nara",
+   "nombre": {
+    "es": "なら: si es así…, en ese caso…",
+    "en": "なら: if that's the case…"
+   },
+   "patron": {
+    "es": "〔lo que dice el otro〕なら、〔consejo o reacción〕",
+    "en": "〔what the other said〕なら、〔advice or reaction〕"
+   },
+   "explica": {
+    "es": "なら recoge algo que acaba de salir en la conversación (o que ves en la situación) y dice algo sobre ESO: A: ラムネを買いたい。 B: ラムネを買うなら、この店が一番, «si vas a comprar ramune, esta tienda es la mejor». Es el «si es eso lo que…» del español, y por eso es ideal para dar consejos y recomendaciones. Va detrás de la forma corta o de un nombre, sin だ.",
+    "en": "なら picks up something just mentioned in the conversation (or visible in the situation) and says something about THAT: A: ラムネを買いたい。 B: ラムネを買うなら、この店が一番, «if you're buying ramune, this shop's the best». It's «if that's what…», which makes it ideal for advice and recommendations. It follows the short form or a noun, without だ."
+   },
+   "ejemplos": [
+    {
+     "jp": "ラムネを 買[か]うなら、 この 店[みせ]が 一番[いちばん]だ。",
+     "es": "Si vas a comprar ramune, esta tienda es la mejor.",
+     "en": "If you're buying ramune, this shop's the best.",
+     "voz": "r2-1"
+    },
+    {
+     "jp": "甘[あま]い ものなら、 あの 飴[あめ]が おいしいぞ。",
+     "es": "Si es algo dulce, esos caramelos están buenos.",
+     "en": "If it's something sweet, those sweets are good.",
+     "voz": "r2-2"
+    }
+   ],
+   "ojo": {
+    "es": "Con verbos, なら puede ir ANTES de que pase la acción: 買うなら、先に見て, «si vas a comprar, mira antes». たら, en cambio, imagina la acción ya hecha.",
+    "en": "With verbs, なら can come BEFORE the action happens: 買うなら、先に見て, «if you're going to buy, look first». たら, on the other hand, pictures the action done."
+   }
+  }
+ ],
+ "historia": [
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "お年玉[としだま]を もらいました！",
+   "tr": {
+    "es": "¡Me han dado la お年玉!",
+    "en": "I got my お年玉!"
+   },
+   "voz": "h1",
+   "cara": "feliz",
+   "brazo": "arriba",
+   "escena": {
+    "fondo": "dagashi",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "otoshidama",
+      "x": 200,
+      "id": "otoshidama",
+      "s": 1.0
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 320
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "何[なに]を 買[か]いますか。",
+   "tr": {
+    "es": "¿Qué vas a comprar?",
+    "en": "What will you buy?"
+   },
+   "voz": "h2",
+   "cara": "feliz"
+  },
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "お金[かね]が もっと あれば、 全部[ぜんぶ] 買[か]います！",
+   "tr": {
+    "es": "¡Si tuviera más dinero, lo compraría todo!",
+    "en": "If I had more money, I'd buy everything!"
+   },
+   "voz": "h3",
+   "cara": "feliz"
+  },
+  {
+   "t": "regla",
+   "regla": "ba"
+  },
+  {
+   "t": "elige",
+   "habla": "kotaro",
+   "pide": {
+    "es": "Kotarō mira un juguete carísimo. Termina su frase: «Si fuera más barato…»",
+    "en": "Kotarō stares at a very pricey toy. Finish his line: «If it were cheaper…»"
+   },
+   "opciones": [
+    {
+     "jp": "もっと 安[やす]ければ、 買[か]えるのに…。",
+     "bien": true,
+     "tr": {
+      "es": "Si fuera más barato, podría comprarlo…",
+      "en": "If it were cheaper, I could buy it…"
+     },
+     "voz": "h4",
+     "porque": {
+      "es": "Adjetivo en い: la い pasa a ければ: 安ければ.",
+      "en": "い adjective: い becomes ければ: 安ければ."
+     }
+    },
+    {
+     "jp": "もっと 安[やす]いば、 買[か]えるのに…。",
+     "bien": false,
+     "porque": {
+      "es": "Con adjetivos en い, la い pasa a ければ: 安ければ. 安いば no existe.",
+      "en": "With い adjectives, い becomes ければ: 安ければ. 安いば doesn't exist."
+     }
+    },
+    {
+     "jp": "もっと 安[やす]くれば、 買[か]えるのに…。",
+     "bien": false,
+     "porque": {
+      "es": "La forma ば del adjetivo es ければ, no くれば: 安い → 安ければ.",
+      "en": "The adjective's ば form is ければ, not くれば: 安い → 安ければ."
+     }
+    }
+   ],
+   "cara": "pensando",
+   "escena": {
+    "fondo": "dagashi",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "perro",
+      "id": "kotaro",
+      "x": 220
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 330
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "kage",
+   "jp": "ラムネを 買[か]うなら、 この 店[みせ]が 一番[いちばん]だ。",
+   "tr": {
+    "es": "Si vas a comprar ramune, esta tienda es la mejor.",
+    "en": "If you're buying ramune, this shop's the best."
+   },
+   "voz": "h5",
+   "cara": "presumido",
+   "reacciona": {
+    "nyan": "feliz"
+   },
+   "escena": {
+    "fondo": "dagashi",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 250
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 340
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "nara"
+  },
+  {
+   "t": "elige",
+   "habla": "kage",
+   "pide": {
+    "es": "Tama dice que le apetece algo dulce. Kage reacciona:",
+    "en": "Tama says she fancies something sweet. Kage reacts:"
+   },
+   "opciones": [
+    {
+     "jp": "甘[あま]い ものなら、 あの 飴[あめ]が おいしいぞ。",
+     "bien": true,
+     "tr": {
+      "es": "Si lo que quieres es algo dulce, esos caramelos están buenos.",
+      "en": "If it's something sweet you want, those sweets are good."
+     },
+     "voz": "h6",
+     "porque": {
+      "es": "なら recoge lo que ha dicho el otro («algo dulce») y da un consejo sobre ESO.",
+      "en": "なら picks up what the other person said («something sweet») and gives advice about THAT."
+     }
+    },
+    {
+     "jp": "甘[あま]い ものければ、 あの 飴[あめ]が おいしいぞ。",
+     "bien": false,
+     "porque": {
+      "es": "ければ es para adjetivos en い; detrás de un nombre (もの), なら.",
+      "en": "ければ is for い adjectives; after a noun (もの), なら."
+     }
+    },
+    {
+     "jp": "甘[あま]い ものと、 あの 飴[あめ]が おいしいぞ。",
+     "bien": false,
+     "porque": {
+      "es": "と une cosas o marca consecuencias automáticas; para reaccionar a lo que ha dicho el otro, なら.",
+      "en": "と joins things or marks automatic results; to react to what someone said, なら."
+     }
+    }
+   ],
+   "cara": "pensando",
+   "escena": {
+    "fondo": "dagashi",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 250
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 340
+     }
+    ]
+   }
+  },
+  {
+   "t": "monta",
+   "encargo": 0
+  },
+  {
+   "t": "toca",
+   "pide": {
+    "es": "Tama también se decide. Escucha y toca lo que compra.",
+    "en": "Tama makes up her mind too. Listen and tap what she buys."
+   },
+   "bien": "mikan",
+   "quien": "tama",
+   "escena": {
+    "fondo": "dagashi",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 65
+     },
+     {
+      "que": "senbei",
+      "x": 160,
+      "id": "senbei",
+      "s": 1.0
+     },
+     {
+      "que": "mikan",
+      "x": 215,
+      "id": "mikan",
+      "s": 1.0
+     },
+     {
+      "que": "daruma",
+      "x": 268,
+      "id": "daruma",
+      "s": 0.95
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 345
+     }
+    ]
+   },
+   "jp": "みかんなら、 わたしも 買[か]います！",
+   "voz": "h7",
+   "bien_msg": {
+    "es": "¡Eso! Las みかん. みかんなら: «si son mandarinas, yo también».",
+    "en": "Right! The みかん. みかんなら: «if it's mandarins, me too»."
+   },
+   "mal_msg": {
+    "es": "Ha dicho みかん: las mandarinas.",
+    "en": "She said みかん: the mandarins."
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "kage",
+   "jp": "…ふん。 お年玉[としだま]が あれば 何[なん]でも できると 思[おも]うな。",
+   "tr": {
+    "es": "…Hmpf. No creas que con la お年玉 puedes hacerlo todo.",
+    "en": "…Hmph. Don't think you can do anything just because you've got お年玉."
+   },
+   "voz": "h8",
+   "cara": "presumido",
+   "escena": {
+    "fondo": "dagashi",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 250
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 340
+     }
+    ]
+   }
+  }
+ ],
+ "epilogo": [
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "ラムネ、 おいしい！",
+   "tr": {
+    "es": "¡Qué rica la ramune!",
+    "en": "Ramune's so good!"
+   },
+   "voz": "x1",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "dagashi",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 250
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 340
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "今年[ことし]は お金[かね]を 大事[だいじ]に 使[つか]いましょうね。",
+   "tr": {
+    "es": "Este año, a gastar el dinero con cabeza, ¿eh?",
+    "en": "This year, let's spend our money wisely, OK?"
+   },
+   "voz": "x2",
+   "cara": "feliz"
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta la frase: la escena hará lo que digas.",
+   "en": "Build the sentence: the scene will do what you say."
+  },
+  "piezas": [
+   {
+    "id": "kaeba",
+    "jp": "買[か]えば",
+    "tipo": "verbo"
+   },
+   {
+    "id": "kauba",
+    "jp": "買[か]うば",
+    "tipo": "verbo"
+   },
+   {
+    "id": "kattara",
+    "jp": "買[か]ったら",
+    "tipo": "verbo"
+   },
+   {
+    "id": "nakunarimasu",
+    "jp": "なくなります",
+    "tipo": "verbo"
+   },
+   {
+    "id": "arimasu",
+    "jp": "あります",
+    "tipo": "verbo"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Nyan hace cuentas con su sobre: «Si lo compro (todo), se acaba (el dinero)».",
+     "en": "Nyan does the maths with his envelope: «If I buy it (all), it's gone (the money)»."
+    },
+    "escena": {
+     "fondo": "dagashi",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 80
+      },
+      {
+       "que": "otoshidama",
+       "x": 200,
+       "id": "otoshidama",
+       "s": 1.0
+      },
+      {
+       "que": "gato",
+       "id": "tama",
+       "x": 320
+      }
+     ]
+    },
+    "piezas": [
+     "kaeba",
+     "kauba",
+     "kattara",
+     "nakunarimasu",
+     "arimasu"
+    ],
+    "bien": [
+     [
+      "kaeba",
+      "nakunarimasu"
+     ],
+     [
+      "kattara",
+      "nakunarimasu"
+     ]
+    ],
+    "tr": {
+     "es": "Si lo compro, se me acaba.",
+     "en": "If I buy it, it's gone."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "desaparece",
+      "objeto": "otoshidama"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "sorpresa",
+      "manpu": "sudor"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "kauba"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "Los verbos en u cambian la u por e y añaden ば: 買う → 買えば.",
+       "en": "u verbs change the u to e and add ば: 買う → 買えば."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "arimasu"
+       ]
+      },
+      "efecto": {
+       "tipo": "manpu",
+       "objeto": "tama",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "«Si lo compro, hay (dinero)»… ¡al revés! Al gastarlo, se acaba: なくなります.",
+       "en": "«If I buy it, there is (money)»… backwards! Spend it and it's gone: なくなります."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "reto": {
+  "intro": {
+   "jp": "ふん。 勝負[しょうぶ]するなら、 お年玉[としだま]を 賭[か]けろ。",
+   "tr": {
+    "es": "Hmpf. Si vamos a batirnos, apuesta tu お年玉.",
+    "en": "Hmph. If we're duelling, bet your お年玉."
+   },
+   "voz": "k0"
+  },
+  "gana": {
+   "jp": "…くっ。 もっと 練習[れんしゅう]すれば よかった。",
+   "tr": {
+    "es": "…Tsk. Tendría que haber practicado más.",
+    "en": "…Tch. I should've practised more."
+   },
+   "voz": "kw"
+  },
+  "pierde": {
+   "jp": "ふん。 勉強[べんきょう]すれば、 勝[か]てるかもな。",
+   "tr": {
+    "es": "Hmpf. Si estudias, igual ganas.",
+    "en": "Hmph. If you study, maybe you'll win."
+   },
+   "voz": "kl"
+  },
+  "pica": {
+   "jp": "…やるな。",
+   "tr": {
+    "es": "…No está mal.",
+    "en": "…Not bad."
+   },
+   "voz": "kp"
+  },
+  "burla": {
+   "jp": "ふん！",
+   "tr": {
+    "es": "¡Ja!",
+    "en": "Hah!"
+   },
+   "voz": "kb"
+  },
+  "preguntas": [
+   {
+    "tipo": "elige",
+    "jp": "時間[じかん]が あれ＿、 手伝[てつだ]います。",
+    "opciones": [
+     "ば",
+     "たら",
+     "なら"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Si tengo tiempo, te ayudo.",
+     "en": "If I have time, I'll help."
+    },
+    "porque": {
+     "es": "ある → あれ + ば: あれば.",
+     "en": "ある → あれ + ば: あれば."
+    },
+    "voz": "q1"
+   },
+   {
+    "tipo": "elige",
+    "jp": "寿司[すし]＿、 あの 店[みせ]が おいしいですよ。",
+    "opciones": [
+     "なら",
+     "ば",
+     "と"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Si es sushi lo que buscas, ese sitio está bueno.",
+     "en": "If it's sushi you want, that place is good."
+    },
+    "porque": {
+     "es": "Reaccionas a un tema (sushi) con un consejo: なら.",
+     "en": "Reacting to a topic (sushi) with advice: なら."
+    },
+    "voz": "q2"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "天気[てんき]が よければ、 公園[こうえん]に 行[い]きます。",
+    "correcta": true,
+    "tr": {
+     "es": "Si hace buen tiempo, voy al parque.",
+     "en": "If the weather's good, I'll go to the park."
+    },
+    "porque": {
+     "es": "Bien: いい → よければ.",
+     "en": "Right: いい → よければ."
+    },
+    "voz": "q3"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "安[やす]いば、 買[か]います。",
+    "correcta": false,
+    "tr": {
+     "es": "(Si es barato, lo compro.)",
+     "en": "(If it's cheap, I'll buy it.)"
+    },
+    "porque": {
+     "es": "安い → 安ければ.",
+     "en": "安い → 安ければ."
+    },
+    "voz": "q4"
+   },
+   {
+    "tipo": "oye",
+    "jp": "北海道[ほっかいどう]に 行[い]くなら、 冬[ふゆ]が いいですよ。",
+    "habla": "tama",
+    "opciones": [
+     {
+      "es": "Si vas a ir a Hokkaido, mejor en invierno.",
+      "en": "If you're going to Hokkaido, winter's best."
+     },
+     {
+      "es": "Cuando fui a Hokkaido, era invierno.",
+      "en": "When I went to Hokkaido, it was winter."
+     },
+     {
+      "es": "Siempre que voy a Hokkaido, es invierno.",
+      "en": "Whenever I go to Hokkaido, it's winter."
+     }
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "なら: si ese es tu plan, te aconsejo esto.",
+     "en": "なら: if that's your plan, here's my advice."
+    },
+    "voz": "q5"
+   },
+   {
+    "tipo": "imagen",
+    "jp": "お年玉[としだま]が あれば、 何[なに]を 買[か]いますか。",
+    "opciones": [
+     "otoshidama",
+     "hagaki",
+     "kusuri"
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "お年玉: el sobrecito con el dinero de Año Nuevo.",
+     "en": "お年玉: the little envelope of New Year money."
+    },
+    "pide": {
+     "es": "¿Qué le han dado?",
+     "en": "What was he given?"
+    }
+   }
+  ]
+ },
+ "siguiente": {
+  "es": "¡Ha nevado en el barrio! Día de trineos: cuanto más alta la cuesta, más rápido se baja… y más miedo da.",
+  "en": "It's snowed in town! Sledding day: the higher the slope, the faster you go… and the scarier it gets."
+ },
+ "chuleta": {
+  "patron": {
+   "es": "〔u → e〕ば ・ 〔adj. い → ければ〕 ・ 〔tema〕なら",
+   "en": "〔u → e〕ば ・ 〔い adj. → ければ〕 ・ 〔topic〕なら"
+  },
+  "patron_tr": {
+   "es": "si… ・ si es eso lo que…",
+   "en": "if… ・ if that's what…"
+  },
+  "filas": [
+   {
+    "jp": "時間[じかん]が あれば、 手伝[てつだ]います。",
+    "es": "Si tengo tiempo, te ayudo.",
+    "en": "If I have time, I'll help.",
+    "registro": "educado"
+   },
+   {
+    "jp": "ラーメンなら、 あそこが いいよ。",
+    "es": "Si es ramen, ese sitio está bien. (a un amigo)",
+    "en": "For ramen, that place is good. (to a friend)",
+    "registro": "amigos"
+   },
+   {
+    "jp": "もっと 安[やす]ければ いいのに。",
+    "es": "Ojalá fuera más barato.",
+    "en": "I wish it were cheaper."
+   }
+  ],
+  "consejo": {
+   "es": "La お年玉 se da en sobrecitos decorados (ポチ袋), y lo educado es no abrirlo delante de quien te lo da.",
+   "en": "お年玉 comes in little decorated envelopes (ポチ袋), and it's polite not to open it in front of the giver."
+  }
+ }
+}

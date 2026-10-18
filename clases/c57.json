@@ -1,0 +1,974 @@
+{
+ "id": "c57",
+ "clase": 57,
+ "desde": 2110,
+ "titulo": {
+  "es": "¡Seguro que fue Nyan!: 〜に違いない y 〜に決まっている",
+  "en": "It must have been Nyan!: 〜に違いない and 〜に決まっている"
+ },
+ "resumen": {
+  "es": "に違いない: seguro que es así, por las pruebas. に決まっている: está clarísimo, ¡sin duda! (más hablado y con más fuerza). Las dos son más fuertes que だろう o はず, que ya conocías.",
+  "en": "に違いない: it must be so, given the evidence. に決まっている: it's totally obvious, no doubt about it! (more spoken, with more force). Both are stronger than だろう or はず, which you already knew."
+ },
+ "intro": [
+  {
+   "escena": {
+    "fondo": "cocina",
+    "cosas": [
+     {
+      "que": "gato",
+      "x": 270
+     },
+     {
+      "que": "plato",
+      "x": 200
+     }
+    ]
+   },
+   "habla": "tama",
+   "cara": "sorpresa",
+   "jp": "あれ？ おにぎりが ない！",
+   "voz": "i1",
+   "tr": {
+    "es": "¿Eh? ¡No está la onigiri!",
+    "en": "Huh? The onigiri is gone!"
+   },
+   "cartela": {
+    "es": "Un misterio en la cocina…",
+    "en": "A mystery in the kitchen…"
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cocina",
+    "cosas": [
+     {
+      "que": "gato",
+      "x": 270,
+      "cara": "pensando"
+     },
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "sorpresa"
+     }
+    ]
+   },
+   "habla": "tama",
+   "cara": "pensando",
+   "jp": "ニャンが 食[た]べたに 違[ちが]いない。",
+   "voz": "i2",
+   "tr": {
+    "es": "Seguro que se lo ha comido Nyan.",
+    "en": "Nyan must have eaten it."
+   },
+   "cartela": {
+    "es": "に違いない: seguro que es así, por las pruebas.",
+    "en": "に違いない: it must be so, given the evidence."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cocina",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 130,
+      "cara": "sorpresa",
+      "brazo": "arriba"
+     }
+    ]
+   },
+   "cara": "sorpresa",
+   "jp": "僕[ぼく]じゃないよ！",
+   "voz": "i3",
+   "tr": {
+    "es": "¡Yo no he sido!",
+    "en": "It wasn't me!"
+   },
+   "cartela": {
+    "es": "Nyan lo niega… pero tiene la cara sospechosa.",
+    "en": "Nyan denies it… but his face looks suspicious."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cocina",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "sorpresa"
+     },
+     {
+      "que": "gato",
+      "x": 280,
+      "cara": "enfado"
+     }
+    ]
+   },
+   "habla": "tama",
+   "cara": "enfado",
+   "jp": "その 顔[かお]、 ニャンに 決[き]まってる！",
+   "voz": "i4",
+   "tr": {
+    "es": "Con esa cara, ¡está clarísimo que has sido tú!",
+    "en": "With that face, it's obviously you!"
+   },
+   "cartela": {
+    "es": "に決まっている: aún más seguro, y muy hablado. ¡A practicar!",
+    "en": "に決まっている: even more certain, and very spoken. Let's practice!"
+   }
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta cada frase. に違いない: seguro, por las pruebas. に決まっている: clarísimo, sin duda. はず y だろう (ya los sabías) son más suaves.",
+   "en": "Build each sentence. に違いない: certain, from the evidence. に決まっている: totally obvious, no doubt. はず and だろう (you already knew these) are softer."
+  },
+  "piezas": [
+   {
+    "id": "nyanga",
+    "jp": "ニャンが",
+    "tipo": "palabra"
+   },
+   {
+    "id": "tabeta_chigainai",
+    "jp": "食[た]べたに 違[ちが]いない",
+    "tipo": "verbo"
+   },
+   {
+    "id": "tabeta_darou",
+    "jp": "食[た]べただろう",
+    "tipo": "verbo"
+   },
+   {
+    "id": "tabeta_hazu",
+    "jp": "食[た]べたはずだ",
+    "tipo": "verbo"
+   },
+   {
+    "id": "tabeta",
+    "jp": "食[た]べた",
+    "tipo": "verbo"
+   },
+   {
+    "id": "tabeta_kamoshirenai",
+    "jp": "食[た]べたかもしれない",
+    "tipo": "verbo"
+   },
+   {
+    "id": "nyanni",
+    "jp": "ニャンに",
+    "tipo": "palabra"
+   },
+   {
+    "id": "kimatteru",
+    "jp": "決[き]まってる",
+    "tipo": "verbo"
+   },
+   {
+    "id": "kimatteiru",
+    "jp": "決[き]まっている",
+    "tipo": "verbo"
+   },
+   {
+    "id": "nyan_darou",
+    "jp": "ニャンだろう",
+    "tipo": "verbo"
+   },
+   {
+    "id": "nyanwa",
+    "jp": "ニャンは",
+    "tipo": "palabra"
+   },
+   {
+    "id": "ima",
+    "jp": "今[いま]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "neteiru_hazu",
+    "jp": "寝[ね]ているはずだ",
+    "tipo": "verbo"
+   },
+   {
+    "id": "neteiru_chigainai",
+    "jp": "寝[ね]ているに 違[ちが]いない",
+    "tipo": "verbo"
+   },
+   {
+    "id": "neteiru",
+    "jp": "寝[ね]ている",
+    "tipo": "verbo"
+   },
+   {
+    "id": "tamawa",
+    "jp": "タマは",
+    "tipo": "palabra"
+   },
+   {
+    "id": "tsukareteiru_kimatteiru",
+    "jp": "疲[つか]れているに 決[き]まっている",
+    "tipo": "verbo"
+   },
+   {
+    "id": "tsukareteiru_hazu",
+    "jp": "疲[つか]れているはずだ",
+    "tipo": "verbo"
+   },
+   {
+    "id": "tsukareteiru",
+    "jp": "疲[つか]れている",
+    "tipo": "verbo"
+   },
+   {
+    "id": "kitto",
+    "jp": "きっと",
+    "tipo": "palabra"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Con arroz en la cara, di: «Nyan debe de habérselo comido».",
+     "en": "With rice on his face, say: «Nyan must have eaten it»."
+    },
+    "escena": {
+     "fondo": "cocina",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "sorpresa"
+      },
+      {
+       "que": "plato",
+       "x": 270
+      }
+     ]
+    },
+    "piezas": [
+     "nyanga",
+     "tabeta_chigainai",
+     "tabeta_darou",
+     "tabeta_hazu",
+     "tabeta"
+    ],
+    "bien": [
+     [
+      "nyanga",
+      "tabeta_chigainai"
+     ]
+    ],
+    "tr": {
+     "es": "Nyan debe de habérselo comido.",
+     "en": "Nyan must have eaten it."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "manpu",
+      "objeto": "nyan",
+      "manpu": "sudor"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "sorpresa"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "tabeta_darou"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "だろう es una suposición más floja («probablemente»); aquí hay pruebas claras: に違いない。",
+       "en": "だろう is a weaker guess («probably»); here there's clear evidence: に違いない。"
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "tabeta_hazu"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "はず es lo que ESPERABAS que pasara; aquí acusas, con pruebas: に違いない。",
+       "en": "はず is what you EXPECTED to happen; here you're accusing, with evidence: に違いない。"
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "tabeta"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "食べた solo, sin más, no dice que estés SEGURO: falta に違いない。",
+       "en": "食べた alone doesn't say you're CERTAIN: you need に違いない。"
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Dilo aún más seguro, muy hablado: «¡Está clarísimo que fue Nyan!».",
+     "en": "Say it even more certainly, very spoken: «It's totally obvious it was Nyan!»"
+    },
+    "escena": {
+     "fondo": "cocina",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "sorpresa"
+      },
+      {
+       "que": "gato",
+       "x": 270,
+       "cara": "enfado"
+      }
+     ]
+    },
+    "piezas": [
+     "nyanni",
+     "kimatteru",
+     "kimatteiru",
+     "nyan_darou"
+    ],
+    "bien": [
+     [
+      "nyanni",
+      "kimatteru"
+     ],
+     [
+      "nyanni",
+      "kimatteiru"
+     ]
+    ],
+    "tr": {
+     "es": "Está clarísimo que fue Nyan.",
+     "en": "It's totally obvious it was Nyan."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "manpu",
+      "objeto": "gato",
+      "manpu": "excl"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "sorpresa",
+      "manpu": "sudor"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "nyan_darou"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "だろう es más flojo; に決まっている es rotundo, ¡no hay duda!",
+       "en": "だろう is weaker; に決まっている is emphatic, no doubt about it!"
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "kimatteru",
+        "kimatteiru"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin 決まっている no queda esa fuerza de «¡sin duda!».",
+       "en": "Without 決まっている you lose that «no doubt about it!» force."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Antes de la sorpresa: di lo que esperabas que pasara: «Nyan debería estar durmiendo ahora».",
+     "en": "Before the surprise: say what you expected: «Nyan should be sleeping right now»."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      {
+       "que": "gato",
+       "x": 110,
+       "cara": "pensando"
+      },
+      {
+       "que": "cama",
+       "x": 270
+      }
+     ]
+    },
+    "piezas": [
+     "nyanwa",
+     "ima",
+     "neteiru_hazu",
+     "neteiru_chigainai",
+     "neteiru"
+    ],
+    "bien": [
+     [
+      "nyanwa",
+      "ima",
+      "neteiru_hazu"
+     ]
+    ],
+    "tr": {
+     "es": "Nyan debería estar durmiendo ahora.",
+     "en": "Nyan should be sleeping right now."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "manpu",
+      "objeto": "gato",
+      "manpu": "pregunta"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "neteiru_chigainai"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "に違いない es una deducción con pruebas; aquí solo esperas que sea así, sin comprobarlo: はず。",
+       "en": "に違いない is a deduction from evidence; here you're just expecting it, without checking: はず。"
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "neteiru"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "寝ている solo describe; para decir que era lo ESPERADO, falta はず。",
+       "en": "寝ている just describes; to say it was EXPECTED, you need はず。"
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "neteiru_hazu"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin はず no queda la idea de «era lo esperado».",
+       "en": "Without はず you lose the «that was expected» idea."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Nyan ha jugado todo el día. Di, de Tama: «Está claro que está cansado».",
+     "en": "Nyan has played all day. Say, about Tama: «Obviously he's tired»."
+    },
+    "escena": {
+     "fondo": "parque",
+     "cosas": [
+      {
+       "que": "gato",
+       "x": 270,
+       "cara": "sueno"
+      },
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "feliz"
+      }
+     ]
+    },
+    "piezas": [
+     "tamawa",
+     "tsukareteiru_kimatteiru",
+     "tsukareteiru_hazu",
+     "tsukareteiru"
+    ],
+    "bien": [
+     [
+      "tamawa",
+      "tsukareteiru_kimatteiru"
+     ]
+    ],
+    "tr": {
+     "es": "Está claro que Tama está cansado.",
+     "en": "Obviously Tama is tired."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "duerme",
+      "objeto": "gato"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "tsukareteiru_hazu"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "はず es una expectativa más suave; に決まっている es rotundo: ¡no hay duda!",
+       "en": "はず is a softer expectation; に決まっている is emphatic: no doubt about it!"
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "tsukareteiru"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "疲れている solo describe; falta la fuerza de «está clarísimo»: に決まっている。",
+       "en": "疲れている just describes; you need the «totally obvious» force: に決まっている。"
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "tsukareteiru_kimatteiru"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin に決まっている no queda esa seguridad tan hablada.",
+       "en": "Without に決まっている you lose that emphatic, spoken certainty."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Reto: el plato está vacío y Nyan tiene bigotes llenos de arroz. Con TODAS las pruebas, di: «Seguro que ha sido Nyan».",
+     "en": "Challenge: the plate is empty and Nyan's whiskers are covered in rice. With ALL the evidence, say: «It must have been Nyan»."
+    },
+    "escena": {
+     "fondo": "cocina",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "sorpresa"
+      },
+      {
+       "que": "plato",
+       "x": 250
+      },
+      {
+       "que": "gato",
+       "x": 340,
+       "cara": "enfado"
+      }
+     ]
+    },
+    "piezas": [
+     "kitto",
+     "nyanga",
+     "tabeta_chigainai",
+     "tabeta_kamoshirenai",
+     "tabeta_darou"
+    ],
+    "bien": [
+     [
+      "kitto",
+      "nyanga",
+      "tabeta_chigainai"
+     ]
+    ],
+    "tr": {
+     "es": "Seguro que ha sido Nyan.",
+     "en": "It must have been Nyan."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "manpu",
+      "objeto": "nyan",
+      "manpu": "sudor"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "sorpresa"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "tabeta_kamoshirenai"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "かもしれない es «podría ser», muy flojo; con TODAS estas pruebas, hace falta に違いない。",
+       "en": "かもしれない is «might be», very weak; with ALL this evidence, you need に違いない。"
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "tabeta_darou"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "だろう es una suposición floja; con estas pruebas, に違いない es lo que toca.",
+       "en": "だろう is a weak guess; with this evidence, に違いない is what fits."
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "tabeta_chigainai"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin に違いない no queda esa seguridad, con tantas pruebas.",
+       "en": "Without に違いない you lose that certainty, with so much evidence."
+      }
+     }
+    ],
+    "pista": {
+     "es": "Empieza con きっと: refuerza la seguridad.",
+     "en": "Start with きっと: it reinforces the certainty."
+    }
+   }
+  ]
+ },
+ "juego": {
+  "intro": {
+   "es": "¿に違いない (seguro, por las pruebas), に決まっている (clarísimo, muy hablado) o はず (lo esperabas)? Completa cada frase.",
+   "en": "に違いない (certain, from evidence), に決まっている (totally obvious, very spoken), or はず (what you expected)? Complete each sentence."
+  },
+  "nyan": {
+   "es": "A mí siempre me acusan sin pruebas. Bueno, casi siempre hay pruebas.",
+   "en": "They always accuse me without evidence. Well, there's almost always evidence."
+  },
+  "cestas": [
+   {
+    "id": "chigainai",
+    "jp": "に違いない",
+    "sub": {
+     "es": "seguro, por las pruebas",
+     "en": "certain, from the evidence"
+    }
+   },
+   {
+    "id": "kimatteru",
+    "jp": "に決まっている",
+    "sub": {
+     "es": "clarísimo, ¡sin duda! (muy hablado)",
+     "en": "totally obvious, no doubt! (very spoken)"
+    }
+   },
+   {
+    "id": "hazu",
+    "jp": "はず",
+    "sub": {
+     "es": "lo que esperabas (ya lo sabías)",
+     "en": "what you expected (you already knew this)"
+    }
+   }
+  ],
+  "cartas": [
+   {
+    "id": "j1",
+    "dibujo": "plato",
+    "jp": "ニャンが 食[た]べた＿。",
+    "cesta": "chigainai",
+    "es": "Seguro que se lo ha comido Nyan.",
+    "en": "Nyan must have eaten it."
+   },
+   {
+    "id": "j2",
+    "dibujo": "gato",
+    "jp": "その 顔[かお]、 ニャン＿！",
+    "cesta": "kimatteru",
+    "es": "¡Está clarísimo que has sido tú!",
+    "en": "It's obviously you!"
+   },
+   {
+    "id": "j3",
+    "dibujo": "cama",
+    "jp": "ニャンは 今[いま] 寝[ね]ている＿。",
+    "cesta": "hazu",
+    "es": "Nyan debería estar durmiendo ahora.",
+    "en": "Nyan should be sleeping right now."
+   },
+   {
+    "id": "j4",
+    "jp": "タマは 疲[つか]れている＿。",
+    "cesta": "kimatteru",
+    "es": "Está clarísimo que está cansada.",
+    "en": "She's obviously tired."
+   },
+   {
+    "id": "j5",
+    "jp": "きっと ニャンが 食[た]べた＿。",
+    "cesta": "chigainai",
+    "es": "Seguro que ha sido Nyan.",
+    "en": "It must have been Nyan."
+   },
+   {
+    "id": "j6",
+    "dibujo": "escuela",
+    "jp": "先生[せんせい]は もう 学校[がっこう]に いる＿。",
+    "cesta": "hazu",
+    "es": "El profesor ya debería estar en la escuela.",
+    "en": "The teacher should already be at school."
+   },
+   {
+    "id": "j7",
+    "dibujo": "onigiri",
+    "jp": "これも ニャンが 食[た]べた＿！",
+    "cesta": "kimatteru",
+    "es": "¡Esto también, está clarísimo que se lo comió Nyan!",
+    "en": "This too, obviously Nyan ate it!"
+   },
+   {
+    "id": "j8",
+    "dibujo": "libro",
+    "jp": "答[こた]えは これ＿。",
+    "cesta": "chigainai",
+    "es": "La respuesta debe de ser esta.",
+    "en": "The answer must be this."
+   }
+  ]
+ },
+ "outro": [
+  {
+   "escena": {
+    "fondo": "cocina",
+    "cosas": [
+     {
+      "que": "gato",
+      "x": 270,
+      "cara": "pensando"
+     },
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "sorpresa"
+     }
+    ]
+   },
+   "habla": "tama",
+   "cara": "pensando",
+   "jp": "ニャンが 食[た]べたに 違[ちが]いない。",
+   "voz": "o1",
+   "tr": {
+    "es": "Seguro que se lo ha comido Nyan.",
+    "en": "Nyan must have eaten it."
+   },
+   "cartela": {
+    "es": "に違いない: seguro, por las pruebas.",
+    "en": "に違いない: certain, from the evidence."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cocina",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 130,
+      "cara": "sorpresa"
+     }
+    ]
+   },
+   "cara": "sorpresa",
+   "jp": "ち、 違[ちが]うよ…！",
+   "voz": "o2",
+   "tr": {
+    "es": "N-no es así…!",
+    "en": "Th-that's not it…!"
+   },
+   "cartela": {
+    "es": "（Con arroz aún en la cara.）",
+    "en": "(Still with rice on his face.)"
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cocina",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "sorpresa"
+     },
+     {
+      "que": "gato",
+      "x": 280,
+      "cara": "enfado"
+     }
+    ]
+   },
+   "habla": "tama",
+   "cara": "enfado",
+   "jp": "その 顔[かお]、 ニャンに 決[き]まってる！",
+   "voz": "o3",
+   "tr": {
+    "es": "Con esa cara, ¡está clarísimo que has sido tú!",
+    "en": "With that face, it's obviously you!"
+   },
+   "cartela": {
+    "es": "Fin. に決まっている: clarísimo, ¡no hay duda!",
+    "en": "The end. に決まっている: totally obvious, no doubt!"
+   }
+  }
+ ],
+ "chuleta": {
+  "patron": {
+   "es": "〔pruebas〕に 違[ちが]いない ／ に 決[き]まっている",
+   "en": "〔evidence〕に 違いない / に 決まっている"
+  },
+  "patron_tr": {
+   "es": "seguro que… / está clarísimo que…",
+   "en": "it must be… / it's obviously…"
+  },
+  "columnas": [
+   {
+    "jp": "に違いない",
+    "texto": {
+     "es": "seguro, por las pruebas",
+     "en": "certain, from the evidence"
+    },
+    "dibujos": [
+     "plato"
+    ]
+   },
+   {
+    "jp": "に決まっている",
+    "texto": {
+     "es": "clarísimo, ¡sin duda! (muy hablado)",
+     "en": "totally obvious, no doubt! (very spoken)"
+    },
+    "dibujos": [
+     "gato"
+    ]
+   },
+   {
+    "jp": "はず／だろう",
+    "texto": {
+     "es": "lo esperabas / una suposición (ya los sabías)",
+     "en": "what you expected / a guess (you already knew these)"
+    },
+    "dibujos": [
+     "cama"
+    ]
+   }
+  ],
+  "filas": [
+   {
+    "jp": "ニャンが 食[た]べたに 違[ちが]いない。",
+    "es": "Seguro que se lo ha comido Nyan.",
+    "en": "Nyan must have eaten it."
+   },
+   {
+    "jp": "ニャンに 決[き]まってる。",
+    "es": "Está clarísimo que ha sido Nyan.",
+    "en": "It's obviously Nyan.",
+    "registro": "amigos"
+   },
+   {
+    "jp": "ニャンが 食[た]べたに 違[ちが]いありません。",
+    "es": "Seguro que se lo ha comido Nyan.",
+    "en": "Nyan must have eaten it.",
+    "registro": "educado"
+   },
+   {
+    "jp": "ニャンは 今[いま] 寝[ね]ているはずだ。",
+    "es": "Nyan debería estar durmiendo ahora.",
+    "en": "Nyan should be sleeping right now."
+   }
+  ],
+  "consejo": {
+   "es": "はず (lo esperabas) y だろう (una suposición, ya los sabías) son más suaves. に違いない es una deducción segura, con pruebas. に決まっている es aún más fuerte y muy hablado: ¡no admite discusión!",
+   "en": "はず (what you expected) and だろう (a guess, you already knew these) are softer. に違いない is a confident deduction, backed by evidence. に決まっている is even stronger and very spoken: no room for argument!"
+  }
+ }
+}

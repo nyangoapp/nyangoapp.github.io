@@ -1,0 +1,44 @@
+{
+  "id": "l07", "desde": 600,
+  "titulo": {"jp": "公園[こうえん]の 試験[しけん] 勉強[べんきょう]", "es": "Estudiar para el examen en el parque", "en": "Studying for the test in the park"},
+  "resumen": {"es": "Nyan decide estudiar en el parque antes del examen: buena idea, mal enemigo (el sueño).", "en": "Nyan decides to study in the park before the exam: good idea, bad enemy (sleep)."},
+  "portada": {"fondo": "parque", "cosas": [{"que": "nyan", "x": 110, "cara": "sueno"}, {"que": "libro", "x": 200}, {"que": "gato", "x": 300}]},
+  "texto": [
+    {"voz": "t1", "quien": "narrador", "jp": "今度[こんど]、 試験[しけん]が ある。", "es": "Pronto hay un examen.", "en": "There's a test coming up."},
+    {"voz": "t2", "quien": "narrador", "jp": "ニャンは 公園[こうえん]で 勉強[べんきょう]する こと に した。", "es": "Nyan decidió estudiar en el parque.", "en": "Nyan decided to study in the park."},
+    {"voz": "t3", "quien": "tama", "jp": "天気[てんき]が よければ、 公園[こうえん]は 気持[きも]ち いい よ。", "es": "Si hace buen tiempo, el parque se está muy a gusto.", "en": "If the weather's good, the park feels great."},
+    {"voz": "t4", "quien": "narrador", "jp": "でも、 天気[てんき]が 悪[わる]い なら、 うちで 勉強[べんきょう]しよう と 思[おも]った。", "es": "Pero pensó que, si hacía mal tiempo, estudiaría en casa.", "en": "But he thought that if the weather was bad, he'd study at home instead."},
+    {"voz": "t5", "quien": "narrador", "jp": "天気[てんき]は よかった から、 二人[ふたり]は 公園[こうえん]へ 行[い]った。", "es": "Como hacía buen tiempo, los dos fueron al parque.", "en": "Since the weather was good, the two of them went to the park."},
+    {"voz": "t6", "quien": "narrador", "jp": "公園[こうえん]は 静[しず]か だった。", "es": "El parque estaba tranquilo.", "en": "The park was quiet."},
+    {"voz": "t6b", "quien": "narrador", "jp": "そこに、 カゲが 来[き]た。", "es": "Entonces apareció Kage.", "en": "Just then, Kage showed up."},
+    {"voz": "t6c", "quien": "kage", "jp": "ふん、 公園[こうえん]で 勉強[べんきょう]か。 試験[しけん]は 俺[おれ]が 一番[いちばん]だ ぞ。", "es": "Hmpf, ¿estudiando en el parque? En el examen el primero voy a ser yo.", "en": "Hmph, studying in the park? I'm going to come first on the test."},
+    {"voz": "t6d", "quien": "nyan", "jp": "ニャンも 頑張[がんば]る よ！", "es": "¡Nyan también se va a esforzar!", "en": "Nyan's going to try hard too!"},
+    {"voz": "t7", "quien": "nyan", "jp": "この 問題[もんだい]、 難[むずか]しい ね。", "es": "Este problema es difícil, ¿eh?", "en": "This problem is hard, huh."},
+    {"voz": "t8", "quien": "tama", "jp": "頑張[がんば]れば、 できる よ。", "es": "Si te esfuerzas, puedes con ello.", "en": "If you try hard, you can do it."},
+    {"voz": "t9", "quien": "narrador", "jp": "二人[ふたり]は 一生懸命[いっしょうけんめい] 勉強[べんきょう]した。", "es": "Los dos estudiaron con todas sus fuerzas.", "en": "The two of them studied as hard as they could."},
+    {"voz": "t10", "quien": "narrador", "jp": "しばらく して、 ニャンは 眠[ねむ]く なって きた。", "es": "Al cabo de un rato, a Nyan le empezó a entrar sueño.", "en": "After a while, Nyan started to feel sleepy."},
+    {"voz": "t11", "quien": "tama", "jp": "ニャン、 また？ 試験[しけん]の 前[まえ]だ よ！", "es": "Nyan, ¿otra vez? ¡Que hay examen pronto!", "en": "Nyan, again? The test is coming up!"},
+    {"voz": "t12", "quien": "narrador", "jp": "ニャンは 「ちょっとだけ」と 言[い]って、 また 寝[ね]た。", "es": "Nyan dijo «solo un poquito» y volvió a dormirse.", "en": "Nyan said \"just a little\" and fell asleep again."},
+    {"voz": "t13", "quien": "narrador", "jp": "カゲは それを 見[み]て、 小[ちい]さく 笑[わら]った。", "es": "Kage lo vio y soltó una risita.", "en": "Kage saw that and gave a small smirk."}
+  ],
+  "preguntas": [
+    {"jp": "今度[こんど]、 何[なに]が あります か。", "es": "¿Qué hay próximamente?", "en": "What's coming up?",
+     "opciones": [{"jp": "試験[しけん]", "es": "Un examen", "en": "A test"}, {"jp": "誕生日[たんじょうび]", "es": "Un cumpleaños", "en": "A birthday"}, {"jp": "パーティー", "es": "Una fiesta", "en": "A party"}],
+     "bien": 0, "porque": {"es": "「今度、試験がある」とあります。", "en": "\"There's a test coming up\" the story says."}},
+    {"jp": "ニャンは どこで 勉強[べんきょう]する こと に しました か。", "es": "¿Dónde decidió estudiar Nyan?", "en": "Where did Nyan decide to study?",
+     "opciones": [{"jp": "公園[こうえん]", "es": "En el parque", "en": "In the park"}, {"jp": "うち", "es": "En casa", "en": "At home"}, {"jp": "学校[がっこう]", "es": "En la escuela", "en": "At school"}],
+     "bien": 0, "porque": {"es": "「公園で勉強することにした」とあります。", "en": "\"He decided to study in the park\" the story says."}},
+    {"jp": "ニャンは 公園[こうえん]で 何[なに]を しました か。", "es": "¿Qué acabó haciendo Nyan en el parque?", "en": "What did Nyan end up doing in the park?",
+     "opciones": [{"jp": "また 寝[ね]た", "es": "Volvió a dormirse", "en": "He fell asleep again"}, {"jp": "試験[しけん]を 受[う]けた", "es": "Hizo el examen", "en": "He took the test"}, {"jp": "家[いえ]へ 帰[かえ]った", "es": "Se fue a casa", "en": "He went home"}],
+     "bien": 0, "porque": {"es": "「ちょっとだけと言って、また寝た」とあります。", "en": "\"He said 'just a little' and fell asleep again\" the story says."}},
+    {"tipo": "opinion", "jp": "あなたは 試験[しけん]の 前[まえ]、 どこで 勉強[べんきょう]したい です か。", "es": "¿Dónde te gustaría estudiar antes de un examen?", "en": "Where would you like to study before a test?",
+     "opciones": [
+       {"jp": "公園[こうえん]で 勉強[べんきょう]したい。", "es": "Me gustaría estudiar en el parque.", "en": "I'd like to study in the park.",
+        "nyan": {"jp": "気[き]を つけて！ 公園[こうえん]は 眠[ねむ]く なる から！", "es": "¡Ten cuidado! ¡El parque da mucho sueño!", "en": "Be careful! The park makes you sleepy!"}},
+       {"jp": "うちで 勉強[べんきょう]したい。", "es": "Me gustaría estudiar en casa.", "en": "I'd like to study at home.",
+        "nyan": {"jp": "うちも 眠[ねむ]く なる よ、 きっと。", "es": "En casa seguro que también te da sueño.", "en": "Home probably makes you sleepy too."}},
+       {"jp": "図書館[としょかん]で 勉強[べんきょう]したい。", "es": "Me gustaría estudiar en la biblioteca.", "en": "I'd like to study at the library.",
+        "nyan": {"jp": "図書館[としょかん]でも、 ニャンは 寝[ね]られる と 思[おも]う。", "es": "Creo que Nyan sería capaz de dormirse hasta en la biblioteca.", "en": "I bet Nyan could fall asleep even at the library."}}
+     ]}
+  ]
+}

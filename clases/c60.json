@@ -1,0 +1,828 @@
+{
+ "id": "c60",
+ "clase": 60,
+ "desde": 2290,
+ "titulo": {
+  "es": "Aunque fuera así: 〜としても, 〜にしても y 〜としたら",
+  "en": "Even if that were so: 〜としても, 〜にしても and 〜としたら"
+ },
+ "resumen": {
+  "es": "としても: aunque resultara así (una idea, no un hecho seguro). にしても: aunque sea N, o «no importa quién/qué». としたら: si resultara que… (para imaginar, como una fantasía).",
+  "en": "としても: even if that turned out to be so (an idea, not a sure fact). にしても: even granting N, or «no matter who/what». としたら: if it turned out that… (for imagining, like a fantasy)."
+ },
+ "intro": [
+  {
+   "escena": {
+    "fondo": "calle",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "feliz",
+      "brazo": "arriba"
+     },
+     {
+      "que": "nube",
+      "x": 280
+     }
+    ]
+   },
+   "jp": "雨[あめ]が 降[ふ]っても、 遊[あそ]びに 行[い]くよ。",
+   "voz": "i1",
+   "tr": {
+    "es": "Aunque llueva, voy a jugar.",
+    "en": "Even if it rains, I'll go play."
+   },
+   "cara": "feliz",
+   "cartela": {
+    "es": "ても ya lo sabías: aunque pase algo (que puede pasar de verdad).",
+    "en": "ても you already knew: even if something happens (that could really happen)."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "calle",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "feliz"
+     },
+     {
+      "que": "gato",
+      "x": 270
+     }
+    ]
+   },
+   "jp": "雪[ゆき]、 降[ふ]らないと 思[おも]うけど…。",
+   "voz": "i2",
+   "tr": {
+    "es": "No creo que vaya a nevar, pero…",
+    "en": "I don't think it'll snow, but…"
+   },
+   "cara": "normal",
+   "habla": "tama"
+  },
+  {
+   "escena": {
+    "fondo": "calle",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "sorpresa",
+      "brazo": "arriba"
+     },
+     {
+      "que": "manpu",
+      "tipo": "excl",
+      "x": 160,
+      "y": 100
+     }
+    ]
+   },
+   "jp": "たとえ 雪[ゆき]が 降[ふ]ったとしても、 遊[あそ]びに 行[い]くよ！",
+   "voz": "i3",
+   "tr": {
+    "es": "Aunque -hipotéticamente- nevara, ¡voy a jugar!",
+    "en": "Even if -hypothetically- it snowed, I'll go play!"
+   },
+   "cara": "sorpresa",
+   "cartela": {
+    "es": "としても: lo mismo que ても, pero para algo que casi seguro NO va a pasar. Más hipotético.",
+    "en": "としても: same as ても, but for something that's almost surely NOT going to happen. More hypothetical."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 120,
+      "cara": "pensando"
+     },
+     {
+      "que": "manpu",
+      "tipo": "brillo",
+      "x": 175,
+      "y": 100
+     }
+    ]
+   },
+   "jp": "お金[かね]を たくさん もらったとしたら、 何[なに]に 使[つか]う？",
+   "voz": "i4",
+   "tr": {
+    "es": "Si me dieran mucho dinero, ¿en qué lo gastaría?",
+    "en": "If I were given lots of money, what would I spend it on?"
+   },
+   "cara": "feliz",
+   "cartela": {
+    "es": "としたら: «si resultara que…». Para imaginar, como una fantasía. ¡A practicar!",
+    "en": "としたら: «if it turned out that…». For imagining, like a fantasy. Let's practice!"
+   }
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta cada frase con としても, にしても o としたら.",
+   "en": "Build each sentence with としても, にしても or としたら."
+  },
+  "piezas": [
+   {
+    "id": "takai",
+    "jp": "高[たか]い",
+    "tipo": "verbo"
+   },
+   {
+    "id": "toshitemo",
+    "jp": "としても",
+    "tipo": "particula"
+   },
+   {
+    "id": "takakutemo",
+    "jp": "高[たか]くても",
+    "tipo": "verbo"
+   },
+   {
+    "id": "kau",
+    "jp": "買[か]う",
+    "tipo": "verbo"
+   },
+   {
+    "id": "dare",
+    "jp": "誰[だれ]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "nishitemo",
+    "jp": "にしても",
+    "tipo": "particula"
+   },
+   {
+    "id": "muridayo",
+    "jp": "無理[むり]だよ",
+    "tipo": "verbo"
+   },
+   {
+    "id": "daremo",
+    "jp": "誰[だれ]も",
+    "tipo": "palabra"
+   },
+   {
+    "id": "amega",
+    "jp": "雨[あめ]が",
+    "tipo": "palabra"
+   },
+   {
+    "id": "futtatoshitemo",
+    "jp": "降[ふ]ったとしても",
+    "tipo": "verbo"
+   },
+   {
+    "id": "dekakemasu",
+    "jp": "出[で]かけます",
+    "tipo": "verbo"
+   },
+   {
+    "id": "dekakeruyo",
+    "jp": "出[で]かけるよ",
+    "tipo": "verbo"
+   },
+   {
+    "id": "nekoga",
+    "jp": "猫[ねこ]が",
+    "tipo": "palabra"
+   },
+   {
+    "id": "hanaserutoshitara",
+    "jp": "話[はな]せるとしたら",
+    "tipo": "verbo"
+   },
+   {
+    "id": "nanto",
+    "jp": "何[なん]と",
+    "tipo": "palabra"
+   },
+   {
+    "id": "iu",
+    "jp": "言[い]う",
+    "tipo": "verbo"
+   },
+   {
+    "id": "hanasereba",
+    "jp": "話[はな]せれば",
+    "tipo": "verbo"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Practica としても: di «Aunque resultara caro, lo compro» (algo que aún no sabes seguro).",
+     "en": "Practice としても: say «Even if it turned out to be expensive, I'll buy it» (something you don't know for sure yet)."
+    },
+    "escena": {
+     "fondo": "tienda",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "pensando"
+      },
+      {
+       "que": "persona",
+       "x": 280
+      }
+     ]
+    },
+    "piezas": [
+     "takai",
+     "toshitemo",
+     "takakutemo",
+     "kau"
+    ],
+    "bien": [
+     [
+      "takai",
+      "toshitemo",
+      "kau"
+     ]
+    ],
+    "tr": {
+     "es": "Aunque resultara caro, lo compro.",
+     "en": "Even if it turned out to be expensive, I'll buy it."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "brilla",
+      "objeto": "persona"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "takakutemo"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "高[たか]くても es tu primo ても: también vale, pero aquí practica としても, para algo que solo te imaginas.",
+       "en": "高くても is your cousin ても: also valid, but here practice としても, for something you're just imagining."
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "toshitemo"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin としても falta la idea de «aunque resultara así».",
+       "en": "Without としても, the idea of «even if it turned out that way» is missing."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Di: «No importa quién sea, es imposible» (usa にしても).",
+     "en": "Say: «No matter who it is, it's impossible» (use にしても)."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "normal"
+      },
+      {
+       "que": "gato",
+       "x": 270
+      }
+     ]
+    },
+    "piezas": [
+     "dare",
+     "nishitemo",
+     "muridayo",
+     "daremo"
+    ],
+    "bien": [
+     [
+      "dare",
+      "nishitemo",
+      "muridayo"
+     ]
+    ],
+    "tr": {
+     "es": "No importa quién sea, es imposible.",
+     "en": "No matter who it is, it's impossible."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "normal"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "daremo"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "誰[だれ]も es «nadie» (niega a todos). Aquí quieres decir «no importa quién»: 誰[だれ]にしても.",
+       "en": "誰も means «nobody» (negates everyone). Here you mean «no matter who»: 誰にしても."
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "nishitemo"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin にしても no queda claro que hablas de CUALQUIER persona.",
+       "en": "Without にしても it's not clear you mean ANY person."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Dile al sensei, con educación: «Aunque llueva, saldré».",
+     "en": "Tell the teacher, politely: «Even if it rains, I will go out»."
+    },
+    "escena": {
+     "fondo": "escuela",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "normal"
+      },
+      {
+       "que": "profesor",
+       "x": 280
+      }
+     ]
+    },
+    "piezas": [
+     "amega",
+     "futtatoshitemo",
+     "dekakemasu",
+     "dekakeruyo"
+    ],
+    "bien": [
+     [
+      "amega",
+      "futtatoshitemo",
+      "dekakemasu"
+     ]
+    ],
+    "tr": {
+     "es": "Aunque llueva, saldré.",
+     "en": "Even if it rains, I'll go out."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "brilla",
+      "objeto": "profesor"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "normal"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "dekakeruyo"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "sorpresa",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Hablas con el sensei: hace falta 出[で]かけます, no 出[で]かけるよ (eso es para Tama).",
+       "en": "You're speaking to the teacher: you need 出かけます, not 出かけるよ (that's for Tama)."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Ahora dile lo mismo a Tama, en plan casual.",
+     "en": "Now tell Tama the same thing, casually."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "normal"
+      },
+      {
+       "que": "gato",
+       "x": 270
+      }
+     ]
+    },
+    "piezas": [
+     "amega",
+     "futtatoshitemo",
+     "dekakeruyo",
+     "dekakemasu"
+    ],
+    "bien": [
+     [
+      "amega",
+      "futtatoshitemo",
+      "dekakeruyo"
+     ]
+    ],
+    "tr": {
+     "es": "Aunque llueva, saldré.",
+     "en": "Even if it rains, I'll go out."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "dekakemasu"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Con Tama no hace falta tanta educación: 出[で]かけるよ basta.",
+       "en": "With Tama you don't need to be that formal: 出かけるよ is enough."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Reto: imagina y pregunta: «Si los gatos pudieran hablar, ¿qué dirían?» (usa としたら).",
+     "en": "Challenge: imagine and ask: «If cats could talk, what would they say?» (use としたら)."
+    },
+    "escena": {
+     "fondo": "parque",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "pensando"
+      },
+      {
+       "que": "gato",
+       "x": 270
+      },
+      {
+       "que": "manpu",
+       "tipo": "pregunta",
+       "x": 160,
+       "y": 105
+      }
+     ]
+    },
+    "piezas": [
+     "nekoga",
+     "hanaserutoshitara",
+     "nanto",
+     "iu",
+     "hanasereba"
+    ],
+    "bien": [
+     [
+      "nekoga",
+      "hanaserutoshitara",
+      "nanto",
+      "iu"
+     ]
+    ],
+    "tr": {
+     "es": "Si los gatos pudieran hablar, ¿qué dirían?",
+     "en": "If cats could talk, what would they say?"
+    },
+    "efecto_bien": [
+     {
+      "tipo": "brilla",
+      "objeto": "gato"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "hanasereba"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "話[はな]せれば también es «si pudieran hablar» (tu primo), pero としたら suena más a «imagínate que resultara así»: fantasía.",
+       "en": "話せれば is also «if they could talk» (your cousin pattern), but としたら sounds more like «imagine it turned out that way»: fantasy."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "juego": {
+  "intro": {
+   "es": "としても, にしても o としたら: elige el que encaje.",
+   "en": "としても, にしても or としたら: pick the one that fits."
+  },
+  "nyan": {
+   "es": "A mí, con que haya onigiri, me da igual el resto.",
+   "en": "As for me, as long as there's onigiri, I don't care about the rest."
+  },
+  "cestas": [
+   {
+    "id": "toshitemo",
+    "jp": "としても",
+    "sub": {
+     "es": "aunque resultara así (concesión)",
+     "en": "even if it turned out so (concession)"
+    }
+   },
+   {
+    "id": "nishitemo",
+    "jp": "にしても",
+    "sub": {
+     "es": "aunque sea N / no importa quién",
+     "en": "even granting N / no matter who"
+    }
+   },
+   {
+    "id": "toshitara",
+    "jp": "としたら",
+    "sub": {
+     "es": "si resultara que… (fantasía)",
+     "en": "if it turned out that… (fantasy)"
+    }
+   }
+  ],
+  "cartas": [
+   {
+    "id": "j1",
+    "jp": "高[たか]い＿、 買[か]う。",
+    "cesta": "toshitemo",
+    "es": "Aunque resultara caro, lo compro.",
+    "en": "Even if it turned out expensive, I'll buy it."
+   },
+   {
+    "id": "j2",
+    "jp": "雪[ゆき]が 降[ふ]った＿、 学校[がっこう]は 休[やす]みに ならない。",
+    "cesta": "toshitemo",
+    "es": "Aunque nevara, el colegio no cerraría.",
+    "en": "Even if it snowed, school wouldn't close."
+   },
+   {
+    "id": "j3",
+    "jp": "雨[あめ]が 降[ふ]っ＿、 出[で]かけるよ。",
+    "cesta": "toshitemo",
+    "es": "Aunque llueva, saldré.",
+    "en": "Even if it rains, I'll go out."
+   },
+   {
+    "id": "j4",
+    "jp": "誰[だれ]に＿、 無理[むり]だよ。",
+    "cesta": "nishitemo",
+    "es": "No importa quién sea, es imposible.",
+    "en": "No matter who it is, it's impossible."
+   },
+   {
+    "id": "j5",
+    "dibujo": "gato",
+    "jp": "猫[ねこ]に＿、 疲[つか]れる 時[とき]は ある。",
+    "cesta": "nishitemo",
+    "es": "Hasta los gatos tienen momentos de cansancio.",
+    "en": "Even cats have tired moments."
+   },
+   {
+    "id": "j6",
+    "jp": "学生[がくせい]に＿、 休[やす]む 時[とき]は ある。",
+    "cesta": "nishitemo",
+    "es": "Hasta los estudiantes tienen momentos de descanso.",
+    "en": "Even students have moments to rest."
+   },
+   {
+    "id": "j7",
+    "dibujo": "dinero",
+    "jp": "お金[かね]を たくさん もらった＿、 何[なに]に 使[つか]う？",
+    "cesta": "toshitara",
+    "es": "Si me dieran mucho dinero, ¿en qué lo gastaría?",
+    "en": "If I were given lots of money, what would I spend it on?"
+   },
+   {
+    "id": "j8",
+    "dibujo": "gato",
+    "jp": "猫[ねこ]が 話[はな]せる＿、 何[なん]と 言[い]う？",
+    "cesta": "toshitara",
+    "es": "Si los gatos pudieran hablar, ¿qué dirían?",
+    "en": "If cats could talk, what would they say?"
+   }
+  ]
+ },
+ "outro": [
+  {
+   "escena": {
+    "fondo": "tienda",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "pensando"
+     },
+     {
+      "que": "persona",
+      "x": 280
+     }
+    ]
+   },
+   "jp": "高[たか]いとしても、 買[か]う。",
+   "voz": "o1",
+   "tr": {
+    "es": "Aunque resultara caro, lo compro.",
+    "en": "Even if it turned out expensive, I'll buy it."
+   },
+   "cara": "pensando",
+   "cartela": {
+    "es": "としても: aunque pase eso (que ni siquiera sabes si pasará).",
+    "en": "としても: even if that happens (which you don't even know will happen)."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "normal"
+     },
+     {
+      "que": "gato",
+      "x": 270
+     }
+    ]
+   },
+   "jp": "誰[だれ]にしても、 無理[むり]だよ。",
+   "voz": "o2",
+   "tr": {
+    "es": "No importa quién sea, es imposible.",
+    "en": "No matter who it is, it's impossible."
+   },
+   "cara": "normal",
+   "habla": "tama"
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 130,
+      "cara": "feliz"
+     },
+     {
+      "que": "manpu",
+      "tipo": "corazon",
+      "x": 300,
+      "y": 110
+     }
+    ]
+   },
+   "jp": "お金[かね]を もらったとしたら、 おにぎりを 買[か]う！",
+   "voz": "o3",
+   "tr": {
+    "es": "Si me dieran dinero, ¡compraría onigiri!",
+    "en": "If I were given money, I'd buy onigiri!"
+   },
+   "cara": "feliz",
+   "cartela": {
+    "es": "Fin. Todo su plan, con にしても y としたら, acaba en lo mismo: onigiri.",
+    "en": "The end. Whatever にしても and としたら he uses, it always ends the same way: onigiri."
+   }
+  }
+ ],
+ "chuleta": {
+  "patron": {
+   "es": "〔llano〕としても・〔N〕にしても・〔llano〕としたら",
+   "en": "〔plain〕としても・〔N〕にしても・〔plain〕としたら"
+  },
+  "patron_tr": {
+   "es": "aunque resultara así… ／ aunque sea N… ／ si resultara que…",
+   "en": "even if it turned out so… ／ even granting N… ／ if it turned out that…"
+  },
+  "columnas": [
+   {
+    "jp": "としても",
+    "texto": {
+     "es": "concesión hipotética",
+     "en": "hypothetical concession"
+    },
+    "dibujos": [
+     "nyan"
+    ]
+   },
+   {
+    "jp": "にしても",
+    "texto": {
+     "es": "aunque sea N / no importa quién",
+     "en": "even granting N / no matter who"
+    },
+    "dibujos": [
+     "gato"
+    ]
+   },
+   {
+    "jp": "としたら",
+    "texto": {
+     "es": "imaginando que fuera así",
+     "en": "imagining it were so"
+    },
+    "dibujos": [
+     "dinero"
+    ]
+   }
+  ],
+  "filas": [
+   {
+    "jp": "高[たか]いとしても、 買[か]う。",
+    "es": "Aunque resultara caro, lo compro.",
+    "en": "Even if it turned out expensive, I'll buy it."
+   },
+   {
+    "jp": "雨[あめ]が 降[ふ]ったとしても、 出[で]かけます。",
+    "es": "Aunque llueva, saldré.",
+    "en": "Even if it rains, I'll go out.",
+    "registro": "educado"
+   },
+   {
+    "jp": "雨[あめ]が 降[ふ]ったとしても、 出[で]かけるよ。",
+    "es": "Aunque llueva, saldré.",
+    "en": "Even if it rains, I'll go out.",
+    "registro": "amigos"
+   },
+   {
+    "jp": "猫[ねこ]が 話[はな]せるとしたら、 何[なん]と 言[い]う？",
+    "es": "Si los gatos pudieran hablar, ¿qué dirían?",
+    "en": "If cats could talk, what would they say?"
+   }
+  ],
+  "consejo": {
+   "es": "ても y たら ya los conocías: para cosas que pueden pasar de verdad. としても añade «aunque resultara así» (más hipotético); としたら imagina «si resultara que…», como たら pero para fantasías (猫が話せるとしたら…).",
+   "en": "You already knew ても and たら: for things that could really happen. としても adds «even if it turned out so» (more hypothetical); としたら imagines «if it turned out that…», like たら but for fantasies (猫が話せるとしたら…)."
+  }
+ }
+}

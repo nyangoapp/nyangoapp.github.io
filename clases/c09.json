@@ -1,0 +1,897 @@
+{
+ "id": "c09",
+ "clase": 9,
+ "desde": 66,
+ "titulo": {
+  "es": "Nyan, detective: el pasado con た y なかった",
+  "en": "Detective Nyan: the past with た and なかった"
+ },
+ "resumen": {
+  "es": "た: ya lo hiciste (見る→見た). なかった: no lo hiciste (食べる→食べなかった). Ojo: 行く es especial, 行った.",
+  "en": "た: you already did it (見る→見た). なかった: you didn't do it (食べる→食べなかった). Watch out: 行く is special, 行った."
+ },
+ "formato": 2,
+ "registro": true,
+ "lugar": "cuarto",
+ "mision": {
+  "texto": {
+   "es": "¡Los onigiri de la fiesta han desaparecido esta noche! Nyan hace de detective: pregunta a todos qué hicieron ayer. El culpable se delatará con el pasado…",
+   "en": "The party onigiri vanished overnight! Nyan plays detective: ask everyone what they did yesterday. The culprit will give themselves away in the past tense…"
+  },
+  "escena": {
+   "fondo": "cuarto",
+   "cosas": [
+    {
+     "que": "nyan",
+     "x": 92
+    },
+    {
+     "que": "plato",
+     "x": 205,
+     "y": 152,
+     "s": 1.0
+    },
+    {
+     "que": "gato",
+     "id": "tama",
+     "x": 308
+    }
+   ]
+  },
+  "cara": "sorpresa",
+  "jp": "おにぎりが… ない！",
+  "voz": "m0"
+ },
+ "reglas": [
+  {
+   "id": "ta",
+   "nombre": {
+    "es": "El pasado: 〜た (y 〜ました)",
+    "en": "The past: 〜た (and 〜ました)"
+   },
+   "patron": {
+    "es": "〔verbo〕た ・ 〔verbo〕ました",
+    "en": "〔verb〕た ・ 〔verb〕ました"
+   },
+   "explica": {
+    "es": "Para lo que ya pasó, el verbo cambia su final. Educado, ます → ました: 食べました, «comí». De tú, la forma de diccionario pasa a た: 食べる → 食べた, Es pasado (ayer), y en 見る se cambia る por た: 見た. Algunos verbos cambian el sonido: 飲む → 飲んだ, 読む → 読んだ, する → した, y 行く es especial: 行った. En japonés el pasado no cambia con la persona: 食べた es «comí», «comiste» o «comió».",
+    "en": "For what already happened, the verb changes its ending. Polite, ます → ました: 食べました, «I ate». Casual, the dictionary form becomes た: 食べる → 食べた, Es pasado (ayer), y en 見る se cambia る por た: 見た. Some verbs change sound: 飲む → 飲んだ, 読む → 読んだ, する → した, and 行く is special: 行った. The past doesn't change with the person: 食べた is «I/you/he ate»."
+   },
+   "ejemplos": [
+    {
+     "jp": "昨日[きのう]、 テレビを 見[み]た。",
+     "es": "Ayer vi la tele.",
+     "en": "Yesterday I watched TV.",
+     "voz": "r1-1"
+    },
+    {
+     "jp": "おにぎりを 食[た]べました。",
+     "es": "Comí onigiri.",
+     "en": "I ate onigiri.",
+     "voz": "r1-2"
+    }
+   ],
+   "ojo": {
+    "es": "行く es el único verbo en く que no sigue la regla (sería 行いた): su pasado es 行った, y conviene aprenderlo aparte.",
+    "en": "行く is the only く-verb that breaks the rule (it'd be 行いた): its past is 行った, worth learning on its own."
+   }
+  },
+  {
+   "id": "nakatta",
+   "nombre": {
+    "es": "〜なかった: «no lo hice»",
+    "en": "〜なかった: «I didn't»"
+   },
+   "patron": {
+    "es": "〔verbo〕なかった ・ 〔verbo〕ませんでした",
+    "en": "〔verb〕なかった ・ 〔verb〕ませんでした"
+   },
+   "explica": {
+    "es": "Para decir que NO hiciste algo, en pasado: de tú, 〜なかった (食べる → 食べなかった, «no comí»); educado, 〜ませんでした (食べませんでした). Con 何も («nada») queda redondo: 何も食べなかった, «no comí nada».",
+    "en": "To say you did NOT do something, in the past: casual, 〜なかった (食べる → 食べなかった, «I didn't eat»); polite, 〜ませんでした (食べませんでした). With 何も («nothing») it's complete: 何も食べなかった, «I didn't eat anything»."
+   },
+   "ejemplos": [
+    {
+     "jp": "食[た]べなかった！",
+     "es": "¡No lo comí!",
+     "en": "I didn't eat it!",
+     "voz": "r2-1"
+    },
+    {
+     "jp": "何[なに]も 食[た]べませんでした。",
+     "es": "No comí nada.",
+     "en": "I didn't eat anything.",
+     "voz": "r2-2"
+    }
+   ],
+   "ojo": {
+    "es": "なかった es la forma de tú y ませんでした la educada: con amigos suenas cercano, con la sensei, respetuoso.",
+    "en": "なかった is the casual form and ませんでした the polite one: close with friends, respectful with the teacher."
+   }
+  }
+ ],
+ "historia": [
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "おにぎりが ない！",
+   "tr": {
+    "es": "¡Los onigiri no están!",
+    "en": "The onigiri are gone!"
+   },
+   "voz": "h1",
+   "cara": "sorpresa",
+   "reacciona": {
+    "nyan": "sorpresa"
+   },
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 92
+     },
+     {
+      "que": "plato",
+      "x": 205,
+      "y": 152,
+      "id": "plato",
+      "s": 1.0
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 308
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "わたしが 探偵[たんてい]です！",
+   "tr": {
+    "es": "¡Yo seré el detective!",
+    "en": "I'll be the detective!"
+   },
+   "voz": "h2",
+   "cara": "enfado",
+   "plano": "medio"
+  },
+  {
+   "t": "regla",
+   "regla": "ta"
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "Pregúntale a Kotarō, que es tu amigo (de tú): «¿Ayer comiste onigiri?»",
+    "en": "Ask Kotarō, your friend (casually): «Did you eat onigiri yesterday?»"
+   },
+   "opciones": [
+    {
+     "jp": "昨日[きのう]、 おにぎりを 食[た]べた？",
+     "bien": true,
+     "tr": {
+      "es": "¿Ayer comiste onigiri?",
+      "en": "Did you eat onigiri yesterday?"
+     },
+     "voz": "h3",
+     "porque": {
+      "es": "Pasado de tú: 食べる → 食べた.",
+      "en": "Casual past: 食べる → 食べた."
+     }
+    },
+    {
+     "jp": "昨日[きのう]、 おにぎりを 食[た]べる？",
+     "bien": false,
+     "porque": {
+      "es": "食べる es presente o futuro («¿comes?», «¿comerás?»). Como hablas de ayer, el verbo va en pasado: 食べた.",
+      "en": "食べる is present or future («do/will you eat?»). Since you're talking about yesterday, the verb goes past: 食べた."
+     }
+    },
+    {
+     "jp": "昨日[きのう]、 おにぎりを 食[た]べだ？",
+     "bien": false,
+     "porque": {
+      "es": "Casi: だ no es el pasado. En los verbos como 食べる se cambia る por た: 食べた.",
+      "en": "Almost: だ isn't the past. In verbs like 食べる you swap る for た: 食べた."
+     }
+    }
+   ],
+   "cara": "pensando",
+   "escena": {
+    "fondo": "washitsu",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110
+     },
+     {
+      "que": "perro",
+      "id": "kotaro",
+      "x": 290
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "kotaro",
+   "jp": "ううん、 食[た]べなかった！ 昨日[きのう]は 本[ほん]を 読[よ]んだ。",
+   "tr": {
+    "es": "¡No, no los comí! Ayer leí un libro.",
+    "en": "No, I didn't eat them! Yesterday I read a book."
+   },
+   "voz": "h4",
+   "cara": "feliz"
+  },
+  {
+   "t": "regla",
+   "regla": "nakatta"
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "わたしも 食[た]べなかった。 テレビを 見[み]た。",
+   "tr": {
+    "es": "Yo tampoco los comí. Vi la tele.",
+    "en": "I didn't eat them either. I watched TV."
+   },
+   "voz": "h5",
+   "escena": {
+    "fondo": "washitsu",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 290
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "kage",
+   "jp": "ふん。 俺[おれ]は 何[なに]も 食[た]べなかった。",
+   "tr": {
+    "es": "Hmpf. Yo no comí nada.",
+    "en": "Hmph. I didn't eat anything."
+   },
+   "voz": "h6",
+   "cara": "presumido",
+   "escena": {
+    "fondo": "noche",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 295
+     }
+    ]
+   }
+  },
+  {
+   "t": "monta",
+   "encargo": 0
+  },
+  {
+   "t": "dice",
+   "habla": "kage",
+   "jp": "…パンを 食[た]べた。 それだけだ。",
+   "tr": {
+    "es": "…Me comí un pan. Nada más.",
+    "en": "…I ate some bread. That's all."
+   },
+   "voz": "h7",
+   "cara": "aburrido"
+  },
+  {
+   "t": "toca",
+   "pide": {
+    "es": "Tama ha encontrado una pista en el cuarto de Nyan. Escucha y tócala.",
+    "en": "Tama found a clue in Nyan's room. Listen and tap it."
+   },
+   "bien": "onigiri",
+   "quien": "tama",
+   "escena": {
+    "fondo": "washitsu",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "cama",
+      "x": 230,
+      "id": "cama",
+      "s": 1.25
+     },
+     {
+      "que": "onigiri",
+      "x": 262,
+      "y": 180,
+      "id": "onigiri",
+      "s": 1.3
+     },
+     {
+      "que": "libro",
+      "x": 345,
+      "id": "libro",
+      "s": 1.5
+     }
+    ]
+   },
+   "jp": "あっ、 ベッドに おにぎりが あった！",
+   "voz": "h8",
+   "bien_msg": {
+    "es": "¡Un onigiri en la cama de Nyan! あった es el pasado de ある.",
+    "en": "An onigiri in Nyan's bed! あった is the past of ある."
+   },
+   "mal_msg": {
+    "es": "Ha dicho ベッドに おにぎりが: en la cama.",
+    "en": "She said ベッドに おにぎりが: on the bed."
+   }
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "Nyan se acuerda de todo… anoche, medio dormido. Confiesa:",
+    "en": "Nyan remembers everything… last night, half asleep. Confess:"
+   },
+   "opciones": [
+    {
+     "jp": "わたしが 食[た]べた…。",
+     "bien": true,
+     "tr": {
+      "es": "Me los comí yo…",
+      "en": "I ate them…"
+     },
+     "voz": "h9",
+     "porque": {
+      "es": "Pasado: 食べた. Y が señala al culpable.",
+      "en": "Past: 食べた. And が points at the culprit."
+     }
+    },
+    {
+     "jp": "わたしが 食[た]べなかった。",
+     "bien": false,
+     "porque": {
+      "es": "なかった es negativo: «NO me los comí». Y Tama ha visto el arroz en tu cama… ¡no cuela!",
+      "en": "なかった is negative: «I did NOT eat them». And Tama saw the rice on your bed… that won't fly!"
+     }
+    },
+    {
+     "jp": "わたしが 食[た]べる。",
+     "bien": false,
+     "porque": {
+      "es": "食べる habla de ahora o del futuro («me los comeré»). Lo hiciste anoche, así que va en pasado: 食べた.",
+      "en": "食べる talks about now or the future («I'll eat them»). You did it last night, so it's past: 食べた."
+     }
+    }
+   ],
+   "cara": "triste",
+   "escena": {
+    "fondo": "washitsu",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 290
+     }
+    ]
+   }
+  },
+  {
+   "t": "monta",
+   "encargo": 1
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "ニャン！ もう！",
+   "tr": {
+    "es": "¡Nyan! ¡De verdad!",
+    "en": "Nyan! Honestly!"
+   },
+   "voz": "h10",
+   "cara": "enfado",
+   "escena": {
+    "fondo": "washitsu",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 290
+     }
+    ]
+   }
+  }
+ ],
+ "epilogo": [
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "ごめんなさい！ 明日[あした]、 おにぎりを 作[つく]ります！",
+   "tr": {
+    "es": "¡Perdón! ¡Mañana hago onigiri para todos!",
+    "en": "Sorry! Tomorrow I'll make onigiri for everyone!"
+   },
+   "voz": "x1",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "washitsu",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 290
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "約束[やくそく]ですよ！",
+   "tr": {
+    "es": "¡Prometido, ¿eh?!",
+    "en": "That's a promise!"
+   },
+   "voz": "x2",
+   "cara": "feliz"
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta la frase: la escena hará lo que digas.",
+   "en": "Build the sentence: the scene will do what you say."
+  },
+  "piezas": [
+   {
+    "id": "kinou",
+    "jp": "昨日[きのう]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "nani",
+    "jp": "何[なに]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "onigiri",
+    "jp": "おにぎり",
+    "tipo": "palabra"
+   },
+   {
+    "id": "wo",
+    "jp": "を",
+    "tipo": "particula"
+   },
+   {
+    "id": "shita",
+    "jp": "した",
+    "tipo": "verbo"
+   },
+   {
+    "id": "suru",
+    "jp": "する",
+    "tipo": "verbo"
+   },
+   {
+    "id": "tabeta",
+    "jp": "食[た]べた",
+    "tipo": "verbo"
+   },
+   {
+    "id": "tabemashita",
+    "jp": "食[た]べました",
+    "tipo": "verbo"
+   },
+   {
+    "id": "tabemasu",
+    "jp": "食[た]べます",
+    "tipo": "verbo"
+   },
+   {
+    "id": "tabemasendeshita",
+    "jp": "食[た]べませんでした",
+    "tipo": "verbo"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Presiona a Kage (de tú): «¿Qué hiciste ayer?»",
+     "en": "Press Kage (casually): «What did you do yesterday?»"
+    },
+    "escena": {
+     "fondo": "noche",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110
+      },
+      {
+       "que": "kage",
+       "id": "kage",
+       "x": 295
+      }
+     ]
+    },
+    "piezas": [
+     "kinou",
+     "nani",
+     "wo",
+     "shita",
+     "suru",
+     "tabeta"
+    ],
+    "bien": [
+     [
+      "kinou",
+      "nani",
+      "wo",
+      "shita"
+     ]
+    ],
+    "tr": {
+     "es": "¿Qué hiciste ayer?",
+     "en": "What did you do yesterday?"
+    },
+    "efecto_bien": [
+     {
+      "tipo": "manpu",
+      "objeto": "kage",
+      "manpu": "sudor"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "enfado"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "suru"
+       ]
+      },
+      "efecto": {
+       "tipo": "manpu",
+       "objeto": "kage",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "する es presente («¿qué haces?»). Preguntas por ayer, así que va en pasado: した.",
+       "en": "する is present («what do you do?»). You're asking about yesterday, so it's past: した."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "tabeta"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "Si preguntas qué comió, ya das por hecho que comió algo. Para saber qué HIZO en general: 何をした.",
+       "en": "Asking what he ate assumes he ate something. To find out what he DID in general: 何をした."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Pide perdón a todos, educado: «Ayer comí onigiri».",
+     "en": "Apologise to everyone, politely: «Yesterday I ate onigiri»."
+    },
+    "escena": {
+     "fondo": "washitsu",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 95
+      },
+      {
+       "que": "gato",
+       "id": "tama",
+       "x": 210
+      },
+      {
+       "que": "perro",
+       "id": "kotaro",
+       "x": 320
+      }
+     ]
+    },
+    "piezas": [
+     "kinou",
+     "onigiri",
+     "wo",
+     "tabemashita",
+     "tabemasu",
+     "tabemasendeshita"
+    ],
+    "bien": [
+     [
+      "kinou",
+      "onigiri",
+      "wo",
+      "tabemashita"
+     ]
+    ],
+    "tr": {
+     "es": "Ayer comí onigiri.",
+     "en": "Yesterday I ate onigiri."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "manpu",
+      "objeto": "tama",
+      "manpu": "sudor"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "triste"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "tabemasu"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "食べます habla de ahora o de luego. Para el pasado educado, ます pasa a ました: 食べました.",
+       "en": "食べます talks about now or later. For the polite past, ます becomes ました: 食べました."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "tabemasendeshita"
+       ]
+      },
+      "efecto": {
+       "tipo": "manpu",
+       "objeto": "tama",
+       "manpu": "excl"
+      },
+      "msg": {
+       "es": "ませんでした niega: «NO comí». Pero Tama tiene la prueba en la mano… Confiesa: 食べました.",
+       "en": "ませんでした negates: «I did NOT eat». But Tama has the proof… Confess: 食べました."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "reto": {
+  "intro": {
+   "jp": "ふん。 犯人[はんにん]は お前[まえ]だろう。 勝負[しょうぶ]だ！",
+   "tr": {
+    "es": "Hmpf. El culpable eres tú, ¿no? ¡Duelo!",
+    "en": "Hmph. You're the culprit, right? Duel!"
+   },
+   "voz": "k0"
+  },
+  "gana": {
+   "jp": "…ふん。 なかなかの 探偵[たんてい]だな。",
+   "tr": {
+    "es": "…Hmpf. No eres mal detective.",
+    "en": "…Hmph. Not a bad detective."
+   },
+   "voz": "kw"
+  },
+  "pierde": {
+   "jp": "ふん。 探偵[たんてい]ごっこは おしまいだ。",
+   "tr": {
+    "es": "Hmpf. Se acabó el juego de detectives.",
+    "en": "Hmph. Detective games are over."
+   },
+   "voz": "kl"
+  },
+  "pica": {
+   "jp": "…やるな。",
+   "tr": {
+    "es": "…No está mal.",
+    "en": "…Not bad."
+   },
+   "voz": "kp"
+  },
+  "burla": {
+   "jp": "ふん！",
+   "tr": {
+    "es": "¡Ja!",
+    "en": "Hah!"
+   },
+   "voz": "kb"
+  },
+  "preguntas": [
+   {
+    "tipo": "elige",
+    "jp": "昨日[きのう]、 テレビを 見[み]＿。",
+    "opciones": [
+     "た",
+     "る",
+     "ない"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Ayer vi la tele.",
+     "en": "Yesterday I watched TV."
+    },
+    "porque": {
+     "es": "Es pasado (ayer), y en 見る se cambia る por た: 見た.",
+     "en": "Es pasado (ayer), y en 見る se cambia る por た: 見た."
+    },
+    "voz": "q1"
+   },
+   {
+    "tipo": "elige",
+    "jp": "わたしは 食[た]べ＿。 (no, ayer)",
+    "opciones": [
+     "なかった",
+     "た",
+     "ない"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "No comí.",
+     "en": "I didn't eat."
+    },
+    "porque": {
+     "es": "«No comí» es negativo y pasado a la vez: 食べ + なかった.",
+     "en": "«I didn't eat» is negative and past at once: 食べ + なかった."
+    },
+    "voz": "q2"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "昨日[きのう]、 学校[がっこう]に 行[い]った。",
+    "correcta": true,
+    "tr": {
+     "es": "Ayer fui a la escuela.",
+     "en": "Yesterday I went to school."
+    },
+    "porque": {
+     "es": "Bien: 行く es el verbo rebelde, su pasado es 行った.",
+     "en": "Right: 行く is the rebel verb, its past is 行った."
+    },
+    "voz": "q3"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "昨日[きのう]、 本[ほん]を 読[よ]みます。",
+    "correcta": false,
+    "tr": {
+     "es": "(Ayer leí un libro.)",
+     "en": "(Yesterday I read a book.)"
+    },
+    "porque": {
+     "es": "昨日 (ayer) pide pasado, y 読みます es presente: 読みました (o, de tú, 読んだ).",
+     "en": "昨日 (yesterday) needs the past, and 読みます is present: 読みました (or casual 読んだ)."
+    },
+    "voz": "q4"
+   },
+   {
+    "tipo": "oye",
+    "jp": "何[なに]も 食[た]べなかった。",
+    "habla": "kage",
+    "opciones": [
+     {
+      "es": "No comí nada.",
+      "en": "I didn't eat anything."
+     },
+     {
+      "es": "Me lo comí todo.",
+      "en": "I ate everything."
+     },
+     {
+      "es": "No como nada.",
+      "en": "I don't eat anything."
+     }
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "なかった al final lo vuelve negativo y pasado: no lo hizo.",
+     "en": "なかった at the end makes it negative and past: he didn't do it."
+    },
+    "voz": "q5"
+   },
+   {
+    "tipo": "imagen",
+    "jp": "昨日[きのう]、 水[みず]を 飲[の]んだ。",
+    "opciones": [
+     "vaso",
+     "libro",
+     "tele"
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "飲んだ es el pasado de 飲む (beber): los verbos en む cambian a んだ.",
+     "en": "飲んだ is the past of 飲む (drink): verbs ending in む change to んだ."
+    },
+    "pide": {
+     "es": "¿Qué hizo ayer?",
+     "en": "What did he do yesterday?"
+    }
+   }
+  ]
+ },
+ "siguiente": {
+  "es": "Mañana Nyan se deja el libro en la escuela… y vuelve de noche. Se oye algo. ¿Hay alguien?",
+  "en": "Tomorrow Nyan leaves his book at school… and goes back at night. Something makes a noise. Is anyone there?"
+ },
+ "chuleta": {
+  "patron": {
+   "es": "〔verbo〕た ・ 〔verbo〕なかった ・ 〔verbo〕ました",
+   "en": "〔verb〕た ・ 〔verb〕なかった ・ 〔verb〕ました"
+  },
+  "patron_tr": {
+   "es": "hice ・ no hice ・ hice (educado)",
+   "en": "did ・ didn't ・ did (polite)"
+  },
+  "filas": [
+   {
+    "jp": "昨日[きのう]、 食[た]べた？",
+    "es": "¿Ayer comiste? (a un amigo)",
+    "en": "Did you eat yesterday? (to a friend)",
+    "registro": "amigos"
+   },
+   {
+    "jp": "食[た]べなかった。",
+    "es": "No comí.",
+    "en": "I didn't eat.",
+    "registro": "amigos"
+   },
+   {
+    "jp": "おにぎりを 食[た]べました。",
+    "es": "Comí onigiri.",
+    "en": "I ate onigiri.",
+    "registro": "educado"
+   },
+   {
+    "jp": "学校[がっこう]に 行[い]った。",
+    "es": "Fui a la escuela.",
+    "en": "I went to school."
+   }
+  ],
+  "consejo": {
+   "es": "Detective Nyan interroga de tú (た, なかった) a sus amigos; para disculparse con todos, educado (ました).",
+   "en": "Detective Nyan questions his friends casually (た, なかった); to apologise to everyone, politely (ました)."
+  }
+ }
+}

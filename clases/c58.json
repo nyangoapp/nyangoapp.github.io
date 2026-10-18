@@ -1,0 +1,954 @@
+{
+ "id": "c58",
+ "clase": 58,
+ "desde": 2170,
+ "titulo": {
+  "es": "¡Y encima presume!: 〜くせに",
+  "en": "And on top of that, he brags!: 〜くせに"
+ },
+ "resumen": {
+  "es": "くせに: «y encima…», para REPROCHAR a alguien: algo no encaja con lo que hace o dice. Es como のに (ya la viste), pero más dura: siempre culpa a una PERSONA, nunca hables así de ti mismo.",
+  "en": "くせに: «and yet…», to REPROACH someone: something doesn't match what they do or say. It's like のに (you already saw it), but harsher: it always blames a PERSON, never talk about yourself this way."
+ },
+ "intro": [
+  {
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 130,
+      "cara": "feliz",
+      "brazo": "arriba"
+     },
+     {
+      "que": "carta",
+      "x": 270,
+      "s": 1.2
+     }
+    ]
+   },
+   "cara": "feliz",
+   "jp": "見[み]て！ 一番[いちばん]に なったよ！",
+   "voz": "i1",
+   "tr": {
+    "es": "¡Mira! ¡He quedado el primero!",
+    "en": "Look! I came in first!"
+   },
+   "cartela": {
+    "es": "Nyan presume… pero espera.",
+    "en": "Nyan's bragging… but wait."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "feliz"
+     },
+     {
+      "que": "gato",
+      "x": 270,
+      "cara": "enfado"
+     }
+    ]
+   },
+   "habla": "tama",
+   "cara": "enfado",
+   "jp": "下手[へた]な くせに、 自慢[じまん]しないでよ。",
+   "voz": "i2",
+   "tr": {
+    "es": "No presumas, que encima se te da mal.",
+    "en": "Don't brag, especially since you're bad at it."
+   },
+   "cartela": {
+    "es": "くせに: y encima… (con reproche).",
+    "en": "くせに: and yet… (with reproach)."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 130,
+      "cara": "triste"
+     }
+    ]
+   },
+   "cara": "triste",
+   "jp": "下手[へた]じゃ ないもん！",
+   "voz": "i3",
+   "tr": {
+    "es": "¡No se me da mal!",
+    "en": "I'm not bad at it!"
+   },
+   "cartela": {
+    "es": "（De hecho, sí.）",
+    "en": "(Actually, he is.)"
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "pensando"
+     },
+     {
+      "que": "gato",
+      "x": 270,
+      "cara": "enfado"
+     }
+    ]
+   },
+   "habla": "tama",
+   "cara": "enfado",
+   "jp": "知[し]っている くせに、 教[おし]えてくれないよね。",
+   "voz": "i4",
+   "tr": {
+    "es": "Aunque lo sabes, no me lo dices, ¿eh?",
+    "en": "Even though you know, you won't tell me, right?"
+   },
+   "cartela": {
+    "es": "くせに siempre culpa a alguien: nunca es sobre ti mismo. ¡A practicar!",
+    "en": "くせに always blames someone: never about yourself. Let's practice!"
+   }
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta cada frase. くせに reprocha a OTRA persona (nunca a ti mismo). のに (ya la sabías) es solo pena o sorpresa. から da una razón: no sirve para reprochar.",
+   "en": "Build each sentence. くせに reproaches ANOTHER person (never yourself). のに (you already knew it) is just disappointment. から gives a reason: it doesn't work for reproaching."
+  },
+  "piezas": [
+   {
+    "id": "hetana_kuseni",
+    "jp": "下手[へた]な くせに",
+    "tipo": "verbo"
+   },
+   {
+    "id": "jimansuru",
+    "jp": "自慢[じまん]する",
+    "tipo": "verbo"
+   },
+   {
+    "id": "hetana_noni",
+    "jp": "下手[へた]なのに",
+    "tipo": "verbo"
+   },
+   {
+    "id": "hetadakara",
+    "jp": "下手[へた]だから",
+    "tipo": "verbo"
+   },
+   {
+    "id": "shitteiru_kuseni",
+    "jp": "知[し]っている くせに",
+    "tipo": "verbo"
+   },
+   {
+    "id": "oshietekurenai",
+    "jp": "教[おし]えてくれない",
+    "tipo": "verbo"
+   },
+   {
+    "id": "shitteiru_noni",
+    "jp": "知[し]っているのに",
+    "tipo": "verbo"
+   },
+   {
+    "id": "shiranaikara",
+    "jp": "知[し]らないから",
+    "tipo": "verbo"
+   },
+   {
+    "id": "benkyoushitanoni",
+    "jp": "勉強[べんきょう]したのに",
+    "tipo": "verbo"
+   },
+   {
+    "id": "wakaranakatta",
+    "jp": "わからなかった",
+    "tipo": "verbo"
+   },
+   {
+    "id": "benkyoushitakuseni",
+    "jp": "勉強[べんきょう]した くせに",
+    "tipo": "verbo"
+   },
+   {
+    "id": "nekonokuseni",
+    "jp": "猫[ねこ]の くせに",
+    "tipo": "verbo"
+   },
+   {
+    "id": "sakanagakiraida",
+    "jp": "魚[さかな]が 嫌[きら]いだ",
+    "tipo": "verbo"
+   },
+   {
+    "id": "nekonanoni",
+    "jp": "猫[ねこ]なのに",
+    "tipo": "verbo"
+   },
+   {
+    "id": "nekonanode",
+    "jp": "猫[ねこ]なので",
+    "tipo": "verbo"
+   },
+   {
+    "id": "isogashiikuseni",
+    "jp": "忙[いそが]しい くせに",
+    "tipo": "verbo"
+   },
+   {
+    "id": "asondeiru",
+    "jp": "遊[あそ]んでいる",
+    "tipo": "verbo"
+   },
+   {
+    "id": "isogashiinoni",
+    "jp": "忙[いそが]しいのに",
+    "tipo": "verbo"
+   },
+   {
+    "id": "isogashiikara",
+    "jp": "忙[いそが]しいから",
+    "tipo": "verbo"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Reprocha a Nyan: «Aunque se te da mal, presumes».",
+     "en": "Reproach Nyan: «Even though you're bad at it, you brag»."
+    },
+    "escena": {
+     "fondo": "escuela",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "feliz",
+       "brazo": "arriba"
+      },
+      {
+       "que": "gato",
+       "x": 270,
+       "cara": "enfado"
+      }
+     ]
+    },
+    "piezas": [
+     "hetana_kuseni",
+     "jimansuru",
+     "hetana_noni",
+     "hetadakara"
+    ],
+    "bien": [
+     [
+      "hetana_kuseni",
+      "jimansuru"
+     ]
+    ],
+    "tr": {
+     "es": "Aunque se te da mal, presumes.",
+     "en": "Even though you're bad at it, you brag."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "triste"
+     },
+     {
+      "tipo": "manpu",
+      "objeto": "gato",
+      "manpu": "excl"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "hetana_noni"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "のに sería solo una pena; くせに además CULPA a Nyan por presumir.",
+       "en": "のに would just be disappointment; くせに also BLAMES Nyan for bragging."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "hetadakara"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "だから da una razón («porque»); aquí no explicas, reprochas: くせに。",
+       "en": "だから gives a reason («because»); here you're not explaining, you're reproaching: くせに。"
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "hetana_kuseni"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin くせに no queda el reproche.",
+       "en": "Without くせに there's no reproach."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Reprocha: «Aunque lo sabe, no me lo dice».",
+     "en": "Reproach: «Even though he knows, he won't tell me»."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "pensando"
+      },
+      {
+       "que": "gato",
+       "x": 270,
+       "cara": "enfado"
+      }
+     ]
+    },
+    "piezas": [
+     "shitteiru_kuseni",
+     "oshietekurenai",
+     "shitteiru_noni",
+     "shiranaikara"
+    ],
+    "bien": [
+     [
+      "shitteiru_kuseni",
+      "oshietekurenai"
+     ]
+    ],
+    "tr": {
+     "es": "Aunque lo sabe, no me lo dice.",
+     "en": "Even though he knows, he won't tell me."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "manpu",
+      "objeto": "gato",
+      "manpu": "excl"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "pensando"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "shitteiru_noni"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "のに sería solo pena, sin culpa; aquí reprochas que no te lo diga: くせに。",
+       "en": "のに would just be disappointment, no blame; here you're reproaching him: くせに。"
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "shiranaikara"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "sorpresa",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "知らない es que NO lo sabe; pero aquí SÍ lo sabe y no dice nada.",
+       "en": "知らない means he DOESN'T know; but here he DOES know and says nothing."
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "oshietekurenai"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin 教えてくれない no queda claro qué es lo que no hace.",
+       "en": "Without 教えてくれない it's not clear what he isn't doing."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Ahora Nyan se lamenta de SÍ mismo (nunca uses くせに contigo mismo): «Aunque estudié, no lo entendí».",
+     "en": "Now Nyan regrets something about HIMSELF (never use くせに about yourself): «Even though I studied, I didn't understand»."
+    },
+    "escena": {
+     "fondo": "escuela",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "triste"
+      },
+      {
+       "que": "libro",
+       "x": 270
+      }
+     ]
+    },
+    "piezas": [
+     "benkyoushitanoni",
+     "wakaranakatta",
+     "benkyoushitakuseni"
+    ],
+    "bien": [
+     [
+      "benkyoushitanoni",
+      "wakaranakatta"
+     ]
+    ],
+    "tr": {
+     "es": "Aunque estudié, no lo entendí.",
+     "en": "Even though I studied, I didn't understand."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "manpu",
+      "objeto": "nyan",
+      "manpu": "sudor"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "triste"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "benkyoushitakuseni"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "くせに es para culpar a OTROS; de ti mismo, siempre のに。",
+       "en": "くせに is for blaming OTHERS; about yourself, always のに。"
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "benkyoushitanoni"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin のに no queda la idea de «aunque…».",
+       "en": "Without のに you lose the «even though…» idea."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Reprocha a Tama: «Aunque es un gato, no le gusta el pescado» (¡qué raro!).",
+     "en": "Reproach Tama: «Even though he's a cat, he doesn't like fish» (how odd!)."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "pensando"
+      },
+      {
+       "que": "gato",
+       "x": 270
+      },
+      {
+       "que": "pez",
+       "x": 340
+      }
+     ]
+    },
+    "piezas": [
+     "nekonokuseni",
+     "sakanagakiraida",
+     "nekonanoni",
+     "nekonanode"
+    ],
+    "bien": [
+     [
+      "nekonokuseni",
+      "sakanagakiraida"
+     ]
+    ],
+    "tr": {
+     "es": "Aunque es una gata, no le gusta el pescado.",
+     "en": "Even though she's a cat, she doesn't like fish."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "manpu",
+      "objeto": "gato",
+      "manpu": "pregunta"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "pensando"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "nekonanoni"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "なのに sería solo sorpresa; くせに además reprocha, como diciendo «se supone que a los gatos les gusta…».",
+       "en": "なのに would just be surprise; くせに also reproaches, as if to say «cats are supposed to like it…»."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "nekonanode"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "なので da una razón; aquí no hay razón, hay contradicción con reproche: くせに。",
+       "en": "なので gives a reason; here there's no reason, just a reproachful contradiction: くせに。"
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "nekonokuseni"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin くせに no queda el reproche.",
+       "en": "Without くせに there's no reproach."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Reto: Nyan está ocupadísimo… pero no para de jugar. Reprocháselo: «Aunque está ocupado, no para de jugar».",
+     "en": "Challenge: Nyan is super busy… but won't stop playing. Reproach him: «Even though he's busy, he keeps playing»."
+    },
+    "escena": {
+     "fondo": "parque",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 130,
+       "cara": "feliz"
+      },
+      {
+       "que": "libro",
+       "x": 270
+      }
+     ]
+    },
+    "piezas": [
+     "isogashiikuseni",
+     "asondeiru",
+     "isogashiinoni",
+     "isogashiikara"
+    ],
+    "bien": [
+     [
+      "isogashiikuseni",
+      "asondeiru"
+     ]
+    ],
+    "tr": {
+     "es": "Aunque está ocupado, no para de jugar.",
+     "en": "Even though he's busy, he keeps playing."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "manpu",
+      "objeto": "libro",
+      "manpu": "sudor"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "isogashiinoni"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "のに sería solo sorpresa; aquí hay reproche: くせに。",
+       "en": "のに would just be surprise; here there's reproach: くせに。"
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "isogashiikara"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "から da una razón («porque está ocupado…»); aquí hay contradicción, no razón: くせに。",
+       "en": "から gives a reason («because he's busy…»); here there's a contradiction, not a reason: くせに。"
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "isogashiikuseni"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin くせに no queda el reproche.",
+       "en": "Without くせに there's no reproach."
+      }
+     }
+    ],
+    "pista": {
+     "es": "Empieza por 忙[いそが]しい くせに…",
+     "en": "Start with 忙[いそが]しい くせに…"
+    }
+   }
+  ]
+ },
+ "juego": {
+  "intro": {
+   "es": "¿くせに (reprochas), のに (pena, ya la sabías) o から (una razón, ya la sabías)? Completa cada frase.",
+   "en": "くせに (you reproach), のに (disappointment, you already knew this), or から (a reason, you already knew this)? Complete each sentence."
+  },
+  "nyan": {
+   "es": "A mí que me reprochen lo que quieran: yo sigo jugando igual.",
+   "en": "They can reproach me all they want: I'll keep playing anyway."
+  },
+  "cestas": [
+   {
+    "id": "kuseni",
+    "jp": "くせに",
+    "sub": {
+     "es": "y encima… (reprochas a alguien)",
+     "en": "and yet… (you reproach someone)"
+    }
+   },
+   {
+    "id": "noni",
+    "jp": "のに",
+    "sub": {
+     "es": "aunque… (pena, ya lo sabías)",
+     "en": "even though… (disappointment, you already knew this)"
+    }
+   },
+   {
+    "id": "kara",
+    "jp": "から",
+    "sub": {
+     "es": "porque… (una razón, ya lo sabías)",
+     "en": "because… (a reason, you already knew this)"
+    }
+   }
+  ],
+  "cartas": [
+   {
+    "id": "j1",
+    "jp": "下手[へた]な＿、 自慢[じまん]する。",
+    "cesta": "kuseni",
+    "es": "Aunque se le da mal, presume.",
+    "en": "Even though he's bad at it, he brags."
+   },
+   {
+    "id": "j2",
+    "dibujo": "libro",
+    "jp": "勉強[べんきょう]した＿、 わからなかった。",
+    "cesta": "noni",
+    "es": "Aunque estudié, no lo entendí.",
+    "en": "Even though I studied, I didn't understand it."
+   },
+   {
+    "id": "j3",
+    "jp": "忙[いそが]しい＿、 遊[あそ]んでいる。",
+    "cesta": "kuseni",
+    "es": "Aunque está ocupado, no para de jugar.",
+    "en": "Even though he's busy, he keeps playing."
+   },
+   {
+    "id": "j4",
+    "dibujo": "cama",
+    "jp": "忙[いそが]しい＿、 早[はや]く 寝[ね]る。",
+    "cesta": "kara",
+    "es": "Como está ocupado, se acuesta pronto.",
+    "en": "Since he's busy, he goes to bed early."
+   },
+   {
+    "id": "j5",
+    "jp": "知[し]っている＿、 教[おし]えてくれない。",
+    "cesta": "kuseni",
+    "es": "Aunque lo sabe, no me lo dice.",
+    "en": "Even though he knows, he won't tell me."
+   },
+   {
+    "id": "j6",
+    "jp": "雨[あめ]が 降[ふ]っている＿、 出[で]かけた。",
+    "cesta": "noni",
+    "es": "Aunque llueve, salió.",
+    "en": "Even though it's raining, he went out."
+   },
+   {
+    "id": "j7",
+    "dibujo": "gato",
+    "jp": "猫[ねこ]の＿、 魚[さかな]が 嫌[きら]いだ。",
+    "cesta": "kuseni",
+    "es": "Aunque es una gata, no le gusta el pescado.",
+    "en": "Even though she's a cat, she doesn't like fish.",
+    "truco": {
+     "es": "の + くせに: también vale con sustantivos.",
+     "en": "の + くせに: also works with nouns."
+    }
+   },
+   {
+    "id": "j8",
+    "dibujo": "cama",
+    "jp": "眠[ねむ]い＿、 早[はや]く 寝[ね]る。",
+    "cesta": "kara",
+    "es": "Como tiene sueño, se acuesta pronto.",
+    "en": "Since he's sleepy, he goes to bed early."
+   }
+  ]
+ },
+ "outro": [
+  {
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 130,
+      "cara": "feliz",
+      "brazo": "arriba"
+     },
+     {
+      "que": "carta",
+      "x": 270,
+      "s": 1.2
+     }
+    ]
+   },
+   "cara": "feliz",
+   "jp": "見[み]て！ 一番[いちばん]に なったよ！",
+   "voz": "o1",
+   "tr": {
+    "es": "¡Mira! ¡He quedado el primero!",
+    "en": "Look! I came in first!"
+   },
+   "cartela": {
+    "es": "Nyan presume…",
+    "en": "Nyan's bragging…"
+   }
+  },
+  {
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "feliz"
+     },
+     {
+      "que": "gato",
+      "x": 270,
+      "cara": "enfado"
+     }
+    ]
+   },
+   "habla": "tama",
+   "cara": "enfado",
+   "jp": "下手[へた]な くせに、 自慢[じまん]しないでよ。",
+   "voz": "o2",
+   "tr": {
+    "es": "No presumas, que encima se te da mal.",
+    "en": "Don't brag, especially since you're bad at it."
+   },
+   "cartela": {
+    "es": "くせに: y encima…, con reproche.",
+    "en": "くせに: and yet…, with reproach."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 130,
+      "cara": "triste"
+     }
+    ]
+   },
+   "cara": "triste",
+   "jp": "…下手[へた]じゃ ないもん！",
+   "voz": "o3",
+   "tr": {
+    "es": "¡No se me da mal!",
+    "en": "I'm not bad at it!"
+   },
+   "cartela": {
+    "es": "Fin. くせに reprocha a otros; nunca hables así de ti mismo. (Y sí, se le da mal.)",
+    "en": "The end. くせに reproaches others; never talk about yourself this way. (And yes, he is bad at it.)"
+   }
+  }
+ ],
+ "chuleta": {
+  "patron": {
+   "es": "〔alguien〕は 〔cosa〕（な／の）くせに、 〔contradicción〕",
+   "en": "〔someone〕は 〔thing〕（な／の）くせに、 〔contradiction〕"
+  },
+  "patron_tr": {
+   "es": "aunque 〔alguien〕 sea/haga…, y encima…",
+   "en": "even though 〔someone〕 is/does…, and yet…"
+  },
+  "columnas": [
+   {
+    "jp": "くせに",
+    "texto": {
+     "es": "y encima… (reprochas a alguien)",
+     "en": "and yet… (you reproach someone)"
+    },
+    "dibujos": [
+     "gato"
+    ]
+   },
+   {
+    "jp": "のに",
+    "texto": {
+     "es": "aunque… (pena, ya lo sabías)",
+     "en": "even though… (disappointment, you already knew this)"
+    },
+    "dibujos": [
+     "libro"
+    ]
+   }
+  ],
+  "filas": [
+   {
+    "jp": "下手[へた]な くせに、 自慢[じまん]する。",
+    "es": "Aunque se le da mal, presume.",
+    "en": "Even though he's bad at it, he brags.",
+    "registro": "amigos"
+   },
+   {
+    "jp": "知[し]っている くせに、 教[おし]えてくれない。",
+    "es": "Aunque lo sabe, no me lo dice.",
+    "en": "Even though he knows, he won't tell me."
+   },
+   {
+    "jp": "勉強[べんきょう]したのに、 わからなかった。",
+    "es": "Aunque estudié, no lo entendí.",
+    "en": "Even though I studied, I didn't understand it."
+   },
+   {
+    "jp": "猫[ねこ]の くせに、 魚[さかな]が 嫌[きら]いだ。",
+    "es": "Aunque es una gata, no le gusta el pescado.",
+    "en": "Even though she's a cat, she doesn't like fish."
+   }
+  ],
+  "consejo": {
+   "es": "のに (ya la conocías) es pena o sorpresa, y puede ser sobre ti mismo. くせに es más dura: siempre reprocha a OTRA persona, nunca a ti. Con sustantivos: 〜のくせに。",
+   "en": "のに (you already knew it) is disappointment or surprise, and can be about yourself. くせに is harsher: it always blames ANOTHER person, never yourself. With nouns: 〜のくせに。"
+  }
+ }
+}

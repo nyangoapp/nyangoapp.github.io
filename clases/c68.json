@@ -1,0 +1,570 @@
+{
+ "id": "c68",
+ "clase": 68,
+ "desde": 2770,
+ "titulo": {
+  "es": "Japonés de libro (solo para leer): である, において",
+  "en": "Book Japanese (for reading only): である, において"
+ },
+ "resumen": {
+  "es": "En carteles, noticias y libros se escribe distinto de como se habla: である hace el trabajo de だ／です, において（における）hace el de で, y したがって hace el de だから. Se leen, pero no se dicen: hablando, siempre だ／です, で y だから.",
+  "en": "Signs, news and books are written differently from how people speak: である does the job of だ／です, において（における）does the job of で, and したがって does the job of だから. You read them, but don't say them: when speaking it's always だ／です, で and だから."
+ },
+ "intro": [
+  {
+   "escena": {
+    "fondo": "calle",
+    "cosas": [
+     { "que": "nyan", "x": 110, "cara": "pensando" },
+     { "que": "pizarra", "x": 270 }
+    ]
+   },
+   "cara": "pensando",
+   "jp": "ここは 危険[きけん]である。",
+   "voz": "i1",
+   "tr": {
+    "es": "Aquí es peligroso (así, tal cual, en el cartel).",
+    "en": "It's dangerous here (that's exactly what the sign says)."
+   },
+   "cartela": {
+    "es": "En carteles y noticias, である hace el trabajo de だ.",
+    "en": "On signs and in the news, である does the job of だ."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "calle",
+    "cosas": [
+     { "que": "nyan", "x": 110, "cara": "sorpresa" },
+     { "que": "gato", "x": 270, "cara": "feliz" }
+    ]
+   },
+   "habla": "tama",
+   "cara": "feliz",
+   "jp": "「危[あぶ]ない」で いいんだよ、 ニャン。",
+   "voz": "i2",
+   "tr": {
+    "es": "Con «peligroso» ya vale, Nyan.",
+    "en": "You can just say «dangerous», Nyan."
+   },
+   "cartela": {
+    "es": "である solo se ESCRIBE. Hablando: だ (o nada).",
+    "en": "である is only WRITTEN. When speaking: だ (or nothing)."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "escuela",
+    "cosas": [
+     { "que": "nyan", "x": 110, "cara": "sorpresa" },
+     { "que": "pizarra", "x": 270 }
+    ]
+   },
+   "cara": "sorpresa",
+   "jp": "学校[がっこう]において、 携帯[けいたい]は 禁止[きんし]である。",
+   "voz": "i3",
+   "tr": {
+    "es": "En la escuela, los móviles están prohibidos (en el cartel del cole).",
+    "en": "At school, cellphones are prohibited (that's what the school sign says)."
+   },
+   "nota": {
+    "es": "において＝で, pero para escribir.",
+    "en": "において = で, but for writing."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     { "que": "nyan", "x": 110, "cara": "triste" },
+     { "que": "gato", "x": 270 },
+     { "que": "tele", "x": 330, "s": 0.9 }
+    ]
+   },
+   "habla": "tama",
+   "cara": "normal",
+   "jp": "雨[あめ]が 降[ふ]ったから、 試合[しあい]は 中止[ちゅうし]だよ。 新聞[しんぶん]なら「したがって」って 書[か]くかもね。",
+   "voz": "i4",
+   "tr": {
+    "es": "El partido está cancelado porque llovió. En el periódico igual pondría «shitagatte».",
+    "en": "The match is cancelled because it rained. The paper would probably write «shitagatte»."
+   },
+   "cartela": {
+    "es": "したがって（escrito）＝だから（hablado）",
+    "en": "したがって (written) = だから (spoken)"
+   }
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Cada frase está escrita como en un cartel o una noticia. Móntala como se lo dirías a Tama.",
+   "en": "Each sentence is written like a sign or the news. Build it the way you'd actually say it to Tama."
+  },
+  "piezas": [
+   { "id": "koko", "jp": "ここ", "tipo": "palabra" },
+   { "id": "wa", "jp": "は", "tipo": "particula" },
+   { "id": "abunai", "jp": "危[あぶ]ない", "tipo": "palabra" },
+   { "id": "da", "jp": "だ", "tipo": "verbo" },
+   { "id": "dearu", "jp": "である", "tipo": "verbo" },
+   { "id": "desu", "jp": "です", "tipo": "verbo" },
+   { "id": "gakkou", "jp": "学校[がっこう]", "tipo": "palabra" },
+   { "id": "de", "jp": "で", "tipo": "particula" },
+   { "id": "keitai", "jp": "携帯[けいたい]", "tipo": "palabra" },
+   { "id": "kinshi", "jp": "禁止[きんし]", "tipo": "palabra" },
+   { "id": "yo", "jp": "よ", "tipo": "particula" },
+   { "id": "nioite", "jp": "において", "tipo": "particula" },
+   { "id": "niokeru", "jp": "における", "tipo": "particula" },
+   { "id": "ame", "jp": "雨[あめ]", "tipo": "palabra" },
+   { "id": "ga", "jp": "が", "tipo": "particula" },
+   { "id": "futta", "jp": "降[ふ]った", "tipo": "verbo" },
+   { "id": "kara", "jp": "から", "tipo": "particula" },
+   { "id": "shiai", "jp": "試合[しあい]", "tipo": "palabra" },
+   { "id": "chuushininatta", "jp": "中止[ちゅうし]になった", "tipo": "verbo" },
+   { "id": "shitagatte", "jp": "したがって", "tipo": "particula" },
+   { "id": "nyanpiece", "jp": "ニャン", "tipo": "palabra" },
+   { "id": "yuumei", "jp": "有名[ゆうめい]", "tipo": "palabra" }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "El cartel dice «ここは危険である». Díselo a Tama, como se habla.",
+     "en": "The sign says «ここは危険である» (formal). Tell Tama the way you'd actually say it."
+    },
+    "escena": {
+     "fondo": "calle",
+     "cosas": [
+      { "que": "nyan", "x": 110, "cara": "pensando" },
+      { "que": "pizarra", "x": 270 }
+     ]
+    },
+    "piezas": ["koko", "wa", "abunai", "da", "dearu", "desu"],
+    "bien": [["koko", "wa", "abunai", "da"]],
+    "tr": {
+     "es": "Aquí es peligroso.",
+     "en": "It's dangerous here."
+    },
+    "efecto_bien": [
+     { "tipo": "brilla", "objeto": "pizarra" },
+     { "tipo": "nyan", "cara": "feliz" }
+    ],
+    "fallos": [
+     {
+      "si": { "contiene": ["dearu"] },
+      "efecto": { "tipo": "nyan", "cara": "pensando", "manpu": "pregunta" },
+      "msg": {
+       "es": "である es para ESCRIBIR. Hablando con Tama: だ.",
+       "en": "である is for WRITING. Speaking with Tama: だ."
+      }
+     },
+     {
+      "si": { "contiene": ["desu"] },
+      "efecto": { "tipo": "nyan", "cara": "pensando" },
+      "msg": {
+       "es": "です es educado, para el sensei. Con Tama: だ (o nada).",
+       "en": "です is polite, for the teacher. With Tama: だ (or nothing)."
+      }
+     },
+     {
+      "si": { "falta": ["da"] },
+      "efecto": { "tipo": "nyan", "cara": "normal" },
+      "msg": {
+       "es": "Cierra con だ para que quede claro que lo afirmas.",
+       "en": "Close with だ so it's clear you're stating it."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "El cartel del cole dice «学校において、携帯は禁止である». Explícaselo a Tama con normalidad.",
+     "en": "The school sign says «学校において、携帯は禁止である» (formal). Explain it to Tama normally."
+    },
+    "escena": {
+     "fondo": "escuela",
+     "cosas": [
+      { "que": "nyan", "x": 110, "cara": "pensando" },
+      { "que": "pizarra", "x": 270 }
+     ]
+    },
+    "piezas": ["gakkou", "de", "keitai", "wa", "kinshi", "da", "yo", "nioite", "niokeru"],
+    "bien": [["gakkou", "de", "keitai", "wa", "kinshi", "da", "yo"]],
+    "tr": {
+     "es": "En la escuela, los móviles están prohibidos.",
+     "en": "At school, cellphones are prohibited."
+    },
+    "efecto_bien": [
+     { "tipo": "brilla", "objeto": "pizarra" },
+     { "tipo": "nyan", "cara": "feliz" }
+    ],
+    "fallos": [
+     {
+      "si": { "contiene": ["nioite"] },
+      "efecto": { "tipo": "nyan", "cara": "pensando", "manpu": "pregunta" },
+      "msg": {
+       "es": "において es de escribir. Hablando: で.",
+       "en": "において is for writing. Speaking: で."
+      }
+     },
+     {
+      "si": { "contiene": ["niokeru"] },
+      "efecto": { "tipo": "nyan", "cara": "pensando", "manpu": "pregunta" },
+      "msg": {
+       "es": "における también es de escribir. Hablando: で.",
+       "en": "における is also for writing. Speaking: で."
+      }
+     },
+     {
+      "si": { "falta": ["da"] },
+      "efecto": { "tipo": "nyan", "cara": "normal" },
+      "msg": {
+       "es": "Cierra con だ para afirmarlo, hablando con Tama.",
+       "en": "Close with だ to state it, speaking with Tama."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "La noticia dice «雨が降った。したがって、試合は中止になった。». Cuéntaselo a Tama tal cual se dice.",
+     "en": "The news says «雨が降った。したがって、試合は中止になった。» (formal). Tell Tama the way you'd actually say it."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      { "que": "nyan", "x": 110, "cara": "triste" },
+      { "que": "tele", "x": 270 }
+     ]
+    },
+    "piezas": ["ame", "ga", "futta", "kara", "shiai", "wa", "chuushininatta", "shitagatte"],
+    "bien": [["ame", "ga", "futta", "kara", "shiai", "wa", "chuushininatta"]],
+    "tr": {
+     "es": "Llovió, así que el partido se canceló.",
+     "en": "It rained, so the match was cancelled."
+    },
+    "efecto_bien": [
+     { "tipo": "manpu", "objeto": "tele", "manpu": "sudor" },
+     { "tipo": "nyan", "cara": "triste" }
+    ],
+    "fallos": [
+     {
+      "si": { "contiene": ["shitagatte"] },
+      "efecto": { "tipo": "nyan", "cara": "pensando", "manpu": "pregunta" },
+      "msg": {
+       "es": "したがって es de escribir. Hablando con Tama: から.",
+       "en": "したがって is for writing. Speaking with Tama: から."
+      }
+     },
+     {
+      "si": { "falta": ["kara"] },
+      "efecto": { "tipo": "nyan", "cara": "normal" },
+      "msg": {
+       "es": "Sin から no se explica el motivo (llovió) de la cancelación.",
+       "en": "Without から the reason (it rained) for the cancellation isn't explained."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Ahora explícaselo al sensei (con educación, pero sigue HABLADO, no escrito): «Los móviles están prohibidos en la escuela».",
+     "en": "Now explain it to the teacher (politely, but still SPOKEN, not written): «Cellphones are prohibited at school»."
+    },
+    "escena": {
+     "fondo": "escuela",
+     "cosas": [
+      { "que": "nyan", "x": 110, "cara": "normal" },
+      { "que": "profesor", "x": 280 }
+     ]
+    },
+    "piezas": ["gakkou", "de", "keitai", "wa", "kinshi", "desu", "da", "dearu"],
+    "bien": [["gakkou", "de", "keitai", "wa", "kinshi", "desu"]],
+    "tr": {
+     "es": "Los móviles están prohibidos en la escuela.",
+     "en": "Cellphones are prohibited at school."
+    },
+    "efecto_bien": [
+     { "tipo": "manpu", "objeto": "profesor", "manpu": "pregunta" },
+     { "tipo": "nyan", "cara": "normal" }
+    ],
+    "fallos": [
+     {
+      "si": { "contiene": ["dearu"] },
+      "efecto": { "tipo": "nyan", "cara": "sorpresa", "manpu": "excl" },
+      "msg": {
+       "es": "¡Ojo! である es para ESCRIBIR, nunca para hablar, ni siquiera con el sensei. Hablando con educación: です.",
+       "en": "Watch out! である is for WRITING, never for speaking, not even to the teacher. Speaking politely: です."
+      }
+     },
+     {
+      "si": { "contiene": ["da"] },
+      "efecto": { "tipo": "nyan", "cara": "pensando" },
+      "msg": {
+       "es": "だ es demasiado casual para el sensei. Usa です.",
+       "en": "だ is too casual for the teacher. Use です."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Reto: en su diario, Nyan escribió «ニャンは有名である». Que se lo diga a Tama tal y como se habla.",
+     "en": "Challenge: in his diary, Nyan wrote «ニャンは有名である» («Nyan is famous»). Have him say it to Tama the way people actually talk."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      { "que": "nyan", "x": 110, "cara": "feliz", "brazo": "arriba" },
+      { "que": "gato", "x": 270, "cara": "sorpresa" }
+     ]
+    },
+    "piezas": ["nyanpiece", "wa", "yuumei", "da", "dearu", "desu"],
+    "bien": [["nyanpiece", "wa", "yuumei", "da"]],
+    "tr": {
+     "es": "Nyan es famoso.",
+     "en": "Nyan is famous."
+    },
+    "efecto_bien": [
+     { "tipo": "gigante", "objeto": "nyan" },
+     { "tipo": "nyan", "cara": "feliz", "brazo": "arriba" }
+    ],
+    "fallos": [
+     {
+      "si": { "contiene": ["dearu"] },
+      "efecto": { "tipo": "manpu", "objeto": "gato", "manpu": "pregunta" },
+      "msg": {
+       "es": "である es de escribir (como en su diario). Hablando: だ.",
+       "en": "である is for writing (like his diary). Speaking: だ."
+      }
+     },
+     {
+      "si": { "contiene": ["desu"] },
+      "efecto": { "tipo": "nyan", "cara": "pensando" },
+      "msg": {
+       "es": "です es para el sensei. Con Tama: だ.",
+       "en": "です is for the teacher. With Tama: だ."
+      }
+     },
+     {
+      "si": { "falta": ["da"] },
+      "efecto": { "tipo": "nyan", "cara": "normal" },
+      "msg": {
+       "es": "Cierra con だ para afirmarlo.",
+       "en": "Close with だ to state it."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "juego": {
+  "intro": {
+   "es": "¿である (para escribir) o だ (para hablar)?",
+   "en": "である (for writing) or だ (for speaking)?"
+  },
+  "nyan": {
+   "es": "En los carteles suena tan serio… pero nadie habla así.",
+   "en": "It sounds so serious on signs… but nobody talks like that."
+  },
+  "cestas": [
+   {
+    "id": "dearu",
+    "jp": "である",
+    "sub": { "es": "para ESCRIBIR (carteles, noticias, libros)", "en": "for WRITING (signs, news, books)" }
+   },
+   {
+    "id": "da",
+    "jp": "だ",
+    "sub": { "es": "para HABLAR (con Tama)", "en": "for SPEAKING (with Tama)" }
+   }
+  ],
+  "cartas": [
+   {
+    "id": "j1",
+    "jp": "ここは 危険[きけん]＿。",
+    "cesta": "dearu",
+    "es": "Aquí es peligroso. (en un cartel)",
+    "en": "It's dangerous here. (on a sign)"
+   },
+   {
+    "id": "j2",
+    "jp": "ここ、 危険[きけん]＿よ。",
+    "cesta": "da",
+    "es": "Aquí es peligroso, ¿eh? (hablando)",
+    "en": "It's dangerous here! (speaking)"
+   },
+   {
+    "id": "j3",
+    "jp": "携帯[けいたい]は 禁止[きんし]＿。",
+    "cesta": "dearu",
+    "es": "Los móviles están prohibidos. (cartel)",
+    "en": "Cellphones are prohibited. (sign)"
+   },
+   {
+    "id": "j4",
+    "jp": "携帯[けいたい]は 禁止[きんし]＿よ。",
+    "cesta": "da",
+    "es": "Los móviles están prohibidos, ¿vale? (hablando)",
+    "en": "Cellphones are banned, ok? (speaking)"
+   },
+   {
+    "id": "j5",
+    "dibujo": "gato",
+    "jp": "ニャンは 有名[ゆうめい]＿。",
+    "cesta": "dearu",
+    "es": "Nyan es famoso. (en su diario)",
+    "en": "Nyan is famous. (in his diary)"
+   },
+   {
+    "id": "j6",
+    "jp": "ニャンは 有名[ゆうめい]＿よ。",
+    "cesta": "da",
+    "es": "Nyan es famoso, ¿sabes? (hablando)",
+    "en": "Nyan is famous, you know! (speaking)"
+   },
+   {
+    "id": "j7",
+    "jp": "今日[きょう]は いい 天気[てんき]＿。",
+    "cesta": "dearu",
+    "es": "Hoy hace buen tiempo. (redacción)",
+    "en": "Today the weather is nice. (essay)"
+   },
+   {
+    "id": "j8",
+    "jp": "今日[きょう]、 いい 天気[てんき]＿ね。",
+    "cesta": "da",
+    "es": "Hoy hace buen tiempo, ¿eh? (hablando)",
+    "en": "Nice weather today, huh! (speaking)"
+   }
+  ]
+ },
+ "outro": [
+  {
+   "escena": {
+    "fondo": "calle",
+    "cosas": [
+     { "que": "nyan", "x": 110, "cara": "pensando" },
+     { "que": "pizarra", "x": 270 }
+    ]
+   },
+   "cara": "pensando",
+   "jp": "ここは 危険[きけん]である。",
+   "voz": "o1",
+   "tr": {
+    "es": "Aquí es peligroso. (cartel)",
+    "en": "It's dangerous here. (sign)"
+   },
+   "cartela": {
+    "es": "である: solo para leer.",
+    "en": "である: for reading only."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "calle",
+    "cosas": [
+     { "que": "nyan", "x": 110, "cara": "feliz" },
+     { "que": "gato", "x": 270 }
+    ]
+   },
+   "cara": "feliz",
+   "jp": "ここ、 危険[きけん]だよ。",
+   "voz": "o2",
+   "tr": {
+    "es": "Aquí es peligroso, ¿eh?",
+    "en": "It's dangerous here!"
+   },
+   "cartela": {
+    "es": "だ: lo mismo, pero hablado.",
+    "en": "だ: the same thing, but spoken."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     { "que": "nyan", "x": 110, "cara": "feliz" },
+     { "que": "gato", "x": 270 }
+    ]
+   },
+   "habla": "tama",
+   "cara": "feliz",
+   "jp": "したがって、である、において… 読[よ]めれば 十分[じゅうぶん]だよ。",
+   "voz": "o3",
+   "tr": {
+    "es": "したがって, である, において… con saber leerlas basta.",
+    "en": "したがって, である, において… knowing how to read them is enough."
+   },
+   "cartela": {
+    "es": "Se leen. No se dicen.",
+    "en": "You read them. You don't say them."
+   }
+  }
+ ],
+ "chuleta": {
+  "patron": {
+   "es": "〔名詞〕である（escrito） ／ 〔名詞〕だ（hablado）",
+   "en": "〔noun〕である (written) / 〔noun〕だ (spoken)"
+  },
+  "patron_tr": {
+   "es": "lo mismo, dos registros",
+   "en": "the same thing, two registers"
+  },
+  "columnas": [
+   {
+    "jp": "である",
+    "texto": {
+     "es": "escrito: carteles, noticias, libros (＝だ／です)",
+     "en": "written: signs, news, books (=だ／です)"
+    },
+    "dibujos": ["pizarra"]
+   },
+   {
+    "jp": "において・における",
+    "texto": {
+     "es": "escrito: «en, dentro de» (＝で)",
+     "en": "written: «at, in» (=で)"
+    },
+    "dibujos": ["escuela"]
+   },
+   {
+    "jp": "したがって",
+    "texto": {
+     "es": "escrito: «por lo tanto» (＝だから)",
+     "en": "written: «therefore» (=だから)"
+    },
+    "dibujos": ["libro"]
+   }
+  ],
+  "filas": [
+   {
+    "jp": "ここは 危険[きけん]である。",
+    "es": "(escrito) Aquí es peligroso.",
+    "en": "(written) It's dangerous here.",
+    "registro": "escrito"
+   },
+   {
+    "jp": "ここ、 危険[きけん]だよ。",
+    "es": "(hablado) Aquí es peligroso.",
+    "en": "(spoken) It's dangerous here.",
+    "registro": "amigos"
+   },
+   {
+    "jp": "学校[がっこう]において、 携帯[けいたい]は 禁止[きんし]である。",
+    "es": "(escrito) En la escuela, los móviles están prohibidos.",
+    "en": "(written) At school, cellphones are prohibited.",
+    "registro": "escrito"
+   },
+   {
+    "jp": "学校[がっこう]で、 携帯[けいたい]は 禁止[きんし]です。",
+    "es": "(al sensei, hablado) En la escuela, los móviles están prohibidos.",
+    "en": "(to the teacher, spoken) At school, cellphones are prohibited.",
+    "registro": "educado"
+   }
+  ],
+  "consejo": {
+   "es": "である es el primo de だ (clase 1): mismo trabajo, distinto registro. Nunca se DICE である en voz alta, ni siquiera con el sensei: hablando siempre だ o です.",
+   "en": "である is the cousin of だ (class 1): same job, different register. You never SAY である out loud, not even to the teacher: when speaking it's always だ or です."
+  }
+ }
+}

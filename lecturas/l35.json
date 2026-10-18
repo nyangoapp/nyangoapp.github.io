@@ -1,0 +1,53 @@
+{
+ "id": "l35", "desde": 2700,
+ "titulo": {"jp": "嵐[あらし]の 夜[よる]", "es": "La noche de la tormenta", "en": "Storm night"},
+ "resumen": {"es": "Un fuerte tifón deja a Nyan solo, a oscuras y asustado: ¿quién lo acompañará esa noche?", "en": "A strong typhoon leaves Nyan alone, in the dark and scared: who will keep him company that night?"},
+ "portada": {"fondo": "noche", "cosas": [{"que": "nyan", "x": 110, "cara": "triste"}, {"que": "nube", "x": 270}]},
+ "texto": [
+   {"voz": "t1", "quien": "narrador", "jp": "その 日[ひ]の 夕方[ゆうがた]、 空[そら]が 急[きゅう]に 暗[くら]く なった。", "es": "Aquella tarde, el cielo se puso oscuro de repente.", "en": "That evening, the sky suddenly turned dark."},
+   {"voz": "t2", "quien": "narrador", "jp": "ニュースは、 大[おお]きな 台風[たいふう]が 来[く]ると 言[い]って いた。", "es": "Las noticias decían que venía un gran tifón.", "en": "The news said a big typhoon was coming."},
+   {"voz": "t3", "quien": "fukuro", "jp": "今夜[こんや]は 危[あぶ]ないから、 早[はや]く 家[いえ]に 帰[かえ]りなさい。", "es": "Esta noche es peligroso, así que volved pronto a casa.", "en": "Tonight is dangerous, so go home quickly."},
+   {"voz": "t4", "quien": "narrador", "jp": "ニャンは 急[いそ]いで 家[いえ]に 帰[かえ]った。", "es": "Nyan volvió corriendo a casa.", "en": "Nyan hurried home."},
+   {"voz": "t5", "quien": "narrador", "jp": "夜[よる]に なると、 風[かぜ]が どんどん 強[つよ]く なって きた。", "es": "Al llegar la noche, el viento se fue haciendo cada vez más fuerte.", "en": "As night came, the wind kept getting stronger and stronger."},
+   {"voz": "t6", "quien": "narrador", "jp": "窓[まど]の 外[そと]で、 木[き]が 大[おお]きく 揺[ゆ]れて いた。", "es": "Fuera de la ventana, los árboles se mecían con fuerza.", "en": "Outside the window, the trees were swaying violently."},
+   {"voz": "t7", "quien": "narrador", "jp": "突然[とつぜん]、 電気[でんき]が 消[き]えた。", "es": "De repente, se fue la luz.", "en": "Suddenly, the lights went out."},
+   {"voz": "t8", "quien": "nyan", "jp": "うわ、 とても 暗[くら]いよ…。 怖[こわ]いな。", "es": "Uy, qué oscuro está esto… Qué miedo.", "en": "Whoa, it's so dark... I'm scared."},
+   {"voz": "t9", "quien": "narrador", "jp": "その とき、 電話[でんわ]が 鳴[な]った。 タマからだった。", "es": "En ese momento, sonó el teléfono. Era Tama.", "en": "At that moment, the phone rang. It was Tama."},
+   {"voz": "t10", "quien": "tama", "jp": "大丈夫[だいじょうぶ]？ そっちも 電気[でんき]が 消[き]えた？", "es": "¿Estás bien? ¿A ti también se te fue la luz?", "en": "Are you okay? Did your lights go out too?"},
+   {"voz": "t11", "quien": "nyan", "jp": "うん。 とても 暗[くら]くて、 本[ほん]も 読[よ]みようが ないよ。", "es": "Sí. Está tan oscuro que no hay manera de leer un libro.", "en": "Yeah. It's so dark there's no way to even read a book."},
+   {"voz": "t12", "quien": "tama", "jp": "こんな 夜[よる]は、 早[はや]く 寝[ね]る しか ないよ。", "es": "En una noche así, no queda más remedio que dormirse pronto.", "en": "On a night like this, there's nothing to do but go to sleep early."},
+   {"voz": "t13", "quien": "nyan", "jp": "そうだね。 でも、 風[かぜ]の 音[おと]が 大[おお]きくて、 眠[ねむ]れそうに ない。", "es": "Es verdad. Pero el ruido del viento es tan fuerte que no parece que vaya a poder dormir.", "en": "That's true. But the sound of the wind is so loud, I don't think I'll be able to sleep."},
+   {"voz": "t14", "quien": "tama", "jp": "ニャン、 怖[こわ]いなら、 電話[でんわ]が つながった まま、 一緒[いっしょ]に いよう。", "es": "Nyan, si tienes miedo, quedémonos juntos con el teléfono conectado.", "en": "Nyan, if you're scared, let's stay together with the phone connected."},
+   {"voz": "t15", "quien": "narrador", "jp": "二人[ふたり]は、 電話[でんわ]で、 しばらく 話[はな]して いた。", "es": "Los dos estuvieron hablando por teléfono un buen rato.", "en": "The two of them talked on the phone for a while."},
+   {"voz": "t16", "quien": "narrador", "jp": "だんだん、 ニャンの 気持[きも]ちは 落[お]ち 着[つ]いて いった。", "es": "Poco a poco, Nyan se fue tranquilizando.", "en": "Little by little, Nyan's feelings settled down."},
+   {"voz": "t17", "quien": "narrador", "jp": "朝[あさ]に なると、 風[かぜ]は すっかり 止[と]まって いた。", "es": "Al llegar la mañana, el viento se había detenido por completo.", "en": "By morning, the wind had completely stopped."},
+   {"voz": "t18", "quien": "narrador", "jp": "電気[でんき]も 戻[もど]って いた。", "es": "La luz también había vuelto.", "en": "The electricity had come back too."},
+   {"voz": "t19", "quien": "narrador", "jp": "外[そと]に 出[で]て みると、 公園[こうえん]の 木[き]の 枝[えだ]が たくさん 落[お]ちて いた。", "es": "Al salir fuera, había muchas ramas caídas de los árboles del parque.", "en": "When he went outside, many branches from the park's trees had fallen."},
+   {"voz": "t20", "quien": "nyan", "jp": "すごい 風[かぜ]だった ね。 でも、 タマの おかげで、 あまり 怖[こわ]くなかったよ。", "es": "Vaya viento que hacía. Pero gracias a ti, Tama, no tuve tanto miedo.", "en": "That was some wind. But thanks to you, Tama, I wasn't that scared."},
+   {"voz": "t21", "quien": "tama", "jp": "よかった。 また 何[なに]か あったら、 いつでも 電話[でんわ]して ね。", "es": "Qué bien. Si vuelve a pasar algo, llámame cuando quieras.", "en": "I'm glad. If anything happens again, call me anytime."},
+   {"voz": "t22", "quien": "narrador", "jp": "その 日[ひ]、 二人[ふたり]は、 前[まえ]よりも もっと 仲[なか]が よく なった 気[き]が した。", "es": "Ese día, tuvieron la sensación de haberse hecho aún más amigos que antes.", "en": "That day, the two of them felt like they'd become even closer friends than before."}
+ ],
+ "preguntas": [
+  {"jp": "先生[せんせい]は、 学校[がっこう]で 何[なに]と 言[い]いましたか。", "es": "¿Qué dijo la maestra Fukuro en la escuela?", "en": "What did Ms. Fukuro say at school?",
+   "opciones": [{"jp": "早[はや]く 家[いえ]に 帰[かえ]りなさい", "es": "Que volvieran pronto a casa", "en": "To go home quickly"}, {"jp": "明日[あした]は 学校[がっこう]に 来[こ]なくて いい", "es": "Que mañana no hace falta ir a la escuela", "en": "That they didn't need to come to school tomorrow"}, {"jp": "窓[まど]を 閉[し]めなさい", "es": "Que cerraran las ventanas", "en": "To close the windows"}],
+   "bien": 0, "porque": {"es": "「今夜は危ないから、早く家に帰りなさい」と言った。", "en": "They said «今夜は危ないから、早く家に帰りなさい» (tonight is dangerous, go home quickly)."}},
+  {"jp": "夜[よる]、 ニャンの 家[いえ]で 何[なに]が 起[お]こりましたか。", "es": "¿Qué pasó por la noche en casa de Nyan?", "en": "What happened at Nyan's house at night?",
+   "opciones": [{"jp": "電気[でんき]が 消[き]えた", "es": "Se fue la luz", "en": "The lights went out"}, {"jp": "窓[まど]が 割[わ]れた", "es": "Se rompió la ventana", "en": "The window broke"}, {"jp": "電話[でんわ]が 壊[こわ]れた", "es": "Se estropeó el teléfono", "en": "The phone broke"}],
+   "bien": 0, "porque": {"es": "「突然、電気が消えた」とある。", "en": "«突然、電気が消えた» (suddenly, the lights went out)."}},
+  {"jp": "ニャンが 怖[こわ]がって いた とき、 タマは 何[なに]を しましたか。", "es": "Cuando Nyan estaba asustado, ¿qué hizo Tama?", "en": "When Nyan was scared, what did Tama do?",
+   "opciones": [{"jp": "電話[でんわ]で、 一緒[いっしょ]に いた", "es": "Estar con él por teléfono", "en": "Stayed with him on the phone"}, {"jp": "ニャンの 家[いえ]まで 走[はし]って 来[き]た", "es": "Fue corriendo hasta su casa", "en": "Ran all the way to his house"}, {"jp": "何[なに]も しなかった", "es": "No hizo nada", "en": "Did nothing"}],
+   "bien": 0, "porque": {"es": "「電話がつながったまま、一緒にいよう」と言って、しばらく話していた。", "en": "They said «電話がつながったまま、一緒にいよう» (let's stay together with the phone connected) and talked for a while."}},
+  {"jp": "朝[あさ]に なると、 公園[こうえん]は どう なって いましたか。", "es": "Al llegar la mañana, ¿cómo estaba el parque?", "en": "By morning, what had happened to the park?",
+   "opciones": [{"jp": "木[き]の 枝[えだ]が たくさん 落[お]ちて いた", "es": "Habían caído muchas ramas de los árboles", "en": "Many tree branches had fallen"}, {"jp": "何[なに]も 変[か]わって いなかった", "es": "No había cambiado nada", "en": "Nothing had changed"}, {"jp": "花[はな]が たくさん 咲[さ]いて いた", "es": "Habían florecido muchas flores", "en": "Many flowers had bloomed"}],
+   "bien": 0, "porque": {"es": "「公園の木の枝がたくさん落ちていた」とある。", "en": "«公園の木の枝がたくさん落ちていた» (many tree branches in the park had fallen)."}},
+  {"tipo": "opinion", "jp": "あなたは、 嵐[あらし]の 夜[よる]、 一人[ひとり]で いるのが 平気[へいき]な 方[ほう]ですか。", "es": "¿Eres de los que están tranquilos solos en una noche de tormenta?", "en": "Are you the type who's fine being alone on a stormy night?",
+   "opciones": [
+    {"jp": "平気[へいき]な 方[ほう]だ", "es": "Sí, no me molesta", "en": "Yes, I'm fine with it",
+     "nyan": {"jp": "すごいね！ ニャンには できない かも。", "es": "¡Qué fuerte! Puede que Nyan no pueda hacer eso.", "en": "Impressive! Nyan might not be able to do that."}},
+    {"jp": "ニャンと 同[おな]じで、 怖[こわ]い", "es": "Igual que Nyan, me da miedo", "en": "Same as Nyan, I get scared",
+     "nyan": {"jp": "だよね！ そういう 時[とき]は、 誰[だれ]かと 話[はな]すと 安心[あんしん]する よ。", "es": "¡Claro que sí! En esos momentos, hablar con alguien tranquiliza.", "en": "Right? At times like that, talking to someone brings peace of mind."}},
+    {"jp": "友達[ともだち]と 電話[でんわ]で 話[はな]せば 平気[へいき]だ", "es": "Si hablo con un amigo por teléfono, estoy tranquilo", "en": "If I talk to a friend on the phone, I'm fine",
+     "nyan": {"jp": "それ、 ニャンと タマみたいだね！", "es": "¡Eso es igual que Nyan y Tama!", "en": "That's just like Nyan and Tama!"}}
+   ]}
+ ]
+}

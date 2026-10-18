@@ -1,0 +1,46 @@
+/* Iconos ilustrados: cada pieza toma su color de un papel (--b base, --s sombra, --a acento, --c claro, --d oscuro).
+   Los temas cambian los papeles, no los dibujos. */
+.ic { width: 100%; height: 100%; display: block; overflow: visible; }
+.ic .b { fill: var(--b); } .ic .s { fill: var(--s); } .ic .a { fill: var(--a); } .ic .c { fill: var(--c); } .ic .d { fill: var(--d); }
+.ic .cs { fill: color-mix(in srgb, var(--c) 84%, var(--d)); }
+.ic .h { fill: #fff; opacity: .5; }
+.ic .hl { fill: none; stroke: #fff; stroke-opacity: .6; stroke-width: 3; stroke-linecap: round; }
+.ic .o { fill: rgba(40, 20, 0, .13); }
+.ic .t, .ic .t2, .ic .tiza { font-family: "Zen Maru Gothic", "Hiragino Maru Gothic ProN", sans-serif; font-weight: 900; }
+.ic .t { fill: var(--d); } .ic .t2 { fill: var(--b); } .ic .tiza { fill: #fff; }
+.ic .blanco, .ic .blanco-l { fill: #fff; }
+.ic .boca { fill: none; stroke: var(--d); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.ic .ceja { fill: none; stroke: var(--d); stroke-width: 2.4; stroke-linecap: round; }
+.ic .oro { fill: none; stroke: var(--a); stroke-width: 2.6; stroke-linecap: round; }
+.ic .oro-g { fill: none; stroke: var(--a); stroke-width: 3; }
+.ic .raya { fill: var(--a); opacity: .5; }
+.ic .raya-o { fill: var(--d); opacity: .28; }
+.ic .cuerda { fill: none; stroke: var(--a); stroke-width: 2.4; stroke-linecap: round; }
+.ic .check { fill: none; stroke: #fff; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+.ic .trazo { fill: none; stroke: var(--b); stroke-width: 7; stroke-linecap: round; opacity: .9; }
+.ic .ola { fill: none; stroke: var(--d); stroke-width: 2.4; stroke-linecap: round; opacity: .55; }
+.ic .tiza-l { fill: none; stroke: #fff; stroke-opacity: .7; stroke-width: 2.4; stroke-linecap: round; }
+.ic .pata { fill: none; stroke: var(--d); stroke-width: 4; stroke-linecap: round; }
+.ic .sello-l { fill: none; stroke: #fff; stroke-width: 1.4; stroke-linecap: round; }
+.ic .borde { stroke: var(--s); stroke-width: 1.5; }
+
+/* Noche: los colores de siempre, encendidos como farolillos */
+:root[data-tema="noche"] .ic { filter: drop-shadow(0 0 7px color-mix(in srgb, var(--b) 50%, transparent)); }
+:root[data-tema="noche"] .ic .o { fill: rgba(0, 0, 0, .35); }
+/* Pop: pegatina con contorno y sombra dura */
+:root[data-tema="pop"] .ic { filter: drop-shadow(1.6px 0 0 #1a1033) drop-shadow(-1.6px 0 0 #1a1033) drop-shadow(0 1.6px 0 #1a1033) drop-shadow(0 -1.6px 0 #1a1033) drop-shadow(3px 3px 0 #1a1033); }
+:root[data-tema="pop"] .ic .o { display: none; }
+/* Sumi: tinta, papel y un solo rojo */
+:root[data-tema="sumi"] .ic { --b: #1b1a19 !important; --s: #000 !important; --a: #c8241a !important; --c: #f8f6f1 !important; --d: #1b1a19 !important; }
+:root[data-tema="sumi"] .ic .h, :root[data-tema="sumi"] .ic .hl { opacity: .18; }
+:root[data-tema="sumi"] .ic .t, :root[data-tema="sumi"] .ic .tiza { font-family: "Yuji Syuku", serif; font-weight: 400; }
+/* Heisei: azul eléctrico y rosa, con brillo de consola */
+:root[data-tema="heisei"] .ic { --b: #3b7bff !important; --s: #2747c4 !important; --a: #ff5fd2 !important; --c: #eef3ff !important; --d: #0b1030 !important;
+  filter: drop-shadow(0 0 6px rgba(127, 243, 255, .6)); }
+:root[data-tema="heisei"] .ic .hl { stroke-opacity: .85; }
+/* piezas de las imágenes de palabras */
+.ic .palillo { fill: none; stroke: var(--d); stroke-width: 3; stroke-linecap: round; }
+.ic .ruta { fill: none; stroke: var(--a); stroke-width: 2.4; stroke-linecap: round; stroke-dasharray: 2 5; }
+.ic .t-c { font-family: "Zen Maru Gothic", sans-serif; font-weight: 900; fill: var(--c); }
+.ic .gota { fill: none; stroke: var(--a); stroke-width: 3.2; stroke-linecap: round; }
+:root[data-tema="sumi"] .ic .confeti { fill: #c8241a; }

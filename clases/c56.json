@@ -1,0 +1,952 @@
+{
+ "id": "c56",
+ "clase": 56,
+ "desde": 2050,
+ "titulo": {
+  "es": "Así son los gatos: 〜ものだ y 〜もん",
+  "en": "That's just how cats are: 〜ものだ and 〜もん"
+ },
+ "resumen": {
+  "es": "ものだ dice una verdad general, o algo de siempre (〜たものだ, con nostalgia). もん es su primo muy hablado: una excusa, casi de niño, siempre con だって。",
+  "en": "ものだ states a general truth, or something you always used to do (〜たものだ, with nostalgia). もん is its very spoken cousin: an excuse, almost childish, always with だって。"
+ },
+ "intro": [
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "gato",
+      "x": 270
+     },
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "pensando"
+     }
+    ]
+   },
+   "habla": "tama",
+   "cara": "normal",
+   "jp": "猫[ねこ]は よく 寝[ね]るものだ。",
+   "voz": "i1",
+   "tr": {
+    "es": "Los gatos duermen mucho, así son.",
+    "en": "Cats sleep a lot, that's just how they are."
+   },
+   "cartela": {
+    "es": "ものだ: una verdad general, así son las cosas.",
+    "en": "ものだ: a general truth, that's just how things are."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "parque",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 130,
+      "cara": "feliz"
+     }
+    ]
+   },
+   "cara": "feliz",
+   "jp": "子[こ]供[ども]の 時[とき]、 よく 昼寝[ひるね]したものだ。",
+   "voz": "i2",
+   "tr": {
+    "es": "De pequeño, dormía la siesta muy a menudo.",
+    "en": "As a kid, I used to nap a lot."
+   },
+   "cartela": {
+    "es": "た形 + ものだ: recuerdas algo de siempre, con nostalgia.",
+    "en": "た-form + ものだ: you remember something you always did, with nostalgia."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 130,
+      "cara": "sueno"
+     },
+     {
+      "que": "gato",
+      "x": 270,
+      "cara": "pensando"
+     }
+    ]
+   },
+   "cara": "sueno",
+   "jp": "だって、 眠[ねむ]いんだもん。",
+   "voz": "i3",
+   "tr": {
+    "es": "Es que tengo sueño.",
+    "en": "But I'm sleepy."
+   },
+   "cartela": {
+    "es": "もん: una excusa, muy de hablar, con だって delante.",
+    "en": "もん: an excuse, very spoken, with だって up front."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "pensando"
+     },
+     {
+      "que": "gato",
+      "x": 270
+     }
+    ]
+   },
+   "habla": "tama",
+   "cara": "normal",
+   "jp": "先生[せんせい]には 「もん」は 使[つか]わないでね。",
+   "voz": "i4",
+   "tr": {
+    "es": "Con el sensei, no uses «もん», ¿eh?",
+    "en": "Don't use «もん» with the teacher, okay?"
+   },
+   "cartela": {
+    "es": "もん es solo para amigos y casa. ¡A practicar!",
+    "en": "もん is only for friends and home. Let's practice!"
+   }
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta cada frase. ものだ: verdad general o recuerdo de siempre. もん: excusa muy hablada, solo con amigos. んです (ya lo sabías): explicas con educación.",
+   "en": "Build each sentence. ものだ: general truth or a memory of how things always were. もん: a very spoken excuse, friends only. んです (you already knew this): you explain politely."
+  },
+  "piezas": [
+   {
+    "id": "neko_wa",
+    "jp": "猫[ねこ]は",
+    "tipo": "palabra"
+   },
+   {
+    "id": "yoku",
+    "jp": "よく",
+    "tipo": "palabra"
+   },
+   {
+    "id": "neru_monoda",
+    "jp": "寝[ね]るものだ",
+    "tipo": "verbo"
+   },
+   {
+    "id": "neru",
+    "jp": "寝[ね]る",
+    "tipo": "verbo"
+   },
+   {
+    "id": "nete_iru",
+    "jp": "寝[ね]ている",
+    "tipo": "verbo"
+   },
+   {
+    "id": "kodomo_no_toki",
+    "jp": "子[こ]供[ども]の 時[とき]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "asonda_monoda",
+    "jp": "遊[あそ]んだものだ",
+    "tipo": "verbo"
+   },
+   {
+    "id": "asonda",
+    "jp": "遊[あそ]んだ",
+    "tipo": "verbo"
+   },
+   {
+    "id": "asobu",
+    "jp": "遊[あそ]ぶ",
+    "tipo": "verbo"
+   },
+   {
+    "id": "datte",
+    "jp": "だって",
+    "tipo": "palabra"
+   },
+   {
+    "id": "nemuindamon",
+    "jp": "眠[ねむ]いんだもん",
+    "tipo": "verbo"
+   },
+   {
+    "id": "nemuidesu",
+    "jp": "眠[ねむ]いです",
+    "tipo": "verbo"
+   },
+   {
+    "id": "nemui",
+    "jp": "眠[ねむ]い",
+    "tipo": "verbo"
+   },
+   {
+    "id": "nemuindesu",
+    "jp": "眠[ねむ]いんです",
+    "tipo": "verbo"
+   },
+   {
+    "id": "nemukunai",
+    "jp": "眠[ねむ]くない",
+    "tipo": "verbo"
+   },
+   {
+    "id": "itsumo",
+    "jp": "いつも",
+    "tipo": "palabra"
+   },
+   {
+    "id": "wasureru_monoda",
+    "jp": "忘[わす]れるものだ",
+    "tipo": "verbo"
+   },
+   {
+    "id": "wasureta",
+    "jp": "忘[わす]れた",
+    "tipo": "verbo"
+   },
+   {
+    "id": "wasurenai",
+    "jp": "忘[わす]れない",
+    "tipo": "verbo"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Di una verdad general sobre los gatos: «Los gatos duermen mucho».",
+     "en": "State a general truth about cats: «Cats sleep a lot»."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      {
+       "que": "gato",
+       "x": 270
+      },
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "pensando"
+      }
+     ]
+    },
+    "piezas": [
+     "neko_wa",
+     "yoku",
+     "neru_monoda",
+     "neru",
+     "nete_iru"
+    ],
+    "bien": [
+     [
+      "neko_wa",
+      "yoku",
+      "neru_monoda"
+     ]
+    ],
+    "tr": {
+     "es": "Los gatos duermen mucho, así son.",
+     "en": "Cats sleep a lot, that's just how they are."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "duerme",
+      "objeto": "gato"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "nete_iru"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "ている describe a UN gato durmiendo ahora mismo; ものだ dice que es su forma de ser, siempre.",
+       "en": "ている describes ONE cat sleeping right now; ものだ says that's just how they always are."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "neru"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "寝る solo, sin ものだ, no dice que sea la norma general de los gatos.",
+       "en": "寝る alone, without ものだ, doesn't say it's the general rule for cats."
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "neru_monoda"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin ものだ solo describes, no generalizas.",
+       "en": "Without ものだ you're just describing, not generalizing."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Nyan recuerda su niñez: «De pequeño, jugaba mucho».",
+     "en": "Nyan remembers his childhood: «As a kid, I used to play a lot»."
+    },
+    "escena": {
+     "fondo": "parque",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 130,
+       "cara": "feliz"
+      }
+     ]
+    },
+    "piezas": [
+     "kodomo_no_toki",
+     "yoku",
+     "asonda_monoda",
+     "asonda",
+     "asobu"
+    ],
+    "bien": [
+     [
+      "kodomo_no_toki",
+      "yoku",
+      "asonda_monoda"
+     ]
+    ],
+    "tr": {
+     "es": "De pequeño, jugaba mucho.",
+     "en": "As a kid, I used to play a lot."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "brilla",
+      "objeto": "nyan"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz",
+      "brazo": "arriba"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "asonda"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "遊んだ solo dice que jugó una vez; ものだ añade el recuerdo, «así era entonces».",
+       "en": "遊んだ just says he played once; ものだ adds the memory, «that's how it was then»."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "asobu"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "遊ぶ es presente/futuro; para recordar el pasado hace falta た + ものだ。",
+       "en": "遊ぶ is present/future; to remember the past you need た + ものだ。"
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "asonda_monoda"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin ものだ no suena a recuerdo con nostalgia.",
+       "en": "Without ものだ it doesn't sound like a nostalgic memory."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Nyan se excusa con Tama, en plan quejica: «Es que tengo sueño».",
+     "en": "Nyan makes an excuse to Tama, whiny-style: «But I'm sleepy»."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 130,
+       "cara": "sueno"
+      },
+      {
+       "que": "gato",
+       "x": 270
+      }
+     ]
+    },
+    "piezas": [
+     "datte",
+     "nemuindamon",
+     "nemuidesu",
+     "nemui"
+    ],
+    "bien": [
+     [
+      "datte",
+      "nemuindamon"
+     ]
+    ],
+    "tr": {
+     "es": "Es que tengo sueño.",
+     "en": "But I'm sleepy."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "manpu",
+      "objeto": "gato",
+      "manpu": "sudor"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "sueno"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "nemuidesu"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "です es formal; もん es la excusa de andar por casa, con Tama.",
+       "en": "です is formal; もん is the excuse you use at home, with Tama."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "nemui"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "眠い solo, sin もん, no suena a excusa quejica: falta んだもん。",
+       "en": "眠い alone, without もん, doesn't sound like a whiny excuse: you need んだもん。"
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "nemuindamon"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin んだもん no suena a excusa.",
+       "en": "Without んだもん it doesn't sound like an excuse."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Ahora explícaselo al sensei, con educación (nunca uses もん con él): «Es que tengo sueño».",
+     "en": "Now explain it to the teacher, politely (never use もん with him): «I'm sleepy»."
+    },
+    "escena": {
+     "fondo": "escuela",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "sueno"
+      },
+      {
+       "que": "profesor",
+       "x": 280
+      }
+     ]
+    },
+    "piezas": [
+     "nemuindesu",
+     "nemuidesu",
+     "nemuindamon",
+     "nemukunai"
+    ],
+    "bien": [
+     [
+      "nemuindesu"
+     ],
+     [
+      "nemuidesu"
+     ]
+    ],
+    "tr": {
+     "es": "Es que tengo sueño.",
+     "en": "I'm sleepy."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "manpu",
+      "objeto": "profesor",
+      "manpu": "sudor"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "sueno"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "nemuindamon"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "sorpresa",
+       "manpu": "excl"
+      },
+      "msg": {
+       "es": "もん es para amigos o casa; con el sensei, nunca. Aquí: んです。",
+       "en": "もん is for friends or home; never with the teacher. Here: んです。"
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "nemukunai"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "くない es NO tener sueño; justo lo contrario.",
+       "en": "くない means NOT sleepy; the opposite."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Reto: Nyan admite una verdad incómoda sobre sí mismo: «Siempre se me olvida todo, así soy».",
+     "en": "Challenge: Nyan admits an awkward truth about himself: «I always forget everything, that's just how I am»."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 130,
+       "cara": "triste"
+      },
+      {
+       "que": "manpu",
+       "tipo": "sudor",
+       "x": 170,
+       "y": 110
+      }
+     ]
+    },
+    "piezas": [
+     "itsumo",
+     "wasureru_monoda",
+     "wasureta",
+     "wasurenai"
+    ],
+    "bien": [
+     [
+      "itsumo",
+      "wasureru_monoda"
+     ]
+    ],
+    "tr": {
+     "es": "Siempre se me olvida todo, así soy.",
+     "en": "I always forget everything, that's just how I am."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "manpu",
+      "objeto": "nyan",
+      "manpu": "sudor"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "triste"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "wasureta"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "忘れた es UNA vez, en el pasado. ものだ dice que es SIEMPRE así.",
+       "en": "忘れた is ONE time, in the past. ものだ says it's ALWAYS like that."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "wasurenai"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "sorpresa",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "忘れない es NO olvidar; todo lo contrario de la verdad incómoda de Nyan.",
+       "en": "忘れない is NOT forgetting; the opposite of Nyan's awkward truth."
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "wasureru_monoda"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin ものだ no suena a «así soy yo».",
+       "en": "Without ものだ it doesn't sound like «that's just how I am»."
+      }
+     }
+    ],
+    "pista": {
+     "es": "Empieza por いつも: SIEMPRE pasa.",
+     "en": "Start with いつも: it ALWAYS happens."
+    }
+   }
+  ]
+ },
+ "juego": {
+  "intro": {
+   "es": "¿ものだ (verdad general / recuerdo), もん (excusa, con amigos) o んです (explicas, con educación)? Completa cada frase.",
+   "en": "ものだ (general truth / memory), もん (excuse, with friends), or んです (you explain, politely)? Complete each sentence."
+  },
+  "nyan": {
+   "es": "Yo con だって y もん lo arreglo todo. Bueno, con el sensei no.",
+   "en": "I fix everything with だって and もん. Well, not with the teacher."
+  },
+  "cestas": [
+   {
+    "id": "monoda",
+    "jp": "ものだ",
+    "sub": {
+     "es": "verdad general, o recuerdo de siempre",
+     "en": "general truth, or a memory of how things always were"
+    }
+   },
+   {
+    "id": "mon",
+    "jp": "もん",
+    "sub": {
+     "es": "excusa, muy de hablar (con だって)",
+     "en": "excuse, very spoken (with だって)"
+    }
+   },
+   {
+    "id": "ndesu",
+    "jp": "んです",
+    "sub": {
+     "es": "explicas, con educación",
+     "en": "you explain, politely"
+    }
+   }
+  ],
+  "cartas": [
+   {
+    "id": "j1",
+    "dibujo": "gato",
+    "jp": "猫[ねこ]は よく 寝[ね]る＿。",
+    "cesta": "monoda",
+    "es": "Los gatos duermen mucho, así son.",
+    "en": "Cats sleep a lot, that's just how they are."
+   },
+   {
+    "id": "j2",
+    "jp": "子[こ]供[ども]の 時[とき]、 よく 遊[あそ]んだ＿。",
+    "cesta": "monoda",
+    "es": "De pequeño, jugaba mucho.",
+    "en": "As a kid, I used to play a lot."
+   },
+   {
+    "id": "j3",
+    "dibujo": "cama",
+    "jp": "だって、 眠[ねむ]いんだ＿。",
+    "cesta": "mon",
+    "es": "Es que tengo sueño.",
+    "en": "But I'm sleepy."
+   },
+   {
+    "id": "j4",
+    "dibujo": "profesor",
+    "jp": "先生[せんせい]、 眠[ねむ]い＿。",
+    "cesta": "ndesu",
+    "es": "Profesor, es que tengo sueño.",
+    "en": "Teacher, I'm sleepy.",
+    "truco": {
+     "es": "Con el sensei, んです, nunca もん。",
+     "en": "With the teacher, んです, never もん。"
+    }
+   },
+   {
+    "id": "j5",
+    "jp": "いつも 忘[わす]れる＿。",
+    "cesta": "monoda",
+    "es": "Siempre se me olvida todo, así soy.",
+    "en": "I always forget everything, that's just how I am."
+   },
+   {
+    "id": "j6",
+    "jp": "だって、 難[むずか]しい＿。",
+    "cesta": "mon",
+    "es": "Es que es difícil.",
+    "en": "But it's hard."
+   },
+   {
+    "id": "j7",
+    "dibujo": "gato",
+    "jp": "タマは いつも 賢[かしこ]い＿。",
+    "cesta": "monoda",
+    "es": "Tama siempre es listo, así es él.",
+    "en": "Tama's always clever, that's just how he is."
+   },
+   {
+    "id": "j8",
+    "dibujo": "profesor",
+    "jp": "わからない＿。",
+    "cesta": "ndesu",
+    "es": "Es que no lo entiendo.",
+    "en": "I just don't get it."
+   }
+  ]
+ },
+ "outro": [
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "gato",
+      "x": 270
+     },
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "pensando"
+     }
+    ]
+   },
+   "cara": "pensando",
+   "jp": "猫[ねこ]は よく 寝[ね]るものだ。",
+   "voz": "o1",
+   "tr": {
+    "es": "Los gatos duermen mucho, así son.",
+    "en": "Cats sleep a lot, that's just how they are."
+   },
+   "cartela": {
+    "es": "ものだ: así son las cosas.",
+    "en": "ものだ: that's just how things are."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "sueno"
+     },
+     {
+      "que": "gato",
+      "x": 270
+     }
+    ]
+   },
+   "habla": "tama",
+   "cara": "normal",
+   "jp": "ニャンも 昔[むかし]から 変[か]わらないものだ。",
+   "voz": "o2",
+   "tr": {
+    "es": "Nyan tampoco ha cambiado desde siempre, así es él.",
+    "en": "Nyan hasn't changed since forever, that's just how he is."
+   },
+   "cartela": {
+    "es": "ものだ también vale para hablar de una persona, no solo de todos los gatos.",
+    "en": "ものだ also works to talk about one person, not just cats in general."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 130,
+      "cara": "feliz"
+     },
+     {
+      "que": "onigiri",
+      "x": 270,
+      "s": 1.1
+     }
+    ]
+   },
+   "cara": "feliz",
+   "jp": "だって、 猫[ねこ]だもん。",
+   "voz": "o3",
+   "tr": {
+    "es": "Es que soy un gato, ¡qué le voy a hacer!",
+    "en": "Well, I'm a cat, what can I do!"
+   },
+   "cartela": {
+    "es": "Fin. もん: la excusa perfecta, para todo. (Menos con el sensei.)",
+    "en": "The end. もん: the perfect excuse, for everything. (Except with the teacher.)"
+   }
+  }
+ ],
+ "chuleta": {
+  "patron": {
+   "es": "〔verdad／た形〕ものだ ／ 〔casual〕んだもん",
+   "en": "〔truth／た-form〕ものだ / 〔casual〕んだもん"
+  },
+  "patron_tr": {
+   "es": "así son las cosas / así era antes / es que… (excusa)",
+   "en": "that's just how things are / that's how it used to be / it's because… (excuse)"
+  },
+  "columnas": [
+   {
+    "jp": "ものだ",
+    "texto": {
+     "es": "verdad general, o recuerdo con nostalgia",
+     "en": "general truth, or a nostalgic memory"
+    },
+    "dibujos": [
+     "gato"
+    ]
+   },
+   {
+    "jp": "もん",
+    "texto": {
+     "es": "excusa muy hablada, con だって",
+     "en": "a very spoken excuse, with だって"
+    },
+    "dibujos": [
+     "cama"
+    ]
+   }
+  ],
+  "filas": [
+   {
+    "jp": "猫[ねこ]は よく 寝[ね]るものだ。",
+    "es": "Los gatos duermen mucho, así son.",
+    "en": "Cats sleep a lot, that's just how they are."
+   },
+   {
+    "jp": "子[こ]供[ども]の 時[とき]、 よく 遊[あそ]んだものだ。",
+    "es": "De pequeño, jugaba mucho.",
+    "en": "As a kid, I used to play a lot."
+   },
+   {
+    "jp": "だって、 眠[ねむ]いんだもん。",
+    "es": "Es que tengo sueño.",
+    "en": "But I'm sleepy.",
+    "registro": "amigos"
+   },
+   {
+    "jp": "先生[せんせい]、 眠[ねむ]いんです。",
+    "es": "Profesor, es que tengo sueño.",
+    "en": "Teacher, I'm sleepy.",
+    "registro": "educado"
+   }
+  ],
+  "consejo": {
+   "es": "んです (ya lo sabías) explica un motivo, con educación. もん es su hermano pequeño, muy hablado y de excusa: viene de んだ + もん, y nunca se usa con el sensei. (Más adelante verás 〜ことだ, «deberías»: no es lo mismo que ものだ.)",
+   "en": "んです (you already knew this) politely explains a reason. もん is its little sibling, very spoken and excuse-like: it comes from んだ + もん, and it's never used with the teacher. (Later you'll see 〜ことだ, «you should»: not the same as ものだ.)"
+  }
+ }
+}

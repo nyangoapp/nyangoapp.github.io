@@ -1,0 +1,48 @@
+{
+ "id": "l11", "desde": 900,
+ "titulo": {"jp": "ニャンの 帽子[ぼうし]", "es": "El sombrero de Nyan", "en": "Nyan's hat"},
+ "resumen": {"es": "El viento se lleva el sombrero nuevo de Nyan: ¿lo encontrará?", "en": "The wind carries off Nyan's new hat: will he find it?"},
+ "portada": {"fondo": "calle", "cosas": [{"que": "nyan", "x": 100, "cara": "sorpresa"}, {"que": "gato", "x": 190}, {"que": "persona", "x": 310}]},
+ "texto": [
+   {"voz": "t1", "quien": "narrador", "jp": "日曜日[にちようび]の 朝[あさ]、 ニャンは 新[あたら]しい 帽子[ぼうし]を かぶって 公園[こうえん]へ 行[い]った。", "es": "El domingo por la mañana, Nyan se puso un sombrero nuevo y fue al parque.", "en": "On Sunday morning, Nyan put on a new hat and went to the park."},
+   {"voz": "t2", "quien": "nyan", "jp": "見[み]て、 タマ！ おばあさんに もらった 帽子[ぼうし]だよ！", "es": "¡Mira, Tama! ¡Es el sombrero que me dio la abuela!", "en": "Look, Tama! It's the hat grandma gave me!"},
+   {"voz": "t3", "quien": "tama", "jp": "すごいね。 値段[ねだん]も 高[たか]かったでしょう？", "es": "Qué bien. Seguro que costó caro, ¿no?", "en": "Nice. It must have been expensive, right?"},
+   {"voz": "t4", "quien": "nyan", "jp": "とても 高[たか]くは なかったよ。 でも、 すごく 好[す]きなんだ。", "es": "No fue tan caro. Pero me gusta muchísimo.", "en": "It wasn't that expensive. But I really like it."},
+   {"voz": "t5", "quien": "narrador", "jp": "その 時[とき]、 強[つよ]い 風[かぜ]が 吹[ふ]いて、 ニャンの 帽子[ぼうし]は 飛[と]んで いった。", "es": "En ese momento sopló un viento fuerte, y el sombrero de Nyan salió volando.", "en": "Just then a strong wind blew, and Nyan's hat flew off."},
+   {"voz": "t6", "quien": "nyan", "jp": "あ！ 待[ま]って、 帽子[ぼうし]！", "es": "¡Ah! ¡Espera, sombrero!", "en": "Ah! Wait, hat!"},
+   {"voz": "t7", "quien": "narrador", "jp": "ニャンと タマは 帽子[ぼうし]を 探[さが]しに 走[はし]ったが、 もう どこにも 見[み]えなかった。", "es": "Nyan y Tama corrieron a buscarlo, pero ya no se veía por ningún lado.", "en": "Nyan and Tama ran to look for it, but it was nowhere to be seen anymore."},
+   {"voz": "t8", "quien": "tama", "jp": "どうしよう…。 ニャン、 泣[な]かないで。 一緒[いっしょ]に 探[さが]そう。", "es": "¿Qué hacemos…? Nyan, no llores. Busquémoslo juntos.", "en": "What should we do... Nyan, don't cry. Let's look for it together."},
+   {"voz": "t9", "quien": "narrador", "jp": "二人[ふたり]は 道[みち]を どんどん 歩[ある]いた。 でも、 帽子[ぼうし]は 見[み]つからなかった。", "es": "Los dos siguieron caminando por el camino. Pero no encontraban el sombrero.", "en": "The two of them kept walking further down the road. But they couldn't find the hat."},
+   {"voz": "t10", "quien": "narrador", "jp": "橋[はし]の 近[ちか]くに、 ポンの 店[みせ]が あった。", "es": "Cerca de un puente estaba la tienda de Pon.", "en": "Near a bridge was Pon's shop."},
+   {"voz": "t11", "quien": "tama", "jp": "あ、 あそこに 帽子[ぼうし]みたいな ものが 見[み]える！", "es": "¡Ah, allí se ve algo parecido a un sombrero!", "en": "Ah, over there I can see something that looks like a hat!"},
+   {"voz": "t12", "quien": "narrador", "jp": "店[みせ]の 前[まえ]に、 ニャンの 帽子[ぼうし]を 持[も]った ポンが 立[た]って いた。", "es": "Delante de la tienda estaba Pon, con el sombrero de Nyan en la mano.", "en": "In front of the shop stood Pon, holding Nyan's hat."},
+   {"voz": "t13", "quien": "pon", "jp": "ははは！ これ、 ニャンの 帽子[ぼうし]だろう？ 風[かぜ]で 飛[と]んで きて、 うちの 前[まえ]に 落[お]ちたんだ よ。", "es": "¡Ja, ja, ja! Este es tu sombrero, ¿verdad? Se lo llevó el viento y cayó delante de mi tienda.", "en": "Ha ha ha! This is your hat, right? The wind blew it over and it landed in front of my shop."},
+   {"voz": "t14", "quien": "nyan", "jp": "はい、 そうです！ ありがとう、 ポン！", "es": "¡Sí, es el mío! ¡Gracias, Pon!", "en": "Yes, it is! Thank you, Pon!"},
+   {"voz": "t15", "quien": "narrador", "jp": "ポンは 親切[しんせつ]に 帽子[ぼうし]を 渡[わた]して くれた。", "es": "Pon le devolvió el sombrero con amabilidad.", "en": "Pon kindly handed him the hat."},
+   {"voz": "t16", "quien": "narrador", "jp": "ニャンは 安心[あんしん]して、 今度[こんど]は ちゃんと 帽子[ぼうし]を かぶった。", "es": "Nyan se quedó tranquilo, y esta vez se puso bien el sombrero.", "en": "Nyan relaxed, and this time put the hat on properly."},
+   {"voz": "t17", "quien": "tama", "jp": "今度[こんど]は ちゃんと 気[き]を つけてね。", "es": "Esta vez ten cuidado de verdad, ¿vale?", "en": "This time be really careful, okay?"}
+ ],
+ "preguntas": [
+  {"jp": "誰[だれ]が ニャンに 帽子[ぼうし]を くれましたか。", "es": "¿Quién le dio el sombrero a Nyan?", "en": "Who gave Nyan the hat?",
+   "opciones": [{"jp": "おばあさん", "es": "La abuela", "en": "Grandma"}, {"jp": "タマ", "es": "Tama", "en": "Tama"}, {"jp": "ポン", "es": "Pon", "en": "Pon"}],
+   "bien": 0, "porque": {"es": "Nyan dice: «おばあさんに もらった帽子だよ» (es el sombrero que me dio la abuela).", "en": "Nyan says: «おばあさんに もらった帽子だよ» (it's the hat grandma gave me)."}},
+  {"jp": "帽子[ぼうし]は どうして 飛[と]んで いきましたか。", "es": "¿Por qué salió volando el sombrero?", "en": "Why did the hat fly away?",
+   "opciones": [{"jp": "強[つよ]い 風[かぜ]が 吹[ふ]いたから", "es": "Porque sopló un viento fuerte", "en": "Because a strong wind blew"}, {"jp": "雨[あめ]が 降[ふ]ったから", "es": "Porque llovió", "en": "Because it rained"}, {"jp": "タマが 帽子[ぼうし]を 取[と]ったから", "es": "Porque Tama se lo quitó", "en": "Because Tama took it"}],
+   "bien": 0, "porque": {"es": "La historia dice: «強い風が吹いて、帽子は飛んでいった».", "en": "The story says: «強い風が吹いて、帽子は飛んでいった» (a strong wind blew and the hat flew off)."}},
+  {"jp": "帽子[ぼうし]は どこで 見[み]つかりましたか。", "es": "¿Dónde se encontró el sombrero?", "en": "Where was the hat found?",
+   "opciones": [{"jp": "店[みせ]の 前[まえ]", "es": "Delante de una tienda", "en": "In front of a shop"}, {"jp": "公園[こうえん]の 中[なか]", "es": "Dentro del parque", "en": "Inside the park"}, {"jp": "橋[はし]の 上[うえ]", "es": "Encima del puente", "en": "On top of the bridge"}],
+   "bien": 0, "porque": {"es": "«店の前に、ニャンの帽子を持ったポンが立っていた» lo dice.", "en": "«店の前に、ニャンの帽子を持ったポンが立っていた» says so (Pon stood in front of the shop holding the hat)."}},
+  {"jp": "ポンは 帽子[ぼうし]を どう しましたか。", "es": "¿Qué hizo Pon con el sombrero?", "en": "What did Pon do with the hat?",
+   "opciones": [{"jp": "親切[しんせつ]に 渡[わた]して くれた", "es": "Se lo entregó amablemente", "en": "Kindly gave it back"}, {"jp": "捨[す]てた", "es": "Lo tiró", "en": "Threw it away"}, {"jp": "自分[じぶん]で かぶった", "es": "Se lo puso él mismo", "en": "Wore it himself"}],
+   "bien": 0, "porque": {"es": "«ポンは親切に帽子を渡してくれた» lo dice.", "en": "«ポンは親切に帽子を渡してくれた» says so (Pon kindly handed it over)."}},
+  {"tipo": "opinion", "jp": "ニャンは 風[かぜ]の 日[ひ]に、 帽子[ぼうし]を どう すれば よかったと 思[おも]いますか。", "es": "¿Qué crees que debería haber hecho Nyan con el sombrero en un día de viento?", "en": "What do you think Nyan should have done with the hat on a windy day?",
+   "opciones": [
+    {"jp": "帽子[ぼうし]を かぶらない ほうが いい", "es": "Mejor no ponerse el sombrero", "en": "Better not to wear the hat",
+     "nyan": {"jp": "えー、 それは いやだ！ この 帽子[ぼうし]、 大好[だいす]きなのに！", "es": "Ehh, ¡eso no! ¡Si me encanta este sombrero!", "en": "Ehh, no way! I love this hat so much!"}},
+    {"jp": "帽子[ぼうし]を もっと しっかり かぶる べきだ", "es": "Debería ponerse el sombrero más firme", "en": "He should wear the hat more securely",
+     "nyan": {"jp": "うん、 今度[こんど]は そう するよ！", "es": "Sí, la próxima vez haré eso.", "en": "Yeah, I'll do that next time!"}},
+    {"jp": "風[かぜ]の 日[ひ]は 公園[こうえん]に 行[い]かない ほうが いい", "es": "Mejor no ir al parque los días de viento", "en": "Better not to go to the park on windy days",
+     "nyan": {"jp": "それは できない…。 公園[こうえん]で 寝[ね]るのが 好[す]きだから！", "es": "Eso no puedo hacerlo... ¡porque me encanta dormir en el parque!", "en": "I can't do that... because I love napping in the park!"}}
+   ]}
+ ]
+}

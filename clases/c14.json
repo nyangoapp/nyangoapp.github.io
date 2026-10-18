@@ -1,0 +1,906 @@
+{
+ "id": "c14",
+ "clase": 14,
+ "desde": 170,
+ "titulo": {
+  "es": "No quiero, porque…: 〜ない, から, ので y けど",
+  "en": "I won't, because…: 〜ない, から, ので and けど"
+ },
+ "resumen": {
+  "es": "〜ない niega un verbo. から y ので dan la razón («porque»); ので es más formal. けど une dos cosas que contrastan («pero»).",
+  "en": "〜ない negates a verb. から and ので give the reason («because»); ので is more formal. けど joins two contrasting things («but»)."
+ },
+ "formato": 2,
+ "lugar": "calle",
+ "registro": true,
+ "mision": {
+  "texto": {
+   "es": "El tambor del festival pesa una barbaridad y hay que llevarlo por la calle hasta el parque. Kage pasa por allí… y no quiere ayudar. Descubre por qué y no te rindas: di lo que NO se hace, da razones y lleva la contraria.",
+   "en": "The festival drum weighs a ton and has to be carried down the street to the park. Kage walks by… and won't help. Find out why and don't give up: say what ISN'T done, give reasons and push back."
+  },
+  "escena": {
+   "fondo": "calle",
+   "cosas": [
+    {
+     "que": "nyan",
+     "x": 80
+    },
+    {
+     "que": "taiko",
+     "x": 190,
+     "s": 1.4
+    },
+    {
+     "que": "gato",
+     "id": "tama",
+     "x": 300
+    }
+   ]
+  },
+  "cara": "triste",
+  "jp": "重[おも]い…",
+  "voz": "m0"
+ },
+ "reglas": [
+  {
+   "id": "nai",
+   "nombre": {
+    "es": "〜ない: el «no» de los verbos entre amigos",
+    "en": "〜ない: the verb «not» among friends"
+   },
+   "patron": {
+    "es": "〔verbo〕ない",
+    "en": "〔verb〕ない"
+   },
+   "explica": {
+    "es": "Hasta ahora negabas con ません (食べません). Entre amigos se usa la forma corta, que termina en ない. Se forma según el tipo de verbo: los verbos en る que llevan e o i delante (食べる, 見る) pierden la る: 食べない, 見ない. Los demás cambian su última u por a: 行く → 行かない, 飲む → 飲まない; y si acaba en う, pasa a わ (手伝う → 手伝わない), porque una あ sola se perdería al hablar. Los dos rebeldes: する → しない, 来る → こない. ¿Por qué dos formas? ません es la cortés (profes, tiendas, gente que no conoces) y ない, la de confianza: con un amigo, ません sonaría distante.",
+    "en": "Until now you negated with ません (食べません). Among friends you use the short form, ending in ない. How it's built depends on the verb: る verbs with e or i before る (食べる, 見る) drop the る: 食べない, 見ない. The rest change their final u to a: 行く → 行かない, 飲む → 飲まない; and if it ends in う, it becomes わ (手伝う → 手伝わない), because a lone あ would get lost in speech. The two rebels: する → しない, 来る → こない. Why two forms? ません is the polite one (teachers, shops, people you don't know) and ない the casual one: with a friend, ません would sound distant."
+   },
+   "ejemplos": [
+    {
+     "jp": "カゲは 手伝[てつだ]わない。",
+     "es": "Kage no ayuda.",
+     "en": "Kage won't help.",
+     "voz": "r1-1"
+    },
+    {
+     "jp": "今日[きょう]は 行[い]かない。",
+     "es": "Hoy no voy.",
+     "en": "I'm not going today.",
+     "voz": "r1-2"
+    }
+   ],
+   "ojo": {
+    "es": "ある (haber, tener) va por libre: su «no» es ない a secas, no あらない. お金がない = «no hay dinero».",
+    "en": "ある (there is, have) is special: its «not» is just ない, not あらない. お金がない = «there's no money»."
+   }
+  },
+  {
+   "id": "kara",
+   "nombre": {
+    "es": "から y ので: porque…",
+    "en": "から and ので: because…"
+   },
+   "patron": {
+    "es": "〔razón〕から／ので、〔lo que pasa〕",
+    "en": "〔reason〕から／ので、〔what happens〕"
+   },
+   "explica": {
+    "es": "から detrás de una frase la convierte en la RAZÓN de lo que viene después: 忙しいから、手伝わない, «como estoy ocupado, no ayudo». Al revés que en español, la razón va primero. ので significa lo mismo pero suena más suave y objetivo, como si explicaras los hechos sin quejarte; por eso se prefiere al hablar con educación o al disculparse: 雨なので、行きません. Detrás de un nombre o de un adjetivo en な, から lleva だ (暇だから) y ので lleva な (暇なので).",
+    "en": "から after a sentence turns it into the REASON for what follows: 忙しいから、手伝わない, «since I'm busy, I won't help». Unlike English, the reason comes first. ので means the same but sounds softer and more objective, as if stating facts without complaining; that's why it's preferred when being polite or apologising: 雨なので、行きません. After a noun or a な adjective, から takes だ (暇だから) and ので takes な (暇なので)."
+   },
+   "ejemplos": [
+    {
+     "jp": "重[おも]いから、 手伝[てつだ]って ください。",
+     "es": "Como pesa, ayúdanos, por favor.",
+     "en": "It's heavy, so please help us.",
+     "voz": "r2-1"
+    },
+    {
+     "jp": "雨[あめ]なので、 行[い]きません。",
+     "es": "Como llueve, no voy.",
+     "en": "Since it's raining, I won't go.",
+     "voz": "r2-2"
+    }
+   ],
+   "ojo": {
+    "es": "Detrás de un adjetivo en い no va だ (重いから, no 重いだから), porque el adjetivo en い ya cierra la frase por sí solo; だ solo lo necesitan los nombres y los adjetivos en な.",
+    "en": "No だ after an い adjective (重いから, not 重いだから), because the い adjective already closes the sentence by itself; only nouns and な adjectives need だ."
+   }
+  },
+  {
+   "id": "kedo",
+   "nombre": {
+    "es": "けど: pero…",
+    "en": "けど: but…"
+   },
+   "patron": {
+    "es": "〔frase〕けど、〔algo que choca〕",
+    "en": "〔sentence〕けど、〔something that clashes〕"
+   },
+   "explica": {
+    "es": "けど une dos ideas que chocan: 暇だけど、手伝わない, «estoy libre, pero no ayudo». Se pega al final de la primera frase y la coma va detrás. Es la forma de hablar; por escrito o con mucha formalidad se usa が (暇ですが…). Y fíjate: los japoneses también la dejan colgando al final para suavizar, sin decir lo que choca: ちょっと忙しいんですけど… «es que estoy un poco ocupado…», y el otro entiende el resto.",
+    "en": "けど joins two clashing ideas: 暇だけど、手伝わない, «I'm free, but I won't help». It sticks to the end of the first sentence, and the comma goes after it. It's spoken style; in writing or very formally, が is used (暇ですが…). And note: Japanese people also leave it hanging at the end to soften things, without saying what clashes: ちょっと忙しいんですけど… «well, I'm a bit busy…», and the listener gets the rest."
+   },
+   "ejemplos": [
+    {
+     "jp": "重[おも]いけど、 運[はこ]びます。",
+     "es": "Pesa, pero lo llevo.",
+     "en": "It's heavy, but I'll carry it.",
+     "voz": "r3-1"
+    },
+    {
+     "jp": "暇[ひま]だけど、 手伝[てつだ]わない。",
+     "es": "Estoy libre, pero no ayudo.",
+     "en": "I'm free, but I won't help.",
+     "voz": "r3-2"
+    }
+   ],
+   "ojo": {
+    "es": "Como con から, detrás de un nombre o un adjetivo en な va だ: 暇だけど, 学生だけど. Sin él, la frase queda coja.",
+    "en": "As with から, after a noun or な adjective put だ: 暇だけど, 学生だけど. Without it the sentence limps."
+   }
+  }
+ ],
+ "historia": [
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "この 太鼓[たいこ]、 重[おも]い…！",
+   "tr": {
+    "es": "Este tambor… ¡cómo pesa!",
+    "en": "This drum… it's so heavy!"
+   },
+   "voz": "h1",
+   "cara": "pensando",
+   "reacciona": {
+    "nyan": "triste"
+   },
+   "escena": {
+    "fondo": "calle",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "taiko",
+      "x": 190,
+      "id": "taiko",
+      "s": 1.4
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 300
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "kage",
+   "jp": "ふん。 何[なに]を して いる？",
+   "tr": {
+    "es": "Hmpf. ¿Qué estáis haciendo?",
+    "en": "Hmph. What are you doing?"
+   },
+   "voz": "h2",
+   "cara": "presumido",
+   "escena": {
+    "fondo": "calle",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "taiko",
+      "x": 170,
+      "id": "taiko",
+      "s": 1.3
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 240
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 340
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "カゲ、 手伝[てつだ]って ください！",
+   "tr": {
+    "es": "Kage, ¡ayúdanos, por favor!",
+    "en": "Kage, please help us!"
+   },
+   "voz": "h3",
+   "cara": "feliz"
+  },
+  {
+   "t": "dice",
+   "habla": "kage",
+   "jp": "手伝[てつだ]わない。",
+   "tr": {
+    "es": "No os ayudo.",
+    "en": "I'm not helping."
+   },
+   "voz": "h4",
+   "cara": "presumido",
+   "reacciona": {
+    "nyan": "sorpresa",
+    "tama": "sorpresa"
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "nai"
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "Nyan, indignado, se queja a Tama: «¡Kage no ayuda!»",
+    "en": "Nyan, outraged, complains to Tama: «Kage won't help!»"
+   },
+   "opciones": [
+    {
+     "jp": "カゲは 手伝[てつだ]わない！",
+     "bien": true,
+     "tr": {
+      "es": "¡Kage no ayuda!",
+      "en": "Kage won't help!"
+     },
+     "voz": "h5",
+     "porque": {
+      "es": "Negativo de 手伝う: la う final pasa a わ + ない. Con Tama, que es amiga, vale la forma corta.",
+      "en": "Negative of 手伝う: the final う becomes わ + ない. With Tama, a friend, the short form is fine."
+     }
+    },
+    {
+     "jp": "カゲは 手伝[てつだ]うない！",
+     "bien": false,
+     "porque": {
+      "es": "ない no se pega a la forma de diccionario: la última u cambia a su sonido en a (う → わ): 手伝わない.",
+      "en": "ない doesn't attach to the dictionary form: the last u changes to its a sound (う → わ): 手伝わない."
+     }
+    },
+    {
+     "jp": "カゲは 手伝[てつだ]いない！",
+     "bien": false,
+     "porque": {
+      "es": "La raíz de ます (手伝い) sirve para ません, no para ない. Con los verbos en u, la u pasa a a: 手伝わない.",
+      "en": "The ます stem (手伝い) is for ません, not ない. With u verbs, u becomes a: 手伝わない."
+     }
+    }
+   ],
+   "cara": "enfado"
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "どうして 手伝[てつだ]わないの？",
+   "tr": {
+    "es": "¿Por qué no ayudas?",
+    "en": "Why won't you help?"
+   },
+   "voz": "h6",
+   "cara": "enfado",
+   "escena": {
+    "fondo": "calle",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "taiko",
+      "x": 170,
+      "id": "taiko",
+      "s": 1.3
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 240
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 340
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "kage",
+   "jp": "忙[いそが]しいから。",
+   "tr": {
+    "es": "Porque estoy ocupado.",
+    "en": "Because I'm busy."
+   },
+   "voz": "h7",
+   "cara": "aburrido",
+   "plano": "medio",
+   "escena": {
+    "fondo": "calle",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 70
+     },
+     {
+      "que": "taiko",
+      "x": 170,
+      "id": "taiko",
+      "s": 1.3
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 240
+     },
+     {
+      "que": "senbei",
+      "x": 300,
+      "s": 1.0
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 350
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "kara"
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "Pídeselo otra vez, dando la razón: «Pesa, así que ayúdanos, por favor».",
+    "en": "Ask again, giving the reason: «It's heavy, so please help us»."
+   },
+   "opciones": [
+    {
+     "jp": "重[おも]いから、 手伝[てつだ]って ください。",
+     "bien": true,
+     "tr": {
+      "es": "Como pesa, ayúdanos, por favor.",
+      "en": "It's heavy, so please help us."
+     },
+     "voz": "h8",
+     "porque": {
+      "es": "La razón va primero, con から detrás (重いから), y luego lo que pides.",
+      "en": "The reason comes first, with から after it (重いから), then the request."
+     }
+    },
+    {
+     "jp": "手伝[てつだ]って くださいから、 重[おも]い。",
+     "bien": false,
+     "porque": {
+      "es": "Al revés: から va pegado a la RAZÓN, y la razón va delante. Así dices «como ayúdanos, pesa».",
+      "en": "Backwards: から sticks to the REASON, and the reason goes first. This says «since help us, it's heavy»."
+     }
+    },
+    {
+     "jp": "重[おも]いだから、 手伝[てつだ]って ください。",
+     "bien": false,
+     "porque": {
+      "es": "重い es un adjetivo en い: ya cierra la frase solo y no necesita だ. Va directo: 重いから.",
+      "en": "重い is an い adjective: it closes the sentence on its own and doesn't need だ. Straight: 重いから."
+     }
+    }
+   ],
+   "cara": "pensando"
+  },
+  {
+   "t": "dice",
+   "habla": "kage",
+   "jp": "…ふん。 暇[ひま]だけど、 手伝[てつだ]わない。",
+   "tr": {
+    "es": "…Hmpf. Estoy libre, pero no ayudo.",
+    "en": "…Hmph. I'm free, but I'm not helping."
+   },
+   "voz": "h9",
+   "cara": "presumido",
+   "reacciona": {
+    "tama": "enfado"
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "kedo"
+  },
+  {
+   "t": "monta",
+   "encargo": 0
+  },
+  {
+   "t": "toca",
+   "pide": {
+    "es": "Kage cede… a medias. Escucha qué va a llevar él y tócalo.",
+    "en": "Kage gives in… halfway. Listen to what he'll carry and tap it."
+   },
+   "bien": "senbei",
+   "quien": "kage",
+   "escena": {
+    "fondo": "calle",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 65
+     },
+     {
+      "que": "taiko",
+      "x": 150,
+      "id": "taiko",
+      "s": 1.2
+     },
+     {
+      "que": "senbei",
+      "x": 215,
+      "id": "senbei",
+      "s": 1.3
+     },
+     {
+      "que": "bolsa",
+      "x": 265,
+      "id": "bolsa",
+      "s": 1.1
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 345
+     }
+    ]
+   },
+   "jp": "太鼓[たいこ]は 重[おも]いから、 持[も]たない。 せんべいを 持[も]つ。",
+   "voz": "h10",
+   "bien_msg": {
+    "es": "¡Eso! 太鼓は持たない (el tambor no) y せんべいを持つ: lo más ligero para él. Qué listo.",
+    "en": "Right! 太鼓は持たない (not the drum) and せんべいを持つ: the lightest thing for him. Clever."
+   },
+   "mal_msg": {
+    "es": "Ha dicho 太鼓は持たない: el tambor NO. Lo que sí lleva es せんべい, las galletas.",
+    "en": "He said 太鼓は持たない: NOT the drum. What he does carry is せんべい, the crackers."
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "カゲ… それ、 軽[かる]いよ！",
+   "tr": {
+    "es": "Kage… ¡eso no pesa nada!",
+    "en": "Kage… that weighs nothing!"
+   },
+   "voz": "h11",
+   "cara": "enfado",
+   "escena": {
+    "fondo": "calle",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 80
+     },
+     {
+      "que": "taiko",
+      "x": 170,
+      "id": "taiko",
+      "s": 1.3
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 250
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 345
+     }
+    ]
+   }
+  }
+ ],
+ "epilogo": [
+  {
+   "t": "dice",
+   "habla": "kage",
+   "jp": "…ちっ。 ちょっとだけ 手伝[てつだ]う。 暇[ひま]だから。",
+   "tr": {
+    "es": "…Tsk. Os ayudo un poquito. Porque estoy libre.",
+    "en": "…Tch. I'll help a little. Because I'm free."
+   },
+   "voz": "x1",
+   "cara": "aburrido",
+   "escena": {
+    "fondo": "calle",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 55
+     },
+     {
+      "que": "taiko",
+      "x": 200,
+      "s": 1.3
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 110
+     },
+     {
+      "que": "kage",
+      "id": "kage",
+      "x": 300
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "カゲ、 ありがとう！",
+   "tr": {
+    "es": "¡Gracias, Kage!",
+    "en": "Thanks, Kage!"
+   },
+   "voz": "x2",
+   "cara": "feliz"
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta la frase: la escena hará lo que digas.",
+   "en": "Build the sentence: the scene will do what you say."
+  },
+  "piezas": [
+   {
+    "id": "omoi",
+    "jp": "重[おも]い",
+    "tipo": "palabra"
+   },
+   {
+    "id": "kedo",
+    "jp": "けど",
+    "tipo": "particula"
+   },
+   {
+    "id": "kara",
+    "jp": "から",
+    "tipo": "particula"
+   },
+   {
+    "id": "hakobimasu",
+    "jp": "運[はこ]びます",
+    "tipo": "verbo"
+   },
+   {
+    "id": "yamemasu",
+    "jp": "やめます",
+    "tipo": "verbo"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Pues nada. Nyan se arremanga: «Pesa, pero lo llevo».",
+     "en": "Fine then. Nyan rolls up his sleeves: «It's heavy, but I'll carry it»."
+    },
+    "escena": {
+     "fondo": "calle",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 80
+      },
+      {
+       "que": "taiko",
+       "x": 170,
+       "id": "taiko",
+       "s": 1.3
+      },
+      {
+       "que": "gato",
+       "id": "tama",
+       "x": 250
+      },
+      {
+       "que": "kage",
+       "id": "kage",
+       "x": 345
+      }
+     ]
+    },
+    "piezas": [
+     "omoi",
+     "kedo",
+     "kara",
+     "hakobimasu",
+     "yamemasu"
+    ],
+    "bien": [
+     [
+      "omoi",
+      "kedo",
+      "hakobimasu"
+     ]
+    ],
+    "tr": {
+     "es": "Pesa, pero lo llevo.",
+     "en": "It's heavy, but I'll carry it."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "salta",
+      "objeto": "taiko"
+     },
+     {
+      "tipo": "manpu",
+      "objeto": "kage",
+      "manpu": "sudor"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "enfado",
+      "brazo": "arriba"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "kara",
+        "yamemasu"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "triste"
+      },
+      "msg": {
+       "es": "«Como pesa, lo dejo»: bien dicho… ¡pero Nyan se rinde! El festival necesita ese tambor: di que lo llevas aunque pese.",
+       "en": "«It's heavy, so I'll give up»: well said… but Nyan quits! The festival needs that drum: say you'll carry it even though it's heavy."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "yamemasu"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "«Pesa, pero lo dejo»: けど une cosas que CHOCAN, y aquí no chocan. Lo que choca con «pesa» es «lo llevo»: 運びます.",
+       "en": "«It's heavy, but I'll give up»: けど joins things that CLASH, and these don't. What clashes with «heavy» is «I'll carry it»: 運びます."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "kara"
+       ]
+      },
+      "efecto": {
+       "tipo": "manpu",
+       "objeto": "tama",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "«Como pesa, lo llevo»: la razón no encaja. Lo llevas A PESAR de que pesa, y eso es けど.",
+       "en": "«Since it's heavy, I'll carry it»: the reason doesn't fit. You carry it DESPITE the weight, and that's けど."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "reto": {
+  "intro": {
+   "jp": "ふん。 俺[おれ]に 勝[か]ったら、 手伝[てつだ]って やる。",
+   "tr": {
+    "es": "Hmpf. Si me ganas, os ayudo.",
+    "en": "Hmph. Beat me and I'll help."
+   },
+   "voz": "k0"
+  },
+  "gana": {
+   "jp": "…くっ。 約束[やくそく]だから、 手伝[てつだ]う。",
+   "tr": {
+    "es": "…Tsk. Lo prometí, así que ayudo.",
+    "en": "…Tch. I promised, so I'll help."
+   },
+   "voz": "kw"
+  },
+  "pierde": {
+   "jp": "ふん。 だから 手伝[てつだ]わない。",
+   "tr": {
+    "es": "Hmpf. Por eso no ayudo.",
+    "en": "Hmph. That's why I won't help."
+   },
+   "voz": "kl"
+  },
+  "pica": {
+   "jp": "…やるな。",
+   "tr": {
+    "es": "…No está mal.",
+    "en": "…Not bad."
+   },
+   "voz": "kp"
+  },
+  "burla": {
+   "jp": "ふん！",
+   "tr": {
+    "es": "¡Ja!",
+    "en": "Hah!"
+   },
+   "voz": "kb"
+  },
+  "preguntas": [
+   {
+    "tipo": "elige",
+    "jp": "今日[きょう]は 学校[がっこう]に 行[い]か＿。",
+    "opciones": [
+     "ない",
+     "ます",
+     "った"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Hoy no voy al colegio.",
+     "en": "I'm not going to school today."
+    },
+    "porque": {
+     "es": "行く → 行か + ない: la u final pasa a a.",
+     "en": "行く → 行か + ない: the final u becomes a."
+    },
+    "voz": "q1"
+   },
+   {
+    "tipo": "elige",
+    "jp": "雨[あめ]＿、 家[いえ]に います。",
+    "opciones": [
+     "だから",
+     "から",
+     "けど"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Como llueve, estoy en casa.",
+     "en": "It's raining, so I'm home."
+    },
+    "porque": {
+     "es": "雨 es un nombre: necesita だ antes de から (雨だから). 雨から sería «desde la lluvia».",
+     "en": "雨 is a noun: it needs だ before から (雨だから). 雨から would be «from the rain»."
+    },
+    "voz": "q2"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "おいしいけど、 高[たか]いです。",
+    "correcta": true,
+    "tr": {
+     "es": "Está rico, pero es caro.",
+     "en": "It's tasty, but expensive."
+    },
+    "porque": {
+     "es": "Bien: けど une dos ideas que chocan, rico y caro.",
+     "en": "Right: けど joins two clashing ideas, tasty and expensive."
+    },
+    "voz": "q3"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "重[おも]いだから、 持[も]って ください。",
+    "correcta": false,
+    "tr": {
+     "es": "(Pesa, así que llévalo, por favor.)",
+     "en": "(It's heavy, so please carry it.)"
+    },
+    "porque": {
+     "es": "重い es adjetivo en い: va directo con から (重いから), sin だ.",
+     "en": "重い is an い adjective: it goes straight with から (重いから), no だ."
+    },
+    "voz": "q4"
+   },
+   {
+    "tipo": "oye",
+    "jp": "忙[いそが]しいので、 行[い]きません。",
+    "habla": "tama",
+    "opciones": [
+     {
+      "es": "Como estoy ocupado, no voy.",
+      "en": "I'm busy, so I'm not going."
+     },
+     {
+      "es": "Estoy ocupado, pero voy.",
+      "en": "I'm busy, but I'm going."
+     },
+     {
+      "es": "No estoy ocupado.",
+      "en": "I'm not busy."
+     }
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "ので da la razón con suavidad; 行きません es «no voy».",
+     "en": "ので gives the reason gently; 行きません is «I'm not going»."
+    },
+    "voz": "q5"
+   },
+   {
+    "tipo": "imagen",
+    "jp": "太鼓[たいこ]は 重[おも]いから、 持[も]たない。",
+    "opciones": [
+     "taiko",
+     "senbei",
+     "libro"
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "太鼓 es el tambor: pesa, así que no lo lleva.",
+     "en": "太鼓 is the drum: it's heavy, so he won't carry it."
+    },
+    "pide": {
+     "es": "¿Qué no quiere llevar?",
+     "en": "What won't he carry?"
+    }
+   }
+  ]
+ },
+ "siguiente": {
+  "es": "Prueba de sabor en casa de Tama: Nyan es el catador oficial de los onigiri del puesto… y no sabe cuándo parar.",
+  "en": "Taste test at Tama's: Nyan is the official onigiri taster for the stall… and doesn't know when to stop."
+ },
+ "chuleta": {
+  "patron": {
+   "es": "〔verbo〕ない ・ 〔razón〕から ・ 〔A〕けど、〔B〕",
+   "en": "〔verb〕ない ・ 〔reason〕から ・ 〔A〕けど、〔B〕"
+  },
+  "patron_tr": {
+   "es": "no hago ・ porque ・ A, pero B",
+   "en": "don't ・ because ・ A, but B"
+  },
+  "filas": [
+   {
+    "jp": "手伝[てつだ]わない。",
+    "es": "No ayudo. (a un amigo)",
+    "en": "I won't help. (to a friend)",
+    "registro": "amigos"
+   },
+   {
+    "jp": "雨[あめ]なので、 行[い]きません。",
+    "es": "Como llueve, no voy.",
+    "en": "Since it's raining, I won't go.",
+    "registro": "educado"
+   },
+   {
+    "jp": "暇[ひま]だけど、 眠[ねむ]い。",
+    "es": "Estoy libre, pero tengo sueño.",
+    "en": "I'm free, but sleepy."
+   }
+  ],
+  "consejo": {
+   "es": "Si te preguntan どうして (¿por qué?), puedes contestar solo con la razón y から: 忙しいから。 Es muy natural, como el «porque…» a secas del español.",
+   "en": "If someone asks どうして (why?), you can answer with just the reason and から: 忙しいから。 Very natural, like a bare «because…»."
+  }
+ }
+}

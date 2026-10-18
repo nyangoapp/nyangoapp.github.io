@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Nyango"><title>Nyango</title>
+<defs>
+  <clipPath id="m-m"><rect x="14" y="14" width="484" height="484" rx="120"/></clipPath>
+  <clipPath id="m-cab"><path d="M46 94 C72 84 184 84 210 94 C230 102 238 146 236 176 C233 214 190 230 128 230 C66 230 23 214 20 176 C18 146 26 102 46 94 Z"/><rect x="-40" y="196" width="336" height="120"/></clipPath>
+  <clipPath id="m-oi"><path d="M24 150 C26 108 40 64 58 36 C62 29 70 28 75 33 C95 54 112 74 128 98 Z"/></clipPath>
+  <clipPath id="m-od"><path d="M232 150 C230 108 216 64 198 36 C194 29 186 28 181 33 C161 54 144 74 128 98 Z"/></clipPath>
+  <linearGradient id="m-f" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff3dc"/><stop offset="1" stop-color="#ffe2b8"/></linearGradient>
+  <radialGradient id="SOLVOL" cx=".38" cy=".3" r=".8"><stop offset="0" stop-color="#ff8a70" stop-opacity=".7"/><stop offset=".6" stop-color="#e8432f" stop-opacity="0"/><stop offset="1" stop-color="#a82a1e" stop-opacity=".45"/></radialGradient>
+  <linearGradient id="m-nar" x1=".2" y1="0" x2=".7" y2="1"><stop offset="0" stop-color="#f9b46e"/><stop offset=".45" stop-color="#ee9448"/><stop offset="1" stop-color="#d8752c"/></linearGradient>
+  <linearGradient id="m-narIn" x1=".3" y1="0" x2=".6" y2="1"><stop offset="0" stop-color="#ffd9b8"/><stop offset="1" stop-color="#f4a77a"/></linearGradient>
+  <linearGradient id="m-crema" x1=".7" y1="0" x2=".3" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f3e5cf"/></linearGradient>
+  <linearGradient id="m-cremaIn" x1=".6" y1="0" x2=".4" y2="1"><stop offset="0" stop-color="#ffe9c9"/><stop offset="1" stop-color="#f4c9a0"/></linearGradient>
+  <radialGradient id="m-piel" gradientUnits="userSpaceOnUse" cx="112" cy="150" r="190"><stop offset="0" stop-color="#fffdf9"/><stop offset=".5" stop-color="#fdf5e8"/><stop offset=".85" stop-color="#f3e3cb"/><stop offset="1" stop-color="#e9d3b3"/></radialGradient>
+  <linearGradient id="m-raiz" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d9bf9c" stop-opacity=".55"/><stop offset="1" stop-color="#d9bf9c" stop-opacity="0"/></linearGradient>
+  <linearGradient id="m-ojo" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#150e0c"/><stop offset=".7" stop-color="#2b1d1a"/><stop offset="1" stop-color="#3d2a25"/></linearGradient>
+  <linearGradient id="m-iris" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6b4636" stop-opacity="0"/><stop offset=".5" stop-color="#8a5a40"/><stop offset="1" stop-color="#c98a5a"/></linearGradient>
+  <radialGradient id="m-rubor"><stop offset="0" stop-color="#f58c98"/><stop offset=".6" stop-color="#f59aa4" stop-opacity=".85"/><stop offset="1" stop-color="#f7aab2" stop-opacity="0"/></radialGradient>
+  <radialGradient id="m-asiento"><stop offset=".55" stop-color="#e3cdb0" stop-opacity=".9"/><stop offset="1" stop-color="#e3cdb0" stop-opacity="0"/></radialGradient>
+  <linearGradient id="m-lengua" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e45d72"/><stop offset=".35" stop-color="#f7808f"/><stop offset="1" stop-color="#ff9aa6"/></linearGradient>
+  <linearGradient id="m-brillo" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".22"/><stop offset=".35" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  <clipPath id="m-ojoI"><ellipse cx="172" cy="306" rx="42" ry="52"/></clipPath>
+  <clipPath id="m-ojoD"><ellipse cx="344" cy="312" rx="45" ry="55"/></clipPath>
+  <clipPath id="m-boca"><path d="M222 372 Q239 400 257 376 Q275 400 293 372 L300 480 L214 480 Z"/></clipPath>
+</defs>
+<g clip-path="url(#m-m)">
+  <rect width="512" height="512" fill="url(#m-f)"/>
+  <circle cx="256" cy="150" r="118" fill="#e8432f"/>
+  <g transform="rotate(-4 256 330)"><g transform="translate(-38.39999999999998 -20) scale(2.3)">
+    <!-- sombra de la cabeza sobre el fondo -->
+    
+    <g fill="#221817" stroke="#221817" stroke-width="10" stroke-linejoin="round"><path d="M24 150 C26 108 40 64 58 36 C62 29 70 28 75 33 C95 54 112 74 128 98 Z"/><path d="M232 150 C230 108 216 64 198 36 C194 29 186 28 181 33 C161 54 144 74 128 98 Z"/><path d="M46 94 C72 84 184 84 210 94 C230 102 238 146 236 176 C233 214 190 230 128 230 C66 230 23 214 20 176 C18 146 26 102 46 94 Z"/></g>
+    <!-- oreja naranja: degradado, dentro melocotón, dos mechones y el borde con luz -->
+    <path d="M24 150 C26 108 40 64 58 36 C62 29 70 28 75 33 C95 54 112 74 128 98 Z" fill="url(#m-nar)"/>
+    
+    <!-- oreja crema -->
+    <path d="M232 150 C230 108 216 64 198 36 C194 29 186 28 181 33 C161 54 144 74 128 98 Z" fill="url(#m-crema)"/>
+    
+    <!-- la cabeza, con volumen -->
+    <path d="M46 94 C72 84 184 84 210 94 C230 102 238 146 236 176 C233 214 190 230 128 230 C66 230 23 214 20 176 C18 146 26 102 46 94 Z" fill="url(#m-piel)"/>
+    <rect x="-40" y="196" width="336" height="120" fill="url(#m-piel)"/>
+    
+  </g></g>
+</g>
+<g clip-path="url(#m-m)" transform="rotate(-4 256 330)">
+  
+  <ellipse cx="172" cy="306" rx="42" ry="52" fill="url(#m-ojo)"/>
+  <ellipse cx="344" cy="312" rx="45" ry="55" fill="url(#m-ojo)"/>
+  
+  <ellipse cx="158" cy="286" rx="17" ry="17" fill="#fff" transform="rotate(-20 158 286)"/>
+  <ellipse cx="328" cy="290" rx="18" ry="18" fill="#fff" transform="rotate(-20 328 290)"/>
+  
+  <!-- mofletes -->
+  <ellipse cx="102" cy="392" rx="44" ry="27" fill="#ef9aa0"/>
+  <ellipse cx="412" cy="394" rx="44" ry="27" fill="#ef9aa0"/>
+  
+  <!-- la lengua sale de la ω -->
+  <g clip-path="url(#m-boca)"><g transform="rotate(-7 266 380)">
+    <path d="M246 350 L246 406 C246 434 286 434 286 406 L286 350 Z" fill="url(#m-lengua)" stroke="#221817" stroke-width="12" stroke-linejoin="round"/>
+    
+  </g></g>
+  <path d="M222 372 Q239 400 257 376 Q275 400 293 372" fill="none" stroke="#221817" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<rect x="14" y="14" width="484" height="484" rx="120" fill="url(#m-brillo)"/>
+<rect x="14" y="14" width="484" height="484" rx="120" fill="none" stroke="#221817" stroke-width="24"/>
+</svg>

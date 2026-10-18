@@ -1,0 +1,939 @@
+{
+ "id": "c48",
+ "clase": 48,
+ "desde": 1570,
+ "titulo": {
+  "es": "No es que no quiera: 〜わけだ y 〜わけではない",
+  "en": "It's not that I don't want to: 〜わけだ and 〜わけではない"
+ },
+ "resumen": {
+  "es": "わけだ: la conclusión lógica de algo que acabas de saber («ya veo, por eso…»). わけではない (わけじゃない): no niegas del todo, solo matizas («no es que…»). わけがない: imposible, no hay manera.",
+  "en": "わけだ: the logical conclusion from something you just learned («I see, so that's why…»). わけではない (わけじゃない): a soft denial, not a total one («it's not that…»). わけがない: impossible, no way."
+ },
+ "intro": [
+  {
+   "escena": {
+    "fondo": "cocina",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "sorpresa"
+     },
+     {
+      "que": "onigiri",
+      "x": 220,
+      "s": 1.1
+     },
+     {
+      "que": "gato",
+      "x": 320
+     }
+    ]
+   },
+   "habla": "tama",
+   "cara": "sorpresa",
+   "jp": "あれ、 おにぎり、 いらないの？",
+   "voz": "i1",
+   "tr": {
+    "es": "¿Eh? ¿No quieres onigiri?",
+    "en": "Huh? You don't want onigiri?"
+   },
+   "cartela": {
+    "es": "Tama no se lo cree: a Nyan SIEMPRE le gusta el onigiri.",
+    "en": "Tama can't believe it: Nyan ALWAYS likes onigiri."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cocina",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "triste"
+     },
+     {
+      "que": "onigiri",
+      "x": 270,
+      "s": 1.1
+     }
+    ]
+   },
+   "cara": "triste",
+   "jp": "食[た]べたくない わけじゃないよ…。",
+   "voz": "i2",
+   "tr": {
+    "es": "No es que no quiera comer…",
+    "en": "It's not that I don't want to eat it…"
+   },
+   "cartela": {
+    "es": "わけじゃない (わけではない): no niegas del todo, solo matizas lo que Tama cree.",
+    "en": "わけじゃない (わけではない): you're not denying it completely, just softening what Tama assumes."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cocina",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "pensando"
+     },
+     {
+      "que": "onigiri",
+      "x": 270,
+      "s": 1.1
+     }
+    ]
+   },
+   "cara": "pensando",
+   "jp": "最近[さいきん]、 ちょっと 太[ふと]っちゃって…。",
+   "voz": "i3",
+   "tr": {
+    "es": "Es que últimamente he engordado un poco…",
+    "en": "It's just that I've put on a little weight lately…"
+   },
+   "cartela": {
+    "es": "La razón de verdad: por eso no lo come (por ahora).",
+    "en": "The real reason: that's why he's not eating it (for now)."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cocina",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "normal"
+     },
+     {
+      "que": "gato",
+      "x": 270
+     }
+    ]
+   },
+   "habla": "tama",
+   "cara": "normal",
+   "jp": "なるほど、 それで 野菜[やさい]を 食[た]べてる わけだ。",
+   "voz": "i4",
+   "tr": {
+    "es": "Ya veo, así que por eso comes verduras.",
+    "en": "I see, so that's why you're eating vegetables."
+   },
+   "cartela": {
+    "es": "Fin de la intro: わけだ, la conclusión lógica de lo que acabas de oír. ¡A practicar!",
+    "en": "End of the intro: わけだ, the logical conclusion from what you just heard. Let's practice!"
+   }
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta cada frase. わけだ para la conclusión, わけじゃない／わけではありません para matizar, わけがない para lo imposible.",
+   "en": "Build each sentence. わけだ for the conclusion, わけじゃない／わけではありません to soften, わけがない for the impossible."
+  },
+  "piezas": [
+   {
+    "id": "tabetakunai",
+    "jp": "食[た]べたくない",
+    "tipo": "verbo"
+   },
+   {
+    "id": "yaritakunai",
+    "jp": "やりたくない",
+    "tipo": "verbo"
+   },
+   {
+    "id": "wakejanai",
+    "jp": "わけじゃない",
+    "tipo": "particula"
+   },
+   {
+    "id": "wakedewaarimasen",
+    "jp": "わけではありません",
+    "tipo": "particula"
+   },
+   {
+    "id": "yo",
+    "jp": "よ",
+    "tipo": "particula"
+   },
+   {
+    "id": "sonna",
+    "jp": "そんな",
+    "tipo": "palabra"
+   },
+   {
+    "id": "wake",
+    "jp": "わけ",
+    "tipo": "palabra"
+   },
+   {
+    "id": "ga",
+    "jp": "が",
+    "tipo": "particula"
+   },
+   {
+    "id": "nai",
+    "jp": "ない",
+    "tipo": "verbo"
+   },
+   {
+    "id": "deshou",
+    "jp": "でしょ",
+    "tipo": "particula"
+   },
+   {
+    "id": "sanji",
+    "jp": "三時[さんじ]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "ni",
+    "jp": "に",
+    "tipo": "particula"
+   },
+   {
+    "id": "kuru",
+    "jp": "来[く]る",
+    "tipo": "verbo"
+   },
+   {
+    "id": "hazu",
+    "jp": "はず",
+    "tipo": "palabra"
+   },
+   {
+    "id": "da",
+    "jp": "だ",
+    "tipo": "verbo"
+   },
+   {
+    "id": "densha",
+    "jp": "電車[でんしゃ]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "okureteru",
+    "jp": "遅[おく]れてる",
+    "tipo": "verbo"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Nyan no quiere ofender a Tama: dile, en plan casual: «No es que no quiera comer».",
+     "en": "Nyan doesn't want to offend Tama: tell him, casually: «It's not that I don't want to eat it»."
+    },
+    "escena": {
+     "fondo": "cocina",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "triste"
+      },
+      {
+       "que": "onigiri",
+       "x": 270,
+       "s": 1.1
+      }
+     ]
+    },
+    "piezas": [
+     "tabetakunai",
+     "wakejanai",
+     "yo",
+     "wakedewaarimasen"
+    ],
+    "bien": [
+     [
+      "tabetakunai",
+      "wakejanai",
+      "yo"
+     ]
+    ],
+    "tr": {
+     "es": "No es que no quiera comer.",
+     "en": "It's not that I don't want to eat it."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "triste"
+     },
+     {
+      "tipo": "manpu",
+      "objeto": "onigiri",
+      "manpu": "sudor"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "wakedewaarimasen"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "ありません es muy formal para hablar con Tama. Con él: わけじゃない.",
+       "en": "ありません is too formal for talking to Tama. With him: わけじゃない."
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "wakejanai"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin わけじゃない no matizas: suena a que SÍ te niegas del todo.",
+       "en": "Without わけじゃない you're not softening it: it sounds like a flat refusal."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "El sensei te pregunta por qué no has hecho los deberes. Dile, con educación: «No es que no quiera hacerlos».",
+     "en": "The teacher asks why you haven't done your homework. Tell them, politely: «It's not that I don't want to do it»."
+    },
+    "escena": {
+     "fondo": "escuela",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "pensando"
+      },
+      {
+       "que": "profesor",
+       "x": 270
+      }
+     ]
+    },
+    "piezas": [
+     "yaritakunai",
+     "wakejanai",
+     "wakedewaarimasen"
+    ],
+    "bien": [
+     [
+      "yaritakunai",
+      "wakedewaarimasen"
+     ]
+    ],
+    "tr": {
+     "es": "No es que no quiera hacerlos.",
+     "en": "It's not that I don't want to do it."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "normal"
+     },
+     {
+      "tipo": "texto",
+      "texto": "うんうん",
+      "objeto": "profesor"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "wakejanai"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "わけじゃない es casual. Con el sensei: わけでは ありません.",
+       "en": "わけじゃない is casual. With the teacher: わけでは ありません."
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "yaritakunai"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin やりたくない no queda claro QUÉ es lo que no quieres hacer.",
+       "en": "Without やりたくない it's not clear WHAT you don't want to do."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Nyan promete que mañana se despierta pronto. Tama no se lo cree: dile «Eso es imposible».",
+     "en": "Nyan promises he'll wake up early tomorrow. Tama doesn't believe it: tell him «No way»."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "sueno"
+      },
+      {
+       "que": "gato",
+       "x": 270
+      }
+     ]
+    },
+    "piezas": [
+     "sonna",
+     "wake",
+     "ga",
+     "nai",
+     "deshou"
+    ],
+    "bien": [
+     [
+      "sonna",
+      "wake",
+      "ga",
+      "nai"
+     ]
+    ],
+    "tr": {
+     "es": "Eso es imposible.",
+     "en": "No way."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "sueno"
+     },
+     {
+      "tipo": "manpu",
+      "objeto": "gato",
+      "manpu": "excl"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "falta": [
+        "sonna"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin そんな no queda claro A QUÉ llamas imposible.",
+       "en": "Without そんな it's not clear WHAT you're calling impossible."
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "wake"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin わけ no está la expresión de «imposible»: わけがない.",
+       "en": "Without わけ you don't have the «no way» expression: わけがない."
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "nai"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin ない no niegas nada: hace falta para «no hay manera».",
+       "en": "Without ない you're not denying anything: you need it for «no way»."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Tama debía llegar a las tres (eso esperabas): dilo con はずだ, repaso de la clase 42: «Tenía que llegar a las tres».",
+     "en": "Tama was supposed to arrive at three (that's what you expected): say it with はずだ, a review from class 42: «He was supposed to arrive at three»."
+    },
+    "escena": {
+     "fondo": "calle",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "pensando"
+      },
+      {
+       "que": "gato",
+       "x": 270
+      }
+     ]
+    },
+    "piezas": [
+     "sanji",
+     "ni",
+     "kuru",
+     "hazu",
+     "da",
+     "wake"
+    ],
+    "bien": [
+     [
+      "sanji",
+      "ni",
+      "kuru",
+      "hazu",
+      "da"
+     ]
+    ],
+    "tr": {
+     "es": "Tenía que llegar a las tres.",
+     "en": "He was supposed to arrive at three."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "pensando",
+      "manpu": "pregunta"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "wake"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "はずだ es lo que ESPERABAS; わけだ es la conclusión de algo que ya pasó. Tama TODAVÍA no ha llegado: はずだ.",
+       "en": "はずだ is what you EXPECTED; わけだ is the conclusion from something that already happened. Tama HASN'T arrived yet: はずだ."
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "hazu"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin はず no expresas lo que esperabas.",
+       "en": "Without はず you're not expressing what you expected."
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "da"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin だ la frase queda a medias: はずだ la cierra.",
+       "en": "Without だ the sentence trails off: はずだ closes it."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Reto: ves a mucha gente esperando en la estación y Tama no llega. Saca la conclusión con わけだ: «Así que el tren llega tarde».",
+     "en": "Challenge: you see lots of people waiting at the station and Tama hasn't arrived. Draw the conclusion with わけだ: «So the train's running late»."
+    },
+    "escena": {
+     "fondo": "calle",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 110,
+       "cara": "pensando"
+      },
+      {
+       "que": "persona",
+       "x": 270
+      }
+     ]
+    },
+    "piezas": [
+     "densha",
+     "ga",
+     "okureteru",
+     "wake",
+     "da",
+     "hazu"
+    ],
+    "bien": [
+     [
+      "densha",
+      "ga",
+      "okureteru",
+      "wake",
+      "da"
+     ]
+    ],
+    "tr": {
+     "es": "Así que el tren llega tarde.",
+     "en": "So the train's running late."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "nyan",
+      "cara": "normal",
+      "manpu": "brillo"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "hazu"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "はずだ es lo que esperabas ANTES. Aquí sacas una conclusión de lo que ves AHORA: わけだ.",
+       "en": "はずだ is what you expected BEFORE. Here you're drawing a conclusion from what you see NOW: わけだ."
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "wake"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin わけ no expresas que es una conclusión.",
+       "en": "Without わけ you're not expressing a conclusion."
+      }
+     },
+     {
+      "si": {
+       "falta": [
+        "da"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando",
+       "manpu": "pregunta"
+      },
+      "msg": {
+       "es": "Sin だ la frase queda a medias: わけだ la cierra.",
+       "en": "Without だ the sentence trails off: わけだ closes it."
+      }
+     }
+    ],
+    "pista": {
+     "es": "Empieza señalando la pista: 電車[でんしゃ]が…",
+     "en": "Start by pointing at the clue: densha ga…"
+    }
+   }
+  ]
+ },
+ "juego": {
+  "intro": {
+   "es": "¿わけだ (conclusión), わけではない (matizas) o わけがない (imposible)? Completa cada frase.",
+   "en": "わけだ (conclusion), わけではない (soften) or わけがない (impossible)? Complete each sentence."
+  },
+  "nyan": {
+   "es": "Yo no como cinco onigiri de una sentada… normalmente son seis.",
+   "en": "I don't eat five onigiri in one sitting… usually it's six."
+  },
+  "cestas": [
+   {
+    "id": "wakeda",
+    "jp": "わけだ",
+    "sub": {
+     "es": "conclusión: ¡ya veo, por eso…!",
+     "en": "conclusion: I see, so that's why…!"
+    }
+   },
+   {
+    "id": "wakejanai",
+    "jp": "わけではない",
+    "sub": {
+     "es": "no niegas del todo: no es que…",
+     "en": "a soft denial: it's not that…"
+    }
+   },
+   {
+    "id": "wakeganai",
+    "jp": "わけがない",
+    "sub": {
+     "es": "imposible, no hay manera",
+     "en": "no way, impossible"
+    }
+   }
+  ],
+  "cartas": [
+   {
+    "id": "j1",
+    "dibujo": "onigiri",
+    "jp": "宿題[しゅくだい]を したくない ＿。 でも、 やる。",
+    "cesta": "wakejanai",
+    "es": "No es que no quiera hacer los deberes. Pero los hago.",
+    "en": "It's not that I don't want to do my homework. But I'll do it."
+   },
+   {
+    "id": "j2",
+    "jp": "毎日[まいにち] 野菜[やさい]を 食[た]べてる。 だから 元気[げんき]な ＿。",
+    "cesta": "wakeda",
+    "es": "Como verduras cada día. Así que por eso estoy sano.",
+    "en": "I eat vegetables every day. So that's why I'm healthy."
+   },
+   {
+    "id": "j3",
+    "dibujo": "gato",
+    "jp": "ニャンが 早起[はやお]き？ そんな ＿。",
+    "cesta": "wakeganai",
+    "es": "¿Nyan despertándose pronto? Imposible.",
+    "en": "Nyan waking up early? No way."
+   },
+   {
+    "id": "j4",
+    "jp": "猫[ねこ]が 嫌[きら]いな ＿。 ただ、 ちょっと 苦手[にがて]なだけ。",
+    "cesta": "wakejanai",
+    "es": "No es que odie a los gatos. Solo es que se me dan un poco mal.",
+    "en": "It's not that I hate cats. I'm just not great with them."
+   },
+   {
+    "id": "j5",
+    "jp": "駅[えき]に 誰[だれ]も いない。 電車[でんしゃ]が 遅[おく]れてる ＿。",
+    "cesta": "wakeda",
+    "es": "No hay nadie en la estación. Así que el tren debe de llegar tarde.",
+    "en": "There's no one at the station. So the train must be running late."
+   },
+   {
+    "id": "j6",
+    "jp": "ニャンが テストで 百点[ひゃくてん]？ そんな ＿。",
+    "cesta": "wakeganai",
+    "es": "¿Nyan sacando cien en el examen? Imposible.",
+    "en": "Nyan getting a hundred on the test? No way."
+   },
+   {
+    "id": "j7",
+    "jp": "掃除[そうじ]が 好[す]きな ＿。 でも、 毎日[まいにち] してる。",
+    "cesta": "wakejanai",
+    "es": "No es que me guste limpiar. Pero lo hago cada día.",
+    "en": "It's not that I like cleaning. But I do it every day."
+   },
+   {
+    "id": "j8",
+    "dibujo": "libro",
+    "jp": "毎日[まいにち] 勉強[べんきょう]してる。 だから 漢字[かんじ]が わかる ＿。",
+    "cesta": "wakeda",
+    "es": "Estudio cada día. Así que por eso entiendo los kanji.",
+    "en": "I study every day. So that's why I understand kanji.",
+    "truco": {
+     "es": "わけだ: la conclusión que sacas de algo que ya sabías o viste.",
+     "en": "わけだ: the conclusion you draw from something you already knew or saw."
+    }
+   }
+  ]
+ },
+ "outro": [
+  {
+   "escena": {
+    "fondo": "cocina",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "triste"
+     },
+     {
+      "que": "onigiri",
+      "x": 270,
+      "s": 1.1
+     }
+    ]
+   },
+   "cara": "triste",
+   "jp": "食[た]べたくない わけじゃないよ…。",
+   "voz": "o1",
+   "tr": {
+    "es": "No es que no quiera comer…",
+    "en": "It's not that I don't want to eat it…"
+   },
+   "cartela": {
+    "es": "わけじゃない: matizas, no niegas del todo.",
+    "en": "わけじゃない: you soften it, you don't deny it completely."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cocina",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 110,
+      "cara": "normal"
+     },
+     {
+      "que": "gato",
+      "x": 270
+     }
+    ]
+   },
+   "habla": "tama",
+   "cara": "normal",
+   "jp": "なるほど、 それで 野菜[やさい]を 食[た]べてる わけだ。",
+   "voz": "o2",
+   "tr": {
+    "es": "Ya veo, así que por eso comes verduras.",
+    "en": "I see, so that's why you're eating vegetables."
+   },
+   "cartela": {
+    "es": "わけだ: la conclusión de lo que acabas de oír.",
+    "en": "わけだ: the conclusion from what you just heard."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 130,
+      "cara": "sorpresa"
+     },
+     {
+      "que": "manpu",
+      "tipo": "sudor",
+      "x": 180,
+      "y": 100
+     }
+    ]
+   },
+   "cara": "sorpresa",
+   "jp": "五[いつ]つも 食[た]べる わけないよ。 …あれ？",
+   "voz": "o3",
+   "tr": {
+    "es": "No hay manera de que me coma cinco. …¿Eh?",
+    "en": "No way I'd eat five of them. …Huh?"
+   },
+   "cartela": {
+    "es": "Fin. わけがない (わけない): «no hay manera». Aunque las migas digan lo contrario…",
+    "en": "The end. わけがない (わけない): «no way». Even if the crumbs say otherwise…"
+   }
+  }
+ ],
+ "chuleta": {
+  "patron": {
+   "es": "〜わけだ ／ 〜わけではない ／ 〜わけがない",
+   "en": "〜わけだ ／ 〜わけではない ／ 〜わけがない"
+  },
+  "patron_tr": {
+   "es": "conclusión (ya veo, por eso…) ／ matizas (no es que…) ／ imposible (no hay manera)",
+   "en": "conclusion (I see, so that's why…) ／ soften (it's not that…) ／ impossible (no way)"
+  },
+  "columnas": [
+   {
+    "jp": "わけだ",
+    "texto": {
+     "es": "la conclusión de algo que acabas de saber",
+     "en": "the conclusion from something you just learned"
+    },
+    "dibujos": [
+     "gato"
+    ]
+   },
+   {
+    "jp": "わけではない",
+    "texto": {
+     "es": "no niegas todo, solo una parte",
+     "en": "you're not denying everything, just part of it"
+    },
+    "dibujos": [
+     "nyan"
+    ]
+   }
+  ],
+  "filas": [
+   {
+    "jp": "食[た]べたくない わけじゃないよ。",
+    "es": "No es que no quiera comer.",
+    "en": "It's not that I don't want to eat it.",
+    "registro": "amigos"
+   },
+   {
+    "jp": "やりたくない わけでは ありません。",
+    "es": "No es que no quiera hacerlo.",
+    "en": "It's not that I don't want to do it.",
+    "registro": "educado"
+   },
+   {
+    "jp": "それで 野菜[やさい]を 食[た]べてる わけだ。",
+    "es": "Así que por eso comes verduras.",
+    "en": "So that's why you're eating vegetables."
+   },
+   {
+    "jp": "そんな わけが ない でしょ。",
+    "es": "Eso es imposible, ¿no?",
+    "en": "No way that's true, right?"
+   }
+  ],
+  "consejo": {
+   "es": "はずだ (clase 42) es lo que ESPERABAS que pasara; わけだ es la conclusión de algo que acabas de descubrir, que ya pasó o que ya sabes.",
+   "en": "はずだ (class 42) is what you EXPECTED to happen; わけだ is the conclusion from something you just found out, that already happened or that you now know."
+  }
+ }
+}

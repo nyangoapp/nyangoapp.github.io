@@ -1,0 +1,908 @@
+{
+ "id": "c11",
+ "clase": 11,
+ "desde": 110,
+ "titulo": {
+  "es": "La receta de la abuela: la forma en て y 〜てください",
+  "en": "Grandma's recipe: the て form and 〜てください"
+ },
+ "resumen": {
+  "es": "て une dos acciones seguidas (primero una, luego otra). Y 〜てください convierte una acción en un pedido educado.",
+  "en": "て links two actions in order (first one, then the other). And 〜てください turns an action into a polite request."
+ },
+ "formato": 2,
+ "lugar": "cuarto",
+ "mision": {
+  "texto": {
+   "es": "El festival de otoño es en una semana y la clase pondrá un puesto de onigiri. Tama sabe la receta de su abuela: sigue los pasos en orden… ¡y pide ayuda con educación!",
+   "en": "The autumn festival is in a week and the class will run an onigiri stall. Tama knows her grandma's recipe: follow the steps in order… and ask for help politely!"
+  },
+  "escena": {
+   "fondo": "cuarto",
+   "cosas": [
+    {
+     "que": "nyan",
+     "x": 72
+    },
+    {
+     "que": "cuenco",
+     "x": 205,
+     "y": 152,
+     "s": 1.0
+    },
+    {
+     "que": "gato",
+     "id": "tama",
+     "x": 330
+    }
+   ]
+  },
+  "cara": "feliz",
+  "jp": "お祭[まつ]りの おにぎり…！",
+  "voz": "m0"
+ },
+ "reglas": [
+  {
+   "id": "te_orden",
+   "nombre": {
+    "es": "〜て: una acción detrás de otra",
+    "en": "〜て: one action after another"
+   },
+   "patron": {
+    "es": "〔acción 1〕て、〔acción 2〕ます",
+    "en": "〔action 1〕て、〔action 2〕ます"
+   },
+   "explica": {
+    "es": "Para encadenar acciones en orden, todas menos la última van en forma て, y la última lleva el tiempo y la cortesía: 手を洗って、ご飯を炊いて、握ります, «me lavo las manos, cuezo el arroz y hago la bola». Es el «y luego» del español, pero pegado al verbo. Cómo se forma: si sabes el pasado, sabes la て, porque es el mismo cambio con て/で en vez de た/だ: 食べた → 食べて, 飲んだ → 飲んで, 書いた → 書いて, 行った → 行って, した → して.",
+    "en": "To chain actions in order, all but the last go in the て form, and the last carries tense and politeness: 手を洗って、ご飯を炊いて、握ります, «I wash my hands, cook the rice and shape the ball». It's «and then», attached to the verb. How to form it: if you know the past, you know て, because it's the same change with て/で instead of た/だ: 食べた → 食べて, 飲んだ → 飲んで, 書いた → 書いて, 行った → 行って, した → して."
+   },
+   "ejemplos": [
+    {
+     "jp": "手[て]を 洗[あら]って、 食[た]べます。",
+     "es": "Me lavo las manos y como.",
+     "en": "I wash my hands and eat.",
+     "voz": "r1-1"
+    },
+    {
+     "jp": "ご飯[はん]を 炊[た]いて、 握[にぎ]ります。",
+     "es": "Cuezo el arroz y lo aprieto.",
+     "en": "I cook the rice and press it.",
+     "voz": "r1-2"
+    }
+   ],
+   "ojo": {
+    "es": "Solo la última acción dice si es pasado o educado: 洗って、食べました = «me lavé y comí». Las de delante se quedan en て.",
+    "en": "Only the last action says if it's past or polite: 洗って、食べました = «I washed and ate». The ones before stay in て."
+   }
+  },
+  {
+   "id": "tekudasai",
+   "nombre": {
+    "es": "〜てください: «por favor, haz…»",
+    "en": "〜てください: «please do…»"
+   },
+   "patron": {
+    "es": "〔verbo en て〕ください",
+    "en": "〔て verb〕ください"
+   },
+   "explica": {
+    "es": "Para pedirle a alguien que haga algo con educación, pon el verbo en て y añade ください: 塩を取ってください, «pásame la sal, por favor». Suena amable pero directo: sirve con amigos, en tiendas y en clase. Con alguien mucho mayor hay formas aún más suaves, que verás más adelante.",
+    "en": "To politely ask someone to do something, put the verb in て and add ください: 塩を取ってください, «pass me the salt, please». It's kind but direct: fine with friends, in shops and in class. With someone much older there are even softer forms, coming later."
+   },
+   "ejemplos": [
+    {
+     "jp": "塩[しお]を 取[と]って ください。",
+     "es": "Pásame la sal, por favor.",
+     "en": "Pass me the salt, please.",
+     "voz": "r2-1"
+    },
+    {
+     "jp": "ちょっと 待[ま]って ください。",
+     "es": "Espera un momento, por favor.",
+     "en": "Wait a moment, please.",
+     "voz": "r2-2"
+    }
+   ],
+   "ojo": {
+    "es": "ください a secas pide una COSA (水をください, «agua, por favor»); con un verbo en て pide una ACCIÓN (水を飲んでください, «bébete el agua, por favor»).",
+    "en": "ください alone asks for a THING (水をください, «water, please»); with a て verb it asks for an ACTION (水を飲んでください, «please drink the water»)."
+   }
+  }
+ ],
+ "historia": [
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "おばあちゃんの おにぎりを 作[つく]ります！",
+   "tr": {
+    "es": "¡Vamos a hacer los onigiri de mi abuela!",
+    "en": "Let's make my grandma's onigiri!"
+   },
+   "voz": "h1",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 72
+     },
+     {
+      "que": "cuenco",
+      "x": 205,
+      "y": 152,
+      "id": "cuenco",
+      "s": 1.0
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 330
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "まず、 手[て]を 洗[あら]って、 ご飯[はん]を 炊[た]きます。",
+   "tr": {
+    "es": "Primero nos lavamos las manos y cocemos el arroz.",
+    "en": "First we wash our hands and cook the rice."
+   },
+   "voz": "h2",
+   "plano": "medio"
+  },
+  {
+   "t": "regla",
+   "regla": "te_orden"
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "Nyan repite los pasos para no olvidarlos. ¿Cuál está bien?",
+    "en": "Nyan repeats the steps so he won't forget. Which is right?"
+   },
+   "opciones": [
+    {
+     "jp": "手[て]を 洗[あら]って、 ご飯[はん]を 炊[た]きます。",
+     "bien": true,
+     "tr": {
+      "es": "Me lavo las manos y cuezo el arroz.",
+      "en": "I wash my hands and cook the rice."
+     },
+     "voz": "h3",
+     "porque": {
+      "es": "La primera acción en て (洗って) y la última lleva el tiempo y la cortesía (炊きます).",
+      "en": "The first action in て (洗って) and the last carries tense and politeness (炊きます)."
+     }
+    },
+    {
+     "jp": "手[て]を 洗[あら]います、 ご飯[はん]を 炊[た]きます。",
+     "bien": false,
+     "porque": {
+      "es": "Así son dos frases sueltas pegadas con una coma: suena a lista cortada. Para «y luego», la primera va en て: 洗って.",
+      "en": "That's two separate sentences glued with a comma: it sounds choppy. For «and then», the first goes in て: 洗って."
+     }
+    },
+    {
+     "jp": "手[て]を 洗[あら]った、 ご飯[はん]を 炊[た]きます。",
+     "bien": false,
+     "porque": {
+      "es": "洗った es pasado («me lavé») y luego «cuezo»: mezclas tiempos. Para encadenar acciones, la forma て: 洗って.",
+      "en": "洗った is past («I washed») then «I cook»: you mix tenses. To chain actions, the て form: 洗って."
+     }
+    }
+   ],
+   "cara": "pensando"
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "それから、 塩[しお]を つけて、 握[にぎ]ります。",
+   "tr": {
+    "es": "Después se pone sal y se aprieta con las manos.",
+    "en": "Then you add salt and press it with your hands."
+   },
+   "voz": "h4",
+   "cara": "feliz"
+  },
+  {
+   "t": "monta",
+   "encargo": 0
+  },
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "あっ、 塩[しお]が ない…",
+   "tr": {
+    "es": "Anda, no tengo la sal…",
+    "en": "Oh, I don't have the salt…"
+   },
+   "voz": "h5",
+   "cara": "sorpresa",
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 72
+     },
+     {
+      "que": "onigiri",
+      "x": 205,
+      "y": 152,
+      "s": 1.0
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 330
+     }
+    ]
+   }
+  },
+  {
+   "t": "regla",
+   "regla": "tekudasai"
+  },
+  {
+   "t": "elige",
+   "habla": "nyan",
+   "pide": {
+    "es": "La sal la tiene Tama. Pídesela con amabilidad:",
+    "en": "Tama has the salt. Ask her nicely:"
+   },
+   "opciones": [
+    {
+     "jp": "塩[しお]を 取[と]って ください。",
+     "bien": true,
+     "tr": {
+      "es": "Pásame la sal, por favor.",
+      "en": "Pass me the salt, please."
+     },
+     "voz": "h6",
+     "porque": {
+      "es": "Verbo en て + ください: pides que el otro lo haga, con educación.",
+      "en": "Verb in て + ください: you ask the other person to do it, politely."
+     }
+    },
+    {
+     "jp": "塩[しお]を 取[と]ります。",
+     "bien": false,
+     "porque": {
+      "es": "取ります dice que TÚ la coges: no le estás pidiendo nada a Tama.",
+      "en": "取ります says YOU take it: you're not asking Tama anything."
+     }
+    },
+    {
+     "jp": "塩[しお]を ください 取[と]って。",
+     "bien": false,
+     "porque": {
+      "es": "ください va al final, justo detrás del verbo en て: 取ってください. En japonés, lo que pides cierra la frase.",
+      "en": "ください goes at the end, right after the て verb: 取ってください. In Japanese, the request closes the sentence."
+     }
+    }
+   ],
+   "cara": "pensando"
+  },
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "はい、 どうぞ！",
+   "tr": {
+    "es": "¡Aquí tienes!",
+    "en": "Here you go!"
+   },
+   "voz": "h7",
+   "cara": "feliz"
+  },
+  {
+   "t": "toca",
+   "pide": {
+    "es": "Ahora Tama te pide algo. Escucha y toca lo que quiere.",
+    "en": "Now Tama asks you for something. Listen and tap it."
+   },
+   "bien": "plato",
+   "quien": "tama",
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 62
+     },
+     {
+      "que": "vaso",
+      "x": 165,
+      "y": 152,
+      "id": "vaso",
+      "s": 0.95
+     },
+     {
+      "que": "plato",
+      "x": 210,
+      "y": 152,
+      "id": "plato",
+      "s": 1.0
+     },
+     {
+      "que": "libro",
+      "x": 255,
+      "y": 152,
+      "id": "libro",
+      "s": 1.0
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 345
+     }
+    ]
+   },
+   "jp": "ニャン、 お皿[さら]を 取[と]って ください。",
+   "voz": "h8",
+   "bien_msg": {
+    "es": "¡Eso! お皿 es el plato: 取ってください, «pásamelo, por favor».",
+    "en": "Right! お皿 is the plate: 取ってください, «pass it to me, please»."
+   },
+   "mal_msg": {
+    "es": "Ha dicho お皿, el plato: lo plano y redondo.",
+    "en": "She said お皿, the plate: the flat round one."
+   }
+  },
+  {
+   "t": "monta",
+   "encargo": 1
+  },
+  {
+   "t": "dice",
+   "habla": "kotaro",
+   "jp": "はーい…",
+   "tr": {
+    "es": "Vaaale…",
+    "en": "Okaaay…"
+   },
+   "voz": "h9",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 72
+     },
+     {
+      "que": "onigiri",
+      "x": 205,
+      "y": 152,
+      "s": 1.0
+     },
+     {
+      "que": "perro",
+      "id": "kotaro",
+      "x": 330
+     }
+    ]
+   }
+  }
+ ],
+ "epilogo": [
+  {
+   "t": "dice",
+   "habla": "tama",
+   "jp": "できました！ おばあちゃんの おにぎりです！",
+   "tr": {
+    "es": "¡Listo! ¡Los onigiri de la abuela!",
+    "en": "Done! Grandma's onigiri!"
+   },
+   "voz": "x1",
+   "cara": "feliz",
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     {
+      "que": "nyan",
+      "x": 72,
+      "onigiri": true
+     },
+     {
+      "que": "onigiri",
+      "x": 205,
+      "y": 152,
+      "s": 1.1
+     },
+     {
+      "que": "gato",
+      "id": "tama",
+      "x": 330
+     }
+    ]
+   }
+  },
+  {
+   "t": "dice",
+   "habla": "nyan",
+   "jp": "いただきます！",
+   "tr": {
+    "es": "¡Que aproveche!",
+    "en": "Let's eat!"
+   },
+   "voz": "x2",
+   "cara": "feliz",
+   "brazo": "arriba"
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Monta la frase: la escena hará lo que digas.",
+   "en": "Build the sentence: the scene will do what you say."
+  },
+  "piezas": [
+   {
+    "id": "gohan",
+    "jp": "ご飯[はん]",
+    "tipo": "palabra"
+   },
+   {
+    "id": "chotto",
+    "jp": "ちょっと",
+    "tipo": "palabra"
+   },
+   {
+    "id": "wo",
+    "jp": "を",
+    "tipo": "particula"
+   },
+   {
+    "id": "taite",
+    "jp": "炊[た]いて",
+    "tipo": "verbo"
+   },
+   {
+    "id": "takimasu",
+    "jp": "炊[た]きます",
+    "tipo": "verbo"
+   },
+   {
+    "id": "nigirimasu",
+    "jp": "握[にぎ]ります",
+    "tipo": "verbo"
+   },
+   {
+    "id": "nigitte",
+    "jp": "握[にぎ]って",
+    "tipo": "verbo"
+   },
+   {
+    "id": "matte",
+    "jp": "待[ま]って",
+    "tipo": "verbo"
+   },
+   {
+    "id": "machimasu",
+    "jp": "待[ま]ちます",
+    "tipo": "verbo"
+   },
+   {
+    "id": "tabete",
+    "jp": "食[た]べて",
+    "tipo": "verbo"
+   },
+   {
+    "id": "kudasai",
+    "jp": "ください",
+    "tipo": "verbo"
+   }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Di dos pasos seguidos: «Cuezo el arroz y lo aprieto».",
+     "en": "Say two steps in a row: «I cook the rice and press it»."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 72
+      },
+      {
+       "que": "cuenco",
+       "x": 205,
+       "y": 152,
+       "id": "cuenco",
+       "s": 1.0
+      },
+      {
+       "que": "gato",
+       "id": "tama",
+       "x": 330
+      }
+     ]
+    },
+    "piezas": [
+     "gohan",
+     "wo",
+     "taite",
+     "takimasu",
+     "nigirimasu",
+     "nigitte"
+    ],
+    "bien": [
+     [
+      "gohan",
+      "wo",
+      "taite",
+      "nigirimasu"
+     ]
+    ],
+    "tr": {
+     "es": "Cuezo el arroz y lo aprieto.",
+     "en": "I cook the rice and press it."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "brilla",
+      "objeto": "cuenco"
+     },
+     {
+      "tipo": "aparece",
+      "que": "onigiri",
+      "x": 250,
+      "y": 152,
+      "s": 1.0,
+      "id": "onigiri"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "takimasu"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "炊きます cierra la frase: después ya no puede venir otra acción. Para seguir encadenando, 炊いて.",
+       "en": "炊きます closes the sentence: no other action can follow. To keep chaining, 炊いて."
+      }
+     },
+     {
+      "si": {
+       "en": [
+        3,
+        "nigitte"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "La última acción no va en て: es la que dice el tiempo y la cortesía. 握ります.",
+       "en": "The last action isn't in て: it's the one carrying tense and politeness. 握ります."
+      }
+     },
+     {
+      "si": {
+       "en": [
+        2,
+        "nigirimasu"
+       ]
+      },
+      "efecto": {
+       "tipo": "tiembla",
+       "objeto": "cuenco"
+      },
+      "msg": {
+       "es": "El orden de la frase es el orden en que pasan las cosas: primero se cuece, luego se aprieta.",
+       "en": "The sentence order is the order things happen: first you cook, then you press."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Kotarō mira los onigiri con hambre… Dile con educación: «Espera un momento, por favor».",
+     "en": "Kotarō eyes the onigiri hungrily… Tell him politely: «Wait a moment, please»."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      {
+       "que": "nyan",
+       "x": 72
+      },
+      {
+       "que": "onigiri",
+       "x": 205,
+       "y": 152,
+       "id": "onigiri",
+       "s": 1.0
+      },
+      {
+       "que": "perro",
+       "id": "kotaro",
+       "x": 330
+      }
+     ]
+    },
+    "piezas": [
+     "chotto",
+     "matte",
+     "kudasai",
+     "tabete",
+     "machimasu"
+    ],
+    "bien": [
+     [
+      "chotto",
+      "matte",
+      "kudasai"
+     ]
+    ],
+    "tr": {
+     "es": "Espera un momento, por favor.",
+     "en": "Wait a moment, please."
+    },
+    "efecto_bien": [
+     {
+      "tipo": "manpu",
+      "objeto": "kotaro",
+      "manpu": "sudor"
+     },
+     {
+      "tipo": "nyan",
+      "cara": "feliz"
+     }
+    ],
+    "fallos": [
+     {
+      "si": {
+       "contiene": [
+        "tabete"
+       ]
+      },
+      "efecto": [
+       {
+        "tipo": "desaparece",
+        "objeto": "onigiri"
+       },
+       {
+        "tipo": "texto",
+        "texto": "もぐもぐ",
+        "x": 330,
+        "y": 110
+       },
+       {
+        "tipo": "nyan",
+        "cara": "sorpresa",
+        "manpu": "excl"
+       }
+      ],
+      "msg": {
+       "es": "¡Le has dicho «cómetelo, por favor»… y se lo ha comido! Para que espere: 待ってください.",
+       "en": "You told him «eat it, please»… and he did! To make him wait: 待ってください."
+      }
+     },
+     {
+      "si": {
+       "contiene": [
+        "machimasu"
+       ]
+      },
+      "efecto": {
+       "tipo": "nyan",
+       "cara": "pensando"
+      },
+      "msg": {
+       "es": "待ちます es «yo espero»: no le pides nada. Para pedirle que espere él, 待ってください.",
+       "en": "待ちます is «I wait»: you're not asking him anything. To ask him to wait, 待ってください."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "reto": {
+  "intro": {
+   "jp": "ふん。 おにぎりなら 俺[おれ]の ほうが うまい。 勝負[しょうぶ]だ！",
+   "tr": {
+    "es": "Hmpf. Los onigiri me salen mejor a mí. ¡Duelo!",
+    "en": "Hmph. I make better onigiri. Duel!"
+   },
+   "voz": "k0"
+  },
+  "gana": {
+   "jp": "…くっ。 一[ひと]つ、 食[た]べて やる。",
+   "tr": {
+    "es": "…Tsk. Me comeré uno, ya que insistes.",
+    "en": "…Tch. I'll eat one, since you insist."
+   },
+   "voz": "kw"
+  },
+  "pierde": {
+   "jp": "ふん。 まだまだだな。",
+   "tr": {
+    "es": "Hmpf. Te queda mucho.",
+    "en": "Hmph. You've got a long way to go."
+   },
+   "voz": "kl"
+  },
+  "pica": {
+   "jp": "…やるな。",
+   "tr": {
+    "es": "…No está mal.",
+    "en": "…Not bad."
+   },
+   "voz": "kp"
+  },
+  "burla": {
+   "jp": "ふん！",
+   "tr": {
+    "es": "¡Ja!",
+    "en": "Hah!"
+   },
+   "voz": "kb"
+  },
+  "preguntas": [
+   {
+    "tipo": "elige",
+    "jp": "手[て]を 洗[あら]＿、 食[た]べます。",
+    "opciones": [
+     "って",
+     "います",
+     "った"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Me lavo las manos y como.",
+     "en": "I wash my hands and eat."
+    },
+    "porque": {
+     "es": "Para encadenar, la primera acción va en て (洗って); el tiempo lo lleva la última.",
+     "en": "To chain actions, the first goes in て (洗って); the last carries the tense."
+    },
+    "voz": "q1"
+   },
+   {
+    "tipo": "elige",
+    "jp": "ちょっと 待[ま]って ＿。",
+    "opciones": [
+     "ください",
+     "です",
+     "ます"
+    ],
+    "bien": 0,
+    "tr": {
+     "es": "Espera un momento, por favor.",
+     "en": "Wait a moment, please."
+    },
+    "porque": {
+     "es": "Verbo en て + ください es la forma amable de pedir que alguien haga algo.",
+     "en": "Verb in て + ください is the polite way to ask someone to do something."
+    },
+    "voz": "q2"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "ご飯[はん]を 炊[た]いて、 握[にぎ]ります。",
+    "correcta": true,
+    "tr": {
+     "es": "Cuezo el arroz y lo aprieto.",
+     "en": "I cook the rice and press it."
+    },
+    "porque": {
+     "es": "Bien: la primera en て (炊いて) y la última con el tiempo (握ります).",
+     "en": "Right: the first in て (炊いて) and the last with the tense (握ります)."
+    },
+    "voz": "q3"
+   },
+   {
+    "tipo": "bien_mal",
+    "jp": "水[みず]を 飲[の]みて ください。",
+    "correcta": false,
+    "tr": {
+     "es": "(Bebe agua, por favor.)",
+     "en": "(Drink some water, please.)"
+    },
+    "porque": {
+     "es": "La て se forma como el pasado: 飲んだ → 飲んで. 飲みて no existe.",
+     "en": "The て form works like the past: 飲んだ → 飲んで. 飲みて doesn't exist."
+    },
+    "voz": "q4"
+   },
+   {
+    "tipo": "oye",
+    "jp": "お皿[さら]を 取[と]って ください。",
+    "habla": "tama",
+    "opciones": [
+     {
+      "es": "Pásame el plato, por favor.",
+      "en": "Pass me the plate, please."
+     },
+     {
+      "es": "Cojo el plato.",
+      "en": "I take the plate."
+     },
+     {
+      "es": "El plato está roto.",
+      "en": "The plate is broken."
+     }
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "取ってください: le pide al otro que lo coja, con educación.",
+     "en": "取ってください: she asks the other person to take it, politely."
+    },
+    "voz": "q5"
+   },
+   {
+    "tipo": "imagen",
+    "jp": "塩[しお]を つけて、 握[にぎ]ります。",
+    "opciones": [
+     "onigiri",
+     "pan",
+     "libro"
+    ],
+    "bien": 0,
+    "porque": {
+     "es": "Con sal y apretando con las manos se hacen los onigiri.",
+     "en": "With salt and pressing by hand you make onigiri."
+    },
+    "pide": {
+     "es": "¿Qué se está haciendo?",
+     "en": "What's being made?"
+    }
+   }
+  ]
+ },
+ "siguiente": {
+  "es": "Mañana todos preparan el puesto en el parque… ¿qué está haciendo cada uno? (Y Nyan, ¿trabajando o durmiendo?)",
+  "en": "Tomorrow everyone gets the stall ready in the park… what is each one doing? (And Nyan: working or sleeping?)"
+ },
+ "chuleta": {
+  "patron": {
+   "es": "〔acción〕て、〔acción〕ます ・ 〔verbo en て〕ください",
+   "en": "〔action〕て、〔action〕ます ・ 〔て verb〕ください"
+  },
+  "patron_tr": {
+   "es": "hago esto y luego aquello ・ haz…, por favor",
+   "en": "I do this and then that ・ please do…"
+  },
+  "filas": [
+   {
+    "jp": "手[て]を 洗[あら]って、 食[た]べます。",
+    "es": "Me lavo las manos y como.",
+    "en": "I wash my hands and eat."
+   },
+   {
+    "jp": "塩[しお]を 取[と]って ください。",
+    "es": "Pásame la sal, por favor.",
+    "en": "Pass me the salt, please.",
+    "registro": "educado"
+   },
+   {
+    "jp": "ちょっと 待[ま]って！",
+    "es": "¡Espera un momento! (a un amigo)",
+    "en": "Wait a sec! (to a friend)",
+    "registro": "amigos"
+   }
+  ],
+  "consejo": {
+   "es": "Con amigos puedes quitar ください: 待って！ 取って！ suena cercano. Con desconocidos, mejor con ください: sin él sonaría a orden.",
+   "en": "With friends you can drop ください: 待って！ 取って！ sounds close. With strangers keep ください: without it, it sounds like an order."
+  }
+ }
+}

@@ -1,0 +1,607 @@
+{
+ "id": "c70",
+ "clase": 70,
+ "desde": 2890,
+ "titulo": {
+  "es": "Nyan lo cuenta todo: contar una historia de principio a fin",
+  "en": "Nyan tells it all: telling a story start to finish"
+ },
+ "resumen": {
+  "es": "Para contar una historia entera: まず (primero), それから (y luego), そのあと (después), ところが (pero entonces, algo sale mal), 結局[けっきょく] (al final), やっと (por fin) y 最後[さいご]に (por último). Todo en pasado llano, como ya sabes contarle las cosas a Tama.",
+  "en": "To tell a whole story: まず (first), それから (and then), そのあと (after that), ところが (but then, something goes wrong), 結局 (in the end), やっと (finally) and 最後に (lastly). All in plain past, the way you already know how to tell things to Tama."
+ },
+ "intro": [
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     { "que": "nyan", "x": 110, "cara": "feliz", "brazo": "arriba" },
+     { "que": "gato", "x": 270, "cara": "pensando" }
+    ]
+   },
+   "cara": "feliz",
+   "jp": "タマ、 今日[きょう] 大変[たいへん]だったんだよ。 まず…",
+   "voz": "i1",
+   "tr": {
+    "es": "Tama, hoy ha sido un día tremendo. Primero…",
+    "en": "Tama, today was a wild day. First…"
+   },
+   "cartela": {
+    "es": "Nyan va a contar su día, de principio a fin.",
+    "en": "Nyan is about to tell his day, start to finish."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "calle",
+    "cosas": [
+     { "que": "nyan", "x": 110, "cara": "sorpresa" },
+     { "que": "tren", "x": 300, "s": 0.7 }
+    ]
+   },
+   "cara": "sorpresa",
+   "jp": "…それから 駅[えき]まで 走[はし]ったんだ。",
+   "voz": "i2",
+   "tr": {
+    "es": "…y luego corrí hasta la estación.",
+    "en": "…and then I ran to the station."
+   },
+   "cartela": {
+    "es": "それから: y luego (la historia sigue).",
+    "en": "それから: and then (the story goes on)."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "calle",
+    "cosas": [
+     { "que": "nyan", "x": 110, "cara": "triste" },
+     { "que": "gato", "x": 270, "cara": "normal" }
+    ]
+   },
+   "habla": "tama",
+   "cara": "normal",
+   "jp": "ところが、 電車[でんしゃ]は もう 行[い]っちゃったんでしょ？",
+   "voz": "i3",
+   "tr": {
+    "es": "Pero entonces, el tren ya se había ido, ¿no?",
+    "en": "But then, the train had already left, right?"
+   },
+   "cartela": {
+    "es": "ところが: algo sale MAL justo cuando no tocaba.",
+    "en": "ところが: something goes WRONG right when it shouldn't."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     { "que": "nyan", "x": 110, "cara": "feliz" },
+     { "que": "onigiri", "x": 270 }
+    ]
+   },
+   "cara": "feliz",
+   "jp": "結局[けっきょく] 歩[ある]いて 行[い]ったけど、 最後[さいご]に おにぎりを 食[た]べられたから、 いいんだ！",
+   "voz": "i4",
+   "tr": {
+    "es": "Al final fui andando, pero como acabé comiéndome un onigiri, ¡todo bien!",
+    "en": "In the end I walked there, but since I got to eat an onigiri, it's all good!"
+   },
+   "cartela": {
+    "es": "Y así termina esta clase… ¡y todo el camino! Ya sabes contar una historia entera en japonés.",
+    "en": "And that's the end of this class… and the whole journey! You can now tell a whole story in Japanese."
+   }
+  }
+ ],
+ "practica": {
+  "tipo": "montar",
+  "intro": {
+   "es": "Cuenta la historia del día de Nyan, paso a paso, con el conector correcto en cada uno.",
+   "en": "Tell the story of Nyan's day, step by step, with the right connector each time."
+  },
+  "piezas": [
+   { "id": "mazu", "jp": "まず", "tipo": "particula" },
+   { "id": "nyanp", "jp": "ニャンは", "tipo": "palabra" },
+   { "id": "okita", "jp": "起[お]きた", "tipo": "verbo" },
+   { "id": "sorekara", "jp": "それから", "tipo": "particula" },
+   { "id": "kekkyoku", "jp": "結局[けっきょく]", "tipo": "particula" },
+   { "id": "tokoroga", "jp": "ところが", "tipo": "particula" },
+   { "id": "eki", "jp": "駅[えき]", "tipo": "palabra" },
+   { "id": "made", "jp": "まで", "tipo": "particula" },
+   { "id": "hashitta", "jp": "走[はし]った", "tipo": "verbo" },
+   { "id": "densha", "jp": "電車[でんしゃ]", "tipo": "palabra" },
+   { "id": "wa", "jp": "は", "tipo": "particula" },
+   { "id": "mou", "jp": "もう", "tipo": "palabra" },
+   { "id": "itteshimatta", "jp": "行[い]ってしまった", "tipo": "verbo" },
+   { "id": "aruite", "jp": "歩[ある]いて", "tipo": "verbo" },
+   { "id": "itta", "jp": "行[い]った", "tipo": "verbo" },
+   { "id": "kedo", "jp": "けど", "tipo": "particula" },
+   { "id": "yatto", "jp": "やっと", "tipo": "palabra" },
+   { "id": "tsuita", "jp": "着[つ]いた", "tipo": "verbo" },
+   { "id": "saigoni", "jp": "最後[さいご]に", "tipo": "particula" },
+   { "id": "daisukina", "jp": "大好[だいす]きな", "tipo": "palabra" },
+   { "id": "onigiri", "jp": "おにぎり", "tipo": "palabra" },
+   { "id": "wo", "jp": "を", "tipo": "particula" },
+   { "id": "tabeta", "jp": "食[た]べた", "tipo": "verbo" }
+  ],
+  "encargos": [
+   {
+    "pide": {
+     "es": "Empieza la historia: «Primero, Nyan se despertó».",
+     "en": "Start the story: «First, Nyan woke up»."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      { "que": "nyan", "x": 110, "cara": "sueno" },
+      { "que": "cama", "x": 270 }
+     ]
+    },
+    "piezas": ["mazu", "nyanp", "okita", "sorekara", "saigoni"],
+    "bien": [["mazu", "nyanp", "okita"]],
+    "tr": {
+     "es": "Primero, Nyan se despertó.",
+     "en": "First, Nyan woke up."
+    },
+    "efecto_bien": [
+     { "tipo": "brilla", "objeto": "nyan" },
+     { "tipo": "nyan", "cara": "normal" }
+    ],
+    "fallos": [
+     {
+      "si": { "contiene": ["sorekara"] },
+      "efecto": { "tipo": "nyan", "cara": "pensando", "manpu": "pregunta" },
+      "msg": {
+       "es": "それから es «y luego», para lo que viene DESPUÉS. Para EMPEZAR la historia: まず.",
+       "en": "それから is «and then», for what comes AFTER. To START the story: まず."
+      }
+     },
+     {
+      "si": { "contiene": ["saigoni"] },
+      "efecto": { "tipo": "nyan", "cara": "sorpresa" },
+      "msg": {
+       "es": "最後[さいご]に es para CERRAR la historia. El primer paso es まず.",
+       "en": "最後に is for CLOSING the story. The first step is まず."
+      }
+     },
+     {
+      "si": { "falta": ["mazu"] },
+      "efecto": { "tipo": "nyan", "cara": "normal" },
+      "msg": {
+       "es": "Sin まず no queda claro que este es el PRIMER paso.",
+       "en": "Without まず it's not clear this is the FIRST step."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Sigue: «Luego, corrió hasta la estación».",
+     "en": "Continue: «Then, he ran to the station»."
+    },
+    "escena": {
+     "fondo": "calle",
+     "cosas": [
+      { "que": "nyan", "x": 110, "cara": "sorpresa" },
+      { "que": "tren", "x": 300, "s": 0.7 }
+     ]
+    },
+    "piezas": ["sorekara", "eki", "made", "hashitta", "kekkyoku", "tokoroga"],
+    "bien": [["sorekara", "eki", "made", "hashitta"]],
+    "tr": {
+     "es": "Luego, corrió hasta la estación.",
+     "en": "Then, he ran to the station."
+    },
+    "efecto_bien": [
+     { "tipo": "salta", "objeto": "nyan" },
+     { "tipo": "nyan", "cara": "sorpresa" }
+    ],
+    "fallos": [
+     {
+      "si": { "contiene": ["kekkyoku"] },
+      "efecto": { "tipo": "nyan", "cara": "pensando", "manpu": "pregunta" },
+      "msg": {
+       "es": "結局[けっきょく] es para el FINAL, cuando ya todo se resolvió. Aquí la historia sigue: それから.",
+       "en": "結局 is for the END, once everything is resolved. The story is still going here: それから."
+      }
+     },
+     {
+      "si": { "contiene": ["tokoroga"] },
+      "efecto": { "tipo": "nyan", "cara": "sorpresa" },
+      "msg": {
+       "es": "ところが significa que algo sale MAL. Aquí solo sigue corriendo: それから.",
+       "en": "ところが means something goes WRONG. Here he's just running along: それから."
+      }
+     },
+     {
+      "si": { "falta": ["sorekara"] },
+      "efecto": { "tipo": "nyan", "cara": "normal" },
+      "msg": {
+       "es": "Sin それから los dos pasos quedan sueltos.",
+       "en": "Without それから the two steps stay disconnected."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Sigue: «Pero entonces, el tren ya se había ido».",
+     "en": "Continue: «But then, the train had already left»."
+    },
+    "escena": {
+     "fondo": "calle",
+     "cosas": [
+      { "que": "nyan", "x": 110, "cara": "triste" },
+      { "que": "tren", "x": 320, "s": 0.6 }
+     ]
+    },
+    "piezas": ["tokoroga", "densha", "wa", "mou", "itteshimatta", "sorekara", "kekkyoku"],
+    "bien": [["tokoroga", "densha", "wa", "mou", "itteshimatta"]],
+    "tr": {
+     "es": "Pero entonces, el tren ya se había ido.",
+     "en": "But then, the train had already left."
+    },
+    "efecto_bien": [
+     { "tipo": "manpu", "objeto": "nyan", "manpu": "sudor" },
+     { "tipo": "nyan", "cara": "triste" }
+    ],
+    "fallos": [
+     {
+      "si": { "contiene": ["sorekara"] },
+      "efecto": { "tipo": "nyan", "cara": "pensando", "manpu": "pregunta" },
+      "msg": {
+       "es": "それから sigue la historia sin sorpresas. Aquí pasa algo MALO de repente: ところが.",
+       "en": "それから continues the story with no surprises. Here something goes WRONG suddenly: ところが."
+      }
+     },
+     {
+      "si": { "contiene": ["kekkyoku"] },
+      "efecto": { "tipo": "nyan", "cara": "sorpresa" },
+      "msg": {
+       "es": "結局[けっきょく] es para cuando la historia ya se resuelve. Esto es un problema a mitad: ところが.",
+       "en": "結局 is for when the story is already resolved. This is a problem in the middle: ところが."
+      }
+     },
+     {
+      "si": { "falta": ["tokoroga"] },
+      "efecto": { "tipo": "nyan", "cara": "normal" },
+      "msg": {
+       "es": "Sin ところが no se nota el giro inesperado.",
+       "en": "Without ところが the unexpected twist doesn't come through."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Sigue: «Al final fue andando, pero por fin llegó».",
+     "en": "Continue: «In the end he walked there, but finally arrived»."
+    },
+    "escena": {
+     "fondo": "calle",
+     "cosas": [
+      { "que": "nyan", "x": 110, "cara": "feliz" },
+      { "que": "reloj", "x": 270 }
+     ]
+    },
+    "piezas": ["kekkyoku", "aruite", "itta", "kedo", "yatto", "tsuita", "tokoroga", "mazu"],
+    "bien": [["kekkyoku", "aruite", "itta", "kedo", "yatto", "tsuita"]],
+    "tr": {
+     "es": "Al final fue andando, pero por fin llegó.",
+     "en": "In the end he walked there, but finally arrived."
+    },
+    "efecto_bien": [
+     { "tipo": "brilla", "objeto": "nyan" },
+     { "tipo": "nyan", "cara": "feliz" }
+    ],
+    "fallos": [
+     {
+      "si": { "contiene": ["tokoroga"] },
+      "efecto": { "tipo": "nyan", "cara": "pensando", "manpu": "pregunta" },
+      "msg": {
+       "es": "ところが sería otro problema nuevo. Aquí la historia se resuelve: 結局[けっきょく].",
+       "en": "ところが would mean a new problem. Here the story gets resolved: 結局."
+      }
+     },
+     {
+      "si": { "contiene": ["mazu"] },
+      "efecto": { "tipo": "nyan", "cara": "sorpresa" },
+      "msg": {
+       "es": "まず es para EMPEZAR. Esto es casi el final: 結局… やっと.",
+       "en": "まず is for STARTING. This is near the end: 結局… やっと."
+      }
+     },
+     {
+      "si": { "falta": ["yatto"] },
+      "efecto": { "tipo": "nyan", "cara": "normal" },
+      "msg": {
+       "es": "Sin やっと no se siente el alivio de llegar por fin.",
+       "en": "Without やっと you don't feel the relief of finally arriving."
+      }
+     }
+    ]
+   },
+   {
+    "pide": {
+     "es": "Reto: cierra la historia: «Por último, se comió su onigiri favorito».",
+     "en": "Challenge: close the story: «Lastly, he ate his favorite onigiri»."
+    },
+    "escena": {
+     "fondo": "cuarto",
+     "cosas": [
+      { "que": "nyan", "x": 110, "cara": "feliz" },
+      { "que": "onigiri", "x": 270 }
+     ]
+    },
+    "piezas": ["saigoni", "daisukina", "onigiri", "wo", "tabeta", "mazu", "sorekara"],
+    "bien": [["saigoni", "daisukina", "onigiri", "wo", "tabeta"]],
+    "tr": {
+     "es": "Por último, se comió su onigiri favorito.",
+     "en": "Lastly, he ate his favorite onigiri."
+    },
+    "efecto_bien": [
+     { "tipo": "come", "objeto": "onigiri", "texto": "もぐもぐ" },
+     { "tipo": "nyan", "cara": "feliz" }
+    ],
+    "fallos": [
+     {
+      "si": { "contiene": ["mazu"] },
+      "efecto": { "tipo": "nyan", "cara": "pensando", "manpu": "pregunta" },
+      "msg": {
+       "es": "まず es para EMPEZAR la historia, no para cerrarla: 最後[さいご]に.",
+       "en": "まず is for STARTING the story, not closing it: 最後に."
+      }
+     },
+     {
+      "si": { "contiene": ["sorekara"] },
+      "efecto": { "tipo": "nyan", "cara": "sorpresa" },
+      "msg": {
+       "es": "それから deja la historia abierta a que siga. Para CERRARLA: 最後[さいご]に.",
+       "en": "それから leaves the story open to continue. To CLOSE it: 最後に."
+      }
+     },
+     {
+      "si": { "falta": ["saigoni"] },
+      "efecto": { "tipo": "nyan", "cara": "normal" },
+      "msg": {
+       "es": "Sin 最後[さいご]に no queda claro que esto es lo ÚLTIMO.",
+       "en": "Without 最後に it's not clear this is the LAST thing."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "juego": {
+  "intro": {
+   "es": "¿それから (sigue normal), ところが (sale mal) o 結局 (al final se resuelve)?",
+   "en": "それから (continues normally), ところが (goes wrong) or 結局 (gets resolved)?"
+  },
+  "nyan": {
+   "es": "Toda mi vida es así: normal, normal, sale mal, y al final… onigiri.",
+   "en": "My whole life is like this: normal, normal, goes wrong, and in the end… onigiri."
+  },
+  "cestas": [
+   {
+    "id": "sorekara",
+    "jp": "それから",
+    "sub": { "es": "y luego (sigue normal)", "en": "and then (continues normally)" }
+   },
+   {
+    "id": "kekkyoku",
+    "jp": "結局",
+    "sub": { "es": "al final (ya se resolvió)", "en": "in the end (it's resolved)" }
+   },
+   {
+    "id": "tokoroga",
+    "jp": "ところが",
+    "sub": { "es": "pero entonces (sale mal)", "en": "but then (something goes wrong)" }
+   }
+  ],
+  "cartas": [
+   {
+    "id": "j1",
+    "jp": "朝[あさ] 起[お]きた。 ＿、 学校[がっこう]に 行[い]った。",
+    "cesta": "sorekara",
+    "es": "Se levantó. Luego, fue a la escuela.",
+    "en": "He woke up. Then, he went to school."
+   },
+   {
+    "id": "j2",
+    "dibujo": "paraguas",
+    "jp": "雨[あめ]が 降[ふ]っていた。 ＿、 傘[かさ]を 忘[わす]れた。",
+    "cesta": "tokoroga",
+    "es": "Estaba lloviendo. Pero resulta que se olvidó el paraguas.",
+    "en": "It was raining. But then, he'd forgotten his umbrella."
+   },
+   {
+    "id": "j3",
+    "jp": "大変[たいへん]だったけど、 ＿、 楽[たの]しかった。",
+    "cesta": "kekkyoku",
+    "es": "Fue duro, pero al final, fue divertido.",
+    "en": "It was rough, but in the end, it was fun."
+   },
+   {
+    "id": "j4",
+    "dibujo": "tele",
+    "jp": "宿題[しゅくだい]を した。 ＿、 テレビを 見[み]た。",
+    "cesta": "sorekara",
+    "es": "Hizo los deberes. Luego vio la tele.",
+    "en": "He did homework. Then watched TV."
+   },
+   {
+    "id": "j5",
+    "dibujo": "tren",
+    "jp": "電車[でんしゃ]で 行[い]くつもりだった。 ＿、 電車[でんしゃ]が 止[と]まっていた。",
+    "cesta": "tokoroga",
+    "es": "Iba a ir en tren. Pero resulta que el tren estaba parado.",
+    "en": "He planned to go by train. But then, the train had stopped."
+   },
+   {
+    "id": "j6",
+    "jp": "たくさん 探[さが]した。 ＿、 見[み]つからなかった。",
+    "cesta": "kekkyoku",
+    "es": "Buscó mucho. Al final, no lo encontró.",
+    "en": "He searched a lot. In the end, he didn't find it."
+   },
+   {
+    "id": "j7",
+    "jp": "顔[かお]を 洗[あら]った。 ＿、 朝[あさ]ご飯[はん]を 食[た]べた。",
+    "cesta": "sorekara",
+    "es": "Se lavó la cara. Luego desayunó.",
+    "en": "He washed his face. Then had breakfast."
+   },
+   {
+    "id": "j8",
+    "jp": "早[はや]く 出[で]た。 ＿、 道[みち]に 迷[まよ]った。",
+    "cesta": "tokoroga",
+    "es": "Salió pronto. Pero resulta que se perdió.",
+    "en": "He left early. But then, he got lost."
+   },
+   {
+    "id": "j9",
+    "dibujo": "onigiri",
+    "jp": "全部[ぜんぶ] 食[た]べた。 ＿、 お腹[なか]が いっぱいに なった。",
+    "cesta": "kekkyoku",
+    "es": "Se lo comió todo. Al final, acabó lleno.",
+    "en": "He ate it all. In the end, he got full."
+   }
+  ]
+ },
+ "outro": [
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     { "que": "nyan", "x": 110, "cara": "feliz" },
+     { "que": "libro", "x": 270 }
+    ]
+   },
+   "cara": "feliz",
+   "jp": "まず 猫[ねこ]から 始[はじ]まって…",
+   "voz": "o1",
+   "tr": {
+    "es": "Todo empezó con «esto es un gato»…",
+    "en": "It all started with «this is a cat»…"
+   },
+   "cartela": {
+    "es": "La primera palabra que aprendiste con Nyan fue 猫[ねこ] (clase 1).",
+    "en": "The first word you learned with Nyan was 猫 (class 1)."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     { "que": "nyan", "x": 110, "cara": "feliz" },
+     { "que": "gato", "x": 270, "cara": "feliz" }
+    ]
+   },
+   "habla": "tama",
+   "cara": "feliz",
+   "jp": "結局[けっきょく]、 ここまで 来[き]たね。",
+   "voz": "o2",
+   "tr": {
+    "es": "Al final, has llegado hasta aquí.",
+    "en": "In the end, you've made it this far."
+   },
+   "cartela": {
+    "es": "70 clases, miles de palabras. Y no ha sido ningún milagro: ha sido practicar.",
+    "en": "70 classes, thousands of words. And it wasn't magic: it was practice."
+   }
+  },
+  {
+   "escena": {
+    "fondo": "cuarto",
+    "cosas": [
+     { "que": "nyan", "x": 110, "cara": "feliz", "brazo": "arriba" },
+     { "que": "gato", "x": 270, "cara": "feliz" },
+     { "que": "onigiri", "x": 330 }
+    ]
+   },
+   "cara": "feliz",
+   "jp": "最後[さいご]に、 一緒[いっしょ]に おにぎり、 食[た]べよう！",
+   "voz": "o3",
+   "tr": {
+    "es": "Por último, ¡comamos onigiri juntos!",
+    "en": "Lastly, let's eat onigiri together!"
+   },
+   "cartela": {
+    "es": "Gracias por llegar hasta aquí.",
+    "en": "Thanks for making it this far."
+   }
+  }
+ ],
+ "chuleta": {
+  "patron": {
+   "es": "まず… それから… そのあと… ところが… 結局[けっきょく]… やっと… 最後[さいご]に…",
+   "en": "まず… それから… そのあと… ところが… 結局… やっと… 最後に…"
+  },
+  "patron_tr": {
+   "es": "primero… y luego… después… pero entonces… al final… por fin… por último…",
+   "en": "first… and then… after that… but then… in the end… finally… lastly…"
+  },
+  "columnas": [
+   {
+    "jp": "まず・それから・そのあと・最後[さいご]に",
+    "texto": {
+     "es": "el ORDEN de los pasos",
+     "en": "the ORDER of the steps"
+    },
+    "dibujos": ["reloj"]
+   },
+   {
+    "jp": "ところが",
+    "texto": {
+     "es": "algo sale mal, de repente",
+     "en": "something suddenly goes wrong"
+    },
+    "dibujos": ["nube"]
+   },
+   {
+    "jp": "結局[けっきょく]・やっと",
+    "texto": {
+     "es": "cómo termina (結局 el resultado, やっと el alivio)",
+     "en": "how it ends (結局 the result, やっと the relief)"
+    },
+    "dibujos": ["onigiri"]
+   }
+  ],
+  "filas": [
+   {
+    "jp": "まず、 起[お]きた。",
+    "es": "Primero, me desperté.",
+    "en": "First, I woke up.",
+    "registro": "amigos"
+   },
+   {
+    "jp": "それから、 駅[えき]まで 走[はし]った。",
+    "es": "Luego, corrí hasta la estación.",
+    "en": "Then, I ran to the station.",
+    "registro": "amigos"
+   },
+   {
+    "jp": "ところが、 電車[でんしゃ]は 行[い]ってしまった。",
+    "es": "Pero resulta que el tren ya se había ido.",
+    "en": "But then, the train had already left.",
+    "registro": "amigos"
+   },
+   {
+    "jp": "結局[けっきょく]、 歩[ある]いて 行[い]った。",
+    "es": "Al final, fui andando.",
+    "en": "In the end, I walked there.",
+    "registro": "amigos"
+   },
+   {
+    "jp": "最後[さいご]に、 おにぎりを 食[た]べた。",
+    "es": "Por último, me comí un onigiri.",
+    "en": "Lastly, I ate an onigiri.",
+    "registro": "amigos"
+   }
+  ],
+  "consejo": {
+   "es": "El primo es そして (y, para unir frases sueltas): それから añade que una cosa pasa DESPUÉS de otra en el tiempo. En una historia, それから (y そのあと) se notan más.",
+   "en": "The cousin is そして (and, for joining loose sentences): それから adds that one thing happens AFTER another in time. In a story, それから (and そのあと) stand out more."
+  }
+ }
+}
